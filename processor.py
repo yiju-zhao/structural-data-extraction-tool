@@ -12,7 +12,7 @@ from marker.models import create_model_dict
 from marker.config.parser import ConfigParser
 from marker.output import text_from_rendered
 
-def convert_pdf_to_json(pdf_file, output_dir, max_pages=50, use_gpu=True):
+def convert_pdf_to_json(pdf_file, output_dir, max_pages, use_gpu):
     """
     Convert PDF to AdaParse JSON format using marker Python API with ConfigParser.
     
@@ -143,40 +143,3 @@ def process_json_files(json_files, output_folder):
             print(f"Error processing {json_file}: {str(e)}")
     
     print(f"Processed {len(json_files)} files. Metadata saved to {output_folder}")
-
-# This standalone main function will only run if process.py is called directly
-def main():
-    # Set up command line arguments
-    parser = argparse.ArgumentParser(description='Process PDF files to extract metadata')
-    parser.add_argument('--input', '-i', type=str, required=True,
-                        help='Path to folder containing PDF files')
-    parser.add_argument('--json-dir', '-j', type=str,
-                        help='Path to folder where intermediate JSON files will be saved (defaults to input directory)')
-    parser.add_argument('--output', '-o', type=str,
-                        help='Path to folder where extracted metadata will be saved (defaults to input directory)')
-    parser.add_argument('--skip-pdf-parsing', action='store_true',
-                        help='Skip PDF parsing and use existing JSON files in json-dir')
-    
-    # Parse arguments
-    args = parser.parse_args()
-    
-    # Set default directories if not provided
-    input_dir = args.input
-    json_dir = args.json_dir if args.json_dir else input_dir
-    output_dir = args.output if args.output else input_dir
-    
-    # Process the PDFs to JSON if not skipped
-    json_files = []
-    if not args.skip_pdf_parsing:
-        json_files = process_pdfs(input_dir, json_dir)
-    else:
-        # Use existing JSON files
-        json_files = list(Path(json_dir).glob('*.json'))
-        print(f"Using {len(json_files)} existing JSON files from {json_dir}")
-    
-    # Process the JSON files to extract metadata
-    process_json_files(json_files, output_dir)
-
-# Only run the main function if this script is called directly
-if __name__ == '__main__':
-    main()
