@@ -2,9 +2,10 @@
 import os
 import json
 import logging
+import multiprocessing
 from pathlib import Path
 from tqdm import tqdm
-from typing import List, Union, Optional
+from typing import List, Union, Optional, Dict
 
 # Configure logging
 logging.basicConfig(
@@ -25,16 +26,23 @@ from metadata_extraction import MetadataExtractor
 class PDFProcessor:
     """Class for processing PDFs and extracting metadata"""
 
-    def __init__(self, use_gpu: bool = False, max_pages: int = 0):
+    def __init__(self, use_gpu: bool = False, max_pages: int = 0, gpu_id: int = None):
         """
         Initialize the PDF processor
 
         Args:
             use_gpu: Whether to use GPU for processing
             max_pages: Maximum number of pages to process
+            gpu_id: Specific GPU ID to use (for multi-GPU systems)
         """
         self.use_gpu = use_gpu
         self.max_pages = max_pages
+        self.gpu_id = gpu_id
+        
+        # If using a specific GPU, set the environment variable
+        if self.use_gpu and self.gpu_id is not None:
+            os.environ["CUDA_VISIBLE_DEVICES"] = str(self.gpu_id)
+            logger.info(f"Using GPU ID: {self.gpu_id}")
 
         # Initialize the converter once and reuse it
         self._init_converter()
@@ -45,7 +53,7 @@ class PDFProcessor:
         config = {
             "output_format": "json",
             "use_gpu": self.use_gpu,
-            "page_range": f"0,{self.max_pages}" if self.max_pages > 0 else None,
+            "page_range": f"0,{self.max_pages-1}" if self.max_pages > 0 else None,
         }
 
         # Filter out None values
@@ -122,20 +130,31 @@ class PDFProcessor:
             logger.error(f"Error converting {pdf_file} to JSON: {str(e)}")
             return None
 
+    def process_pdf_batch(self, batch: List[Path], json_path: Path) -> List[Path]:
+        """Process a batch of PDFs and return the resulting JSON files"""
+        json_files = []
+        for pdf_file in batch:
+            json_file = self.convert_pdf_to_json(pdf_file, json_path)
+            if json_file:
+                json_files.append(json_file)
+        return json_files
+
     def process_pdfs(
         self,
         input_folder: Union[str, Path],
         json_folder: Union[str, Path],
         batch_size: int = 10,
+        num_gpus: int = 0
     ) -> List[Path]:
         """
         Process all PDF files in the input folder and convert to JSON using marker.
-
+        
         Args:
             input_folder: Path to folder containing PDF files
             json_folder: Path to folder where JSON files will be saved
             batch_size: Number of PDFs to process in each batch
-
+            num_gpus: Number of GPUs to use in parallel (0 for CPU-only)
+            
         Returns:
             List of paths to generated JSON files
         """
@@ -143,37 +162,89 @@ class PDFProcessor:
         input_path = Path(input_folder)
         json_path = Path(json_folder)
         json_path.mkdir(exist_ok=True, parents=True)
-
+        
         # Get all PDF files in the input folder
         pdf_files = list(input_path.glob("*.pdf"))
-
+        
         if not pdf_files:
             logger.warning(f"No PDF files found in {input_folder}")
             return []
-
+        
         logger.info(f"Found {len(pdf_files)} PDF files to process")
-
-        # Process each PDF file in batches
+        
+        # If using multiple GPUs, use parallel processing
         json_files = []
-        try:
-            total_batches = (len(pdf_files) + batch_size - 1) // batch_size
-            for i in range(0, len(pdf_files), batch_size):
-                batch = pdf_files[i : i + batch_size]
-                logger.info(
-                    f"Processing batch {i // batch_size + 1}/{total_batches} ({len(batch)} files)"
-                )
-
-                for pdf_file in tqdm(batch, desc="Converting PDFs to JSON"):
-                    json_file = self.convert_pdf_to_json(pdf_file, json_path)
-                    if json_file:
-                        json_files.append(json_file)
-        except KeyboardInterrupt:
-            logger.warning("Process interrupted by user")
-
+        if self.use_gpu and num_gpus > 1:
+            logger.info(f"Using {num_gpus} GPUs in parallel")
+            return self._process_pdfs_parallel(pdf_files, json_path, batch_size, num_gpus)
+        else:
+            # Process each PDF file in batches (single GPU or CPU)
+            try:
+                total_batches = (len(pdf_files) + batch_size - 1) // batch_size
+                for i in range(0, len(pdf_files), batch_size):
+                    batch = pdf_files[i : i + batch_size]
+                    logger.info(
+                        f"Processing batch {i // batch_size + 1}/{total_batches} ({len(batch)} files)"
+                    )
+                    
+                    for pdf_file in tqdm(batch, desc="Converting PDFs to JSON"):
+                        json_file = self.convert_pdf_to_json(pdf_file, json_path)
+                        if json_file:
+                            json_files.append(json_file)
+            except KeyboardInterrupt:
+                logger.warning("Process interrupted by user")
+        
         logger.info(
             f"Converted {len(json_files)} PDFs to JSON format. Results saved to {json_folder}"
         )
         return json_files
+        
+    def _process_pdfs_parallel(
+        self, pdf_files: List[Path], json_path: Path, batch_size: int, num_gpus: int
+    ) -> List[Path]:
+        """Process PDFs in parallel using multiple GPUs"""
+        # Distribute files across GPUs
+        gpu_batches: Dict[int, List[Path]] = {i: [] for i in range(num_gpus)}
+        for i, pdf_file in enumerate(pdf_files):
+            gpu_id = i % num_gpus
+            gpu_batches[gpu_id].append(pdf_file)
+            
+        logger.info(f"Distributed {len(pdf_files)} files across {num_gpus} GPUs")
+        
+        # Process each GPU's files in a separate process
+        pool = multiprocessing.Pool(processes=num_gpus)
+        results = []
+        
+        for gpu_id, gpu_files in gpu_batches.items():
+            # Only create a process if there are files to process for this GPU
+            if not gpu_files:
+                continue
+                
+            logger.info(f"GPU {gpu_id}: Processing {len(gpu_files)} files")
+            
+            # Create sub-batches for this GPU
+            for i in range(0, len(gpu_files), batch_size):
+                sub_batch = gpu_files[i:i+batch_size]
+                # Start a worker process for this sub-batch on this GPU
+                result = pool.apply_async(process_gpu_batch, 
+                                         args=(sub_batch, json_path, self.max_pages, gpu_id))
+                results.append(result)
+        
+        # Close the pool and wait for all processes to finish
+        pool.close()
+        
+        # Track progress with tqdm
+        with tqdm(total=len(results), desc="Processing GPU batches") as pbar:
+            finished_results = []
+            for result in results:
+                # This will block until the result is ready
+                batch_results = result.get()
+                finished_results.extend(batch_results)
+                pbar.update(1)
+        
+        pool.join()
+        
+        return finished_results
 
 
 class MetadataProcessor:
@@ -243,6 +314,25 @@ class MetadataProcessor:
             f"Processed {len(metadata_files)} files. Metadata saved to {output_folder}"
         )
         return metadata_files
+
+
+# Worker function for parallel processing (must be at module level for multiprocessing)
+def process_gpu_batch(batch_files, json_path, max_pages, gpu_id):
+    """Process a batch of PDFs on a specific GPU"""
+    # Set environment variable for this process to use specific GPU
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_id)
+    
+    # Create a processor for this batch with the specific GPU
+    processor = PDFProcessor(use_gpu=True, max_pages=max_pages, gpu_id=gpu_id)
+    
+    # Process the batch
+    results = []
+    for pdf_file in batch_files:
+        json_file = processor.convert_pdf_to_json(pdf_file, json_path)
+        if json_file:
+            results.append(json_file)
+    
+    return results
 
 
 # Legacy functions for backward compatibility

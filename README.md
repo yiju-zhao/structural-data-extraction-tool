@@ -7,6 +7,7 @@ A command-line tool for extracting structured metadata from academic PDFs. This 
 - Batch process multiple PDF files
 - Extract structured metadata including authors, affiliations, and keywords
 - GPU acceleration support (optional)
+- Multi-GPU parallel processing for high-throughput processing
 - Caching mechanism to avoid duplicate API calls
 - Progress tracking with tqdm
 - Configurable processing parameters
@@ -48,6 +49,16 @@ python main.py --input /path/to/pdfs \
                --use-gpu
 ```
 
+### Multi-GPU Parallel Processing
+
+For systems with multiple GPUs, you can leverage parallel processing:
+
+```bash
+python main.py --input /path/to/pdfs \
+               --use-gpu \
+               --num-gpus 4
+```
+
 ### Command Line Arguments
 
 | Argument | Description | Default |
@@ -57,8 +68,9 @@ python main.py --input /path/to/pdfs \
 | `--output`, `-o` | Path for extracted metadata | Same as input |
 | `--skip-pdf-parsing` | Skip PDF parsing and use existing JSON | False |
 | `--batch-size` | Number of PDFs to process in each batch | 10 |
-| `--max-pages` | Maximum number of pages to process per PDF (0 for all) | 0 |
+| `--max-pages` | Maximum number of pages to process per PDF | 1 |
 | `--use-gpu` | Use GPU for processing if available | False |
+| `--num-gpus` | Number of GPUs to use for parallel processing | 1 |
 
 ## Metadata Output
 
@@ -95,5 +107,6 @@ python metadata_extraction.py /path/to/paper.pdf
 ## Performance Optimization
 
 - PDF parsing model is loaded once per batch for improved efficiency
+- Multi-GPU parallel processing for high throughput
 - Results are cached to avoid duplicate API calls
 - Processing is done in configurable batch sizes

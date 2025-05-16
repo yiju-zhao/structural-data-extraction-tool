@@ -32,15 +32,19 @@ class MetadataExtractionPipeline:
         self.batch_size = args.batch_size
         self.max_pages = args.max_pages
         self.use_gpu = args.use_gpu
+        self.num_gpus = args.num_gpus if args.use_gpu else 0
 
         # Create directories if they don't exist
         self.json_dir.mkdir(exist_ok=True, parents=True)
         self.output_dir.mkdir(exist_ok=True, parents=True)
 
         # Create processors
-        self.pdf_processor = PDFProcessor(
-            use_gpu=self.use_gpu, max_pages=self.max_pages
-        )
+        # Only initialize PDFProcessor if we're not skipping PDF parsing
+        self.pdf_processor = None
+        if not self.skip_pdf_parsing:
+            self.pdf_processor = PDFProcessor(
+                use_gpu=self.use_gpu, max_pages=self.max_pages
+            )
         self.metadata_processor = MetadataProcessor()
 
     def display_configuration(self):
@@ -53,6 +57,8 @@ class MetadataExtractionPipeline:
         logger.info(f"Batch size:       {self.batch_size}")
         logger.info(f"Max pages:        {self.max_pages}")
         logger.info(f"Use GPU:          {self.use_gpu}")
+        if self.use_gpu and self.num_gpus > 1:
+            logger.info(f"Number of GPUs:   {self.num_gpus}")
         logger.info("=====================================")
 
     def run(self):
@@ -64,13 +70,27 @@ class MetadataExtractionPipeline:
         json_files = []
         if not self.skip_pdf_parsing:
             json_files = self.pdf_processor.process_pdfs(
-                self.input_dir, self.json_dir, batch_size=self.batch_size
+                self.input_dir, self.json_dir, batch_size=self.batch_size, num_gpus=self.num_gpus
             )
         else:
-            # Use existing JSON files
-            json_files = list(self.json_dir.glob("*.json"))
+            # Find all PDF files in the input directory
+            pdf_files = list(self.input_dir.glob("*.pdf"))
+            if not pdf_files:
+                logger.warning(f"No PDF files found in {self.input_dir}")
+            
+            # Check for corresponding JSON files
+            json_files = []
+            for pdf_file in pdf_files:
+                pdf_name = pdf_file.stem
+                json_file = self.json_dir / f"{pdf_name}.json"
+                
+                if json_file.exists():
+                    json_files.append(json_file)
+                else:
+                    logger.warning(f"JSON file not found for {pdf_file.name}: {json_file}")
+            
             logger.info(
-                f"Using {len(json_files)} existing JSON files from {self.json_dir}"
+                f"Found {len(json_files)} existing JSON files out of {len(pdf_files)} PDFs in {self.json_dir}"
             )
 
         # Process the JSON files to extract metadata
@@ -127,7 +147,7 @@ def main():
     parser.add_argument(
         "--max-pages",
         type=int,
-        default=0,
+        default=1,
         help="Maximum number of pages to process per PDF (default: 0 for all pages)",
     )
     parser.add_argument(
@@ -135,6 +155,12 @@ def main():
         action="store_true",
         default=False,
         help="Use GPU for processing if available (default: False)",
+    )
+    parser.add_argument(
+        "--num-gpus",
+        type=int,
+        default=1,
+        help="Number of GPUs to use for parallel processing (default: 1)",
     )
 
     # Parse arguments
