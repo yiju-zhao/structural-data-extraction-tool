@@ -13,10 +13,10 @@ def parse_page_ranges(page_filter_str):
     Parse page filter string into list of (start, end) tuples for continuous ranges.
     
     Args:
-        page_filter_str (str): Comma-separated page numbers and ranges like "0,5-10,20"
+        page_filter_str (str): Comma-separated page numbers and ranges like "1,5-10,20" (1-indexed)
     
     Returns:
-        list: List of (start_page, end_page) tuples representing continuous ranges
+        list: List of (start_page, end_page) tuples representing continuous ranges (0-indexed for internal use)
     """
     if not page_filter_str:
         return None
@@ -31,10 +31,25 @@ def parse_page_ranges(page_filter_str):
             start, end = part.split('-', 1)
             start_page = int(start.strip())
             end_page = int(end.strip())
-            pages.update(range(start_page, end_page + 1))
+            
+            # Validate page numbers (must be >= 1)
+            if start_page < 1 or end_page < 1:
+                raise ValueError(f"Page numbers must be >= 1, got range {start_page}-{end_page}")
+            if start_page > end_page:
+                raise ValueError(f"Invalid range {start_page}-{end_page}: start page must be <= end page")
+            
+            # Convert to 0-indexed and add to set
+            pages.update(range(start_page - 1, end_page))
         else:
-            # Handle single page like "0" or "20"
-            pages.add(int(part.strip()))
+            # Handle single page like "1" or "20"
+            page_num = int(part.strip())
+            
+            # Validate page number (must be >= 1)
+            if page_num < 1:
+                raise ValueError(f"Page numbers must be >= 1, got page {page_num}")
+            
+            # Convert to 0-indexed
+            pages.add(page_num - 1)
     
     # Convert to sorted list
     sorted_pages = sorted(pages)
@@ -68,7 +83,7 @@ def parse_pdf(pdf_path, output_dir="output", page_filter=None):
     Args:
         pdf_path (str): Path to the input PDF file
         output_dir (str): Directory to save parsed output files
-        page_filter (str): Optional page filter string like "0,5-10,20"
+        page_filter (str): Optional page filter string like "1,5-10,20" (1-indexed)
     
     Returns:
         dict: Dictionary containing paths to generated files and extracted content
@@ -252,7 +267,7 @@ def main():
     
     parser.add_argument(
         '--filter-page',
-        help='Specify which pages to process. Accepts comma-separated page numbers and ranges. Example: "0,5-10,20" will process pages 0, 5 through 10, and page 20.'
+        help='Specify which pages to process. Accepts comma-separated page numbers and ranges (1-indexed). Example: "1,5-10,20" will process pages 1, 5 through 10, and page 20.'
     )
 
     args = parser.parse_args()    
