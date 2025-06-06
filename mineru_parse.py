@@ -1,11 +1,23 @@
 import os
 import argparse
 import sys
+import re
 from pathlib import Path
 from magic_pdf.data.data_reader_writer import FileBasedDataWriter, FileBasedDataReader
 from magic_pdf.data.dataset import PymuDocDataset
 from magic_pdf.model.doc_analyze_by_custom_model import doc_analyze
 from magic_pdf.config.enums import SupportedPdfParseMethod
+
+
+def clean_title(title: str) -> str:
+    """Clean the title by replacing non-alphanumeric characters with underscores."""
+    # Replace all non-alphanumeric characters (except for underscores) with underscores
+    cleaned = re.sub(r'[^\w\d]', '_', title)
+    # Replace consecutive underscores with a single underscore
+    cleaned = re.sub(r'_+', '_', cleaned)
+    # Remove leading/trailing underscores
+    cleaned = cleaned.strip('_')
+    return cleaned
 
 
 def parse_page_ranges(page_filter_str):
@@ -76,13 +88,13 @@ def parse_page_ranges(page_filter_str):
     return ranges
 
 
-def parse_pdf(pdf_path, output_dir="output", page_filter=None):
+def parse_pdf(pdf_path, output_dir=None, page_filter=None):
     """
     Parse a PDF file using MinerU and extract content.
     
     Args:
         pdf_path (str): Path to the input PDF file
-        output_dir (str): Directory to save parsed output files
+        output_dir (str): Base directory to save parsed output files (if None, uses current directory)
         page_filter (str): Optional page filter string like "1,5-10,20" (1-indexed)
     
     Returns:
@@ -99,9 +111,14 @@ def parse_pdf(pdf_path, output_dir="output", page_filter=None):
     # Parse page ranges if provided
     page_ranges = parse_page_ranges(page_filter) if page_filter else None
     
-    # Setup paths and directories
+    # Setup paths and directories with cleaned PDF name
     pdf_file_name = os.path.basename(pdf_path)
     name_without_suff = os.path.splitext(pdf_file_name)[0]
+    cleaned_pdf_name = clean_title(name_without_suff)
+    
+    # Use cleaned PDF name for output directory
+    base_dir = output_dir if output_dir else "."
+    output_dir = os.path.join(base_dir, f"{cleaned_pdf_name}_output")
     
     local_image_dir = os.path.join(output_dir, "images")
     local_md_dir = output_dir
@@ -261,8 +278,8 @@ def main():
     
     parser.add_argument(
         '-o', '--output',
-        default='output',
-        help='Output directory for parsed files (default: output)'
+        default=None,
+        help='Base output directory for parsed files (default: current directory with PDF name)'
     )
     
     parser.add_argument(
@@ -273,7 +290,7 @@ def main():
     args = parser.parse_args()    
     # Convert to absolute paths
     pdf_path = os.path.abspath(args.pdf_path)
-    output_dir = os.path.abspath(args.output)
+    output_dir = os.path.abspath(args.output) if args.output else None
     
     try:
         # Parse the PDF
