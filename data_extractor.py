@@ -5,11 +5,62 @@ import re
 import csv
 import sys
 import ast
-from typing import Dict, Any, List, Type
+import logging
+from datetime import datetime
+from typing import Dict, Any, List
 
 import toml
-from pydantic import BaseModel, create_model, ValidationError
 from openai import OpenAI
+
+
+def setup_logging():
+    """
+    Setup logging configuration to store all prompt interactions in logging.json
+    """
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler('logging.json', mode='a'),
+            logging.StreamHandler()
+        ]
+    )
+
+
+def log_prompt_interaction(function_name: str, inputs: Dict[str, Any], output: str, log_filename: str = "logging.json"):
+    """
+    Log prompt inputs and outputs to specified logging file
+    """
+    log_entry = {
+        "timestamp": datetime.now().isoformat(),
+        "function": function_name,
+        "inputs": inputs,
+        "output": output
+    }
+    
+    # Write to logging file
+    try:
+        # Read existing logs
+        if os.path.exists(log_filename):
+            with open(log_filename, 'r', encoding='utf-8') as f:
+                try:
+                    existing_logs = json.load(f)
+                    if not isinstance(existing_logs, list):
+                        existing_logs = []
+                except json.JSONDecodeError:
+                    existing_logs = []
+        else:
+            existing_logs = []
+        
+        # Append new log entry
+        existing_logs.append(log_entry)
+        
+        # Write back to file
+        with open(log_filename, 'w', encoding='utf-8') as f:
+            json.dump(existing_logs, f, indent=2, ensure_ascii=False)
+            
+    except Exception as e:
+        print(f"Warning: Could not write to {log_filename}: {e}", file=sys.stderr)
 
 
 def load_secrets(toml_path: str = "secrets.toml") -> str:
@@ -37,56 +88,9 @@ def load_secrets(toml_path: str = "secrets.toml") -> str:
     return api_key
 
 
-def generate_schema_from_keys(client: OpenAI, keys: List[str]) -> Dict[str, str]:
-    """
-    Use OpenAI to generate a schema mapping field names to appropriate types
-    based on the provided key names.
-    """
-    system_prompt = """You are a helpful assistant that generates JSON schemas for data extraction.
-    Given a list of field names, you should output a JSON object mapping each field name to an appropriate data type.
-
-    Available types:
-    - "str" for text fields
-    - "int" for integer numbers
-    - "float" for decimal numbers
-    - "bool" for true/false values
-    - "list[str]" for lists of strings
-    - "list[int]" for lists of integers
-
-    Consider the semantic meaning of each field name to determine the most appropriate type.
-    For example:
-    - "Title", "Name", "Description", "Authors", "Organizers", "Participants" → "str"
-    - "Age", "Count", "Year" → "int"
-    - "Price", "Temperature" → "float"
-    - "Active", "Published" → "bool"
-
-    Output only a valid JSON object with no additional text."""
-
-    user_prompt = f"Generate a schema for these field names: {keys}"
-
-    messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt},
-    ]
-
-    completion = client.chat.completions.create(
-        model="gpt-4.1-2025-04-14",
-        messages=messages,
-        response_format={"type": "json_object"},
-    )
-
-    schema_text = completion.choices[0].message.content
-    try:
-        schema = json.loads(schema_text)
-        return schema
-    except json.JSONDecodeError as e:
-        raise ValueError(f"Failed to parse generated schema as JSON: {e}")
-
-
-def parse_schema_input(schema_input: str, client: OpenAI, schema_output_path: str = None) -> Dict[str, str]:
+def parse_schema_input(schema_input: str, client: OpenAI, schema_output_path: str = None, log_filename: str = "logging.json") -> List[str]:
     """
     Parse schema input which should be a list of field names.
-    Generate schema using OpenAI and optionally save it.
     
     Example input: "['Title','Organizers','Date','Time','Location']"
     """
@@ -100,35 +104,26 @@ def parse_schema_input(schema_input: str, client: OpenAI, schema_output_path: st
     except (ValueError, SyntaxError) as e:
         raise ValueError(f"Invalid schema format. Expected a list like ['Title','Date','Location']. Error: {e}")
     
-    print("Generating schema from field names using OpenAI...")
-    generated_schema = generate_schema_from_keys(client, keys)
-    
-    # Save the generated schema to a file if path is provided
+    print("Using provided field names for schema...")
+    schema_fields = keys
+
+    # Save the schema fields to a file if path is provided
     if schema_output_path:
         try:
             with open(schema_output_path, "w", encoding="utf-8") as f:
-                json.dump(generated_schema, f, indent=2, ensure_ascii=False)
-            print(f"Generated schema saved to: {schema_output_path}")
+                json.dump(schema_fields, f, indent=2, ensure_ascii=False)
+            print(f"Schema fields saved to: {schema_output_path}")
         except Exception as e:
-            print(f"Warning: Could not save generated schema to '{schema_output_path}': {e}", file=sys.stderr)
+            print(f"Warning: Could not save schema to '{schema_output_path}': {e}", file=sys.stderr)
     
-    return generated_schema
+    return schema_fields
 
 
-def load_schema(schema_path: str, client: OpenAI = None, schema_output_path: str = None) -> Dict[str, str]:
+def load_schema(schema_path: str, client: OpenAI = None, schema_output_path: str = None, log_filename: str = "logging.json") -> List[str]:
     """
-    Load schema from a JSON file. The file can contain either:
-    1. A full schema mapping field names → type strings (original format)
-    2. A list of field names that will be converted to a schema using OpenAI
+    Load schema from a JSON file. The file should contain a list of field names.
 
-    Example full schema:
-    {
-      "name": "str",
-      "date": "str",
-      "participants": "list[str]"
-    }
-
-    Example key-only format:
+    Example format:
     ["name", "date", "participants"]
     
     If a schema is generated from keys, it will be saved to schema_output_path.
@@ -136,90 +131,51 @@ def load_schema(schema_path: str, client: OpenAI = None, schema_output_path: str
     with open(schema_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     
-    if isinstance(data, dict):
-        # Full schema format - return as is
+    if isinstance(data, list):
+        # Field names format - return as is
         return data
-    elif isinstance(data, list):
-        # Key-only format - generate schema using OpenAI
-        if client is None:
-            raise ValueError("OpenAI client is required when schema file contains only keys")
-        print("Generating schema from field names using OpenAI...")
-        generated_schema = generate_schema_from_keys(client, data)
+    elif isinstance(data, dict):
+        # Old full schema format - extract keys
+        print("Converting old schema format to field names list...")
+        schema_fields = list(data.keys())
         
-        # Save the generated schema to a file if path is provided
+        # Save the converted schema to a file if path is provided
         if schema_output_path:
             try:
                 with open(schema_output_path, "w", encoding="utf-8") as f:
-                    json.dump(generated_schema, f, indent=2, ensure_ascii=False)
-                print(f"Generated schema saved to: {schema_output_path}")
+                    json.dump(schema_fields, f, indent=2, ensure_ascii=False)
+                print(f"Converted schema saved to: {schema_output_path}")
             except Exception as e:
-                print(f"Warning: Could not save generated schema to '{schema_output_path}': {e}", file=sys.stderr)
+                print(f"Warning: Could not save converted schema to '{schema_output_path}': {e}", file=sys.stderr)
         
-        return generated_schema
+        return schema_fields
     else:
-        raise ValueError("Schema file must contain either a JSON object (full schema) or a JSON array (field names only).")
-
-
-def python_type_from_str(type_str: str):
-    """
-    Convert a type‐string (e.g. "str", "int", "list[str]") to an actual Python type for Pydantic.
-    """
-    basic_map = {
-        "str": (str, ...),
-        "int": (int, ...),
-        "float": (float, ...),
-        "bool": (bool, ...),
-    }
-    if type_str in basic_map:
-        return basic_map[type_str]
-
-    list_match = re.fullmatch(r"list\[(.+)\]", type_str.strip())
-    if list_match:
-        inner = list_match.group(1).strip()
-        if inner not in basic_map:
-            raise ValueError(f"Unsupported inner list type: {inner}")
-        py_inner, ell = basic_map[inner]
-        return (List[py_inner], ...)
-    raise ValueError(f"Unsupported type string in schema: {type_str}")
-
-
-def make_pydantic_model(model_name: str, schema: Dict[str, str]) -> Type[BaseModel]:
-    """
-    Dynamically create a Pydantic model with name `model_name` from the schema dict.
-    """
-    fields = {}
-    for field_name, type_str in schema.items():
-        try:
-            fields[field_name] = python_type_from_str(type_str)
-        except ValueError as e:
-            raise ValueError(f"Error parsing type for field '{field_name}': {e}")
-    return create_model(model_name, **fields)  # type: ignore
+        raise ValueError("Schema file must contain a JSON array of field names.")
 
 
 def Schema_Instruction(
     client: OpenAI,
-    generated_schema: Dict[str, str],
-    sample_text: str
+    schema_fields: List[str],
+    sample_text: str,
+    log_filename: str = "logging.json"
 ) -> str:
     """
-    Generate a detailed schema definition by analyzing the schema and sample text.
+    Generate a detailed schema definition by analyzing the schema fields and sample text.
     Returns a string with detailed field descriptions.
     """
-    system_prompt = """Create a schema definition by analyzing the schema and sample text. 
+    system_prompt = """Create a schema definition by analyzing the schema fields and sample text. 
 
-## Schema
-```json
-{generated_schema}
-```
+## Schema Fields
+{schema_fields}
 
 ## Analyze the type and definition of the schema from the sample text
 ```text
 {sample_text}
 ```
 
-1. For every **top-level field** in `{generated_schema}`, provide a bullet like:  
+1. For every **field** in the schema, provide a bullet like:  
    - **`fieldName`**: *description* — expected **type** & precise content to pull from the text.  
-   - If the field is an **object** or **array**, briefly outline its inner keys/items.
+   - If the field is expected to contain multiple items, describe it as an array.
 
 ## Important Notes
 - Keep spelling, casing, and punctuation exactly as they appear in the text.  
@@ -230,27 +186,23 @@ def Schema_Instruction(
 
 # Output Format
 
-Return the schema definition, where the key is the schema itself, and the value is the description or definition of it. Below is a sample output:
+Return the schema definition, where each field is described with its purpose and expected format. Below is a sample output:
 
-1. `authors`: An array of objects, each with:
-   - `name`: Author's full name (string)
-   - `affiliations`: Array of affiliation markers (numbers or letters) associated with this author
-
-2. `affiliations`: An array of objects, each with:
-   - `id`: The affiliation marker (number or letter)
-   - `name`: Name of the institution/organization
+1. `authors`: An array of author names as strings
+   
+2. `affiliations`: An array of institution/organization names as strings
   
-3. `keywords`: An array of 5-8 important keywords or topics from the abstract"""
+3. `keywords`: An array of 5-8 important keywords or topics from the abstract as strings"""
 
     # Format the prompt with actual values
     formatted_prompt = system_prompt.format(
-        generated_schema=json.dumps(generated_schema, indent=2),
+        schema_fields=json.dumps(schema_fields, indent=2),
         sample_text=sample_text
     )
 
     messages = [
         {"role": "system", "content": formatted_prompt},
-        {"role": "user", "content": "Generate the detailed schema definition based on the provided schema and sample text."},
+        {"role": "user", "content": "Generate the detailed schema definition based on the provided schema fields and sample text."},
     ]
 
     completion = client.chat.completions.create(
@@ -258,7 +210,87 @@ Return the schema definition, where the key is the schema itself, and the value 
         messages=messages,
     )
 
-    return completion.choices[0].message.content
+    result = completion.choices[0].message.content
+    
+    # Log the interaction
+    log_inputs = {
+        "schema_fields": schema_fields,
+        "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
+        "formatted_prompt": formatted_prompt,
+        "model": "gpt-4.1-2025-04-14"
+    }
+    log_prompt_interaction("Schema_Instruction", log_inputs, result, log_filename)
+
+    return result
+
+
+def Extraction_Instruction(
+    client: OpenAI,
+    schema_fields: List[str],
+    sample_text: str,
+    log_filename: str = "logging.json"
+) -> str:
+    """
+    Generate a dynamic system prompt for data extraction based on the schema fields and sample text.
+    Returns a system prompt that will be used for extraction.
+    """
+    system_prompt_template = """Analyze the provided schema fields and sample text to create an optimized extraction prompt.
+
+## Schema Fields
+{schema_fields}
+
+## Sample Text
+```text
+{sample_text}
+```
+
+Based on the schema structure and sample text patterns, generate a comprehensive system prompt for data extraction that includes:
+
+1. Clear instructions for extracting structured data according to the schema
+2. Specific guidance based on the content patterns observed in the sample text
+3. Instructions for handling multiple records if the text contains multiple items
+4. Field-specific extraction guidelines based on the schema fields
+5. Error handling instructions for missing or malformed data
+
+CRITICAL REQUIREMENTS that must be included in the generated prompt:
+- IMPORTANT: This section may contain MULTIPLE records. Please extract ALL records from the section, not just the first one. Return a JSON object with an "items" key containing an array of objects, where each object represents one complete record according to the schema.
+- If a section contains multiple records, extract each one as a separate record in the array.
+- CRITICAL: Do not truncate or skip any records. Process the ENTIRE section and extract ALL valid records.
+- CRITICAL: Maintain the exact spelling and formatting of names.
+- CRITICAL: Extract only information explicitly stated in the text.
+- Return the response as a JSON object with this structure: {{"items": [{{record1}}, {{record2}}, ...]}}
+
+The generated prompt should be optimized for the specific data structure and content type shown in the sample text and must emphasize complete extraction of all records.
+Output only the system prompt text that will be used for extraction, without any additional formatting or explanations."""
+
+    # Format the prompt with actual values
+    formatted_prompt = system_prompt_template.format(
+        schema_fields=json.dumps(schema_fields, indent=2),
+        sample_text=sample_text[:2000] + "..." if len(sample_text) > 2000 else sample_text
+    )
+
+    messages = [
+        {"role": "system", "content": formatted_prompt},
+        {"role": "user", "content": "Generate the optimized extraction system prompt based on the schema fields and sample text."},
+    ]
+
+    completion = client.chat.completions.create(
+        model="gpt-4.1-2025-04-14",
+        messages=messages,
+    )
+
+    result = completion.choices[0].message.content
+    
+    # Log the interaction
+    log_inputs = {
+        "schema_fields": schema_fields,
+        "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
+        "formatted_prompt": formatted_prompt,
+        "model": "gpt-4.1-2025-04-14"
+    }
+    log_prompt_interaction("Extraction_Instruction", log_inputs, result, log_filename)
+
+    return result
 
 
 def split_markdown_into_h1_sections(md_text: str) -> List[str]:
@@ -276,56 +308,69 @@ def split_markdown_into_h1_sections(md_text: str) -> List[str]:
 
 def extract_with_openai(
     client: OpenAI,
-    model_class: Type[BaseModel],
+    schema_fields: List[str],
     section_text: str,
     schema_definition: str,
+    log_filename: str = "logging.json",
 ) -> List[Dict[str, Any]]:
     """
     Call OpenAI's chat completion endpoint to parse multiple records from a section.
-    Returns a list of Python dicts corresponding to model_class.
+    Returns a list of Python dicts.
     """
+    # Use the Extraction_Instruction to generate a dynamic system prompt
+    enhanced_system_prompt = Extraction_Instruction(client, schema_fields, section_text[:1000], log_filename)
+
     # Include the detailed schema definition
     schema_info = f"""## Schema Definition
 {schema_definition}
+
+## Expected JSON Output Format
+Return a JSON object with this structure:
+{{"items": [{{record1}}, {{record2}}, ...]}}
+
+Where each record contains the following fields: {', '.join(schema_fields)}
 """
-
-    enhanced_system_prompt = f"""Extract the structured data according to the given schema.
-
-IMPORTANT: This section may contain MULTIPLE events/sessions/records. Please extract ALL records from the section, not just the first one. Return an array of objects, where each object represents one complete record according to the schema.
-
-If a section contains multiple events, sessions, papers, or items, extract each one as a separate record in the array.
-
-For example, if the section contains:
-- Multiple time slots with different events
-- Multiple numbered papers or presentations  
-- Multiple sessions with different details
-
-Extract each one as a separate object in the response array.
-
-CRITICAL: - Do not truncate or skip any records. Process the ENTIRE section and extract ALL valid records.
-          - Maintain the exact spelling and formatting of names.
-         - Extract only information explicitly stated in the text"""
 
     messages = [
         {"role": "system", "content": enhanced_system_prompt + "\n\n" + schema_info},
         {"role": "user", "content": section_text},
     ]
 
-    # Create a wrapper model that contains a list of the original model
-    list_model_name = f"List{model_class.__name__}"
-    list_fields = {"items": (List[model_class], ...)}
-    ListModel = create_model(list_model_name, **list_fields)
-
     try:
-        completion = client.beta.chat.completions.parse(
+        completion = client.chat.completions.create(
             model="o4-mini-2025-04-16",
             messages=messages,
-            response_format=ListModel
+            response_format={"type": "json_object"}
         )
         
-        parsed = completion.choices[0].message.parsed
-        # Return list of dictionaries instead of a single dictionary
-        result = [item.model_dump() for item in parsed.items]
+        response_content = completion.choices[0].message.content
+        
+        # Parse the JSON response
+        parsed_json = json.loads(response_content)
+        
+        # Extract the items array, handle different possible response formats
+        if isinstance(parsed_json, dict) and "items" in parsed_json:
+            result = parsed_json["items"]
+        elif isinstance(parsed_json, list):
+            result = parsed_json
+        elif isinstance(parsed_json, dict):
+            # If it's a single record, wrap it in a list
+            result = [parsed_json]
+        else:
+            result = []
+        
+        # Ensure result is a list
+        if not isinstance(result, list):
+            result = [result] if result else []
+        
+        # Log the interaction
+        log_inputs = {
+            "enhanced_system_prompt": enhanced_system_prompt,
+            "schema_definition": schema_definition,
+            "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,  # Truncate for logging
+            "model": "o4-mini-2025-04-16"
+        }
+        log_prompt_interaction("extract_with_openai", log_inputs, json.dumps(result, indent=2), log_filename)
         
         # Validate that we got some results
         if len(result) == 0:
@@ -333,8 +378,30 @@ CRITICAL: - Do not truncate or skip any records. Process the ENTIRE section and 
         
         return result
         
+    except json.JSONDecodeError as e:
+        print(f"    Failed to parse JSON response: {str(e)}")
+        # Log the error
+        log_inputs = {
+            "enhanced_system_prompt": enhanced_system_prompt,
+            "schema_definition": schema_definition,
+            "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,
+            "model": "o4-mini-2025-04-16",
+            "error": f"JSON parsing error: {str(e)}",
+            "raw_response": response_content
+        }
+        log_prompt_interaction("extract_with_openai_json_error", log_inputs, f"JSON Error: {str(e)}", log_filename)
+        return []
     except Exception as e:
         print(f"    Failed with extraction: {str(e)}")
+        # Log the error
+        log_inputs = {
+            "enhanced_system_prompt": enhanced_system_prompt,
+            "schema_definition": schema_definition,
+            "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,
+            "model": "o4-mini-2025-04-16",
+            "error": str(e)
+        }
+        log_prompt_interaction("extract_with_openai_error", log_inputs, f"Error: {str(e)}", log_filename)
         return []  # Return empty list instead of raising error
 
 
@@ -350,6 +417,9 @@ def clean_title(title: str) -> str:
 
 
 def main():
+    # Initialize logging
+    setup_logging()
+    
     parser = argparse.ArgumentParser(description="Extract structured data from Markdown and export to CSV.")
     parser.add_argument(
         "--markdown", "-m", required=True,
@@ -392,13 +462,15 @@ def main():
         output_dir = "."
 
     schema_output_path = os.path.join(output_dir, f"{cleaned_name}_schema.json")
+    log_filename = os.path.join(output_dir, f"{cleaned_name}_logging.json")
+    
+    print(f"Logging initialized. All prompt interactions will be saved to {log_filename}")
 
-    # 3) Parse schema input and build Pydantic model class
+    # 3) Parse schema input to get field names
     try:
-        schema_dict = parse_schema_input(args.schema, client, schema_output_path)
-        model_cls = make_pydantic_model("ExtractedData", schema_dict)
+        schema_fields = parse_schema_input(args.schema, client, schema_output_path, log_filename)
     except Exception as e:
-        print(f"Schema/model creation error: {e}", file=sys.stderr)
+        print(f"Schema parsing error: {e}", file=sys.stderr)
         sys.exit(1)
 
     # 4) Read Markdown and split into H1 sections
@@ -419,9 +491,10 @@ def main():
     
     # Generate schema definition once using the first section as sample
     print("Generating detailed schema definition...")
-    schema_definition = Schema_Instruction(client, schema_dict, sections[0])
+    schema_definition = Schema_Instruction(client, schema_fields, sections[0], log_filename)
     
     print(f"Found {len(sections)} H1 sections to process")
+    
     total_records_extracted = 0
     
     for idx, sec in enumerate(sections, start=1):
@@ -432,9 +505,10 @@ def main():
         try:
             parsed_list = extract_with_openai(
                 client=client,
-                model_class=model_cls,
+                schema_fields=schema_fields,
                 section_text=sec,
                 schema_definition=schema_definition,
+                log_filename=log_filename,
             )
             
             num_records = len(parsed_list)
@@ -442,9 +516,6 @@ def main():
             total_records_extracted += num_records
             extracted_list.extend(parsed_list)
             
-        except ValidationError as ve:
-            print(f"Validation error in section {idx}: {ve}", file=sys.stderr)
-            print(f"Section content preview: {sec[:200]}...", file=sys.stderr)
         except Exception as ex:
             print(f"Error extracting section {idx}: {ex}", file=sys.stderr)
             print(f"Section content preview: {sec[:200]}...", file=sys.stderr)
@@ -456,7 +527,7 @@ def main():
         sys.exit(1)
 
     # 6) Write results to CSV
-    fieldnames = list(model_cls.model_fields.keys())
+    fieldnames = schema_fields
     try:
         with open(output_csv_path, "w", newline="", encoding="utf-8") as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -469,6 +540,7 @@ def main():
         sys.exit(1)
 
     print(f"Extraction complete. CSV written to: {output_csv_path}")
+    print(f"All prompt interactions logged to: {log_filename}")
 
 
 if __name__ == "__main__":
