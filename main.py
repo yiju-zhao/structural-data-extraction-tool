@@ -161,7 +161,7 @@ def process_markdown_with_schema(
     extraction_instruction: str,
     pdf_filename: str,
     log_filename: str,
-    model: str = "gpt-4.1-nano"
+    extraction_model: str = "gpt-4.1-nano"
 ) -> List[Dict[str, Any]]:
     """
     Process markdown content and extract structured data according to schema.
@@ -174,6 +174,7 @@ def process_markdown_with_schema(
         extraction_instruction: Pre-generated extraction instruction
         pdf_filename: Name of the source PDF file
         log_filename: Path to log file
+        extraction_model: OpenAI model to use for data extraction
     
     Returns:
         List of extracted records with source file information
@@ -208,7 +209,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
         ]
 
         completion = client.chat.completions.create(
-            model=model,
+            model=extraction_model,
             messages=messages,
             response_format={"type": "json_object"}
         )
@@ -244,7 +245,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
             "extraction_instruction": extraction_instruction,
             "schema_definition": schema_definition,
             "markdown_content": markdown_content[:500] + "..." if len(markdown_content) > 500 else markdown_content,
-            "model": model
+            "extraction_model": extraction_model
         }
         log_prompt_interaction("process_markdown_with_schema", log_inputs, json.dumps(result, indent=2), log_filename)
         
@@ -271,7 +272,8 @@ def process_markdown_with_schema_advanced(
     schema_definition: str,
     pdf_filename: str,
     log_filename: str,
-    model: str = "gpt-4.1-nano"
+    instruction_model: str = "o4-mini-2025-04-16",
+    extraction_model: str = "gpt-4.1-nano"
 ) -> List[Dict[str, Any]]:
     """
     Process markdown content and extract structured data according to schema using advanced mode.
@@ -283,7 +285,8 @@ def process_markdown_with_schema_advanced(
         schema_definition: Detailed schema definition
         pdf_filename: Name of the source PDF file
         log_filename: Path to log file
-        model: OpenAI model to use
+        instruction_model: OpenAI model to use for generating extraction instructions
+        extraction_model: OpenAI model to use for data extraction
     
     Returns:
         List of extracted records with source file information
@@ -301,6 +304,9 @@ def process_markdown_with_schema_advanced(
     heading_name = f"H{heading_level}"
     print(f"Processing {len(sections)} {heading_name} sections from {pdf_filename}")
     
+    # Generate extraction instruction once for all sections
+    extraction_instruction = Extraction_Instruction(client, schema_definition, sections[0][:1000], log_filename, instruction_model)
+    
     extracted_list = []
     for idx, section in enumerate(sections, start=1):
         print(f"  Processing section {idx}/{len(sections)} from {pdf_filename}")
@@ -311,8 +317,9 @@ def process_markdown_with_schema_advanced(
                 schema_fields=schema_fields,
                 section_text=section,
                 schema_definition=schema_definition,
+                extraction_instruction=extraction_instruction,
                 log_filename=log_filename,
-                model=model
+                extraction_model=extraction_model
             )
             
             # Add source file information to each record
@@ -335,7 +342,9 @@ def process_pdf_folder(
     output_csv: str = None,
     parser_type: str = "marker",
     mode: str = "advanced",
-    model: str = "gpt-4.1-nano",
+    extraction_model: str = "gpt-4.1-nano",
+    schema_model: str = "o4-mini-2025-04-16",
+    instruction_model: str = "o4-mini-2025-04-16",
     prompt_json: bool = False
 ) -> None:
     """
@@ -348,7 +357,9 @@ def process_pdf_folder(
         output_csv: Output CSV file path
         parser_type: Parser to use - either "marker" or "mineru"
         mode: Processing mode - either "paper" or "advanced"
-        model: OpenAI model to use
+        extraction_model: OpenAI model to use for data extraction
+        schema_model: OpenAI model to use for schema generation
+        instruction_model: OpenAI model to use for extraction instruction generation
         prompt_json: Whether to save prompt interactions to JSON log file
     """
     # Initialize logging
@@ -435,14 +446,14 @@ def process_pdf_folder(
         cleaned_name=csv_name_without_ext,
         output_dir=output_dir,
         log_filename=log_filename,
-        model=model
+        schema_model=schema_model
     )
     
     # Generate extraction instruction once (only needed for paper mode)
     extraction_instruction = None
     if mode == "paper":
         print("Generating extraction instruction...")
-        extraction_instruction = Extraction_Instruction(client, schema_definition, sample_text, log_filename, model)
+        extraction_instruction = Extraction_Instruction(client, schema_definition, sample_text, log_filename, instruction_model)
     
     # Initialize CSV file with headers and get already processed files
     # Add source_file to track which PDF each record came from for fault tolerance
@@ -522,7 +533,7 @@ def process_pdf_folder(
                     extraction_instruction=extraction_instruction,
                     pdf_filename=pdf_file.name,
                     log_filename=log_filename,
-                    model=model
+                    extraction_model=extraction_model
                 )
             else:  # advanced mode
                 if markdown_exists:
@@ -555,7 +566,8 @@ def process_pdf_folder(
                     schema_definition=schema_definition,
                     pdf_filename=pdf_file.name,
                     log_filename=log_filename,
-                    model=model
+                    instruction_model=instruction_model,
+                    extraction_model=extraction_model
                 )
             
             # Immediately append records to CSV for fault tolerance
@@ -678,9 +690,21 @@ def main():
     )
     
     parser.add_argument(
-        "--model", 
+        "--extraction-model", 
         default="gpt-4.1-nano",
         help="OpenAI model to use for data extraction (default: gpt-4.1-nano)"
+    )
+    
+    parser.add_argument(
+        "--schema-model", 
+        default="o4-mini-2025-04-16",
+        help="OpenAI model to use for schema generation (default: o4-mini-2025-04-16)"
+    )
+    
+    parser.add_argument(
+        "--instruction-model", 
+        default="o4-mini-2025-04-16",
+        help="OpenAI model to use for extraction instruction generation (default: o4-mini-2025-04-16)"
     )
     
     parser.add_argument(
@@ -699,7 +723,9 @@ def main():
             output_csv=args.output,
             parser_type=args.parser,
             mode=args.mode,
-            model=args.model,
+            extraction_model=args.extraction_model,
+            schema_model=args.schema_model,
+            instruction_model=args.instruction_model,
             prompt_json=args.prompt_json
         )
     except KeyboardInterrupt:
