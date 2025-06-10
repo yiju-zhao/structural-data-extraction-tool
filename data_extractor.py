@@ -15,13 +15,12 @@ from openai import OpenAI
 
 def setup_logging():
     """
-    Setup logging configuration to store all prompt interactions in logging.json
+    Setup logging configuration
     """
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
-            logging.FileHandler('logging.json', mode='a'),
             logging.StreamHandler()
         ]
     )
@@ -188,9 +187,13 @@ def Schema_Instruction(
 
 Return the schema definition, where each field is described with its purpose and expected format. Below is a sample output:
 
-1. `authors`: An array of author names as strings
+1. `authors`: An array of objects, each with:
+               - `name`: Author's full name (string)
+               - `affiliations`: Array of affiliation markers (numbers or letters) associated with this author
    
-2. `affiliations`: An array of institution/organization names as strings
+2. `affiliations`: An array of objects, each with:
+               - `id`: The affiliation marker (number or letter)
+               - `name`: Name of the institution/organization
   
 3. `keywords`: An array of 5-8 important keywords or topics from the abstract as strings"""
 
@@ -205,9 +208,10 @@ Return the schema definition, where each field is described with its purpose and
         {"role": "user", "content": "Generate the detailed schema definition based on the provided schema fields and sample text."},
     ]
 
+    model_name = "o4-mini-2025-04-16"
     completion = client.chat.completions.create(
-        model="gpt-4.1-2025-04-14",
-        messages=messages,
+        model=model_name,
+        messages=messages
     )
 
     result = completion.choices[0].message.content
@@ -217,7 +221,7 @@ Return the schema definition, where each field is described with its purpose and
         "schema_fields": schema_fields,
         "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
         "formatted_prompt": formatted_prompt,
-        "model": "gpt-4.1-2025-04-14"
+        "model": model_name
     }
     log_prompt_interaction("Schema_Instruction", log_inputs, result, log_filename)
 
@@ -274,9 +278,11 @@ Output only the system prompt text that will be used for extraction, without any
         {"role": "user", "content": "Generate the optimized extraction system prompt based on the schema fields and sample text."},
     ]
 
+    model_name = "gpt-4.1-2025-04-14"
     completion = client.chat.completions.create(
-        model="gpt-4.1-2025-04-14",
+        model=model_name,
         messages=messages,
+        temperature=0
     )
 
     result = completion.choices[0].message.content
@@ -286,24 +292,55 @@ Output only the system prompt text that will be used for extraction, without any
         "schema_fields": schema_fields,
         "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
         "formatted_prompt": formatted_prompt,
-        "model": "gpt-4.1-2025-04-14"
+        "model": model_name
     }
     log_prompt_interaction("Extraction_Instruction", log_inputs, result, log_filename)
 
     return result
 
 
-def split_markdown_into_h1_sections(md_text: str) -> List[str]:
+def split_markdown_into_sections(md_text: str, heading_level: int = 1) -> List[str]:
     """
-    Split the markdown text into a list of H1-level sections.
-    Each element starts with the "# " heading line and includes everything until the next "# ".
+    Split the markdown text into a list of sections based on the specified heading level.
+    Each element starts with the heading line and includes everything until the next heading of the same level.
+    
+    Args:
+        md_text: The markdown text to split
+        heading_level: The heading level to split on (1 for #, 2 for ##, etc.)
     """
-    pattern = re.compile(r"(?m)(?=^# )")
+    # Create pattern for the specified heading level
+    heading_pattern = "#" * heading_level + " "
+    pattern = re.compile(rf"(?m)(?=^{re.escape(heading_pattern)})")
+    
     parts = pattern.split(md_text)
-    if parts and not parts[0].lstrip().startswith("#"):
+    # Remove any empty first part that doesn't start with a heading
+    if parts and not parts[0].lstrip().startswith(heading_pattern):
         parts = parts[1:]
+    
     sections = [part.rstrip() for part in parts if part.strip()]
     return sections
+
+
+def find_sections_with_fallback(md_text: str, max_heading_level: int = 6) -> tuple[List[str], int]:
+    """
+    Try to find sections starting from H1, falling back to H2, H3, etc.
+    Returns the sections found and the heading level used.
+    
+    Args:
+        md_text: The markdown text to split
+        max_heading_level: Maximum heading level to try (default 6 for H6)
+    
+    Returns:
+        tuple: (sections_list, heading_level_used)
+    """
+    for level in range(1, max_heading_level + 1):
+        sections = split_markdown_into_sections(md_text, level)
+        if sections:
+            heading_name = "H" + str(level)
+            print(f"Found {len(sections)} {heading_name} sections to process")
+            return sections, level
+    
+    return [], 0
 
 
 def extract_with_openai(
@@ -336,9 +373,10 @@ Where each record contains the following fields: {', '.join(schema_fields)}
         {"role": "user", "content": section_text},
     ]
 
+    model_name = "o4-mini-2025-04-16"
     try:
         completion = client.chat.completions.create(
-            model="o4-mini-2025-04-16",
+            model=model_name,
             messages=messages,
             response_format={"type": "json_object"}
         )
@@ -368,7 +406,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
             "enhanced_system_prompt": enhanced_system_prompt,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,  # Truncate for logging
-            "model": "o4-mini-2025-04-16"
+            "model": model_name
         }
         log_prompt_interaction("extract_with_openai", log_inputs, json.dumps(result, indent=2), log_filename)
         
@@ -385,7 +423,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
             "enhanced_system_prompt": enhanced_system_prompt,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,
-            "model": "o4-mini-2025-04-16",
+            "model": model_name,
             "error": f"JSON parsing error: {str(e)}",
             "raw_response": response_content
         }
@@ -398,7 +436,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
             "enhanced_system_prompt": enhanced_system_prompt,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,
-            "model": "o4-mini-2025-04-16",
+            "model": model_name,
             "error": str(e)
         }
         log_prompt_interaction("extract_with_openai_error", log_inputs, f"Error: {str(e)}", log_filename)
@@ -414,6 +452,82 @@ def clean_title(title: str) -> str:
     # Remove leading/trailing underscores
     cleaned = cleaned.strip('_')
     return cleaned
+
+
+def is_empty_row(row: Dict[str, Any]) -> bool:
+    """
+    Check if a row contains only empty or meaningless values.
+    A row is considered empty only if ALL values are empty according to various criteria.
+    
+    Args:
+        row: Dictionary representing a row of data
+    
+    Returns:
+        bool: True if the row is completely empty (all values are empty), False if at least one value has meaningful content
+    """
+    def is_empty_value(value) -> bool:
+        """Check if a single value is considered empty"""
+        # Handle None
+        if value is None:
+            return True
+        
+        # Convert to string and strip whitespace
+        str_value = str(value).strip()
+        
+        # Handle empty string
+        if not str_value:
+            return True
+        
+        # Handle common empty data structure representations
+        empty_structures = {
+            '[]',           # empty list
+            '{}',           # empty dict
+            '()',           # empty tuple
+            'null',         # null value
+            'None',         # None as string
+            'undefined',    # undefined value
+            'NaN',          # Not a Number
+            'nan',          # lowercase nan
+            '""',           # empty quoted string
+            "''",           # empty single-quoted string
+        }
+        
+        if str_value in empty_structures:
+            return True
+        
+        # Handle whitespace-only content within quotes
+        if (str_value.startswith('"') and str_value.endswith('"') and 
+            len(str_value) > 2 and not str_value[1:-1].strip()):
+            return True
+        
+        if (str_value.startswith("'") and str_value.endswith("'") and 
+            len(str_value) > 2 and not str_value[1:-1].strip()):
+            return True
+        
+        # If we get here, the value has meaningful content
+        return False
+    
+    # Check if ALL values in the row are empty
+    for value in row.values():
+        if not is_empty_value(value):
+            return False  # Found at least one non-empty value, so row is not empty
+    
+    return True  # All values are empty
+
+
+def split_markdown_into_h1_sections(md_text: str) -> List[str]:
+    """
+    Split the markdown text into a list of H1 sections.
+    Each element starts with the H1 heading line and includes everything until the next H1 heading.
+    This is a convenience function that calls split_markdown_into_sections with heading_level=1.
+    
+    Args:
+        md_text: The markdown text to split
+    
+    Returns:
+        List of H1 sections
+    """
+    return split_markdown_into_sections(md_text, heading_level=1)
 
 
 def main():
@@ -473,7 +587,7 @@ def main():
         print(f"Schema parsing error: {e}", file=sys.stderr)
         sys.exit(1)
 
-    # 4) Read Markdown and split into H1 sections
+    # 4) Read Markdown and split into sections
     try:
         with open(args.markdown, "r", encoding="utf-8") as f:
             md_text = f.read()
@@ -481,9 +595,9 @@ def main():
         print(f"Error: Markdown file '{args.markdown}' not found.", file=sys.stderr)
         sys.exit(1)
 
-    sections = split_markdown_into_h1_sections(md_text)
+    sections, heading_level = find_sections_with_fallback(md_text)
     if not sections:
-        print("No H1 (`# `) sections found in the Markdown file.", file=sys.stderr)
+        print("No sections found in the Markdown file.", file=sys.stderr)
         sys.exit(1)
 
     # 5) Call OpenAI for each section to extract structured JSON
@@ -492,8 +606,6 @@ def main():
     # Generate schema definition once using the first section as sample
     print("Generating detailed schema definition...")
     schema_definition = Schema_Instruction(client, schema_fields, sections[0], log_filename)
-    
-    print(f"Found {len(sections)} H1 sections to process")
     
     total_records_extracted = 0
     
@@ -526,14 +638,45 @@ def main():
         print("No data extracted; exiting.", file=sys.stderr)
         sys.exit(1)
 
-    # 6) Write results to CSV
+    # 6) Write results to CSV - strictly enforce user-specified schema only
     fieldnames = schema_fields
+    
+    # First, ensure ONLY user-specified schema fields are included
+    schema_compliant_data = []
+    unexpected_fields_found = set()
+    
+    for item in extracted_list:
+        # Check for unexpected fields and warn
+        item_fields = set(item.keys()) if isinstance(item, dict) else set()
+        schema_fields_set = set(schema_fields)
+        unexpected = item_fields - schema_fields_set
+        if unexpected:
+            unexpected_fields_found.update(unexpected)
+        
+        # Create row with ONLY the user-specified schema fields
+        row = {k: item.get(k, "") for k in fieldnames}
+        schema_compliant_data.append(row)
+    
+    # Warn about unexpected fields
+    if unexpected_fields_found:
+        print(f"Warning: Found unexpected fields not in user schema: {sorted(unexpected_fields_found)}")
+        print(f"These fields will be excluded from the output CSV.")
+    
+    # Then, filter out empty rows after schema compliance check
+    non_empty_data = []
+    for row in schema_compliant_data:
+        if not is_empty_row(row):
+            non_empty_data.append(row)
+    
+    empty_rows_filtered = len(schema_compliant_data) - len(non_empty_data)
+    print(f"Schema compliance: Using only user-specified fields: {fieldnames}")
+    print(f"Filtered out {empty_rows_filtered} empty rows")
+    
     try:
         with open(output_csv_path, "w", newline="", encoding="utf-8") as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
-            for item in extracted_list:
-                row = {k: item.get(k, "") for k in fieldnames}
+            for row in non_empty_data:
                 writer.writerow(row)
     except Exception as e:
         print(f"Error writing CSV '{output_csv_path}': {e}", file=sys.stderr)
