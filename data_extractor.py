@@ -143,7 +143,7 @@ def Schema_Instruction(
     schema_fields: List[str],
     sample_text: str,
     log_filename: str = None,
-    model: str = "o4-mini-2025-04-16"
+    schema_model: str = "o4-mini-2025-04-16"
 ) -> str:
     """
     Generate a detailed schema definition by analyzing the schema fields and sample text.
@@ -187,7 +187,7 @@ Return the schema definition, where each field is described with its purpose and
     ]
 
     completion = client.chat.completions.create(
-        model=model,
+        model=schema_model,
         messages=messages
     )
 
@@ -198,7 +198,7 @@ Return the schema definition, where each field is described with its purpose and
         "schema_fields": schema_fields,
         "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
         "formatted_prompt": formatted_prompt,
-        "model": model
+        "schema_model": schema_model
     }
     log_prompt_interaction("Schema_Instruction", log_inputs, result, log_filename)
 
@@ -210,7 +210,7 @@ def Extraction_Instruction(
     schema_definition: str,
     sample_text: str,
     log_filename: str = None,
-    model: str = "o4-mini-2025-04-16"
+    instruction_model: str = "o4-mini-2025-04-16"
 ) -> str:
     """
     Generate a dynamic system prompt for data extraction based on the schema definition and sample text.
@@ -255,7 +255,7 @@ Output only the system prompt text that will be used for extraction, without any
     ]
 
     completion = client.chat.completions.create(
-        model=model,
+        model=instruction_model,
         messages=messages
     )
 
@@ -266,7 +266,7 @@ Output only the system prompt text that will be used for extraction, without any
         "schema_definition": schema_definition,
         "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
         "formatted_prompt": formatted_prompt,
-        "model": model
+        "instruction_model": instruction_model
     }
     log_prompt_interaction("Extraction_Instruction", log_inputs, result, log_filename)
 
@@ -322,15 +322,16 @@ def extract_with_openai(
     schema_fields: List[str],
     section_text: str,
     schema_definition: str,
+    extraction_instruction: str,
     log_filename: str = None,
-    model: str = "o4-mini-2025-04-16"
+    extraction_model: str = "gpt-4.1-nano"
 ) -> List[Dict[str, Any]]:
     """
     Call OpenAI's chat completion endpoint to parse multiple records from a section.
     Returns a list of Python dicts.
     """
-    # Use the Extraction_Instruction to generate a dynamic system prompt
-    enhanced_system_prompt = Extraction_Instruction(client, schema_definition, section_text[:1000], log_filename, model)
+    # Use the provided extraction instruction instead of generating it
+    enhanced_system_prompt = extraction_instruction
 
     # Include the detailed schema definition
     schema_info = f"""## Schema Definition
@@ -358,7 +359,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
 
     try:
         completion = client.chat.completions.create(
-            model=model,
+            model=extraction_model,
             messages=messages,
             response_format={"type": "json_object"}
         )
@@ -385,10 +386,10 @@ Where each record contains the following fields: {', '.join(schema_fields)}
         
         # Log the interaction
         log_inputs = {
-            "enhanced_system_prompt": enhanced_system_prompt,
+            "extraction_instruction": extraction_instruction,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,  # Truncate for logging
-            "model": model
+            "extraction_model": extraction_model
         }
         log_prompt_interaction("extract_with_openai", log_inputs, json.dumps(result, indent=2), log_filename)
         
@@ -402,10 +403,10 @@ Where each record contains the following fields: {', '.join(schema_fields)}
         print(f"    Failed to parse JSON response: {str(e)}")
         # Log the error
         log_inputs = {
-            "enhanced_system_prompt": enhanced_system_prompt,
+            "extraction_instruction": extraction_instruction,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,
-            "model": model,
+            "extraction_model": extraction_model,
             "error": f"JSON parsing error: {str(e)}",
             "raw_response": response_content
         }
@@ -415,10 +416,10 @@ Where each record contains the following fields: {', '.join(schema_fields)}
         print(f"    Failed with extraction: {str(e)}")
         # Log the error
         log_inputs = {
-            "enhanced_system_prompt": enhanced_system_prompt,
+            "extraction_instruction": extraction_instruction,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,
-            "model": model,
+            "extraction_model": extraction_model,
             "error": str(e)
         }
         log_prompt_interaction("extract_with_openai_error", log_inputs, f"Error: {str(e)}", log_filename)
@@ -519,7 +520,7 @@ def interactive_schema_definition(
     cleaned_name: str,
     output_dir: str = ".",
     log_filename: str = None,
-    model: str = "o4-mini-2025-04-16"
+    schema_model: str = "o4-mini-2025-04-16"
 ) -> str:
     """
     Generate schema definition interactively, allowing user to review and modify it.
@@ -531,7 +532,7 @@ def interactive_schema_definition(
         cleaned_name: Clean name for file naming
         output_dir: Directory to save schema definition
         log_filename: Log filename for prompt interactions
-        model: OpenAI model to use
+        schema_model: OpenAI model to use for schema generation
     
     Returns:
         Final schema definition (either original or user-modified)
@@ -539,7 +540,7 @@ def interactive_schema_definition(
     schema_def_path = os.path.join(output_dir, f"{cleaned_name}_schema_definition.json")
     
     print("Generating detailed schema definition...")
-    schema_definition = Schema_Instruction(client, schema_fields, sample_text, log_filename, model)
+    schema_definition = Schema_Instruction(client, schema_fields, sample_text, log_filename, schema_model)
     # Save schema definition to JSON file
     schema_data = {
         "schema_fields": schema_fields,
@@ -632,8 +633,16 @@ def main():
         help="Path to output CSV file. If not provided, derives from markdown filename."
     )
     parser.add_argument(
-        "--model", required=False, default="o4-mini-2025-04-16",
-        help="OpenAI model to use for extraction (default: o4-mini-2025-04-16)"
+        "--extraction-model", required=False, default="gpt-4.1-nano",
+        help="OpenAI model to use for data extraction (default: gpt-4.1-nano)"
+    )
+    parser.add_argument(
+        "--schema-model", required=False, default="o4-mini-2025-04-16",
+        help="OpenAI model to use for schema generation (default: o4-mini-2025-04-16)"
+    )
+    parser.add_argument(
+        "--instruction-model", required=False, default="o4-mini-2025-04-16",
+        help="OpenAI model to use for extraction instruction generation (default: o4-mini-2025-04-16)"
     )
     parser.add_argument(
         "--prompt-json", action="store_true",
@@ -703,8 +712,11 @@ def main():
         cleaned_name=cleaned_name,
         output_dir=output_dir,
         log_filename=log_filename,
-        model=args.model
+        schema_model=args.schema_model
     )
+    
+    # Generate extraction instruction once for all sections
+    extraction_instruction = Extraction_Instruction(client, schema_definition, sections[0][:1000], log_filename, args.instruction_model)
     
     total_records_extracted = 0
     
@@ -719,8 +731,9 @@ def main():
                 schema_fields=schema_fields,
                 section_text=sec,
                 schema_definition=schema_definition,
+                extraction_instruction=extraction_instruction,
                 log_filename=log_filename,
-                model=args.model
+                extraction_model=args.extraction_model
             )
             
             num_records = len(parsed_list)
