@@ -93,7 +93,7 @@ def load_secrets(toml_path: str = "secrets.toml") -> str:
     return api_key
 
 
-def parse_schema_input(schema_input: str, client: OpenAI, schema_output_path: str = None, log_filename: str = None) -> List[str]:
+def parse_schema_input(schema_input: str, client: OpenAI, log_filename: str = None) -> List[str]:
     """
     Parse schema input which should be a list of field names.
     
@@ -112,26 +112,15 @@ def parse_schema_input(schema_input: str, client: OpenAI, schema_output_path: st
     print("Using provided field names for schema...")
     schema_fields = keys
 
-    # Save the schema fields to a file if path is provided
-    if schema_output_path:
-        try:
-            with open(schema_output_path, "w", encoding="utf-8") as f:
-                json.dump(schema_fields, f, indent=2, ensure_ascii=False)
-            print(f"Schema fields saved to: {schema_output_path}")
-        except Exception as e:
-            print(f"Warning: Could not save schema to '{schema_output_path}': {e}", file=sys.stderr)
-    
     return schema_fields
 
 
-def load_schema(schema_path: str, client: OpenAI = None, schema_output_path: str = None, log_filename: str = None) -> List[str]:
+def load_schema(schema_path: str, client: OpenAI = None, log_filename: str = None) -> List[str]:
     """
     Load schema from a JSON file. The file should contain a list of field names.
 
     Example format:
     ["name", "date", "participants"]
-    
-    If a schema is generated from keys, it will be saved to schema_output_path.
     """
     with open(schema_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -143,15 +132,6 @@ def load_schema(schema_path: str, client: OpenAI = None, schema_output_path: str
         # Old full schema format - extract keys
         print("Converting old schema format to field names list...")
         schema_fields = list(data.keys())
-        
-        # Save the converted schema to a file if path is provided
-        if schema_output_path:
-            try:
-                with open(schema_output_path, "w", encoding="utf-8") as f:
-                    json.dump(schema_fields, f, indent=2, ensure_ascii=False)
-                print(f"Converted schema saved to: {schema_output_path}")
-            except Exception as e:
-                print(f"Warning: Could not save converted schema to '{schema_output_path}': {e}", file=sys.stderr)
         
         return schema_fields
     else:
@@ -183,17 +163,8 @@ def Schema_Instruction(
    - **`fieldName`**: *description* — expected **type** & precise content to pull from the text.  
    - If the field is expected to contain multiple items, describe it as an array.
 
-## Important Notes
-- Keep spelling, casing, and punctuation exactly as they appear in the text.  
-- Extract **only** information explicitly present.  
-- For multi-value fields, return an **array** (unless the schema says otherwise).  
-- Do **not** invent or omit keys; follow the schema structure strictly.  
-- If a required value is missing, output an empty string (`""`) or empty array (`[]`) as appropriate.
-
 # Output Format
-
 Return the schema definition, where each field is described with its purpose and expected format. Below is a sample output:
-
 1. `authors`: An array of objects, each with:
                - `name`: Author's full name (string)
                - `affiliations`: Array of affiliation markers (numbers or letters) associated with this author
@@ -236,31 +207,31 @@ Return the schema definition, where each field is described with its purpose and
 
 def Extraction_Instruction(
     client: OpenAI,
-    schema_fields: List[str],
+    schema_definition: str,
     sample_text: str,
     log_filename: str = None,
     model: str = "o4-mini-2025-04-16"
 ) -> str:
     """
-    Generate a dynamic system prompt for data extraction based on the schema fields and sample text.
+    Generate a dynamic system prompt for data extraction based on the schema definition and sample text.
     Returns a system prompt that will be used for extraction.
     """
-    system_prompt_template = """Analyze the provided schema fields and sample text to create an optimized extraction prompt.
+    system_prompt_template = """Analyze the provided schema definition and sample text to create an optimized extraction prompt.
 
-## Schema Fields
-{schema_fields}
+## Schema Definition
+{schema_definition}
 
 ## Sample Text
 ```text
 {sample_text}
 ```
 
-Based on the schema structure and sample text patterns, generate a comprehensive system prompt for data extraction that includes:
+Based on the detailed schema definition and sample text patterns, generate a comprehensive system prompt for data extraction that includes:
 
 1. Clear instructions for extracting structured data according to the schema
 2. Specific guidance based on the content patterns observed in the sample text
 3. Instructions for handling multiple records if the text contains multiple items
-4. Field-specific extraction guidelines based on the schema fields
+4. Field-specific extraction guidelines based on the detailed schema definition
 5. Error handling instructions for missing or malformed data
 
 CRITICAL REQUIREMENTS that must be included in the generated prompt:
@@ -274,13 +245,13 @@ Output only the system prompt text that will be used for extraction, without any
 
     # Format the prompt with actual values
     formatted_prompt = system_prompt_template.format(
-        schema_fields=json.dumps(schema_fields, indent=2),
+        schema_definition=schema_definition,
         sample_text=sample_text[:2000] + "..." if len(sample_text) > 2000 else sample_text
     )
 
     messages = [
         {"role": "system", "content": formatted_prompt},
-        {"role": "user", "content": "Generate the optimized extraction system prompt based on the schema fields and sample text."},
+        {"role": "user", "content": "Generate the optimized extraction system prompt based on the schema definition and sample text."},
     ]
 
     completion = client.chat.completions.create(
@@ -292,7 +263,7 @@ Output only the system prompt text that will be used for extraction, without any
     
     # Log the interaction
     log_inputs = {
-        "schema_fields": schema_fields,
+        "schema_definition": schema_definition,
         "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
         "formatted_prompt": formatted_prompt,
         "model": model
@@ -359,11 +330,19 @@ def extract_with_openai(
     Returns a list of Python dicts.
     """
     # Use the Extraction_Instruction to generate a dynamic system prompt
-    enhanced_system_prompt = Extraction_Instruction(client, schema_fields, section_text[:1000], log_filename, model)
+    enhanced_system_prompt = Extraction_Instruction(client, schema_definition, section_text[:1000], log_filename, model)
 
     # Include the detailed schema definition
     schema_info = f"""## Schema Definition
 {schema_definition}
+
+
+## Important Notes
+- Keep spelling, casing, and punctuation exactly as they appear in the text.  
+- Extract **only** information explicitly present.  
+- For multi-value fields, return an **array** (unless the schema says otherwise).  
+- Do **not** invent or omit keys; follow the schema structure strictly.  
+- If a required value is missing, output an empty string (`""`) or empty array (`[]`) as appropriate.
 
 ## Expected JSON Output Format
 Return a JSON object with this structure:
@@ -533,6 +512,108 @@ def split_markdown_into_h1_sections(md_text: str) -> List[str]:
     return split_markdown_into_sections(md_text, heading_level=1)
 
 
+def interactive_schema_definition(
+    client: OpenAI,
+    schema_fields: List[str],
+    sample_text: str,
+    cleaned_name: str,
+    output_dir: str = ".",
+    log_filename: str = None,
+    model: str = "o4-mini-2025-04-16"
+) -> str:
+    """
+    Generate schema definition interactively, allowing user to review and modify it.
+    
+    Args:
+        client: OpenAI client
+        schema_fields: List of field names
+        sample_text: Sample text for schema generation
+        cleaned_name: Clean name for file naming
+        output_dir: Directory to save schema definition
+        log_filename: Log filename for prompt interactions
+        model: OpenAI model to use
+    
+    Returns:
+        Final schema definition (either original or user-modified)
+    """
+    schema_def_path = os.path.join(output_dir, f"{cleaned_name}_schema_definition.json")
+    
+    print("Generating detailed schema definition...")
+    schema_definition = Schema_Instruction(client, schema_fields, sample_text, log_filename, model)
+    # Save schema definition to JSON file
+    schema_data = {
+        "schema_fields": schema_fields,
+        "schema_definition": schema_definition
+    }
+    
+    try:
+        with open(schema_def_path, "w", encoding="utf-8") as f:
+            json.dump(schema_data, f, indent=2, ensure_ascii=False)
+        print(f"Schema definition saved to: {schema_def_path}")
+    except Exception as e:
+        print(f"Warning: Could not save schema definition to '{schema_def_path}': {e}", file=sys.stderr)
+    
+    # Display the schema definition to user
+    print("\n" + "="*80)
+    print("GENERATED SCHEMA DEFINITION:")
+    print("="*80)
+    print(schema_definition)
+    print("="*80)
+    
+    # Prompt user for modification
+    while True:
+        try:
+            user_choice = input("\nDo you want to modify the schema definition? (y/n): ").strip().lower()
+            if user_choice in ['y', 'yes']:
+                print(f"\nYou can now edit the schema definition in: {schema_def_path}")
+                print("Modify the 'schema_definition' field in the JSON file.")
+                input("Press Enter after you've finished editing the file...")
+                
+                # Reload the modified schema definition
+                try:
+                    with open(schema_def_path, "r", encoding="utf-8") as f:
+                        modified_data = json.load(f)
+                    
+                    modified_schema_definition = modified_data.get("schema_definition", schema_definition)
+                    
+                    # Validate that the field is not empty
+                    if not modified_schema_definition or not modified_schema_definition.strip():
+                        print("Warning: Empty schema definition detected. Using original.")
+                        return schema_definition
+                    
+                    print("\nUsing modified schema definition:")
+                    print("-" * 40)
+                    print(modified_schema_definition)
+                    print("-" * 40)
+                    
+                    return modified_schema_definition
+                    
+                except FileNotFoundError:
+                    print(f"Error: Could not find {schema_def_path}. Using original schema definition.")
+                    return schema_definition
+                except json.JSONDecodeError as e:
+                    print(f"Error: Invalid JSON in {schema_def_path}: {e}")
+                    print("Using original schema definition.")
+                    return schema_definition
+                except Exception as e:
+                    print(f"Error reading modified schema: {e}")
+                    print("Using original schema definition.")
+                    return schema_definition
+                    
+            elif user_choice in ['n', 'no']:
+                print("Using original schema definition.")
+                return schema_definition
+            else:
+                print("Please enter 'y' or 'n'.")
+                
+        except KeyboardInterrupt:
+            print("\nOperation cancelled. Using original schema definition.")
+            return schema_definition
+        except EOFError:
+            print("Input error. Using original schema definition.")
+            return schema_definition
+
+
 def main():
     # Initialize logging
     setup_logging()
@@ -556,7 +637,7 @@ def main():
     )
     parser.add_argument(
         "--prompt-json", action="store_true",
-        help="Save prompt logging and schema JSON files (default: False)"
+        help="Save prompt logging files (default: False)"
     )
     args = parser.parse_args()
 
@@ -586,7 +667,6 @@ def main():
         output_csv_path = f"{cleaned_name}_results.csv"
         output_dir = "."
 
-    schema_output_path = os.path.join(output_dir, f"{cleaned_name}_schema.json") if args.prompt_json else None
     log_filename = os.path.join(output_dir, f"{cleaned_name}_logging.json") if args.prompt_json else None
     
     if args.prompt_json:
@@ -594,7 +674,7 @@ def main():
 
     # 3) Parse schema input to get field names
     try:
-        schema_fields = parse_schema_input(args.schema, client, schema_output_path, log_filename)
+        schema_fields = parse_schema_input(args.schema, client, log_filename)
     except Exception as e:
         print(f"Schema parsing error: {e}", file=sys.stderr)
         sys.exit(1)
@@ -615,9 +695,16 @@ def main():
     # 5) Call OpenAI for each section to extract structured JSON
     extracted_list: List[Dict[str, Any]] = []
     
-    # Generate schema definition once using the first section as sample
-    print("Generating detailed schema definition...")
-    schema_definition = Schema_Instruction(client, schema_fields, sections[0], log_filename, args.model)
+    # Generate schema definition once using the first section as sample with interactive modification
+    schema_definition = interactive_schema_definition(
+        client=client,
+        schema_fields=schema_fields,
+        sample_text=sections[0],
+        cleaned_name=cleaned_name,
+        output_dir=output_dir,
+        log_filename=log_filename,
+        model=args.model
+    )
     
     total_records_extracted = 0
     
