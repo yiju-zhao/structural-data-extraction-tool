@@ -20,8 +20,6 @@ from marker.converters.pdf import PdfConverter
 from marker.models import create_model_dict
 from marker.config.parser import ConfigParser
 from marker.output import save_output
-
-# Import our metadata extractor
 from metadata_extraction import MetadataExtractor
 
 

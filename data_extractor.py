@@ -18,18 +18,24 @@ def setup_logging():
     Setup logging configuration
     """
     logging.basicConfig(
-        level=logging.INFO,
+        level=logging.WARNING,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
             logging.StreamHandler()
         ]
     )
+    # Disable HTTP request logging from OpenAI
+    logging.getLogger("openai").setLevel(logging.WARNING)
+    logging.getLogger("httpx").setLevel(logging.WARNING)
 
 
-def log_prompt_interaction(function_name: str, inputs: Dict[str, Any], output: str, log_filename: str = "logging.json"):
+def log_prompt_interaction(function_name: str, inputs: Dict[str, Any], output: str, log_filename: str = None):
     """
     Log prompt inputs and outputs to specified logging file
     """
+    if log_filename is None:
+        return  # Skip logging if no filename provided
+        
     log_entry = {
         "timestamp": datetime.now().isoformat(),
         "function": function_name,
@@ -87,7 +93,7 @@ def load_secrets(toml_path: str = "secrets.toml") -> str:
     return api_key
 
 
-def parse_schema_input(schema_input: str, client: OpenAI, schema_output_path: str = None, log_filename: str = "logging.json") -> List[str]:
+def parse_schema_input(schema_input: str, client: OpenAI, schema_output_path: str = None, log_filename: str = None) -> List[str]:
     """
     Parse schema input which should be a list of field names.
     
@@ -118,7 +124,7 @@ def parse_schema_input(schema_input: str, client: OpenAI, schema_output_path: st
     return schema_fields
 
 
-def load_schema(schema_path: str, client: OpenAI = None, schema_output_path: str = None, log_filename: str = "logging.json") -> List[str]:
+def load_schema(schema_path: str, client: OpenAI = None, schema_output_path: str = None, log_filename: str = None) -> List[str]:
     """
     Load schema from a JSON file. The file should contain a list of field names.
 
@@ -156,7 +162,8 @@ def Schema_Instruction(
     client: OpenAI,
     schema_fields: List[str],
     sample_text: str,
-    log_filename: str = "logging.json"
+    log_filename: str = None,
+    model: str = "o4-mini-2025-04-16"
 ) -> str:
     """
     Generate a detailed schema definition by analyzing the schema fields and sample text.
@@ -208,9 +215,8 @@ Return the schema definition, where each field is described with its purpose and
         {"role": "user", "content": "Generate the detailed schema definition based on the provided schema fields and sample text."},
     ]
 
-    model_name = "o4-mini-2025-04-16"
     completion = client.chat.completions.create(
-        model=model_name,
+        model=model,
         messages=messages
     )
 
@@ -221,7 +227,7 @@ Return the schema definition, where each field is described with its purpose and
         "schema_fields": schema_fields,
         "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
         "formatted_prompt": formatted_prompt,
-        "model": model_name
+        "model": model
     }
     log_prompt_interaction("Schema_Instruction", log_inputs, result, log_filename)
 
@@ -232,7 +238,8 @@ def Extraction_Instruction(
     client: OpenAI,
     schema_fields: List[str],
     sample_text: str,
-    log_filename: str = "logging.json"
+    log_filename: str = None,
+    model: str = "o4-mini-2025-04-16"
 ) -> str:
     """
     Generate a dynamic system prompt for data extraction based on the schema fields and sample text.
@@ -258,8 +265,6 @@ Based on the schema structure and sample text patterns, generate a comprehensive
 
 CRITICAL REQUIREMENTS that must be included in the generated prompt:
 - IMPORTANT: This section may contain MULTIPLE records. Please extract ALL records from the section, not just the first one. Return a JSON object with an "items" key containing an array of objects, where each object represents one complete record according to the schema.
-- If a section contains multiple records, extract each one as a separate record in the array.
-- CRITICAL: Do not truncate or skip any records. Process the ENTIRE section and extract ALL valid records.
 - CRITICAL: Maintain the exact spelling and formatting of names.
 - CRITICAL: Extract only information explicitly stated in the text.
 - Return the response as a JSON object with this structure: {{"items": [{{record1}}, {{record2}}, ...]}}
@@ -278,11 +283,9 @@ Output only the system prompt text that will be used for extraction, without any
         {"role": "user", "content": "Generate the optimized extraction system prompt based on the schema fields and sample text."},
     ]
 
-    model_name = "gpt-4.1-2025-04-14"
     completion = client.chat.completions.create(
-        model=model_name,
-        messages=messages,
-        temperature=0
+        model=model,
+        messages=messages
     )
 
     result = completion.choices[0].message.content
@@ -292,7 +295,7 @@ Output only the system prompt text that will be used for extraction, without any
         "schema_fields": schema_fields,
         "sample_text": sample_text[:500] + "..." if len(sample_text) > 500 else sample_text,  # Truncate long sample text for logging
         "formatted_prompt": formatted_prompt,
-        "model": model_name
+        "model": model
     }
     log_prompt_interaction("Extraction_Instruction", log_inputs, result, log_filename)
 
@@ -348,14 +351,15 @@ def extract_with_openai(
     schema_fields: List[str],
     section_text: str,
     schema_definition: str,
-    log_filename: str = "logging.json",
+    log_filename: str = None,
+    model: str = "o4-mini-2025-04-16"
 ) -> List[Dict[str, Any]]:
     """
     Call OpenAI's chat completion endpoint to parse multiple records from a section.
     Returns a list of Python dicts.
     """
     # Use the Extraction_Instruction to generate a dynamic system prompt
-    enhanced_system_prompt = Extraction_Instruction(client, schema_fields, section_text[:1000], log_filename)
+    enhanced_system_prompt = Extraction_Instruction(client, schema_fields, section_text[:1000], log_filename, model)
 
     # Include the detailed schema definition
     schema_info = f"""## Schema Definition
@@ -373,10 +377,9 @@ Where each record contains the following fields: {', '.join(schema_fields)}
         {"role": "user", "content": section_text},
     ]
 
-    model_name = "o4-mini-2025-04-16"
     try:
         completion = client.chat.completions.create(
-            model=model_name,
+            model=model,
             messages=messages,
             response_format={"type": "json_object"}
         )
@@ -406,7 +409,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
             "enhanced_system_prompt": enhanced_system_prompt,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,  # Truncate for logging
-            "model": model_name
+            "model": model
         }
         log_prompt_interaction("extract_with_openai", log_inputs, json.dumps(result, indent=2), log_filename)
         
@@ -423,7 +426,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
             "enhanced_system_prompt": enhanced_system_prompt,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,
-            "model": model_name,
+            "model": model,
             "error": f"JSON parsing error: {str(e)}",
             "raw_response": response_content
         }
@@ -436,7 +439,7 @@ Where each record contains the following fields: {', '.join(schema_fields)}
             "enhanced_system_prompt": enhanced_system_prompt,
             "schema_definition": schema_definition,
             "section_text": section_text[:500] + "..." if len(section_text) > 500 else section_text,
-            "model": model_name,
+            "model": model,
             "error": str(e)
         }
         log_prompt_interaction("extract_with_openai_error", log_inputs, f"Error: {str(e)}", log_filename)
@@ -547,6 +550,14 @@ def main():
         "--output", "-o", required=False,
         help="Path to output CSV file. If not provided, derives from markdown filename."
     )
+    parser.add_argument(
+        "--model", required=False, default="o4-mini-2025-04-16",
+        help="OpenAI model to use for extraction (default: o4-mini-2025-04-16)"
+    )
+    parser.add_argument(
+        "--prompt-json", action="store_true",
+        help="Save prompt logging and schema JSON files (default: False)"
+    )
     args = parser.parse_args()
 
     # 1) Read API key from secrets.toml
@@ -575,10 +586,11 @@ def main():
         output_csv_path = f"{cleaned_name}_results.csv"
         output_dir = "."
 
-    schema_output_path = os.path.join(output_dir, f"{cleaned_name}_schema.json")
-    log_filename = os.path.join(output_dir, f"{cleaned_name}_logging.json")
+    schema_output_path = os.path.join(output_dir, f"{cleaned_name}_schema.json") if args.prompt_json else None
+    log_filename = os.path.join(output_dir, f"{cleaned_name}_logging.json") if args.prompt_json else None
     
-    print(f"Logging initialized. All prompt interactions will be saved to {log_filename}")
+    if args.prompt_json:
+        print(f"Logging initialized. All prompt interactions will be saved to {log_filename}")
 
     # 3) Parse schema input to get field names
     try:
@@ -605,7 +617,7 @@ def main():
     
     # Generate schema definition once using the first section as sample
     print("Generating detailed schema definition...")
-    schema_definition = Schema_Instruction(client, schema_fields, sections[0], log_filename)
+    schema_definition = Schema_Instruction(client, schema_fields, sections[0], log_filename, args.model)
     
     total_records_extracted = 0
     
@@ -621,6 +633,7 @@ def main():
                 section_text=sec,
                 schema_definition=schema_definition,
                 log_filename=log_filename,
+                model=args.model
             )
             
             num_records = len(parsed_list)
@@ -669,7 +682,6 @@ def main():
             non_empty_data.append(row)
     
     empty_rows_filtered = len(schema_compliant_data) - len(non_empty_data)
-    print(f"Schema compliance: Using only user-specified fields: {fieldnames}")
     print(f"Filtered out {empty_rows_filtered} empty rows")
     
     try:
@@ -683,7 +695,8 @@ def main():
         sys.exit(1)
 
     print(f"Extraction complete. CSV written to: {output_csv_path}")
-    print(f"All prompt interactions logged to: {log_filename}")
+    if args.prompt_json:
+        print(f"All prompt interactions logged to: {log_filename}")
 
 
 if __name__ == "__main__":

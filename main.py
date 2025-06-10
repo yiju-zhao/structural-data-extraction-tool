@@ -8,7 +8,6 @@ from typing import Dict, Any, List
 import tempfile
 import shutil
 
-# Import functions from existing modules
 from data_extractor import (
     load_secrets, parse_schema_input, find_sections_with_fallback,
     Schema_Instruction, extract_with_openai, log_prompt_interaction, setup_logging,
