@@ -418,30 +418,31 @@ def process_pdf_folder(
         
         # Save the markdown file for paper mode
         save_markdown_file(first_content, first_pdf.name, markdown_output_dir)
-        
-        # Generate schema definition interactively
-        schema_definition = interactive_schema_definition(
-            client=client,
-            schema_fields=schema_fields,
-            sample_text=first_content,
-            cleaned_name=csv_name_without_ext,
-            output_dir=output_dir,
-            log_filename=log_filename,
-            model=model
-        )
-        
-        # Generate extraction instruction once
-        print("Generating extraction instruction...")
-        extraction_instruction = Extraction_Instruction(client, schema_definition, first_content, log_filename, model)
+        sample_text = first_content
         
     else:  # advanced mode
         first_markdown = parse_pdf_to_markdown_only(str(first_pdf), markdown_output_dir, page_filter, parser_type)
         if not first_markdown:
             print(f"Failed to extract markdown from {first_pdf.name} for schema generation")
             sys.exit(1)
-        
-        # Generate schema definition
-        schema_definition = Schema_Instruction(client, schema_fields, first_markdown, log_filename, model)
+        sample_text = first_markdown
+    
+    # Generate schema definition interactively (for both modes)
+    schema_definition = interactive_schema_definition(
+        client=client,
+        schema_fields=schema_fields,
+        sample_text=sample_text,
+        cleaned_name=csv_name_without_ext,
+        output_dir=output_dir,
+        log_filename=log_filename,
+        model=model
+    )
+    
+    # Generate extraction instruction once (only needed for paper mode)
+    extraction_instruction = None
+    if mode == "paper":
+        print("Generating extraction instruction...")
+        extraction_instruction = Extraction_Instruction(client, schema_definition, sample_text, log_filename, model)
     
     # Initialize CSV file with headers and get already processed files
     # Add source_file to track which PDF each record came from for fault tolerance
@@ -673,7 +674,7 @@ def main():
         "--mode", 
         choices=["paper", "advanced"],
         default="advanced",
-        help="Processing mode. 'paper' mode extracts first page text and uses interactive schema definition. 'advanced' mode uses full PDF parsing and section-based extraction (default: advanced)"
+        help="Processing mode. 'paper' mode extracts first page text only. 'advanced' mode uses full PDF parsing and section-based extraction. Both modes use interactive schema definition (default: advanced)"
     )
     
     parser.add_argument(
