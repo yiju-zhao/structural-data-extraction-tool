@@ -1,22 +1,18 @@
 import asyncio
-import csv
-import json
 from typing import List
 from pydantic import BaseModel
 from dotenv import load_dotenv
 load_dotenv()
 from browser_use import Agent, Controller
 from langchain_openai import ChatOpenAI
+from json_to_csv_converter import convert_browser_use_output_to_csv
 
 # Define the output format as Pydantic models
 class Session(BaseModel):
-    Time: str
-    SessionType: str
-    SessionTitle: str
-    PresentationTitle: str
-    Authors: str
-    Contributors: str
-    Location: str
+    Title: str
+    Author: str
+    Affiliation: str
+    Doi: str
 
 class Sessions(BaseModel):
     sessions: List[Session]
@@ -26,16 +22,13 @@ async def main():
     controller = Controller(output_model=Sessions)
     
     agent = Agent(
-        task="""Extract structured data from "https://s2025.conference-schedule.org/?_gl=1*1xdpc8e*_ga*NTg0NDAzNjI1LjE3NTA0NDAwODI.*_ga_X5ZBLN2D01*czE3NTA0NDAwODEkbzEkZzEkdDE3NTA0NDAzNDAkajU5JGwwJGgw" about all sessions.
+        task="""Extract structured data from "https://kdd2025.kdd.org/research-track-papers-2/" about all sessions.
                 1. Navigate through the calendar page and identify ALL sessions.
                 2. For each session, extract the following information:
-                   - Time: The time of the session.
-                   - SessionType: The type of session such as workshop, tutorial, oral session, poster session, keynote, etc.
-                   - SessionTitle: The full title/name of the session.
-                   - PresentationTitle: The title of the presentation.
-                   - Authors: The list of authors of the session.
-                   - Contributors: The list of contributors to the session.
-                   - Location: The location of the session.
+                   - Title: The title of the paper.
+                   - Author: The author of the paper.
+                   - Affiliation: The affiliation of the author.
+                   - Doi: The DOI of the paper.
                 3. Make sure to capture ALL sessions across all days of the conference.
                 4. If any data points are missing, mark them as "N/A" rather than leaving them blank.
                 5. Preserve the chronological order of sessions.""",
@@ -48,95 +41,60 @@ async def main():
     
     # Get the final result from the agent
     result = history.final_result()
-    
+
     if result:
         print("Agent completed successfully!")
         print("Raw result:")
         print(result)
+
+        # Save the complete raw result to a text file - ensure we capture everything
+        raw_result_str = str(result)  # Ensure it's a string
+        print(f"\n📝 Saving raw result ({len(raw_result_str)} characters) to file...")
+
+        with open('kdd_paper_raw_result.txt', 'w', encoding='utf-8') as f:
+            f.write(raw_result_str)
+            f.flush()  # Ensure data is written to disk
+
+        print(f"✅ Raw result saved to kdd_paper_raw_result.txt")
         
-        # Save the raw result to a text file
-        with open('gtc2025_raw_result.txt', 'w', encoding='utf-8') as f:
-            f.write(result)
-        
-        try:
-            # Parse the structured output using Pydantic
-            parsed_sessions = Sessions.model_validate_json(result)
-            
-            # Save to CSV file
-            csv_filename = 'gtc2025_sessions_data.csv'
-            with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
-                fieldnames = ['date', 'time', 'session_type', 'session_title']
-                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-                
-                # Write header
-                writer.writeheader()
-                
-                # Write session data
+        # Convert JSON result to CSV using the utility function with NO filtering
+        csv_filename = 'kdd_paper_results.csv'
+        print(f"\n🔄 Converting to CSV with complete data preservation...")
+
+        # Use the converter but disable aggressive filtering to preserve all data
+        stats = convert_browser_use_output_to_csv(
+            raw_result=raw_result_str,
+            pydantic_model=Sessions,
+            csv_filename=csv_filename,
+            preserve_all_data=True  # New parameter to disable filtering
+        )
+
+        # Additional analysis if conversion was successful
+        if stats and stats.get('valid_items_written', 0) > 0:
+            try:
+                # Parse for additional statistics
+                parsed_sessions = Sessions.model_validate_json(raw_result_str)
+
+                print(f"\n📊 Data Summary:")
+                print(f"   Total papers extracted: {len(parsed_sessions.sessions)}")
+
+                # Count papers by affiliation if available
+                affiliations = {}
                 for session in parsed_sessions.sessions:
-                    writer.writerow({
-                        'date': session.date,
-                        'time': session.time,
-                        'session_type': session.session_type,
-                        'session_title': session.session_title
-                    })
-            
-            print(f"Structured data successfully saved to {csv_filename}")
-            print(f"Extracted {len(parsed_sessions.sessions)} sessions")
-            
-            # Print summary statistics
-            session_types = {}
-            for session in parsed_sessions.sessions:
-                session_type = session.session_type
-                session_types[session_type] = session_types.get(session_type, 0) + 1
-            
-            print("\nSession types summary:")
-            for session_type, count in session_types.items():
-                print(f"  {session_type}: {count} sessions")
-            
-            # Print first few sessions as examples
-            print(f"\nFirst 5 sessions extracted:")
-            for i, session in enumerate(parsed_sessions.sessions[:5], 1):
-                print(f"\nSession {i}:")
-                print(f"  Date: {session.date}")
-                print(f"  Time: {session.time}")
-                print(f"  Session Type: {session.session_type}")
-                print(f"  Session Title: {session.session_title}")
-                
-        except json.JSONDecodeError as e:
-            print(f"Error parsing JSON result: {e}")
-            print("Attempting fallback parsing...")
-            
-            # Fallback to manual parsing
-            lines = result.strip().split('\n')
-            csv_data = []
-            
-            # Add header
-            csv_data.append(['date', 'time', 'session_type', 'session_title'])
-            
-            for line in lines:
-                if line.strip() and (',' in line or '|' in line):
-                    if '|' in line:
-                        row = [cell.strip() for cell in line.split('|')]
-                        row = [cell for cell in row if cell]
-                    else:
-                        row = [cell.strip() for cell in line.split(',')]
-                    
-                    if row and len(row) >= 4:
-                        csv_data.append(row[:4])  # Only take first 4 columns
-            
-            if len(csv_data) > 1:  # More than just header
-                csv_filename = 'gtc2025_sessions_data_fallback.csv'
-                with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.writer(csvfile)
-                    writer.writerows(csv_data)
-                
-                print(f"Fallback data saved to {csv_filename}")
-                print(f"Extracted {len(csv_data)-1} rows of data")
-            else:
-                print("No structured data found in fallback parsing")
-                
-        except Exception as e:
-            print(f"Error processing structured result: {e}")
+                    if hasattr(session, 'Affiliation') and session.Affiliation and session.Affiliation != "N/A":
+                        affiliation = session.Affiliation
+                        affiliations[affiliation] = affiliations.get(affiliation, 0) + 1
+
+                if affiliations:
+                    print(f"\n📈 Top 10 Affiliations:")
+                    sorted_affiliations = sorted(affiliations.items(), key=lambda x: x[1], reverse=True)[:10]
+                    for affiliation, count in sorted_affiliations:
+                        print(f"   {affiliation}: {count} papers")
+
+            except Exception as analysis_error:
+                print(f"⚠️  Additional analysis failed: {analysis_error}")
+
+        print(f"\n✅ CSV file saved successfully: {csv_filename}")
     
     else:
         print("No result returned from agent")
