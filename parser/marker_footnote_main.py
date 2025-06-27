@@ -2,7 +2,7 @@ import os
 import argparse
 import logging
 from pathlib import Path
-from marker_parser import PDFProcessor, MetadataProcessor
+from parser.marker_parser import PDFProcessor, MetadataProcessor
 
 # Configure logging
 logging.basicConfig(
