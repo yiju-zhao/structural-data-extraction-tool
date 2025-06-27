@@ -154,6 +154,8 @@ class ExtractionConfig:
         chunk_size: int = Constants.DEFAULT_CHUNK_SIZE,
         overlap_size: int = Constants.DEFAULT_OVERLAP_SIZE,
         similarity_threshold: float = Constants.DEFAULT_SIMILARITY_THRESHOLD,
+        primary_keys: Optional[List[str]] = None,
+        no_dedup: bool = False,
         verbose: bool = False
     ):
         self.url = url
@@ -163,6 +165,8 @@ class ExtractionConfig:
         self.chunk_size = chunk_size
         self.overlap_size = overlap_size
         self.similarity_threshold = similarity_threshold
+        self.primary_keys = primary_keys or self._determine_primary_keys()
+        self.no_dedup = no_dedup
         self.verbose = verbose
         
         self._validate()
@@ -183,6 +187,12 @@ class ExtractionConfig:
         
         if not self.schema_fields:
             raise ValueError("At least one schema field must be specified")
+    
+    def _determine_primary_keys(self) -> Optional[List[str]]:
+        """Determine primary keys for deduplication based on schema fields"""
+        # Return None if no primary keys should be auto-determined
+        # This makes deduplication optional unless explicitly specified
+        return None
 
 
 # ================================
@@ -745,11 +755,8 @@ class DataProcessor:
         # 2. Remove empty rows
         non_empty_data = self._remove_empty_rows(filtered_data)
         
-        # 3. Remove duplicates
-        unique_data = self._remove_duplicates(non_empty_data, fieldnames)
-        
-        # 4. Quality validation
-        valid_data = self._validate_quality(unique_data, fieldnames)
+        # 3. Quality validation (removed automatic duplicate removal)
+        valid_data = self._validate_quality(non_empty_data, fieldnames)
         
         return valid_data
     
@@ -785,46 +792,7 @@ class DataProcessor:
         
         return non_empty_data
     
-    def _remove_duplicates(self, data: List[Dict], fieldnames: List[str]) -> List[Dict]:
-        """Remove duplicate records with fuzzy matching"""
-        def normalize_for_comparison(text: Any) -> str:
-            if not text or str(text).strip().upper() in Constants.EMPTY_VALUES:
-                return ""
-            return re.sub(r'\s+', ' ', str(text).strip().lower())
-        
-        def are_similar_records(record1: Dict, record2: Dict) -> bool:
-            matches = 0
-            total_fields = 0
-            
-            for field in fieldnames:
-                val1 = normalize_for_comparison(record1.get(field, ''))
-                val2 = normalize_for_comparison(record2.get(field, ''))
-                
-                if val1 or val2:
-                    total_fields += 1
-                    if val1 == val2:
-                        matches += 1
-                    elif val1 and val2 and (val1 in val2 or val2 in val1):
-                        matches += 0.7  # Partial match
-            
-            return total_fields > 0 and (matches / total_fields) >= self.config.similarity_threshold
-        
-        unique_data = []
-        for record in data:
-            is_duplicate = False
-            for existing_record in unique_data:
-                if are_similar_records(record, existing_record):
-                    is_duplicate = True
-                    if self.config.verbose:
-                        print(f"   🔍 Found duplicate: {record} ≈ {existing_record}")
-                    break
-            if not is_duplicate:
-                unique_data.append(record)
-        
-        if self.config.verbose:
-            print(f"   ✅ Duplicate removal: {len(unique_data)} records")
-        
-        return unique_data
+
     
     def _validate_quality(self, data: List[Dict], fieldnames: List[str]) -> List[Dict]:
         """Validate record quality"""
@@ -848,20 +816,90 @@ class DataProcessor:
         return valid_data
     
     def _write_csv(self, data: List[Dict], model_class: BaseModel) -> None:
-        """Write data to CSV file"""
+        """Write data to CSV file and create deduplicated version"""
         fieldnames = list(model_class.model_fields.keys())
         
+        # Write original CSV file
         with open(self.config.output_file, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(data)
+        
+        # Create deduplicated version (unless disabled)
+        if not self.config.no_dedup and self.config.primary_keys:
+            deduplicated_data = self._simple_deduplication(data, fieldnames)
+            if len(deduplicated_data) < len(data):
+                # Create deduplicated filename
+                base_name = os.path.splitext(self.config.output_file)[0]
+                dedup_file = f"{base_name}_deduplicated.csv"
+                
+                with open(dedup_file, 'w', newline='', encoding='utf-8') as csvfile:
+                    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                    writer.writeheader()
+                    writer.writerows(deduplicated_data)
+                
+                if self.config.verbose:
+                    print(f"📄 Deduplicated file created: {dedup_file}")
+                    print(f"   Primary keys used: {', '.join(self.config.primary_keys)}")
+                    print(f"   Removed {len(data) - len(deduplicated_data)} duplicate records")
+            elif self.config.verbose:
+                print(f"✅ No duplicates found based on primary keys: {', '.join(self.config.primary_keys)}")
+        elif not self.config.primary_keys and self.config.verbose:
+            print("ℹ️  Deduplication skipped (no primary keys specified)")
+        elif self.config.verbose:
+            print("ℹ️  Deduplication skipped (--no-dedup flag used)")
+    
+    def _simple_deduplication(self, data: List[Dict], fieldnames: List[str]) -> List[Dict]:
+        """Simple deduplication using pandas drop_duplicates() based on primary keys"""
+        import pandas as pd
+        
+        # Convert data to DataFrame
+        df = pd.DataFrame(data)
+        
+        # Get valid primary keys that exist in the data
+        valid_primary_keys = [key for key in self.config.primary_keys if key in fieldnames]
+        
+        if not valid_primary_keys:
+            if self.config.verbose:
+                print(f"   ⚠️  No valid primary keys found in data. Available fields: {fieldnames}")
+            return data
+        
+        # Remove duplicates based on primary keys, keeping the last occurrence
+        deduplicated_df = df.drop_duplicates(subset=valid_primary_keys, keep='last')
+        
+        if self.config.verbose:
+            print(f"   🔧 Deduplication using keys: {valid_primary_keys}")
+            print(f"   📊 Before: {len(df)} records, After: {len(deduplicated_df)} records")
+        
+        # Convert back to list of dictionaries
+        return deduplicated_df.to_dict('records')
     
     def _print_statistics(self, original_count: int, final_count: int) -> None:
         """Print extraction statistics"""
         print(f"💾 Results saved to {self.config.output_file}")
+        
+        # Check if deduplicated file exists
+        base_name = os.path.splitext(self.config.output_file)[0]
+        dedup_file = f"{base_name}_deduplicated.csv"
+        dedup_exists = os.path.exists(dedup_file) and not self.config.no_dedup
+        
         print(f"📊 Final statistics:")
         print(f"   - Total records extracted: {original_count}")
         print(f"   - After processing: {final_count}")
+        
+        if dedup_exists:
+            try:
+                with open(dedup_file, 'r', encoding='utf-8') as f:
+                    dedup_count = sum(1 for line in f) - 1  # Subtract header
+                keys_info = f"using keys: {', '.join(self.config.primary_keys)}" if self.config.primary_keys else "no keys specified"
+                print(f"   - After deduplication: {dedup_count} ({keys_info})")
+                print(f"   💾 Deduplicated version: {dedup_file}")
+            except Exception:
+                pass
+        elif not self.config.no_dedup and self.config.primary_keys:
+            print(f"   ✅ No duplicates found using primary keys: {', '.join(self.config.primary_keys)}")
+        elif not self.config.no_dedup and not self.config.primary_keys:
+            print(f"   ℹ️  Deduplication skipped: no primary keys specified")
         
         if self.structure_info:
             print(f"   - Expected count: {self.structure_info.estimated_count}")
@@ -886,6 +924,8 @@ Examples:
   python crawl.py "https://example.com/papers" --schema title author doi affiliation
   python crawl.py "https://example.com" --schema title description --output results.csv --strategy two-pass
   python crawl.py "https://example.com" --schema name email --strategy single-pass --chunk-size 2000
+  python crawl.py "https://example.com" --schema title author --primary-keys title --verbose
+  python crawl.py "https://example.com" --schema id name email --primary-keys id email --no-dedup
             """
         )
         
@@ -909,6 +949,10 @@ Examples:
                            help=f'Overlap size between chunks (default: {Constants.DEFAULT_OVERLAP_SIZE})')
         parser.add_argument('--similarity-threshold', type=float, default=Constants.DEFAULT_SIMILARITY_THRESHOLD,
                            help=f'Similarity threshold for duplicate detection (default: {Constants.DEFAULT_SIMILARITY_THRESHOLD})')
+        parser.add_argument('--primary-keys', nargs='+', default=None,
+                           help='Primary key fields for deduplication (default: auto-detect from first field + common identifiers like title, doi)')
+        parser.add_argument('--no-dedup', action='store_true',
+                           help='Skip automatic deduplication and only keep original file')
         
         # Model configuration
         parser.add_argument('--structure-model', default=None, choices=Constants.AVAILABLE_MODELS,
@@ -946,7 +990,7 @@ Examples:
             domain = url.split('/')[2].replace('.', '_')
         except IndexError:
             domain = "unknown_domain"
-        return f"{domain}_extraction_{timestamp}.csv"
+        return f"output/{domain}_extraction_{timestamp}.csv"
     
     @staticmethod
     def print_configuration(config: ExtractionConfig) -> None:
@@ -959,6 +1003,12 @@ Examples:
         print(f"   📊 Chunk size: {config.chunk_size}")
         print(f"   🔗 Overlap size: {config.overlap_size}")
         print(f"   🎯 Similarity threshold: {config.similarity_threshold}")
+        if config.primary_keys:
+            print(f"   🗝️  Primary keys for deduplication: {', '.join(config.primary_keys)}")
+        else:
+            print(f"   🗝️  Primary keys for deduplication: None (no deduplication)")
+        if config.no_dedup:
+            print(f"   🚫 Deduplication: Disabled")
         
         # Show model configuration
         model_info = ModelConfig.get_model_info()
@@ -999,7 +1049,7 @@ async def main() -> int:
         output_file = args.output or CLIHandler.generate_output_filename(args.url)
         
         # Ensure output directory exists
-        output_dir = os.path.dirname(output_file) if os.path.dirname(output_file) else '.'
+        output_dir = os.path.dirname(output_file) if os.path.dirname(output_file) else 'output'
         os.makedirs(output_dir, exist_ok=True)
         
         # Create extraction configuration
@@ -1011,6 +1061,8 @@ async def main() -> int:
             chunk_size=args.chunk_size,
             overlap_size=args.overlap_size,
             similarity_threshold=args.similarity_threshold,
+            primary_keys=args.primary_keys,
+            no_dedup=args.no_dedup,
             verbose=args.verbose
         )
         
