@@ -187,3 +187,4 @@ static/
 output/
 
 *.csv
+*.DS_Store
