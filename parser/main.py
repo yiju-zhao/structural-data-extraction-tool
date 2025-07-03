@@ -118,12 +118,12 @@ def parse_pdf_to_markdown_only(pdf_path: str, markdown_output_dir: str, page_fil
         try:
             # Choose parser based on parser_type
             if parser_type == "marker":
-                from marker_parser import parse_pdf as marker_parse_pdf
+                from parser.marker_parser import parse_pdf as marker_parse_pdf
                 
                 # Parse PDF using marker
                 results = marker_parse_pdf(pdf_path, temp_dir, page_filter)
             else:
-                from mineru_parser import parse_pdf as mineru_parse_pdf
+                from parser.mineru_parser import parse_pdf as mineru_parse_pdf
                 results = mineru_parse_pdf(pdf_path, temp_dir, page_filter)
             
             if results['status'] == 'error':

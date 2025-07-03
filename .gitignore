@@ -181,3 +181,10 @@ cython_debug/
 .cursorindexingignore
 
 secrets.toml
+
+test/
+static/
+output/
+
+*.csv
+*.DS_Store
