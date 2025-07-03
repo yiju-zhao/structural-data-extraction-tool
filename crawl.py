@@ -18,6 +18,7 @@ import os
 import re
 import sys
 from datetime import datetime
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 
 import nltk
@@ -28,6 +29,18 @@ from crawl4ai.extraction_strategy import LLMExtractionStrategy
 from dotenv import load_dotenv
 from nltk.tokenize import TextTilingTokenizer
 from pydantic import BaseModel, Field, create_model
+
+# Import PDF converter utility
+try:
+    from utility.pdf_to_html_converter import PDFToHTMLConverter, is_pdf_file, convert_pdf_for_crawl4ai
+    PDF_SUPPORT_AVAILABLE = True
+except ImportError:
+    PDF_SUPPORT_AVAILABLE = False
+    # Define dummy functions to prevent import errors
+    def is_pdf_file(file_path: str) -> bool:
+        return False
+    def convert_pdf_for_crawl4ai(pdf_path: str, output_dir=None, config=None) -> str:
+        raise ImportError("PDF support not available")
 
 # Initialize environment and required packages
 load_dotenv()
@@ -156,9 +169,11 @@ class ExtractionConfig:
         similarity_threshold: float = Constants.DEFAULT_SIMILARITY_THRESHOLD,
         primary_keys: Optional[List[str]] = None,
         no_dedup: bool = False,
-        verbose: bool = False
+        verbose: bool = False,
+        pdf_config: Optional[Dict] = None
     ):
-        self.url = url
+        self.original_input = url  # Store original input (could be URL or file path)
+        self.url = url  # Will be updated if PDF conversion is needed
         self.schema_fields = schema_fields
         self.output_file = output_file
         self.strategy = strategy
@@ -168,13 +183,35 @@ class ExtractionConfig:
         self.primary_keys = primary_keys or self._determine_primary_keys()
         self.no_dedup = no_dedup
         self.verbose = verbose
+        self.pdf_config = pdf_config or {}
+        self.is_pdf_input = False
+        self.converted_html_path = None
         
-        self._validate()
+        self._validate_and_process_input()
     
-    def _validate(self) -> None:
-        """Validate configuration parameters"""
-        if not self.url.startswith(('http://', 'https://')):
-            raise ValueError("URL must start with http:// or https://")
+    def _validate_and_process_input(self) -> None:
+        """Validate configuration parameters and process PDF input if needed"""
+        # Check if input is a PDF file
+        if is_pdf_file(self.original_input):
+            if not PDF_SUPPORT_AVAILABLE:
+                raise ExtractionError(
+                    f"PDF file detected: {self.original_input}\n"
+                    "PDF support is not available. Please install marker-pdf:\n"
+                    "pip install marker-pdf"
+                )
+            self._handle_pdf_input()
+        elif not self.url.startswith(('http://', 'https://', 'file://')):
+            # Check if it looks like a file path but isn't a PDF
+            if os.path.exists(self.original_input):
+                raise ValueError(f"File detected but not a PDF: {self.original_input}")
+            else:
+                raise ValueError(
+                    f"Invalid input: {self.original_input}\n"
+                    "Input must be:\n"
+                    "  - A URL (http:// or https://)\n"
+                    "  - A PDF file path (.pdf extension)\n"
+                    "  - A local HTML file (file:// URL)"
+                )
         
         if self.chunk_size < Constants.MIN_CHUNK_SIZE:
             raise ValueError(f"Chunk size must be at least {Constants.MIN_CHUNK_SIZE}")
@@ -188,11 +225,57 @@ class ExtractionConfig:
         if not self.schema_fields:
             raise ValueError("At least one schema field must be specified")
     
+    def _handle_pdf_input(self) -> None:
+        """Handle PDF input by converting to HTML"""
+        if not PDF_SUPPORT_AVAILABLE:
+            raise ExtractionError(
+                "PDF support is not available. Please install marker-pdf: pip install marker-pdf"
+            )
+        
+        self.is_pdf_input = True
+        
+        try:
+            # Create output directory for converted HTML
+            output_dir = Path(self.output_file).parent / "converted_pdfs"
+            output_dir.mkdir(parents=True, exist_ok=True)
+            
+            if self.verbose:
+                print(f"📄 PDF detected: {self.original_input}")
+                print(f"🔄 Converting PDF to HTML using marker library...")
+            
+            # Convert PDF to HTML
+            file_url = convert_pdf_for_crawl4ai(
+                self.original_input,
+                str(output_dir),
+                self.pdf_config
+            )
+            
+            self.url = file_url
+            self.converted_html_path = file_url.replace("file://", "")
+            
+            if self.verbose:
+                print(f"✅ PDF converted successfully!")
+                print(f"🌐 Processing HTML at: {file_url}")
+                
+        except Exception as e:
+            raise ExtractionError(f"Failed to convert PDF: {e}")
+    
     def _determine_primary_keys(self) -> Optional[List[str]]:
         """Determine primary keys for deduplication based on schema fields"""
         # Return None if no primary keys should be auto-determined
         # This makes deduplication optional unless explicitly specified
         return None
+    
+    def cleanup(self) -> None:
+        """Clean up temporary files if needed"""
+        if self.converted_html_path and Path(self.converted_html_path).exists():
+            try:
+                Path(self.converted_html_path).unlink()
+                if self.verbose:
+                    print(f"🧹 Cleaned up temporary HTML file: {self.converted_html_path}")
+            except Exception as e:
+                if self.verbose:
+                    print(f"⚠️  Could not clean up temporary file: {e}")
 
 
 # ================================
@@ -202,7 +285,6 @@ class StructureInfo(BaseModel):
     """Model for structure analysis results"""
     separator_pattern: str = Field(description="Pattern that separates entities")
     entity_indicators: List[str] = Field(description="Indicators that mark the start of new entities")
-    estimated_count: int = Field(description="Estimated number of entities")
     content_structure: str = Field(description="Description of how content is organized")
     field_patterns: Dict[str, str] = Field(description="Patterns for identifying specific fields")
 
@@ -439,14 +521,26 @@ class ExtractionService:
         try:
             self._validate_environment()
             
-            if self.config.strategy == "two-pass":
-                return await self._two_pass_extraction()
+            # Show input type info
+            if self.config.is_pdf_input:
+                print(f"📄 Processing PDF: {self.config.original_input}")
             else:
-                return await self._single_pass_extraction()
+                print(f"🌐 Processing URL: {self.config.url}")
+            
+            if self.config.strategy == "two-pass":
+                result = await self._two_pass_extraction()
+            else:
+                result = await self._single_pass_extraction()
+            
+            return result
                 
         except Exception as e:
             self.logger.error(f"Extraction failed: {e}")
             return 1
+        finally:
+            # Cleanup temporary files if needed
+            if hasattr(self.config, 'cleanup'):
+                self.config.cleanup()
     
     def _validate_environment(self) -> None:
         """Validate environment setup"""
@@ -477,7 +571,7 @@ class ExtractionService:
     
     async def _analyze_content_structure(self) -> Optional[StructureInfo]:
         """Analyze content structure to understand organization patterns"""
-        structure_instruction = self._get_structure_analysis_instruction()
+        structure_instruction = await self._get_structure_analysis_instruction()
         
         try:
             browser_cfg = BrowserConfig(headless=True)
@@ -514,20 +608,75 @@ class ExtractionService:
             self.logger.warning(f"Error in structure analysis: {e}")
             return None
     
-    def _get_structure_analysis_instruction(self) -> str:
-        """Get instruction for structure analysis"""
-        return """
-        Analyze this web content and identify the structural patterns for organized information (like papers, articles, entries, etc.).
+    async def _get_structure_analysis_instruction(self) -> str:
+        """Generate contextual instruction for structure analysis using LLM"""
+        
+        # Determine content type context
+        content_context = ""
+        if self.config.is_pdf_input:
+            content_context = f"PDF document: {Path(self.config.original_input).name}"
+        else:
+            content_context = f"Web page: {self.config.url}"
+        
+        # Create a direct, clear instruction for structure analysis
+        instruction = f"""
+        TASK: Analyze the content structure to understand how information is organized for extracting these fields: {', '.join(self.config.schema_fields)}
 
-        Look for and identify:
-        1. **Separator patterns**: What separates individual entities? (numbered lists, section headers, horizontal lines, etc.)
-        2. **Entity indicators**: What marks the beginning of a new entity? (titles, numbering, specific keywords)
-        3. **Field patterns**: How are different types of information typically labeled or positioned?
-        4. **Content organization**: Is it a list, table, sections, or other structure?
-        5. **Estimated count**: Approximately how many entities are present?
+        You must return a JSON object with exactly these fields:
+        - separator_pattern: A regex pattern that separates individual records/entities
+        - entity_indicators: A list of text patterns that indicate the start of new entities
+        - content_structure: A description of how the content is organized
+        - field_patterns: A dictionary mapping field names to patterns for finding them
 
-        Focus on patterns that would help extract multiple related records without mixing information between them.
-        Be specific about regex patterns or text markers that could be used to identify boundaries.
+        DO NOT extract actual data. Instead, analyze HOW the data is structured.
+
+        For the content from {content_context}, identify:
+
+        1. **separator_pattern**: What pattern separates different records? (e.g., "\\n\\n", "<div", "---", etc.)
+        2. **entity_indicators**: What text patterns signal a new entity? (e.g., ["Paper:", "Title:", "Session", etc.])
+        3. **content_structure**: How is the content organized? (e.g., "Listed items with titles followed by details")
+        4. **field_patterns**: For each field {', '.join(self.config.schema_fields)}, what pattern helps identify it?
+
+        Example output format:
+        {{
+            "separator_pattern": "\\n\\n|<div",
+            "entity_indicators": ["Paper:", "Title:", "Session:"],
+            "content_structure": "Content organized as sequential items with titles and metadata",
+            "field_patterns": {{
+                "title": "Title:|Paper title:",
+                "author": "Author:|By:",
+                "time": "Time:|When:"
+            }}
+        }}
+
+        Focus on STRUCTURE ANALYSIS, not data extraction.
+        """
+        
+        if self.config.verbose:
+            print(f"📝 Using direct structure analysis instruction")
+        
+        return instruction
+    
+    def _get_fallback_instruction(self) -> str:
+        """Fallback instruction for structure analysis"""
+        return f"""
+        TASK: Analyze the content structure to understand how information is organized for extracting these fields: {', '.join(self.config.schema_fields)}
+
+        You must return a JSON object with exactly these fields:
+        - separator_pattern: A regex pattern that separates individual records/entities
+        - entity_indicators: A list of text patterns that indicate the start of new entities
+        - content_structure: A description of how the content is organized
+        - field_patterns: A dictionary mapping field names to patterns for finding them
+
+        DO NOT extract actual data. Instead, analyze HOW the data is structured.
+
+        Focus on identifying:
+        1. **separator_pattern**: What pattern separates different records? (e.g., "\\n\\n", "<div", "---")
+        2. **entity_indicators**: What text patterns signal a new entity? (e.g., ["Paper:", "Title:", "Session"])
+        3. **content_structure**: How is the content organized? 
+        4. **field_patterns**: For each field {', '.join(self.config.schema_fields)}, what pattern helps identify it?
+
+        Return valid JSON with these exact field names. Focus on STRUCTURE ANALYSIS, not data extraction.
         """
     
     def _parse_structure_result(self, extracted_content: str) -> Optional[StructureInfo]:
@@ -537,16 +686,32 @@ class ExtractionService:
             if isinstance(structure_data, list) and len(structure_data) > 0:
                 structure_data = structure_data[0]
             
+            # Check if we got the expected structure analysis fields
+            required_fields = ['separator_pattern', 'entity_indicators', 'content_structure', 'field_patterns']
+            if not all(field in structure_data for field in required_fields):
+                if self.config.verbose:
+                    print(f"⚠️  Structure analysis returned unexpected format:")
+                    print(f"   Expected fields: {required_fields}")
+                    print(f"   Received fields: {list(structure_data.keys())}")
+                    print(f"   Raw response: {extracted_content[:300]}...")
+                self.logger.warning("Structure analysis returned unexpected format - falling back to topic segmentation")
+                return None
+            
             structure_info = StructureInfo(**structure_data)
             print(f"✅ Structure analysis complete:")
             if self.config.verbose:
                 print(f"   - Separator pattern: {structure_info.separator_pattern}")
                 print(f"   - Entity indicators: {structure_info.entity_indicators}")
                 print(f"   - Content structure: {structure_info.content_structure}")
-            print(f"   - Estimated count: {structure_info.estimated_count}")
+                print(f"   - Field patterns: {structure_info.field_patterns}")
             
             return structure_info
             
+        except json.JSONDecodeError as e:
+            self.logger.error(f"Invalid JSON in structure analysis: {e}")
+            if self.config.verbose:
+                print(f"   Raw response (first 300 chars): {extracted_content[:300]}...")
+            return None
         except Exception as e:
             self.logger.error(f"Error parsing structure analysis: {e}")
             if self.config.verbose:
@@ -633,7 +798,6 @@ class ExtractionService:
             - Content structure: {structure_info.content_structure}
             - Entities are separated by: {structure_info.separator_pattern}
             - New entities are indicated by: {', '.join(structure_info.entity_indicators)}
-            - Estimated entity count: {structure_info.estimated_count}
             - Field patterns: {structure_info.field_patterns}
             
             Use this structural information to ensure you don't mix data between different entities.
@@ -900,11 +1064,6 @@ class DataProcessor:
             print(f"   ✅ No duplicates found using primary keys: {', '.join(self.config.primary_keys)}")
         elif not self.config.no_dedup and not self.config.primary_keys:
             print(f"   ℹ️  Deduplication skipped: no primary keys specified")
-        
-        if self.structure_info:
-            print(f"   - Expected count: {self.structure_info.estimated_count}")
-            accuracy = min(100, (final_count / max(1, self.structure_info.estimated_count)) * 100)
-            print(f"   - Extraction accuracy: {accuracy:.1f}%")
 
 
 # ================================
@@ -921,16 +1080,23 @@ class CLIHandler:
             formatter_class=argparse.RawDescriptionHelpFormatter,
             epilog="""
 Examples:
+  # Web URL extraction
   python crawl.py "https://example.com/papers" --schema title author doi affiliation
   python crawl.py "https://example.com" --schema title description --output results.csv --strategy two-pass
+  
+  # PDF file extraction
+  python crawl.py "document.pdf" --schema title author abstract --strategy two-pass
+  python crawl.py "research_paper.pdf" --schema title author doi --pdf-use-llm --pdf-force-ocr
+  
+  # Advanced options
   python crawl.py "https://example.com" --schema name email --strategy single-pass --chunk-size 2000
   python crawl.py "https://example.com" --schema title author --primary-keys title --verbose
-  python crawl.py "https://example.com" --schema id name email --primary-keys id email --no-dedup
+  python crawl.py "document.pdf" --schema id name email --primary-keys id email --no-dedup --verbose
             """
         )
         
         # Required arguments
-        parser.add_argument('url', nargs='?', help='URL to crawl and extract data from')
+        parser.add_argument('url', nargs='?', help='URL to crawl or PDF file path to extract data from')
         parser.add_argument('--schema', nargs='+', required=False,
                            help='Schema fields to extract (e.g., --schema title doi author affiliation)')
         
@@ -962,6 +1128,14 @@ Examples:
         parser.add_argument('--extraction-model', default=None, choices=Constants.AVAILABLE_MODELS,
                            help=f'Model for data extraction (default: {ModelConfig.data_extraction_model})')
         
+        # PDF processing options
+        parser.add_argument('--pdf-use-llm', action='store_true',
+                           help='Use LLM for improved PDF conversion quality (requires API key)')
+        parser.add_argument('--pdf-force-ocr', action='store_true',
+                           help='Force OCR on PDF documents for better text extraction')
+        parser.add_argument('--pdf-extract-images', action='store_true', default=False,
+                           help='Extract images from PDF files (default: False - text only)')
+        
         # Information and debugging
         parser.add_argument('--show-models', action='store_true',
                            help='Show available models and current configuration')
@@ -981,6 +1155,12 @@ Examples:
         print(f"   🔍 Structure Analysis: {model_info['structure_analysis']}")
         print(f"   📝 Instruction Generation: {model_info['instruction_generation']}")
         print(f"   📊 Data Extraction: {model_info['data_extraction']}")
+        
+        print(f"\n📄 **PDF Support:**")
+        if PDF_SUPPORT_AVAILABLE:
+            print(f"   ✅ PDF conversion available (marker library)")
+        else:
+            print(f"   ❌ PDF conversion not available (install: pip install marker-pdf)")
     
     @staticmethod
     def generate_output_filename(url: str) -> str:
@@ -996,7 +1176,14 @@ Examples:
     def print_configuration(config: ExtractionConfig) -> None:
         """Print extraction configuration"""
         print("🚀 Starting extraction with configuration:")
-        print(f"   📍 URL: {config.url}")
+        
+        # Show input source
+        if config.is_pdf_input:
+            print(f"   📄 PDF Input: {config.original_input}")
+            print(f"   🌐 Converted to: {config.url}")
+        else:
+            print(f"   📍 URL: {config.url}")
+        
         print(f"   📋 Schema fields: {', '.join(config.schema_fields)}")
         print(f"   💾 Output file: {config.output_file}")
         print(f"   🔄 Strategy: {config.strategy}")
@@ -1009,6 +1196,16 @@ Examples:
             print(f"   🗝️  Primary keys for deduplication: None (no deduplication)")
         if config.no_dedup:
             print(f"   🚫 Deduplication: Disabled")
+        
+        # Show PDF configuration if applicable
+        if config.is_pdf_input and config.pdf_config:
+            print(f"   📄 PDF Configuration:")
+            if config.pdf_config.get('use_llm'):
+                print(f"      🧠 LLM Enhancement: Enabled")
+            if config.pdf_config.get('force_ocr'):
+                print(f"      👁️  Force OCR: Enabled")
+            if config.pdf_config.get('extract_images'):
+                print(f"      🖼️  Extract Images: Enabled")
         
         # Show model configuration
         model_info = ModelConfig.get_model_info()
@@ -1033,6 +1230,17 @@ async def main() -> int:
             CLIHandler.show_models()
             return 0
         
+        # Debug PDF detection if verbose
+        if args.verbose and args.url:
+            print(f"🔍 Input analysis:")
+            print(f"   Input: {args.url}")
+            print(f"   PDF support available: {PDF_SUPPORT_AVAILABLE}")
+            if PDF_SUPPORT_AVAILABLE:
+                print(f"   Is PDF file: {is_pdf_file(args.url)}")
+            print(f"   File exists: {os.path.exists(args.url)}")
+            print(f"   Is absolute path: {os.path.isabs(args.url)}")
+            print()
+        
         # Validate required arguments
         if not args.url or not args.schema:
             parser.print_help()
@@ -1052,6 +1260,15 @@ async def main() -> int:
         output_dir = os.path.dirname(output_file) if os.path.dirname(output_file) else 'output'
         os.makedirs(output_dir, exist_ok=True)
         
+        # Create PDF configuration if needed
+        pdf_config = {}
+        if hasattr(args, 'pdf_use_llm') and args.pdf_use_llm:
+            pdf_config['use_llm'] = True
+        if hasattr(args, 'pdf_force_ocr') and args.pdf_force_ocr:
+            pdf_config['force_ocr'] = True
+        if hasattr(args, 'pdf_extract_images'):
+            pdf_config['extract_images'] = args.pdf_extract_images
+        
         # Create extraction configuration
         config = ExtractionConfig(
             url=args.url,
@@ -1063,7 +1280,8 @@ async def main() -> int:
             similarity_threshold=args.similarity_threshold,
             primary_keys=args.primary_keys,
             no_dedup=args.no_dedup,
-            verbose=args.verbose
+            verbose=args.verbose,
+            pdf_config=pdf_config if pdf_config else None
         )
         
         # Print configuration

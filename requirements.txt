@@ -3,3 +3,7 @@ python-dotenv
 tqdm
 marker-pdf
 pathlib
+crawl4ai
+pydantic
+nltk
+markdown
