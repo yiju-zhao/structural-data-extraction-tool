@@ -1,9 +1,5 @@
-openai
-python-dotenv
-tqdm
-marker-pdf
-pathlib
-crawl4ai
-pydantic
-nltk
-markdown
+browser-use>=0.4.0
+langchain-openai>=0.0.5
+python-dotenv>=1.0.0
+pandas>=2.0.0
+pydantic>=2.0.0
