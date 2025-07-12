@@ -189,3 +189,7 @@ output/
 *.csv
 *.DS_Store
 *.json
+
+*/browseruse_agent_data
+
+*/node_modules
