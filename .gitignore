@@ -184,9 +184,10 @@ secrets.toml
 
 test/
 static/
-output/
+# output/
+archive/
 
-*.csv
+# *.csv
 *.DS_Store
 *.json
 

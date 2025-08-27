@@ -74,10 +74,13 @@ class Constants:
         "gpt-4o-mini",
         "gpt-4o", 
         "gpt-4-turbo",
-        "gpt-4",
+        "gpt-4.1",
         "gpt-3.5-turbo",
         "o1-mini",
-        "o1-preview"
+        "o1-preview",
+        "gpt-5",
+        "gpt-5-mini",
+        "gpt-5-nano"
     ]
 
 
@@ -112,13 +115,13 @@ class ModelConfig:
     
     # Default models for different tasks
     structure_analysis_model: str = "o4-mini"
-    instruction_generation_model: str = "o4-mini"
-    data_extraction_model: str = "gpt-4.1-nano"
+    instruction_generation_model: str = "gpt-5"
+    data_extraction_model: str = "gpt-4.1-mini"
     
     # Temperature settings for different tasks
     structure_analysis_temperature: float = 1.0
     instruction_generation_temperature: float = 1.0
-    data_extraction_temperature: float = 0.0
+    data_extraction_temperature: float = 0
     
     @classmethod
     def set_models(

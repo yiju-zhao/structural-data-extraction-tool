@@ -458,37 +458,43 @@
 - Type: Presentation
 - Contributors: Michael De Caria, Manuel Macha, Iain Northcott, Steve Agland
 - Location: 
----## Blinded By The Light: A Case Study Of HDR Integration In Animation Production
+---
+## Blinded By The Light: A Case Study Of HDR Integration In Animation Production
 - Date: Sunday, 10 August 2025
 - Time: 3:45pm - 4:07pm PDT
 - Type: Presentation
 - Contributors: Michael De Caria, Manuel Macha, Iain Northcott, Steve Agland
 - Location:
----## Designing Oscar: Bespoke Tablet Workflows in ILM StageCraft
+---
+## Designing Oscar: Bespoke Tablet Workflows in ILM StageCraft
 - Date: Sunday, 10 August 2025
 - Time: 4:07pm - 4:29pm PDT
 - Type: Presentation
 - Contributors: David Hirschfield, Mike Jutan
 - Location:
----## Launcher: balancing stability and flexibility in CG artist software
+---
+## Launcher: balancing stability and flexibility in CG artist software
 - Date: Sunday, 10 August 2025
 - Time: 4:29pm - 4:51pm PDT
 - Type: Presentation
 - Contributors: Ghislain Veilleux, Steve Agland, Federico Naum
 - Location:
----## Using Local Virtual Machines to Create OS-Agnostic Workstations
+---
+## Using Local Virtual Machines to Create OS-Agnostic Workstations
 - Date: Sunday, 10 August 2025
 - Time: 4:51pm - 5:13pm PDT
 - Type: Presentation
 - Contributors: Scott Milner, Matthew Minson, Dallin Clark, Craig Van Dyke
 - Location:
----## Building a Scalable UGC Auto-Rigging Pipeline with OpenUSD
+---
+## Building a Scalable UGC Auto-Rigging Pipeline with OpenUSD
 - Date: Sunday, 10 August 2025
 - Time: 5:13pm - 5:35pm PDT
 - Type: Presentation
 - Contributors: Wayne Wu, Davide Munisso
 - Location:
----## Panel: Education Disrupted
+---
+## Panel: Education Disrupted
 - Date: Sunday, 10 August 2025
 - Time: 3:45pm - 5:15pm PDT
 - Type: Panel
@@ -501,7 +507,8 @@
 - Type: Hands-On Class
 - Contributors: Nia Bickford, Tristan Lorach, Chris Hebert
 - Location: West Building, Rooms 121-122
----## Hands-On Class: Introduction to Slang: The Next Generation Shading Language
+---
+## Hands-On Class: Introduction to Slang: The Next Generation Shading Language
 - Date: Sunday, 10 August 2025
 - Time: 4:00pm - 5:30pm PDT
 - Type: Hands-On Class

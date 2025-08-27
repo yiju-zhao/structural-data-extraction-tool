@@ -15,7 +15,7 @@ print(f'Agent logs directory: {agent_dir}')
 
 
 url = 'https://s2025.conference-schedule.org'  # URL to scrape
-tab = 'Monday'  # Tab to click
+tab = 'THURSDAY'  # Tab to click
 cleaned_url = url.replace('https://', '').replace('http://', '').replace('/', '_').replace('.', '')  # Cleaned URL for file naming
 
 class Session(BaseModel):
@@ -29,45 +29,78 @@ class Sessions(BaseModel):
 controller = Controller(output_model=Sessions)
 
 prompt = f"""
+        Objective
 
-        ## Objective
-        Extract all conference session details from {url}/{tab} and save them to {cleaned_url}_{tab}.md in a structured markdown format.
+        Extract all conference session details from {url}/{tab} and save them to {cleaned_url}_{tab}.md in structured markdown
+        format.
 
-        ## Workflow
+        Pre-execution Setup
 
-        ### 1. Initial Setup
-        - CREATE {cleaned_url}_{tab}.md
-        - OPEN [{url}]
-        - CLICK [{tab}]
-        - EXPAND ALL collapsible sections
+        1. File Creation: CREATE {cleaned_url}_{tab}.md with header:
+        # {tab} Sessions - {cleaned_url}
 
-        ### 2. Extraction Process (Repeat Until Completion)
-        For each session:
-        1. EXTRACT:
-        - Session/presentation title
-        - Time information
-        - Session type
-        - Contributors list
+        2. Browser Navigation:
+            - NAVIGATE to [{url}]
+            - WAIT for page load (3-5 seconds)
+            - LOCATE and CLICK [{tab}] tab/button
+            - WAIT for content load
+            - EXPAND ALL collapsible/accordion sections
 
-        2. WRITE TO FILE (append_file action):
-        ## session_presentation_title: <title>
-        - time: <time>
-        - type: <type>
-        - contributors: <contributor1>, <contributor2>, ...
+        Session Extraction Protocol
 
-        3. PAGE NAVIGATION:
-        - SCROLL DOWN to load more sessions
-        - CONTINUE until "Chapters Party" session or page bottom
+        Detection Strategy
 
-        ### 3. Completion Criteria
-        - STOP when:
-        a) "Chapters Party" session is found, OR
-        b) Page bottom is reached
+        - SCAN page for session containers (divs, cards, list items)
+        - IDENTIFY unique session markers (titles, time stamps, speaker names)
+        - SET scroll position tracker to avoid re-processing
 
-        ## Restrictions
-        - ❌ NEVER use extract_structured_data()
-        - ❌ NEVER terminate early
-        - ❌ NEVER skip sessions
+        Extraction Loop
+
+        For EACH detected session:
+
+        1. Data Capture:
+        title: [session/presentation title - exact text]
+        time: [time/date info - format as found]
+        type: [session type/category if available]
+        contributors: [speaker1, speaker2, ... - comma separated]
+        2. File Write (append_file):
+        ## session.title
+        - **Time**: session.time
+        - **Type**: session.type
+        - **Contributors**: session.contributors
+
+        3. Progress Tracking:
+            - MARK session as processed
+            - INCREMENT session counter
+            - LOG current position
+
+        Navigation Control
+
+        - SCROLL DOWN incrementally (viewport height)
+        - WAIT 2-3 seconds for dynamic loading
+        - CHECK for new sessions after each scroll
+        - STOP when "Chapters Party" session found AND saved
+
+        Validation & Completion
+
+        - Session Count: Log total sessions extracted
+        - End Marker: Confirm "Chapters Party" session captured
+        - File Check: Verify markdown file exists and contains data
+        - No Duplicates: Ensure each session appears only once
+
+        Error Recovery
+
+        - If page load fails: RETRY once, then REPORT error
+        - If tab not found: SEARCH for similar text, then REPORT
+        - If no sessions detected: SCROLL and wait, retry detection
+        - If stuck in loop: CHECK scroll position change, break if no progress
+
+        Success Criteria
+
+        ✅ All sessions from page start to "Chapters Party" extracted
+        ✅ Structured markdown file created
+        ✅ No duplicate entries
+        ✅ No infinite loops or early termination
         """
 # Initialize your components  
 llm = ChatOpenAI(model="gpt-4.1")  # or your preferred LLM 
