@@ -1,0 +1,386 @@
+title,authors,session
+Hybrid-TTA: Continual Test-time Adaptation via Dynamic Domain Shift Detection,Hyewon Park · Hyejin Park · Jueun Ko · Dongbo Min,Poster Session 1
+BillBoard Splatting (BBSplat): Learnable Textured Primitives for Novel View Synthesis,David Svitov · Pietro Morerio · Lourdes Agapito · ALESSIO DEL BUE,Poster Session 6
+MaskControl: Spatio-Temporal Control for Masked Motion Synthesis,Ekkasit Pinyoanuntapong · Muhammad Usama Saleem · Korrawe Karunratanakul · Pu Wang · Hongfei Xue · Chen Chen · chuan guo · Junli Cao · Jian Ren · Sergey Tulyakov,Poster Session 3
+CCMNet: Leveraging Calibrated Color Correction Matrices for Cross-Camera Color Constancy,Dongyoung Kim · Mahmoud Afifi · Dongyun Kim · Michael Brown · Seon Joo Kim,Poster Session 2
+WildSAT: Learning Satellite Image Representations from Wildlife Observations,Rangel Daroya · Elijah Cole · Oisin Mac Aodha · Grant Horn · Subhransu Maji,Poster Session 2
+Learning Streaming Video Representation via Multitask Training,Yibin Yan · Jilan Xu · Shangzhe Di · Yikun Liu · Yudi Shi · Qirui Chen · Zeqian Li · Yifei Huang · Weidi Xie,Poster Session 3
+MUSE: Multi-Subject Unified Synthesis via Explicit Layout Semantic Expansion,Fei Peng · Junqiang Wu · Yan Li · Tingting Gao · Di ZHANG · Huiyuan Fu,Poster Session 4
+CleanPose: Category-Level Object Pose Estimation via Causal Learning and Knowledge Distillation,Xiao Lin · Yun Peng · Liuyi Wang · xianyou zhong · Minghao Zhu · Jingwei Yang · Yi Feng · Chengju Liu · Qijun Chen,Poster Session 2
+An Efficient Hybrid Vision Transformer for TinyML Applications,Fanhong Zeng · Huanan LI · Juntao Guan · Rui Fan · Tong Wu · Xilong Wang · Lai Rui,Poster Session 5
+Emulating Self-attention with Convolution for Efficient Image Super-Resolution,Dongheon Lee · Seokju Yun · Youngmin Ro,Poster Session 5
+MemoryTalker: Personalized Speech-Driven 3D Facial Animation via Audio-Guided Stylization,Hyung Kyu Kim · Sangmin Lee · HAK GU KIM,Poster Session 3
+Signs as Tokens: A Retrieval-Enhanced Multilingual Sign Language Generator,Ronglai Zuo · Rolandos Alexandros Potamias · Evangelos Ververas · Jiankang Deng · Stefanos Zafeiriou,Poster Session 5
+EA-Vit: Efficient Adaptation for Elastic Vision Transformer,Chen Zhu · Wangbo Zhao · Huiwen Zhang · Yuhao Zhou · Weidong Tang · Shuo Wang · Zhihang Yuan · Yuzhang Shang · Xiaojiang Peng · Kai Wang · Dawei Yang,Poster Session 1
+Soft Separation and Distillation: Toward Global Uniformity in Federated Unsupervised Learning,Hung-Chieh Fang · Hsuan-Tien Lin · Irwin King · Yifei Zhang,Poster Session 1
+WildSeg3D: Segment Any 3D Objects in the Wild from 2D Images,Yansong Guo · Jie Hu · Yansong Qu · Liujuan Cao,Poster Session 2
+Supervised Exploratory Learning for Long-Tailed Visual Recognition,Zhongquan Jian · Yanhao Chen · Wangyancheng Wangyancheng · Junfeng Yao · Meihong Wang · Qingqiang Wu,Poster Session 1
+DLF: Extreme Image Compression with Dual-generative Latent Fusion,Naifu Xue · Zhaoyang Jia · Jiahao Li · Bin Li · Yuan Zhang · Yan Lu,Poster Session 4
+Towards Scalable Spatial Intelligence via 2D-to-3D Data Lifting,Xingyu Miao · Haoran Duan · Quanhao Qian · Jiuniu Wang · Yang Long · Ling Shao · Deli Zhao · Ran Xu · Gongjie Zhang,Poster Session 1
+Occlusion-robust Stylization for Drawing-based 3D Animation,Sunjae Yoon · Gwanhyeong Koo · Younghwan Lee · Ji Woo Hong · Chang Yoo,Poster Session 3
+LLM-enhanced Action-aware Multi-modal Prompt Tuning for Image-Text Matching,Meng Tian · Shuo Yang · Xinxiao Wu,Poster Session 5
+Differentiable Room Acoustic Rendering with Multi-View Vision Priors,Derong Jin · Ruohan Gao,Poster Session 1
+Feed-Forward SceneDINO for Unsupervised Semantic Scene Completion,Aleksandar Jevtić · Christoph Reich · Felix Wimbauer · Oliver Hahn · Christian Rupprecht · Stefan Roth · Daniel Cremers,Poster Session 2
+MEGA: Memory-Efficient 4D Gaussian Splatting for Dynamic Scenes,XINJIE ZHANG · Zhening Liu · Yifan Zhang · Xingtong Ge · Dailan He · Tongda Xu · Yan Wang · Zehong Lin · Shuicheng YAN · Jun Zhang,Poster Session 6
+EAMamba: Efficient All-Around Vision State Space Model for Image Restoration,Yu-Cheng Lin · Yu-Syuan Xu · Hao-Wei Chen · Hsien-Kai Kuo · Chun-Yi Lee,Poster Session 3
+WonderPlay: Dynamic 3D Scene Generation from a Single Image and Actions,Zizhang Li · Hong-Xing Yu · Wei Liu · Yin Yang · Charles Herrmann · Gordon Wetzstein · Jiajun Wu,Poster Session 2
+Pretrained Reversible Generation as Unsupervised Visual Representation Learning,Rongkun Xue · Jinouwen Zhang · Yazhe Niu · Dazhong Shen · Bingqi Ma · Yu Liu · Jing Yang,Poster Session 4
+Metric Convolutions: A Unifying Theory to Adaptive Image Convolutions,Thomas Dagès · Michael Lindenbaum · Alfred Bruckstein,Poster Session 3
+Unsupervised Part Discovery via Descriptor-Based Masked Image Restoration with Optimized Constraints,Jiahao Xia · Yike Wu · Wenjian Huang · Jianguo Zhang · Jian Zhang,Poster Session 2
+Humans as a Calibration Pattern: Dynamic 3D Scene Reconstruction from Unsynchronized and Uncalibrated Videos,Changwoon Choi · Jeongjun Kim · Geonho Cha · Minkwan Kim · Dongyoon Wee · Young Kim Kim,Poster Session 2
+STI-Bench: Are MLLMs Ready for Precise Spatial-Temporal World Understanding?,Yun Li · Yiming Zhang · Tao Lin · Xiangrui Liu · Wenxiao Cai · Zheng Liu · Bo Zhao,Poster Session 2
+AJAHR: Amputated Joint Aware 3D Human Mesh Recovery,hyunjin cho · Giyun choi · Jongwon Choi,Poster Session 2
+Beyond Losses Reweighting: Empowering Multi-Task Learning via the Generalization Perspective,Hoang Phan · Tung Lam Tran · Quyen Tran · Ngoc Tran · Tuan Truong · Qi Lei · Nhat Ho · Dinh Phung · Trung Le,Poster Session 1
+StableCodec: Taming One-Step Diffusion for Extreme Image Compression,Tianyu Zhang · Xin Luo · Li Li · Dong Liu,Poster Session 4
+VistaDream: Sampling multiview consistent images for single-view scene reconstruction,Haiping Wang · Yuan Liu · Ziwei Liu · Wenping Wang · Zhen Dong · Bisheng Yang,Poster Session 6
+Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs,Yikang Zhou · Tao Zhang · Shilin Xu · Shihao Chen · Qianyu Zhou · Yunhai Tong · Shunping Ji · Jiangning Zhang · Lu Qi · Xiangtai Li,Poster Session 4
+Decouple and Track: Benchmarking and Improving Video Diffusion Transformers For Motion Transfer,Qingyu Shi · Jianzong Wu · Jinbin Bai · Lu Qi · Jiangning Zhang · Yunhai Tong · Xiangtai Li,Poster Session 3
+Semantic Watermarking Reinvented: Enhancing Robustness and Generation Quality with Fourier Integrity,Sung Ju Lee · Nam Ik Cho,Poster Session 4
+VQ-SGen: A Vector Quantized Stroke Representation for Creative Sketch Generation,Jiawei Wang · Zhiming Cui · Changjian Li,Poster Session 4
+2D Gaussian Splatting-based Sparse-view Transparent Object Depth Reconstruction via Physics Simulation for Scene Update,Jeongyun Kim · Seunghoon Jeong · Giseop Kim · Myung-Hwan Jeon · Eunji Jun · Ayoung Kim,Poster Session 6
+Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning,Qi Wang · Zhipeng Zhang · Baao Xie · Xin Jin · Yunbo Wang · Shiyu Wang · Liaomo Zheng · Xiaokang Yang · Wenjun Zeng,Poster Session 1
+SpinMeRound: Consistent Multi-View Identity Generation Using Diffusion Models,Stathis Galanakis · Alexandros Lattas · Stylianos Moschoglou · Bernhard Kainz · Stefanos Zafeiriou,Poster Session 3
+3D-MOOD: Lifting 2D to 3D for Monocular Open-Set Object Detection,Yung-Hsu Yang · Luigi Piccinelli · Mattia Segu · Siyuan Li · Rui Huang · Yuqian Fu · Marc Pollefeys · Hermann Blum · Zuria Bauer,Poster Session 2
+Depth AnyEvent: A Cross-Modal Distillation Paradigm for Event-Based Monocular Depth Estimation,Luca Bartolomei · Enrico Mannocci · Fabio Tosi · Matteo Poggi · Stefano Mattoccia,Poster Session 4
+VisNumBench: Evaluating Number Sense of Multimodal Large Language Models,Tengjin Weng · Jingyi Wang · Wenhao Jiang · Zhong Ming,Poster Session 1
+Growing a Twig to Accelerate Large Vision-Language Models,Zhenwei Shao · Mingyang Wang · Zhou Yu · Wenwen Pan · Yan Yang · Tao Wei · Hongyuan Zhang · Ning Mao · Chen Wei · Jun Yu,Poster Session 5
+Robust Multi-View Learning via Representation Fusion of Sample-Level Attention and Alignment of Simulated Perturbation,Jie Xu · Na Zhao · Gang Niu · Masashi Sugiyama · Xiaofeng Zhu,Poster Session 1
+A Unified Framework to BRIDGE Complete and Incomplete Deep Multi-View Clustering under Non-IID Missing Patterns,Xiaorui Jiang · Buyun He · Peng Yuan Zhou · Xinyue Chen · Jingcai Guo · Jie Xu · Yong Liao,Poster Session 1
+CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation,Dengke Zhang · Fagui Liu · Quan Tang,Poster Session 6
+LBM: Latent Bridge Matching for Fast Image-to-Image Translation,Clément Chadebec · Onur Tasar · Sanjeev Sreetharan · Benjamin Aubin,Poster Session 6
+EgoM2P: Egocentric Multimodal Multitask Pretraining,Gen Li · Yutong Chen · Yiqian Wu · KAIFENG ZHAO · Marc Pollefeys · Siyu Tang,Poster Session 3
+Object-centric Video Question Answering with Visual Grounding and Referring,Haochen Wang · Qirui Chen · Cilin Yan · Jiayin Cai · Xiaolong Jiang · Yao Hu · Weidi Xie · Stratis Gavves,Poster Session 5
+Player-Centric Multimodal Prompt Generation for Large Language Model Based Identity-Aware Basketball Video Captioning,Zeyu Xi · Haoying Sun · Yaofei Wu · Junchi Yan · Haoran Zhang · Lifang Wu · Liang Wang · Chang Wen Chen,Poster Session 5
+HERMES: temporal-coHERent long-forM understanding with Episodes and Semantics,Gueter Josmy Faure · Jia-Fong Yeh · Min-Hung Chen · Hung-Ting Su · Shang-Hong Lai · Winston Hsu,Poster Session 5
+LIRA: Reasoning Reconstruction via Multimodal Large Language Models,Zhen Zhou · Tong Wang · Yunkai Ma · Xiao Tan · Fengshui Jing,Poster Session 1
+AnyI2V: Animating Any Conditional Image with Motion Control,Ziye Li · Xincheng Shuai · Hao Luo · Henghui Ding,Poster Session 4
+Amodal3R: Amodal 3D Reconstruction from Occluded 2D Images,Tianhao Wu · Chuanxia Zheng · Frank Guan · Andrea Vedaldi · Tat-Jen Cham,Poster Session 2
+Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction,Zeren Jiang · Chuanxia Zheng · Iro Laina · Diane Larlus · Andrea Vedaldi,Poster Session 5
+IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models Using Themselves,Ruofan Wang · Juncheng Li · Yixu Wang · Bo Wang · Xiaosen Wang · Yan Teng · Yingchun Wang · Xingjun Ma · Yu-Gang Jiang,Poster Session 2
+GaussianFlowOcc: Sparse and Weakly Supervised Occupancy Estimation using Gaussian Splatting and Temporal Flow,Simon Boeder · Fabian Gigengack · Benjamin Risse,Poster Session 6
+Rethinking Cross-Modal Interaction in Multimodal Diffusion Transformers,Zhengyao Lyu · Tianlin Pan · Chenyang Si · Zhaoxi Chen · Wangmeng Zuo · Ziwei Liu · Kwan-Yee K. Wong,Poster Session 2
+PseudoMapTrainer: Learning Online Mapping without HD Maps,Christian Löwens · Thorben Funke · Jingchao Xie · Alexandru Condurache,Poster Session 2
+No Pose at All: Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views,Ranran Huang · Krystian Mikolajczyk,Poster Session 6
+Ensemble Foreground Management for Unsupervised Object Discovery,Ziling Wu · Armaghan Moemeni · Praminda Caleb-Solly,Poster Session 5
+DepR: Depth Guided Single-view Scene Reconstruction with Instance-level Diffusion,Qingcheng Zhao · Xiang Zhang · Haiyang Xu · Zeyuan Chen · Jianwen Xie · Yuan Gao · Zhuowen Tu,Poster Session 2
+A Differentiable Wave Optics Model for End-to-End Computational Imaging System Optimization,Chi-Jui Ho · Yash Belhe · Steve Rotenberg · Ravi Ramamoorthi · Tzu-Mao Li · Nicholas Antipa,Poster Session 6
+CharaConsist: Fine-Grained Consistent Character Generation,Mengyu Wang · Henghui Ding · Jianing Peng · Yao Zhao · Yunpeng Chen · Yunchao Wei,Poster Session 4
+Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars,Tobias Kirschstein · Javier Romero · Artem Sevastopolsky · Matthias Nießner · Shunsuke Saito,Poster Session 3
+Gaussian Splatting with Discretized SDF for Relightable Assets,Zuo-Liang Zhu · jian Yang · Beibei Wang,Poster Session 6
+Leveraging Local Patch Alignment to Seam-cutting for Large Parallax Image Stitching,Tianli Liao · Chenyang Zhao · Lei Li · Heling Cao,Poster Session 6
+Gradient Extrapolation for Debiased Representation Learning,Ihab Asaad · Maha Shadaydeh · Joachim Denzler,Poster Session 1
+Colors See Colors Ignore: Clothes Changing ReID with Color Disentanglement,Priyank Pathak · Yogesh Rawat,Poster Session 4
+Advancing Textual Prompt Learning with Anchored Attributes,Zheng Li · Yibing Song · Ming-Ming Cheng · Xiang Li · jian Yang,Poster Session 1
+Active Learning Meets Foundation Models: Fast Remote Sensing Data Annotation for Object Detection,Marvin Burges · Philipe Dias · Dalton Lunga · Carson Woody · Sarah Walters,Poster Session 2
+AAA-Gaussians: Anti-Aliased and Artifact-Free 3D Gaussian Rendering,Michael Steiner · Thomas Köhler · Lukas Radl · Felix Windisch · Dieter Schmalstieg · Markus Steinberger,Poster Session 6
+Lightweight and Fast Real-time Image Enhancement via Decomposition of the Spatial-aware Lookup Tables,Wontae Kim · Keuntek Lee · Nam Ik Cho,Poster Session 3
+ForeSight: Multi-View Streaming Joint Object Detection and Trajectory Forecasting,Sandro Papais · Letian Wang · Brian Cheong · Steven Waslander,Poster Session 6
+Dynamic Multi-Layer Null Space Projection for Vision-Language Continual Learning,Borui Kang · Lei Wang · Zhiping Wu · Tao Feng · Yawen Li · Yang Gao · Wenbin Li,Poster Session 1
+ForestFormer3D: A Unified Framework for End-to-End Segmentation of Forest LiDAR 3D Point Clouds,Binbin Xiang · Maciej Wielgosz · Stefano Puliti · Kamil Král · Martin Krůček · Azim Missarov · Rasmus Astrup,Poster Session 6
+Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLMs,Xinyu Fang · Zhijian Chen · Kai Lan · Lixin Ma · Shengyuan Ding · Yingji Liang · Xiangyu Zhao · Farong Wen · Zicheng Zhang · Guofeng Zhang · Haodong Duan · Kai Chen · Dahua Lin,Poster Session 1
+Diffusion Guided Adaptive Augmentation for Generalization in Visual Reinforcement Learning,Jeong Woon Lee · Hyoseok Hwang,Poster Session 1
+Teaching AI the Anatomy Behind the Scan: Addressing Anatomical Flaws in Medical Image Segmentation with Learnable Prior,Young Seok Jeon · Hongfei Yang · Huazhu Fu · Young Seok Jeon,Poster Session 5
+Few-Shot Pattern Detection via Template Matching and Regression,Eunchan Jo · Dahyun Kang · Sanghyun Kim · Yunseon Choi · Minsu Cho,Poster Session 5
+Domain Generalizable Portrait Style Transfer,Xinbo Wang · Wenju Xu · Qing Zhang · Wei-Shi Zheng,Poster Session 4
+Learning 3D Scene Analogies with Neural Contextual Scene Maps,Junho Kim · Gwangtak Bae · Eun Sun Lee · Young Kim Kim,Poster Session 2
+Dual-Expert Consistency Model for Efficient and High-Quality Video Generation,Zhengyao Lyu · Chenyang Si · Tianlin Pan · Zhaoxi Chen · Kwan-Yee K. Wong · Yu Qiao · Ziwei Liu,Poster Session 4
+VA-MoE: Variables-Adaptive Mixture of Experts for Incremental Weather Forecasting,Hao Chen · Tao Han · Song Guo · Jie ZHANG · Yonghan Dong · Yunlong Yu · LEI BAI,Poster Session 2
+LATINO-PRO: LAtent consisTency INverse sOlver with PRompt Optimization,Alessio Spagnoletti · Jean Prost · Andres Almansa · Nicolas Papadakis · Marcelo Pereyra,Poster Session 4
+SceneSplat: Gaussian Splatting-based Scene Understanding with Vision-Language Pretraining,Yue Li · Qi Ma · Runyi Yang · Huapeng Li · Mengjiao Ma · Bin Ren · Nikola Popovic · Nicu Sebe · Ender Konukoglu · Theo Gevers · Luc Gool · Martin Oswald · Danda Pani Paudel,Poster Session 2
+Task-Specific Zero-shot Quantization-Aware Training for Object Detection,Changhao Li · Xinrui Chen · Ji Wang · Kang Zhao · Jianfei Chen,Poster Session 5
+TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Species Generation,Amin Karimi Monsefi · Mridul Khurana · Rajiv Ramnath · Anuj Karpatne · Wei-Lun (Harry) Chao · Cheng Zhang,Poster Session 2
+VIGFace: Virtual Identity Generation for Privacy-Free Face Recognition Dataset,Minsoo Kim · Min-Cheol Sagong · Gi Pyo Nam · Junghyun Cho · Ig-Jae Kim,Poster Session 3
+AdaHuman: Animatable Detailed 3D Human Generation with Compositional Multiview Diffusion,Yangyi Huang · Ye Yuan · Xueting Li · Jan Kautz · Umar Iqbal,Poster Session 3
+Vector Contrastive Learning For Pixel-Wise Pretraining In Medical Vision,Yuting He · Shuo Li,Poster Session 5
+FastPoint: Accelerating 3D Point Cloud Model Inference via Sample Point Distance Prediction,Donghyun Lee · Dawoon Jeong · Jae W. Lee · Hongil Yoon,Poster Session 6
+Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object Detection,Ruiyang Zhang · Hu Zhang · Zhedong Zheng,Poster Session 2
+Modeling Human Gaze Behavior with Diffusion Models for Unified Scanpath Prediction,Giuseppe Cartella · Vittorio Cuculo · Alessandro D'Amelio · Marcella Cornia · Giuseppe Boccignone · Rita Cucchiara,Poster Session 4
+Resonance: Learning to Predict Social-Aware Pedestrian Trajectories as Co-Vibrations,Conghao Wong · Ziqian Zou · Beihao Xia,Poster Session 6
+Easi3R: Estimating Disentangled Motion from DUSt3R Without Training,Xingyu Chen · Yue Chen · Yuliang Xiu · Andreas Geiger · Anpei Chen,Poster Session 2
+Online Language Splatting,Saimouli Katragadda · Cho-Ying Wu · Yuliang Guo · Xinyu Huang · Guoquan Huang · Liu Ren,Poster Session 6
+Token Activation Map to Visually Explain Multimodal LLMs,Yi Li · Hualiang Wang · Xinpeng Ding · Haonan Wang · Xiaomeng Li,Poster Session 1
+GSV3D: Gaussian Splatting-based Geometric Distillation with Stable Video Diffusion for Single-Image 3D Object Generation,Ye Tao · jiawei zhang · Yahao Shi · Dongqing Zou · Bin Zhou,Poster Session 2
+Adaptive Dual Uncertainty Optimization: Boosting Monocular 3D Object Detection under Test-Time Shifts,Zixuan Hu · Dongxiao Li · Xinzhu Ma · SHIXIANG TANG · Xiaotong Li · Wenhan Yang · LINGYU DUAN,Poster Session 2
+Class-Wise Federated Averaging for Efficient Personalization,Gyuejeong Lee · Daeyoung Choi,Poster Session 1
+Frequency-Dynamic Attention Modulation For Dense Prediction,Linwei Chen · Lin Gu · Ying Fu,Poster Session 5
+Vulnerability-Aware Spatio-Temporal Learning for Generalizable Deepfake Video Detection,Dat NGUYEN · Marcella Astrid · Anis Kacem · Enjie Ghorbel · Djamila Aouada,Poster Session 3
+GECKO: Gigapixel Vision-Concept Contrastive Pretraining in Histopathology,Saarthak Kapse · Pushpak Pati · Srikar Yellapragada · Srijan Das · Rajarsi Gupta · Joel Saltz · Dimitris Samaras · Prateek Prasanna,Poster Session 5
+Boosting Generative Adversarial Transferability with Self-supervised Vision Transformer Features,Shangbo Wu · Yu-an Tan · Ruinan Ma · Wencong Ma · Dehua Zhu · Yuanzhang Li,Poster Session 1
+Identity Preserving 3D Head Stylization with Multiview Score Distillation,Bahri Batuhan Bilecen · Ahmet Berke Gokmen · Furkan Güzelant · Aysegul Dundar,Poster Session 3
+Video Color Grading via Look-Up Table Generation,Seunghyun Shin · Dongmin Shin · Jisu Shin · Hae-Gon Jeon · Joon-Young Lee,Poster Session 4
+LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation,Xinyu Yan · Meijun Sun · Ge-Peng Ji · Fahad Khan · Salman Khan · Deng-Ping Fan,Poster Session 5
+SDFit: 3D Object Pose and Shape by Fitting a Morphable SDF to a Single Image,Dimitrije Antić · Georgios Paschalidis · Shashank Tripathi · Theo Gevers · Sai Kumar Dwivedi · Dimitrios Tzionas,Poster Session 2
+ClaraVid: A Holistic Scene Reconstruction Benchmark From Aerial Perspective With Delentropy-Based Complexity Profiling,Radu Beche · Sergiu Nedevschi,Poster Session 6
+Blind2Sound: Self-Supervised Image Denoising without Residual Noise,Jiazheng Liu · Zejin Wang · Bohao Chen · Hua Han,Poster Session 3
+"UniEgoMotion: A Unified Model for Egocentric Motion Reconstruction, Forecasting, and Generation",Chaitanya Patel · Hiroki Nakamura · Yuta Kyuragi · Kazuki Kozuka · Juan Carlos Niebles · Ehsan Adeli,Poster Session 3
+Identity-aware Language Gaussian Splatting for Open-vocabulary 3D Semantic Segmentation,SungMin Jang · Wonjun Kim,Poster Session 5
+TAB: Transformer Attention Bottlenecks enable User Intervention and Debugging in Vision-Language Models,Pooyan Rahmanzadehgervi · Hung Nguyen · Rosanne Liu · Long Mai · Anh Nguyen,Poster Session 5
+ADCD-Net: Robust Document Image Forgery Localization via Adaptive DCT Feature and Hierarchical Content Disentanglement,KA WONG · Jicheng Zhou · Haiwei Wu · Yain-Whar Si · Jiantao Zhou,Poster Session 4
+Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual Segmentation,Kaining Ying · Henghui Ding · Guangquan Jie · Yu-Gang Jiang,Poster Session 5
+Global and Local Entailment Learning for Natural World Imagery,Srikumar Sastry · Aayush Dhakal · Eric Xing · Subash Khanal · Nathan Jacobs,Poster Session 4
+FreeScale: Unleashing the Resolution of Diffusion Models via Tuning-Free Scale Fusion,Haonan Qiu · Shiwei Zhang · Yujie Wei · Ruihang Chu · Hangjie Yuan · Xiang Wang · Yingya Zhang · Ziwei Liu,Poster Session 4
+MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation,Vladislav Bargatin · Egor Chistov · Alexander Yakovenko · Dmitriy Vatolin,Poster Session 2
+Superpowering Open-Vocabulary Object Detectors for X-ray Vision,Pablo Garcia-Fernandez · Lorenzo Vaquero · Mingxuan Liu · Feng Xue · Daniel Cores · Nicu Sebe · Manuel Mucientes · Elisa Ricci,Poster Session 5
+Video Individual Counting for Moving Drones,Yaowu Fan · Jia Wan · Tao Han · Antoni Chan · Jinhua Ma,Poster Session 3
+DONUT: A Decoder-Only Model for Trajectory Prediction,Markus Knoche · Daan de Geus · Bastian Leibe,Poster Session 6
+"HumanSAM: Classifying Human-centric Forgery Videos in Human Spatial, Appearance, and Motion Anomaly",Chang Liu · Yunfan Ye · Fan Zhang · Qingyang Zhou · Yuchuan Luo · Zhiping Cai,Poster Session 3
+HUMOTO: A 4D Dataset of Mocap Human Object Interactions,Jiaxin Lu · Chun-Hao Huang · Uttaran Bhattacharya · Qixing Huang · Yi Zhou,Poster Session 3
+AD-GS: Object-Aware B-Spline Gaussian Splatting for Self-Supervised Autonomous Driving,Jiawei Xu · Kai Deng · Zexin Fan · Shenlong Wang · Jin Xie · jian Yang,Poster Session 6
+3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt,Lukas Höllein · Aljaz Bozic · Michael Zollhöfer · Matthias Nießner,Poster Session 6
+CA2C: A Prior-Knowledge-Free Approach for Robust Label Noise Learning via Asymmetric Co-learning and Co-training,Mengmeng Sheng · Zeren Sun · Tianfei Zhou · Xiangbo Shu · Jinshan Pan · Yazhou Yao,Poster Session 1
+Reangle-A-Video: 4D Video Generation as Video-to-Video Translation,Hyeonho Jeong · Suhyeon Lee · Jong Ye,Poster Session 3
+SMARTIES: Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images,Gencer Sumbul · Chang Xu · Emanuele Dalsasso · Devis Tuia,Poster Session 2
+ISP2HRNet: Learning to Reconstruct High Resolution Image from Irregularly Sampled Pixels  via  Hierarchical Gradient Learning,Yuanlin Wang · Ruiqin Xiong · Rui Zhao · Jin Wang · Xiaopeng Fan · Tiejun Huang,Poster Session 3
+Soft Local Completeness: Rethinking Completeness in XAI,Ziv Weiss Haddad · Oren Barkan · Yehonatan Elisha · Noam Koenigstein,Poster Session 5
+Uncertainty-Aware Diffusion-Guided Refinement of 3D Scenes,Sarosij Bose · Arindam Dutta · Sayak Nag · Junge Zhang · Jiachen Li · Konstantinos Karydis · Amit Roy-Chowdhury,Poster Session 6
+Unbiased Region-Language Alignment for Open-Vocabulary Dense Prediction,Yunheng Li · Yuxuan Li · Quan-Sheng Zeng · Wenhai Wang · Qibin Hou · Ming-Ming Cheng,Poster Session 5
+FedDifRC: Unlocking the Potential of Text-to-Image Diffusion Models in Heterogeneous Federated Learning,Huan Wang · Haoran Li · Huaming Chen · Jun Yan · Jiahua Shi · Jun Shen,Poster Session 1
+Streaming VideoLLMs for Real-Time Procedural Video Understanding,Dibyadip Chatterjee · Edoardo Remelli · Yale Song · Bugra Tekin · Abhay Mittal · Bharat Bhatnagar · Necati Cihan Camgoz · Shreyas Hampali · Eric Sauser · Shugao Ma · Angela Yao · Fadime Sener,Poster Session 5
+RESCUE: Crowd Evacuation Simulation via Controlling SDM-United Characters,Xiaolin Liu · Tianyi zhou · Hongbo Kang · Jian Ma · Ziwen Wang · Jing Huang · Wenguo Weng · Yu-Kun Lai · Kun Li,Poster Session 6
+DAA*: Deep Angular A Star for Image-based Path Planning,Zhiwei Xu,Poster Session 6
+SV4D 2.0: Enhancing Spatio-Temporal Consistency in Multi-View Video Diffusion for High-Quality 4D Generation,Chun-Han Yao · Yiming Xie · Vikram Voleti · Huaizu Jiang · Varun Jampani,Poster Session 3
+Toward Long-Tailed Online Anomaly Detection through Class-Agnostic Concepts,Chiao-An Yang · Kuan-Chuan Peng · Raymond A. Yeh,Poster Session 5
+Latent Swap Joint Diffusion for 2D Long-Form Latent Generation,Yusheng Dai · Chenxi Wang · Chang Li · Chen Wang · Kewei Li · Jun Du · Lei Sun · Jianqing Gao · Ruoyu Wang · Jiefeng Ma,Poster Session 3
+Learned Image Compression with Hierarchical Progressive Context Modeling,Yuqi Li · Haotian Zhang · Li Li · Dong Liu,Poster Session 4
+SpiLiFormer: Enhancing Spiking Transformers with Lateral Inhibition,Zeqi Zheng · Yanchen Huang · Yingchao Yu · Zizheng Zhu · Junfeng Tang · Zhaofei Yu · Yaochu Jin,Poster Session 5
+DCHM: Depth-Consistent Human Modeling for Multiview Detection,Jiahao Ma · Tianyu Wang · Miaomiao Liu · David Ahmedt Aristizabal · Chuong Nguyen,Poster Session 2
+Egocentric Action-aware Inertial Localization in Point Clouds with Vision-Language Guidance,Mingfang Zhang · Ryo Yonetani · Yifei Huang · Liangyang Ouyang · Ruicong Liu · Yoichi Sato,Poster Session 6
+Dual-Process Image Generation,Grace Luo · Jonathan Granskog · Aleksander Holynski · Trevor Darrell,Poster Session 4
+HiERO: Understanding the Hierarchy of Human Behavior Enhances Reasoning on Egocentric Videos,Simone Alberto Peirone · Francesca Pistilli · Giuseppe Averta,Poster Session 5
+GS-Occ3D: Scaling Vision-only Occupancy Reconstruction with Gaussian Splatting,Baijun Ye · Minghui Qin · Saining Zhang · Moonjun Gong · Shaoting Zhu · Hao Zhao · Hang Zhao,Poster Session 6
+Faster and Better 3D Splatting via Group Training,Chengbo Wang · Guozheng Ma · Yizhen Lao · Yifei Xue,Poster Session 6
+ResQ: A Novel Framework to Implement Residual Neural Networks on Analog Rydberg Atom Quantum Computers,Nicholas DiBrita · Jason Han · Tirthak Patel,Poster Session 5
+BridgeDepth: Bridging Monocular and Stereo Reasoning with Latent Alignment,Tongfan Guan · Jiaxin Guo · Chen Wang · Yun-Hui Liu,Poster Session 6
+Learning Robust Image Watermarking with Lossless Cover Recovery,jiale chen · Wei Wang · Chongyang Shi · Li Dong · Xiping Hu,Poster Session 4
+Self-Reinforcing Prototype Evolution with Dual-Knowledge Cooperation for Semi-Supervised Lifelong Person Re-Identification,Kunlun Xu · Fan Zhuo · Jiangmeng Li · Xu Zou · Jiahuan Zhou,Poster Session 1
+Revisiting Image Fusion for Multi-Illuminant White-Balance Correction,David Serrano · Aditya Arora · Luis Herranz · Kosta Derpanis · Michael Brown · Javier Vazquez-Corral,Poster Session 2
+FlowSeek: Optical Flow Made Easier with Depth Foundation Models and Motion Bases,Matteo Poggi · Fabio Tosi,Poster Session 2
+Constructing Ophthalmic MLLM for Positioning-diagnosis Collaboration Through Clinical Cognitive Chain Reasoning,Xinyao Liu · Diping Song,Poster Session 5
+CARP: Visuomotor Policy Learning via Coarse-to-Fine Autoregressive Prediction,Zhefei Gong · Pengxiang Ding · Shangke Lyu · Siteng Huang · Mingyang Sun · Wei Zhao · Zhaoxin Fan · Donglin Wang,Poster Session 3
+MDD: A Dataset for Text-and-Music Conditioned Duet Dance Generation,Prerit Gupta · Jason Alexander Fotso-Puepi · Zhengyuan Li · Jay Mehta · Aniket Bera,Poster Session 3
+MultiverSeg: Scalable Interactive Segmentation of Biomedical Imaging Datasets with In-Context Guidance,Hallee Wong · Jose Javier Gonzalez Ortiz · John Guttag · Adrian Dalca,Poster Session 5
+"Hybrid Layout Control for Diffusion Transformer: Fewer Annotations, Superior Aesthetics",Keming Wu · Junwen Chen · Zhanhao Liang · Yinuo Wang · Ji Li · Chao Zhang · Bin Wang · Yuhui Yuan,Poster Session 4
+Early Timestep Zero-Shot Candidate Selection for Instruction-Guided Image Editing,Joowon Kim · Ziseok Lee · Donghyeon Cho · Sanghyun Jo · Yeonsung Jung · Kyungsu Kim · Eunho Yang,Poster Session 4
+Borrowing Eyes for the Blind Spot: Overcoming Data Scarcity in Malicious Video Detection via Cross-Domain Retrieval Augmentation,Rongpei Hong · Jian Lang · Ting Zhong · Fan Zhou,Poster Session 5
+LLaVA-SP: Enhancing Visual Representation with Visual Spatial Tokens for MLLMs,Haoran Lou · Chunxiao Fan · Ziyan Liu · Yuexin Wu · Xinliang Wang,Poster Session 5
+ZIM: Zero-Shot Image Matting for Anything,Beomyoung Kim · Chanyong Shin · Joonhyun Jeong · Hyungsik Jung · Seyun Lee · Sewhan Chun · Dong-Hyun HWANG · Joonsang Yu,Poster Session 5
+Transformer-based Tooth Alignment Prediction with Occlusion and Collision Constraints,DongZhenXing DongZhenXing · Jiazhou Chen,Poster Session 6
+EC-Flow: Enabling Versatile Robotic Manipulation from Action-Unlabeled Videos via Embodiment-Centric Flow,Yixiang Chen · Peiyan Li · Yan Huang · Jiabing Yang · Kehan Chen · Liang Wang,Poster Session 3
+Boosting Multi-View Indoor 3D Object Detection via Adaptive 3D Volume Construction,Runmin Zhang · Zhu Yu · Si-Yuan Cao · Lingyu Zhu · Guangyi Zhang · Xiaokai Bai · Hui-liang Shen,Poster Session 2
+TextSSR: Diffusion-based Data Synthesis for Scene Text Recognition,Xingsong Ye · Yongkun Du · Yunbo Tao · Zhineng Chen,Poster Session 4
+Neighboring Autoregressive Modeling for Efficient Visual Generation,Yefei He · Yuanyu He · Shaoxuan He · Feng Chen · Hong Zhou · Kaipeng Zhang · Bohan Zhuang,Poster Session 4
+DexVLG: Dexterous Vision-Language-Grasp Model at Scale,Jiawei He · Danshi Li · Xinqiang Yu · Zekun Qi · Wenyao Zhang · Jiayi Chen · Zhaoxiang Zhang · Zhizheng Zhang · Li Yi · He Wang,Poster Session 3
+DAViD: Data-efficient and Accurate Vision Models from Synthetic Data,Fatemeh Saleh · Sadegh Aliakbarian · Charlie Hewitt · Lohit Petikam · Xiao Xian · Antonio Criminisi · Thomas J. Cashman · Tadas Baltrusaitis,Poster Session 2
+St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World,Haiwen Feng · Junyi Zhang · Qianqian Wang · Yufei Ye · Pengcheng Yu · Michael Black · Trevor Darrell · Angjoo Kanazawa,Poster Session 2
+COIN: Confidence Score-Guided Distillation for Annotation-Free Cell Segmentation,Sanghyun Jo · Seo Lee · Seungwoo Lee · Seohyung Hong · Hyungseok Seo · Kyungsu Kim,Poster Session 5
+Human-in-the-Loop Local Corrections of 3D Scene Layouts via Infilling,Christopher Xie · Armen Avetisyan · Henry Howard-Jenkins · Yawar Siddiqui · Julian Straub · Richard Newcombe · Vasileios Balntas · Jakob Engel,Poster Session 2
+PHD: Personalized 3D Human Body Fitting with Point Diffusion,Hsuan-I Ho · Chen Guo · Po-Chen Wu · Ivan Shugurov · Chengcheng Tang · Abhay Mittal · Sizhe An · Manuel Kaufmann · Linguang Zhang,Poster Session 2
+"Generate, Transduct, Adapt: Iterative Transduction with VLMs",Oindrila Saha · Logan Lawrence · Grant Horn · Subhransu Maji,Poster Session 1
+VGGSounder: Audio-Visual Evaluations for Foundation Models,Daniil Zverev · Thaddäus Wiedemer · Ameya Prabhu · Matthias Bethge · Wieland Brendel · A. Sophia Koepke,Poster Session 1
+Aligning Moments in Time using Video Queries,Yogesh Kumar · Uday Agarwal · Manish Gupta · Anand Mishra,Poster Session 5
+Online Dense Point Tracking with Streaming Memory,Qiaole Dong · Yanwei Fu,Poster Session 2
+MOVE: Motion-Guided Few-Shot Video Object Segmentation,Kaining Ying · Hengrui Hu · Henghui Ding,Poster Session 3
+CoMoGaussian: Continuous Motion-Aware Gaussian Splatting from Motion-Blurred Images,Jungho Lee · DongHyeong Kim · Dogyoon Lee · Suhwan Cho · Minhyeok Lee · Wonjoon Lee · Taeoh Kim · Dongyoon Wee · Sangyoun Lee,Poster Session 6
+ReAL-AD: Towards Human-Like Reasoning in End-to-End Autonomous Driving,Yuhang Lu · Jiadong Tu · Yuexin Ma · Xinge Zhu,Poster Session 6
+Decoupled Diffusion Sparks Adaptive Scene Generation,Yunsong Zhou · Naisheng Ye · William Ljungbergh · Tianyu Li · Jiazhi Yang · Zetong Yang · Hongzi Zhu · Christoffer Petersson · Hongyang Li,Poster Session 6
+OccluGaussian: Occlusion-Aware Gaussian Splatting for Large Scene Reconstruction and Rendering,Shiyong Liu · Xiao Tang · Zhihao Li · Yingfan He · Chongjie Ye · Jianzhuang Liu · Binxiao Huang · Shunbo Zhou · Xiaofei Wu,Poster Session 6
+Photolithography Overlay Map Generation with Implicit Knowledge Distillation Diffusion Transformer,YuanFu Yang · Hsiu-Hui Hsiao,Poster Session 4
+Edicho: Consistent Image Editing in the Wild,Qingyan Bai · Hao Ouyang · Yinghao Xu · Qiuyu Wang · Ceyuan Yang · Ka Leong Cheng · Yujun Shen · Qifeng Chen,Poster Session 4
+"Boosting Domain Generalized and Adaptive Detection with Diffusion Models: Fitness, Generalization, and Transferability",Boyong He · Yuxiang Ji · Zhuoyue Tan · Liaoni Wu,Poster Session 1
+STD-GS: Exploring Frame-Event Interaction for SpatioTemporal-Disentangled Gaussian Splatting to Reconstruct High-Dynamic Scene,Hanyu Zhou · Haonan Wang · Haoyue Liu · Yuxing Duan · Luxin Yan · Gim Hee Lee,Poster Session 6
+Exploring the Visual Feature Space for Multimodal Neural Decoding,Weihao Xia · Cengiz Oztireli,Poster Session 1
+Dataset Distillation via Vision-Language Category Prototype,YAWEN ZOU · Guang Li · Duo Su · Zi Wang · Jun YU · Chao Zhang,Poster Session 1
+Stereo Any Video: Temporally Consistent Stereo Matching,Junpeng Jing · Weixun Luo · Ye Mao · Krystian Mikolajczyk,Poster Session 5
+Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos with Spatio-Temporal Diffusion Models,Yudong Jin · Sida Peng · Xuan Wang · Tao Xie · Zhen Xu · Yifan Yang · Yujun Shen · Hujun Bao · Xiaowei Zhou,Poster Session 3
+PROGRESSOR: A Perceptually Guided Reward Estimator with Self-Supervised Online Refinement,Tewodros W. Ayalew · Xiao Zhang · Kevin Y Wu · Tianchong Jiang · Michael Maire · Matthew Walter,Poster Session 3
+IM-LUT: Interpolation Mixing Look-Up Tables for Image Super-Resolution,Sejin Park · Sangmin Lee · Kyong Hwan Jin · Seung-Won Jung,Poster Session 3
+On-Device Diffusion Transformer Policy for Efficient Robot Manipulation,Yiming Wu · Huan Wang · Zhenghao Chen · Jianxin Pang · Dong Xu,Poster Session 3
+SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning,Zhi Chen · Zecheng Zhao · Jingcai Guo · Jingjing Li · Zi Huang,Poster Session 1
+Collaborative Instance  Object Navigation: Leveraging Uncertainty-Awareness to Minimize Human-Agent Dialogues,Francesco Taioli · Edoardo Zorzi · Gianni Franchi · Alberto Castellini · Alessandro Farinelli · Marco Cristani · Yiming Wang,Poster Session 4
+On the Complexity-Faithfulness Trade-off of Gradient-Based Explanations,Amir Mehrpanah · Matteo Gamba · Kevin Smith · Hossein Azizpour,Poster Session 1
+The Source Image is the Best Attention for Infrared and Visible Image Fusion,Song Wang · Xie Han · Liqun Kuang · Boying Wang · Zhongyu Chen · Zherui Qiao · Fan Yang · Xiaoxia Liu · Bingyu Zhang · Zhixun Wang,Poster Session 3
+Flash-VStream: Efficient Real-Time Understanding for Long Video Streams,Haoji Zhang · Yiqin Wang · Yansong Tang · Yong Liu · Jiashi Feng · Xiaojie Jin,Poster Session 5
+Is Less More? Exploring Token Condensation as Training-free Test-time Adaptation,Zixin Wang · Dong Gong · Sen Wang · Zi Huang · Yadan Luo,Poster Session 1
+6DOPE-GS: Online 6D Object Pose Estimation using Gaussian Splatting,Yufeng Jin · Vignesh Prasad · Snehal Jauhri · Mathias Franzius · Georgia Chalvatzaki,Poster Session 2
+Exploiting Diffusion Prior for Task-driven Image Restoration,Jaeha Kim · Junghun Oh · Kyoung Mu Lee,Poster Session 3
+VITAL: More Understandable Feature Visualization through Distribution Alignment and Relevant Information Flow,Ada Görgün · Bernt Schiele · Jonas Fischer,Poster Session 1
+Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localization,Hao Ju · Shaofei Huang · Si Liu · Zhedong Zheng,Poster Session 6
+Adaptive Learning of High-Value Regions for Semi-Supervised Medical Image Segmentation,Tao Lei · Ziyao Yang · Xingwu wang · Yi Wang · Xuan Wang · FeimanSun FeimanSun · Asoke Nandi,Poster Session 5
+Beyond Spatial Frequency: Pixel-wise Temporal Frequency-based Deepfake Video Detection,Taehoon Kim · Jongwook Choi · Yonghyun Jeong · Haeun Noh · Jaejun Yoo · Seungryul Baek · Jongwon Choi,Poster Session 3
+Alleviating Textual Reliance in Medical Language-guided Segmentation via Prototype-driven Semantic Approximation,Shuchang Ye · Usman Naseem · Mingyuan Meng · jinman kim,Poster Session 5
+GeometryCrafter: Consistent Geometry Estimation for Open-world Videos with Diffusion Priors,Tian-Xing Xu · Xiangjun Gao · Wenbo Hu · Xiaoyu Li · Song-Hai Zhang · Ying Shan,Poster Session 2
+Puzzle Similarity: A Perceptually-guided Cross-Reference Metric for Artifact Detection in 3D Scene Reconstructions,Nicolai Hermann · Jorge Condor · Piotr Didyk,Poster Session 6
+Simulating Dual-Pixel Images From Ray Tracing For Depth Estimation,Fengchen He · Dayang Zhao · Hao Xu · Tingwei Quan · Shaoqun zeng,Poster Session 6
+Representation Shift: Unifying Token Compression with FlashAttention,Joonmyung Choi · Sanghyeok Lee · Byungoh Ko · Eunseo Kim · Jihyung Kil · Hyunwoo Kim,Poster Session 5
+"``Principal Components"" Enable A New Language of Images",Xin Wen · Bingchen Zhao · Ismail Elezi · Jiankang Deng · Xiaojuan Qi,Poster Session 4
+Learning Robust Stereo Matching in the Wild with Selective Mixture-of-Experts,Yun Wang · Longguang Wang · Chenghao Zhang · Yongjian Zhang · Zhanjie Zhang · Ao Ma · Chenyou Fan · Tin Lun Lam · Junjie Hu,Poster Session 5
+DIMO: Diverse 3D Motion Generation for Arbitrary Objects,Linzhan Mou · Jiahui Lei · Chen Wang · Lingjie Liu · Kostas Daniilidis,Poster Session 3
+VertexRegen: Mesh Generation with Continuous Level of Detail,Xiang Zhang · Yawar Siddiqui · Armen Avetisyan · Christopher Xie · Jakob Engel · Henry Howard-Jenkins,Poster Session 3
+Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models,Xinyu Chen · Haotian Zhai · Can Zhang · XIUPENG SHI · Ruirui Li,Poster Session 1
+Forecasting Continuous Non-Conservative Dynamical Systems in SO(3),Lennart Bastian · Mohammad Rashed · Nassir Navab · Tolga Birdal,Poster Session 4
+EvaGaussians: Event Stream Assisted Gaussian Splatting from Blurry Images,Wangbo Yu · Chaoran Feng · Jianing Li · Jiye Tang · Jiashu Yang · Zhenyu Tang · Meng Cao · Xu Jia · Yuchao Yang · Li Yuan · Yonghong Tian,Poster Session 6
+ReFlex: Text-Guided Editing of Real Images in Rectified Flow via Mid-Step Feature Extraction and Attention Adaptation,Jimyeong Kim · Jungwon Park · Yeji Song · Nojun Kwak · Wonjong Rhee,Poster Session 4
+Spherical Epipolar Rectification for Deep Two-View Absolute Depth Estimation,Pierre-André Brousseau · Sébastien Roy,Poster Session 6
+Dynamic Dictionary Learning for Remote Sensing Image Segmentation,Xuechao Zou · Yue Li · Shun Zhang · Kai Li · Shiying Wang · Pin Tao · Junliang Xing · congyan lang,Poster Session 5
+Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations,Dahee Kwon · Sehyun Lee · Jaesik Choi,Poster Session 1
+CAVIS: Context-Aware Video Instance Segmentation,Seunghun Lee · Jiwan Seo · Kiljoon Han · Minwoo Choi · Sunghoon Im,Poster Session 1
+Fine-Tuning Visual Autogressive Models for Subject-Driven Generation,Jiwoo Chung · Sangeek Hyun · Hyunjun Kim · Eunseo Koh · Minkyu Lee · Jae-Pil Heo,Poster Session 4
+Robust 3D Object Detection using Probabilistic Point Clouds from Single-Photon LiDARs,Bhavya Goyal · Felipe Gutierrez-Barragan · Wei Lin · Andreas Velten · Yin Li · Mohit Gupta,Poster Session 6
+Harnessing Text-to-Image Diffusion Models for Point Cloud Self-Supervised Learning,Yiyang Chen · Shanshan Zhao · Lunhao Duan · Changxing Ding · Dacheng Tao,Poster Session 6
+ESSENTIAL: Episodic and Semantic Memory Integration for Video Class-Incremental Learning,Jongseo Lee · Kyungho Bae · Kyle Min · Gyeong-Moon Park · Jinwoo Choi,Poster Session 4
+Parametric Shadow Control for Portrait Generation in Text-to-Image Diffusion Models,Haoming Cai · Tsung-Wei Huang · Shiv Gehlot · Brandon Feng · Sachin Shah · Guan-Ming Su · Christopher Metzler,Poster Session 4
+DDB: Diffusion Driven Balancing to Address Spurious Correlations,Aryan Yazdan Parast · Basim Azam · Naveed Akhtar,Poster Session 4
+Clink! Chop! Thud! - Learning Object Sounds from Real-World Interactions,Mengyu Yang · Yiming Chen · Haozheng Pei · Siddhant Agarwal · Arun Vasudevan · James Hays,Poster Session 3
+PAN-Crafter: Learning Modality-Consistent Alignment for PAN-Sharpening,Jeonghyeok Do · Sungpyo Kim · Geunhyuk Youk · Jaehyup Lee · Munchurl Kim,Poster Session 1
+GenDoP: Auto-regressive Camera Trajectory Generation as a Director of Photography,Mengchen Zhang · Tong Wu · Jing Tan · Ziwei Liu · Gordon Wetzstein · Dahua Lin,Poster Session 4
+RayGaussX: Accelerating Gaussian-Based Ray Marching for Real-Time and High-Quality Novel View Synthesis,Hugo Blanc · Jean-Emmanuel Deschaud · Alexis Paljic,Poster Session 6
+Spatially-Varying Autofocus,Yingsi Qin · Aswin Sankaranarayanan · Matthew O'Toole,Poster Session 6
+Bayesian-Inspired Space-Time Superpixels,Kent Gauen · Stanley Chan,Poster Session 2
+NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes,Han-Hung Lee · Qinghong Han · Angel Chang,Poster Session 6
+Towards Immersive Human-X Interaction: A Real-Time Framework for Physically Plausible Motion Synthesis,Kaiyang Ji · Ye Shi · Zichen Jin · Kangyi Chen · Lan Xu · Yuexin Ma · Jingyi Yu · Jingya Wang,Poster Session 3
+Punching Bag vs. Punching Person: Motion Transferability in Videos,Raiyaan Abdullah · Jared Claypoole · Michael Cogswell · Ajay Divakaran · Yogesh Rawat,Poster Session 3
+WalkVLM: Aid Visually Impaired People Walking by Vision Language Model,Zhiqiang Yuan · Ting Zhang · Yeshuang Zhu · Jiapei Zhang · Ying Deng · Zexi Jia · Peixiang Luo · Xiaoyue Duan · Jie Zhou · Jinchao Zhang,Poster Session 2
+Web Artifact Attacks Disrupt Vision Language Models,Maan Qraitem · Piotr Teterwak · Kate Saenko · Bryan Plummer,Poster Session 1
+"Are VLMs Ready for Autonomous Driving? An Empirical Study from the Reliability, Data and Metric Perspectives",Shaoyuan Xie · Lingdong Kong · Yuhao Dong · Chonghao Sima · Wenwei Zhang · Qi Alfred Chen · Ziwei Liu · Liang Pan,Poster Session 2
+LLaVA-CoT: Let Vision Language Models Reason Step-by-Step,Guowei Xu · Peng Jin · ZiangWu ZiangWu · Li Hao · Yibing Song · Lichao Sun · Li Yuan,Poster Session 1
+LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment,Juelin Zhu · Shuaibang Peng · Long Wang · Hanlin Tan · Yu Liu · Maojun Zhang · Shen Yan,Poster Session 6
+StrandHead: Text to Hair-Disentangled 3D Head Avatars Using Human-Centric Priors,Xiaokun Sun · Zeyu Cai · Ying Tai · Jian Yang · Zhenyu Zhang,Poster Session 3
+Towards Adversarial Robustness via Debiased High-Confidence Logit Alignment,Kejia Zhang · Juanjuan Weng · Zhiming Luo · Shaozi Li,Poster Session 1
+GenFlowRL: Shaping Rewards with Generative Object-Centric Flow in Visual Reinforcement Learning,Kelin Yu · Sheng Zhang · Harshit Soora · Furong Huang · Heng Huang · Pratap Tokekar · Ruohan Gao,Poster Session 3
+HoliTracer: Holistic Vectorization of Geographic Objects from Large-Size Remote Sensing Imagery,Yu Wang · Bo Dang · Wanchun Li · Wei Chen · Yansheng Li,Poster Session 2
+SparseFlex: High-Resolution and Arbitrary-Topology 3D Shape Modeling,Xianglong He · Zi-Xin Zou · Chia Hao Chen · Yuan-Chen Guo · Ding Liang · Chun Yuan · Wanli Ouyang · Yanpei Cao · Yangguang Li,Poster Session 4
+HQ-CLIP: Leveraging Large Vision-Language Models to Create High-Quality Image-Text Datasets and CLIP Models,ZHIXIANG WEI · Guangting Wang · Xiaoxiao Ma · Ke Mei · Fengyun Rao · Huaian Chen · Yi Jin,Poster Session 5
+GUAVA: Generalizable Upper Body 3D Gaussian Avatar,Dongbin Zhang · Yunfei Liu · Lijian Lin · Ye Zhu · Yang Li · Minghan Qin · Yu Li · Haoqian Wang,Poster Session 3
+M2SFormer: Multi-Spectral and Multi-Scale Attention with Edge-Aware Difficulty Guidance for Image Forgery Localization,Ju-Hyeon Nam · Dong-Hyun Moon · Sang-Chul Lee,Poster Session 4
+Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation,Congyi Fan · Jian Guan · Xuanjia Zhao · Dongli Xu · Youtian Lin · Tong Ye · Pengming Feng · Haiwei Pan,Poster Session 3
+SAM4D: Segment Anything in Camera and LiDAR Streams,Jianyun Xu · Song Wang · Ziqian Ni · Chunyong Hu · Sheng Yang · Jianke Zhu · Qiang Li,Poster Session 6
+Task Vector Quantization for Memory-Efficient Model Merging,Youngeun Kim · Seunghwan Lee · Aecheon Jung · Bogon Ryu · Sungeun Hong,Poster Session 5
+2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos,Marvin Heidinger · Snehal Jauhri · Vignesh Prasad · Georgia Chalvatzaki,Poster Session 3
+Devil is in the Uniformity: Exploring Diverse Learners within Transformer for Image Restoration,Shihao Zhou · Dayu Li · Jinshan Pan · Juncheng Zhou · Jinglei Shi · Jufeng Yang,Poster Session 3
+Aligning Vision to Language: Annotation-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning,Junming Liu · Siyuan Meng · Yanting Gao · Song Mao · Pinlong Cai · Guohang Yan · Yirong Chen · Zilin Bian · DING WANG · Botian Shi,Poster Session 1
+LocalDyGS: Multi-view Global Dynamic Scene Modeling via Adaptive Local Implicit Feature Decoupling,Jiahao Wu · Rui Peng · Jianbo Jiao · Jiayu Yang · Luyang Tang · Kaiqiang Xiong · Jie Liang · Jinbo Yan · runling liu · Ronggang Wang,Poster Session 2
+LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing,Federico Girella · Davide Talon · Ziyue Liu · Zanxi Ruan · Yiming Wang · Marco Cristani,Poster Session 5
+QR-LoRA: Efficient and Disentangled Fine-tuning via QR Decomposition for Customized Generation,Jiahui Yang · Yongjia Ma · Donglin Di · Hao Li · Chen Wei · Xie Yan · Jianxun Cui · Xun Yang · Wangmeng Zuo,Poster Session 4
+"GEMeX: A Large-Scale, Groundable, and Explainable Medical VQA Benchmark for Chest X-ray Diagnosis",Bo Liu · Ke Zou · Li-Ming Zhan · ZEXIN LU · Xiaoyu DONG · Chengqiang Xie · Yidi Chen · Jiannong Cao · Xiao-Ming Wu · Huazhu Fu,Poster Session 5
+Learning Separable Fine-Grained Representation via Dendrogram Construction from Coarse Labels for Fine-grained Visual Recognition,Guanghui Shi · Xuefeng liang · Wenjie Li · Xiaoyu Lin,Poster Session 1
+Self-Supervised Sparse Sensor Fusion for Long Range Perception,Edoardo Palladin · Samuel Brucker · Filippo Ghilotti · Praveen Narayanan · Mario Bijelic · Felix Heide,Poster Session 6
+DiGA3D: Coarse-to-Fine Diffusional Propagation of Geometry and Appearance for Versatile 3D Inpainting,Jingyi Pan · Dan Xu · Qiong Luo,Poster Session 4
+ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering,Kaisi Guan · Zhengfeng Lai · Yuchong Sun · Peng Zhang · Wei Liu · Xiaojiang Liu · Meng Cao · Ruihua Song,Poster Session 5
+Intervening in Black Box: Concept Bottleneck Model for Enhancing Human Neural Network Mutual Understanding,Nuoye Xiong · Anqi Dong · Ning Wang · Cong Hua · Guangming Zhu · Lin Mei · peiyi shen · zhang liang,Poster Session 1
+LOMM: Latest Object Memory Management for Temporally Consistent Video Instance Segmentation,Seunghun Lee · Jiwan Seo · Minwoo Choi · Kiljoon Han · Jaehoon Jeong · Zane Durante · Ehsan Adeli · Sang Hyun Park · Sunghoon Im,Poster Session 3
+MagicMirror: ID-Preserved Video Generation in Video Diffusion Transformers,Yuechen Zhang · YaoYang Liu · Bin Xia · Bohao PENG · Zexin Yan · Eric Lo · Jiaya Jia,Poster Session 3
+IDF: Iterative Dynamic Filtering Networks for Generalizable Image Denoising,Dongjin Kim · Jaekyun Ko · Muhammad Kashif Ali · Tae Hyun Kim,Poster Session 3
+Rep-MTL: Unleashing the Power of Representation-level Task Saliency for Multi-Task Learning,Zedong Wang · Siyuan Li · Dan Xu,Poster Session 1
+Cross-modal Ship Re-Identification via Optical and SAR Imagery: A Novel Dataset and Method,Han Wang · Shengyang Li · Jian Yang · Yuxuan Liu · Yixuan Lv · Zhuang Zhou,Poster Session 2
+AIComposer: Any Style and Content Image Composition via Feature Integration,Haowen Li · Zhenfeng Fan · Zhang Wen · Zhengzhou Zhu · Yunjin Li,Poster Session 4
+ACE-G: Improving Generalization of Scene Coordinate Regression Through Query Pre-Training,Leonard Bruns · Axel Barroso-Laguna · Tommaso Cavallari · Áron Monszpart · Sowmya Munukutla · Victor Prisacariu · Eric Brachmann,Poster Session 6
+VPO: Aligning Text-to-Video Generation Models with Prompt Optimization,Jiale Cheng · Ruiliang Lyu · Xiaotao Gu · Xiao Liu · Jiazheng Xu · Yida Lu · Jiayan Teng · Zhuoyi Yang · Yuxiao Dong · Jie Tang · Hongning Wang · Minlie Huang,Poster Session 4
+Embodied Image Captioning: Self-supervised Learning Agents for Spatially Coherent Image Descriptions,Tommaso Galliena · Tommaso Apicella · Stefano Rosa · Pietro Morerio · ALESSIO DEL BUE · Lorenzo Natale,Poster Session 5
+Controllable 3D Outdoor Scene Generation via Scene Graphs,Yuheng Liu · Xinke Li · Yuning Zhang · Lu Qi · Xin Li · Wenping Wang · Chongshou Li · Xueting Li · Ming-Hsuan Yang,Poster Session 6
+Coordinate-based Speed of Sound Recovery for Aberration-Corrected Photoacoustic Computed Tomography,Tianao Li · Manxiu Cui · Cheng Ma · Emma Alexander,Poster Session 6
+Controllable Latent Space Augmentation for Digital Pathology,Sofiène Boutaj · Marin Scalbert · Pierre Marza · Florent Couzinie-Devy · Maria Vakalopoulou · Stergios Christodoulidis,Poster Session 5
+Mind the Gap: Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning,Linlan Huang · Xusheng Cao · Haori Lu · Yifan Meng · Fei Yang · Xialei Liu,Poster Session 1
+OURO: A Self-Bootstrapped Framework for Enhancing Multimodal Scene Understanding,Tianrun Xu · Guanyu Chen · Ye Li · Xi Yuxin · Zeyu Mu · Ruichen Wang · Tianren Zhang · Haichuan Gao · Feng Chen,Poster Session 4
+Group-wise Scaling and Orthogonal Decomposition for Domain-Invariant Feature Extraction in Face Anti-Spoofing,Seungjin Jung · Kanghee Lee · Yonghyun Jeong · Haeun Noh · Jungmin Lee · Jongwon Choi,Poster Session 3
+Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search,Shuyu Yang · Yaxiong Wang · Li Zhu · Zhedong Zheng,Poster Session 3
+IQA-Adapter: Exploring Knowledge Transfer from Image Quality Assessment to Diffusion-based Generative Models,Khaled Abud · Sergey Lavrushkin · Alexey Kirillov · Dmitriy Vatolin,Poster Session 4
+LLaFEA: Frame-Event Complementary Fusion for Fine-Grained Spatiotemporal Understanding in LMMs,Hanyu Zhou · Gim Hee Lee,Poster Session 5
+LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos,Chin-Yang Lin · Cheng Sun · Fu-En Yang · Min-Hung Chen · Yen-Yu Lin · Yu-Lun Liu,Poster Session 6
+PROL : Rehearsal Free Continual Learning in Streaming Data via Prompt Online Learning,Muhammad Anwar Ma'sum · Mahardhika Pratama · Savitha Ramasamy · Lin Liu · H Habibullah · Ryszard Kowalczyk,Poster Session 1
+PRISM: Reducing Spurious Implicit Biases in Vision-Language Models with LLM-Guided Embedding Projection,Mahdiyar Molahasani · Azadeh Motamedi · Michael Greenspan · Il-Min Kim · Ali Etemad,Poster Session 1
+PlanGen: Towards Unified Layout Planning and Image Generation in Auto-Regressive Vision Language Models,Runze He · bo cheng · Yuhang Ma · QingxiangJia QingxiangJia · Shanyuan Liu · Ao Ma · Xiaoyu Wu · Liebucha Wu · Dawei Leng · Yuhui Yin,Poster Session 4
+Unsupervised RGB-D Point Cloud Registration for Scenes with Low Overlap and Photometric Inconsistency,yejun Shou · Haocheng Wang · Lingfeng Shen · Qian Zheng · Gang Pan · Yanlong Cao,Poster Session 6
+Holistic Unlearning Benchmark: A Multi-Faceted Evaluation for Text-to-Image Diffusion Model Unlearning,Saemi Moon · Minjong Lee · Sangdon Park · Dongwoo Kim,Poster Session 4
+SketchSplat: 3D Edge Reconstruction via Differentiable Multi-view Sketch Splatting,Haiyang Ying · Matthias Zwicker,Poster Session 6
+DiT4SR: Taming Diffusion Transformer for Real-World Image Super-Resolution,Zheng-Peng Duan · jiawei zhang · Xin Jin · Ziheng Zhang · Zheng Xiong · Dongqing Zou · Jimmy Ren · Chun-Le Guo · Chongyi Li,Poster Session 4
+TESPEC: Temporally-Enhanced Self-Supervised Pretraining for Event Cameras,Mohammad Mohammadi · Ziyi Wu · Igor Gilitschenski,Poster Session 2
+Training-free Geometric Image Editing on Diffusion Models,Hanshen Zhu · Zhen Zhu · Kaile Zhang · Yiming Gong · Yuliang Liu · Xiang Bai,Poster Session 4
+SCFlow: Implicitly Learning Style and Content Disentanglement with Flow Models,Pingchuan Ma · Xiaopei Yang · Ming Gui · Yusong Li · Felix Krause · Johannes Schusterbauer · Björn Ommer,Poster Session 4
+WonderTurbo: Generating Interactive 3D World in 0.72 Seconds,Chaojun Ni · Xiaofeng Wang · Zheng Zhu · Weijie Wang · Haoyun Li · Guosheng Zhao · Jie Li · Wenkang Qin · Guan Huang · Wenjun Mei,Poster Session 6
+Training-Free Personalization via Retrieval and Reasoning on Fingerprints,Deepayan Das · Davide Talon · Yiming Wang · Massimiliano Mancini · Elisa Ricci,Poster Session 2
+Efficient Unsupervised Shortcut Learning Detection and Mitigation in Transformers,Lukas Kuhn · sari sadiya · Jörg Schlötterer · Florian Buettner · Christin Seifert · Gemma Roig,Poster Session 1
+FreeDance: Towards Harmonic Free-Number Group Dance Generation via a Unified Framework,Yiwen Zhao · Yang Wang · Liting Wen · Hengyuan Zhang · Xingqun Qi,Poster Session 3
+MIEB: Massive Image Embedding Benchmark,Chenghao Xiao · Isaac Chung · Imene Kerboua · Jamie Stirling · Xin Zhang · Márton Kardos · Roman Solomatin · Noura Al Moubayed · Kenneth Enevoldsen · Niklas Muennighoff,Poster Session 5
+Lightweight Gradient-Aware Upscaling of 3D Gaussian Splatting Images,Simon Niedermayr · Christoph Neuhauser · Rüdiger Westermann,Poster Session 6
+Do It Yourself: Learning Semantic Correspondence from Pseudo-Labels,Olaf Dünkel · Thomas Wimmer · Christian Theobalt · Christian Rupprecht · Adam Kortylewski,Poster Session 2
+WikiAutoGen: Towards Multi-Modal Wikipedia-Style Article Generation,Zhongyu Yang · Jun Chen · Dannong Xu · Junjie Fei · Xiaoqian Shen · Liangbing Zhao · Chun-Mei Feng · Mohamed Elhoseiny,Poster Session 4
+BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation,Yuanhong Yu · Xingyi He · Chen Zhao · Junhao Yu · Jiaqi Yang · Ruizhen Hu · Yujun Shen · Xing Zhu · Xiaowei Zhou · Sida Peng,Poster Session 2
+Generalized and Efficient 2D Gaussian Splatting for Arbitrary-scale Super-Resolution,Du Chen · Liyi Chen · Zhengqiang ZHANG · Lei Zhang,Poster Session 6
+LongAnimation: Long Animation Generation with Dynamic Global-Local Memory,Nan Chen · Mengqi Huang · Yihao Meng · Zhendong Mao,Poster Session 3
+DADM: Dual Alignment of Domain and Modality for Face Anti-spoofing,Yang JingYi · Xun Lin · Zitong YU · Liepiao Zhang · Xin Liu · Hui Li · Xiaochen Yuan · Xiaochun Cao,Poster Session 3
+Heatmap Regression without Soft-Argmax for Facial Landmark Detection,Chiao-An Yang · Raymond A. Yeh,Poster Session 6
+LVFace: Progressive Cluster Optimization for Large Vision Models in Face Recognition,Jinghan You · Shanglin Li · Yuanrui Sun · Jiangchuanwei Wei · Mingyu Guo · Chao Feng · Jiao Ran,Poster Session 3
+Free-Form Motion Control: Controlling the 6D Poses of Camera and Objects in Video Generation,Xincheng Shuai · Henghui Ding · Zhenyuan Qin · Hao Luo · Xingjun Ma · Dacheng Tao,Poster Session 3
+Timestep-Aware Diffusion Model for Extreme Image Rescaling,Ce Wang · Zhenyu Hu · Wanjie Sun · Zhenzhong Chen,Poster Session 4
+Baking Gaussian Splatting into Diffusion Denoiser for Fast and Scalable Single-stage Image-to-3D Generation and Reconstruction,Yuanhao Cai · He Zhang · Kai Zhang · Yixun Liang · Mengwei Ren · Fujun Luan · Qing Liu · Soo Ye Kim · Jianming Zhang · Zhifei Zhang · Yuqian Zhou · YULUN ZHANG · Xiaokang Yang · Zhe Lin · Alan Yuille,Poster Session 6
+The Devil is in the Spurious Correlations: Boosting Moment Retrieval with Dynamic Learning,Xinyang Zhou · Fanyue Wei · Lixin Duan · Angela Yao · Wen Li,Poster Session 5
+MaterialMVP: Illumination-Invariant Material Generation via Multi-view PBR Diffusion,Zebin He · Mx Yang · Shuhui Yang · Yixuan Tang · Tao Wang · Kaihao Zhang · Guanying Chen · Lliu Yuhong · Jie Jiang · Chunchao Guo · Wenhan Luo,Poster Session 6
+DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation,Donglin Di · He Feng · Wenzhang SUN · Yongjia Ma · Hao Li · Chen Wei · Lei Fan · Tonghua Su · Xun Yang,Poster Session 3
+ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness,Boqian Li · Zeyu Cai · Michael Black · Haiwen Feng · Yuliang Xiu,Poster Session 2
+BokehDiff: Neural Lens Blur with One-Step Diffusion,Chengxuan Zhu · Qingnan Fan · Qi Zhang · Jinwei Chen · Huaqi Zhang · Chao Xu · Boxin Shi,Poster Session 2
+p-MoD: Building Mixture-of-Depths MLLMs via Progressive Ratio Decay,Jun Zhang · Desen Meng · Zhengming Zhang · Zhenpeng Huang · Tao Wu · Limin Wang,Poster Session 1
+Social Debiasing for Fair Multi-modal LLMs,Harry Cheng · Yangyang Guo · Qingpei Guo · Ming Yang · Tian Gan · Weili Guan · Liqiang Nie,Poster Session 1
+"Stronger, Steadier & Superior: Geometric Consistency in Depth VFM Forges Domain Generalized Semantic Segmentation",Siyu Chen · Ting Han · Changshe Zhang · Xin Luo · Meiliu Wu · Guorong Cai · Jinhe Su,Poster Session 2
+CoDa-4DGS: Dynamic Gaussian Splatting with Context and Deformation Awareness for Autonomous Driving,Rui Song · Chenwei Liang · Yan Xia · Walter Zimmer · Hu Cao · Holger Caesar · Andreas Festag · Alois Knoll,Poster Session 6
+ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation,Sherry Chen · Yi Wei · Luowei Zhou · Suren Kumar,Poster Session 4
+Perspective-Invariant 3D Object Detection,Alan Liang · Lingdong Kong · Dongyue Lu · Youquan Liu · Jian Fang · Huaici Zhao · Wei Tsang Ooi,Poster Session 6
+SpatialTrackerV2: Advancing 3D Point Tracking with Explicit Camera Motion,Yuxi Xiao · Jianyuan Wang · Nan Xue · Nikita Karaev · Iurii Makarov · Bingyi Kang · Xing Zhu · Hujun Bao · Yujun Shen · Xiaowei Zhou,Poster Session 2
+ConsistentCity: Semantic Flow-guided Occupancy DiT for Temporally Consistent Driving Scene Synthesis,Benjin Zhu · Xiaogang Wang · Hongsheng Li,Poster Session 6
+Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement,Xin Shen · Xinyu Wang · Lei Shen · Kaihao Zhang · Xin Yu,Poster Session 5
+OrderChain: Towards General Instruct-Tuning for Stimulating the Ordinal Understanding Ability of MLLM,Jinhong Wang · Shuo Tong · Jintai CHEN · Jian liu · Dongqi Tang · Weiqiang Wang · Wentong Li · Hongxia Xu · Danny Chen · Jian Wu,Poster Session 1
+7DGS: Unified Spatial-Temporal-Angular Gaussian Splatting,Zhongpai Gao · Benjamin Planche · Meng Zheng · Anwesa Choudhuri · Terrence Chen · Ziyan Wu,Poster Session 6
+Everything is a Video: Unifying Modalities through Next-Frame Prediction,G Thomas Hudson · Dean Slack · Thomas Winterbottom · Jamie Stirling · Chenghao Xiao · Junjie Shentu · Noura Al Moubayed,Poster Session 5
+LayerAnimate: Layer-level Control for Animation,Yuxue Yang · Lue Fan · Zuzeng Lin · Feng Wang · Zhaoxiang Zhang,Poster Session 3
+UrbanLLaVA: A Multi-modal Large Language Model for Urban Intelligence,Jie Feng · Shengyuan Wang · Tianhui Liu · Yanxin Xi · Yong Li,Poster Session 2
+FonTS: Text Rendering With Typography and Style Controls,Wenda SHI · Yiren Song · Dengming Zhang · Jiaming Liu · XINGXING ZOU,Poster Session 4
+DASH: Detection and Assessment of Systematic Hallucinations of VLMs,Maximilian Augustin · Yannic Neuhaus · Matthias Hein,Poster Session 5
+MergeOcc: Bridge the Domain Gap between Different LiDARs for Robust Occupancy Prediction,Zikun Xu · Shaobing Xu,Poster Session 6
+Attention to the Burtiness in Visual Prompt Tuning!,Yuzhu Wang · Manni Duan · Shu Kong,Poster Session 1
+GeoDistill: Geometry-Guided Self-Distillation for Weakly Supervised Cross-View Localization,Shaowen Tong · Zimin Xia · Alexandre Alahi · Xuming He · Yujiao Shi,Poster Session 6
+Diving into the Fusion of Monocular Priors for Generalized Stereo Matching,Chengtang Yao · Lidong Yu · Zhidan Liu · Jiaxi Zeng · Yuwei Wu · Yunde Jia,Poster Session 4
+Polarimetric Neural Field via Unified Complex-Valued Wave Representation,Chu Zhou · Yixin Yang · Junda Liao · Heng Guo · Boxin Shi · Imari Sato,Poster Session 6
+V2M4: 4D Mesh Animation Reconstruction from a Single Monocular Video,Jianqi Chen · Biao Zhang · Xiangjun Tang · Peter Wonka,Poster Session 3
+The Curse of Conditions: Analyzing and Improving Optimal Transport for Conditional Flow-Based Generation,Ho Kei Cheng · Alex Schwing,Poster Session 4
+Monocular Semantic Scene Completion via  Masked Recurrent Networks,Xuzhi Wang · Xinran Wu · Song Wang · Lingdong Kong · Ziping Zhao,Poster Session 6
+Certifiably Optimal Anisotropic Rotation Averaging,Carl Olsson · Yaroslava Lochman · Johan Malmport · Christopher Zach,Poster Session 4
+Towards Open-World Generation of Stereo Images and Unsupervised Matching,Feng Qiao · Zhexiao Xiong · Eric Xing · Nathan Jacobs,Poster Session 6
+Open-World Skill Discovery from Unsegmented Demonstration Videos,Jingwen Deng · Zihao Wang · Shaofei Cai · Anji Liu · Yitao Liang,Poster Session 3
+HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing,Junseong Shin · Seungwoo Chung · Yunjeong Yang · Tae Hyun Kim,Poster Session 2
+PathDiff: Histopathology Image Synthesis with Unpaired Text and Mask Conditions,Mahesh Bhosale · Abdul Wasi · Yuanhao Zhai · Yunjie Tian · Samuel Border · Nan Xi · Pinaki Sarder · Junsong Yuan · David Doermann · Xuan Gong,Poster Session 5
+PhysRig: Differentiable Physics-Based Skinning and Rigging Framework for Realistic Articulated Object Modeling,Hao Zhang · Haolan Xu · Chun Feng · Varun Jampani · Narendra Ahuja,Poster Session 2
+Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding,Yue Fan · Xiaojian Ma · Rongpeng Su · Jun Guo · Rujie Wu · Xi Chen · Qing Li,Poster Session 2
+Revelio: Interpreting and leveraging semantic information in diffusion models,Dahye Kim · Xavier Thomas · Deepti Ghadiyaram,Poster Session 1
+Inpaint4Drag: Repurposing Inpainting Models for Drag-Based Image Editing via Bidirectional Warping,Jingyi Lu · Kai Han,Poster Session 4
+DiTaiListener: Controllable High Fidelity Listener Video Generation with Diffusion,Maksim Siniukov · Di Chang · Minh Tran · Hongkun Gong · Ashutosh Chaubey · Mohammad Soleymani,Poster Session 3
+Bridging the Skeleton-Text Modality Gap: Diffusion-Powered Modality Alignment for Zero-shot Skeleton-based Action Recognition,Jeonghyeok Do · Munchurl Kim,Poster Session 3
+Partial Forward Blocking: A Novel Data Pruning Paradigm for Lossless Training Acceleration,Dongyue Wu · Zilin Guo · Jialong Zuo · Nong Sang · Changxin Gao,Poster Session 1
+"Beyond One Shot, Beyond One Perspective: Cross-View and Long-Horizon Distillation for Better LiDAR Representations",Xiang Xu · Lingdong Kong · Song Wang · Chuanwei Zhou · Qingshan Liu,Poster Session 6
+MMAD: Multi-label Micro-Action Detection in Videos,Kun Li · pengyu Liu · Dan Guo · Fei Wang · zhiliang wu · Hehe Fan · Meng Wang,Poster Session 3
+SAS: Segment Any 3D Scene with Integrated 2D Priors,Zhuoyuan Li · Jiahao Lu · Jiacheng Deng · Hanzhi Chang · Lifan Wu · Yanzhe Liang · Tianzhu Zhang,Poster Session 2
+G2D: Boosting Multimodal Learning with Gradient-Guided Distillation,Mohammed Rakib · Arunkumar Bagavathi,Poster Session 1
+Learning to Generalize without Bias for Open-Vocabulary Action Recognition,Yating Yu · Congqi Cao · Yifan Zhang · Yanning Zhang,Poster Session 3
+DriveArena: A Closed-loop Generative Simulation Platform for Autonomous Driving,Xuemeng Yang · Licheng Wen · Tiantian Wei · Yukai Ma · Jianbiao Mei · Xin Li · Wenjie Lei · Daocheng Fu · Pinlong Cai · Min Dou · Liang He · Yong Liu · Botian Shi · Yu Qiao,Poster Session 6
+HyperGCT: A Dynamic Hyper-GNN-Learned Geometric Constraint for 3D Registration,Xiyu Zhang · Jiayi Ma · Jianwei Guo · Wei Hu · Zhaoshuai Qi · Fei HUI · Jiaqi Yang · Yanning Zhang,Poster Session 6
+Text Embedding Knows How to Quantize Text-Guided Diffusion Models,Hongjae Lee · Myungjun Son · Dongjea Kang · Seung-Won Jung,Poster Session 4
+Voyaging into Perpetual Dynamic Scenes from a Single View,Fengrui Tian · Tianjiao Ding · Jinqi Luo · Hancheng Min · Rene Vidal,Poster Session 2
+FramePainter: Endowing Interactive Image Editing with  Video Diffusion Priors,Yabo Zhang · xinpeng zhou · Yihan Zeng · Hang Xu · Hui Li · Wangmeng Zuo,Poster Session 4
+DreamCube: RGB-D Panorama Generation via Multi-plane Synchronization,Yukun Huang · Yanning Zhou · Jianan Wang · Kaiyi Huang · Xihui Liu,Poster Session 6
+ROVI: A VLM-LLM Re-Captioned Dataset for Open-Vocabulary Instance-Grounded Text-to-Image Generation,Cihang Peng · Qiming HOU · Zhong Ren · Kun Zhou,Poster Session 5
+SemGes: Semantics-aware Co-Speech Gesture Generation using Semantic Coherence and Relevance Learning,Lanmiao Liu · Esam Ghaleb · asli ozyurek · Zerrin Yumak,Poster Session 3
+Long-term Traffic Simulation with Interleaved Autoregressive Motion and Scenario Generation,Xiuyu Yang · Shuhan Tan · Philipp Kraehenbuehl,Poster Session 6
+PersPose: 3D Human Pose Estimation with Perspective Encoding and Perspective Rotation,Xiaoyang Hao · Han Li,Poster Session 2
+GenHancer: Imperfect Generative Models are Secretly Strong Vision-Centric Enhancers,Shijie Ma · Yuying Ge · Teng Wang · Yuxin Guo · Yixiao Ge · Ying Shan,Poster Session 5
+PacGDC: Label-Efficient Generalizable Depth Completion with Projection Ambiguity and Consistency,Haotian Wang · Aoran Xiao · Xiaoqin Zhang · Meng Yang · Shijian Lu,Poster Session 2
+MRGen: Segmentation Data Engine For Underrepresented MRI Modalities,Haoning Wu · Ziheng Zhao · Ya Zhang · Yanfeng Wang · Weidi Xie,Poster Session 5
+PoseAnchor: Robust Root Position Estimation for 3D Human Pose Estimation,Jun-Hee Kim · Jumin Han · Seong-Whan Lee,Poster Session 2
+Unified Category-Level Object Detection and Pose Estimation from RGB Images using 3D Prototypes,Tom Fischer · Xiaojie Zhang · Eddy Ilg,Poster Session 2
+DeGauss: Dynamic-Static Decomposition with Gaussian Splatting for Distractor-free 3D Reconstruction,Rui Wang · Quentin Lohmeyer · Mirko Meboldt · Siyu Tang,Poster Session 2
+CODE-CL: Conceptor-Based Gradient Projection for Deep Continual Learning,Marco P. Apolinario · Sakshi Choudhary · Kaushik Roy,Poster Session 1
+"Detection, Pose Estimation and Segmentation for Multiple Bodies: Closing the Virtuous Circle",Miroslav Purkrabek · Jiri Matas,Poster Session 2
+DisCoPatch: Taming Adversarially-driven Batch Statistics for Improved Out-of-Distribution Detection,Francisco Caetano · Christiaan Viviers · Luis Zavala-Mondragón · Peter H.N. De With · Fons van der Sommen,Poster Session 1
+Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras,Shuang Guo · Friedhelm Hamann · Guillermo Gallego,Poster Session 2
+Addressing Representation Collapse in Vector Quantized Models with One Linear Layer,Yongxin Zhu · Bocheng Li · Yifei Xin · Zhihua Xia · Linli Xu,Poster Session 5
+CutS3D: Cutting Semantics in 3D for 2D Unsupervised Instance Segmentation,Leon Sick · Dominik Engel · Sebastian Hartwig · Pedro Hermosilla · Timo Ropinski,Poster Session 5
+One Look is Enough: Seamless Patchwise Refinement for Zero-Shot Monocular Depth Estimation on High-Resolution Images,Byeongjun Kwon · Munchurl Kim,Poster Session 2
+AnyCalib: On-Manifold Learning for Model-Agnostic Single-View Camera Calibration,Javier Tirado-Garín · Javier Civera,Poster Session 2
+IntroStyle: Training-Free Introspective Style Attribution using Diffusion Features,Anand Kumar · Jiteng Mu · Nuno Vasconcelos,Poster Session 4

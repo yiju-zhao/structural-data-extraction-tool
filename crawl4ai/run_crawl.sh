@@ -7,9 +7,9 @@ echo "🚀 Web Content Extraction Tool"
 echo "=============================="
 
 # Default settings
-DEFAULT_URL="https://kdd2025.kdd.org/research-track-papers-2"
-DEFAULT_SCHEMA="title doi author affiliation"
-DEFAULT_PRIMARY_KEYS="title doi"
+DEFAULT_URL="https://iccv.thecvf.com/virtual/2025/events/workshop"
+DEFAULT_SCHEMA="title authors time abstract"
+DEFAULT_PRIMARY_KEYS="title"
 
 # Use provided arguments or defaults
 URL=${1:-$DEFAULT_URL}
@@ -23,7 +23,7 @@ echo ""
 
 # Run extraction
 echo "🔄 Starting extraction..."
-python crawl.py "$URL" --schema $SCHEMA --primary-keys $PRIMARY_KEYS --strategy two-pass --verbose
+python crawl.py "$URL" --schema $SCHEMA --primary-keys $PRIMARY_KEYS --verbose
 
 echo ""
 echo "✅ Done! Check the output CSV file in the ./output directory."
