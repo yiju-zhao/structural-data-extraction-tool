@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 from browser_use import Agent, Controller
 from browser_use.llm import ChatOpenAI
-#from langchain_openai import ChatOpenAI
+# from langchain_openai import ChatOpenAI
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from utility.json_to_csv_converter import convert_browser_use_output_to_csv
 
@@ -44,7 +44,7 @@ async def main():
                 If any data points are missing, mark them as "N/A" rather than leaving them blank.
                 Be concise and extract only the necessary structured information. Skip workshops if their external website is broken or lacks desired information.""",
         llm=ChatOpenAI(model="gpt-4.1"),
-        #llm=ChatOpenAI(model="gpt-4.1-mini", temperature=1.0),
+        # llm=ChatOpenAI(model="gpt-4.1-mini", temperature=1.0),
         controller=controller,
     )
 
@@ -63,14 +63,14 @@ async def main():
         raw_result_str = str(result)  # Ensure it's a string
         print(f"\n📝 Saving raw result ({len(raw_result_str)} characters) to file...")
 
-        with open('colm_workshop_raw_result.txt', 'w', encoding='utf-8') as f:
+        with open("colm_workshop_raw_result.txt", "w", encoding="utf-8") as f:
             f.write(raw_result_str)
             f.flush()  # Ensure data is written to disk
 
         print(f"✅ Raw result saved to colm_workshop_raw_result.txt")
 
         # Convert JSON result to CSV using the utility function with NO filtering
-        csv_filename = 'colm_workshop_results.csv'
+        csv_filename = "colm_workshop_results.csv"
         print(f"\n🔄 Converting to CSV with complete data preservation...")
 
         # Use the converter but disable aggressive filtering to preserve all data
@@ -78,7 +78,7 @@ async def main():
             raw_result=raw_result_str,
             pydantic_model=Sessions,
             csv_filename=csv_filename,
-            preserve_all_data=True  # New parameter to disable filtering
+            preserve_all_data=True,  # New parameter to disable filtering
         )
 
         print(f"\n✅ CSV file saved successfully: {csv_filename}")

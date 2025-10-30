@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Session",
+    "description": "Conference session with presentation details",
+    "attributes": [
+      {
+        "name": "date",
+        "description": "Session date",
+        "data_type": "date",
+        "required": true
+      },
+      {
+        "name": "time",
+        "description": "Session time",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "type",
+        "description": "Session type (keynote, tutorial, paper session, etc.)",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "session_presentation_title",
+        "description": "Title of the session or presentation",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "contributors",
+        "description": "List of contributors/presenters",
+        "data_type": "list",
+        "required": true
+      },
+      {
+        "name": "location",
+        "description": "Session location/room",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "abstract",
+        "description": "Session abstract or description",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "keywords",
+        "description": "Session keywords or tags",
+        "data_type": "list",
+        "required": false
+      },
+      {
+        "name": "session_url",
+        "description": "Link to session details",
+        "data_type": "url",
+        "required": false
+      }
+    ]
+  }
+]

@@ -7,9 +7,9 @@ echo "🚀 Web Content Extraction Tool"
 echo "=============================="
 
 # Default settings
-DEFAULT_URL="https://kdd2025.kdd.org/research-track-papers-2"
-DEFAULT_SCHEMA="title doi author affiliation"
-DEFAULT_PRIMARY_KEYS="title doi"
+DEFAULT_URL="https://neurips.cc/virtual/2025/calendar?filter_events=Expo+Demonstration%2CExpo+Talk+Panel%2CExpo+Workshop%2CInvited+Talk%2COral+Session%2CTutorial%2CWorkshop&filter_rooms="
+DEFAULT_SCHEMA="type title date time"
+DEFAULT_PRIMARY_KEYS="title"
 
 # Use provided arguments or defaults
 URL=${1:-$DEFAULT_URL}

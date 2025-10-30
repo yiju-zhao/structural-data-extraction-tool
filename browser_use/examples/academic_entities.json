@@ -1,0 +1,98 @@
+[
+  {
+    "name": "AcademicPaper",
+    "description": "Academic paper from conference proceedings",
+    "attributes": [
+      {
+        "name": "title",
+        "description": "Paper title",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "authors",
+        "description": "List of paper authors",
+        "data_type": "list",
+        "required": true
+      },
+      {
+        "name": "affiliations",
+        "description": "Author affiliations",
+        "data_type": "list",
+        "required": false
+      },
+      {
+        "name": "abstract",
+        "description": "Paper abstract",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "keywords",
+        "description": "Paper keywords",
+        "data_type": "list",
+        "required": false
+      },
+      {
+        "name": "pdf_url",
+        "description": "PDF download link",
+        "data_type": "url",
+        "required": false
+      },
+      {
+        "name": "paper_url",
+        "description": "Paper details page URL",
+        "data_type": "url",
+        "required": false
+      },
+      {
+        "name": "session",
+        "description": "Conference session",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "track",
+        "description": "Conference track",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "presentation_date",
+        "description": "Presentation date",
+        "data_type": "date",
+        "required": false
+      },
+      {
+        "name": "presentation_time",
+        "description": "Presentation time",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "doi",
+        "description": "DOI identifier",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "citation_count",
+        "description": "Number of citations",
+        "data_type": "integer",
+        "required": false
+      },
+      {
+        "name": "venue",
+        "description": "Publication venue",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "year",
+        "description": "Publication year",
+        "data_type": "integer",
+        "required": false
+      }
+    ]
+  }
+]

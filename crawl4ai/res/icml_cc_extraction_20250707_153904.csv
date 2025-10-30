@@ -1,0 +1,1711 @@
+date,time,title,speaker,type
+SUN 13 JUL,11 a.m.,Registration West,N/A,Registration
+SUN 13 JUL,3 p.m.,Coffee Break,N/A,Break
+SUN 13 JUL,4 p.m.,A Unified Framework for Generative AI Safety,N/A,Expo Talk Panel
+SUN 13 JUL,4 p.m.,Distributed Computing Architectures as a Solution to AI's Energy Crisis: Empirical Analysis of Decentralized Training,N/A,Expo Talk Panel
+SUN 13 JUL,4 p.m.,JokeEval: Are the Jokes Funny? Review of Computational Evaluation Techniques to improve Joke Generation,N/A,Expo Talk Panel
+SUN 13 JUL,5 p.m.,Toward Stateless Training of LLMs: Breaking Memory Barriers Without Sacrificing Performance,N/A,Expo Talk Panel
+SUN 13 JUL,5 p.m.,Re-Imagine: Symbolic Benchmark Synthesis for Reasoning Evaluation,N/A,Expo Talk Panel
+SUN 13 JUL,5 p.m.,Distillation Scaling Laws,N/A,Expo Talk Panel
+SUN 13 JUL,5 p.m.,Human-Aligned Long-Form Evaluation (HALF-Eval): Framework for Assessing AI-Generated Content,N/A,Expo Talk Panel
+MON 14 JUL,7:30 a.m.,Registration West,N/A,Registration
+MON 14 JUL,7:30 a.m.,Registration East,N/A,Registration
+MON 14 JUL,8 a.m.,Affinity Workshop: LatinX in AI,N/A,Affinity Workshop
+MON 14 JUL,8 a.m.,4th MusIML workshop at ICML’25,N/A,Affinity Workshop
+MON 14 JUL,8 a.m.,Situating principles in context for synthetic data,N/A,Expo Talk Panel
+MON 14 JUL,8 a.m.,Otter: Generating Tests from Issues to Validate SWE Patches,N/A,Expo Talk Panel
+MON 14 JUL,8 a.m.,The Next Frontier in Enterprise AI: A Vision for Generalist Agents,N/A,Expo Talk Panel
+MON 14 JUL,8 a.m.,Improving LLM Benchmarks: Making AI Work for Real-World Needs,N/A,Expo Talk Panel
+MON 14 JUL,8 a.m.,Foundation Models for Automated Trading,N/A,Expo Talk Panel
+MON 14 JUL,9 a.m.,Coffee Break,N/A,Break
+MON 14 JUL,9:30 a.m.,"Calibration and Bias in Algorithms, Data, and Models: a tutorial on metrics and plots for measuring calibration, bias, fairness, reliability, and robustness",N/A,Tutorial
+MON 14 JUL,9:30 a.m.,Modern Methods in Associative Memory,N/A,Tutorial
+MON 14 JUL,9:30 a.m.,Alignment Methods for Large Language Models,N/A,Tutorial
+MON 14 JUL,9:30 a.m.,Generative AI Meets Reinforcement Learning,N/A,Tutorial
+MON 14 JUL,9:30 a.m.,Harnessing Low Dimensionality in Diffusion Models: From Theory to Practice,N/A,Tutorial
+MON 14 JUL,9:30 a.m.,DP-fy your DATA: How to (and why) synthesize Differentially Private Synthetic Data,N/A,Tutorial
+MON 14 JUL,12 p.m.,Hosted Grab and Go Lunch,N/A,Break
+MON 14 JUL,1:30 p.m.,Game-theoretic Statistics and Sequential Anytime-Valid Inference,N/A,Tutorial
+MON 14 JUL,1:30 p.m.,Tutorial on Mechanistic Interpretability for Language Models,N/A,Tutorial
+MON 14 JUL,1:30 p.m.,"Jailbreaking LLMs and Agentic Systems: Attacks, Defenses, and Evaluations",N/A,Tutorial
+MON 14 JUL,1:30 p.m.,Flowing Through Continuous-Time Generative Models: A Clear and Systematic Tour,N/A,Tutorial
+MON 14 JUL,1:30 p.m.,Training Neural Networks at Any Scale,N/A,Tutorial
+MON 14 JUL,1:30 p.m.,The Underlying Logic of Language Models,N/A,Tutorial
+MON 14 JUL,2 p.m.,"Democratizing AI Across Structured and Unstructured Data: AWS’ OSS offerings for Tables, Time Series, Graphs and Multimodal Data",N/A,Expo Talk Panel
+MON 14 JUL,2 p.m.,Gen AI Applications in Amazon Pharmacy,N/A,Expo Talk Panel
+MON 14 JUL,2 p.m.,OmniLong: A Resource-Effective Context Scaling Framework for Multimodal LLM Fine-tuning,N/A,Expo Talk Panel
+MON 14 JUL,2 p.m.,Thursday Night Football on Prime Video – Broadcast Innovation,N/A,Expo Talk Panel
+MON 14 JUL,4 p.m.,Coffee Break,N/A,Break
+MON 14 JUL,4 p.m.,IBM software agent for code (ISAC),N/A,Expo Demonstration
+MON 14 JUL,4 p.m.,Production Strength Sales Agent,N/A,Expo Demonstration
+MON 14 JUL,4 p.m.,Excitement-Driven AI Sports Commentary Generation,N/A,Expo Demonstration
+MON 14 JUL,4 p.m.,Building Advanced Software Engineering LLM Agents with Codellm-Devkit (CLDK),N/A,Expo Demonstration
+MON 14 JUL,4 p.m.,"WCA4Z Platform - Accelerating Legacy Code Modernization Using AI Agents, Deep Program Analysis, and Scalable AI Pipelines",N/A,Expo Demonstration
+MON 14 JUL,4 p.m.,Prompt Declaration Language (PDL),N/A,Expo Demonstration
+MON 14 JUL,4 p.m.,"Real-World Autonomy: Building Modular, Voice-Guided Embodied Agents with SLMs and Vision",N/A,Expo Demonstration
+MON 14 JUL,4 p.m.,"Knobs of the Mind: Dopamine, Serotonin, and a Maze-Running Rover",N/A,Expo Demonstration
+MON 14 JUL,4:30 p.m.,AI in Finance: Innovation & Emerging Opportunities,N/A,Expo Workshop
+MON 14 JUL,4:30 p.m.,Uncertainty Estimation in LLM-Generated Content,N/A,Expo Workshop
+MON 14 JUL,4:30 p.m.,Evaluation of GenAI models,N/A,Expo Workshop
+MON 14 JUL,6:30 p.m.,Welcome Reception,N/A,Reception
+TUE 15 JUL,7:30 a.m.,Registration West,N/A,Registration
+TUE 15 JUL,7:30 a.m.,Registration East,N/A,Registration
+TUE 15 JUL,8 a.m.,Affinity Workshop: New In ML,N/A,Affinity Workshop
+TUE 15 JUL,8:30 a.m.,"AI's Models of the World, and Ours",Jon Kleinberg,Invited Talk
+TUE 15 JUL,9:30 a.m.,Exhibits,N/A,Exhibits
+TUE 15 JUL,10 a.m.,Multi-agent Architecture Search via Agentic Supernet,N/A,Oral
+TUE 15 JUL,10:15 a.m.,Training a Generally Curious Agent,N/A,Oral
+TUE 15 JUL,10:30 a.m.,Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs,N/A,Oral
+TUE 15 JUL,10:45 a.m.,CollabLLM: From Passive Responders to Active Collaborators,N/A,Oral
+TUE 15 JUL,11 a.m.,Poster Session 1 East,N/A,Poster Session
+Synthetic Text,N/A,MATS: An Audio Language Model under Text-only Supervision,N/A,N/A
+Synthetic Text,N/A,HPS: Hard Preference Sampling for Human Preference Alignment,N/A,N/A
+Synthetic Text,N/A,Understanding the Skill Gap in Recurrent Language Models: The Role of the Gather-and-Aggregate Mechanism,N/A,N/A
+Synthetic Text,N/A,"Focus On This, Not That! Steering LLMs with Adaptive Feature Specification",N/A,N/A
+Synthetic Text,N/A,SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models,N/A,N/A
+Synthetic Text,N/A,On-the-Fly Adaptive Distillation of Transformer to Dual-State Linear Attention for Long-Context LLM Serving,N/A,N/A
+Synthetic Text,N/A,Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation,N/A,N/A
+Synthetic Text,N/A,Adapting While Learning: Grounding LLMs for Scientific Problems with Tool Usage Adaptation,N/A,N/A
+Synthetic Text,N/A,ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference,N/A,N/A
+Synthetic Text,N/A,LoRA-Gen: Specializing Large Language Model via Online LoRA Generation,N/A,N/A
+Synthetic Text,N/A,Splitting with Importance-aware Updating for Heterogeneous Federated Learning with Large Language Models,N/A,N/A
+Synthetic Text,N/A,Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging,N/A,N/A
+Synthetic Text,N/A,Towards Cost-Effective Reward Guided Text Generation,N/A,N/A
+Synthetic Text,N/A,Synthetic Text Generation for Training Large Language Models via Gradient Matching,N/A,N/A
+Synthetic Text,N/A,Nemotron-CORTEXA: Enhancing LLM Agents for Software Engineering Tasks via Improved Localization and Solution Diversity,N/A,N/A
+Synthetic Text,N/A,Multi-agent Architecture Search via Agentic Supernet,N/A,N/A
+Synthetic Text,N/A,From Language Models over Tokens to Language Models over Characters,N/A,N/A
+Synthetic Text,N/A,Adaptive Localization of Knowledge Negation for Continual LLM Unlearning,N/A,N/A
+Synthetic Text,N/A,RuleAdapter: Dynamic Rules for training Safety Reward Models in RLHF,N/A,N/A
+Synthetic Text,N/A,FlatQuant: Flatness Matters for LLM Quantization,N/A,N/A
+Synthetic Text,N/A,Mitigating Heterogeneous Token Overfitting in LLM Knowledge Editing,N/A,N/A
+Synthetic Text,N/A,Rethinking Addressing in Language Models via Contextualized Equivariant Positional Encoding,N/A,N/A
+Synthetic Text,N/A,Scaling Inference-Efficient Language Models,N/A,N/A
+Synthetic Text,N/A,Invariance Makes LLM Unlearning Resilient Even to Unanticipated Downstream Fine-Tuning,N/A,N/A
+Synthetic Text,N/A,A Stronger Mixture of Low-Rank Experts for Fine-Tuning Foundation Models,N/A,N/A
+Synthetic Text,N/A,KVTuner: Sensitivity-Aware Layer-Wise Mixed-Precision KV Cache Quantization for Efficient and Nearly Lossless LLM Inference,N/A,N/A
+Synthetic Text,N/A,PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model,N/A,N/A
+Synthetic Text,N/A,Analytical Construction on Geometric Architectures: Transitioning from Static to Temporal Link Prediction,N/A,N/A
+Synthetic Text,N/A,A Dynamical Systems-Inspired Pruning Strategy for Addressing Oversmoothing in Graph Attention Networks,N/A,N/A
+Synthetic Text,N/A,G-Adaptivity: optimised graph-based mesh relocation for finite element methods,N/A,N/A
+Synthetic Text,N/A,FicGCN: Unveiling the Homomorphic Encryption Efficiency from Irregular Graph Convolutional Networks,N/A,N/A
+Synthetic Text,N/A,Rhomboid Tiling for Geometric Graph Deep Learning,N/A,N/A
+Synthetic Text,N/A,Primal-Dual Neural Algorithmic Reasoning,N/A,N/A
+Synthetic Text,N/A,A Cognac Shot To Forget Bad Memories: Corrective Unlearning for Graph Neural Networks,N/A,N/A
+Synthetic Text,N/A,Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality,N/A,N/A
+Synthetic Text,N/A,No Metric to Rule Them All: Toward Principled Evaluations of Graph-Learning Datasets,N/A,N/A
+Synthetic Text,N/A,Hyperbolic-PDE GNN: Spectral Graph Neural Networks in the Perspective of A System of Hyperbolic Partial Differential Equations,N/A,N/A
+Synthetic Text,N/A,Learning Latent Graph Structures and their Uncertainty,N/A,N/A
+Synthetic Text,N/A,Propagate and Inject: Revisiting Propagation-Based Feature Imputation for Graphs with Partially Observed Features,N/A,N/A
+Synthetic Text,N/A,Unifews: You Need Fewer Operations for Efficient Graph Neural Networks,N/A,N/A
+Synthetic Text,N/A,iN2V: Bringing Transductive Node Embeddings to Inductive Graphs,N/A,N/A
+Synthetic Text,N/A,TMetaNet: Topological Meta-Learning Framework for Dynamic Link Prediction,N/A,N/A
+Synthetic Text,N/A,Aggregation Buffer: Revisiting DropEdge with a New Parameter Block,N/A,N/A
+Synthetic Text,N/A,Simple Path Structural Encoding for Graph Transformers,N/A,N/A
+Synthetic Text,N/A,Less is More: Federated Graph Learning with Alleviating Topology Heterogeneity from A Causal Perspective,N/A,N/A
+Synthetic Text,N/A,Towards a Unified Framework of Clustering-based Anomaly Detection,N/A,N/A
+Synthetic Text,N/A,Diffuse Everything: Multimodal Diffusion Models on Arbitrary State Spaces,N/A,N/A
+Synthetic Text,N/A,VCT: Training Consistency Models with Variational Noise Coupling,N/A,N/A
+Synthetic Text,N/A,Angle Domain Guidance: Latent Diffusion Requires Rotation Rather Than Extrapolation,N/A,N/A
+Synthetic Text,N/A,Upcycling Text-to-Image Diffusion Models for Multi-Task Capabilities,N/A,N/A
+Synthetic Text,N/A,Spherical-Nested Diffusion Model for Panoramic Image Outpainting,N/A,N/A
+Synthetic Text,N/A,FlowAR: Scale-wise Autoregressive Image Generation Meets Flow Matching,N/A,N/A
+Synthetic Text,N/A,Inference-Time Alignment of Diffusion Models with Direct Noise Optimization,N/A,N/A
+Synthetic Text,N/A,Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator,N/A,N/A
+Synthetic Text,N/A,Multidimensional Adaptive Coefficient for Inference Trajectory Optimization in Flow and Diffusion,N/A,N/A
+Synthetic Text,N/A,VideoJAM: Joint Appearance-Motion Representations for Enhanced Motion Generation in Video Models,N/A,N/A
+Synthetic Text,N/A,FlexiClip: Locality-Preserving Free-Form Character Animation,N/A,N/A
+Synthetic Text,N/A,"Sparse Autoencoders, Again?",N/A,N/A
+Synthetic Text,N/A,Ensemble Distribution Distillation via Flow Matching,N/A,N/A
+Synthetic Text,N/A,RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers,N/A,N/A
+Synthetic Text,N/A,Generalized Interpolating Discrete Diffusion,N/A,N/A
+Synthetic Text,N/A,How to Move Your Dragon: Text-to-Motion Synthesis for Large-Vocabulary Objects,N/A,N/A
+Synthetic Text,N/A,Explainable Concept Generation through Vision-Language Preference Learning for Understanding Neural Networks,N/A,N/A
+Synthetic Text,N/A,Conditional Diffusion Model with Nonlinear Data Transformation for Time Series Forecasting,N/A,N/A
+Synthetic Text,N/A,Masked Generative Nested Transformers with Decode Time Scaling,N/A,N/A
+Synthetic Text,N/A,Efficient Generative Modeling with Residual Vector Quantization-Based Tokens,N/A,N/A
+Synthetic Text,N/A,Masked Autoencoders Are Effective Tokenizers for Diffusion Models,N/A,N/A
+Synthetic Text,N/A,Learning Monotonic Probabilities with a Generative Cost Model,N/A,N/A
+Synthetic Text,N/A,Learning to Quantize for Training Vector-Quantized Networks,N/A,N/A
+Synthetic Text,N/A,The Hidden Life of Tokens: Reducing Hallucination of Large Vision-Language Models Via Visual Information Steering,N/A,N/A
+Synthetic Text,N/A,Expert Race: A Flexible Routing Strategy for Scaling Diffusion Transformer with Mixture of Experts,N/A,N/A
+Synthetic Text,N/A,Learn from Downstream and Be Yourself in Multimodal Large Language Models Fine-Tuning,N/A,N/A
+Synthetic Text,N/A,Towards Efficient Online Tuning of VLM Agents via Counterfactual Soft Reinforcement Learning,N/A,N/A
+Synthetic Text,N/A,What If We Recaption Billions of Web Images with LLaMA-3?,N/A,N/A
+Synthetic Text,N/A,BalancEdit: Dynamically Balancing the Generality-Locality Trade-off in Multi-modal Model Editing,N/A,N/A
+Synthetic Text,N/A,Reasoning Limitations of Multimodal Large Language Models. A case study of Bongard Problems,N/A,N/A
+Synthetic Text,N/A,Bongard in Wonderland: Visual Puzzles that Still Make AI Go Mad?,N/A,N/A
+Synthetic Text,N/A,Griffin: Towards a Graph-Centric Relational Database Foundation Model,N/A,N/A
+Synthetic Text,N/A,In-Context Learning as Conditioned Associative Memory Retrieval,N/A,N/A
+Synthetic Text,N/A,What Has a Foundation Model Found? Inductive Bias Reveals World Models,N/A,N/A
+Synthetic Text,N/A,Learning to (Learn at Test Time): RNNs with Expressive Hidden States,N/A,N/A
+Synthetic Text,N/A,Efficient Parallel Training Methods for Spiking Neural Networks with Constant Time Complexity,N/A,N/A
+Synthetic Text,N/A,"LapSum - One Method to Differentiate Them All: Ranking, Sorting and Top-k Selection",N/A,N/A
+Synthetic Text,N/A,Improving Memory Efficiency for Training KANs via Meta Learning,N/A,N/A
+Synthetic Text,N/A,Eigenspectrum Analysis of Neural Networks without Aspect Ratio Bias,N/A,N/A
+Synthetic Text,N/A,A First-order Generative Bilevel Optimization Framework for Diffusion Models,N/A,N/A
+Synthetic Text,N/A,Training Deep Learning Models with Norm-Constrained LMOs,N/A,N/A
+Synthetic Text,N/A,Disentangling and Integrating Relational and Sensory Information in Transformer Architectures,N/A,N/A
+Synthetic Text,N/A,LASER: Attention with Exponential Transformation,N/A,N/A
+Synthetic Text,N/A,"The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training",N/A,N/A
+Synthetic Text,N/A,Strategy Coopetition Explains the Emergence and Transience of In-Context Learning,N/A,N/A
+Synthetic Text,N/A,Selective Prompt Anchoring for Code Generation,N/A,N/A
+Synthetic Text,N/A,On Expressive Power of Looped Transformers: Theoretical Analysis and Enhancement via Timestep Encoding,N/A,N/A
+Synthetic Text,N/A,HashAttention: Semantic Sparsity for Faster Inference,N/A,N/A
+Synthetic Text,N/A,Fast Inference with Kronecker-Sparse Matrices,N/A,N/A
+Synthetic Text,N/A,KIND: Knowledge Integration and Diversion for Training Decomposable Models,N/A,N/A
+Synthetic Text,N/A,Dynamic Sparse Training of Diagonally Sparse Networks,N/A,N/A
+Synthetic Text,N/A,High Dynamic Range Novel View Synthesis with Single Exposure,N/A,N/A
+Synthetic Text,N/A,Avoiding spurious sharpness minimization broadens applicability of SAM,N/A,N/A
+Synthetic Text,N/A,On Exact Bit-level Reversible Transformers Without Changing Architecture,N/A,N/A
+Synthetic Text,N/A,MixMin: Finding Data Mixtures via Convex Minimization,N/A,N/A
+Synthetic Text,N/A,Rethinking the Stability-Plasticity Trade-off in Continual Learning from an Architectural Perspective,N/A,N/A
+Synthetic Text,N/A,How Compositional Generalization and Creativity Improve as Diffusion Models are Trained,N/A,N/A
+Synthetic Text,N/A,Towards Understanding Fine-Tuning Mechanisms of LLMs via Circuit Analysis,N/A,N/A
+Synthetic Text,N/A,Scaling Collapse Reveals Universal Dynamics in Compute-Optimally Trained Neural Networks,N/A,N/A
+Synthetic Text,N/A,How to set AdamW's weight decay as you scale model and dataset size,N/A,N/A
+Synthetic Text,N/A,Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems,N/A,N/A
+Synthetic Text,N/A,The Panaceas for Improving Low-Rank Decomposition in Communication-Efficient Federated Learning,N/A,N/A
+Synthetic Text,N/A,Kona: An Efficient Privacy-Preservation Framework for KNN Classification by Communication Optimization,N/A,N/A
+Synthetic Text,N/A,Vision-Language Model Selection and Reuse for Downstream Adaptation,N/A,N/A
+Synthetic Text,N/A,Universal Approximation of Mean-Field Models via Transformers,N/A,N/A
+Synthetic Text,N/A,ZeroFlow: Overcoming Catastrophic Forgetting is Easier than You Think,N/A,N/A
+Synthetic Text,N/A,Online Curvature-Aware Replay: Leveraging 2nd Order Information for Online Continual Learning,N/A,N/A
+Synthetic Text,N/A,Lightweight-Mark: Rethinking Deep Learning-Based Watermarking,N/A,N/A
+Synthetic Text,N/A,On Zero-Initialized Attention: Optimal Prompt and Gating Factor Estimation,N/A,N/A
+Synthetic Text,N/A,Incorporating Arbitrary Matrix Group Equivariance into KANs,N/A,N/A
+Synthetic Text,N/A,RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer,N/A,N/A
+N/A,N/A,Provable Algorithms for Sparse PCA with Improved Sample Complexity,N/A,Poster Session
+N/A,N/A,Wrapped Gaussian on the manifold of Symmetric Positive Definite Matrices,N/A,Poster Session
+N/A,N/A,Doubly Robust Conformalized Survival Analysis with Right-Censored Data,N/A,Poster Session
+N/A,N/A,Do Bayesian Neural Networks Actually Behave Like Bayesian Models?,N/A,Poster Session
+N/A,N/A,BILBO: BILevel Bayesian Optimization,N/A,Poster Session
+N/A,N/A,Integration-free Kernels for Equivariant Gaussian Process Modelling,N/A,Poster Session
+N/A,N/A,Robust and Conjugate Spatio-Temporal Gaussian Processes,N/A,Poster Session
+N/A,N/A,Pareto-frontier Entropy Search with Variational Lower Bound Maximization,N/A,Poster Session
+N/A,N/A,Revisiting Non-Acyclic GFlowNets in Discrete Environments,N/A,Poster Session
+N/A,N/A,When to retrain a machine learning model,N/A,Poster Session
+N/A,N/A,Poly2Vec: Polymorphic Fourier-Based Encoding of Geospatial Objects for GeoAI Applications,N/A,Poster Session
+N/A,N/A,LBI-FL: Low-Bit Integerized Federated Learning with Temporally Dynamic Bit-Width Allocation,N/A,Poster Session
+N/A,N/A,Navigating Conflicting Views: Harnessing Trust for Learning,N/A,Poster Session
+N/A,N/A,Nonparametric Teaching for Graph Property Learners,N/A,Poster Session
+N/A,N/A,Confidence Difference Reflects Various Supervised Signals in Confidence-Difference Classification,N/A,Poster Session
+N/A,N/A,Learning to Match Unpaired Data with Minimum Entropy Coupling,N/A,Poster Session
+N/A,N/A,Universal Neural Optimal Transport,N/A,Poster Session
+N/A,N/A,Random Registers for Cross-Domain Few-Shot Learning,N/A,Poster Session
+N/A,N/A,Test-Time Selective Adaptation for Uni-Modal Distribution Shift in Multi-Modal Data,N/A,Poster Session
+N/A,N/A,Instance Correlation Graph-based Naive Bayes,N/A,Poster Session
+N/A,N/A,Ab Initio Nonparametric Variable Selection for Scalable Symbolic Regression with Large p,N/A,Poster Session
+N/A,N/A,Knowledge-Guided Wasserstein Distributionally Robust Optimization,N/A,Poster Session
+N/A,N/A,Does learning the right latent variables necessarily improve in-context learning?,N/A,Poster Session
+N/A,N/A,Update Your Transformer to the Latest Release: Re-Basin of Task Vectors,N/A,Poster Session
+N/A,N/A,R2-T2: Re-Routing in Test-Time for Multimodal Mixture-of-Experts,N/A,Poster Session
+N/A,N/A,iDPA: Instance Decoupled Prompt Attention for Incremental Medical Object Detection,N/A,Poster Session
+N/A,N/A,Be Confident: Uncovering Overfitting in MLLM Multi-Task Tuning,N/A,Poster Session
+N/A,N/A,Homophily Enhanced Graph Domain Adaptation,N/A,Poster Session
+N/A,N/A,Revisiting Continuity of Image Tokens for Cross-domain Few-shot Learning,N/A,Poster Session
+N/A,N/A,Divide and Conquer: Learning Label Distribution with Subtasks,N/A,Poster Session
+N/A,N/A,GRAIL: Graph Edit Distance and Node Alignment using LLM-Generated Code,N/A,Poster Session
+N/A,N/A,Soup-of-Experts: Pretraining Specialist Models via Parameters Averaging,N/A,Poster Session
+N/A,N/A,Randomized Dimensionality Reduction for Euclidean Maximization and Diversity Measures,N/A,Poster Session
+N/A,N/A,Learning Optimal Multimodal Information Bottleneck Representations,N/A,Poster Session
+N/A,N/A,Diss-l-ECT: Dissecting Graph Data with Local Euler Characteristic Transforms,N/A,Poster Session
+N/A,N/A,Latent Score-Based Reweighting for Robust Classification on Imbalanced Tabular Data,N/A,Poster Session
+N/A,N/A,Deep Unsupervised Hashing via External Guidance,N/A,Poster Session
+N/A,N/A,GMAIL: Generative Modality Alignment for generated Image Learning,N/A,Poster Session
+N/A,N/A,Aligning Multimodal Representations through an Information Bottleneck,N/A,Poster Session
+N/A,N/A,Uncertainty Quantification for LLM-Based Survey Simulations,N/A,Poster Session
+N/A,N/A,CogMath: Assessing LLMs' Authentic Mathematical Ability from a Human Cognitive Perspective,N/A,Poster Session
+N/A,N/A,Measuring Diversity in Synthetic Datasets,N/A,Poster Session
+N/A,N/A,Copilot Arena: A Platform for Code LLM Evaluation in the Wild,N/A,Poster Session
+N/A,N/A,LMAct: A Benchmark for In-Context Imitation Learning with Long Multimodal Demonstrations,N/A,Poster Session
+N/A,N/A,Toward Efficient Kernel-Based Solvers for Nonlinear PDEs,N/A,Poster Session
+N/A,N/A,Statistical and Computational Guarantees of Kernel Max-Sliced Wasserstein Distances,N/A,Poster Session
+N/A,N/A,Competing Bandits in Matching Markets via Super Stability,N/A,Poster Session
+N/A,N/A,Comparing Few to Rank Many: Active Human Preference Learning Using Randomized Frank-Wolfe Method,N/A,Poster Session
+N/A,N/A,Non-stationary Online Learning for Curved Losses: Improved Dynamic Regret via Mixability,N/A,Poster Session
+N/A,N/A,Active feature acquisition via explainability-driven ranking,N/A,Poster Session
+N/A,N/A,Clustering Items through Bandit Feedback: Finding the Right Feature out of Many,N/A,Poster Session
+N/A,N/A,Causal Logistic Bandits with Counterfactual Fairness Constraints,N/A,Poster Session
+N/A,N/A,Deep Streaming View Clustering,N/A,Poster Session
+N/A,N/A,Signed Laplacians for Constrained Graph Clustering,N/A,Poster Session
+N/A,N/A,Revisiting Instance-Optimal Cluster Recovery in the Labeled Stochastic Block Model,N/A,Poster Session
+N/A,N/A,Arrow: Accelerator for Time Series Causal Discovery with Time Weaving,N/A,Poster Session
+N/A,N/A,Quantifying Treatment Effects: Estimating Risk Ratios via Observational Studies,N/A,Poster Session
+N/A,N/A,A Recipe for Causal Graph Regression: Confounding Effects Revisited,N/A,Poster Session
+N/A,N/A,Isolated Causal Effects of Natural Language,N/A,Poster Session
+N/A,N/A,Distinguishing Cause from Effect with Causal Velocity Models,N/A,Poster Session
+N/A,N/A,"Data-Driven Selection of Instrumental Variables for Additive Nonlinear, Constant Effects Models",N/A,Poster Session
+N/A,N/A,Counterfactual Effect Decomposition in Multi-Agent Sequential Decision Making,N/A,Poster Session
+N/A,N/A,A Causal World Model Underlying Next Token Prediction: Exploring GPT in a Controlled Environment,N/A,Poster Session
+N/A,N/A,Telling Peer Direct Effects from Indirect Effects in Observational Network Data,N/A,Poster Session
+N/A,N/A,A Sample Efficient Conditional Independence Test in the Presence of Discretization,N/A,Poster Session
+N/A,N/A,BoA: Attention-aware Post-training Quantization without Backpropagation,N/A,Poster Session
+N/A,N/A,Tackling Dimensional Collapse toward Comprehensive Universal Domain Adaptation,N/A,Poster Session
+N/A,N/A,Learning without Isolation: Pathway Protection for Continual Learning,N/A,Poster Session
+N/A,N/A,DOLPHIN: A Programmable Framework for Scalable Neurosymbolic Learning,N/A,Poster Session
+N/A,N/A,Self-Improving Transformers Overcome Easy-to-Hard and Length Generalization Challenges,N/A,Poster Session
+N/A,N/A,A Closer Look at Generalized BH Algorithm for Out-of-Distribution Detection,N/A,Poster Session
+N/A,N/A,Enhancing Adversarial Robustness with Conformal Prediction: A Framework for Guaranteed Model Reliability,N/A,Poster Session
+N/A,N/A,Bifurcate then Alienate: Incomplete Multi-view Clustering via Coupled Distribution Learning with Linear Overhead,N/A,Poster Session
+N/A,N/A,FedSSI: Rehearsal-Free Continual Federated Learning with Synergistic Synaptic Intelligence,N/A,Poster Session
+N/A,N/A,Joint Metric Space Embedding by Unbalanced Optimal Transport with Gromov–Wasserstein Marginal Penalization,N/A,Poster Session
+N/A,N/A,Improving the Variance of Differentially Private Randomized Experiments through Clustering,N/A,Poster Session
+N/A,N/A,Doubly Protected Estimation for Survival Outcomes Utilizing External Controls for Randomized Clinical Trials,N/A,Poster Session
+N/A,N/A,Balancing Interference and Correlation in Spatial Experimental Designs: A Causal Graph Cut Approach,N/A,Poster Session
+N/A,N/A,AtlasD: Automatic Local Symmetry Discovery,N/A,Poster Session
+N/A,N/A,Investigating the Overlooked Hessian Structure: From CNNs to LLMs,N/A,Poster Session
+N/A,N/A,Concept-Centric Token Interpretation for Vector-Quantized Generative Models,N/A,Poster Session
+N/A,N/A,CtrlSynth: Controllable Image Text Synthesis for Data-Efficient Multimodal Learning,N/A,Poster Session
+N/A,N/A,A Simple Model of Inference Scaling Laws,N/A,Poster Session
+N/A,N/A,Minimum Width for Universal Approximation using Squashable Activation Functions,N/A,Poster Session
+N/A,N/A,Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry,N/A,Poster Session
+N/A,N/A,On the Power of Context-Enhanced Learning in LLMs,N/A,Poster Session
+N/A,N/A,Beyond Zero Initialization: Investigating the Impact of Non-Zero Initialization on LoRA Fine-Tuning Dynamics,N/A,Poster Session
+N/A,N/A,When Diffusion Models Memorize: Inductive Biases in Probability Flow of Minimum-Norm Shallow Neural Nets,N/A,Poster Session
+N/A,N/A,"Neural Collapse Beyond the Unconstrained Features Model: Landscape, Dynamics, and Generalization in the Mean-Field Regime",N/A,Poster Session
+N/A,N/A,Transformative or Conservative? Conservation laws for ResNets and Transformers,N/A,Poster Session
+N/A,N/A,Global curvature for second-order optimization of neural networks,N/A,Poster Session
+N/A,N/A,TabFSBench: Tabular Benchmark for Feature Shifts in Open Environments,N/A,Poster Session
+N/A,N/A,Advancing Personalized Learning with Neural Collapse for Long-Tail Challenge,N/A,Poster Session
+N/A,N/A,Towards Robust Influence Functions with Flat Validation Minima,N/A,Poster Session
+N/A,N/A,Test-Time Canonicalization by Foundation Models for Robust Perception,N/A,Poster Session
+N/A,N/A,Bi-perspective Splitting Defense: Achieving Clean-Seed-Free Backdoor Security,N/A,Poster Session
+N/A,N/A,LAION-C: An Out-of-Distribution Benchmark for Web-Scale Vision Models,N/A,Poster Session
+N/A,N/A,Adversarial Perturbations Are Formed by Iteratively Learning Linear Combinations of the Right Singular Vectors of the Adversarial Jacobian,N/A,Poster Session
+N/A,N/A,OOD-Chameleon: Is Algorithm Selection for OOD Generalization Learnable?,N/A,Poster Session
+N/A,N/A,MTSTRec: Multimodal Time-Aligned Shared Token Recommender,N/A,Poster Session
+N/A,N/A,Lightweight Online Adaption for Time Series Foundation Model Forecasts,N/A,Poster Session
+N/A,N/A,K2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting,N/A,Poster Session
+N/A,N/A,Winner-takes-all for Multivariate Probabilistic Time Series Forecasting,N/A,Poster Session
+N/A,N/A,An analytic theory of creativity in convolutional diffusion models,N/A,Poster Session
+N/A,N/A,Optimizing Robustness and Accuracy in Mixture of Experts: A Dual-Model Approach,N/A,Poster Session
+N/A,N/A,Quadratic Upper Bound for Boosting Robustness,N/A,Poster Session
+N/A,N/A,Learning Gaussian DAG Models without Condition Number Bounds,N/A,Poster Session
+N/A,N/A,An Adaptive Orthogonal Convolution Scheme for Efficient and Flexible CNN Architectures,N/A,Poster Session
+N/A,N/A,Boosting Adversarial Robustness with CLAT: Criticality Leveraged Adversarial Training,N/A,Poster Session
+N/A,N/A,SGD Jittering: A Training Strategy for Robust and Accurate Model-Based Architectures,N/A,Poster Session
+N/A,N/A,Stochastic Layer-Wise Shuffle for Improving Vision Mamba Training,N/A,Poster Session
+N/A,N/A,Mechanistic PDE Networks for Discovery of Governing Equations,N/A,Poster Session
+N/A,N/A,The Logical Implication Steering Method for Conditional Interventions on Transformer Generation,N/A,Poster Session
+N/A,N/A,PRIME: Deep Imbalanced Regression with Proxies,N/A,Poster Session
+N/A,N/A,Deep Principal Support Vector Machines for Nonlinear Sufficient Dimension Reduction,N/A,Poster Session
+N/A,N/A,Double-Filter: Efficient Fine-tuning of Pre-trained Vision-Language Models via Patch&Layer Filtering,N/A,Poster Session
+N/A,N/A,Emergence and Effectiveness of Task Vectors in In-Context Learning: An Encoder Decoder Perspective,N/A,Poster Session
+N/A,N/A,Large Language Models to Diffusion Finetuning,N/A,Poster Session
+N/A,N/A,Peripheral Memory for LLMs: Integration of Sequential Memory Banks with Adaptive Querying,N/A,Poster Session
+N/A,N/A,The Synergy of LLMs & RL Unlocks Offline Learning of Generalizable Language-Conditioned Policies with Low-fidelity Data,N/A,Poster Session
+N/A,N/A,Prune 'n Predict: Optimizing LLM Decision-making with Conformal Prediction,N/A,Poster Session
+N/A,N/A,Pivoting Factorization: A Compact Meta Low-Rank Representation of Sparsity for Efficient Inference in Large Language Models,N/A,Poster Session
+N/A,N/A,OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM inference,N/A,Poster Session
+N/A,N/A,Restoring Calibration for Aligned Large Language Models: A Calibration-Aware Fine-Tuning Approach,N/A,Poster Session
+N/A,N/A,Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration,N/A,Poster Session
+N/A,N/A,The Missing Alignment Link of In-context Learning on Sequences,N/A,Poster Session
+N/A,N/A,RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts,N/A,Poster Session
+N/A,N/A,Improving Parallel Program Performance with LLM Optimizers via Agent-System Interfaces,N/A,Poster Session
+N/A,N/A,A Sharper Global Convergence Analysis for Average Reward Reinforcement Learning via an Actor-Critic Approach,N/A,Poster Session
+N/A,N/A,The Sample Complexity of Online Strategic Decision Making with Information Asymmetry and Knowledge Transportability,N/A,Poster Session
+N/A,N/A,Overcoming the Curse of Dimensionality in Reinforcement Learning Through Approximate Factorization,N/A,Poster Session
+N/A,N/A,Can RLHF be More Efficient with Imperfect Reward Models? A Policy Coverage Perspective,N/A,Poster Session
+N/A,N/A,Diffusion models for Gaussian distributions: Exact solutions and Wasserstein errors,N/A,Poster Session
+N/A,N/A,Average Sensitivity of Hierarchical k-Median Clustering,N/A,Poster Session
+N/A,N/A,Learning multivariate Gaussians with imperfect advice,N/A,Poster Session
+N/A,N/A,On The Concurrence of Layer-wise Preconditioning Methods and Provable Feature Learning,N/A,Poster Session
+N/A,N/A,Sparse-pivot: Dynamic correlation clustering for node insertions,N/A,Poster Session
+N/A,N/A,Calibrating Video Watch-time Predictions with Credible Prototype Alignment,N/A,Poster Session
+N/A,N/A,Incremental Gradient Descent with Small Epoch Counts is Surprisingly Slow on Ill-Conditioned Problems,N/A,Poster Session
+N/A,N/A,Adaptive Self-improvement LLM Agentic System for ML Library Development,N/A,Poster Session
+N/A,N/A,PEINR: A Physics-enhanced Implicit Neural Representation for High-Fidelity Flow Field Reconstruction,N/A,Poster Session
+N/A,N/A,PDE-Transformer: Efficient and Versatile Transformers for Physics Simulations,N/A,Poster Session
+N/A,N/A,Topology-aware Neural Flux Prediction Guided by Physics,N/A,Poster Session
+N/A,N/A,OneForecast: A Universal Framework for Global and Regional Weather Forecasting,N/A,Poster Session
+N/A,N/A,Efficient and Scalable Density Functional Theory Hamiltonian Prediction through Adaptive Sparsity,N/A,Poster Session
+N/A,N/A,WyckoffDiff -- A Generative Diffusion Model for Crystal Symmetry,N/A,Poster Session
+N/A,N/A,Zero-Shot Cyclic Peptide Design via Composable Geometric Constraints,N/A,Poster Session
+N/A,N/A,PINNsAgent: Automated PDE Surrogation with Large Language Models,N/A,Poster Session
+N/A,N/A,Temperature-Annealed Boltzmann Generators,N/A,Poster Session
+N/A,N/A,Arbitrarily-Conditioned Multi-Functional Diffusion for Multi-Physics Emulation,N/A,Poster Session
+N/A,N/A,A Machine Learning Approach to Duality in Statistical Physics,N/A,Poster Session
+N/A,N/A,Tensor-Var: Efficient Four-Dimensional Variational Data Assimilation,N/A,Poster Session
+N/A,N/A,Multi-Timescale Dynamics Model Bayesian Optimization for Plasma Stabilization in Tokamaks,N/A,Poster Session
+N/A,N/A,MIPT: Multilevel Informed Prompt Tuning for Robust Molecular Property Prediction,N/A,Poster Session
+N/A,N/A,Open Materials Generation with Stochastic Interpolants,N/A,Poster Session
+N/A,N/A,Relational Invariant Learning for Robust Solvation Free Energy Prediction,N/A,Poster Session
+N/A,N/A,Interpolating Neural Network-Tensor Decomposition (INN-TD): a scalable and interpretable approach for large-scale physics-based problems,N/A,Poster Session
+N/A,N/A,HybridGS: High-Efficiency Gaussian Splatting Data Compression using Dual-Channel Sparse Representation and Point Cloud Encoder,N/A,Poster Session
+N/A,N/A,CostFilter-AD: Enhancing Anomaly Detection through Matching Cost Filtering,N/A,Poster Session
+N/A,N/A,HetSSNet: Spatial-Spectral Heterogeneous Graph Learning Network for Panchromatic and Multispectral Images Fusion,N/A,Poster Session
+N/A,N/A,MIRROR: Make Your Object-Level Multi-View Generation More Consistent with Training-Free Rectification,N/A,Poster Session
+N/A,N/A,Generative Point Cloud Registration,N/A,Poster Session
+N/A,N/A,Feature out! Let Raw Image as Your Condition for Blind Face Restoration,N/A,Poster Session
+N/A,N/A,VTGaussian-SLAM: RGBD SLAM for Large Scale Scenes with Splatting View-Tied 3D Gaussians,N/A,Poster Session
+N/A,N/A,VideoRoPE: What Makes for Good Video Rotary Position Embedding?,N/A,Poster Session
+N/A,N/A,ReferSplat: Referring Segmentation in 3D Gaussian Splatting,N/A,Poster Session
+N/A,N/A,Privacy-Shielded Image Compression: Defending Against Exploitation from Vision-Language Pretrained Models,N/A,Poster Session
+N/A,N/A,Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention,N/A,Poster Session
+N/A,N/A,Asymmetric Decision-Making in Online Knowledge Distillation: Unifying Consensus and Divergence,N/A,Poster Session
+N/A,N/A,Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model,N/A,Poster Session
+N/A,N/A,Efficient Motion Prompt Learning for Robust Visual Tracking,N/A,Poster Session
+N/A,N/A,PhySpec: Physically Consistent Spectral Reconstruction via Orthogonal Subspace Decomposition and Self-Supervised Meta-Auxiliary Learning,N/A,Poster Session
+N/A,N/A,PISA Experiments: Exploring Physics Post-Training for Video Diffusion Models by Watching Stuff Drop,N/A,Poster Session
+N/A,N/A,SafeMap: Robust HD Map Construction from Incomplete Observations,N/A,Poster Session
+N/A,N/A,When Model Knowledge meets Diffusion Model: Diffusion-assisted Data-free Image Synthesis with Alignment of Domain and Class,N/A,Poster Session
+N/A,N/A,Learning Event Completeness for Weakly Supervised Video Anomaly Detection,N/A,Poster Session
+N/A,N/A,Visual Autoregressive Modeling for Image Super-Resolution,N/A,Poster Session
+N/A,N/A,Beyond Confidence: Exploiting Homogeneous Pattern for Semi-Supervised Semantic Segmentation,N/A,Poster Session
+N/A,N/A,UniMC: Taming Diffusion Transformer for Unified Keypoint-Guided Multi-Class Image Generation,N/A,Poster Session
+N/A,N/A,Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection,N/A,Poster Session
+N/A,N/A,Unifying 2D and 3D Vision-Language Understanding,N/A,Poster Session
+N/A,N/A,DyPolySeg: Taylor Series-Inspired Dynamic Polynomial Fitting Network for Few-shot Point Cloud Semantic Segmentation,N/A,Poster Session
+N/A,N/A,sciLaMA: A Single-Cell Representation Learning Framework to Leverage Prior Knowledge from Large Language Models,N/A,Poster Session
+N/A,N/A,CellFlux: Simulating Cellular Morphology Changes via Flow Matching,N/A,Poster Session
+N/A,N/A,Raptor: Scalable Train-Free Embeddings for 3D Medical Volumes Leveraging Pretrained 2D Foundation Models,N/A,Poster Session
+N/A,N/A,All-atom inverse protein folding through discrete flow matching,N/A,Poster Session
+N/A,N/A,Aligning Protein Conformation Ensemble Generation with Physical Feedback,N/A,Poster Session
+N/A,N/A,CombiMOTS: Combinatorial Multi-Objective Tree Search for Dual-Target Molecule Generation,N/A,Poster Session
+N/A,N/A,MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding,N/A,Poster Session
+N/A,N/A,UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design,N/A,Poster Session
+N/A,N/A,Identifying biological perturbation targets through causal differential networks,N/A,Poster Session
+N/A,N/A,Staged and Physics-Grounded Learning Framework with Hyperintensity Prior for Pre-Contrast MRI Synthesis,N/A,Poster Session
+N/A,N/A,BounDr.E: Predicting Drug-likeness via Biomedical Knowledge Alignment and EM-like One-Class Boundary Optimization,N/A,Poster Session
+N/A,N/A,Multi-Marginal Stochastic Flow Matching for High-Dimensional Snapshot Data at Irregular Time Points,N/A,Poster Session
+N/A,N/A,InfoSEM: A Deep Generative Model with Informative Priors for Gene Regulatory Network Inference,N/A,Poster Session
+N/A,N/A,A Variational Perspective on Generative Protein Fitness Optimization,N/A,Poster Session
+N/A,N/A,Do Multiple Instance Learning Models Transfer?,N/A,Poster Session
+N/A,N/A,Reliable Algorithm Selection for Machine Learning-Guided Design,N/A,Poster Session
+N/A,N/A,"""Why Is There a Tumor?"": Tell Me the Reason, Show Me the Evidence",N/A,Poster Session
+N/A,N/A,ViTally Consistent: Scaling Biological Representation Learning for Cell Microscopy,N/A,Poster Session
+N/A,N/A,Visual and Domain Knowledge for Professional-level Graph-of-Thought Medical Reasoning,N/A,Poster Session
+N/A,N/A,A Cross Modal Knowledge Distillation & Data Augmentation Recipe for Improving Transcriptomics Representations through Morphological Features,N/A,Poster Session
+N/A,N/A,Unified Screening for Multiple Diseases,N/A,Poster Session
+N/A,N/A,BinauralFlow: A Causal and Streamable Approach for High-Quality Binaural Speech Synthesis with Flow Matching Models,N/A,Poster Session
+N/A,N/A,UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction,N/A,Poster Session
+N/A,N/A,Context is Key: A Benchmark for Forecasting with Essential Textual Information,N/A,Poster Session
+N/A,N/A,CMoS: Rethinking Time Series Prediction Through the Lens of Chunk-wise Spatial Correlations,N/A,Poster Session
+N/A,N/A,TimePoint: Accelerated Time Series Alignment via Self-Supervised Keypoint and Descriptor Learning,N/A,Poster Session
+N/A,N/A,LOB-Bench: Benchmarking Generative AI for Finance - an Application to Limit Order Book Data,N/A,Poster Session
+N/A,N/A,ProDiff: Prototype-Guided Diffusion for Minimal Information Trajectory Imputation,N/A,Poster Session
+N/A,N/A,Efficient Personalized Adaptation for Physiological Signal Foundation Model,N/A,Poster Session
+N/A,N/A,Towards Learning to Complete Anything in Lidar,N/A,Poster Session
+N/A,N/A,Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations,N/A,Poster Session
+N/A,N/A,OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction,N/A,Poster Session
+N/A,N/A,SAH-Drive: A Scenario-Aware Hybrid Planner for Closed-Loop Vehicle Trajectory Generation,N/A,Poster Session
+N/A,N/A,DexScale: Automating Data Scaling for Sim2Real Generalizable Robot Control,N/A,Poster Session
+N/A,N/A,Self-cross Feature based Spiking Neural Networks for Efficient Few-shot Learning,N/A,Poster Session
+N/A,N/A,Testing the Limits of Fine-Tuning for Improving Visual Cognition in Vision Language Models,N/A,Poster Session
+N/A,N/A,Pre-Training Graph Contrastive Masked Autoencoders are Strong Distillers for EEG,N/A,Poster Session
+N/A,N/A,Faster and Stronger: When ANN-SNN Conversion Meets Parallel Spiking Calculation,N/A,Poster Session
+N/A,N/A,Mind Your Step (by Step): Chain-of-Thought can Reduce Performance on Tasks where Thinking Makes Humans Worse,N/A,Poster Session
+N/A,N/A,Fleet of Agents: Coordinated Problem Solving with Large Language Models,N/A,Poster Session
+N/A,N/A,A Reasoning-Based Approach to Cryptic Crossword Clue Solving,N/A,Poster Session
+N/A,N/A,MoHAVE: Mixture of Hierarchical Audio-Visual Experts for Robust Speech Recognition,N/A,Poster Session
+N/A,N/A,Policy Filtration for RLHF to Mitigate Noise in Reward Models,N/A,Poster Session
+N/A,N/A,LaRA: Benchmarking Retrieval-Augmented Generation and Long-Context LLMs – No Silver Bullet for LC or RAG Routing,N/A,Poster Session
+N/A,N/A,Feature-Mapping Topology Optimization with Neural Heaviside Signed Distance Functions,N/A,Poster Session
+N/A,N/A,Universal Biological Sequence Reranking for Improved De Novo Peptide Sequencing,N/A,Poster Session
+N/A,N/A,Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction,N/A,Poster Session
+N/A,N/A,LaMAGIC2: Advanced Circuit Formulations for Language Model-Based Analog Topology Generation,N/A,Poster Session
+N/A,N/A,Geometry-Informed Neural Networks,N/A,Poster Session
+N/A,N/A,Flat-LoRA: Low-Rank Adaptation over a Flat Loss Landscape,N/A,Poster Session
+N/A,N/A,Efficient Distributed Optimization under Heavy-Tailed Noise,N/A,Poster Session
+N/A,N/A,Online Conformal Prediction via Online Optimization,N/A,Poster Session
+N/A,N/A,Learning to Generate Projections for Reducing Dimensionality of Heterogeneous Linear Programming Problems,N/A,Poster Session
+N/A,N/A,Schwarz–Schur Involution: Lightspeed Differentiable Sparse Linear Solvers,N/A,Poster Session
+N/A,N/A,Finding Wasserstein Ball Center: Efficient Algorithm and The Applications in Fairness,N/A,Poster Session
+N/A,N/A,Decoupled SGDA for Games with Intermittent Strategy Communication,N/A,Poster Session
+N/A,N/A,Momentum-Driven Adaptivity: Towards Tuning-Free Asynchronous Federated Learning,N/A,Poster Session
+N/A,N/A,Lean and Mean Adaptive Optimization via Subset-Norm and Subspace-Momentum with Convergence Guarantees,N/A,Poster Session
+N/A,N/A,Efficient Curvature-Aware Hypergradient Approximation for Bilevel Optimization,N/A,Poster Session
+N/A,N/A,Automatic Differentiation of Optimization Algorithms with Time-Varying Updates,N/A,Poster Session
+N/A,N/A,Secant Line Search for Frank-Wolfe Algorithms,N/A,Poster Session
+N/A,N/A,Active Learning of Deep Neural Networks via Gradient-Free Cutting Planes,N/A,Poster Session
+N/A,N/A,Scalable Approximation Algorithms for p-Wasserstein Distance and Its Variants,N/A,Poster Session
+N/A,N/A,SHIELD: Multi-task Multi-distribution Vehicle Routing Solver with Sparsity and Hierarchy,N/A,Poster Session
+N/A,N/A,An Asymptotically Optimal Approximation Algorithm for Multiobjective Submodular Maximization at Scale,N/A,Poster Session
+N/A,N/A,Discrepancy Minimization in Input-Sparsity Time,N/A,Poster Session
+N/A,N/A,Intersectional Fairness in Reinforcement Learning with Large State and Constraint Spaces,N/A,Poster Session
+N/A,N/A,Scaling Value Iteration Networks to 5000 Layers for Extreme Long-Term Planning,N/A,Poster Session
+N/A,N/A,Action-Constrained Imitation Learning,N/A,Poster Session
+N/A,N/A,A Reduction Framework for Distributionally Robust Reinforcement Learning under Average Reward,N/A,Poster Session
+N/A,N/A,Off-Policy Actor-Critic for Adversarial Observation Robustness: Virtual Alternative Training via Symmetric Policy Evaluation,N/A,Poster Session
+N/A,N/A,Adaptive Exploration for Multi-Reward Multi-Policy Evaluation,N/A,Poster Session
+N/A,N/A,A Sub-Problem Quantum Alternating Operator Ansatz for Correlation Clustering,N/A,Poster Session
+N/A,N/A,Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings,N/A,Poster Session
+N/A,N/A,Improved Lower Bounds for First-order Stochastic Non-convex Optimization under Markov Sampling,N/A,Poster Session
+N/A,N/A,A Memory Efficient Randomized Subspace Optimization Method for Training Large Language Models,N/A,Poster Session
+N/A,N/A,Convergence of Mean-Field Langevin Stochastic Descent-Ascent for Distributional Minimax Optimization,N/A,Poster Session
+N/A,N/A,Optimal Transport Barycenter via Nonconvex-Concave Minimax Optimization,N/A,Poster Session
+N/A,N/A,A Novel Characterization of the Population Area Under the Risk Coverage Curve (AURC) and Rates of Finite Sample Estimators,N/A,Poster Session
+N/A,N/A,MetaOptimize: A Framework for Optimizing Step Sizes and Other Meta-parameters,N/A,Poster Session
+N/A,N/A,Constant Stepsize Local GD for Logistic Regression: Acceleration by Instability,N/A,Poster Session
+N/A,N/A,Distributed Retraction-Free and Communication-Efficient Optimization on the Stiefel Manifold,N/A,Poster Session
+N/A,N/A,Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity,N/A,Poster Session
+N/A,N/A,FedOne: Query-Efficient Federated Learning for Black-box Discrete Prompt Learning,N/A,Poster Session
+N/A,N/A,PipeOffload: Improving Scalability of Pipeline Parallelism with Memory Optimization,N/A,Poster Session
+N/A,N/A,FRUGAL: Memory-Efficient Optimization by Reducing State Overhead for Scalable Training,N/A,Poster Session
+N/A,N/A,Riemannian Diffusion Adaptation for Distributed Optimization on Manifolds,N/A,Poster Session
+N/A,N/A,Differentiable Quadratic Optimization For the Maximum Independent Set Problem,N/A,Poster Session
+N/A,N/A,QPRL : Learning Optimal Policies with Quasi-Potential Functions for Asymmetric Traversal,N/A,Poster Session
+N/A,N/A,In-Context Reinforcement Learning From Suboptimal Historical Data,N/A,Poster Session
+N/A,N/A,Calibrated Value-Aware Model Learning with Probabilistic Environment Models,N/A,Poster Session
+N/A,N/A,Time-Aware World Model for Adaptive Prediction and Control,N/A,Poster Session
+N/A,N/A,Pessimism Principle Can Be Effective: Towards a Framework for Zero-Shot Transfer Reinforcement Learning,N/A,Poster Session
+N/A,N/A,Log-Sum-Exponential Estimator for Off-Policy Evaluation and Learning,N/A,Poster Session
+N/A,N/A,Temporal Distance-aware Transition Augmentation for Offline Model-based Reinforcement Learning,N/A,Poster Session
+N/A,N/A,Reflect-then-Plan: Offline Model-Based Planning through a Doubly Bayesian Lens,N/A,Poster Session
+N/A,N/A,"Multi-Stage Manipulation with Demonstration-Augmented Reward, Policy, and World Model Learning",N/A,Poster Session
+N/A,N/A,Trajectory World Models for Heterogeneous Environments,N/A,Poster Session
+N/A,N/A,Stealing That Free Lunch: Exposing the Limits of Dyna-Style Reinforcement Learning,N/A,Poster Session
+N/A,N/A,The Impact of On-Policy Parallelized Data Collection on Deep Reinforcement Learning Networks,N/A,Poster Session
+N/A,N/A,Robust Reward Alignment via Hypothesis Space Batch Cutting,N/A,Poster Session
+N/A,N/A,Diversifying Robot Locomotion Behaviors with Extrinsic Behavioral Curiosity,N/A,Poster Session
+N/A,N/A,Agent-Centric Actor-Critic for Asynchronous Multi-Agent Reinforcement Learning,N/A,Poster Session
+N/A,N/A,Ad-Hoc Human-AI Coordination Challenge,N/A,Poster Session
+N/A,N/A,Revisiting Cooperative Off-Policy Multi-Agent Reinforcement Learning,N/A,Poster Session
+N/A,N/A,R3DM: Enabling Role Discovery and Diversity Through Dynamics Models in Multi-agent Reinforcement Learning,N/A,Poster Session
+N/A,N/A,AssistanceZero: Scalably Solving Assistance Games,N/A,Poster Session
+N/A,N/A,Goal-Space Planning with Subgoal Models,N/A,Poster Session
+N/A,N/A,Faster Approximation Algorithms for k-Center via Data Reduction,N/A,Poster Session
+SUN 13 JUL,9 a.m.,How Far Is Video Generation from World Model: A Physical Law Perspective,N/A,Poster Session
+SUN 13 JUL,9:15 a.m.,TabICL: A Tabular Foundation Model for In-Context Learning on Large Data,N/A,Poster Session
+SUN 13 JUL,9:30 a.m.,Score-of-Mixture Training: One-Step Generative Model Training Made Simple via Score Estimation of Mixture Distributions,N/A,Poster Session
+SUN 13 JUL,9:45 a.m.,Vector Grimoire: Codebook-based Shape Generation under Raster Image Supervision,N/A,Poster Session
+SUN 13 JUL,10 a.m.,Latent Thought Models with Variational Bayes Inference-Time Computation,N/A,Poster Session
+SUN 13 JUL,10:15 a.m.,UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control,N/A,Poster Session
+SUN 13 JUL,10:30 a.m.,"SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",N/A,Poster Session
+SUN 13 JUL,10:45 a.m.,WildChat-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training,N/A,Poster Session
+SUN 13 JUL,11 a.m.,Scaling Laws for Forgetting during Finetuning with Pretraining Data Injection,N/A,Poster Session
+SUN 13 JUL,11:15 a.m.,On Understanding Attention-Based In-Context Learning for Categorical Data,N/A,Poster Session
+SUN 13 JUL,11:30 a.m.,Benign Overfitting in Token Selection of Attention Mechanism,N/A,Poster Session
+SUN 13 JUL,11:45 a.m.,AdaSplash: Adaptive Sparse Flash Attention,N/A,Poster Session
+SUN 13 JUL,12 p.m.,Star Attention: Efficient LLM Inference over Long Sequences,N/A,Poster Session
+SUN 13 JUL,12:15 p.m.,Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity,N/A,Poster Session
+SUN 13 JUL,12:30 p.m.,Re-ranking Reasoning Context with Tree Search Makes Large Vision-Language Models Stronger,N/A,Poster Session
+SUN 13 JUL,12:45 p.m.,On-Device Collaborative Language Modeling via a Mixture of Generalists and Specialists,N/A,Poster Session
+SUN 13 JUL,1 p.m.,Beyond Low-rank Decomposition: A Shortcut Approach for Efficient On-Device Learning,N/A,Poster Session
+SUN 13 JUL,1:15 p.m.,SAND: One-Shot Feature Selection with Additive Noise Distortion,N/A,Poster Session
+SUN 13 JUL,1:30 p.m.,Unisolver: PDE-Conditional Transformers Towards Universal Neural PDE Solvers,N/A,Poster Session
+SUN 13 JUL,1:45 p.m.,Neural Genetic Search in Discrete Spaces,N/A,Poster Session
+SUN 13 JUL,2 p.m.,Semantic Shift Estimation via Dual-Projection and Classifier Reconstruction for Exemplar-Free Class-Incremental Learning,N/A,Poster Session
+SUN 13 JUL,2:15 p.m.,The Importance of Being Lazy: Scaling Limits of Continual Learning,N/A,Poster Session
+SUN 13 JUL,2:30 p.m.,Compression via Pre-trained Transformers: A Study on Byte-Level Multimodal Data,N/A,Poster Session
+SUN 13 JUL,2:45 p.m.,L3A: Label-Augmented Analytic Adaptation for Multi-Label Class Incremental Learning,N/A,Poster Session
+SUN 13 JUL,3 p.m.,Improved Algorithm for Deep Active Learning under Imbalance via Optimal Separation,N/A,Poster Session
+SUN 13 JUL,3:15 p.m.,Position: AI Safety should prioritize the Future of Work,N/A,Poster Session
+SUN 13 JUL,3:30 p.m.,Position: AI's growing due process problem,N/A,Poster Session
+SUN 13 JUL,3:45 p.m.,Position: Generative AI Regulation Can Learn from Social Media Regulation,N/A,Poster Session
+SUN 13 JUL,4 p.m.,Position: Current Model Licensing Practices are Dragging Us into a Quagmire of Legal Noncompliance,N/A,Poster Session
+SUN 13 JUL,4:15 p.m.,Position: Editing Large Language Models Poses Serious Safety Risks,N/A,Poster Session
+SUN 13 JUL,4:30 p.m.,Position: Machine Learning Models Have a Supply Chain Problem,N/A,Poster Session
+SUN 13 JUL,4:45 p.m.,Position: AI Agents Need Authenticated Delegation,N/A,Poster Session
+SUN 13 JUL,5 p.m.,Position: LLM Social Simulations Are a Promising Research Method,N/A,Poster Session
+SUN 13 JUL,5:15 p.m.,Position: Challenges and Future Directions of Data-Centric AI Alignment,N/A,Poster Session
+SUN 13 JUL,5:30 p.m.,Position: Causal Machine Learning Requires Rigorous Synthetic Experiments for Broader Adoption,N/A,Poster Session
+SUN 13 JUL,5:45 p.m.,Position: Formal Mathematical Reasoning—A New Frontier in AI,N/A,Poster Session
+SUN 13 JUL,6 p.m.,Position: An Empirically Grounded Identifiability Theory Will Accelerate Self Supervised Learning Research,N/A,Poster Session
+SUN 13 JUL,6:15 p.m.,Position: Enough of Scaling LLMs! Lets Focus on Downscaling,N/A,Poster Session
+SUN 13 JUL,6:30 p.m.,Position: In-House Evaluation Is Not Enough. Towards Robust Third-Party Evaluation and Flaw Disclosure for General-Purpose AI,N/A,Poster Session
+SUN 13 JUL,6:45 p.m.,Position: We Need An Algorithmic Understanding of Generative AI,N/A,Poster Session
+SUN 13 JUL,7 p.m.,Position: Beyond Assistance – Reimagining LLMs as Ethical and Adaptive Co-Creators in Mental Health Care,N/A,Poster Session
+ends 1:30 PM,1 p.m.,Hosted Grab and Go Lunch,N/A,Break
+ends 3:00 PM,2 p.m.,Generative AI's Collision with Copyright Law,Pamela Samuelson,Invited Talk
+ends 4:30 PM,3:30,DeFoG: Discrete Flow Matching for Graph Generation,N/A,Oral
+ends 4:30 PM,3:45,MGD3 : Mode-Guided Dataset Distillation using Diffusion Models,N/A,Oral
+ends 4:30 PM,4:00,Inductive Moment Matching,N/A,Oral
+ends 4:30 PM,4:15,"Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions",N/A,Oral
+ends 4:30 PM,3:30,Position: Generative AI Regulation Can Learn from Social Media Regulation,N/A,Position
+ends 4:30 PM,3:45,Position: Current Model Licensing Practices are Dragging Us into a Quagmire of Legal Noncompliance,N/A,Position
+ends 4:30 PM,4:00,Position: AI Agents Need Authenticated Delegation,N/A,Position
+ends 4:30 PM,4:15,Position: AI Safety should prioritize the Future of Work,N/A,Position
+ends 4:30 PM,3:30,Controlling Underestimation Bias in Constrained Reinforcement Learning for Safe Exploration,N/A,Oral
+ends 4:30 PM,3:45,Temporal Difference Flows,N/A,Oral
+ends 4:30 PM,4:00,Network Sparsity Unlocks the Scaling Potential of Deep Reinforcement Learning,N/A,Oral
+ends 4:30 PM,4:15,Cross-environment Cooperation Enables Zero-shot Multi-agent Coordination,N/A,Oral
+ends 4:30 PM,3:30,AdaSplash: Adaptive Sparse Flash Attention,N/A,Oral
+ends 4:30 PM,3:45,Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies,N/A,Oral
+ends 4:30 PM,4:00,ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features,N/A,Oral
+ends 4:30 PM,4:15,Mixture of Lookup Experts,N/A,Oral
+ends 4:30 PM,3:30,Hierarchical Refinement: Optimal Transport to Infinity and Beyond,N/A,Oral
+ends 4:30 PM,3:45,Fully Dynamic Euclidean Bi-Chromatic Matching in Sublinear Update Time,N/A,Oral
+ends 4:30 PM,4:00,Flowing Datasets with Wasserstein over Wasserstein Gradient Flows,N/A,Oral
+ends 4:30 PM,4:15,Addressing Misspecification in Simulation-based Inference through Data-driven Calibration,N/A,Oral
+ends 7:00 PM,4:30,Uncertainty-Based Extensible Codebook for Discrete Federated Learning in Heterogeneous Data Silos,N/A,Poster Session
+ends 7:00 PM,4:30,DRAG: Data Reconstruction Attack using Guided Diffusion,N/A,Poster Session
+ends 7:00 PM,4:30,Approximate Differential Privacy of the ℓ2 Mechanism,N/A,Poster Session
+ends 7:00 PM,4:30,Contrastive Private Data Synthesis via Weighted Multi-PLM Fusion,N/A,Poster Session
+ends 7:00 PM,4:30,Empirical Privacy Variance,N/A,Poster Session
+ends 7:00 PM,4:30,Textual Unlearning Gives a False Sense of Unlearning,N/A,Poster Session
+ends 7:00 PM,4:30,Private Model Personalization Revisited,N/A,Poster Session
+ends 7:00 PM,4:30,EgoPrivacy: What Your First-Person Camera Says About You?,N/A,Poster Session
+ends 7:00 PM,4:30,Theoretically Unmasking Inference Attacks Against LDP-Protected Clients in Federated Vision Models,N/A,Poster Session
+ends 7:00 PM,4:30,Scalable Private Partition Selection via Adaptive Weighting,N/A,Poster Session
+ends 7:00 PM,4:30,Subgroups Matter for Robust Bias Mitigation,N/A,Poster Session
+ends 7:00 PM,4:30,Multiaccuracy and Multicalibration via Proxy Groups,N/A,Poster Session
+ends 7:00 PM,4:30,Dissecting Submission Limit in Desk-Rejections: A Mathematical Analysis of Fairness in AI Conference Policies,N/A,Poster Session
+ends 7:00 PM,4:30,SPRI: Aligning Large Language Models with Context-Situated Principles,N/A,Poster Session
+ends 7:00 PM,4:30,Massive Values in Self-Attention Modules are the Key to Contextual Knowledge Understanding,N/A,Poster Session
+ends 7:00 PM,4:30,SAeUron: Interpretable Concept Unlearning in Diffusion Models with Sparse Autoencoders,N/A,Poster Session
+ends 7:00 PM,4:30,Constrain Alignment with Sparse Autoencoders,N/A,Poster Session
+ends 7:00 PM,4:30,Representation Shattering in Transformers: A Synthetic Study with Knowledge Editing,N/A,Poster Session
+ends 7:00 PM,4:30,On Explaining Equivariant Graph Networks via Improved Relevance Propagation,N/A,Poster Session
+ends 7:00 PM,4:30,"Inducing, Detecting and Characterising Neural Modules: A Pipeline for Functional Interpretability in Reinforcement Learning",N/A,Poster Session
+ends 7:00 PM,4:30,A Unified Comparative Study with Generalized Conformity Scores for Multi-Output Conformal Regression,N/A,Poster Session
+ends 7:00 PM,4:30,SEMU: Singular Value Decomposition for Efficient Machine Unlearning,N/A,Poster Session
+ends 7:00 PM,4:30,From Individual Experience to Collective Evidence: A Reporting-Based Framework for Identifying Systemic Harms,N/A,Poster Session
+ends 7:00 PM,4:30,One Wave To Explain Them All: A Unifying Perspective On Feature Attribution,N/A,Poster Session
+ends 7:00 PM,4:30,"Explaining, Fast and Slow: Abstraction and Refinement of Provable Explanations",N/A,Poster Session
+ends 7:00 PM,4:30,Algorithmic Recourse for Long-Term Improvement,N/A,Poster Session
+ends 7:00 PM,4:30,Textural or Textual: How Vision-Language Models Read Text in Images,N/A,Poster Session
+ends 7:00 PM,4:30,A Non-Asymptotic Convergent Analysis for Scored-Based Graph Generative Model via a System of Stochastic Differential Equations,N/A,Poster Session
+ends 7:00 PM,4:30,Universal Sparse Autoencoders: Interpretable Cross-Model Concept Alignment,N/A,Poster Session
+ends 7:00 PM,4:30,GEFA: A General Feature Attribution Framework Using Proxy Gradient Estimation,N/A,Poster Session
+ends 7:00 PM,4:30,Flowing Datasets with Wasserstein over Wasserstein Gradient Flows,N/A,Poster Session
+ends 7:00 PM,4:30,Adaptive Learn-then-Test: Statistically Valid and Efficient Hyperparameter Selection,N/A,Poster Session
+ends 7:00 PM,4:30,e-GAI: e-value-based Generalized α-Investing for Online False Discovery Rate Control,N/A,Poster Session
+ends 7:00 PM,4:30,Flexible Tails for Normalizing Flows,N/A,Poster Session
+ends 7:00 PM,4:30,Multilayer Matrix Factorization via Dimension-Reducing Diffusion Variational Inference,N/A,Poster Session
+ends 7:00 PM,4:30,Synonymous Variational Inference for Perceptual Image Compression,N/A,Poster Session
+ends 7:00 PM,4:30,An Efficient Search-and-Score Algorithm for Ancestral Graphs using Multivariate Information Scores for Complex Non-linear and Categorical Data,N/A,Poster Session
+ends 7:00 PM,4:30,The Polynomial Stein Discrepancy for Assessing Moment Convergence,N/A,Poster Session
+ends 7:00 PM,4:30,Importance Corrected Neural JKO Sampling,N/A,Poster Session
+ends 7:00 PM,4:30,"A Generic Family of Graphical Models: Diversity, Efficiency, and Heterogeneity",N/A,Poster Session
+ends 7:00 PM,4:30,G-Sim: Generative Simulations with Large Language Models and Gradient-Free Calibration,N/A,Poster Session
+ends 7:00 PM,4:30,Improving the Statistical Efficiency of Cross-Conformal Prediction,N/A,Poster Session
+ends 7:00 PM,4:30,Gridded Transformer Neural Processes for Spatio-Temporal Data,N/A,Poster Session
+ends 7:00 PM,4:30,Rethinking Aleatoric and Epistemic Uncertainty,N/A,Poster Session
+ends 7:00 PM,4:30,Addressing Misspecification in Simulation-based Inference through Data-driven Calibration,N/A,Poster Session
+ends 7:00 PM,4:30,BARNN: A Bayesian Autoregressive and Recurrent Neural Network,N/A,Poster Session
+ends 7:00 PM,4:30,A Bayesian Model Selection Criterion for Selecting Pretraining Checkpoints,N/A,Poster Session
+ends 7:00 PM,4:30,Optimization Proxies using Limited Labeled Data and Training Time -- A Semi-Supervised Bayesian Neural Network Approach,N/A,Poster Session
+ends 7:00 PM,4:30,Step-DAD: Semi-Amortized Policy-Based Bayesian Experimental Design,N/A,Poster Session
+ends 7:00 PM,4:30,Finite-Time Analysis of Discrete-Time Stochastic Interpolants,N/A,Poster Session
+ends 7:00 PM,4:30,FedSMU: Communication-Efficient and Generalization-Enhanced Federated Learning through Symbolic Model Updates,N/A,Poster Session
+ends 7:00 PM,4:30,"Flexible, Efficient, and Stable Adversarial Attacks on Machine Unlearning",N/A,Poster Session
+ends 7:00 PM,4:30,Fully Dynamic Euclidean Bi-Chromatic Matching in Sublinear Update Time,N/A,Poster Session
+ends 7:00 PM,4:30,Towards an Explainable Comparison and Alignment of Feature Embeddings,N/A,Poster Session
+ends 7:00 PM,4:30,Expressive Score-Based Priors for Distribution Matching with Geometry-Preserving Regularization,N/A,Poster Session
+ends 7:00 PM,4:30,Leveraging Diffusion Model as Pseudo-Anomalous Graph Generator for Graph-Level Anomaly Detection,N/A,Poster Session
+ends 7:00 PM,4:30,Neurosymbolic World Models for Sequential Decision Making,N/A,Poster Session
+ends 7:00 PM,4:30,Test-time Correlation Alignment,N/A,Poster Session
+ends 7:00 PM,4:30,Parameter-Efficient Fine-Tuning of State Space Models,N/A,Poster Session
+ends 7:00 PM,4:30,Pareto Merging: Multi-Objective Optimization for Preference-Aware Model Merging,N/A,Poster Session
+ends 7:00 PM,4:30,Balancing the Scales: A Theoretical and Algorithmic Framework for Learning from Imbalanced Data,N/A,Poster Session
+ends 7:00 PM,4:30,Label Distribution Propagation-based Label Completion for Crowdsourcing,N/A,Poster Session
+ends 7:00 PM,4:30,Text-to-LoRA: Instant Transformer Adaption,N/A,Poster Session
+ends 7:00 PM,4:30,In-Context Learning and Occam's Razor,N/A,Poster Session
+ends 7:00 PM,4:30,Improving Continual Learning Performance and Efficiency with Auxiliary Classifiers,N/A,Poster Session
+ends 7:00 PM,4:30,Zero-Shot Adaptation of Parameter-Efficient Fine-Tuning in Diffusion Models,N/A,Poster Session
+ends 7:00 PM,4:30,BECAME: Bayesian Continual Learning with Adaptive Model Merging,N/A,Poster Session
+ends 7:00 PM,4:30,CALM: Consensus-Aware Localized Merging for Multi-Task Learning,N/A,Poster Session
+ends 7:00 PM,4:30,QT-DoG: Quantization-Aware Training for Domain Generalization,N/A,Poster Session
+ends 7:00 PM,4:30,Learning Time-Aware Causal Representation for Model Generalization in Evolving Domains,N/A,Poster Session
+ends 7:00 PM,4:30,Stray Intrusive Outliers-Based Feature Selection on Intra-Class Asymmetric Instance Distribution or Multiple High-Density Clusters,N/A,Poster Session
+ends 7:00 PM,4:30,Prediction models that learn to avoid missing values,N/A,Poster Session
+ends 7:00 PM,4:30,Survival Analysis via Density Estimation,N/A,Poster Session
+ends 7:00 PM,4:30,Learning Changes in Graphon Attachment Network Models,N/A,Poster Session
+ends 7:00 PM,4:30,Time Series Representations with Hard-Coded Invariances,N/A,Poster Session
+ends 7:00 PM,4:30,Sample Complexity of Correlation Detection in the Gaussian Wigner Model,N/A,Poster Session
+ends 7:00 PM,4:30,Relational Conformal Prediction for Correlated Time Series,N/A,Poster Session
+ends 7:00 PM,4:30,Complete-Tree Space Favors Data-Efficient Link Prediction,N/A,Poster Session
+ends 7:00 PM,4:30,Contextures: Representations from Contexts,N/A,Poster Session
+ends 7:00 PM,4:30,Learning Invariant Causal Mechanism from Vision-Language Models,N/A,Poster Session
+ends 7:00 PM,4:30,PaperBench: Evaluating AI’s Ability to Replicate AI Research,N/A,Poster Session
+ends 7:00 PM,4:30,MathConstruct: Challenging LLM Reasoning with Constructive Proofs,N/A,Poster Session
+ends 7:00 PM,4:30,RBench: Graduate-level Multi-disciplinary Benchmarks for LLM & MLLM Complex Reasoning Evaluation,N/A,Poster Session
+ends 7:00 PM,4:30,HiRemate: Hierarchical Approach for Efficient Re-materialization of Neural Networks,N/A,Poster Session
+ends 7:00 PM,4:30,BaWA: Automatic Optimizing Pruning Metric for Large Language Models with Balanced Weight and Activation,N/A,Poster Session
+ends 7:00 PM,4:30,Fusing Reward and Dueling Feedback in Stochastic Bandits,N/A,Poster Session
+ends 7:00 PM,4:30,Stochastic Online Conformal Prediction with Semi-Bandit Feedback,N/A,Poster Session
+ends 7:00 PM,4:30,MOGIC: Metadata-infused Oracle Guidance for Improved Extreme Classification,N/A,Poster Session
+ends 7:00 PM,4:30,Rethinking Point Cloud Data Augmentation: Topologically Consistent Deformation,N/A,Poster Session
+ends 7:00 PM,4:30,Nonparametric Identification of Latent Concepts,N/A,Poster Session
+ends 7:00 PM,4:30,Volume-Aware Distance for Robust Similarity Learning,N/A,Poster Session
+ends 7:00 PM,4:30,Learning Distances from Data with Normalizing Flows and Score Matching,N/A,Poster Session
+ends 7:00 PM,4:30,Model Steering: Learning with a Reference Model Improves Generalization Bounds and Scaling Laws,N/A,Poster Session
+ends 7:00 PM,4:30,Scalable Attribute-Missing Graph Clustering via Neighborhood Differentiation,N/A,Poster Session
+ends 7:00 PM,4:30,Automatically Identify and Rectify: Robust Deep Contrastive Multi-view Clustering in Noisy Scenarios,N/A,Poster Session
+ends 7:00 PM,4:30,Adjustment for Confounding using Pre-Trained Representations,N/A,Poster Session
+ends 7:00 PM,4:30,Heterogeneous Treatment Effect in Time-to-Event Outcomes: Harnessing Censored Data with Recursively Imputed Trees,N/A,Poster Session
+ends 7:00 PM,4:30,"AutoCATE: End-to-End, Automated Treatment Effect Estimation",N/A,Poster Session
+WED 16 JUL,8 a.m.,WiML,N/A,Affinity Workshop
+WED 16 JUL,8:30 a.m.,Test of Time Award,N/A,N/A
+WED 16 JUL,9:30 a.m.,Exhibits,N/A,N/A
+WED 16 JUL,10 a.m.,Reasoning,N/A,Oral
+WED 16 JUL,10:00,Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction,N/A,Oral
+WED 16 JUL,10:15,Can MLLMs Reason in Multimodality? EMMA: An Enhanced MultiModal ReAsoning Benchmark,N/A,Oral
+WED 16 JUL,10:30,rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking,N/A,Oral
+WED 16 JUL,10:45,VersaPRM: Multi-Domain Process Reward Model via Synthetic Reasoning Data,N/A,Oral
+WED 16 JUL,10:00,A Generalization Theory for Zero-Shot Prediction,N/A,Oral
+WED 16 JUL,10:15,Statistical Test for Feature Selection Pipelines by Selective Inference,N/A,Oral
+WED 16 JUL,10:30,Learning with Expected Signatures: Theory and Applications,N/A,Oral
+WED 16 JUL,10:45,Blink of an eye: a simple theory for feature localization in generative models,N/A,Oral
+WED 16 JUL,10:00,Outlier Gradient Analysis: Efficiently Identifying Detrimental Training Samples for Deep Learning Models,N/A,Oral
+WED 16 JUL,10:15,Foundation Model Insights and a Multi-Model Approach for Superior Fine-Grained One-shot Subset Selection,N/A,Oral
+WED 16 JUL,10:30,SK-VQA: Synthetic Knowledge Generation at Scale for Training Context-Augmented Multimodal LLMs,N/A,Oral
+WED 16 JUL,10:45,Improving the Scaling Laws of Synthetic Data with Deliberate Practice,N/A,Oral
+WED 16 JUL,10:00,Nonlinearly Preconditioned Gradient Methods under Generalized Smoothness,N/A,Oral
+WED 16 JUL,10:15,An Online Adaptive Sampling Algorithm for Stochastic Difference-of-convex Optimization with Time-varying Distributions,N/A,Oral
+WED 16 JUL,10:30,Fundamental Bias in Inverting Random Sampling Matrices with Application to Sub-sampled Newton,N/A,Oral
+WED 16 JUL,10:45,General framework for online-to-nonconvex conversion: Schedule-free SGD is also effective for nonconvex optimization,N/A,Oral
+WED 16 JUL,10:00,One-Step Generalization Ratio Guided Optimization for Domain Generalization,N/A,Oral
+WED 16 JUL,10:15,Sanity Checking Causal Representation Learning on a Simple Real-World System,N/A,Oral
+SUN 13 JUL,9 a.m.,creative limits of next-token prediction,N/A,Poster Session
+SUN 13 JUL,9:15 a.m.,Why Has Predicting Downstream Capabilities of Frontier AI Models with Scale Remained Elusive?,N/A,Poster Session
+SUN 13 JUL,9:30 a.m.,FlipAttack: Jailbreak LLMs via Flipping,N/A,Poster Session
+SUN 13 JUL,9:45 a.m.,Mastering Board Games by External and Internal Planning with Language Models,N/A,Poster Session
+SUN 13 JUL,10 a.m.,AlphaPO: Reward Shape Matters for LLM Alignment,N/A,Poster Session
+SUN 13 JUL,10:15 a.m.,MAPLE: Many-Shot Adaptive Pseudo-Labeling for In-Context Learning,N/A,Poster Session
+SUN 13 JUL,10:30 a.m.,Guided Search Strategies in Non-Serializable Environments with Applications to Software Engineering Agents,N/A,Poster Session
+SUN 13 JUL,10:45 a.m.,MATH-Perturb: Benchmarking LLMs' Math Reasoning Abilities against Hard Perturbations,N/A,Poster Session
+SUN 13 JUL,11 a.m.,Organize the Web: Constructing Domains Enhances Pre-Training Data Curation,N/A,Poster Session
+SUN 13 JUL,11:15 a.m.,MARGE: Improving Math Reasoning with Guided Exploration,N/A,Poster Session
+SUN 13 JUL,11:30 a.m.,ConfPO: Exploiting Policy Model Confidence for Critical Token Selection in Preference Optimization,N/A,Poster Session
+SUN 13 JUL,11:45 a.m.,BlockDialect: Block-wise Fine-grained Mixed Format Quantization for Energy-Efficient LLM Inference,N/A,Poster Session
+SUN 13 JUL,12 p.m.,Communicating Activations Between Language Model Agents,N/A,Poster Session
+SUN 13 JUL,12:15 p.m.,AdaDecode: Accelerating LLM Decoding with Adaptive Layer Parallelism,N/A,Poster Session
+SUN 13 JUL,12:30 p.m.,RWKVQuant: Quantizing the RWKV Family with Proxy Guided Hybrid of Scalar and Vector Quantization,N/A,Poster Session
+SUN 13 JUL,12:45 p.m.,The Emperor's New Clothes in Benchmarking? A Rigorous Examination of Mitigation Strategies for LLM Benchmark Data Contamination,N/A,Poster Session
+SUN 13 JUL,1 p.m.,On the Robustness of Reward Models for Language Model Alignment,N/A,Poster Session
+SUN 13 JUL,1:15 p.m.,Federated In-Context Learning: Iterative Refinement for Improved Answer Quality,N/A,Poster Session
+SUN 13 JUL,1:30 p.m.,"Improving Diversity in Language Models: When Temperature Fails, Change the Loss",N/A,Poster Session
+SUN 13 JUL,1:45 p.m.,NExtLong: Toward Effective Long-Context Training without Long Documents,N/A,Poster Session
+SUN 13 JUL,2 p.m.,SliM-LLM: Salience-Driven Mixed-Precision Quantization for Large Language Models,N/A,Poster Session
+SUN 13 JUL,2:15 p.m.,"Right Now, Wrong Then: Non-Stationary Direct Preference Optimization under Preference Drift",N/A,Poster Session
+SUN 13 JUL,2:30 p.m.,Bounded Rationality for LLMs: Satisficing Alignment at Inference-Time,N/A,Poster Session
+SUN 13 JUL,2:45 p.m.,LLMs can see and hear without any training,N/A,Poster Session
+SUN 13 JUL,3 p.m.,Investigating Non-Transitivity in LLM-as-a-Judge,N/A,Poster Session
+SUN 13 JUL,3:15 p.m.,Aligning LLMs by Predicting Preferences from User Writing Samples,N/A,Poster Session
+SUN 13 JUL,3:30 p.m.,Look Twice Before You Answer: Memory-Space Visual Retracing for Hallucination Mitigation in Multimodal Large Language Models,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Poster Session 3 West,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Sounding that Object: Interactive Object-Aware Image to Audio Generation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,QuEst: Enhancing Estimates of Quantile-Based Distributional Measures Using Model Predictions,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,On Fine-Grained Distinct Element Estimation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Combinatorial Reinforcement Learning with Preference Feedback,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Partially Observable Reinforcement Learning with Memory Traces,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Multi-objective Linear Reinforcement Learning with Lexicographic Rewards,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Near-optimal Regret Using Policy Optimization in Online MDPs with Aggregate Bandit Feedback,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,A Theoretical Justification for Asymmetric Actor-Critic Algorithms,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Universal Approximation Theorem of Deep Q-Networks,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,AdaWorld: Learning Adaptable World Models with Latent Actions,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Demystifying the Paradox of Importance Sampling with an Estimated History-Dependent Behavior Policy in Off-Policy Evaluation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Multiple-policy Evaluation via Density Estimation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Provable Zero-Shot Generalization in Offline Reinforcement Learning,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Learning with Expected Signatures: Theory and Applications,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Efficient Diffusion Models for Symmetric Manifolds,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Diffusion Models are Secretly Exchangeable: Parallelizing DDPMs via Auto Speculation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,The Limits of Tractable Marginalization,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Exact Upper and Lower Bounds for the Output Distribution of Neural Networks with Random Inputs,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Distributed Conformal Prediction via Message Passing,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Blink of an eye: a simple theory for feature localization in generative models,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Federated Oriented Learning: A Practical One-Shot Personalized Federated Learning Framework,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Statistical Test for Feature Selection Pipelines by Selective Inference,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Making Hard Problems Easier with Custom Data Distributions and Loss Regularization: A Case Study in Modular Arithmetic,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,NMA-tune: Generating Highly Designable and Dynamics Aware Protein Backbones,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,WGFormer: An SE(3)-Transformer Driven by Wasserstein Gradient Flows for Molecular Ground-State Conformation Prediction,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,MF-LAL: Drug Compound Generation Using Multi-Fidelity Latent Space Active Learning,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,DISCO: learning to DISCover an evolution Operator for multi-physics-agnostic prediction,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,PolyConf: Unlocking Polymer Conformation Generation through Hierarchical Generative Models,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,DUNIA: Pixel-Sized Embeddings via Cross-Modal Alignment for Earth Observation Applications,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Neural Interpretable PDEs: Harmonizing Fourier Insights with Attention for Scalable and Interpretable Physics Discovery,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,QEM-Bench: Benchmarking Learning-based Quantum Error Mitigation and QEMFormer as a Multi-ranged Context Learning Baseline,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Action-Minimization Meets Generative Modeling: Efficient Transition Path Sampling with the Onsager-Machlup Functional,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Chaos Meets Attention: Transformers for Large-Scale Dynamical Prediction,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Scalable Equilibrium Sampling with Sequential Boltzmann Generators,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Symmetry-Driven Discovery of Dynamical Variables in Molecular Simulations,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Learning the Electronic Hamiltonian of Large Atomic Structures,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Beyond Atoms: Enhancing Molecular Pretrained Representations with 3D Space Modeling,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Broadband Ground Motion Synthesis by Diffusion Model with Minimal Condition,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,EcoMapper: Generative Modeling for Climate-Aware Satellite Imagery,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Offline Model-based Optimization for Real-World Molecular Discovery,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,HEAP: Hyper Extended A-PDHG Operator for Constrained High-dim PDEs,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,QuanONet: Quantum Neural Operator with Application to Differential Equation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Enhancing Ligand Validity and Affinity in Structure-Based Drug Design with Multi-Reward Optimization,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,From Thousands to Billions: 3D Visual Language Grounding via Render-Supervised Distillation from 2D VLMs,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,FourierMamba: Fourier Learning Integration with State Space Models for Image Deraining,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,FlexiReID: Adaptive Mixture of Expert for Multi-Modal Person Re-Identification,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Towards World Simulator: Crafting Physical Commonsense-Based Benchmark for Video Generation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Efficient Noise Calculation in Deep Learning-based MRI Reconstructions,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Probing Visual Language Priors in VLMs,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,SECOND: Mitigating Perceptual Hallucination in Vision-Language Models via Selective and Contrastive Decoding,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Toward Robust Hyper-Detailed Image Captioning: A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Beyond Entropy: Region Confidence Proxy for Wild Test-Time Adaptation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Demystifying Catastrophic Forgetting in Two-Stage Incremental Object Detector,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,"Boosting Virtual Agent Learning and Reasoning: A Step-Wise, Multi-Dimensional, and Generalist Reward Model with Benchmark",N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Impossible Videos,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,FreeMesh: Boosting Mesh Generation with Coordinates Merging,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Temporal Misalignment in ANN-SNN Conversion and its Mitigation via Probabilistic Spiking Neurons,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Adaptive Multi-prompt Contrastive Network for Few-shot Out-of-distribution Detection,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,LOCATE 3D: Real-World Object Localization via Self-Supervised Learning in 3D,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,How Do Images Align and Complement LiDAR? Towards a Harmonized Multi-modal 3D Panoptic Segmentation,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Geometric Feature Embedding for Effective 3D Few-Shot Class Incremental Learning,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,3D-LMVIC: Learning-based Multi-View Image Compression with 3D Gaussian Geometric Priors,N/A,Poster Session
+ends 1:30 PM,11:00-1:30,Enhancing Foundation Models with Federated Domain Knowledge Infusion,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Multi-Agent Collaboration with Faulty Agents,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Correlated Errors in Large Language Models,N/A,Poster Session
+SUN 13 JUL,9 a.m.,STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Variational Learning of Fractional Posteriors,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Censor Dependent Variational Inference,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Identification of Latent Confounders via Investigating the Tensor Ranks of the Nonlinear Observations,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Efficiently Vectorized MCMC on Modern Accelerators,N/A,Poster Session
+SUN 13 JUL,9 a.m.,NETS: A Non-equilibrium Transport Sampler,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Progressive Tempering Sampler with Diffusion,N/A,Poster Session
+SUN 13 JUL,9 a.m.,The Noisy Laplacian: a Threshold Phenomenon for Non-Linear Dimension Reduction,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Demeaned Sparse: Efficient Anomaly Detection by Residual Estimate,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Interaction-Aware Gaussian Weighting for Clustered Federated Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Robust Conformal Outlier Detection under Contaminated Reference Data,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Adjusting Model Size in Continual Gaussian Processes: How Big is Big Enough?,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Can Transformers Learn Full Bayesian Inference in Context?,N/A,Poster Session
+SUN 13 JUL,9 a.m.,"FAB-PPI: Frequentist, Assisted by Bayes, Prediction-Powered Inference",N/A,Poster Session
+SUN 13 JUL,9 a.m.,Linearization Turns Neural Operators into Function-Valued Gaussian Processes,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Polynomial-Delay MAG Listing with Novel Locally Complete Orientation Rules,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Non-asymptotic Error Bounds in W2-Distance with Sqrt(d) Dimension Dependence and First Order Convergence for Langevin Monte Carlo beyond Log-Concavity,N/A,Poster Session
+SUN 13 JUL,9 a.m.,CACTI: Leveraging Copy Masking and Contextual Information to Improve Tabular Data Imputation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Towards Understanding Parametric Generalized Category Discovery on Graphs,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Diversified Flow Matching with Translation Identifiability,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Self-Discriminative Modeling for Anomalous Graph Detection,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Rethinking Confidence Scores and Thresholds in Pseudolabeling-based SSL,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Point-Level Topological Representation Learning on Point Clouds,N/A,Poster Session
+SUN 13 JUL,9 a.m.,A Selective Learning Method for Temporal Graph Continual Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Positive-unlabeled AUC Maximization under Covariate Shift,N/A,Poster Session
+SUN 13 JUL,9 a.m.,No Task Left Behind: Isotropic Model Merging with Common and Task-Specific Subspaces,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Proxy-FDA: Proxy-based Feature Distribution Alignment for Fine-tuning Vision Foundation Models without Forgetting,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Interchangeable Token Embeddings for Extendable Vocabulary and Alpha-Equivalence,N/A,Poster Session
+SUN 13 JUL,9 a.m.,EnsLoss: Stochastic Calibrated Loss Ensembles for Preventing Overfitting in Classification,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Understanding the Unfairness in Network Quantization,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Enhancing Logits Distillation with Plug&Play Kendall's τ Ranking Loss,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Principled Algorithms for Optimizing Generalized Metrics in Binary Classification,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Generative Modeling Reinvents Supervised Learning: Label Repurposing with Predictive Consistency Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Lightweight Dataset Pruning without Full Training via Example Difficulty and Prediction Uncertainty,N/A,Poster Session
+SUN 13 JUL,9 a.m.,CAT Merging: A Training-Free Approach for Resolving Conflicts in Model Merging,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Test-time Adaptation on Graphs via Adaptive Subgraph-based Selection and Regularized Prototypes,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Low-Rank Tensor Transitions (LoRT) for Transferable Tensor Regression,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Dual Feature Reduction for the Sparse-group Lasso and its Adaptive Variant,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Computing Optimal Transport Maps and Wasserstein Barycenters Using Conditional Normalizing Flows,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Near-optimal Sketchy Natural Gradients for Physics-Informed Neural Networks,N/A,Poster Session
+SUN 13 JUL,9 a.m.,ELMO : Efficiency via Low-precision and Peak Memory Optimization in Large Output Spaces,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Permutation-Free High-Order Interaction Tests,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Spherical Rotation Dimension Reduction with Geometric Loss Functions,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Emergence in non-neural models: grokking modular arithmetic via average gradient outer product,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Towards the Causal Complete Cause of Multi-Modal Representation Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,SHE: Streaming-media Hashing Retrieval,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Does Data Scaling Lead to Visual Compositional Generalization?,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Active Learning with Selective Time-Step Acquisition for PDEs,N/A,Poster Session
+SUN 13 JUL,9 a.m.,FisherSFT: Data-Efficient Supervised Fine-Tuning of Language Models Using Information Gain,N/A,Poster Session
+SUN 13 JUL,9 a.m.,The Relationship Between No-Regret Learning and Online Conformal Prediction,N/A,Poster Session
+SUN 13 JUL,9 a.m.,SEAD: Unsupervised Ensemble of Streaming Anomaly Detectors,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Learning Vision and Language Concepts for Controllable Image Generation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Revisiting Neural Networks for Few-Shot Learning: A Zero-Cost NAS Perspective,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Sanity Checking Causal Representation Learning on a Simple Real-World System,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Deep Fuzzy Multi-view Learning for Reliable Classification,N/A,Poster Session
+SUN 13 JUL,9 a.m.,DANCE: Dual Unbiased Expansion with Group-acquired Alignment for Out-of-distribution Graph Fairness Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,PlaySlot: Learning Inverse Latent Dynamics for Controllable Object-Centric Video Prediction and Planning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Tensor Decomposition Based Memory-Efficient Incremental Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Adaptive Data Collection for Robust Learning Across Multiple Distributions,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Unconstrained Robust Online Convex Optimization,N/A,Poster Session
+SUN 13 JUL,9 a.m.,QUTE: Quantifying Uncertainty in TinyML models with Early-exit-assisted ensembles for model-monitoring,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Accelerating Linear Recurrent Neural Networks for the Edge with Unstructured Sparsity,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Compute or Load KV Cache? Why Not Both?,N/A,Poster Session
+SUN 13 JUL,9 a.m.,KoopSTD: Reliable Similarity Analysis between Dynamical Systems via Approximating Koopman Spectrum with Timescale Decoupling,N/A,Poster Session
+SUN 13 JUL,9 a.m.,RAGGED: Towards Informed Design of Scalable and Stable RAG Systems,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Prompt-to-Leaderboard: Prompt-Adaptive LLM Evaluations,N/A,Poster Session
+SUN 13 JUL,9 a.m.,am-ELO: A Stable Framework for Arena-based LLM Evaluation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Tightening Causal Bounds via Covariate-Aware Optimal Transport,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Integer Programming for Generalized Causal Bootstrap Designs,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Automatic Reward Shaping from Confounded Offline Data,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Identifying Causal Direction via Variational Bayesian Compression,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Doubly Robust Fusion of Many Treatments for Policy Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,From Logits to Hierarchies: Hierarchical Clustering made Simple,N/A,Poster Session
+SUN 13 JUL,9 a.m.,MCU: An Evaluation Framework for Open-Ended Game Agents,N/A,Poster Session
+SUN 13 JUL,9 a.m.,From Jack of All Trades to Master of One: Specializing LLM-based Autoraters to a Test Set,N/A,Poster Session
+SUN 13 JUL,9 a.m.,The Hidden Joules: Evaluating the Energy Consumption of Vision Backbones for Progress Towards More Efficient Model Inference,N/A,Poster Session
+SUN 13 JUL,9 a.m.,AutoEval Done Right: Using Synthetic Data for Model Evaluation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,RE-IMAGINE: Symbolic Benchmark Synthesis for Reasoning Evaluation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Bridging Fairness and Efficiency in Conformal Inference: A Surrogate-Assisted Group-Clustered Approach,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Overestimation in LLM Evaluation: A Controlled Large-Scale Study on Data Contamination’s Impact on Machine Translation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Permutation-based Rank Test in the Presence of Discretization and Application in Causal Discovery with Mixed Data,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Double Machine Learning for Causal Inference under Shared-State Interference,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Stronger Neyman Regret Guarantees for Adaptive Experimental Design,N/A,Poster Session
+SUN 13 JUL,9 a.m.,On Efficient Estimation of Distributional Treatment Effects under Covariate-Adaptive Randomization,N/A,Poster Session
+N/A,N/A,Contextual Bandits With Interference,N/A,N/A
+N/A,N/A,Extracting Rare Dependence Patterns via Adaptive Sample Reweighting,N/A,N/A
+N/A,N/A,Active Treatment Effect Estimation via Limited Samples,N/A,N/A
+N/A,N/A,Strong and Weak Identifiability of Optimization-based Causal Discovery in Non-linear Additive Noise Models,N/A,N/A
+N/A,N/A,Continuous Bayesian Model Selection for Multivariate Causal Discovery,N/A,N/A
+N/A,N/A,Fast Min-ϵ Segmented Regression using Constant-Time Segment Merging,N/A,N/A
+N/A,N/A,UltraTWD: Optimizing Ultrametric Trees for Tree-Wasserstein Distance,N/A,N/A
+N/A,N/A,Branches: Efficiently Seeking Optimal Sparse Decision Trees via AO*,N/A,N/A
+N/A,N/A,Solving Satisfiability Modulo Counting Exactly with Probabilistic Circuits,N/A,N/A
+N/A,N/A,Locality Preserving Markovian Transition for Instance Retrieval,N/A,N/A
+N/A,N/A,Conformity Score Averaging for Classification,N/A,N/A
+N/A,N/A,False Coverage Proportion Control for Conformal Prediction,N/A,N/A
+N/A,N/A,A Variational Information Theoretic Approach to Out-of-Distribution Detection,N/A,N/A
+N/A,N/A,Hierarchical Refinement: Optimal Transport to Infinity and Beyond,N/A,N/A
+N/A,N/A,Deep Sturm–Liouville: From Sample-Based to 1D Regularization with Learnable Orthogonal Basis Functions,N/A,N/A
+N/A,N/A,A Certified Unlearning Approach without Access to Source Data,N/A,N/A
+N/A,N/A,"One Arrow, Two Hawks: Sharpness-aware Minimization for Federated Learning via Global Model Trajectory",N/A,N/A
+N/A,N/A,Does One-shot Give the Best Shot? Mitigating Model Inconsistency in One-shot Federated Learning,N/A,N/A
+N/A,N/A,Prior Knowledge Guided Neural Architecture Generation,N/A,N/A
+N/A,N/A,Stochastic Encodings for Active Feature Acquisition,N/A,N/A
+N/A,N/A,FastCAV: Efficient Computation of Concept Activation Vectors for Explaining Deep Neural Networks,N/A,N/A
+N/A,N/A,Curvature Enhanced Data Augmentation for Regression,N/A,N/A
+N/A,N/A,On Temperature Scaling and Conformal Prediction of Deep Classifiers,N/A,N/A
+N/A,N/A,On the Query Complexity of Verifier-Assisted Language Generation,N/A,N/A
+N/A,N/A,The Butterfly Effect: Neural Network Training Trajectories Are Highly Sensitive to Initial Conditions,N/A,N/A
+N/A,N/A,Floating-Point Neural Networks Can Represent Almost All Floating-Point Functions,N/A,N/A
+N/A,N/A,Adaptive kernel predictors from feature-learning infinite limits of neural networks,N/A,N/A
+N/A,N/A,On the Local Complexity of Linear Regions in Deep ReLU Networks,N/A,N/A
+N/A,N/A,Fishers for Free? Approximating the Fisher Information Matrix by Recycling the Squared Gradient Accumulator,N/A,N/A
+N/A,N/A,Optimization for Neural Operators can Benefit from Width,N/A,N/A
+N/A,N/A,IMTS is Worth Time × Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction,N/A,N/A
+N/A,N/A,Probably Approximately Global Robustness Certification,N/A,N/A
+N/A,N/A,Adapting to Evolving Adversaries with Regularized Continual Robust Training,N/A,N/A
+N/A,N/A,SMART-PC: Skeletal Model Adaptation for Robust Test-Time Training in Point Clouds,N/A,N/A
+N/A,N/A,CTBench: A Library and Benchmark for Certified Training,N/A,N/A
+N/A,N/A,Targeted Unlearning with Single Layer Unlearning Gradient,N/A,N/A
+N/A,N/A,An Augmentation-Aware Theory for Self-Supervised Contrastive Learning,N/A,N/A
+N/A,N/A,Patch-wise Structural Loss for Time Series Forecasting,N/A,N/A
+N/A,N/A,AEQA-NAT : Adaptive End-to-end Quantization Alignment Training Framework for Non-autoregressive Machine Translation,N/A,N/A
+N/A,N/A,Discovering Physics Laws of Dynamical Systems via Invariant Function Learning,N/A,N/A
+N/A,N/A,Bayesian Basis Function Approximation for Scalable Gaussian Process Priors in Deep Generative Models,N/A,N/A
+N/A,N/A,Non-stationary Diffusion For Probabilistic Time Series Forecasting,N/A,N/A
+N/A,N/A,When Will It Fail?: Anomaly to Prompt for Forecasting Future Anomalies in Time Series,N/A,N/A
+N/A,N/A,Towards a General Time Series Forecasting Model with Unified Representation and Adaptive Transfer,N/A,N/A
+N/A,N/A,"Unveiling AI's Blind Spots: An Oracle for In-Domain, Out-of-Domain, and Adversarial Errors",N/A,N/A
+N/A,N/A,The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models,N/A,N/A
+N/A,N/A,AdvAgent: Controllable Blackbox Red-teaming on Web Agents,N/A,N/A
+N/A,N/A,Ranked Entropy Minimization for Continual Test-Time Adaptation,N/A,N/A
+N/A,N/A,Mahalanobis++: Improving OOD Detection via Feature Normalization,N/A,N/A
+N/A,N/A,Efficient Robust Conformal Prediction via Lipschitz-Bounded Networks,N/A,N/A
+N/A,N/A,Self-supervised Adversarial Purification for Graph Neural Networks,N/A,N/A
+N/A,N/A,Beyond One-Hot Labels: Semantic Mixing for Model Calibration,N/A,N/A
+N/A,N/A,I2MoE: Interpretable Multimodal Interaction-aware Mixture-of-Experts,N/A,N/A
+N/A,N/A,Multi-band Frequency Reconstruction for Neural Psychoacoustic Coding,N/A,N/A
+N/A,N/A,Canonical Rank Adaptation: An Efficient Fine-Tuning Strategy for Vision Transformers,N/A,N/A
+N/A,N/A,CPCF: A Cross-Prompt Contrastive Framework for Referring Multimodal Large Language Models,N/A,N/A
+N/A,N/A,NoLiMa: Long-Context Evaluation Beyond Literal Matching,N/A,N/A
+N/A,N/A,Defending LVLMs Against Vision Attacks Through Partial-Perception Supervision,N/A,N/A
+N/A,N/A,Teaching Physical Awareness to LLMs through Sounds,N/A,N/A
+N/A,N/A,IBCircuit: Towards Holistic Circuit Discovery with Information Bottleneck,N/A,N/A
+N/A,N/A,Can We Predict Performance of Large Models across Vision-Language Tasks?,N/A,N/A
+N/A,N/A,Accelerating Unbiased LLM Evaluation via Synthetic Feedback,N/A,N/A
+N/A,N/A,WikiBigEdit: Understanding the Limits of Lifelong Knowledge Editing in LLMs,N/A,N/A
+N/A,N/A,Delta Decompression for MoE-based LLMs Compression,N/A,N/A
+N/A,N/A,(How) Do Language Models Track State?,N/A,N/A
+N/A,N/A,PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs,N/A,N/A
+N/A,N/A,Reinforce LLM Reasoning through Multi-Agent Reflection,N/A,N/A
+N/A,N/A,Premise-Augmented Reasoning Chains Improve Error Identification in Math reasoning with LLMs,N/A,N/A
+N/A,N/A,PoisonBench: Assessing Language Model Vulnerability to Poisoned Preference Data,N/A,N/A
+N/A,N/A,Attention Mechanisms Perspective: Exploring LLM Processing of Graph-Structured Data,N/A,N/A
+N/A,N/A,Vulnerability-Aware Alignment: Mitigating Uneven Forgetting in Harmful Fine-Tuning,N/A,N/A
+N/A,N/A,Idiosyncrasies in Large Language Models,N/A,N/A
+N/A,N/A,Active Reward Modeling: Adaptive Preference Labeling for Large Language Model Alignment,N/A,N/A
+N/A,N/A,Fragments to Facts: Partial-Information Fragment Inference from LLMs,N/A,N/A
+N/A,N/A,Understanding Chain-of-Thought in LLMs through Information Theory,N/A,N/A
+N/A,N/A,Improving Model Alignment Through Collective Intelligence of Open-Source Models,N/A,N/A
+N/A,N/A,KV Shifting Attention Enhances Language Modeling,N/A,N/A
+N/A,N/A,DA-KD: Difficulty-Aware Knowledge Distillation for Efficient Large Language Models,N/A,N/A
+N/A,N/A,Puzzle: Distillation-Based NAS for Inference-Optimized LLMs,N/A,N/A
+N/A,N/A,Analyze Feature Flow to Enhance Interpretation and Steering in Language Models,N/A,N/A
+N/A,N/A,Steer LLM Latents for Hallucination Detection,N/A,N/A
+N/A,N/A,Token Signature: Predicting Chain-of-Thought Gains with Token Decoding Feature in Large Language Models,N/A,N/A
+N/A,N/A,Maximizing Intermediate Checkpoint Value in LLM Pretraining with Bayesian Optimization,N/A,N/A
+N/A,N/A,Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search,N/A,N/A
+N/A,N/A,Preference Learning for AI Alignment: a Causal Perspective,N/A,N/A
+N/A,N/A,FloE: On-the-Fly MoE Inference on Memory-constrained GPU,N/A,N/A
+N/A,N/A,Olica: Efficient Structured Pruning of Large Language Models without Retraining,N/A,N/A
+N/A,N/A,Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning,N/A,N/A
+N/A,N/A,To Steer or Not to Steer? Mechanistic Error Reduction with Abstention for Language Models,N/A,N/A
+N/A,N/A,Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks,N/A,N/A
+N/A,N/A,MoE-SVD: Structured Mixture-of-Experts LLMs Compression via Singular Value Decomposition,N/A,N/A
+N/A,N/A,Unlocking Post-hoc Dataset Inference with Synthetic Data,N/A,N/A
+N/A,N/A,ProSec: Fortifying Code LLMs with Proactive Security Alignment,N/A,N/A
+N/A,N/A,Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries,N/A,N/A
+N/A,N/A,PIPA: Preference Alignment as Prior-Informed Statistical Estimation,N/A,N/A
+N/A,N/A,"Regress, Don’t Guess: A Regression-like Loss on Number Tokens for Language Models",N/A,N/A
+N/A,N/A,"Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective",N/A,N/A
+N/A,N/A,Unnatural Languages Are Not Bugs but Features for LLMs,N/A,N/A
+N/A,N/A,LongRoPE2: Near-Lossless LLM Context Window Scaling,N/A,N/A
+N/A,N/A,Potemkin Understanding in Large Language Models,N/A,N/A
+N/A,N/A,A Tale of Two Structures: Do LLMs Capture the Fractal Complexity of Language?,N/A,N/A
+N/A,N/A,Reflection-Window Decoding: Text Generation with Selective Refinement,N/A,N/A
+N/A,N/A,MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design,N/A,N/A
+N/A,N/A,Generalizing from SIMPLE to HARD Visual Reasoning: Can We Mitigate Modality Imbalance in VLMs?,N/A,N/A
+N/A,N/A,Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression,N/A,N/A
+N/A,N/A,"PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration, and Adaptive Sampling",N/A,N/A
+N/A,N/A,"SNS-Bench: Defining, Building, and Assessing Capabilities of Large Language Models in Social Networking Services",N/A,N/A
+N/A,N/A,CommVQ: Commutative Vector Quantization for KV Cache Compression,N/A,N/A
+N/A,N/A,Evaluating LLMs Across Multi-Cognitive Levels: From Medical Knowledge Mastery to Scenario-Based Problem Solving,N/A,N/A
+N/A,N/A,Efficient Graph Continual Learning via Lightweight Graph Neural Tangent Kernels-based Dataset Distillation,N/A,N/A
+N/A,N/A,The Price of Freedom: Exploring Expressivity and Runtime Tradeoffs in Equivariant Tensor Products,N/A,N/A
+N/A,N/A,Test-Time Graph Neural Dataset Search With Generative Projection,N/A,N/A
+N/A,N/A,CSG-ODE: ControlSynth Graph ODE For Modeling Complex Evolution of Dynamic Graphs,N/A,N/A
+N/A,N/A,A Manifold Perspective on the Statistical Generalization of Graph Neural Networks,N/A,N/A
+N/A,N/A,Structure Is All You Need: Structural Representation Learning on Hyper-Relational Knowledge Graphs,N/A,N/A
+N/A,N/A,Enhancing Graph Invariant Learning from a Negative Inference Perspective,N/A,N/A
+N/A,N/A,Self-Improving Language Models for Evolutionary Program Synthesis: A Case Study on ARC-AGI,N/A,N/A
+N/A,N/A,Mixture of Lookup Experts,N/A,N/A
+N/A,N/A,CRANE: Reasoning with constrained LLM generation,N/A,N/A
+N/A,N/A,Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies,N/A,N/A
+N/A,N/A,What Makes In-context Learning Effective for Mathematical Reasoning,N/A,N/A
+N/A,N/A,any4: Learned 4-bit Numeric Representation for LLMs,N/A,N/A
+N/A,N/A,CurvGAD: Leveraging Curvature for Enhanced Graph Anomaly Detection,N/A,N/A
+N/A,N/A,Implicit Subgraph Neural Network,N/A,N/A
+N/A,N/A,Enhancing the Influence of Labels on Unlabeled Nodes in Graph Convolutional Networks,N/A,N/A
+N/A,N/A,How Much Can Transfer? BRIDGE: Bounded Multi-Domain Graph Foundation Model with Generalization Guarantees,N/A,N/A
+N/A,N/A,Implicit degree bias in the link prediction task,N/A,N/A
+N/A,N/A,Redundancy Undermines the Trustworthiness of Self-Interpretable GNNs,N/A,N/A
+N/A,N/A,Learn Beneficial Noise as Graph Augmentation,N/A,N/A
+N/A,N/A,Toward Data-centric Directed Graph Learning: An Entropy-driven Approach,N/A,N/A
+N/A,N/A,SCENIR: Visual Semantic Clarity through Unsupervised Scene Graph Retrieval,N/A,N/A
+N/A,N/A,Overcoming Spurious Solutions in Semi-Dual Neural Optimal Transport: A Smoothing Approach for Learning the Optimal Transport Plan,N/A,N/A
+N/A,N/A,Ultra-Resolution Adaptation with Ease,N/A,N/A
+N/A,N/A,Geometry Informed Tokenization of Molecules for Language Model Generation,N/A,N/A
+N/A,N/A,Kinetic Langevin Diffusion for Crystalline Materials Generation,N/A,N/A
+N/A,N/A,SADA: Stability-guided Adaptive Diffusion Acceleration,N/A,N/A
+N/A,N/A,ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features,N/A,N/A
+N/A,N/A,MGD3 : Mode-Guided Dataset Distillation using Diffusion Models,N/A,N/A
+N/A,N/A,Learnings from Scaling Visual Tokenizers for Reconstruction and Generation,N/A,N/A
+N/A,N/A,DeFoG: Discrete Flow Matching for Graph Generation,N/A,N/A
+N/A,N/A,Understanding and Mitigating Memorization in Diffusion Models for Tabular Data,N/A,N/A
+N/A,N/A,Boost-and-Skip: A Simple Guidance-Free Diffusion for Minority Generation,N/A,N/A
+N/A,N/A,Scaling Laws for Pre-training Agents and World Models,N/A,N/A
+N/A,N/A,Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes,N/A,N/A
+N/A,N/A,"Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions",N/A,N/A
+N/A,N/A,FlexTok: Resampling Images into 1D Token Sequences of Flexible Length,N/A,N/A
+N/A,N/A,Devil is in the Details: Density Guidance for Detail-Aware Generation with Flow Models,N/A,N/A
+N/A,N/A,Accelerated Diffusion Models via Speculative Sampling,N/A,N/A
+N/A,N/A,Inverse Bridge Matching Distillation,N/A,N/A
+N/A,N/A,Noise Conditional Variational Score Distillation,N/A,N/A
+N/A,N/A,D-Fusion: Direct Preference Optimization for Aligning Diffusion Models with Visually Consistent Samples,N/A,N/A
+N/A,N/A,Shielded Diffusion: Generating Novel and Diverse Images using Sparse Repellency,N/A,N/A
+N/A,N/A,Efficiently Access Diffusion Fisher: Within the Outer Product Span Space,N/A,N/A
+N/A,N/A,Compressed Image Generation with Denoising Diffusion Codebook Models,N/A,N/A
+N/A,N/A,Identifiable Object Representations under Spatial Ambiguities,N/A,N/A
+N/A,N/A,Beyond Log-Concavity and Score Regularity: Improved Convergence Bounds for Score-Based Generative Models in W2-distance,N/A,N/A
+N/A,N/A,LGDM: Latent Guidance in Diffusion Models for Perceptual Evaluations,N/A,N/A
+N/A,N/A,Concept Reachability in Diffusion Models: Beyond Dataset Constraints,N/A,N/A
+N/A,N/A,Inductive Moment Matching,N/A,N/A
+N/A,N/A,Beyond Task-Specific Reasoning: A Unified Conditional Generative Framework for Abstract Visual Reasoning,N/A,N/A
+N/A,N/A,Skrr: Skip and Re-use Text Encoder Layers for Memory Efficient Text-to-Image Generation,N/A,N/A
+N/A,N/A,Orthus: Autoregressive Interleaved Image-Text Generation with Modality-Specific Heads,N/A,N/A
+N/A,N/A,Portable Reward Tuning: Towards Reusable Fine-Tuning across Different Pretrained Models,N/A,N/A
+N/A,N/A,In-Context Deep Learning via Transformer Models,N/A,N/A
+N/A,N/A,The Double-Ellipsoid Geometry of CLIP,N/A,N/A
+N/A,N/A,Sundial: A Family of Highly Capable Time Series Foundation Models,N/A,N/A
+N/A,N/A,Are Large Brainwave Foundation Models Capable Yet ? Insights from Fine-Tuning,N/A,N/A
+N/A,N/A,Whitened CLIP as a Likelihood Surrogate of Images and Captions,N/A,N/A
+N/A,N/A,How Far Is Video Generation from World Model: A Physical Law Perspective,N/A,N/A
+N/A,N/A,TabICL: A Tabular Foundation Model for In-Context Learning on Large Data,N/A,N/A
+N/A,N/A,Score-of-Mixture Training: One-Step Generative Model Training Made Simple via Score Estimation of Mixture Distributions,N/A,N/A
+N/A,N/A,Vector Grimoire: Codebook-based Shape Generation under Raster Image Supervision,N/A,N/A
+N/A,N/A,Latent Thought Models with Variational Bayes Inference-Time Computation,N/A,N/A
+N/A,N/A,UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control,N/A,N/A
+N/A,N/A,"SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",N/A,N/A
+N/A,N/A,WildChat-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training,N/A,N/A
+N/A,N/A,Scaling Laws for Forgetting during Finetuning with Pretraining Data Injection,N/A,N/A
+N/A,N/A,On Understanding Attention-Based In-Context Learning for Categorical Data,N/A,N/A
+N/A,N/A,Benign Overfitting in Token Selection of Attention Mechanism,N/A,N/A
+N/A,N/A,AdaSplash: Adaptive Sparse Flash Attention,N/A,N/A
+N/A,N/A,Star Attention: Efficient LLM Inference over Long Sequences,N/A,N/A
+N/A,N/A,Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity,N/A,N/A
+N/A,N/A,Re-ranking Reasoning Context with Tree Search Makes Large Vision-Language Models Stronger,N/A,N/A
+N/A,N/A,On-Device Collaborative Language Modeling via a Mixture of Generalists and Specialists,N/A,N/A
+N/A,N/A,Beyond Low-rank Decomposition: A Shortcut Approach for Efficient On-Device Learning,N/A,N/A
+Structured f-Divergence Regularization,N/A,When Maximum Entropy Misleads Policy Optimization,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,NBDI: A Simple and Effective Termination Condition for Skill Extraction from Task-Agnostic Demonstrations,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Inverse Optimization via Learning Feasible Regions,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,"Fast, Accurate Manifold Denoising by Tunneling Riemannian Optimization",N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Variance-Reduced Forward-Reflected-Backward Splitting Methods for Nonmonotone Generalized Equations,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Non-Asymptotic and Non-Lipschitzian Bounds on Optimal Values in Stochastic Optimization Under Heavy Tails,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Stacey: Promoting Stochastic Steepest Descent via Accelerated ℓp-Smooth Nonconvex Optimization,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Quantum Optimization via Gradient-Based Hamiltonian Descent,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Contextual Optimization Under Model Misspecification: A Tractable and Generalizable Approach,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Enhancing Parallelism in Decentralized Stochastic Convex Optimization,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,RobustZero: Enhancing MuZero Reinforcement Learning Robustness to State Perturbations,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Knowledge Retention in Continual Model-Based Reinforcement Learning,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Mitigating Plasticity Loss in Continual Reinforcement Learning by Reducing Churn,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Value-Based Deep RL Scales Predictably,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,LipsNet++: Unifying Filter and Controller into a Policy Network,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,ARS: Adaptive Reward Scaling for Multi-Task Reinforcement Learning,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,SOLD: Slot Object-Centric Latent Dynamics Models for Relational Manipulation Learning from Pixels,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,SENSEI: Semantic Exploration Guided by Foundation Models to Learn Versatile World Models,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Return Capping: Sample Efficient CVaR Policy Gradient Optimisation,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Imitation Learning from a Single Temporally Misaligned Video,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Explicit Exploration for High-Welfare Equilibria in Game-Theoretic Multiagent Reinforcement Learning,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Risk-Sensitive Theory of Mind: Coordinating with Agents of Unknown Bias using Cumulative Prospect Theory,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Finite-Sample Convergence Bounds for Trust Region Policy Optimization in Mean Field Games,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Leveraging Skills from Unlabeled Prior Data for Efficient Online Exploration,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Novelty Detection in Reinforcement Learning with World Models,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Local Manifold Approximation and Projection for Manifold-Aware Diffusion Planning,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Monte Carlo Tree Diffusion for System 2 Planning,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Provable Policy Gradient for Robust Average-Reward MDPs Beyond Rectangularity,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Offline Opponent Modeling with Truncated Q-driven Instant Policy Refinement,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Fundamental Bias in Inverting Random Sampling Matrices with Application to Sub-sampled Newton,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Theoretical guarantees on the best-of-n alignment policy,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Convergence of Consistency Model with Multistep Sampling under General Data Assumptions,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,"Revisiting the Predictability of Performative, Social Events",N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Fundamental limits of learning in sequence multi-index models and deep attention networks: high-dimensional asymptotics and sharp thresholds,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,PDUDT: Provable Decentralized Unlearning under Dynamic Topologies,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Laplace Transform Based Low-Complexity Learning of Continuous Markov Semigroups,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Learning Parametric Distributions from Samples and Preferences,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,PAC Learning with Improvements,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Distributed Nonparametric Estimation: from Sparse to Dense Samples per Terminal,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,"Metastable Dynamics of Chain-of-Thought Reasoning: Provable Benefits of Search, RL and Distillation",N/A,Poster Session
+Structured f-Divergence Regularization,N/A,An Entropy-Based Model for Hierarchical Learning,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Heterogeneous Data Game: Characterizing the Model Competition Across Multiple Data Sources,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Provably Efficient Algorithm for Best Scoring Rule Identification in Online Principal-Agent Information Acquisition,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Learning to Steer Learners in Games,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Maintaining Proportional Committees with Dynamic Candidate Sets,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Selective Response Strategies for GenAI,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,A Market for Accuracy: Classification Under Competition,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,"Collaborative Mean Estimation Among Heterogeneous Strategic Agents: Individual Rationality, Fairness, and Truthful Contribution",N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Heterogeneous Label Shift: Theory and Algorithm,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Towards a Formal Theory of Representational Compositionality,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Test-Time Training Provably Improves Transformers as In-context Learners,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Can Diffusion Models Learn Hidden Inter-Feature Rules Behind Images?,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Can Transformers Reason Logically? A Study in SAT Solving,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Probabilistic Factorial Experimental Design for Combinatorial Interventions,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Nonconvex Theory of M-estimators with Decomposable Regularizers,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Improved Learning via k-DTW: A Novel Dissimilarity Measure for Curves,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Training Dynamics of In-Context Learning in Linear Attention,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Certifiably Robust Model Evaluation in Federated Learning under Meta-Distributional Shifts,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Unified Analysis of Continuous Weak Features Learning with Applications to Learning from Missing Data,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,A Generalization Theory for Zero-Shot Prediction,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Limitations of measure-first protocols in quantum machine learning,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Dimension-Independent Rates for Structured Neural Density Estimation,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,The Power of Random Features and the Limits of Distribution-Free Gradient Descent,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,ATA: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Learning to Incentivize in Repeated Principal-Agent Problems with Adversarial Agent Arrivals,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Beyond Minimax Rates in Group Distributionally Robust Optimization via a Novel Notion of Sparsity,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Zero-Inflated Bandits,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Avoiding Catastrophe in Online Learning by Asking for Help,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Implicit Riemannian Optimism with Applications to Min-Max Problems,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Online Learning with Unknown Constraints,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Unlocking the Power of Rehearsal in Continual Learning: A Theoretical Perspective,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,A Near Linear Query Lower Bound for Submodular Maximization,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Exploiting Similarity for Computation and Communication-Efficient Decentralized Optimization,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,Faster Stochastic Optimization with Arbitrary Delays via Adaptive Asynchronous Mini-Batching,N/A,Poster Session
+Structured f-Divergence Regularization,N/A,General framework for online-to-nonconvex conversion: Schedule-free SGD is also effective for nonconvex optimization,N/A,Poster Session
+SUN 13 JUL,1 p.m.,Hosted Grab and Go Lunch,N/A,Break
+SUN 13 JUL,2 p.m.,Adaptive Alignment: Designing AI for a Changing World - Frauke Kreuter,Frauke Kreuter,Invited Talk
+SUN 13 JUL,3:30,Representations 2,N/A,Oral
+SUN 13 JUL,3:30,Sundial: A Family of Highly Capable Time Series Foundation Models,N/A,Oral
+SUN 13 JUL,3:45,Beyond Matryoshka: Revisiting Sparse Coding for Adaptive Representation,N/A,Oral
+SUN 13 JUL,4:00,"Partition First, Embed Later: Laplacian-Based Feature Partitioning for Refined Embedding and Visualization of High-Dimensional Data",N/A,Oral
+SUN 13 JUL,4:15,Equivalence is All: A Unified View for Self-supervised Graph Learning,N/A,Oral
+SUN 13 JUL,3:30,Position: AI Competitions Provide the Gold Standard for Empirical Rigor in GenAI Evaluation,N/A,Oral
+SUN 13 JUL,3:45,Position: Medical Large Language Model Benchmarks Should Prioritize Construct Validity,N/A,Oral
+SUN 13 JUL,4:00,Position: Principles of Animal Cognition to Improve LLM Evaluations,N/A,Oral
+SUN 13 JUL,4:15,Position: Political Neutrality in AI Is Impossible — But Here Is How to Approximate It,N/A,Oral
+SUN 13 JUL,4:30,Poster Session 4 West,N/A,Poster Session
+SUN 13 JUL,4:30,Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale,N/A,Poster Session
+SUN 13 JUL,4:30,Dimensionality Reduction on Complex Vector Spaces for Euclidean Distance with Dynamic Weights,N/A,Poster Session
+SUN 13 JUL,4:30,CursorCore: Assist Programming through Aligning Anything,N/A,Poster Session
+SUN 13 JUL,4:30,Fully Dynamic Embedding into ℓp Spaces,N/A,Poster Session
+SUN 13 JUL,4:30,Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra,N/A,Poster Session
+SUN 13 JUL,4:30,SquareχPO: Differentially Private and Robust χ2-Preference Optimization in Offline Direct Alignment,N/A,Poster Session
+SUN 13 JUL,4:30,Accelerating Quantum Reinforcement Learning with a Quantum Natural Policy Gradient Based Approach,N/A,Poster Session
+SUN 13 JUL,4:30,Bellman Unbiasedness: Toward Provably Efficient Distributional Reinforcement Learning with General Value Function Approximation,N/A,Poster Session
+SUN 13 JUL,4:30,Quantum Speedups in Regret Analysis of Infinite Horizon Average-Reward Markov Decision Processes,N/A,Poster Session
+SUN 13 JUL,4:30,Rectifying Conformity Scores for Better Conditional Coverage,N/A,Poster Session
+SUN 13 JUL,4:30,On Differential Privacy for Adaptively Solving Search Problems via Sketching,N/A,Poster Session
+SUN 13 JUL,4:30,Matrix Completion with Incomplete Side Information via Orthogonal Complement Projection,N/A,Poster Session
+SUN 13 JUL,4:30,VistaDPO: Video Hierarchical Spatial-Temporal Direct Preference Optimization for Large Video Models,N/A,Poster Session
+SUN 13 JUL,4:30,Generalization Principles for Inference over Text-Attributed Graphs with Large Language Models,N/A,Poster Session
+SUN 13 JUL,4:30,Expected Variational Inequalities,N/A,Poster Session
+SUN 13 JUL,4:30,Invariant Deep Uplift Modeling for Incentive Assignment in Online Marketing via Probability of Necessity and Sufficiency,N/A,Poster Session
+SUN 13 JUL,4:30,AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML,N/A,Poster Session
+SUN 13 JUL,4:30,"AffectGPT: A New Dataset, Model, and Benchmark for Emotion Understanding with Multimodal Large Language Models",N/A,Poster Session
+SUN 13 JUL,4:30,Skip the Equations: Learning Behavior of Personalized Dynamical Systems Directly From Data,N/A,Poster Session
+SUN 13 JUL,4:30,Thermalizer: Stable autoregressive neural emulation of spatiotemporal chaos,N/A,Poster Session
+SUN 13 JUL,4:30,TCP-Diffusion: A Multi-modal Diffusion Model for Global Tropical Cyclone Precipitation Forecasting with Change Awareness,N/A,Poster Session
+SUN 13 JUL,4:30,Sidechain conditioning and modeling for full-atom protein sequence design with FAMPNN,N/A,Poster Session
+SUN 13 JUL,4:30,Foundation Molecular Grammar: Multi-Modal Foundation Models Induce Interpretable Molecular Graph Languages,N/A,Poster Session
+SUN 13 JUL,4:30,Retrieval Augmented Zero-Shot Enzyme Generation for Substrate,N/A,Poster Session
+SUN 13 JUL,4:30,LLM-Augmented Chemical Synthesis and Design Decision Programs,N/A,Poster Session
+SUN 13 JUL,4:30,Learn Singularly Perturbed Solutions via Homotopy Dynamics,N/A,Poster Session
+SUN 13 JUL,4:30,Boosting Protein Graph Representations through Static-Dynamic Fusion,N/A,Poster Session
+THU 17 JUL,8:30 a.m.,What to optimize for – from robot arms to frontier AI - Anca Dragan,Anca Dragan,Invited Talk
+THU 17 JUL,10 a.m.,STAIR: Improving Safety Alignment with Introspective Reasoning,N/A,Oral
+THU 17 JUL,10:15 a.m.,AutoAdvExBench: Benchmarking Autonomous Exploitation of Adversarial Example Defenses,N/A,Oral
+THU 17 JUL,10:30 a.m.,Exploring and Mitigating Adversarial Manipulation of Voting-Based Leaderboards,N/A,Oral
+THU 17 JUL,10:45 a.m.,Model Immunization from a Condition Number Perspective,N/A,Oral
+THU 17 JUL,10 a.m.,DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs,N/A,Oral
+THU 17 JUL,10:15 a.m.,ABKD: Pursuing a Proper Allocation of the Probability Mass in Knowledge Distillation via α-β-Divergence,N/A,Oral
+THU 17 JUL,10:30 a.m.,Navigating Semantic Drift in Task-Agnostic Class-Incremental Learning,N/A,Oral
+THU 17 JUL,10:45 a.m.,From Weight-Based to State-Based Fine-Tuning: Further Memory Reduction on LoRA with Parallel Control,N/A,Oral
+THU 17 JUL,10 a.m.,The dark side of the forces: assessing non-conservative force models for atomistic machine learning,N/A,Oral
+THU 17 JUL,10:15 a.m.,LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models,N/A,Oral
+THU 17 JUL,10:30 a.m.,Neural Discovery in Mathematics: Do Machines Dream of Colored Planes?,N/A,Oral
+THU 17 JUL,10:45 a.m.,Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics,N/A,Oral
+THU 17 JUL,10 a.m.,Statistical Query Hardness of Multiclass Linear Classification with Random Classification Noise,N/A,Oral
+THU 17 JUL,10:15 a.m.,All-Purpose Mean Estimation over R: Optimal Sub-Gaussianity with Outlier Robustness and Low Moments Performance,N/A,Oral
+THU 17 JUL,10:30 a.m.,A Generalization Result for Convergence in Learning-to-Optimize,N/A,Oral
+THU 17 JUL,10:45 a.m.,Theoretical Limitations of Ensembles in the Age of Overparameterization,N/A,Oral
+SUN 13 JUL,9 a.m.,FACTER: Fairness-Aware Conformal Thresholding and Prompt Engineering for Enabling Fair LLM-Based Recommender Systems,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Fairness Overfitting in Machine Learning: An Information-Theoretic Perspective,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Clone-Robust AI Alignment,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Understanding Fixed Predictions via Confined Regions,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Graph Inverse Style Transfer for Counterfactual Explainability,N/A,Poster Session
+SUN 13 JUL,9 a.m.,TOPLOC: A Locality Sensitive Hashing Scheme for Trustless Verifiable Inference,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Evaluating Neuron Explanations: A Unified Framework with Sanity Checks,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Near-Optimal Decision Trees in a SPLIT Second,N/A,Poster Session
+SUN 13 JUL,9 a.m.,X-Hacking: The Threat of Misguided AutoML,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Sampling Binary Data by Denoising through Score Functions,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Conditioning Diffusions Using Malliavin Calculus,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Learn to Vaccinate: Combining Structure Learning and Effective Vaccination for Epidemic and Outbreak Control,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Prediction-Powered E-Values,N/A,Poster Session
+SUN 13 JUL,9 a.m.,On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains,N/A,Poster Session
+SUN 13 JUL,9 a.m.,LIMEFLDL: A Local Interpretable Model-Agnostic Explanations Approach for Label Distribution Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,What makes an Ensemble (Un) Interpretable?,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Adversarial Cooperative Rationalization: The Risk of Spurious Correlations in Even Clean Datasets,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Learning to Route LLMs with Confidence Tokens,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Activation Space Interventions Can Be Transferred Between Large Language Models,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Differential Privacy Guarantees of Markov Chain Monte Carlo Algorithms,N/A,Poster Session
+SUN 13 JUL,9 a.m.,New Bounds for Sparse Variational Gaussian Processes,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Return of the Latent Space COWBOYS: Re-thinking the use of VAEs for Bayesian Optimisation of Structured Spaces,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Determinant Estimation under Memory Constraints and Neural Scaling Laws,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Outsourced Diffusion Sampling: Efficient Posterior Inference in Latent Spaces of Generative Models,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Conformal Prediction as Bayesian Quadrature,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Sample Complexity of Branch-length Estimation by Maximum Likelihood,N/A,Poster Session
+SUN 13 JUL,9 a.m.,A Mixture-Based Framework for Guiding Diffusion Models,N/A,Poster Session
+SUN 13 JUL,9 a.m.,LEAPS: A discrete neural sampler via locally equivariant networks,N/A,Poster Session
+SUN 13 JUL,9 a.m.,TRACE Back from the Future: A Probabilistic Reasoning Approach to Controllable Language Generation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Adapter Naturally Serves as Decoupler for Cross-Domain Few-Shot Semantic Segmentation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Weakly Supervised Anomaly Detection via Dual-Tailed Kernel,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Weakly-Supervised Contrastive Learning for Imprecise Class Labels,N/A,Poster Session
+SUN 13 JUL,9 a.m.,A Theoretical Framework For Overfitting In Energy-based Modeling,N/A,Poster Session
+SUN 13 JUL,9 a.m.,"Partition First, Embed Later: Laplacian-Based Feature Partitioning for Refined Embedding and Visualization of High-Dimensional Data",N/A,Poster Session
+SUN 13 JUL,9 a.m.,Lightspeed Geometric Dataset Distance via Sliced Optimal Transport,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Generalized Venn and Venn-Abers Calibration with Applications in Conformal Prediction,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Online Detection of LLM-Generated Texts via Sequential Hypothesis Testing by Betting,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Statistical Hypothesis Testing for Auditing Robustness in Language Models,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Learning Survival Distributions with the Asymmetric Laplace Distribution,N/A,Poster Session
+SUN 13 JUL,9 a.m.,PTTA: Purifying Malicious Samples for Test-Time Model Adaptation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Whoever Started the interference Should End It: Guiding Data-Free Model Merging via Task Vectors,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Generalized additive models via direct optimization of regularized decision stump forests,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Approximately Correct Label Distribution Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Compressing tree ensembles through Level-wise Optimization and Pruning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Learning Imbalanced Data with Beneficial Label Noise,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Predictive Performance of Deep Quantum Data Re-uploading Models,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Right Time to Learn: Promoting Generalization via Bio-inspired Spacing Effect in Knowledge Distillation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Bipartite Ranking From Multiple Labels: On Loss Versus Label Aggregation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Concentration Distribution Learning from Label Distributions,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Efficient LiDAR Reflectance Compression via Scanning Serialization,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Improved Coresets for Vertical Federated Learning: Regularized Linear and Logistic Regressions,N/A,Poster Session
+SUN 13 JUL,9 a.m.,SKIM: Any-bit Quantization Pushing The Limits of Post-Training Quantization,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Geometric Contact Flows: Contactomorphisms for Dynamics and Control,N/A,Poster Session
+SUN 13 JUL,9 a.m.,KoNODE: Koopman-Driven Neural Ordinary Differential Equations with Evolving Parameters for Time Series Analysis,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Spectral-Aware Reservoir Computing for Fast and Accurate Time Series Classification,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Conformal Anomaly Detection in Event Sequences,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Provable Length Generalization in Sequence Prediction via Spectral Filtering,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Residual TPP: A Unified Lightweight Approach for Event Stream Data Analysis,N/A,Poster Session
+SUN 13 JUL,9 a.m.,VisionTS: Visual Masked Autoencoders Are Free-Lunch Zero-Shot Time Series Forecasters,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Low-distortion and GPU-compatible Tree Embeddings in Hyperbolic Space,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Controlling Neural Collapse Enhances Out-of-Distribution Detection and Transfer Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,The Complexity of Learning Sparse Superposed Features with Feedback,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Contrastive Learning with Simplicial Convolutional Networks for Short-Text Classification,N/A,Poster Session
+SUN 13 JUL,9 a.m.,The Generalized Skew Spectrum of Graphs,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Beyond Matryoshka: Revisiting Sparse Coding for Adaptive Representation,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Near Optimal Best Arm Identification for Clustered Bandits,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Wait-Less Offline Tuning and Re-solving for Online Decision Making,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Efficient Core-set Selection for Deep Learning Through Squared Loss Minimization,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Sample Efficient Demonstration Selection for In-Context Learning,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Robust Consensus Anchor Learning for Efficient Multi-view Subspace Clustering,N/A,Poster Session
+SUN 13 JUL,9 a.m.,From Spectrum-free towards Baseline-view-free: Double-track Proximity Driven Multi-view Clustering,N/A,Poster Session
+SUN 13 JUL,9 a.m.,COKE: Core Kernel for More Efficient Approximation of Kernel Weights in Multiple Kernel Clustering,N/A,Poster Session
+SUN 13 JUL,9 a.m.,TypyBench: Evaluating LLM Type Inference for Untyped Python Repositories,N/A,Poster Session
+Navigating Semantic Drift in Task-Agnostic Class-Incremental Learning,10:45,From Weight-Based to State-Based Fine-Tuning: Further Memory Reduction on LoRA with Parallel Control,N/A,N/A
+Navigating Semantic Drift in Task-Agnostic Class-Incremental Learning,10:30,Knowledge Distillation via α-β-Divergence,N/A,N/A
+N/A,10:00,Rényi Neural Processes,N/A,Oral
+N/A,10:15,A Unified Framework for Entropy Search and Expected Improvement in Bayesian Optimization,N/A,Oral
+N/A,10:30,Score Matching with Missing Data,N/A,Oral
+N/A,10:45,Beyond Self-Repellent Kernels: History-Driven Target Towards Efficient Nonlinear MCMC on General Graphs,N/A,Oral
+N/A,10:00,The dark side of the forces: assessing non-conservative force models for atomistic machine learning,N/A,Oral
+N/A,10:15,LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models,N/A,Oral
+N/A,10:30,Neural Discovery in Mathematics: Do Machines Dream of Colored Planes?,N/A,Oral
+N/A,10:45,Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics,N/A,Oral
+N/A,10:00,Statistical Query Hardness of Multiclass Linear Classification with Random Classification Noise,N/A,Oral
+N/A,10:15,All-Purpose Mean Estimation over R: Optimal Sub-Gaussianity with Outlier Robustness and Low Moments Performance,N/A,Oral
+N/A,10:30,A Generalization Result for Convergence in Learning-to-Optimize,N/A,Oral
+N/A,10:45,Theoretical Limitations of Ensembles in the Age of Overparameterization,N/A,Oral
+N/A,11:00,Poster Session 5 East,N/A,Poster Session
+N/A,11:00,The Lock-in Hypothesis: Stagnation by Algorithm,N/A,Poster
+N/A,11:00,Direct Density Ratio Optimization: A Statistically Consistent Approach to Aligning Large Language Models,N/A,Poster
+N/A,11:00,Latent Preference Coding: Aligning Large Language Models via Discrete Latent Codes,N/A,Poster
+N/A,11:00,Two Tickets are Better than One: Fair and Accurate Hiring Under Strategic LLM Manipulations,N/A,Poster
+N/A,11:00,Accelerating Spectral Clustering under Fairness Constraints,N/A,Poster
+N/A,11:00,XAttnMark: Learning Robust Audio Watermarking with Cross-Attention,N/A,Poster
+N/A,11:00,Optimizing Noise Distributions for Differential Privacy,N/A,Poster
+N/A,11:00,Certification for Differentially Private Prediction in Gradient-Based Training,N/A,Poster
+N/A,11:00,Watch Out Your Album! On the Inadvertent Privacy Memorization in Multi-Modal Large Language Models,N/A,Poster
+N/A,11:00,Efficient Source-free Unlearning via Energy-Guided Data Synthesis and Discrimination-Aware Multitask Optimization,N/A,Poster
+N/A,11:00,Leveraging Sparsity for Sample-Efficient Preference Learning: A Theoretical Perspective,N/A,Poster
+N/A,11:00,Mixture of Experts Made Intrinsically Interpretable,N/A,Poster
+N/A,11:00,Avoiding Leakage Poisoning: Concept Interventions Under Distribution Shifts,N/A,Poster
+N/A,11:00,Automatically Interpreting Millions of Features in Large Language Models,N/A,Poster
+N/A,ends 1:30 PM,Poster Session 5 West [11:00-1:30],N/A,Poster Session
+N/A,11:00 a.m.,EnIGMA: Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities,N/A,N/A
+N/A,11:00 a.m.,Quantum Speedup for Hypergraph Sparsification,N/A,N/A
+N/A,11:00 a.m.,Phase transitions for the existence of unregularized M-estimators in single index models,N/A,N/A
+N/A,11:00 a.m.,Learning With Multi-Group Guarantees For Clusterable Subpopulations,N/A,N/A
+N/A,11:00 a.m.,Minimax Optimal Regret Bound for Reinforcement Learning with Trajectory Feedback,N/A,N/A
+N/A,11:00 a.m.,General agents need world models,N/A,N/A
+N/A,11:00 a.m.,De-coupled NeuroGF for Shortest Path Distance Approximations on Large Terrain Graphs,N/A,N/A
+N/A,11:00 a.m.,Reinforcement Learning with Random Time Horizons,N/A,N/A
+N/A,11:00 a.m.,RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing,N/A,N/A
+N/A,11:00 a.m.,OV-MER: Towards Open-Vocabulary Multimodal Emotion Recognition,N/A,N/A
+N/A,11:00 a.m.,Adaptive Flow Matching for Resolving Small-Scale Physics,N/A,N/A
+N/A,11:00 a.m.,Zebra: In-Context Generative Pretraining for Solving Parametric PDEs,N/A,N/A
+N/A,11:00 a.m.,Compositional Flows for 3D Molecule and Synthesis Pathway Co-design,N/A,N/A
+N/A,11:00 a.m.,Geometric and Physical Constraints Synergistically Enhance Neural PDE Surrogates,N/A,N/A
+N/A,11:00 a.m.,Flexibility-conditioned protein structure design with flow matching,N/A,N/A
+N/A,11:00 a.m.,All-atom Diffusion Transformers: Unified generative modelling of molecules and materials,N/A,N/A
+N/A,11:00 a.m.,Closed-form Solutions: A New Perspective on Solving Differential Equations,N/A,N/A
+N/A,11:00 a.m.,Reinforcement Learning for Quantum Control under Physical Constraints,N/A,N/A
+N/A,11:00 a.m.,GenMol: A Drug Discovery Generalist with Discrete Diffusion,N/A,N/A
+N/A,11:00 a.m.,The dark side of the forces: assessing non-conservative force models for atomistic machine learning,N/A,N/A
+N/A,11:00 a.m.,LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models,N/A,N/A
+N/A,11:00 a.m.,Fixing the Double Penalty in Data-Driven Weather Forecasting Through a Modified Spherical Harmonic Loss Function,N/A,N/A
+N/A,11:00 a.m.,Riemann Tensor Neural Networks: Learning Conservative Systems with Physics-Constrained Networks,N/A,N/A
+N/A,11:00 a.m.,DragSolver: A Multi-Scale Transformer for Real-World Automotive Drag Coefficient Estimation,N/A,N/A
+N/A,11:00 a.m.,PPDiff: Diffusing in Hybrid Sequence-Structure Space for Protein-Protein Complex Design,N/A,N/A
+N/A,11:00 a.m.,CoastalBench: A Decade-Long High-Resolution Dataset to Emulate Complex Coastal Processes,N/A,N/A
+N/A,11:00 a.m.,Energy-Based Flow Matching for Generating 3D Molecular Structure,N/A,N/A
+N/A,11:00 a.m.,Deep Electromagnetic Structure Design Under Limited Evaluation Budgets,N/A,N/A
+N/A,11:00 a.m.,Learning Condensed Graph via Differentiable Atom Mapping for Reaction Yield Prediction,N/A,N/A
+N/A,11:00 a.m.,Counting atoms faster: policy-based nuclear magnetic resonance pulse sequencing for atomic abundance measurement,N/A,N/A
+N/A,11:00 a.m.,TextCenGen: Attention-Guided Text-Centric Background Adaptation for Text-to-Image Generation,N/A,N/A
+N/A,11:00 a.m.,Better to Teach than to Give: Domain Generalized Semantic Segmentation via Agent Queries with Diffusion Model Guidance,N/A,N/A
+N/A,11:00 a.m.,ExtPose: Robust and Coherent Pose Estimation by Extending ViTs,N/A,N/A
+N/A,11:00 a.m.,Robust Secure Swap: Responsible Face Swap With Persons of Interest Redaction and Provenance Traceability,N/A,N/A
+N/A,11:00 a.m.,Predicting High-precision Depth on Low-Precision Devices Using 2D Hilbert Curves,N/A,N/A
+N/A,11:00 a.m.,LLaVA-ReID: Selective Multi-image Questioner for Interactive Person Re-Identification,N/A,N/A
+N/A,11:00 a.m.,DragLoRA: Online Optimization of LoRA Adapters for Drag-based Image Editing in Diffusion Model,N/A,N/A
+N/A,11:00 a.m.,Improving Compositional Generation with Diffusion Models Using Lift Scores,N/A,N/A
+N/A,11:00 a.m.,PF3plat: Pose-Free Feed-Forward 3D Gaussian Splatting for Novel View Synthesis,N/A,N/A
+N/A,11:00 a.m.,The Four Color Theorem for Cell Instance Segmentation,N/A,N/A
+N/A,11:00 a.m.,Instruct2See: Learning to Remove Any Obstructions Across Distributions,N/A,N/A
+N/A,11:00 a.m.,MiraGe: Editable 2D Images using Gaussian Splatting,N/A,N/A
+N/A,11:00 a.m.,SSHR: More Secure Generative Steganography with High-Quality Revealed Secret Images,N/A,N/A
+N/A,11:00 a.m.,Not All Tokens Matter All The Time: Dynamic Token Aggregation Towards Efficient Detection Transformers,N/A,N/A
+N/A,11:00 a.m.,DCBM: Data-Efficient Visual Concept Bottleneck Models,N/A,N/A
+N/A,11:00 a.m.,LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression,N/A,N/A
+N/A,11:00 a.m.,Flex3D: Feed-Forward 3D Generation with Flexible Reconstruction Model and Input View Curation,N/A,N/A
+N/A,11:00 a.m.,Origin Identification for Text-Guided Image-to-Image Diffusion Models,N/A,N/A
+SUN 13 JUL,9 a.m.,AutoAL: Automated Active Learning with Differentiable Query Strategy Search,N/A,Poster Session
+SUN 13 JUL,10 a.m.,Improved and Oracle-Efficient Online ℓ1-Multicalibration,N/A,Poster Session
+SUN 13 JUL,11 a.m.,Online Clustering of Dueling Bandits,N/A,Poster Session
+SUN 13 JUL,12 p.m.,SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning,N/A,Poster Session
+SUN 13 JUL,1 p.m.,TraceGrad: a Framework Learning Expressive SO(3)-equivariant Non-linear Representations for Electronic-Structure Hamiltonian Prediction,N/A,Poster Session
+SUN 13 JUL,2 p.m.,FEAT-KD: Learning Concise Representations for Single and Multi-Target Regression via TabNet Knowledge Distillation,N/A,Poster Session
+SUN 13 JUL,3 p.m.,AKRMap: Adaptive Kernel Regression for Trustworthy Visualization of Cross-Modal Embeddings,N/A,Poster Session
+SUN 13 JUL,4 p.m.,How Do Large Language Monkeys Get Their Power (Laws)?,N/A,Poster Session
+SUN 13 JUL,5 p.m.,AAAR-1.0: Assessing AI’s Potential to Assist Research,N/A,Poster Session
+SUN 13 JUL,6 p.m.,Do Vision-Language Models Really Understand Visual Language?,N/A,Poster Session
+SUN 13 JUL,7 p.m.,Reflection-Bench: Evaluating Epistemic Agency in Large Language Models,N/A,Poster Session
+SUN 13 JUL,8 p.m.,Minerva: A Programmable Memory Test Benchmark for Language Models,N/A,Poster Session
+SUN 13 JUL,9 p.m.,High-Dimensional Tensor Regression With Oracle Properties,N/A,Poster Session
+Efficient and Separate Authentication Image Steganography Network,N/A,Efficient and Separate Authentication Image Steganography Network,N/A,N/A
+Subobject-level Image Tokenization,N/A,Subobject-level Image Tokenization,N/A,N/A
+Complex Wavelet Mutual Information Loss: A Multi-Scale Loss Function for Semantic Segmentation,N/A,Complex Wavelet Mutual Information Loss: A Multi-Scale Loss Function for Semantic Segmentation,N/A,N/A
+Gamma Distribution PCA-Enhanced Feature Learning for Angle-Robust SAR Target Recognition,N/A,Gamma Distribution PCA-Enhanced Feature Learning for Angle-Robust SAR Target Recognition,N/A,N/A
+"Scaling Laws in Patchification: An Image Is Worth 50,176 Tokens And More",N/A,"Scaling Laws in Patchification: An Image Is Worth 50,176 Tokens And More",N/A,N/A
+AGAV-Rater: Adapting Large Multimodal Model for AI-Generated Audio-Visual Quality Assessment,N/A,AGAV-Rater: Adapting Large Multimodal Model for AI-Generated Audio-Visual Quality Assessment,N/A,N/A
+Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models,N/A,Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models,N/A,N/A
+LieRE: Lie Rotational Positional Encodings,N/A,LieRE: Lie Rotational Positional Encodings,N/A,N/A
+DAMA: Data- and Model-aware Alignment of Multi-modal LLMs,N/A,DAMA: Data- and Model-aware Alignment of Multi-modal LLMs,N/A,N/A
+Auto-reconfiguration for Latency Minimization in CPU-based DNN Serving,N/A,Auto-reconfiguration for Latency Minimization in CPU-based DNN Serving,N/A,N/A
+Cross-Modal Alignment via Variational Copula Modelling,N/A,Cross-Modal Alignment via Variational Copula Modelling,N/A,N/A
+SAFER: A Calibrated Risk-Aware Multimodal Recommendation Model for Dynamic Treatment Regimes,N/A,SAFER: A Calibrated Risk-Aware Multimodal Recommendation Model for Dynamic Treatment Regimes,N/A,N/A
+Distribution-aware Fairness Learning in Medical Image Segmentation From A Control-Theoretic Perspective,N/A,Distribution-aware Fairness Learning in Medical Image Segmentation From A Control-Theoretic Perspective,N/A,N/A
+EARTH: Epidemiology-Aware Neural ODE with Continuous Disease Transmission Graph,N/A,EARTH: Epidemiology-Aware Neural ODE with Continuous Disease Transmission Graph,N/A,N/A
+CFP-Gen: Combinatorial Functional Protein Generation via Diffusion Language Models,N/A,CFP-Gen: Combinatorial Functional Protein Generation via Diffusion Language Models,N/A,N/A
+PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion,N/A,PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion,N/A,N/A
+Protriever: End-to-End Differentiable Protein Homology Search for Fitness Prediction,N/A,Protriever: End-to-End Differentiable Protein Homology Search for Fitness Prediction,N/A,N/A
+Reconstructing Cell Lineage Trees from Phenotypic Features with Metric Learning,N/A,Reconstructing Cell Lineage Trees from Phenotypic Features with Metric Learning,N/A,N/A
+LangDAug: Langevin Data Augmentation for Multi-Source Domain Generalization in Medical Image Segmentation,N/A,LangDAug: Langevin Data Augmentation for Multi-Source Domain Generalization in Medical Image Segmentation,N/A,N/A
+Gradient-based Explanations for Deep Learning Survival Models,N/A,Gradient-based Explanations for Deep Learning Survival Models,N/A,N/A
+Breaking the Barrier of Hard Samples: A Data-Centric Approach to Synthetic Data for Medical Tasks,N/A,Breaking the Barrier of Hard Samples: A Data-Centric Approach to Synthetic Data for Medical Tasks,N/A,N/A
+Closed-Loop Long-Horizon Robotic Planning via Equilibrium Sequence Modeling,N/A,Closed-Loop Long-Horizon Robotic Planning via Equilibrium Sequence Modeling,N/A,N/A
+Efficient Robotic Policy Learning via Latent Space Backward Planning,N/A,Efficient Robotic Policy Learning via Latent Space Backward Planning,N/A,N/A
+Learning Time-Varying Multi-Region Brain Communications via Scalable Markovian Gaussian Processes,N/A,Learning Time-Varying Multi-Region Brain Communications via Scalable Markovian Gaussian Processes,N/A,N/A
+Dynamical Modeling of Behaviorally Relevant Spatiotemporal Patterns in Neural Imaging Data,N/A,Dynamical Modeling of Behaviorally Relevant Spatiotemporal Patterns in Neural Imaging Data,N/A,N/A
+Scaling Laws for Task-Optimized Models of the Primate Visual Ventral Stream,N/A,Scaling Laws for Task-Optimized Models of the Primate Visual Ventral Stream,N/A,N/A
+BSO: Binary Spiking Online Optimization Algorithm,N/A,BSO: Binary Spiking Online Optimization Algorithm,N/A,N/A
+SynEVO: A neuro-inspired spatiotemporal evolutional framework for cross-domain adaptation,N/A,SynEVO: A neuro-inspired spatiotemporal evolutional framework for cross-domain adaptation,N/A,N/A
+MindLLM: A Subject-Agnostic and Versatile Model for fMRI-to-text Decoding,N/A,MindLLM: A Subject-Agnostic and Versatile Model for fMRI-to-text Decoding,N/A,N/A
+High-Fidelity Simultaneous Speech-To-Speech Translation,N/A,High-Fidelity Simultaneous Speech-To-Speech Translation,N/A,N/A
+Adaptive Elicitation of Latent Information Using Natural Language,N/A,Adaptive Elicitation of Latent Information Using Natural Language,N/A,N/A
+A Variational Framework for Improving Naturalness in Generative Spoken Language Models,N/A,A Variational Framework for Improving Naturalness in Generative Spoken Language Models,N/A,N/A
+Synthesizing Privacy-Preserving Text Data via Finetuning *without* Finetuning Billion-Scale LLMs,N/A,Synthesizing Privacy-Preserving Text Data via Finetuning *without* Finetuning Billion-Scale LLMs,N/A,N/A
+Emotional Face-to-Speech,N/A,Emotional Face-to-Speech,N/A,N/A
+CoSER: Coordinating LLM-Based Persona Simulation of Established Roles,N/A,CoSER: Coordinating LLM-Based Persona Simulation of Established Roles,N/A,N/A
+Learning from others' mistakes: Finetuning machine translation models with span-level error annotations,N/A,Learning from others' mistakes: Finetuning machine translation models with span-level error annotations,N/A,N/A
+Sortformer: A Novel Approach for Permutation-Resolved Speaker Supervision in Speech-to-Text Systems,N/A,Sortformer: A Novel Approach for Permutation-Resolved Speaker Supervision in Speech-to-Text Systems,N/A,N/A
+Long-Form Speech Generation with Spoken Language Models,N/A,Long-Form Speech Generation with Spoken Language Models,N/A,N/A
+"From Mechanistic Interpretability to Mechanistic Biology: Training, Evaluating, and Interpreting Sparse Autoencoders on Protein Language Models",N/A,"From Mechanistic Interpretability to Mechanistic Biology: Training, Evaluating, and Interpreting Sparse Autoencoders on Protein Language Models",N/A,N/A
+Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners,N/A,Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners,N/A,N/A
+Domain-Adapted Diffusion Model for PROTAC Linker Design Through the Lens of Density Ratio in Chemical Space,N/A,Domain-Adapted Diffusion Model for PROTAC Linker Design Through the Lens of Density Ratio in Chemical Space,N/A,N/A
+SUICA: Learning Super-high Dimensional Sparse Implicit Neural Representations for Spatial Transcriptomics,N/A,SUICA: Learning Super-high Dimensional Sparse Implicit Neural Representations for Spatial Transcriptomics,N/A,N/A
+DriveGPT: Scaling Autoregressive Behavior Models for Driving,N/A,DriveGPT: Scaling Autoregressive Behavior Models for Driving,N/A,N/A
+A Physics-Informed Machine Learning Framework for Safe and Optimal Control of Autonomous Systems,N/A,A Physics-Informed Machine Learning Framework for Safe and Optimal Control of Autonomous Systems,N/A,N/A
+DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression,N/A,DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression,N/A,N/A
+SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation,N/A,SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robotic Manipulation,N/A,N/A
+Optimizing Social Network Interventions via Hypergradient-Based Recommender System Design,N/A,Optimizing Social Network Interventions via Hypergradient-Based Recommender System Design,N/A,N/A
+Causality-Aware Contrastive Learning for Robust Multivariate Time-Series Anomaly Detection,N/A,Causality-Aware Contrastive Learning for Robust Multivariate Time-Series Anomaly Detection,N/A,N/A
+Moirai-MoE: Empowering Time Series Foundation Models with Sparse Mixture of Experts,N/A,Moirai-MoE: Empowering Time Series Foundation Models with Sparse Mixture of Experts,N/A,N/A
+Exploring Representations and Interventions in Time Series Foundation Models,N/A,Exploring Representations and Interventions in Time Series Foundation Models,N/A,N/A
+TimePro: Efficient Multivariate Long-term Time Series Forecasting with Variable- and Time-Aware Hyper-state,N/A,TimePro: Efficient Multivariate Long-term Time Series Forecasting with Variable- and Time-Aware Hyper-state,N/A,N/A
+HyperIMTS: Hypergraph Neural Network for Irregular Multivariate Time Series Forecasting,N/A,HyperIMTS: Hypergraph Neural Network for Irregular Multivariate Time Series Forecasting,N/A,N/A
+BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling,N/A,BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling,N/A,N/A
+Latent Variable Estimation in Bayesian Black-Litterman Models,N/A,Latent Variable Estimation in Bayesian Black-Litterman Models,N/A,N/A
+LineFlow: A Framework to Learn Active Control of Production Lines,N/A,LineFlow: A Framework to Learn Active Control of Production Lines,N/A,N/A
+COGNATE: Acceleration of Sparse Tensor Programs on Emerging Hardware using Transfer Learning,N/A,COGNATE: Acceleration of Sparse Tensor Programs on Emerging Hardware using Transfer Learning,N/A,N/A
+DiMa: Understanding the Hardness of Online Matching Problems via Diffusion Models,N/A,DiMa: Understanding the Hardness of Online Matching Problems via Diffusion Models,N/A,N/A
+Chip Placement with Diffusion Models,N/A,Chip Placement with Diffusion Models,N/A,N/A
+NEAR: Neural Electromagnetic Array Response,N/A,NEAR: Neural Electromagnetic Array Response,N/A,N/A
+PARQ: Piecewise-Affine Regularized Quantization,N/A,PARQ: Piecewise-Affine Regularized Quantization,N/A,N/A
+Aligned Multi Objective Optimization,N/A,Aligned Multi Objective Optimization,N/A,N/A
+Towards Understanding Gradient Dynamics of the Sliced-Wasserstein Distance via Critical Point Analysis,N/A,Towards Understanding Gradient Dynamics of the Sliced-Wasserstein Distance via Critical Point Analysis,N/A,N/A
+Fast Tensor Completion via Approximate Richardson Iteration,N/A,Fast Tensor Completion via Approximate Richardson Iteration,N/A,N/A
+Toward a Unified Theory of Gradient Descent under Generalized Smoothness,N/A,Toward a Unified Theory of Gradient Descent under Generalized Smoothness,N/A,N/A
+Online Pre-Training for Offline-to-Online Reinforcement Learning,N/A,Online Pre-Training for Offline-to-Online Reinforcement Learning,N/A,N/A
+Enhancing Diversity In Parallel Agents: A Maximum State Entropy Exploration Story,N/A,Enhancing Diversity In Parallel Agents: A Maximum State Entropy Exploration Story,N/A,N/A
+SERENA: A Unified Stochastic Recursive Variance Reduced Gradient Framework for Riemannian Non-Convex Optimization,N/A,SERENA: A Unified Stochastic Recursive Variance Reduced Gradient Framework for Riemannian Non-Convex Optimization,N/A,N/A
+"EARL-BO: Reinforcement Learning for Multi-Step Lookahead, High-Dimensional Bayesian Optimization",N/A,"EARL-BO: Reinforcement Learning for Multi-Step Lookahead, High-Dimensional Bayesian Optimization",N/A,N/A
+Refining Adaptive Zeroth-Order Optimization at Ease,N/A,Refining Adaptive Zeroth-Order Optimization at Ease,N/A,N/A
+BARK: A Fully Bayesian Tree Kernel for Black-box Optimization,N/A,BARK: A Fully Bayesian Tree Kernel for Black-box Optimization,N/A,N/A
+Provable Benefit of Random Permutations over Uniform Sampling in Stochastic Coordinate Descent,N/A,Provable Benefit of Random Permutations over Uniform Sampling in Stochastic Coordinate Descent,N/A,N/A
+A Comprehensive Framework for Analyzing the Convergence of Adam: Bridging the Gap with SGD,N/A,A Comprehensive Framework for Analyzing the Convergence of Adam: Bridging the Gap with SGD,N/A,N/A
+The Global Convergence Time of Stochastic Gradient Descent in Non-Convex Landscapes: Sharp Estimates via Large Deviations,N/A,The Global Convergence Time of Stochastic Gradient Descent in Non-Convex Landscapes: Sharp Estimates via Large Deviations,N/A,N/A
+Preconditioned Riemannian Gradient Descent Algorithm for Low-Multilinear-Rank Tensor Completion,N/A,Preconditioned Riemannian Gradient Descent Algorithm for Low-Multilinear-Rank Tensor Completion,N/A,N/A
+Stochastic Smoothed Primal-Dual Algorithms for Nonconvex Optimization with Linear Inequality Constraints,N/A,Stochastic Smoothed Primal-Dual Algorithms for Nonconvex Optimization with Linear Inequality Constraints,N/A,N/A
+Guarantees of a Preconditioned Subgradient Algorithm for Overparameterized Asymmetric Low-rank Matrix Recovery,N/A,Guarantees of a Preconditioned Subgradient Algorithm for Overparameterized Asymmetric Low-rank Matrix Recovery,N/A,N/A
+"When, Where and Why to Average Weights?",N/A,"When, Where and Why to Average Weights?",N/A,N/A
+Improving Generalization in Federated Learning with Highly Heterogeneous Data via Momentum-Based Stochastic Controlled Weight Averaging,N/A,Improving Generalization in Federated Learning with Highly Heterogeneous Data via Momentum-Based Stochastic Controlled Weight Averaging,N/A,N/A
+Shortcut-connected Expert Parallelism for Accelerating Mixture of Experts,N/A,Shortcut-connected Expert Parallelism for Accelerating Mixture of Experts,N/A,N/A
+Nesterov Method for Asynchronous Pipeline Parallel Optimization,N/A,Nesterov Method for Asynchronous Pipeline Parallel Optimization,N/A,N/A
+Breaking Barriers: Combinatorial Algorithms for Non-Monotone Submodular Maximization with Sublinear Adaptivity and 1/e Approximation,N/A,Breaking Barriers: Combinatorial Algorithms for Non-Monotone Submodular Maximization with Sublinear Adaptivity and 1/e Approximation,N/A,N/A
+Edge-Colored Clustering in Hypergraphs: Beyond Minimizing Unsatisfied Edges,N/A,Edge-Colored Clustering in Hypergraphs: Beyond Minimizing Unsatisfied Edges,N/A,N/A
+Faster Global Minimum Cut with Predictions,N/A,Faster Global Minimum Cut with Predictions,N/A,N/A
+Geometric Algebra Planes: Convex Implicit Neural Volumes,N/A,Geometric Algebra Planes: Convex Implicit Neural Volumes,N/A,N/A
+The Sparse-Plus-Low-Rank Quasi-Newton Method for Entropic-Regularized Optimal Transport,N/A,The Sparse-Plus-Low-Rank Quasi-Newton Method for Entropic-Regularized Optimal Transport,N/A,N/A
+Scaffold with Stochastic Gradients: New Analysis with Linear Speed-Up,N/A,Scaffold with Stochastic Gradients: New Analysis with Linear Speed-Up,N/A,N/A
+Maximum Total Correlation Reinforcement Learning,N/A,Maximum Total Correlation Reinforcement Learning,N/A,N/A
+Penalizing Infeasible Actions and Reward Scaling in Reinforcement Learning with Offline Data,N/A,Penalizing Infeasible Actions and Reward Scaling in Reinforcement Learning with Offline Data,N/A,N/A
+Score as Action: Fine Tuning Diffusion Generative Models by Continuous-time Reinforcement Learning,N/A,Score as Action: Fine Tuning Diffusion Generative Models by Continuous-time Reinforcement Learning,N/A,N/A
+Consensus Based Stochastic Optimal Control,N/A,Consensus Based Stochastic Optimal Control,N/A,N/A
+RobustLight: Improving Robustness via Diffusion Reinforcement Learning for Traffic Signal Control,N/A,RobustLight: Improving Robustness via Diffusion Reinforcement Learning for Traffic Signal Control,N/A,N/A
+LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models,N/A,LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models,N/A,N/A
+Proto Successor Measure: Representing the Behavior Space of an RL Agent,N/A,Proto Successor Measure: Representing the Behavior Space of an RL Agent,N/A,N/A
+CLARIFY: Contrastive Preference Reinforcement Learning for Untangling Ambiguous Queries,N/A,CLARIFY: Contrastive Preference Reinforcement Learning for Untangling Ambiguous Queries,N/A,N/A
+A Large Recurrent Action Model: xLSTM enables Fast Inference for Robotics Tasks,N/A,A Large Recurrent Action Model: xLSTM enables Fast Inference for Robotics Tasks,N/A,N/A
+Flow Q-Learning,N/A,Flow Q-Learning,N/A,N/A
+Goal-Oriented Skill Abstraction for Offline Multi-Task Reinforcement Learning,N/A,Goal-Oriented Skill Abstraction for Offline Multi-Task Reinforcement Learning,N/A,N/A
+Mastering Massive Multi-Task Reinforcement Learning via Mixture-of-Expert Decision Transformer,N/A,Mastering Massive Multi-Task Reinforcement Learning via Mixture-of-Expert Decision Transformer,N/A,N/A
+Hierarchical Reinforcement Learning with Uncertainty-Guided Diffusional Subgoals,N/A,Hierarchical Reinforcement Learning with Uncertainty-Guided Diffusional Subgoals,N/A,N/A
+Efficient Skill Discovery via Regret-Aware Optimization,N/A,Efficient Skill Discovery via Regret-Aware Optimization,N/A,N/A
+Embedding Safety into RL: A New Take on Trust Region Methods,N/A,Embedding Safety into RL: A New Take on Trust Region Methods,N/A,N/A
+DIME: Diffusion-Based Maximum Entropy Reinforcement Learning,N/A,DIME: Diffusion-Based Maximum Entropy Reinforcement Learning,N/A,N/A
+Comparing Comparisons: Informative and Easy Human Feedback with Distinguishability Queries,N/A,Comparing Comparisons: Informative and Easy Human Feedback with Distinguishability Queries,N/A,N/A
+The Courage to Stop: Overcoming Sunk Cost Fallacy in Deep Reinforcement Learning,N/A,The Courage to Stop: Overcoming Sunk Cost Fallacy in Deep Reinforcement Learning,N/A,N/A
+Generalization Analysis for Controllable Learning,N/A,Generalization Analysis for Controllable Learning,N/A,N/A
+Graph Attention is Not Always Beneficial: A Theoretical Analysis of Graph Attention Mechanisms via Contextual Stochastic Block Models,N/A,Graph Attention is Not Always Beneficial: A Theoretical Analysis of Graph Attention Mechanisms via Contextual Stochastic Block Models,N/A,N/A
+Mastering Multiple-Expert Routing: Realizable H-Consistency and Strong Guarantees for Learning to Defer,N/A,Mastering Multiple-Expert Routing: Realizable H-Consistency and Strong Guarantees for Learning to Defer,N/A,N/A
+Learning Configurations for Data-Driven Multi-Objective Optimization,N/A,Learning Configurations for Data-Driven Multi-Objective Optimization,N/A,N/A
+Anytime-Constrained Equilibria in Polynomial Time,N/A,Anytime-Constrained Equilibria in Polynomial Time,N/A,N/A
+Continuous-Time Analysis of Heavy Ball Momentum in Min-Max Games,N/A,Continuous-Time Analysis of Heavy Ball Momentum in Min-Max Games,N/A,N/A
+A Closer Look at Multimodal Representation Collapse,N/A,A Closer Look at Multimodal Representation Collapse,N/A,N/A
+"A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions: Representation, Training, Generalization",N/A,"A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions: Representation, Training, Generalization",N/A,N/A
+Improved Expressivity of Hypergraph Neural Networks through High-Dimensional Generalized Weisfeiler-Leman Algorithms,N/A,Improved Expressivity of Hypergraph Neural Networks through High-Dimensional Generalized Weisfeiler-Leman Algorithms,N/A,N/A
+Propagation of Chaos for Mean-Field Langevin Dynamics and its Application to Model Ensemble,N/A,Propagation of Chaos for Mean-Field Langevin Dynamics and its Application to Model Ensemble,N/A,N/A
+Universal Length Generalization with Turing Programs,N/A,Universal Length Generalization with Turing Programs,N/A,N/A
+Grokking Beyond the Euclidean Norm of Model Parameters,N/A,Grokking Beyond the Euclidean Norm of Model Parameters,N/A,N/A
+"Sharp Optimality of Simple, Plug-in Estimation of the Fisher Information of a Smoothed Density",N/A,"Sharp Optimality of Simple, Plug-in Estimation of the Fisher Information of a Smoothed Density",N/A,N/A
+Towards Better-than-2 Approximation for Constrained Correlation Clustering,N/A,Towards Better-than-2 Approximation for Constrained Correlation Clustering,N/A,N/A
+Sort Before You Prune: Improved Worst-Case Guarantees of the DiskANN Family of Graphs,N/A,Sort Before You Prune: Improved Worst-Case Guarantees of the DiskANN Family of Graphs,N/A,N/A
+Empirical Design in Reinforcement Learning,N/A,Empirical Design in Reinforcement Learning,N/A,N/A
+Improving the Continuity of Goal-Achievement Ability via Policy Self-Regularization for Goal-Conditioned Reinforcement Learning,N/A,Improving the Continuity of Goal-Achievement Ability via Policy Self-Regularization for Goal-Conditioned Reinforcement Learning,N/A,N/A
+Power Mean Estimation in Stochastic Continuous Monte-Carlo Tree Search,N/A,Power Mean Estimation in Stochastic Continuous Monte-Carlo Tree Search,N/A,N/A
+Finite-Time Global Optimality Convergence in Deep Neural Actor-Critic Methods for Decentralized Multi-Agent Reinforcement Learning,N/A,Finite-Time Global Optimality Convergence in Deep Neural Actor-Critic Methods for Decentralized Multi-Agent Reinforcement Learning,N/A,N/A
+"Sable: a Performant, Efficient and Scalable Sequence Model for MARL",N/A,"Sable: a Performant, Efficient and Scalable Sequence Model for MARL",N/A,N/A
+Zero Shot Generalization of Vision-Based RL Without Data Augmentation,N/A,Zero Shot Generalization of Vision-Based RL Without Data Augmentation,N/A,N/A
+Efficient Multivariate Robust Mean Estimation Under Mean-Shift Contamination,N/A,Efficient Multivariate Robust Mean Estimation Under Mean-Shift Contamination,N/A,N/A
+Understanding the Statistical Accuracy-Communication Trade-off in Personalized Federated Learning with Minimax Guarantees,N/A,Understanding the Statistical Accuracy-Communication Trade-off in Personalized Federated Learning with Minimax Guarantees,N/A,N/A
+A Theory for Conditional Generative Modeling on Multiple Data Sources,N/A,A Theory for Conditional Generative Modeling on Multiple Data Sources,N/A,N/A
+Provable Efficiency of Guidance in Diffusion Models for General Data Distribution,N/A,Provable Efficiency of Guidance in Diffusion Models for General Data Distribution,N/A,N/A
+GL-LowPopArt: A Nearly Instance-Wise Minimax-Optimal Estimator for Generalized Low-Rank Trace Regression,N/A,GL-LowPopArt: A Nearly Instance-Wise Minimax-Optimal Estimator for Generalized Low-Rank Trace Regression,N/A,N/A
+Towards Understanding Catastrophic Forgetting in Two-layer Convolutional Neural Networks,N/A,Towards Understanding Catastrophic Forgetting in Two-layer Convolutional Neural Networks,N/A,N/A
+A Unified View on Learning Unnormalized Distributions via Noise-Contrastive Estimation,N/A,A Unified View on Learning Unnormalized Distributions via Noise-Contrastive Estimation,N/A,N/A
+Grokking at the Edge of Linear Separability,N/A,Grokking at the Edge of Linear Separability,N/A,N/A
+Policy-Regret Minimization in Markov Games with Function Approximation,N/A,Policy-Regret Minimization in Markov Games with Function Approximation,N/A,N/A
+Nonlinear transformers can perform inference-time feature learning,N/A,Nonlinear transformers can perform inference-time feature learning,N/A,N/A
+Constrained Online Convex Optimization with Polyak Feasibility Steps,N/A,Constrained Online Convex Optimization with Polyak Feasibility Steps,N/A,N/A
+Connecting Thompson Sampling and UCB: Towards More Efficient Trade-offs Between Privacy and Regret,N/A,Connecting Thompson Sampling and UCB: Towards More Efficient Trade-offs Between Privacy and Regret,N/A,N/A
+FRI 18 JUL,7:30 a.m.,Registration West,N/A,Registration
+FRI 18 JUL,8:30 a.m.,Programmatic Representations for Agent Learning,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,3rd Workshop on High-dimensional Learning Dynamics (HiLD),N/A,Workshop
+FRI 18 JUL,8:30 a.m.,2nd Workshop on Models of Human Feedback for AI Alignment (MoFA),N/A,Workshop
+FRI 18 JUL,8:30 a.m.,"Multi-Agent Systems in the Era of Foundation Models: Opportunities, Challenges and Futures",N/A,Workshop
+FRI 18 JUL,8:30 a.m.,Machine Unlearning for Generative AI,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,Tiny Titans: The next wave of On-Device Learning for Foundation Models (TTODLer-FM),N/A,Workshop
+FRI 18 JUL,8:30 a.m.,Scaling Up Intervention Models,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,Machine Learning for Wireless Communication and Networks (ML4Wireless),N/A,Workshop
+FRI 18 JUL,8:30 a.m.,Assessing World Models: Methods and Metrics for Evaluating Understanding,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,2nd Generative AI for Biology Workshop,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,CODEML: Championing Open-source DEvelopment in Machine Learning,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,2nd Workshop on Test-Time Adaptation: Putting Updates to the Test (PUT),N/A,Workshop
+FRI 18 JUL,8:30 a.m.,ICML 2025 Workshop on Collaborative and Federated Agentic Workflows (CFAgentic @ ICML'25),N/A,Workshop
+FRI 18 JUL,8:30 a.m.,Actionable Interpretability,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,Workshop on Technical AI Governance,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,DataWorld: Unifying data curation frameworks across domains,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models,N/A,Workshop
+FRI 18 JUL,8:30 a.m.,The Second Workshop on Long-Context Foundation Models,N/A,Workshop
+SAT 19 JUL,7:30 a.m.,Registration West,N/A,Registration
+SAT 19 JUL,8:30 a.m.,TerraBytes: Towards global datasets and models for Earth Observation,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,"DIG-BUGS: Data in Generative Models (The Bad, the Ugly, and the Greats)",N/A,Workshop
+SAT 19 JUL,8:30 a.m.,Exploration in AI Today (EXAIT),N/A,Workshop
+SAT 19 JUL,8:30 a.m.,Workshop on Multi-modal Foundation Models and Large Language Models for Life Sciences,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,Workshop on Computer Use Agents,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,ICML 2025 Workshop on Collaborative and Federated Agentic Workflows (CFAgentic @ ICML'25),N/A,Workshop
+SAT 19 JUL,8:30 a.m.,Actionable Interpretability,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,Workshop on Technical AI Governance,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,DataWorld: Unifying data curation frameworks across domains,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,The Second Workshop on Long-Context Foundation Models,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,The 2nd Workshop on Reliable and Responsible Foundation Models,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,AI Heard That! ICML 2025 Workshop on Machine Learning for Audio,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,Methods and Opportunities at Small Scale (MOSS),N/A,Workshop
+SAT 19 JUL,8:30 a.m.,Building Physically Plausible World Models,N/A,Workshop
+SAT 19 JUL,8:30 a.m.,The Impact of Memorization on Trustworthy Foundation Models,N/A,Workshop
+ends 1:30 PM,1 p.m.,Town Hall,N/A,Town Hall
+ends 2:00 PM,N/A,Hosted Grab and Go Lunch,N/A,Break
+ends 3:00 PM,2 p.m.,Closing the Loop: Machine Learning for Optimization and Discovery,Andreas Krause,Invited Talk
+ends 4:30 PM,3:30,EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents,N/A,Oral
+ends 4:30 PM,3:45,SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?,N/A,Oral
+ends 4:30 PM,4:00,CodeIO: Condensing Reasoning Patterns via Code Input-Output Prediction,N/A,Oral
+ends 4:30 PM,4:15,ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks,N/A,Oral
+ends 4:30 PM,3:30,Retrieval-Augmented Perception: High-resolution Image Perception Meets Visual RAG,N/A,Oral
+ends 4:30 PM,3:45,AutoGFM: Automated Graph Foundation Model with Adaptive Architecture Customization,N/A,Oral
+ends 4:30 PM,4:00,Normalizing Flows are Capable Generative Models,N/A,Oral
+ends 4:30 PM,4:15,In-Context Denoising with One-Layer Transformers: Connections between Attention and Associative Memory Retrieval,N/A,Oral
+ends 4:30 PM,3:30,Learning dynamics in linear recurrent neural networks,N/A,Oral
+ends 4:30 PM,3:45,LoRA Training Provably Converges to a Low-Rank Global Minimum Or It Fails Loudly (But it Probably Won't Fail),N/A,Oral
+ends 4:30 PM,4:00,"LoRA-One: One-Step Full Gradient Could Suffice for Fine-Tuning Large Language Models, Provably and Efficiently",N/A,Oral
+ends 4:30 PM,4:15,Implicit Regularization for Tubal Tensor Factorizations via Gradient Descent,N/A,Oral
+ends 4:30 PM,3:30,On Path to Multimodal Generalist: General-Level and General-Bench,N/A,Oral
+ends 4:30 PM,3:45,What Limits Virtual Agent Application? OmniBench: A Scalable Multi-Dimensional Benchmark for Essential Virtual Agent Capabilities,N/A,Oral
+ends 4:30 PM,4:00,How Do Large Language Monkeys Get Their Power (Laws)?,N/A,Oral
+ends 4:30 PM,4:15,Suitability Filter: A Statistical Framework for Classifier Evaluation in Real-World Deployment Settings,N/A,Oral
+ends 5:30 PM,4:30,Coffee Break,N/A,Break
+ends 7:00 PM,4:30,Understanding the difficulties of posterior predictive estimation,N/A,Poster Session
+ends 7:00 PM,4:30,Deep Bayesian Filter for Bayes-Faithful Data Assimilation,N/A,Poster Session
+ends 7:00 PM,4:30,Splitting & Integrating: Out-of-Distribution Detection via Adversarial Gradient Attribution,N/A,Poster Session
+ends 7:00 PM,4:30,Low-Rank Adapting Models for Sparse Autoencoders,N/A,Poster Session
+ends 7:00 PM,4:30,B-score: Detecting biases in large language models using response history,N/A,Poster Session
+ends 7:00 PM,4:30,How Do Transformers Learn Variable Binding in Symbolic Programs?,N/A,Poster Session
+ends 7:00 PM,4:30,Towards flexible perception with visual memory,N/A,Poster Session
+ends 7:00 PM,4:30,InfoCons: Identifying Interpretable Critical Concepts in Point Clouds via Information Theory,N/A,Poster Session
+ends 7:00 PM,4:30,SAE-V: Interpreting Multimodal Models for Enhanced Alignment,N/A,Poster Session
+ends 7:00 PM,4:30,CoDy: Counterfactual Explainers for Dynamic Graphs,N/A,Poster Session
+ends 7:00 PM,4:30,Weight matrices compression based on PDB model in deep neural networks,N/A,Poster Session
+ends 7:00 PM,4:30,Solving Linear-Gaussian Bayesian Inverse Problems with Decoupled Diffusion Sequential Monte Carlo,N/A,Poster Session
+ends 7:00 PM,4:30,Annealing Flow Generative Models Towards Sampling High-Dimensional and Multi-Modal Distributions,N/A,Poster Session
+ends 7:00 PM,4:30,Parallel Simulation for Log-concave Sampling and Score-based Diffusion Models,N/A,Poster Session
+ends 7:00 PM,4:30,Sampling from Binary Quadratic Distributions via Stochastic Localization,N/A,Poster Session
+ends 7:00 PM,4:30,Enabling Optimal Decisions in Rehearsal Learning under CARE Condition,N/A,Poster Session
+ends 7:00 PM,4:30,Trajectory Inference with Smooth Schrödinger Bridges,N/A,Poster Session
+ends 7:00 PM,4:30,Neighbour-Driven Gaussian Process Variational Autoencoders for Scalable Structured Latent Modelling,N/A,Poster Session
+ends 7:00 PM,4:30,Optimal Sensor Scheduling and Selection for Continuous-Discrete Kalman Filtering with Auxiliary Dynamics,N/A,Poster Session
+ends 7:00 PM,4:30,Posterior Inference with Diffusion Models for High-dimensional Black-box Optimization,N/A,Poster Session
+ends 7:00 PM,4:30,Generalized Category Discovery via Reciprocal Learning and Class-Wise Distribution Regularization,N/A,Poster Session
+ends 7:00 PM,4:30,Unsupervised Learning for Class Distribution Mismatch,N/A,Poster Session
+ends 7:00 PM,4:30,Learning Dynamics under Environmental Constraints via Measurement-Induced Bundle Structures,N/A,Poster Session
+ends 7:00 PM,4:30,Online Differentially Private Conformal Prediction for Uncertainty Quantification,N/A,Poster Session
+ends 7:00 PM,4:30,Large Continual Instruction Assistant,N/A,Poster Session
+ends 7:00 PM,4:30,On the Diversity of Adversarial Ensemble Learning,N/A,Poster Session
+ends 7:00 PM,4:30,Efficient Bisection Projection to Ensure Neural-Network Solution Feasibility for Optimization over General Set,N/A,Poster Session
+ends 7:00 PM,4:30,Probabilistic Group Mask Guided Discrete Optimization for Incremental Learning,N/A,Poster Session
+ends 7:00 PM,4:30,Learning from True-False Labels via Multi-modal Prompt Retrieving,N/A,Poster Session
+ends 7:00 PM,4:30,Random Policy Evaluation Uncovers Policies of Generative Flow Networks,N/A,Poster Session
+ends 7:00 PM,4:30,Towards the Efficient Inference by Incorporating Automated Computational Phenotypes under Covariate Shift,N/A,Poster Session
+ends 7:00 PM,4:30,Socialized Coevolution: Advancing a Better World through Cross-Task Collaboration,N/A,Poster Session
+ends 7:00 PM,4:30,Upweighting Easy Samples in Fine-Tuning Mitigates Forgetting,N/A,Poster Session
+ends 7:00 PM,4:30,Fast and Robust: Task Sampling with Posterior and Diversity Synergies for Adaptive Decision-Makers in Randomized Environments,N/A,Poster Session
+ends 7:00 PM,4:30,Modeling Multi-Task Model Merging as Adaptive Projective Gradient Descent,N/A,Poster Session
+ends 7:00 PM,4:30,BSLoRA: Enhancing the Parameter Efficiency of LoRA with Intra-Layer and Inter-Layer Sharing,N/A,Poster Session
+ends 7:00 PM,4:30,WeGeFT: Weight‑Generative Fine‑Tuning for Multi‑Faceted Efficient Adaptation of Large Models,N/A,Poster Session
+ends 7:00 PM,4:30,Self-Bootstrapping for Versatile Test-Time Adaptation,N/A,Poster Session
+ends 7:00 PM,4:30,Self-Disentanglement and Re-Composition for Cross-Domain Few-Shot Segmentation,N/A,Poster Session
+ends 7:00 PM,4:30,Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation,N/A,Poster Session
+ends 7:00 PM,4:30,Improving Multi-Class Calibration through Normalization-Aware Isotonic Techniques,N/A,Poster Session
+ends 7:00 PM,4:30,TLLC: Transfer Learning-based Label Completion for Crowdsourcing,N/A,Poster Session
+ends 7:00 PM,4:30,Cut out and Replay: A Simple yet Versatile Strategy for Multi-Label Online Continual Learning,N/A,Poster Session
+ends 7:00 PM,4:30,Gradient Aligned Regression via Pairwise Losses,N/A,Poster Session
+ends 7:00 PM,4:30,Learnware Specification via Dual Alignment,N/A,Poster Session
+ends 7:00 PM,4:30,Scalable Model Merging with Progressive Layer-wise Distillation,N/A,Poster Session
+ends 7:00 PM,4:30,Zero-shot Meta-learning for Tabular Prediction Tasks with Adversarially Pre-trained Transformer,N/A,Poster Session
+ends 7:00 PM,4:30,When Data-Free Knowledge Distillation Meets Non-Transferable Teacher: Escaping Out-of-Distribution Trap is All You Need,N/A,Poster Session
+ends 7:00 PM,4:30,Representation Surgery in Model Merging with Probabilistic Modeling,N/A,Poster Session
+ends 7:00 PM,4:30,CABS: Conflict-Aware and Balanced Sparsification for Enhancing Model Merging,N/A,Poster Session
+ends 7:00 PM,4:30,Learning Compact Semantic Information for Incomplete Multi-View Missing Multi-Label Classification,N/A,Poster Session
+ends 7:00 PM,4:30,Towards Escaping from Class Dependency Modeling for Multi-Dimensional Classification,N/A,Poster Session
+ends 7:00 PM,4:30,Preserving AUC Fairness in Learning with Noisy Protected Groups,N/A,Poster Session
+ends 7:00 PM,4:30,KAN-AD: Time Series Anomaly Detection with Kolmogorov–Arnold Networks,N/A,Poster Session
+ends 7:00 PM,4:30,TreeLoRA: Efficient Continual Learning via Layer-Wise LoRAs Guided by a Hierarchical Gradient-Similarity Tree,N/A,Poster Session
+ends 7:00 PM,4:30,Slimming the Fat-Tail: Morphing-Flow for Adaptive Time Series Modeling,N/A,Poster Session
+ends 7:00 PM,4:30,TimeDART: A Diffusion Autoregressive Transformer for Self-Supervised Time Series Representation,N/A,Poster Session
+ends 7:00 PM,4:30,DTZO: Distributed Trilevel Zeroth Order Learning with Provable Non-Asymptotic Convergence,N/A,Poster Session
+ends 7:00 PM,4:30,Efficient Network Automatic Relevance Determination,N/A,Poster Session
+ends 7:00 PM,4:30,Balancing Model Efficiency and Performance: Adaptive Pruner for Long-tailed Data,N/A,Poster Session
+ends 7:00 PM,4:30,LowRA: Accurate and Efficient LoRA Fine-Tuning of LLMs under 2 Bits,N/A,Poster Session
+SUN 13 JUL,9 a.m.,Layers,N/A,N/A
+SUN 13 JUL,9 a.m.,Softmax is not Enough (for Sharp Size Generalisation),N/A,N/A
+SUN 13 JUL,9 a.m.,Gradient Descent Converges Arbitrarily Fast for Logistic Regression via Large and Adaptive Stepsizes,N/A,N/A
+SUN 13 JUL,9 a.m.,Global Convergence and Rich Feature Learning in L-Layer Infinite-Width Neural Networks under μ Parametrization,N/A,N/A
+SUN 13 JUL,9 a.m.,Features are fate: a theory of transfer learning in high-dimensional regression,N/A,N/A
+SUN 13 JUL,9 a.m.,"Understanding Input Selectivity in Mamba: Impact on Approximation Power, Memorization, and Associative Recall Capacity",N/A,N/A
+SUN 13 JUL,9 a.m.,Pixel-level Certified Explanations via Randomized Smoothing,N/A,N/A
+SUN 13 JUL,9 a.m.,SPMC: Self-Purifying Federated Backdoor Defense via Margin Contribution,N/A,N/A
+SUN 13 JUL,9 a.m.,Explaining the role of Intrinsic Dimensionality in Adversarial Training,N/A,N/A
+SUN 13 JUL,9 a.m.,CAT: Contrastive Adversarial Training for Evaluating the Robustness of Protective Perturbations in Latent Diffusion Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Collapse-Proof Non-Contrastive Self-Supervised Learning,N/A,N/A
+SUN 13 JUL,9 a.m.,How does Labeling Error Impact Contrastive Learning? A Perspective from Data Dimensionality Reduction,N/A,N/A
+SUN 13 JUL,9 a.m.,Self-Organizing Visual Prototypes for Non-Parametric Representation Learning,N/A,N/A
+SUN 13 JUL,9 a.m.,TimeBridge: Non-Stationarity Matters for Long-term Time Series Forecasting,N/A,N/A
+SUN 13 JUL,9 a.m.,SKOLR: Structured Koopman Operator Linear RNN for Time-Series Forecasting,N/A,N/A
+SUN 13 JUL,9 a.m.,UnHiPPO: Uncertainty-aware Initialization for State Space Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Retrieval Augmented Time Series Forecasting,N/A,N/A
+SUN 13 JUL,9 a.m.,Enhancing Foundation Models for Time Series Forecasting via Wavelet-based Tokenization,N/A,N/A
+SUN 13 JUL,9 a.m.,SDE Matching: Scalable and Simulation-Free Training of Latent Stochastic Differential Equations,N/A,N/A
+SUN 13 JUL,9 a.m.,Enhancing Certified Robustness via Block Reflector Orthogonal Layers and Logit Annealing Loss,N/A,N/A
+SUN 13 JUL,9 a.m.,Can DBNNs Robust to Environmental Noise for Resource-constrained Scenarios?,N/A,N/A
+SUN 13 JUL,9 a.m.,Putnam-AXIOM: A Functional & Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs,N/A,N/A
+SUN 13 JUL,9 a.m.,Diverse Prototypical Ensembles Improve Robustness to Subpopulation Shift,N/A,N/A
+SUN 13 JUL,9 a.m.,Adversarial Robustness via Deformable Convolution with Stochasticity,N/A,N/A
+SUN 13 JUL,9 a.m.,Kernel-based Unsupervised Embedding Alignment for Enhanced Visual Representation in Vision-language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Interpreting CLIP with Hierarchical Sparse Autoencoders,N/A,N/A
+SUN 13 JUL,9 a.m.,Understanding the Limits of Deep Tabular Methods with Temporal Shift,N/A,N/A
+SUN 13 JUL,9 a.m.,TabFlex: Scaling Tabular Learning to Millions with Linear Attention,N/A,N/A
+SUN 13 JUL,9 a.m.,Objective drives the consistency of representational similarity across datasets,N/A,N/A
+SUN 13 JUL,9 a.m.,On the Importance of Gaussianizing Representations,N/A,N/A
+SUN 13 JUL,9 a.m.,Looking Beyond the Top-1: Transformers Determine Top Tokens in Order,N/A,N/A
+SUN 13 JUL,9 a.m.,Metadata Conditioning Accelerates Language Model Pre-training,N/A,N/A
+SUN 13 JUL,9 a.m.,Logits are All We Need to Adapt Closed Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Training Software Engineering Agents and Verifiers with SWE-Gym,N/A,N/A
+SUN 13 JUL,9 a.m.,Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,MA-LoT: Model-Collaboration Lean-based Long Chain-of-Thought Reasoning enhances Formal Theorem Proving,N/A,N/A
+SUN 13 JUL,9 a.m.,Mechanistic Unlearning: Robust Knowledge Unlearning and Editing via Mechanistic Localization,N/A,N/A
+SUN 13 JUL,9 a.m.,Autonomy-of-Experts Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Scaling Laws for Floating–Point Quantization Training,N/A,N/A
+SUN 13 JUL,9 a.m.,QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache,N/A,N/A
+SUN 13 JUL,9 a.m.,Joint MoE Scaling Laws: Mixture of Experts Can Be Memory Efficient,N/A,N/A
+SUN 13 JUL,9 a.m.,Demystifying Singular Defects in Large Language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,NextCoder: Robust Adaptation of Code LMs to Diverse Code Edits,N/A,N/A
+SUN 13 JUL,9 a.m.,Overcoming Multi-step Complexity in Multimodal Theory-of-Mind Reasoning: A Scalable Bayesian Planner,N/A,N/A
+SUN 13 JUL,9 a.m.,An Architecture Search Framework for Inference-Time Techniques,N/A,N/A
+SUN 13 JUL,9 a.m.,Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems,N/A,N/A
+SUN 13 JUL,9 a.m.,Deliberation in Latent Space via Differentiable Cache Augmentation,N/A,N/A
+SUN 13 JUL,9 a.m.,Enhancing Decision-Making of Large Language Models via Actor-Critic,N/A,N/A
+SUN 13 JUL,9 a.m.,Joint Localization and Activation Editing for Low-Resource Fine-Tuning,N/A,N/A
+SUN 13 JUL,9 a.m.,VinePPO: Refining Credit Assignment in RL Training of LLMs,N/A,N/A
+SUN 13 JUL,9 a.m.,Safe Delta: Consistently Preserving Safety when Fine-Tuning LLMs on Diverse Datasets,N/A,N/A
+SUN 13 JUL,9 a.m.,Overcoming Vocabulary Mismatch: Vocabulary-agnostic Teacher Guided Language Modeling,N/A,N/A
+SUN 13 JUL,9 a.m.,EpiCoder: Encompassing Diversity and Complexity in Code Generation,N/A,N/A
+SUN 13 JUL,9 a.m.,From Debate to Equilibrium: Belief‑Driven Multi‑Agent LLM Reasoning via Bayesian Nash Equilibrium,N/A,N/A
+SUN 13 JUL,9 a.m.,Targeted Low-rank Refinement: Enhancing Sparse Language Models with Precision,N/A,N/A
+SUN 13 JUL,9 a.m.,Dialogue Without Limits: Constant-Sized KV Caches for Extended Response in LLMs,N/A,N/A
+SUN 13 JUL,9 a.m.,Optimizing Test-Time Compute via Meta Reinforcement Finetuning,N/A,N/A
+SUN 13 JUL,9 a.m.,Reasoning-as-Logic-Units: Scaling Test-Time Reasoning in Large Language Models Through Logic Unit Alignment,N/A,N/A
+SUN 13 JUL,9 a.m.,Rethinking Chain-of-Thought from the Perspective of Self-Training,N/A,N/A
+SUN 13 JUL,9 a.m.,Locate-then-edit for Multi-hop Factual Recall under Knowledge Editing,N/A,N/A
+SUN 13 JUL,9 a.m.,MAGELLAN: Metacognitive predictions of learning progress guide autotelic LLM agents in large goal spaces,N/A,N/A
+SUN 13 JUL,9 a.m.,InfAlign: Inference-aware language model alignment,N/A,N/A
+SUN 13 JUL,9 a.m.,Neutral residues: revisiting adapters for model extension,N/A,N/A
+SUN 13 JUL,9 a.m.,Critical Tokens Matter: Token-Level Contrastive Estimation Enhances LLM’s Reasoning Capability,N/A,N/A
+SUN 13 JUL,9 a.m.,An Interpretable N-gram Perplexity Threat Model for Large Language Model Jailbreaks,N/A,N/A
+SUN 13 JUL,9 a.m.,Speculative Prefill: Turbocharging TTFT with Lightweight and Training-Free Token Importance Estimation,N/A,N/A
+SUN 13 JUL,9 a.m.,Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World,N/A,N/A
+SUN 13 JUL,9 a.m.,Language Models May Verbatim Complete Text They Were Not Explicitly Trained On,N/A,N/A
+SUN 13 JUL,9 a.m.,Scaling Laws for Upcycling Mixture-of-Experts Language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,CLOVER: Cross-Layer Orthogonal Vectors Pruning,N/A,N/A
+SUN 13 JUL,9 a.m.,Independence Tests for Language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,GSM-∞: How Do your LLMs Behave over Infinitely Increasing Reasoning Complexity and Context Length?,N/A,N/A
+SUN 13 JUL,9 a.m.,The Best of Both Worlds: Bridging Quality and Diversity in Data Selection with Bipartite Graph,N/A,N/A
+SUN 13 JUL,9 a.m.,Compositional Generalization via Forced Rendering of Disentangled Latents,N/A,N/A
+SUN 13 JUL,9 a.m.,An Efficient Pruner for Large Language Model with Theoretical Guarantee,N/A,N/A
+SUN 13 JUL,9 a.m.,Determining Layer-wise Sparsity for Large Language Models Through a Theoretical Perspective,N/A,N/A
+SUN 13 JUL,9 a.m.,OmniBal: Towards Fast Instruction-Tuning for Vision-Language Models via Omniverse Computation Balance,N/A,N/A
+SUN 13 JUL,9 a.m.,Cost-efficient Collaboration between On-device and Cloud Language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs,N/A,N/A
+SUN 13 JUL,9 a.m.,GRAM: A Generative Foundation Reward Model for Reward Generalization,N/A,N/A
+SUN 13 JUL,9 a.m.,Demonstration Selection for In-Context Learning via Reinforcement Learning,N/A,N/A
+SUN 13 JUL,9 a.m.,Predictive Data Selection: The Data That Predicts Is the Data That Teaches,N/A,N/A
+SUN 13 JUL,9 a.m.,AlphaVerus: Bootstrapping Formally Verified Code Generation through Self-Improving Translation and Treefinement,N/A,N/A
+SUN 13 JUL,9 a.m.,Does Graph Prompt Work? A Data Operation Perspective with Theoretical Analysis,N/A,N/A
+SUN 13 JUL,9 a.m.,Learnable Spatial-Temporal Positional Encoding for Link Prediction,N/A,N/A
+SUN 13 JUL,9 a.m.,ResearchTown: Simulator of Human Research Community,N/A,N/A
+SUN 13 JUL,9 a.m.,Pruning for GNNs: Lower Complexity with Comparable Expressiveness,N/A,N/A
+SUN 13 JUL,9 a.m.,SparseLoRA: Accelerating LLM Fine-Tuning with Contextual Sparsity,N/A,N/A
+SUN 13 JUL,9 a.m.,TuCo: Measuring the Contribution of Fine-Tuning to Individual Responses of LLMs,N/A,N/A
+SUN 13 JUL,9 a.m.,Emergent Symbolic Mechanisms Support Abstract Reasoning in Large Language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Heads up! Large Language Models Can Perform Tasks Without Your Instruction via Selective Attention Head Masking,N/A,N/A
+SUN 13 JUL,9 a.m.,LOGO --- Long cOntext aliGnment via efficient preference Optimization,N/A,N/A
+SUN 13 JUL,9 a.m.,Optimizing Large Language Model Training Using FP4 Quantization,N/A,N/A
+SUN 13 JUL,9 a.m.,Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents,N/A,N/A
+SUN 13 JUL,9 a.m.,CateKV: On Sequential Consistency for Long-Context LLM Inference Acceleration,N/A,N/A
+SUN 13 JUL,9 a.m.,Adapting Precomputed Features for Efficient Graph Condensation,N/A,N/A
+SUN 13 JUL,9 a.m.,HyperNear: Unnoticeable Node Injection Attacks on Hypergraph Neural Networks,N/A,N/A
+SUN 13 JUL,9 a.m.,Graph Adaptive Autoregressive Moving Average Models,N/A,N/A
+SUN 13 JUL,9 a.m.,LLM Enhancers for GNNs: An Analysis from the Perspective of Causal Mechanism Identification,N/A,N/A
+SUN 13 JUL,9 a.m.,RelGNN: Composite Message Passing for Relational Deep Learning,N/A,N/A
+SUN 13 JUL,9 a.m.,Beyond Message Passing: Neural Graph Pattern Machine,N/A,N/A
+SUN 13 JUL,9 a.m.,Beyond Topological Self-Explainable GNNs: A Formal Explainability Perspective,N/A,N/A
+SUN 13 JUL,9 a.m.,Hierarchical Graph Tokenization for Molecule-Language Alignment,N/A,N/A
+SUN 13 JUL,9 a.m.,ENAHPool: The Edge-Node Attention-based Hierarchical Pooling for Graph Neural Networks,N/A,N/A
+SUN 13 JUL,9 a.m.,MITIGATING OVER-EXPLORATION IN LATENT SPACE OPTIMIZATION USING LES,N/A,N/A
+SUN 13 JUL,9 a.m.,Improving the Diffusability of Autoencoders,N/A,N/A
+SUN 13 JUL,9 a.m.,"I Think, Therefore I Diffuse: Enabling Multimodal In-Context Reasoning in Diffusion Models",N/A,N/A
+SUN 13 JUL,9 a.m.,ToMA: Token Merge with Attention for Diffusion Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Epsilon-VAE: Denoising as Visual Decoding,N/A,N/A
+SUN 13 JUL,9 a.m.,Tractable Transformers for Flexible Conditional Generation,N/A,N/A
+SUN 13 JUL,9 a.m.,Elucidating Flow Matching ODE Dynamics via Data Geometry and Denoisers,N/A,N/A
+SUN 13 JUL,9 a.m.,Variational Control for Guidance in Diffusion Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Diffusion Counterfactual Generation with Semantic Abduction,N/A,N/A
+SUN 13 JUL,9 a.m.,MuseControlLite: Multifunctional Music Generation with Lightweight Conditioners,N/A,N/A
+SUN 13 JUL,9 a.m.,EQ-VAE: Equivariance Regularized Latent Space for Improved Generative Image Modeling,N/A,N/A
+SUN 13 JUL,9 a.m.,Learning Robust Neural Processes with Risk-Averse Stochastic Optimization,N/A,N/A
+SUN 13 JUL,9 a.m.,Hessian Geometry of Latent Space in Generative Models,N/A,N/A
+SUN 13 JUL,9 a.m.,Improving Flow Matching by Aligning Flow Divergence,N/A,N/A
+SUN 13 JUL,9 a.m.,Reward-Guided Iterative Refinement in Diffusion Models at Test-Time with Applications to Protein and DNA Design,N/A,N/A
+SUN 13 JUL,9 a.m.,"MODA: MOdular Duplex Attention for Multimodal Perception, Cognition, and Emotion Understanding",N/A,N/A
+SUN 13 JUL,9 a.m.,Compute Optimal Inference and Provable Amortisation Gap in Sparse Autoencoders,N/A,N/A
+SUN 13 JUL,9 a.m.,Rényi Neural Processes,N/A,N/A
+SUN 13 JUL,9 a.m.,Direct Motion Models for Assessing Generated Videos,N/A,N/A
+SUN 13 JUL,9 a.m.,Highly Compressed Tokenizer Can Generate Without Training,N/A,N/A
+SUN 13 JUL,9 a.m.,DCTdiff: Intriguing Properties of Image Generative Modeling in the DCT Space,N/A,N/A
+SUN 13 JUL,9 a.m.,Diffusion Sampling Correction via Approximately 10 Parameters,N/A,N/A
+SUN 13 JUL,9 a.m.,Editable Noise Map Inversion: Encoding Target-image into Noise For High-Fidelity Image Manipulation,N/A,N/A
+SUN 13 JUL,9 a.m.,Scaling Video-Language Models to 10K Frames via Hierarchical Differential Distillation,N/A,N/A
+SUN 13 JUL,9 a.m.,GAPrompt: Geometry-Aware Point Cloud Prompt for 3D Vision Model,N/A,N/A
+SUN 13 JUL,9 a.m.,LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding,N/A,N/A
+SUN 13 JUL,9 a.m.,Towards scientific discovery with dictionary learning: Extracting biological concepts from microscopy foundation models,N/A,N/A
+SUN 13 JUL,9 a.m.,Exploring Criteria of Loss Reweighting to Enhance LLM Unlearning,N/A,N/A
+SUN 13 JUL,9 a.m.,MUDDFormer: Breaking Residual Bottlenecks in Transformers via Multiway Dynamic Dense Connections,N/A,N/A
+SUN 13 JUL,9 a.m.,Data-Juicer Sandbox: A Feedback-Driven Suite for Multimodal Data-Model Co-development,N/A,N/A
+SUN 13 JUL,9 a.m.,Distilling the Knowledge in Data Pruning,N/A,N/A
+SUN 13 JUL,9 a.m.,Sassha: Sharpness-aware Adaptive Second-order Optimization with Stable Hessian Approximation,N/A,N/A
+SUN 13 JUL,9 a.m.,Understanding the Logic of Direct Preference Alignment through Logic,N/A,N/A
+SUN 13 JUL,9 a.m.,Nonparametric Modern Hopfield Models,N/A,N/A
+SUN 13 JUL,9 a.m.,EPIC: Efficient Position-Independent Caching for Serving Large Language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,LV-XAttn: Distributed Cross-Attention for Long Visual Inputs in Multimodal Large Language Models,N/A,N/A
+SUN 13 JUL,9 a.m.,MoH: Multi-Head Attention as Mixture-of-Head Attention,N/A,N/A
+SUN 13 JUL,9 a.m.,On the Emergence of Position Bias in Transformers,N/A,N/A
+SUN 13 JUL,9 a.m.,ESPFormer: Doubly-Stochastic Attention with Expected Sliced Transport Plans,N/A,N/A
+SUN 13 JUL,9 a.m.,Customizing the Inductive Biases of Softmax Attention using Structured Matrices,N/A,N/A
+SUN 13 JUL,9 a.m.,Token Coordinated Prompt Attention is Needed for Visual Prompting,N/A,N/A
+SUN 13 JUL,9 a.m.,How Transformers Learn Structured Data: Insights From Hierarchical Filtering,N/A,N/A
+SUN 13 JUL,9 a.m.,SpargeAttention: Accurate and Training-free Sparse Attention Accelerating Any Model Inference,N/A,N/A

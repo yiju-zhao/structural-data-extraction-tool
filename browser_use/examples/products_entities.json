@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Product",
+    "description": "Product listing with pricing and details",
+    "attributes": [
+      {
+        "name": "name",
+        "description": "Product name or title",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "price",
+        "description": "Current product price",
+        "data_type": "number",
+        "required": true
+      },
+      {
+        "name": "original_price",
+        "description": "Original price before discount",
+        "data_type": "number",
+        "required": false
+      },
+      {
+        "name": "discount_percentage",
+        "description": "Discount percentage",
+        "data_type": "number",
+        "required": false
+      },
+      {
+        "name": "description",
+        "description": "Product description",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "brand",
+        "description": "Product brand",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "category",
+        "description": "Product category",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "rating",
+        "description": "Average product rating",
+        "data_type": "number",
+        "required": false
+      },
+      {
+        "name": "reviews_count",
+        "description": "Number of customer reviews",
+        "data_type": "integer",
+        "required": false
+      },
+      {
+        "name": "image_url",
+        "description": "Product image URL",
+        "data_type": "url",
+        "required": false
+      },
+      {
+        "name": "product_url",
+        "description": "Link to product page",
+        "data_type": "url",
+        "required": false
+      },
+      {
+        "name": "availability",
+        "description": "Stock availability status",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "shipping_info",
+        "description": "Shipping information",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "seller",
+        "description": "Seller name",
+        "data_type": "string",
+        "required": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "JobListing",
+    "description": "Job posting with employment details",
+    "attributes": [
+      {
+        "name": "title",
+        "description": "Job title or position",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "company",
+        "description": "Company name",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "location",
+        "description": "Job location (city, state, country)",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "remote_option",
+        "description": "Remote work availability",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "salary_range",
+        "description": "Salary range or compensation",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "employment_type",
+        "description": "Employment type (full-time, part-time, contract, etc.)",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "description",
+        "description": "Job description",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "requirements",
+        "description": "Job requirements and qualifications",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "benefits",
+        "description": "Job benefits",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "posted_date",
+        "description": "Date job was posted",
+        "data_type": "date",
+        "required": false
+      },
+      {
+        "name": "application_deadline",
+        "description": "Application deadline",
+        "data_type": "date",
+        "required": false
+      },
+      {
+        "name": "apply_url",
+        "description": "Application URL",
+        "data_type": "url",
+        "required": false
+      },
+      {
+        "name": "experience_level",
+        "description": "Required experience level",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "skills",
+        "description": "Required skills",
+        "data_type": "list",
+        "required": false
+      }
+    ]
+  }
+]

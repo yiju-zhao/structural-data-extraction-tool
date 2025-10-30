@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Session",
+    "description": "Conference session details",
+    "attributes": [
+      {
+        "name": "title",
+        "description": "Session presentation title",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "date",
+        "description": "Session date",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "time",
+        "description": "Session time",
+        "data_type": "date",
+        "required": true
+      },
+      {
+        "name": "type",
+        "description": "Session type (e.g., keynote, workshop)",
+        "data_type": "string",
+        "required": true
+      },
+      {
+        "name": "contributors",
+        "description": "List of contributors or speakers",
+        "data_type": "string",
+        "required": false
+      },
+      {
+        "name": "location",
+        "description": "Session location or room",
+        "data_type": "string",
+        "required": false
+      }
+    ]
+  }
+]

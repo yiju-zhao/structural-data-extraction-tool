@@ -189,7 +189,7 @@ archive/
 
 # *.csv
 *.DS_Store
-*.json
+# *.json
 
 */browseruse_agent_data
 
