@@ -1,0 +1,21 @@
+date,time,type,title,url,speaker,end_time
+"Sunday, Nov 30, 2025",11:00,Workshop,NeurIPS 2025 Workshop on Socially Responsible and Trustworthy Foundation Models,https://neurips.cc/virtual/2025/workshop/127834,,18:00
+"Sunday, Nov 30, 2025",11:00,Workshop,NeurIPS 2025 Workshop on Embodied and Safe-Assured Robotic Systems,https://neurips.cc/virtual/2025/workshop/127833,,18:00
+"Sunday, Nov 30, 2025",11:00,Workshop,NeurIPS2025 Workshop Research Development AI Mexico,https://neurips.cc/virtual/2025/workshop/127832,,18:00
+"Sunday, Nov 30, 2025",11:00,Workshop,Vision Language Models: Challenges of Real World Deployment,https://neurips.cc/virtual/2025/workshop/127831,,18:00
+"Monday, Dec 1, 2025",06:00,Workshop,Centering Low-Resource Languages and Cultures in the Age of Large Language Models,https://neurips.cc/virtual/2025/workshop/127830,,15:00
+"Monday, Dec 1, 2025",06:00,Workshop,NORA: The First Workshop on Knowledge Graphs & Agentic Systems Interplay,https://neurips.cc/virtual/2025/workshop/127827,,15:00
+"Monday, Dec 1, 2025",06:00,Workshop,7th International Workshop on Large Scale Holistic Video Understanding: Toward Video Foundation Models,https://neurips.cc/virtual/2025/workshop/127828,,15:00
+"Monday, Dec 1, 2025",06:00,Workshop,First Workshop on LLM Persona Modeling,https://neurips.cc/virtual/2025/workshop/127829,,15:00
+"Tuesday, Dec 2, 2025",09:30,Tutorial,"Efficient Transformers: State of the art in pruning, sparse attention, and transformer funneling",https://neurips.cc/virtual/2025/128790,,12:00
+"Tuesday, Dec 2, 2025",09:30,Tutorial,"Geospatial Foundation Models: Overview, Application and Benchmarking",https://neurips.cc/virtual/2025/128793,,12:00
+"Tuesday, Dec 2, 2025",09:30,Tutorial,From Tuning to Guarantees: Statistically Valid Hyperparameter Selection,https://neurips.cc/virtual/2025/128794,,12:00
+"Tuesday, Dec 2, 2025",13:30,Tutorial,How to Build Agents to Generate Kernels for Faster LLMs (and Other Models!),https://neurips.cc/virtual/2025/128792,,16:00
+"Tuesday, Dec 2, 2025",13:30,Tutorial,"Positional Encoding: Past, Present, and Future",https://neurips.cc/virtual/2025/128797,,16:00
+"Tuesday, Dec 2, 2025",13:30,Tutorial,Science of Trustworthy Generative Foundation Models,https://neurips.cc/virtual/2025/128795,,16:00
+"Wednesday, Dec 3, 2025",08:30,Invited Talk,The Oak Architecture: A Vision of SuperIntelligence from Experience,https://neurips.cc/virtual/2025/invited-talk/129132,Rich Sutton,09:30
+"Wednesday, Dec 3, 2025",14:30,Invited Talk,Are We Having the Wrong Nightmares About AI?,https://neurips.cc/virtual/2025/invited-talk/129136,Zeynep Tufekci,15:30
+"Thursday, Dec 4, 2025",08:30,Invited Talk,The Art of (Artificial) Reasoning,https://neurips.cc/virtual/2025/invited-talk/129134,Yejin Choi,09:30
+"Thursday, Dec 4, 2025",14:30,Invited Talk,"On the Science of “Alien Intelligences”: Evaluating Cognitive Capabilities in Babies, Animals, and AI",https://neurips.cc/virtual/2025/invited-talk/129137,Melanie Mitchell,15:30
+"Friday, Dec 5, 2025",08:30,Invited Talk,From Benchmarks to Problems - A Perspective on Problem Finding in AI,https://neurips.cc/virtual/2025/invited-talk/129135,Kyunghyun Cho,09:30
+"Friday, Dec 5, 2025",14:30,Invited Talk,Demystifying depth: Principles of learning in deep neural networks,https://neurips.cc/virtual/2025/invited-talk/129133,Andrew Saxe,15:30

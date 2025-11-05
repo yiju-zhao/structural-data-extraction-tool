@@ -28,7 +28,7 @@ class LLMExtractor:
     """
 
     def __init__(
-        self, model: str = "gpt-4o-mini", headless: bool = True, verbose: bool = False
+        self, model: str = "gpt-4o", headless: bool = True, verbose: bool = False
     ):
         """
         Initialize the LLM Extractor.

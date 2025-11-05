@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 """
-NeurIPS Conference Schedule Extractor
+NeurIPS Conference Schedule Extractor (LLM-based)
 
-Extracts conference events (workshops, tutorials, invited talks, oral sessions, etc.)
-from NeurIPS virtual conference schedule pages using crawl4ai extraction strategies.
+Uses the reusable LLM extractor (crawl_llm_extractor.py) with a Pydantic schema
+to extract conference events (workshops, tutorials, invited talks, oral sessions, etc.)
+from NeurIPS virtual conference schedule pages.
 """
 
 import asyncio
 import json
 import argparse
-from typing import Dict, List, Set
-from bs4 import BeautifulSoup
-from crawl_web_extractor import WebExtractor
+from typing import Dict, List, Optional, Set
+from pydantic import BaseModel, Field
+
+from crawl_web_extractor import WebExtractor  # for utilities: save_to_csv, print_statistics
+from crawl_llm_extractor import LLMExtractor
 
 
 # ============================================
@@ -32,328 +35,172 @@ NEURIPS_INCLUDED_TYPES = {
 NEURIPS_LOCATION_PREFIXES = ["Mexico City", "San Diego", "Vancouver", "Vienna"]
 
 
-class NeurIPSScheduleExtractor(WebExtractor):
-    """
-    Extractor for NeurIPS conference schedule pages.
+# ============================================
+# Pydantic Schemas for LLM Extraction
+# ============================================
+class PaperItem(BaseModel):
+    """Nested paper item for oral sessions."""
 
-    Handles three types of event structures:
-    1. Timebox events - Events inside <div class="timebox">
-    2. Oral sessions - <div class="oral-session"> with nested papers
-    3. Standalone events - Direct <div class="eventsession"> elements
+    title: str = Field(description="Paper title as shown on the page")
+    url: Optional[str] = Field(
+        default=None, description="Absolute or relative URL to the paper/session"
+    )
+
+
+class NeurIPSEvent(BaseModel):
+    """Schema for an extracted conference event."""
+
+    date: Optional[str] = Field(
+        default=None,
+        description="Event date as indicated on the page (e.g., by day header)",
+    )
+    time: Optional[str] = Field(
+        default=None, description="Start time of the event as displayed (e.g., 10:00)"
+    )
+    end_time: Optional[str] = Field(
+        default=None, description="End time if available (e.g., 11:30)"
+    )
+    type: Optional[str] = Field(
+        default=None,
+        description="Event type (e.g., Workshop, Tutorial, Invited Talk, Oral Session)",
+    )
+    title: str = Field(description="Event title as shown on the page")
+    url: Optional[str] = Field(
+        default=None, description="Absolute or relative URL to the event details"
+    )
+    speaker: Optional[str] = Field(
+        default=None, description="Speaker name(s) if displayed for the event"
+    )
+    papers: Optional[List[PaperItem]] = Field(
+        default=None,
+        description="For oral sessions: list of papers (title and url)",
+    )
+
+
+class NeurIPSScheduleExtractor:
+    """
+    LLM-powered extractor for NeurIPS conference schedule pages.
     """
 
     def __init__(
         self,
-        included_types: Set[str] = None,
-        location_prefixes: List[str] = None,
-        strategy_type: str = "css",
-        use_browser: bool = True,
+        included_types: Optional[Set[str]] = None,
+        location_prefixes: Optional[List[str]] = None,
+        model: str = "gpt-4o",
+        headless: bool = True,
+        verbose: bool = False,
     ):
-        """
-        Initialize NeurIPS schedule extractor.
-
-        Args:
-            included_types: Set of event types to filter for
-            location_prefixes: List of location prefixes to normalize
-            strategy_type: Extraction strategy type ("css" or "xpath")
-            use_browser: If True, use headless browser for JavaScript rendering (default: True)
-        """
-        super().__init__(strategy_type=strategy_type, use_browser=use_browser)
         self.included_types = included_types or NEURIPS_INCLUDED_TYPES
         self.location_prefixes = location_prefixes or NEURIPS_LOCATION_PREFIXES
+        self.llm = LLMExtractor(model=model, headless=headless, verbose=verbose)
 
-    def get_schemas(self) -> Dict:
+    def _instruction(self) -> str:
+        """LLM instruction to extract events from a NeurIPS schedule page."""
+        included = ", ".join(sorted(self.included_types))
+        prefixes = ", ".join(self.location_prefixes)
+        return f"""
+You are extracting a conference schedule from a NeurIPS virtual conference page.
+
+Task: Return a JSON array of events matching the provided schema. Do not wrap inside an object. One JSON array only.
+
+For each event, capture:
+- date: As shown by the day header or section (e.g., 'Monday, Dec 1, 2025'). If not explicitly shown, leave null.
+- time: Start time (e.g., '10:00') as displayed near the event.
+- end_time: End time when shown (e.g., '11:30'); otherwise null.
+- type: The event type string exactly as shown, but remove any city/location prefix such as: {prefixes}.
+- title: The event title text.
+- url: The hyperlink to the event details.
+- speaker: Speaker(s) if displayed nearby; otherwise null.
+
+Special handling:
+- Oral sessions: Set type to 'Oral Session' and include a 'papers' array with objects having 'title' and 'url' for each listed paper in the session.
+- If event entries include nested items, keep the parent as the main event and list nested items under 'papers'.
+- Preserve the order as they appear on the page.
+
+Constraints:
+- Output must be a JSON array of objects matching the schema. Do not include extra fields.
+- Do not invent missing data; use nulls instead when a field is not shown.
+- Preserve relative URLs as-is (we will normalize later).
+
+Focus on these types (keep others too if clearly marked, but these are most important): {included}.
         """
-        Return the extraction schema for NeurIPS schedule pages.
 
-        Since NeurIPS has complex nested structures with parent-child relationships,
-        we extract day containers as HTML blocks for post-processing with BeautifulSoup.
-        """
-        if self.strategy_type == "css":
-            return {
-                "name": "NeurIPS Day Containers",
-                "baseSelector": "div[class*='container2']",
-                "fields": [
-                    {
-                        "name": "date_header",
-                        "selector": "div.hdrbox",
-                        "type": "text",
-                        "default": "Unknown Date",
-                    },
-                    {
-                        "name": "container_html",
-                        "selector": "",  # Empty selector = get current element's HTML
-                        "type": "html",
-                    },
-                ],
-            }
-        else:  # xpath
-            return {
-                "name": "NeurIPS Day Containers",
-                "baseSelector": "//div[contains(@class, 'container2')]",
-                "fields": [
-                    {
-                        "name": "date_header",
-                        "selector": ".//div[@class='hdrbox']",
-                        "type": "text",
-                        "default": "Unknown Date",
-                    },
-                    {
-                        "name": "container_html",
-                        "selector": ".",
-                        "type": "html",
-                    },
-                ],
-            }
+    @staticmethod
+    def _make_absolute_url(url: Optional[str], base_url: str) -> Optional[str]:
+        if not url:
+            return url
+        return WebExtractor.make_absolute_url(url, base_url)
 
-    def post_process(self, raw_data: List[Dict], base_url: str = "") -> Dict:
-        """
-        Post-process extracted day containers to extract individual events.
-
-        Args:
-            raw_data: List of day container dicts with 'date_header' and 'container_html'
-            base_url: Base URL for converting relative URLs to absolute
-
-        Returns:
-            Dictionary with 'total_events' and 'events' keys
-        """
-        all_events = []
-
-        for container_data in raw_data:
-            date = container_data.get("date_header", "Unknown Date").strip()
-            container_html = container_data.get("container_html", "")
-
-            if not container_html:
-                continue
-
-            # Parse the container HTML with BeautifulSoup
-            soup = BeautifulSoup(container_html, "html.parser")
-
-            # Extract different event types
-            all_events.extend(self._extract_timebox_events(soup, date, base_url))
-            all_events.extend(self._extract_standalone_events(soup, date, base_url))
-            all_events.extend(self._extract_oral_sessions(soup, date, base_url))
-
-        return {"total_events": len(all_events), "events": all_events}
-
-    def _extract_timebox_events(
-        self, container_soup: BeautifulSoup, date: str, base_url: str
-    ) -> List[Dict]:
-        """Extract events from timebox structures."""
-        events = []
-        timeboxes = container_soup.find_all("div", class_="timebox")
-
-        for timebox in timeboxes:
-            # Extract time
-            time_elem = timebox.find("div", class_="time")
-            time = time_elem.get_text(strip=True) if time_elem else "Unknown Time"
-
-            # Find all event sessions in this timebox
-            event_sessions = timebox.find_all("div", class_="eventsession")
-
-            for event in event_sessions:
-                event_data = self._extract_event_details(event, date, time, base_url)
-                if event_data:
-                    events.append(event_data)
-
-        return events
-
-    def _extract_standalone_events(
-        self, container_soup: BeautifulSoup, date: str, base_url: str
-    ) -> List[Dict]:
-        """Extract standalone event sessions (not inside timeboxes)."""
-        events = []
-
-        # Get all eventsessions, excluding those in timeboxes
-        all_eventsessions = container_soup.find_all("div", class_="eventsession")
-
-        for event in all_eventsessions:
-            # Check if this event is inside a timebox
-            is_in_timebox = any(
-                "timebox" in (parent.get("class") or []) for parent in event.parents
-            )
-
-            if not is_in_timebox:
-                event_data = self._extract_event_details(
-                    event, date, "", base_url
-                )  # No time for standalone
-                if event_data:
-                    events.append(event_data)
-
-        return events
-
-    def _extract_oral_sessions(
-        self, container_soup: BeautifulSoup, date: str, base_url: str
-    ) -> List[Dict]:
-        """Extract oral session events with nested papers."""
-        events = []
-
-        # Find all oral-session events
-        oral_sessions = container_soup.find_all(
-            "div", class_=lambda x: x and "oral-session" in x
-        )
-
-        for session in oral_sessions:
-            session_title_elem = session.find("div", class_="sessiontitle")
-            if not session_title_elem:
-                continue
-
-            session_link = session_title_elem.find("a")
-            if not session_link:
-                continue
-
-            # Extract session title and time
-            session_time_span = session_link.find("span", class_="sessiontime")
-            session_time = ""
-            if session_time_span:
-                session_time = session_time_span.get_text(strip=True).strip("[]")
-                session_title = (
-                    session_link.get_text(strip=True)
-                    .replace(session_time_span.get_text(strip=True), "")
-                    .strip()
-                )
-            else:
-                session_title = session_link.get_text(strip=True)
-
-            session_url = self.make_absolute_url(
-                session_link.get("href", ""), base_url
-            )
-
-            # Extract end time
-            end_time_elem = session.find("span", class_="end-time")
-            end_time = (
-                end_time_elem.get_text(strip=True).strip("()")
-                if end_time_elem
-                else ""
-            )
-
-            # Extract papers
-            papers = []
-            content_items = session.find_all("div", class_="content")
-            for content in content_items:
-                content_link = content.find("a")
-                if content_link:
-                    paper_url = self.make_absolute_url(
-                        content_link.get("href", ""), base_url
-                    )
-                    papers.append(
-                        {
-                            "title": content_link.get_text(strip=True),
-                            "url": paper_url,
-                        }
-                    )
-
-            events.append(
-                {
-                    "date": date,
-                    "time": session_time,
-                    "type": "Oral Session",
-                    "title": session_title,
-                    "url": session_url,
-                    "speaker": "",
-                    "end_time": end_time,
-                    "papers": papers,
-                }
-            )
-
-        return events
-
-    def _extract_event_details(
-        self, event_elem: BeautifulSoup, date: str, time: str, base_url: str
-    ) -> Dict:
-        """Extract details from a single event element."""
-        # Extract type
-        hdr_style = event_elem.find("div", class_="hdr-style")
-        event_type = (
-            hdr_style.get_text(strip=True).rstrip(":") if hdr_style else "General"
-        )
-
-        # Extract title and URL
-        title_link = (
-            event_elem.find("div", class_="title-style").find("a")
-            if event_elem.find("div", class_="title-style")
-            else None
-        )
-        title = title_link.get_text(strip=True) if title_link else "No Title"
-        url = self.make_absolute_url(
-            title_link.get("href", "") if title_link else "", base_url
-        )
-
-        # Extract speaker
-        speaker_elem = event_elem.find("div", class_="speaker-style")
-        speaker = speaker_elem.get_text(strip=True) if speaker_elem else ""
-
-        # Extract end time
-        end_time_elem = event_elem.find("span", class_="end-time")
-        end_time = (
-            end_time_elem.get_text(strip=True).strip("()") if end_time_elem else ""
-        )
-
-        return {
-            "date": date,
-            "time": time,
-            "type": event_type,
-            "title": title,
-            "url": url,
-            "speaker": speaker,
-            "end_time": end_time,
-        }
+    def _normalize_type(self, event_type: Optional[str]) -> Optional[str]:
+        if not event_type:
+            return event_type
+        et = event_type.strip()
+        for prefix in self.location_prefixes:
+            if et.startswith(prefix):
+                et = et.replace(prefix, "").strip()
+                break
+        return et
 
     def filter_events(self, events: List[Dict]) -> List[Dict]:
-        """
-        Filter events by type and normalize location prefixes.
-
-        Args:
-            events: List of event dictionaries
-
-        Returns:
-            Filtered list of events
-        """
         filtered = []
-        for event in events:
-            event_type = event.get("type", "").strip()
-
-            # Normalize location prefixes
-            for prefix in self.location_prefixes:
-                if event_type.startswith(prefix):
-                    event_type = event_type.replace(prefix, "").strip()
-                    break
-
-            # Check if normalized type is in included types
-            if event_type in self.included_types:
-                event["type"] = event_type
-                filtered.append(event)
-
+        for e in events:
+            et = self._normalize_type(e.get("type")) or ""
+            if et in self.included_types:
+                e["type"] = et
+                filtered.append(e)
         return filtered
 
     @staticmethod
     def flatten_oral_sessions(events: List[Dict]) -> List[Dict]:
-        """
-        Flatten oral sessions with papers into separate CSV rows.
-
-        Args:
-            events: List of event dictionaries
-
-        Returns:
-            Flattened list with papers as separate entries
-        """
         flattened = []
         for event in events:
-            if "papers" in event and event["papers"]:
-                # Add the session itself
+            if event.get("papers"):
                 session_event = {k: v for k, v in event.items() if k != "papers"}
                 flattened.append(session_event)
-
-                # Add each paper as a separate event
-                for paper in event["papers"]:
+                for p in event["papers"]:
                     paper_event = session_event.copy()
-                    paper_event["title"] = f"  → {paper['title']}"
-                    paper_event["url"] = paper["url"]
+                    paper_event["title"] = f"  → {p.get('title','')}"
+                    paper_event["url"] = p.get("url", "")
                     paper_event["type"] = "Oral Paper"
                     flattened.append(paper_event)
             else:
                 flattened.append(event)
         return flattened
+
+    async def extract(self, url: str, base_url: str = "") -> Dict:
+        """Run LLM-powered extraction and post-processing."""
+        instruction = self._instruction()
+
+        data, strategy = await self.llm.extract(
+            url=url,
+            schema=NeurIPSEvent,
+            instruction=instruction,
+            apply_chunking=True,
+            chunk_token_threshold=5000,
+            overlap_rate=0.15,
+            input_format="markdown",
+            temperature=0.0,
+            max_tokens=15000,
+        )
+
+        # data can be a single item or list; normalize to list of dicts
+        events: List[Dict] = []
+        if data:
+            if isinstance(data, list):
+                events = [item.model_dump() for item in data]
+            else:
+                events = [data.model_dump()]
+
+        # Normalize URLs and types
+        for e in events:
+            if e.get("url"):
+                e["url"] = self._make_absolute_url(e["url"], base_url)
+            if e.get("papers"):
+                for p in e["papers"]:
+                    if p.get("url"):
+                        p["url"] = self._make_absolute_url(p["url"], base_url)
+
+        return {"total_events": len(events), "events": events}
 
 
 async def main(
@@ -378,11 +225,11 @@ async def main(
     print(f"Extracting events from: {url}")
     print("=" * 80)
 
-    # Initialize extractor
-    extractor = NeurIPSScheduleExtractor()
+    # Initialize LLM extractor
+    extractor = NeurIPSScheduleExtractor(verbose=True)
 
-    # Extract events
-    result = await extractor.extract(url, use_raw_html=False, base_url=base_url)
+    # Extract events via LLM
+    result = await extractor.extract(url, base_url=base_url)
 
     # Print statistics for all events
     print(f"\nTotal events extracted: {result['total_events']}")
