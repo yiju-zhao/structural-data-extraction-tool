@@ -12,8 +12,42 @@ import argparse
 from typing import List, Dict, Optional
 from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field
-from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
+from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from crawl_llm_extractor import LLMExtractor
+
+
+def parse_cookie_txt(cookie_file_path: str) -> List[Dict]:
+    """
+    Parse Netscape format cookie.txt file into Crawl4AI cookie format.
+
+    Args:
+        cookie_file_path: Path to cookie.txt file in Netscape format
+
+    Returns:
+        List of cookie dictionaries in Crawl4AI format
+    """
+    cookies = []
+    with open(cookie_file_path, "r", encoding="utf-8") as f:
+        for line in f:
+            # Skip comments and empty lines
+            if line.startswith("#") or not line.strip():
+                continue
+
+            parts = line.strip().split("\t")
+            if len(parts) >= 7:
+                cookies.append(
+                    {
+                        "name": parts[5],
+                        "value": parts[6],
+                        "domain": parts[0],
+                        "path": parts[2],
+                        "expires": float(parts[4]) if parts[4] != "0" else -1,
+                        "httpOnly": False,
+                        "secure": parts[3] == "TRUE",
+                        "sameSite": "None",
+                    }
+                )
+    return cookies
 
 
 class ProjectOverview(BaseModel):
@@ -54,14 +88,22 @@ async def extract_abstract_from_url(url: str, crawler: AsyncWebCrawler) -> str:
         # Look for abstract in div#abstractExample
         abstract_div = soup.find("div", id="abstractExample")
         if abstract_div:
-            # Find the paragraph after the "Abstract:" label
+            # Try to find paragraphs first
             paragraphs = abstract_div.find_all("p")
             if paragraphs:
                 # Get text from all paragraphs, join with newlines
                 abstract_text = "\n\n".join(
                     p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)
                 )
-                return abstract_text
+            else:
+                # No paragraphs found, extract text directly from div
+                abstract_text = abstract_div.get_text(separator=" ", strip=True)
+
+                # Remove "Abstract:" label if present at the beginning
+                if abstract_text.startswith("Abstract:"):
+                    abstract_text = abstract_text[len("Abstract:"):].strip()
+
+            return abstract_text if abstract_text else ""
 
         return ""
 
@@ -204,6 +246,7 @@ async def process_session(
     llm_extractor: LLMExtractor,
     progress: int,
     total: int,
+    skip_existing: bool = False,
 ) -> Dict:
     """
     Process a single session to extract abstract and overview.
@@ -214,6 +257,7 @@ async def process_session(
         llm_extractor: LLMExtractor instance
         progress: Current progress number
         total: Total number of sessions
+        skip_existing: Skip extraction if data already exists
 
     Returns:
         Updated session dictionary with abstract and overview
@@ -223,38 +267,50 @@ async def process_session(
     print(f"\n[{progress}/{total}] Processing: {session.get('title', 'Unknown')[:60]}...")
     print(f"  URL: {url}")
 
-    # Initialize new fields
-    session["abstract"] = ""
-    session["overview"] = ""
+    # Check existing data
+    existing_abstract = session.get("abstract", "").strip()
+    existing_overview = session.get("overview", "").strip()
+
+    # Initialize fields if they don't exist
+    if "abstract" not in session:
+        session["abstract"] = ""
+    if "overview" not in session:
+        session["overview"] = ""
 
     if not url:
         print("  ⏭️  No URL, skipping")
         return session
 
     # Step 1: Extract abstract
-    print("  📄 Extracting abstract...")
-    abstract = await extract_abstract_from_url(url, crawler)
-    if abstract:
-        session["abstract"] = abstract
-        print(f"  ✅ Abstract extracted ({len(abstract)} chars)")
+    if skip_existing and existing_abstract:
+        print(f"  ⏭️  Abstract already exists ({len(existing_abstract)} chars), skipping extraction")
     else:
-        print("  ⚠️  No abstract found")
+        print("  📄 Extracting abstract...")
+        abstract = await extract_abstract_from_url(url, crawler)
+        if abstract:
+            session["abstract"] = abstract
+            print(f"  ✅ Abstract extracted ({len(abstract)} chars)")
+        else:
+            print("  ⚠️  No abstract found")
 
     # Step 2: Find and process project website
-    print("  🔍 Looking for project website...")
-    project_url = await find_project_website(url, crawler)
-
-    if project_url:
-        print(f"  🌐 Found project website: {project_url}")
-        print("  🤖 Generating overview using LLM...")
-        overview = await extract_overview_from_website(project_url, llm_extractor)
-        if overview:
-            session["overview"] = overview
-            print(f"  ✅ Overview generated ({len(overview)} chars)")
-        else:
-            print("  ⚠️  Failed to generate overview")
+    if skip_existing and existing_overview:
+        print(f"  ⏭️  Overview already exists ({len(existing_overview)} chars), skipping extraction")
     else:
-        print("  ⚠️  No project website found")
+        print("  🔍 Looking for project website...")
+        project_url = await find_project_website(url, crawler)
+
+        if project_url:
+            print(f"  🌐 Found project website: {project_url}")
+            print("  🤖 Generating overview using LLM...")
+            overview = await extract_overview_from_website(project_url, llm_extractor)
+            if overview:
+                session["overview"] = overview
+                print(f"  ✅ Overview generated ({len(overview)} chars)")
+            else:
+                print("  ⚠️  Failed to generate overview")
+        else:
+            print("  ⚠️  No project website found")
 
     return session
 
@@ -265,6 +321,9 @@ async def process_csv(
     model: str = "gpt-4o-mini",
     limit: Optional[int] = None,
     start_from: int = 0,
+    cookie_file: Optional[str] = None,
+    type_filter: Optional[str] = None,
+    skip_existing: bool = False,
 ):
     """
     Process CSV file and enrich with abstracts and overviews.
@@ -275,6 +334,9 @@ async def process_csv(
         model: OpenAI model to use for LLM extraction
         limit: Optional limit on number of rows to process (for testing)
         start_from: Row index to start processing from (0-indexed, for resuming)
+        cookie_file: Optional path to cookie.txt file for authenticated sessions
+        type_filter: Optional session type filter (e.g., 'Oral', 'Workshop')
+        skip_existing: Skip extraction if abstract/overview already exists
     """
     # Read input CSV
     print(f"Reading input CSV: {input_csv}")
@@ -284,6 +346,11 @@ async def process_csv(
 
     total_sessions = len(sessions)
     print(f"Found {total_sessions} sessions")
+
+    # Apply type filter if specified
+    if type_filter:
+        sessions = [s for s in sessions if s.get("type") == type_filter]
+        print(f"Filtering to {len(sessions)} sessions of type '{type_filter}'")
 
     # Apply start_from slicing
     if start_from > 0:
@@ -304,7 +371,14 @@ async def process_csv(
 
     # Initialize web crawler (single instance for all sessions)
     print("Initializing web crawler...")
-    crawler = AsyncWebCrawler()
+    if cookie_file:
+        print(f"Loading cookies from: {cookie_file}")
+        cookies = parse_cookie_txt(cookie_file)
+        print(f"Loaded {len(cookies)} cookies")
+        browser_config = BrowserConfig(cookies=cookies)
+        crawler = AsyncWebCrawler(config=browser_config)
+    else:
+        crawler = AsyncWebCrawler()
     await crawler.__aenter__()
 
     # Open output CSV file for writing
@@ -333,7 +407,7 @@ async def process_csv(
 
             try:
                 enriched_session = await process_session(
-                    session, crawler, llm_extractor, actual_row, total_sessions
+                    session, crawler, llm_extractor, actual_row, total_sessions, skip_existing
                 )
 
                 # Initialize writer on first session
@@ -405,14 +479,28 @@ Examples:
   # Process only first 5 sessions (for testing)
   python session_info_extractor.py events.csv -o enriched_events.csv --limit 5
 
+  # Process only Oral sessions with authentication
+  python session_info_extractor.py events.csv -o enriched_events.csv --cookie-file cookies.txt --type Oral
+
+  # Process only Workshop sessions (no authentication needed)
+  python session_info_extractor.py events.csv -o enriched_events.csv --type Workshop
+
   # Resume from row 50 (0-indexed)
   python session_info_extractor.py events.csv -o enriched_events.csv --start-from 50
 
-  # Resume from row 50 and process 10 more sessions
-  python session_info_extractor.py events.csv -o enriched_events.csv --start-from 50 --limit 10
+  # Skip extraction if abstract/overview already exists in input CSV
+  python session_info_extractor.py events.csv -o enriched_events.csv --skip-existing
+
+  # Re-run on same CSV, only filling in missing data
+  python session_info_extractor.py enriched_events.csv -o enriched_events.csv --skip-existing
+
+  # Resume from row 50 and process 10 more Oral sessions with cookies, skip existing
+  python session_info_extractor.py events.csv -o enriched_events.csv --cookie-file cookies.txt --type Oral --start-from 50 --limit 10 --skip-existing
 
 Note: Requires OPENAI_API_KEY environment variable to be set.
 Data is saved line-by-line, so you can resume from any row if interrupted.
+Cookie file should be in Netscape format (export from browser extension).
+Use --skip-existing to avoid re-extracting data that already exists in the input CSV.
         """,
     )
 
@@ -443,6 +531,23 @@ Data is saved line-by-line, so you can resume from any row if interrupted.
         default=0,
         help="Start processing from this row index (0-indexed, for resuming)",
     )
+    parser.add_argument(
+        "--cookie-file",
+        type=str,
+        default=None,
+        help="Path to cookie.txt file (Netscape format) for authenticated sessions",
+    )
+    parser.add_argument(
+        "--type",
+        type=str,
+        default=None,
+        help="Filter by session type (e.g., 'Oral', 'Workshop')",
+    )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip extraction if abstract/overview already exists in the input CSV",
+    )
 
     args = parser.parse_args()
 
@@ -453,6 +558,9 @@ Data is saved line-by-line, so you can resume from any row if interrupted.
             model=args.model,
             limit=args.limit,
             start_from=args.start_from,
+            cookie_file=args.cookie_file,
+            type_filter=args.type,
+            skip_existing=args.skip_existing,
         )
     )
 
