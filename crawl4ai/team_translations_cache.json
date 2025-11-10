@@ -1,34 +1,214 @@
 {
   "存储": {
-    "focus_en": "Model training; single/multi-model inference",
-    "challenges_en": "1. Access patterns of various types of data, such as IO and memory, during model training  \n2. In Agentic AI systems, RAG—especially the access patterns of Vector DB to storage systems  \n3. Access and scheduling patterns of agent memory systems, such as MemOS, to storage systems  \n4. New changes in model and KV Cache loading, unloading, and scheduling in multi-model systems  \n5. New changes in data layout methods  \n6. New changes in data formats in test datasets  \n7. Application scenarios of NVIDIA Storage-Next  \n8. New methods for efficiently coordinating and utilizing memory (e.g., CXL memory) and storage"
+    "challenge_points": [
+      {
+        "id": "存储_challenge_1",
+        "challenge_zh": "模型训练中各类型数据例如 IO 和内存的访问模式",
+        "challenge_en": "Access patterns of various data types such as IO and memory during model training"
+      },
+      {
+        "id": "存储_challenge_2",
+        "challenge_zh": "Agentic AI 系统中 RAG，尤其是 Vector DB 对于存储系统的访问模式",
+        "challenge_en": "Access patterns to storage systems by Retrieval-Augmented Generation (RAG), especially Vector Databases, in Agentic AI systems"
+      },
+      {
+        "id": "存储_challenge_3",
+        "challenge_zh": "Agent 记忆系统例如 MemOS 对于存储系统的访问和调度模式",
+        "challenge_en": "Access and scheduling patterns to storage systems by agent memory systems such as MemOS"
+      },
+      {
+        "id": "存储_challenge_4",
+        "challenge_zh": "多模型系统中，各模型本身和 KV Cache 加载，卸载以及调度的新变化",
+        "challenge_en": "New changes in the loading, unloading, and scheduling of individual models and KV Cache in multi-model systems"
+      },
+      {
+        "id": "存储_challenge_5",
+        "challenge_zh": "数据布局方式的新变化",
+        "challenge_en": "New changes in data layout strategies"
+      },
+      {
+        "id": "存储_challenge_6",
+        "challenge_zh": "测试数据集中数据格式的新变化",
+        "challenge_en": "New changes in data formats within test datasets"
+      },
+      {
+        "id": "存储_challenge_7",
+        "challenge_zh": "NVIDIA Storage-Next 的应用场景",
+        "challenge_en": "Application scenarios of NVIDIA Storage-Next"
+      },
+      {
+        "id": "存储_challenge_8",
+        "challenge_zh": "高效协调利用内存（例如 CXL 内存）和存储的新方法",
+        "challenge_en": "New methods for efficient coordination and utilization of memory (such as CXL memory) and storage"
+      }
+    ]
   },
   "CBG": {
-    "focus_en": "3DAIGC",
-    "challenges_en": "1. How to quickly and accurately segment moving objects in video  \n2. How to perform fast and accurate 3D/4D sparse reconstruction (point cloud, pose) based on monocular video  \n3. Video generation with camera trajectory control  \n4. How to ensure consistency in long video generation"
+    "challenge_points": [
+      {
+        "id": "CBG_challenge_1",
+        "challenge_zh": "如何快速准确分割出视频中运动物体",
+        "challenge_en": "How to quickly and accurately segment moving objects in videos"
+      },
+      {
+        "id": "CBG_challenge_2",
+        "challenge_zh": "如何基于单目视频快速准确进行3D/4D稀疏重建（点云，位姿）",
+        "challenge_en": "How to quickly and accurately perform 3D/4D sparse reconstruction (point clouds, poses) based on monocular videos"
+      },
+      {
+        "id": "CBG_challenge_3",
+        "challenge_zh": "相机轨迹控制的视频生成",
+        "challenge_en": "Video generation with camera trajectory control"
+      },
+      {
+        "id": "CBG_challenge_4",
+        "challenge_zh": "如何确保长视频生成的一致性",
+        "challenge_en": "How to ensure consistency in long video generation"
+      }
+    ]
   },
   "DCN": {
-    "focus_en": "Network4AI and AI4Network",
-    "challenges_en": "1. In data center AI training and inference, optimization and evolution of network infrastructure tailored for these workloads, including co-design with compute and storage.\n2. In inter-data center communication traffic, what is the proportion of AI training and inference workloads? What are the future directions for their evolution?\n3. How do large models and the latest AI technologies facilitate the development of networking technologies?"
+    "challenge_points": [
+      {
+        "id": "DCN_challenge_1",
+        "challenge_zh": "数据中心里面AI训练和推理中，网络基础设施准对其的优化与演进，包括与计算和存储的co-design",
+        "challenge_en": "Optimization and evolution of network infrastructure specifically for AI training and inference within data centers, including co-design with computing and storage."
+      },
+      {
+        "id": "DCN_challenge_2",
+        "challenge_zh": "数据中心之间通讯的流量中，AI训练和推理在其中的业务比例？以及之后的演进方向",
+        "challenge_en": "Determining the proportion of AI training and inference traffic in communications between data centers, and the future evolution of such traffic."
+      },
+      {
+        "id": "DCN_challenge_3",
+        "challenge_zh": "大模型和最新AI技术如何助力网络技术的发展？",
+        "challenge_en": "How large models and the latest AI technologies can contribute to the advancement of network technologies."
+      }
+    ]
   },
   "海思": {
-    "focus_en": "Acceleration of Large Language Models and Diffusion Models",
-    "challenges_en": "1. How to achieve low-latency real-time inference responses while maintaining dialogue quality and contextual consistency.  \n2. Multimodal conditions (text, image, sketch, depth map) incur high fusion latency; how to unify the feature space for fast conditional generation.  \n3. Attention complexity for long-context reasoning is too high; how to leverage sparse attention and chunked caching to achieve linear or sublinear complexity."
+    "challenge_points": [
+      {
+        "id": "海思_challenge_1",
+        "challenge_zh": "如何在保持对话质量与上下文一致性的前提下，实现低延迟的实时推理响应",
+        "challenge_en": "How to achieve low-latency real-time inference response while maintaining dialogue quality and contextual consistency"
+      },
+      {
+        "id": "海思_challenge_2",
+        "challenge_zh": "多模态条件（文本、图像、草图、深度图）融合延迟大，如何统一特征空间以实现快速条件生成",
+        "challenge_en": "Handling large fusion latency of multi-modal conditions (text, image, sketch, depth map), how to unify feature space to enable rapid conditional generation"
+      },
+      {
+        "id": "海思_challenge_3",
+        "challenge_zh": "长上下文推理的注意力复杂度过高，如何利用稀疏注意力与分块缓存实现线性或次线性复杂度",
+        "challenge_en": "How to reduce the high attention complexity of long-context reasoning using sparse attention and chunked caching to achieve linear or sub-linear complexity"
+      }
+    ]
   },
   "计算": {
-    "focus_en": "Efficient model architecture; new training-inference paradigm; cutting-edge application workloads",
-    "challenges_en": "1. Model architecture has a profound impact on computing architecture. Accurately and promptly understanding and predicting the evolution trends of large model structures is a key challenge for the AI computing industry. It is necessary to grasp the fundamental driving forces behind cutting-edge model evolution in academia and industry, identify requirements for computing systems, and mitigate the impact of future model structures on computing systems.\n\n2. Low-precision training and inference have a significant impact on computing architecture requirements. It is crucial to gain insight into ongoing industry-academia collaborative research and productization progress on lower-precision model training and inference, including new applications such as embodied AI, multimodal, and reinforcement learning. Examples include MXFP6 applications, NVFP4 training and inference progress, and research into even lower precisions, which inform the definition of compute precision requirements and solution competitiveness for next-generation chips.\n\n3. To continuously enhance model intelligence, new training and inference paradigms are constantly emerging in the industry, resulting in highly diverse workload characteristics even under the same model architecture. Tracking, understanding, and predicting the evolution mechanisms of training and inference paradigms are essential for accurately defining future workloads and should be a focus of attention.\n\n4. The rapid evolution of cutting-edge workloads, such as Agentic and multimodal model application workloads, will introduce new requirements for computing architecture, necessitating the early integration of these needs into software and hardware computer systems."
+    "challenge_points": [
+      {
+        "id": "计算_challenge_1",
+        "challenge_zh": "模型架构对计算架构有深远的影响。准确、及时地理解、预判大模型结构演进趋势是AI计算产业关键挑战，需要把握产学界前沿模型演进的根本驱动力，识别对计算系统的需求，以降低未来模型结构对计算系统的冲击。",
+        "challenge_en": "Model architectures have a profound impact on computing architectures. Accurately and timely understanding and predicting the evolution trends of large model structures is a key challenge in the AI computing industry. It requires grasping the fundamental driving forces behind the frontier model evolution in academia and industry, and identifying the needs of computing systems to reduce the impact of future model structures on computing systems."
+      },
+      {
+        "id": "计算_challenge_2",
+        "challenge_zh": "低精训推对计算架构诉求影响较大，洞悉当前产学联合开展哪些更低精度的模型训推研究和产品化进展，包括面向具身、多模态以及强化学习等新应用，例如MXFP6应用、NVFP4训推进展以及更低精度的研究，为下一代芯片算力精度定义需求和解决方案竞争力。",
+        "challenge_en": "Low-precision training and inference exert significant influence on computing architecture demands. Understanding which lower-precision model training and inference research and productization advances are currently being pursued by industry-academia collaborations—including those targeting embodied, multimodal, and reinforcement learning applications such as MXFP6 applications, NVFP4 training and inference progress, and lower precision research—is essential to defining requirements for computing power precision of next-generation chips and the competitiveness of solution offerings."
+      },
+      {
+        "id": "计算_challenge_3",
+        "challenge_zh": "为持续提升模型智能水平，业界训练、推理新范式层出不穷，在相同模型架构下同样呈现巨大差异的负载特征。跟踪、理解、预测训推范式的演进机理，才能完成对未来负载的准确定义，需要重点关注。",
+        "challenge_en": "To continuously enhance model intelligence levels, new training and inference paradigms are emerging in the industry. Even under the same model architecture, there are significant differences in load characteristics. Tracking, understanding, and predicting the evolution mechanisms of training and inference paradigms is essential to accurately define future loads and requires focused attention."
+      },
+      {
+        "id": "计算_challenge_4",
+        "challenge_zh": "前沿负载Agentic和多模态模型应用负载的快速演进，对计算架构会带来哪些新诉求，需要提前对软硬件计算机系统导入。",
+        "challenge_en": "The rapid evolution of frontier workloads such as Agentic and multimodal model application loads brings new demands to computing architectures. It is necessary to proactively incorporate these demands into hardware and software computer systems."
+      }
+    ]
   },
   "温哥华云": {
-    "focus_en": "Reinforcement fine tuning (RFT); Embodied AI",
-    "challenges_en": "Reinforcement learning has been shown to be effective for VLMs/LLMs, but many practical issues remain underexplored, slowing its rollout onto Huawei Cloud services. We will focus on workshops that address practical issues in closing the gap between theory and production, as well as improving sample efficiency, performance, and scalability.\n\nPhysical or Embodied AI is a research area that has seen significant growth in the academic community in the past year. Huawei Cloud has observed this trend and is making Physical AI a key strategic area for investment in 2026."
+    "challenge_points": [
+      {
+        "id": "温哥华云_challenge_1",
+        "challenge_zh": "Reinforcement learning has been shown to be effective for VLMs/LLMs, but many practical issues remain underexplored, slowing its rollout onto Huawei cloud services.",
+        "challenge_en": "Reinforcement learning has been shown to be effective for VLMs/LLMs, but many practical issues remain underexplored, slowing its rollout onto Huawei cloud services."
+      },
+      {
+        "id": "温哥华云_challenge_2",
+        "challenge_zh": "Closing the theory to production gap in reinforcement fine tuning.",
+        "challenge_en": "Closing the theory to production gap in reinforcement fine tuning."
+      },
+      {
+        "id": "温哥华云_challenge_3",
+        "challenge_zh": "Improving sample efficiency in reinforcement fine tuning.",
+        "challenge_en": "Improving sample efficiency in reinforcement fine tuning."
+      },
+      {
+        "id": "温哥华云_challenge_4",
+        "challenge_zh": "Improving performance of reinforcement fine tuning for VLMs/LLMs.",
+        "challenge_en": "Improving performance of reinforcement fine tuning for VLMs/LLMs."
+      },
+      {
+        "id": "温哥华云_challenge_5",
+        "challenge_zh": "Improving scalability of reinforcement fine tuning on Huawei cloud services.",
+        "challenge_en": "Improving scalability of reinforcement fine tuning on Huawei cloud services."
+      },
+      {
+        "id": "温哥华云_challenge_6",
+        "challenge_zh": "Identifying and investing in key Physical or Embodied AI research areas for strategic growth in 2026.",
+        "challenge_en": "Identifying and investing in key Physical or Embodied AI research areas for strategic growth in 2026."
+      }
+    ]
   },
   "多伦多云": {
-    "focus_en": "AI Agent",
-    "challenges_en": "1. How to improve the accuracy and coverage of AI Agent evaluation? How to categorize evaluation into general sub-items and domain knowledge-related sub-items? 2. How to enhance the reliability of Agent behaviors, especially the reliability of write operations? How to control and verify agent behaviors? 3. How to design autonomous learning and continuous optimization mechanisms for Agents after deployment? How to combine the prompt optimization flywheel and model optimization flywheel? How to achieve continuous optimization for L3+ agents with planning and multi-step execution capabilities?"
+    "challenge_points": [
+      {
+        "id": "多伦多云_challenge_1",
+        "challenge_zh": "如何提升AI Agent评估的准确性与覆盖范围？如何划分评估的通用子项及领域知识相关子项？",
+        "challenge_en": "How to improve the accuracy and coverage of AI Agent evaluation? How to divide evaluation into general sub-items and domain knowledge-related sub-items?"
+      },
+      {
+        "id": "多伦多云_challenge_2",
+        "challenge_zh": "如何提升Agent行为的可靠性，尤其是写操作的可靠性？如何对agent行为进行管控与校验？",
+        "challenge_en": "How to enhance the reliability of Agent behaviors, especially the reliability of write operations? How to monitor and verify agent behaviors?"
+      },
+      {
+        "id": "多伦多云_challenge_3",
+        "challenge_zh": "如何设计Agent业务上线后的自主学习与持续优化机制？Prompt优化飞轮与模型优化飞轮如何结合？具备planning与多步执行能力的L3+ agent的持续优化如何实现？",
+        "challenge_en": "How to design autonomous learning and continuous optimization mechanisms for Agents after business deployment? How to combine the prompt optimization flywheel with the model optimization flywheel? How to achieve continuous optimization of L3+ agents with planning and multi-step execution capabilities?"
+      }
+    ]
   },
   "诺亚": {
-    "focus_en": "Large model long sequence, multimodal long sequence; large model post-training Reasoning, RL",
-    "challenges_en": "1. Evolution trends of mainstream native long-sequence architectures, with optimization directions for accuracy, cache, and computational cost. 2. Inference strategies during testing and improvement directions for model-embedded memory update mechanisms. 3. Evolution of long-sequence vision-language multimodal models, and how to overcome multimodal long-text inference and computation bottlenecks from the input paradigm level.\n1. Self-play and learning from experience training frameworks. 2. Latent Reasoning."
+    "challenge_points": [
+      {
+        "id": "诺亚_challenge_1",
+        "challenge_zh": "主流原生长序列架构演化趋势，针对精度、缓存与计算量等维度的优化方向",
+        "challenge_en": "Evolution trends of mainstream original long-sequence architectures, focusing on optimization directions in accuracy, caching, and computational complexity"
+      },
+      {
+        "id": "诺亚_challenge_2",
+        "challenge_zh": "测试时推理策略及模型内置记忆更新机制改进方向",
+        "challenge_en": "Improvements in inference strategies during testing and enhancement of built-in memory update mechanisms in models"
+      },
+      {
+        "id": "诺亚_challenge_3",
+        "challenge_zh": "长序列图文多模态模型演进方向，如何从输入范式层面突破多模态长文本推理计算瓶颈",
+        "challenge_en": "Evolution pathways of long-sequence multi-modal models (text and vision), specifically how to break through computational bottlenecks in multi-modal long-text reasoning from the input paradigm perspective"
+      },
+      {
+        "id": "诺亚_challenge_4",
+        "challenge_zh": "自博弈与learning from experience训练框架",
+        "challenge_en": "Training frameworks based on self-play and learning from experience"
+      },
+      {
+        "id": "诺亚_challenge_5",
+        "challenge_zh": "Latent Reasoning",
+        "challenge_en": "Latent Reasoning"
+      }
+    ]
   }
 }
