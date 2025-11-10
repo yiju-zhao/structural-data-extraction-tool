@@ -1,0 +1,34 @@
+{
+  "存储": {
+    "focus_en": "Model training; single/multi-model inference",
+    "challenges_en": "1. Access patterns of various types of data, such as IO and memory, during model training  \n2. In Agentic AI systems, RAG—especially the access patterns of Vector DB to storage systems  \n3. Access and scheduling patterns of agent memory systems, such as MemOS, to storage systems  \n4. New changes in model and KV Cache loading, unloading, and scheduling in multi-model systems  \n5. New changes in data layout methods  \n6. New changes in data formats in test datasets  \n7. Application scenarios of NVIDIA Storage-Next  \n8. New methods for efficiently coordinating and utilizing memory (e.g., CXL memory) and storage"
+  },
+  "CBG": {
+    "focus_en": "3DAIGC",
+    "challenges_en": "1. How to quickly and accurately segment moving objects in video  \n2. How to perform fast and accurate 3D/4D sparse reconstruction (point cloud, pose) based on monocular video  \n3. Video generation with camera trajectory control  \n4. How to ensure consistency in long video generation"
+  },
+  "DCN": {
+    "focus_en": "Network4AI and AI4Network",
+    "challenges_en": "1. In data center AI training and inference, optimization and evolution of network infrastructure tailored for these workloads, including co-design with compute and storage.\n2. In inter-data center communication traffic, what is the proportion of AI training and inference workloads? What are the future directions for their evolution?\n3. How do large models and the latest AI technologies facilitate the development of networking technologies?"
+  },
+  "海思": {
+    "focus_en": "Acceleration of Large Language Models and Diffusion Models",
+    "challenges_en": "1. How to achieve low-latency real-time inference responses while maintaining dialogue quality and contextual consistency.  \n2. Multimodal conditions (text, image, sketch, depth map) incur high fusion latency; how to unify the feature space for fast conditional generation.  \n3. Attention complexity for long-context reasoning is too high; how to leverage sparse attention and chunked caching to achieve linear or sublinear complexity."
+  },
+  "计算": {
+    "focus_en": "Efficient model architecture; new training-inference paradigm; cutting-edge application workloads",
+    "challenges_en": "1. Model architecture has a profound impact on computing architecture. Accurately and promptly understanding and predicting the evolution trends of large model structures is a key challenge for the AI computing industry. It is necessary to grasp the fundamental driving forces behind cutting-edge model evolution in academia and industry, identify requirements for computing systems, and mitigate the impact of future model structures on computing systems.\n\n2. Low-precision training and inference have a significant impact on computing architecture requirements. It is crucial to gain insight into ongoing industry-academia collaborative research and productization progress on lower-precision model training and inference, including new applications such as embodied AI, multimodal, and reinforcement learning. Examples include MXFP6 applications, NVFP4 training and inference progress, and research into even lower precisions, which inform the definition of compute precision requirements and solution competitiveness for next-generation chips.\n\n3. To continuously enhance model intelligence, new training and inference paradigms are constantly emerging in the industry, resulting in highly diverse workload characteristics even under the same model architecture. Tracking, understanding, and predicting the evolution mechanisms of training and inference paradigms are essential for accurately defining future workloads and should be a focus of attention.\n\n4. The rapid evolution of cutting-edge workloads, such as Agentic and multimodal model application workloads, will introduce new requirements for computing architecture, necessitating the early integration of these needs into software and hardware computer systems."
+  },
+  "温哥华云": {
+    "focus_en": "Reinforcement fine tuning (RFT); Embodied AI",
+    "challenges_en": "Reinforcement learning has been shown to be effective for VLMs/LLMs, but many practical issues remain underexplored, slowing its rollout onto Huawei Cloud services. We will focus on workshops that address practical issues in closing the gap between theory and production, as well as improving sample efficiency, performance, and scalability.\n\nPhysical or Embodied AI is a research area that has seen significant growth in the academic community in the past year. Huawei Cloud has observed this trend and is making Physical AI a key strategic area for investment in 2026."
+  },
+  "多伦多云": {
+    "focus_en": "AI Agent",
+    "challenges_en": "1. How to improve the accuracy and coverage of AI Agent evaluation? How to categorize evaluation into general sub-items and domain knowledge-related sub-items? 2. How to enhance the reliability of Agent behaviors, especially the reliability of write operations? How to control and verify agent behaviors? 3. How to design autonomous learning and continuous optimization mechanisms for Agents after deployment? How to combine the prompt optimization flywheel and model optimization flywheel? How to achieve continuous optimization for L3+ agents with planning and multi-step execution capabilities?"
+  },
+  "诺亚": {
+    "focus_en": "Large model long sequence, multimodal long sequence; large model post-training Reasoning, RL",
+    "challenges_en": "1. Evolution trends of mainstream native long-sequence architectures, with optimization directions for accuracy, cache, and computational cost. 2. Inference strategies during testing and improvement directions for model-embedded memory update mechanisms. 3. Evolution of long-sequence vision-language multimodal models, and how to overcome multimodal long-text inference and computation bottlenecks from the input paradigm level.\n1. Self-play and learning from experience training frameworks. 2. Latent Reasoning."
+  }
+}
