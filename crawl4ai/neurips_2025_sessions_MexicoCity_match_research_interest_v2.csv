@@ -1,0 +1,2 @@
+﻿bu_name,session_title,session_type,session_date,session_time,cosine_similarity,recommendation_reason,focus_areas
+中软,Vision Language Models: Challenges of Real World Deployment,Workshop,"Sunday, Nov 30, 2025",11:00,0.52437514,该团队面临分布式多模态系统、异步编排和多轮对话状态管理的核心挑战，本Session强调高效推理、鲁棒训练及大规模系统设计，契合其需求，有助解决长上下文保持、时序对齐与系统弹性等关键技术难题。,数据管线和高效多模态学习方法; 异步编排原语与事件驱动系统设计; 多模态低层数据融合与校准不确定性; 可扩展KV缓存分片与检索增强内存; 鲁棒训练、评估方法及部署基准
