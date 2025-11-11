@@ -19,8 +19,8 @@ load_dotenv()
 
 # --- Configuration ---
 RESEARCH_INTEREST_FILE = "research_interest.md"
-SESSIONS_CSV_FILE = "neurips_2025_sessions_SanDiego_detail.csv"
-OUTPUT_CSV_FILE = "neurips_2025_sessions_SanDiego_matched_embedding_v2.csv"
+SESSIONS_CSV_FILE = "neurips_2025_sessions_MexicoCity_detail.csv"
+OUTPUT_CSV_FILE = "neurips_2025_sessions_MexicoCity_matched_embedding_v1.csv"
 EMBEDDING_MODEL_NAME = 'all-MiniLM-L6-v2'
 SIMILARITY_THRESHOLD = 0.35  # Cosine similarity threshold for a match
 
