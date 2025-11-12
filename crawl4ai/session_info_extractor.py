@@ -101,7 +101,7 @@ async def extract_abstract_from_url(url: str, crawler: AsyncWebCrawler) -> str:
 
                 # Remove "Abstract:" label if present at the beginning
                 if abstract_text.startswith("Abstract:"):
-                    abstract_text = abstract_text[len("Abstract:"):].strip()
+                    abstract_text = abstract_text[len("Abstract:") :].strip()
 
             return abstract_text if abstract_text else ""
 
@@ -186,7 +186,9 @@ async def find_project_website(url: str, crawler: AsyncWebCrawler) -> Optional[s
         return None
 
 
-async def extract_overview_from_website(project_url: str, llm_extractor: LLMExtractor) -> str:
+async def extract_overview_from_website(
+    project_url: str, llm_extractor: LLMExtractor
+) -> str:
     """
     Extract overview from project website using LLM.
 
@@ -264,7 +266,9 @@ async def process_session(
     """
     url = session.get("url", "").strip()
 
-    print(f"\n[{progress}/{total}] Processing: {session.get('title', 'Unknown')[:60]}...")
+    print(
+        f"\n[{progress}/{total}] Processing: {session.get('title', 'Unknown')[:60]}..."
+    )
     print(f"  URL: {url}")
 
     # Check existing data
@@ -283,7 +287,9 @@ async def process_session(
 
     # Step 1: Extract abstract
     if skip_existing and existing_abstract:
-        print(f"  ⏭️  Abstract already exists ({len(existing_abstract)} chars), skipping extraction")
+        print(
+            f"  ⏭️  Abstract already exists ({len(existing_abstract)} chars), skipping extraction"
+        )
     else:
         print("  📄 Extracting abstract...")
         abstract = await extract_abstract_from_url(url, crawler)
@@ -295,7 +301,9 @@ async def process_session(
 
     # Step 2: Find and process project website
     if skip_existing and existing_overview:
-        print(f"  ⏭️  Overview already exists ({len(existing_overview)} chars), skipping extraction")
+        print(
+            f"  ⏭️  Overview already exists ({len(existing_overview)} chars), skipping extraction"
+        )
     else:
         print("  🔍 Looking for project website...")
         project_url = await find_project_website(url, crawler)
@@ -355,7 +363,9 @@ async def process_csv(
     # Apply start_from slicing
     if start_from > 0:
         if start_from >= total_sessions:
-            print(f"⚠️  start_from ({start_from}) >= total sessions ({total_sessions}), nothing to process")
+            print(
+                f"⚠️  start_from ({start_from}) >= total sessions ({total_sessions}), nothing to process"
+            )
             return
         sessions = sessions[start_from:]
         print(f"Starting from row {start_from} ({len(sessions)} sessions remaining)")
@@ -407,7 +417,12 @@ async def process_csv(
 
             try:
                 enriched_session = await process_session(
-                    session, crawler, llm_extractor, actual_row, total_sessions, skip_existing
+                    session,
+                    crawler,
+                    llm_extractor,
+                    actual_row,
+                    total_sessions,
+                    skip_existing,
                 )
 
                 # Initialize writer on first session

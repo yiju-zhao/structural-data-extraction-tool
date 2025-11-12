@@ -17,7 +17,9 @@ from crawl4ai import (
 from crawl4ai import LLMExtractionStrategy
 
 from dotenv import load_dotenv
+
 load_dotenv()
+
 
 class LLMExtractor:
     """

@@ -1,114 +1,269 @@
 #!/usr/bin/env python3
 """
-Session-Team Matching Script using Sentence Embeddings and LLM Analysis
+Session-Team Matching Script
+- Default: BU Summary Based (bi-encoder cosine)
+- Agentic RAG 1+3 (when --agentic): multi-query recall + LLM multi-criteria reranking
 """
 
 import os
-import pandas as pd
-from openai import OpenAI
-from pydantic import BaseModel
-from typing import List, Dict
+os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+import json
 import time
 import argparse
+from typing import List, Dict, Tuple
+
+import numpy as np
+import pandas as pd
 from dotenv import load_dotenv
+from openai import OpenAI
+from pydantic import BaseModel, Field
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
 
 load_dotenv()
 
 # --- Configuration ---
-RESEARCH_INTEREST_FILE = "research_interest_v2.md"
-# SESSIONS_CSV_FILE = "neurips_2025_sessions_Sandiego_detail.csv"
-# OUTPUT_CSV_FILE = "neurips_2025_sessions_Sandiego_match_research_interest_v2.csv"
+TRANSLATION_CACHE_FILE = "team_translations_cache_v2.json"
+# RESEARCH_INTEREST_FILE = "research_interest.md"
 SESSIONS_CSV_FILE = "neurips_2025_sessions_MexicoCity_detail.csv"
-OUTPUT_CSV_FILE = "neurips_2025_sessions_MexicoCity_match_research_interest_v2.csv"
-EMBEDDING_MODEL_NAME = 'all-MiniLM-L6-v2'
-SIMILARITY_THRESHOLD = 0.5  # Cosine similarity threshold for a match
+OUTPUT_CSV_FILE = "neurips_2025_sessions_MexicoCity_match_research_interest_v2-2.csv"
+EMBEDDING_MODEL_NAME = "all-mpnet-base-v2"
+SIMILARITY_THRESHOLD = 0.6  # Used only in non-agentic mode
+AGENTIC_SCORING_MODEL = os.getenv("OPENAI_AGENTIC_SCORING_MODEL", "gpt-4.1-mini")
+
 
 # --- Pydantic Models ---
 class Recommendation(BaseModel):
     """Final recommendation containing reason and focus areas"""
+
     reason: str
     focus_areas: List[str]
 
-# --- Huawei BU background information (from web research) ---
-# BU_CONTEXT_INFO = {
-#     "存储": "华为云三大核心业务之一（通算、智算、存储），负责数据中心存储系统、云存储解决方案的研发和优化，包括AI训练推理中的数据访问、存储架构创新等。",
-#     "CBG": "Consumer Business Group（消费者业务部门），负责华为智能手机、平板电脑、可穿戴设备、智慧屏等终端产品的研发、生产和销售，致力于全场景智慧生活体验。",
-#     "DCN": "Data Communication Network（数据通信网络部门），负责数据中心网络架构设计与优化，包括Spine-Leaf架构、VXLAN、SDN、数据中心互联、网络安全管控等技术的研发和部署。",
-#     "海思": "华为集成电路设计公司，中国最大的无晶圆厂半导体设计公司，主要产品包括麒麟系列移动处理器、AI芯片等，覆盖无线通信、智能视觉、智能媒体等领域的芯片设计。",
-#     "计算": "负责华为昇腾（Ascend）AI芯片和Atlas AI计算解决方案的研发，专注AI计算基础设施、高性能计算架构、AI训练推理加速等核心技术创新。",
-#     "温哥华云": "Huawei Cloud Vancouver研究团队，专注大语言模型（LLMs）的成本优化、微调推理技术、负责任AI（数据/模型水印、联邦学习）以及LLMs在运筹学、分析数据库等领域的实际应用。",
-#     "多伦多云": "Huawei Cloud分布式调度和数据引擎实验室，专注AI Agent技术研究，包括多智能体系统（Multi-Agent）、Agent编排（Agentic Orchestration）、Agent安全性以及GenAI云服务技术创新。",
-#     "诺亚": "华为诺亚方舟实验室，从事人工智能基础研究，主要方向包括大模型自演进、强化学习（RLHF）、LLM-based agent、深度强化学习、多智能体系统以及决策推理等前沿AI技术研究。",
-# }
 
-def generate_recommendation(session: Dict, team: Dict[str, str], similarity_score: float, client: OpenAI) -> Dict:
-    """
-    Generates a recommendation reason and focus areas for a session-team match using an LLM.
-    """
+class CriteriaScores(BaseModel):
+    """LLM multi-criteria scoring for a BU-session candidate"""
+
+    relevance: float = Field(
+        ...,
+        ge=0.0,
+        le=1.0,
+        description="Topical relevance between BU summary and session",
+    )
+    technical_overlap: float = Field(
+        ..., ge=0.0, le=1.0, description="Technical method/stack overlap"
+    )
+    novelty_gain: float = Field(
+        ..., ge=0.0, le=1.0, description="Potential novelty or learning gain for BU"
+    )
+    actionability: float = Field(
+        ..., ge=0.0, le=1.0, description="Actionable value to BU (e.g., takeaways)"
+    )
+    confidence: float = Field(..., ge=0.0, le=1.0, description="Rater confidence")
+    reason: str = Field(..., description="Short rationale (<= 50 words)")
+
+
+def _sanitize_focus_item(text: str, max_len: int = 12) -> str:
+    text = str(text or "").strip()
+    # Remove trailing punctuation and bullets
+    for ch in ["。", "，", ",", ";", "；", ".", ":", "：", "-", "•", "\u2022"]:
+        text = text.strip(ch).strip()
+    # Keep it short
+    if len(text) > max_len:
+        text = text[:max_len]
+    return text
+
+
+def refine_recommendation_output(rec: Dict) -> Dict:
+    """Post-process reason and focus_areas to be natural and concise."""
+    out = dict(rec)
+    # Reason: trim whitespace and overly long content
+    reason = str(out.get("reason", "")).strip()
+    # Remove common AI-ish phrases in Chinese
+    for bad in ["作为AI", "作为一个AI", "我们认为", "综上所述", "总之", "本文", "本次分析", "在我看来"]:
+        reason = reason.replace(bad, "").strip()
+    # Aim for concise: clamp to ~70 Chinese chars (or general codepoints)
+    if len(reason) > 70:
+        reason = reason[:70].rstrip()
+    out["reason"] = reason
+
+    # Focus areas: keep 3-5, short noun phrases
+    focus = out.get("focus_areas", []) or []
+    cleaned = []
+    seen = set()
+    for item in focus:
+        v = _sanitize_focus_item(item, max_len=12)
+        if not v:
+            continue
+        if v in seen:
+            continue
+        seen.add(v)
+        cleaned.append(v)
+        if len(cleaned) >= 5:
+            break
+    out["focus_areas"] = cleaned
+    return out
+
+
+def _needs_instruction_prefix(model_name: str) -> bool:
+    name = (model_name or "").lower()
+    # Common instruction-style embedding families where query/passsage prefix helps
+    return any(k in name for k in ["e5", "gte", "bge", "m3"])  # e5/gte/bge-m3
+
+
+def _as_query(text: str, enabled: bool) -> str:
+    return f"query: {text}" if enabled else text
+
+
+def _as_passage(text: str, enabled: bool) -> str:
+    return f"passage: {text}" if enabled else text
+
+
+def load_structured_cache(cache_file: str) -> Dict:
+    with open(cache_file, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def parse_weights(weights_str: str) -> Tuple[float, float, float, float]:
+    try:
+        parts = [float(x.strip()) for x in weights_str.split(",")]
+        if len(parts) != 4:
+            raise ValueError("weights must have 4 comma-separated numbers")
+        s = sum(parts)
+        return tuple([x / s if s > 0 else 0.0 for x in parts])  # normalize
+    except Exception:
+        # default: 0.45, 0.35, 0.10, 0.10
+        return (0.45, 0.35, 0.10, 0.10)
+
+
+def build_scoring_prompt(
+    bu_name: str, challenge_sumary: str, key_points_en: List[str], session: Dict
+) -> str:
+    key_points_str = "\n".join([f"- {kp}" for kp in key_points_en[:7]])
     session_info = f"""
 Session Information:
-- Title: {session.get('title', 'N/A')}
-- Type: {session.get('type', 'N/A')}
-- Abstract: {session.get('abstract', 'N/A')}
-- Overview: {session.get('overview', 'N/A')}
+- Title: {session.get("title", "N/A")}
+- Type: {session.get("type", "N/A")}
+- Abstract: {session.get("abstract", "N/A")}
+- Overview: {session.get("overview", "N/A")}
 """
-    team_info = f"""
-Team Information:
-- BU: {team['bu']}
-- Focus: {team['focus']}
-- Challenges: {team['challenges']}
-"""
-    prompt = f"""你是一个研究兴趣匹配分析专家。一个Session和一个研究团队已经通过向量相似度（Cosine Similarity: {similarity_score:.2f}）被初步匹配。
-你的任务是分析这个匹配，并提供推荐理由和重点关注方向。
+    prompt = f"""You are a conference track matching judge. Score the match between a BU's challenge profile and a session.
+
+BU: {bu_name}
+
+BU Challenge Summary (English, concise):
+{challenge_sumary}
+
+Key Points (English, concise):
+{key_points_str}
 
 {session_info}
 
-{team_info}
+Scoring criteria (0.0 to 1.0, higher is better):
+- relevance: topical/semantic relevance between the BU and the session
+- technical_overlap: overlap in methods/architectures/techniques
+- novelty_gain: likely novelty/learning benefit for the BU
+- actionability: concrete takeaways the BU could apply soon
+- confidence: how confident you are in the above (0-1)
 
----
-**分析任务**:
+Return strict JSON:
+{{
+  "relevance": 0-1 number,
+  "technical_overlap": 0-1 number,
+  "novelty_gain": 0-1 number,
+  "actionability": 0-1 number,
+  "confidence": 0-1 number,
+  "reason": "<<= 50 words English rationale>"
+}}
+Only output the JSON. Do not include any other text."""
+    return prompt
 
-1.  **撰写推荐理由 (reason)**:
-    - 基于Session内容和团队的挑战，用50-80字解释为什么这个团队应该参加这个Session。
-    - 理由需要精炼、自然，并明确指出技术连接点。
-
-2.  **提取重点关注方向 (focus_areas)**:
-    - 从Session内容中，提取出1-2个该团队应重点关注的具体技术点、算法或讨论议题。
-    - 这应该是具体的、可操作的关注点列表。
-
-请以JSON格式返回你的分析结果。
-"""
-    try:
-        completion = client.chat.completions.parse(
-            model="gpt-4.1-mini",
-            messages=[
-                {"role": "system", "content": "你是一个专业的技术匹配分析专家。"},
-                {"role": "user", "content": prompt}
-            ],
-            response_format=Recommendation,
-        )
-        return completion.choices[0].message.parsed.model_dump()
-    except Exception as e:
-        print(f"Error generating recommendation for session '{session.get('title', 'N/A')}': {str(e)}")
-        return {"reason": "Error", "focus_areas": []}
-
-def load_structured_cache(cache_file: str) -> Dict:
-    """Load the structured challenge points cache"""
-    import json
-    with open(cache_file, 'r', encoding='utf-8') as f:
-        return json.load(f)
 
 def main():
     """Main execution function"""
-    parser = argparse.ArgumentParser(description='Session-Team Matching System using Embeddings')
-    parser.add_argument('--threshold', type=float, default=SIMILARITY_THRESHOLD,
-                        help=f'Cosine similarity threshold for a match (default: {SIMILARITY_THRESHOLD})')
+    parser = argparse.ArgumentParser(
+        description="Session-Team Matching System with optional Agentic RAG (1+3)"
+    )
+    parser.add_argument(
+        "--threshold",
+        type=float,
+        default=SIMILARITY_THRESHOLD,
+        help=f"Cosine similarity threshold for a match in non-agentic mode (default: {SIMILARITY_THRESHOLD})",
+    )
+    parser.add_argument(
+        "--agentic",
+        action="store_true",
+        help="Enable Agentic RAG 1+3 (multi-query recall + LLM multi-criteria rerank)",
+    )
+    parser.add_argument(
+        "--num_queries",
+        type=int,
+        default=4,
+        help="Number of candidate queries to use per BU (agentic mode)",
+    )
+    parser.add_argument(
+        "--topm",
+        type=int,
+        default=20,
+        help="Top-M sessions per query to recall (agentic mode)",
+    )
+    parser.add_argument(
+        "--weights",
+        type=str,
+        default="0.45,0.35,0.10,0.10",
+        help="Weights for [relevance, technical_overlap, novelty_gain, actionability]; comma-separated, will be normalized",
+    )
+    parser.add_argument(
+        "--confidence_boost",
+        type=float,
+        default=0.5,
+        help="Confidence boost factor (0~1): final *= (1 - cb) + cb * confidence",
+    )
+    parser.add_argument(
+        "--rec_threshold",
+        type=float,
+        default=None,
+        help="Minimum score to generate recommendations: agentic uses final_score (0-1); non-agentic uses cosine. If not set, defaults to 0.0 (agentic) or --threshold (non-agentic).",
+    )
+    parser.add_argument(
+        "--incremental",
+        action="store_true",
+        help="Incremental mode: load existing output CSV and skip already matched (bu_name, session_title) pairs; only generate and append new matches.",
+    )
+    parser.add_argument(
+        "--output_csv",
+        type=str,
+        default=OUTPUT_CSV_FILE,
+        help=f"Path to output CSV (default: {OUTPUT_CSV_FILE})",
+    )
+    parser.add_argument(
+        "--sessions_csv",
+        type=str,
+        default=SESSIONS_CSV_FILE,
+        help=f"Path to sessions CSV (default: {SESSIONS_CSV_FILE})",
+    )
+    parser.add_argument(
+        "--score_topk_per_bu",
+        type=int,
+        default=None,
+        help="Agentic only: prefilter candidates by base cosine and keep top-K per BU before LLM scoring. Larger K = higher cost & recall.",
+    )
+    parser.add_argument(
+        "--embed_model",
+        type=str,
+        default=None,
+        help=f"SentenceTransformer model name (default: {EMBEDDING_MODEL_NAME})",
+    )
     args = parser.parse_args()
 
-    api_key = os.getenv('OPENAI_API_KEY')
+    # Determine recommendation threshold:
+    # - Agentic: default 0.0 (recommend for all unless specified)
+    # - Non-agentic: default equals --threshold
+    rec_threshold = (
+        args.rec_threshold if hasattr(args, "rec_threshold") and args.rec_threshold is not None
+        else (0.0 if args.agentic else args.threshold)
+    )
+
+    api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         print("Error: OPENAI_API_KEY environment variable not set")
         return
@@ -116,170 +271,453 @@ def main():
     client = OpenAI(api_key=api_key)
 
     print("=" * 80)
-    print("Session-Team Matching System (BU Summary Based)")
+    header = (
+        "Session-Team Matching System (Agentic RAG 1+3)"
+        if args.agentic
+        else "Session-Team Matching System (BU Summary Based)"
+    )
+    print(header)
     print("=" * 80)
 
     # 1. Load Data
     print("\n[Step 1] Loading data and embedding model...")
-    TRANSLATION_CACHE_FILE = "team_translations_cache.json"
 
-    # Load structured cache with challenge points
     if not os.path.exists(TRANSLATION_CACHE_FILE):
-        print(f"Error: {TRANSLATION_CACHE_FILE} not found. Please run generate_structured_cache.py first.")
+        print(
+            f"Error: {TRANSLATION_CACHE_FILE} not found. Please run generate_structured_cache.py first."
+        )
         return
 
     structured_cache = load_structured_cache(TRANSLATION_CACHE_FILE)
-    sessions_df = pd.read_csv(SESSIONS_CSV_FILE)
+    sessions_df = pd.read_csv(args.sessions_csv)
+
+    # Select embedding model and whether to use instruction prefixes
+    embed_model_name = args.embed_model or EMBEDDING_MODEL_NAME
+    use_prefix = _needs_instruction_prefix(embed_model_name)
 
     try:
-        model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+        model = SentenceTransformer(embed_model_name)
     except Exception as e:
         print(f"Error loading SentenceTransformer model: {e}")
-        print("Please make sure 'sentence-transformers' is installed (`pip install sentence-transformers`)")
+        print(
+            "Please make sure 'sentence-transformers' is installed (`pip install sentence-transformers`)"
+        )
         return
 
-    # 2. Prepare BU challenge summaries for embedding
-    print("\n[Step 2] Preparing BU challenge summaries...")
-    bu_summaries_list = []  # List of (bu_name, challenge_sumary)
-
-    for bu_name, bu_data in structured_cache.items():
-        summary = bu_data.get('challenge_sumary')
-        if not summary:
-            # Backward compatibility: derive summary from existing challenge_points if present
-            points = bu_data.get('challenge_points', [])
-            if isinstance(points, list) and points:
-                summary = "; ".join([p.get('principle_en', '') for p in points if p.get('principle_en')])
-            else:
-                summary = ""
-        bu_summaries_list.append({
-            'bu_name': bu_name,
-            'challenge_sumary': summary
-        })
-
-    print(f"Found {len(structured_cache)} BUs with summaries")
-    print(f"Found {len(sessions_df)} sessions")
-    print(f"Using embedding model: {EMBEDDING_MODEL_NAME}")
-
-    # 3. Generate Embeddings for BU summaries
-    print("\n[Step 3] Generating embeddings for BU summaries...")
-    # Create text for each BU summary
-    summary_texts = [entry['challenge_sumary'] for entry in bu_summaries_list]
-
-    # Session texts
-    session_texts = [
-        f"{row.get('title', '')}. {row.get('abstract', '')}. {row.get('overview', '')}"
-        for _, row in sessions_df.iterrows()
-    ]
-
-    print("  Encoding BU summaries...")
-    bu_embeddings = model.encode(summary_texts, show_progress_bar=True)
+    # Prepare session texts and embeddings
+    session_texts = []
+    for _, row in sessions_df.iterrows():
+        raw = f"{row.get('title', '')}. {row.get('abstract', '')}. {row.get('overview', '')}"
+        session_texts.append(_as_passage(raw, use_prefix))
     print("  Encoding sessions...")
     session_embeddings = model.encode(session_texts, show_progress_bar=True)
     print("Embeddings generated successfully.")
+    print(f"Found {len(structured_cache)} BUs")
+    print(f"Found {len(sessions_df)} sessions")
+    print(f"Using embedding model: {embed_model_name} (prefixes: {'on' if use_prefix else 'off'})")
 
-    # 4. Calculate Cosine Similarity
-    print("\n[Step 4] Calculating cosine similarity...")
-    similarity_matrix = cosine_similarity(bu_embeddings, session_embeddings)
-    print(f"Similarity matrix shape: {similarity_matrix.shape}")
-    print(f"  (BUs x sessions) = ({len(bu_summaries_list)} x {len(sessions_df)})")
+    # Incremental mode: load existing output pairs to skip
+    existing_pairs = set()
+    existing_df = None
+    output_path = args.output_csv
+    if args.incremental and os.path.exists(output_path):
+        try:
+            existing_df = pd.read_csv(output_path)
+            if {"bu_name", "session_title"}.issubset(set(existing_df.columns)):
+                existing_pairs = set(
+                    zip(
+                        existing_df["bu_name"].astype(str).tolist(),
+                        existing_df["session_title"].astype(str).tolist(),
+                    )
+                )
+                print(f"Incremental mode: loaded {len(existing_pairs)} existing pairs from {output_path}")
+            else:
+                print(
+                    f"Incremental mode: output CSV lacks required columns 'bu_name' and 'session_title'; proceeding without skipping."
+                )
+        except Exception as e:
+            print(f"Incremental mode: failed to read existing output CSV: {e}. Proceeding without skipping.")
 
-    # 5. Find matches above threshold
-    print(f"\n[Step 5] Finding matches with similarity > {args.threshold}...")
-    potential_matches_indices = np.where(similarity_matrix >= args.threshold)
-
-    match_candidates = []
-    for bu_idx, session_idx in zip(*potential_matches_indices):
-        entry = bu_summaries_list[bu_idx]
-        match_candidates.append({
-            "bu_name": entry['bu_name'],
-            "challenge_sumary": entry['challenge_sumary'],
-            "session_idx": session_idx,
-            "similarity": similarity_matrix[bu_idx, session_idx]
-        })
-
-    print(f"Found {len(match_candidates)} potential matches (BU summary <-> session).")
-
-    # 6. Generate recommendations for matches (one similarity per BU-session)
-    print("\n[Step 6] Generating recommendations for matches...")
     final_results = []
 
-    for i, candidate in enumerate(match_candidates, 1):
-        bu_name = candidate['bu_name']
-        session_idx = candidate['session_idx']
-        similarity = candidate['similarity']
-        entry_summary = candidate.get('challenge_sumary', '')
-        session = sessions_df.iloc[session_idx].to_dict()
+    if args.agentic:
+        # Agentic RAG 1+3: multi-query recall + LLM multi-criteria rerank
+        print("\n[Step 2] Agentic multi-query recall...")
+        wR, wTO, wN, wA = parse_weights(args.weights)
+        cb = max(0.0, min(1.0, args.confidence_boost))
 
-        print(f"  [{i}/{len(match_candidates)}] {bu_name} <-> {session['title'][:40]}... (sim: {similarity:.2f})")
+        for i, (bu_name, bu_data) in enumerate(structured_cache.items(), 1):
+            summary = bu_data.get("challenge_sumary", "")
+            key_points = bu_data.get("key_points_en", [])
+            queries = bu_data.get("candidate_queries_en", [])[
+                : max(1, args.num_queries)
+            ]
 
-        recommendation_prompt = f"""你是一个研究兴趣匹配分析专家。一个Session和一个研究团队已经通过向量相似度（Cosine Similarity: {similarity:.2f}）被初步匹配。
-你的任务是基于该团队的英文挑战总结进行分析，并提供推荐理由和重点关注方向。
+            if not queries:
+                print(
+                    f"  [{i}/{len(structured_cache)}] {bu_name} - ERROR: candidate_queries_en is empty. Re-generate cache with rich_profile."
+                )
+                continue
+
+            print(f"\n  [{i}/{len(structured_cache)}] BU: {bu_name}")
+            print(f"    Using {len(queries)} candidate queries:")
+            for q in queries:
+                print(f"      - {q}")
+
+            # Encode queries and recall Top-M per query
+            candidate_idx_set = set()
+            for q in queries:
+                q_emb = model.encode(_as_query(q, use_prefix))
+                sims = cosine_similarity(
+                    q_emb.reshape(1, -1), session_embeddings
+                ).ravel()
+                top_idx = np.argpartition(sims, -args.topm)[-args.topm :]
+                candidate_idx_set.update(top_idx.tolist())
+
+            print(f"    Candidate set size after union: {len(candidate_idx_set)}")
+
+            # Compute base_cosine using BU summary
+            if not summary:
+                print(
+                    "    WARNING: challenge_sumary is empty; base_cosine will be set to 0."
+                )
+                base_cosine_all = np.zeros(len(sessions_df), dtype=float)
+            else:
+                summary_emb = model.encode(_as_query(summary, use_prefix))
+                base_cosine_all = cosine_similarity(
+                    summary_emb.reshape(1, -1), session_embeddings
+                ).ravel()
+
+            # Multi-criteria scoring via LLM
+            print("\n[Step 3] LLM multi-criteria scoring and rerank...")
+            # Optional prefilter by base cosine to save LLM cost
+            if args.score_topk_per_bu and summary:
+                K = max(1, int(args.score_topk_per_bu))
+                cand_with_scores = [(idx, float(base_cosine_all[idx])) for idx in candidate_idx_set]
+                cand_with_scores.sort(key=lambda t: t[1], reverse=True)
+                selected_idx_list = [idx for idx, _ in cand_with_scores[:K]]
+                print(f"    Candidates after prefilter by base cosine: {len(selected_idx_list)} / {len(candidate_idx_set)} (K={K})")
+            else:
+                selected_idx_list = sorted(candidate_idx_set)
+                print(f"    Candidates after prefilter by base cosine: {len(selected_idx_list)} / {len(candidate_idx_set)} (no prefilter)")
+
+            per_bu_candidates = []
+            for j, session_idx in enumerate(selected_idx_list, 1):
+                session = sessions_df.iloc[session_idx].to_dict()
+                base_cos = float(base_cosine_all[session_idx])
+
+                # Skip already existing pairs in incremental mode (avoid LLM scoring)
+                if args.incremental:
+                    key = (str(bu_name), str(session.get("title")))
+                    if key in existing_pairs:
+                        continue
+
+                scoring_prompt = build_scoring_prompt(
+                    bu_name=bu_name,
+                    challenge_sumary=summary,
+                    key_points_en=key_points,
+                    session=session,
+                )
+
+                try:
+                    completion = client.chat.completions.parse(
+                        model=AGENTIC_SCORING_MODEL,
+                        messages=[
+                            {
+                                "role": "system",
+                                "content": "You provide precise numeric judgments with short rationales.",
+                            },
+                            {"role": "user", "content": scoring_prompt},
+                        ],
+                        response_format=CriteriaScores,
+                    )
+                    scores: CriteriaScores = completion.choices[0].message.parsed
+                    linear = (
+                        wR * scores.relevance
+                        + wTO * scores.technical_overlap
+                        + wN * scores.novelty_gain
+                        + wA * scores.actionability
+                    )
+                    final_score = linear * ((1.0 - cb) + cb * scores.confidence)
+                except Exception as e:
+                    print(
+                        f"    Error scoring BU '{bu_name}' with session '{session.get('title', 'N/A')[:40]}...': {e}"
+                    )
+                    # Hard fallback: base_cosine only
+                    scores = CriteriaScores(
+                        relevance=0.0,
+                        technical_overlap=0.0,
+                        novelty_gain=0.0,
+                        actionability=0.0,
+                        confidence=0.0,
+                        reason="fallback: scoring error",
+                    )
+                    final_score = base_cos
+
+                per_bu_candidates.append(
+                    {
+                        "bu_name": bu_name,
+                        "session_idx": session_idx,
+                        "session_title": session.get("title"),
+                        "session_type": session.get("type"),
+                        "session_date": session.get("date"),
+                        "session_time": session.get("time"),
+                        "base_cosine": base_cos,
+                        "rel": scores.relevance,
+                        "tech_overlap": scores.technical_overlap,
+                        "novelty": scores.novelty_gain,
+                        "actionability": scores.actionability,
+                        "confidence": scores.confidence,
+                        "final_score": final_score,
+                        "scoring_reason": scores.reason,
+                    }
+                )
+
+                time.sleep(0.15)  # mild rate limiting
+
+            # Sort by final_score
+            per_bu_candidates.sort(key=lambda x: x["final_score"], reverse=True)
+            print(f"    Top-5 after rerank (final_score | base_cosine):")
+            for k, c in enumerate(per_bu_candidates[:5], 1):
+                print(
+                    f"      {k}. {c['final_score']:.3f} | {c['base_cosine']:.3f} -> {c['session_title'][:60]}"
+                )
+
+            # Generate recommendations only for candidates above threshold
+            print("\n[Step 4] Generating recommendations...")
+            selected_cands = [c for c in per_bu_candidates if c["final_score"] >= rec_threshold]
+            print(
+                f"    Candidates above threshold ({rec_threshold:.2f}): {len(selected_cands)} / {len(per_bu_candidates)}"
+            )
+            for cand in selected_cands:
+                session = sessions_df.iloc[cand["session_idx"]].to_dict()
+                # Double-check skip before generating recommendation
+                if args.incremental:
+                    key = (str(cand["bu_name"]), str(session.get("title")))
+                    if key in existing_pairs:
+                        continue
+                recommendation_prompt = f"""你是技术会议参谋。请以自然、简洁的人类口吻给出推荐：
 
 Session Information:
-- Title: {session.get('title', 'N/A')}
-- Type: {session.get('type', 'N/A')}
-- Abstract: {session.get('abstract', 'N/A')}
-- Overview: {session.get('overview', 'N/A')}
+- Title: {session.get("title", "N/A")}
+- Type: {session.get("type", "N/A")}
+- Abstract: {session.get("abstract", "N/A")}
+- Overview: {session.get("overview", "N/A")}
+
+BU: {bu_name}
+BU Challenge Summary (English):
+{summary}
+
+输出要求：
+1) reason：
+   - 中文，口语化、精准，不要“AI口吻/套话/总结性开头”。
+   - 40-60字，点出该BU与该Session最关键的1-2个技术连接点与收获。
+   - 避免复述题目，避免空泛表述。
+2) focus_areas：
+   - 3-5条，每条≤12字，中文名词短语，直指要点；不加句号与编号。
+   - 示例："对比学习损失"、"低秩适配"、"在线评测指标"。
+
+仅输出严格JSON：{{"reason": "...", "focus_areas": ["...", "..."]}}
+"""
+                try:
+                    completion = client.chat.completions.parse(
+                        model="gpt-4.1-mini",
+                        messages=[
+                            {
+                                "role": "system",
+                                "content": "你是一个专业的技术匹配分析专家。",
+                            },
+                            {"role": "user", "content": recommendation_prompt},
+                        ],
+                        response_format=Recommendation,
+                    )
+                    recommendation = completion.choices[0].message.parsed.model_dump()
+                    recommendation = refine_recommendation_output(recommendation)
+                except Exception as e:
+                    print(f"    Error generating recommendation: {e}")
+                    recommendation = {"reason": "Error", "focus_areas": []}
+
+                final_results.append(
+                    {
+                        "bu_name": bu_name,
+                        "session_title": session.get("title"),
+                        "session_type": session.get("type"),
+                        "session_date": session.get("date"),
+                        "session_time": session.get("time"),
+                        "base_cosine": cand["base_cosine"],
+                        "rel": cand["rel"],
+                        "tech_overlap": cand["tech_overlap"],
+                        "novelty": cand["novelty"],
+                        "actionability": cand["actionability"],
+                        "confidence": cand["confidence"],
+                        "final_score": cand["final_score"],
+                        "scoring_reason": cand["scoring_reason"],
+                        "recommendation_reason": recommendation["reason"],
+                        "focus_areas": "; ".join(recommendation["focus_areas"]),
+                    }
+                )
+
+            time.sleep(0.2)  # Rate limiting per BU
+
+    else:
+        # Non-agentic: BU summary vs session cosine with threshold
+        print("\n[Step 2] Preparing BU challenge summaries...")
+        bu_summaries_list = []  # List of (bu_name, challenge_sumary)
+        for bu_name, bu_data in structured_cache.items():
+            summary = bu_data.get("challenge_sumary", "")
+            bu_summaries_list.append({"bu_name": bu_name, "challenge_sumary": summary})
+
+        print("\n[Step 3] Generating embeddings for BU summaries...")
+        summary_texts = [_as_query(entry["challenge_sumary"], use_prefix) for entry in bu_summaries_list]
+        bu_embeddings = model.encode(summary_texts, show_progress_bar=True)
+
+        print("\n[Step 4] Calculating cosine similarity...")
+        similarity_matrix = cosine_similarity(bu_embeddings, session_embeddings)
+        print(f"Similarity matrix shape: {similarity_matrix.shape}")
+        print(f"  (BUs x sessions) = ({len(bu_summaries_list)} x {len(sessions_df)})")
+
+        print(f"\n[Step 5] Finding matches with similarity > {args.threshold}...")
+        potential_matches_indices = np.where(similarity_matrix >= args.threshold)
+
+        match_candidates = []
+        for bu_idx, session_idx in zip(*potential_matches_indices):
+            entry = bu_summaries_list[bu_idx]
+            match_candidates.append(
+                {
+                    "bu_name": entry["bu_name"],
+                    "challenge_sumary": entry["challenge_sumary"],
+                    "session_idx": session_idx,
+                    "similarity": similarity_matrix[bu_idx, session_idx],
+                }
+            )
+
+        print(
+            f"Found {len(match_candidates)} potential matches (BU summary <-> session)."
+        )
+
+        print("\n[Step 6] Generating recommendations for matches...")
+        filtered_candidates = [c for c in match_candidates if c["similarity"] >= rec_threshold]
+        if args.incremental:
+            to_process = [
+                c
+                for c in filtered_candidates
+                if (str(c["bu_name"]), str(sessions_df.iloc[c["session_idx"]]["title"]))
+                not in existing_pairs
+            ]
+            print(
+                f"  Candidates above threshold ({rec_threshold:.2f}): {len(filtered_candidates)} / {len(match_candidates)}; new to process: {len(to_process)}"
+            )
+        else:
+            to_process = filtered_candidates
+            print(
+                f"  Candidates above threshold ({rec_threshold:.2f}): {len(filtered_candidates)} / {len(match_candidates)}"
+            )
+        for i, candidate in enumerate(to_process, 1):
+            bu_name = candidate["bu_name"]
+            session_idx = candidate["session_idx"]
+            similarity = candidate["similarity"]
+            entry_summary = candidate.get("challenge_sumary", "")
+            session = sessions_df.iloc[session_idx].to_dict()
+
+            print(
+                f"  [{i}/{len(match_candidates)}] {bu_name} <-> {session['title'][:40]}... (sim: {similarity:.2f})"
+            )
+
+            recommendation_prompt = f"""你是技术会议参谋。请以自然、简洁的人类口吻给出推荐：
+
+Session Information:
+- Title: {session.get("title", "N/A")}
+- Type: {session.get("type", "N/A")}
+- Abstract: {session.get("abstract", "N/A")}
+- Overview: {session.get("overview", "N/A")}
 
 BU: {bu_name}
 BU Challenge Summary (English):
 {entry_summary}
 
----
-**分析任务**:
+输出要求：
+1) reason：
+   - 中文，口语化、精准，不要“AI口吻/套话/总结性开头”。
+   - 40-60字，点出该BU与该Session最关键的1-2个技术连接点与收获。
+   - 避免复述题目，避免空泛表述。
+2) focus_areas：
+   - 3-5条，每条≤12字，中文名词短语，直指要点；不加句号与编号。
+   - 示例："对比学习损失"、"低秩适配"、"在线评测指标"。
 
-1.  **撰写推荐理由 (reason)**:
-    - 基于Session内容与该BU挑战总结，用50-80字解释为什么这个团队应该参加这个Session。
-    - 理由需要精炼、自然，并明确指出技术连接点。
-
-2.  **提取重点关注方向 (focus_areas)**:
-    - 从Session内容中，提取出3-5个该团队应重点关注的具体技术点、算法或讨论议题。
-    - 这应该是具体的、可操作的关注点列表。
-
-请以JSON格式返回你的分析结果。
+仅输出严格JSON：{{"reason": "...", "focus_areas": ["...", "..."]}}
 """
 
-        try:
-            completion = client.chat.completions.parse(
-                model="gpt-4.1-mini",
-                messages=[
-                    {"role": "system", "content": "你是一个专业的技术匹配分析专家。"},
-                    {"role": "user", "content": recommendation_prompt}
-                ],
-                response_format=Recommendation,
+            try:
+                completion = client.chat.completions.parse(
+                    model="gpt-4.1-mini",
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "你是一个专业的技术匹配分析专家。",
+                        },
+                        {"role": "user", "content": recommendation_prompt},
+                    ],
+                    response_format=Recommendation,
+                )
+                recommendation = completion.choices[0].message.parsed.model_dump()
+                recommendation = refine_recommendation_output(recommendation)
+            except Exception as e:
+                print(f"    Error generating recommendation: {e}")
+                recommendation = {"reason": "Error", "focus_areas": []}
+
+            final_results.append(
+                {
+                    "bu_name": bu_name,
+                    "session_title": session["title"],
+                    "session_type": session.get("type"),
+                    "session_date": session.get("date"),
+                    "session_time": session.get("time"),
+                    "cosine_similarity": similarity,
+                    "recommendation_reason": recommendation["reason"],
+                    "focus_areas": "; ".join(recommendation["focus_areas"]),
+                }
             )
-            recommendation = completion.choices[0].message.parsed.model_dump()
-        except Exception as e:
-            print(f"    Error generating recommendation: {e}")
-            recommendation = {"reason": "Error", "focus_areas": []}
 
-        final_results.append({
-            'bu_name': bu_name,
-            'session_title': session['title'],
-            'session_type': session.get('type'),
-            'session_date': session.get('date'),
-            'session_time': session.get('time'),
-            'cosine_similarity': similarity,
-            'recommendation_reason': recommendation['reason'],
-            'focus_areas': "; ".join(recommendation['focus_areas'])
-        })
+            time.sleep(0.1)  # Rate limiting
 
-        time.sleep(0.3)  # Rate limiting
-
-    # 8. Save final results
+    # Save final results
     if not final_results:
         print("\nNo final recommendations to save.")
         return
 
     output_df = pd.DataFrame(final_results)
-    output_df.to_csv(OUTPUT_CSV_FILE, index=False, encoding='utf-8-sig')
+    # Save with incremental support
+    if args.incremental and os.path.exists(output_path):
+        try:
+            # If columns match exactly, we can append without headers
+            existing_df = pd.read_csv(output_path)
+            if list(existing_df.columns) == list(output_df.columns):
+                # Drop duplicates from new batch just in case
+                output_df = output_df.drop_duplicates(subset=["bu_name", "session_title"])
+                output_df.to_csv(output_path, mode="a", header=False, index=False, encoding="utf-8-sig")
+                print(f"\nAppended {len(output_df)} new rows to: {output_path}")
+            else:
+                merged = pd.concat([existing_df, output_df], ignore_index=True)
+                merged = merged.drop_duplicates(subset=["bu_name", "session_title"])  # safety
+                merged.to_csv(output_path, index=False, encoding="utf-8-sig")
+                print(
+                    f"\nColumns mismatch between existing and new outputs. Rewrote merged file with {len(merged)} rows: {output_path}"
+                )
+        except Exception as e:
+            print(f"\nIncremental save failed ({e}); falling back to overwrite.")
+            output_df.to_csv(output_path, index=False, encoding="utf-8-sig")
+    else:
+        output_df.to_csv(output_path, index=False, encoding="utf-8-sig")
 
     print("\n" + "=" * 80)
     print("Matching Complete!")
-    print(f"Total BU-Session pairs: {len(final_results)}")
-    print(f"Total BU-summary matches: {len(match_candidates)}")
-    print(f"Output saved to: {OUTPUT_CSV_FILE}")
+    if args.agentic:
+        print(f"Total BU-Session pairs (agentic): {len(final_results)}")
+    else:
+        print(f"Total BU-Session pairs: {len(final_results)}")
+    print(f"Output saved to: {output_path}")
     print("=" * 80)
+
 
 if __name__ == "__main__":
     main()

@@ -175,7 +175,9 @@ Examples:
             print("📋 Sample entries:")
             for entry in entries[:3]:
                 print(f"  • {entry.title}")
-                print(f"    Type: {entry.type} | Time: {entry.start_time} - {entry.end_time}")
+                print(
+                    f"    Type: {entry.type} | Time: {entry.start_time} - {entry.end_time}"
+                )
                 if entry.url:
                     print(f"    URL: {entry.url}")
 

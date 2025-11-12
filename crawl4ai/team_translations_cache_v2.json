@@ -1,0 +1,89 @@
+{
+  "中软": {
+    "challenge_sumary": "Building distributed AI frameworks for training, inference, agent development, and RL is constrained by missing systems-level primitives. Stateful multi-turn dialogue requires a unified long-context memory model with consistent, replayable state across services. Concurrent tool use demands an asynchronous orchestration abstraction with scheduling, backpressure, retries, and idempotency, rather than ad‑hoc queues and event loops. Multimodal pipelines need first-class uncertainty handling—fusion strategies with calibrated confidence and propagation of uncertainty through components. Security and privacy must be enforced at runtime, with robust defenses against adversarial inputs and confidential data handling. A standards-based set of interfaces, telemetry, and transactional semantics is needed to ensure correctness, observability, and portability across heterogeneous runtimes.",
+    "key_points_en": [
+      "Unify long-context memory with consistent, replayable state across services and components.",
+      "Provide composable async orchestration: scheduling, backpressure, retries, and idempotent tool calls.",
+      "Standardize tool interfaces, event loops, and transactional semantics for agent workflows.",
+      "Enable uncertainty-aware multimodal fusion with calibrated confidence and propagation.",
+      "Harden runtime security against adversarial inputs with policy enforcement and sanitization.",
+      "Implement privacy-preserving telemetry and storage, including DP and confidential computing."
+    ],
+    "keywords_en": [
+      "long-context memory",
+      "state synchronization",
+      "agent orchestration",
+      "asynchronous scheduling",
+      "task queues",
+      "event loop",
+      "backpressure",
+      "transactional semantics",
+      "idempotency",
+      "tool invocation",
+      "multimodal fusion",
+      "uncertainty quantification",
+      "calibration",
+      "adversarial robustness",
+      "prompt injection defense",
+      "privacy preservation",
+      "differential privacy",
+      "secure enclaves",
+      "confidential computing",
+      "distributed tracing"
+    ],
+    "candidate_queries_en": [
+      "actor-based orchestration for concurrent tool-use agents",
+      "robust long-context memory with cross-service state consistency",
+      "privacy-preserving telemetry for production agent frameworks",
+      "uncertainty-aware multimodal fusion for tool-using agents",
+      "runtime defenses against adversarial prompts in agent pipelines"
+    ],
+    "meta": {
+      "source_md_hash": "e6454f66c032f75517cd6e7c34ec0401",
+      "generated_at": "2025-11-11T21:18:23.007158+00:00"
+    }
+  },
+  "可信": {
+    "challenge_sumary": "Building trustworthy agentic AI requires principled mechanisms to infer user intent under ambiguity, manage long-lived state, and adapt safely in non-stationary environments. Intent detection must fuse multimodal, multi-turn signals, quantify uncertainty, and resolve conflicting goals. Memory and context management demand selective retention, summarization, retrieval, and forgetting policies that preserve task-relevant causality while controlling drift and latency. Self-learning should enable online policy improvement with safeguards against catastrophic forgetting, reward hacking, and distribution shift. At runtime, agents need calibrated uncertainty monitoring, anomaly detection, and risk-aware intervention or rollback. Architecturally, composable, observable, and testable designs must orchestrate tools, data, and feedback loops, with reproducible state, telemetry, and evaluation protocols spanning simulation to production.",
+    "key_points_en": [
+      "Probabilistic intent inference from multimodal, multi-turn signals with weak supervision, uncertainty calibration, and conflict resolution.",
+      "Long-horizon memory: selective retention, summarization, retrieval, and forgetting policies preserving causality under latency and capacity constraints.",
+      "Continual self-learning with safety constraints, off-policy evaluation, and mechanisms mitigating catastrophic forgetting and distribution shift.",
+      "Runtime uncertainty monitoring: epistemic/aleatoric estimation, anomaly detection, risk-aware control, rollback, and human-in-the-loop intervention.",
+      "Modular, observable agent architecture orchestrating tools and data, with reproducible state, telemetry, testing hooks, and end-to-end evaluation harnesses."
+    ],
+    "keywords_en": [
+      "agentic AI",
+      "user intent detection",
+      "multimodal intent inference",
+      "multi-turn dialogue",
+      "long-context memory",
+      "context management",
+      "retrieval augmentation",
+      "summarization",
+      "forgetting policies",
+      "continual learning",
+      "non-stationary environments",
+      "uncertainty estimation",
+      "runtime monitoring",
+      "risk-aware control",
+      "anomaly detection",
+      "agent architecture",
+      "tool orchestration",
+      "state management",
+      "telemetry",
+      "evaluation protocols"
+    ],
+    "candidate_queries_en": [
+      "Bayesian intent inference for multi-turn, multimodal interactions",
+      "Robust long-horizon memory management for autonomous agents",
+      "Online continual learning with safety constraints and rollback",
+      "Uncertainty-aware monitoring and intervention for production agent systems",
+      "Reference architecture for stateful, tool-using agents with observability"
+    ],
+    "meta": {
+      "source_md_hash": "b8cc9d3a88e61f3061d300afa6ccdcf8",
+      "generated_at": "2025-11-11T21:19:06.214471+00:00"
+    }
+  }
+}

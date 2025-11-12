@@ -13,7 +13,9 @@ import argparse
 from typing import Dict, List, Optional, Set
 from pydantic import BaseModel, Field
 
-from crawl_web_extractor import WebExtractor  # for utilities: save_to_csv, print_statistics
+from crawl_web_extractor import (
+    WebExtractor,
+)  # for utilities: save_to_csv, print_statistics
 from crawl_llm_extractor import LLMExtractor
 
 
@@ -159,7 +161,7 @@ Focus on these types (keep others too if clearly marked, but these are most impo
                 flattened.append(session_event)
                 for p in event["papers"]:
                     paper_event = session_event.copy()
-                    paper_event["title"] = f"  → {p.get('title','')}"
+                    paper_event["title"] = f"  → {p.get('title', '')}"
                     paper_event["url"] = p.get("url", "")
                     paper_event["type"] = "Oral Paper"
                     flattened.append(paper_event)
