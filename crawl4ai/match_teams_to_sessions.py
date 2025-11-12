@@ -17,7 +17,6 @@ import pandas as pd
 from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel, Field
-from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 load_dotenv()
@@ -30,6 +29,10 @@ OUTPUT_CSV_FILE = "neurips_2025_sessions_MexicoCity_match_research_interest_v2-2
 EMBEDDING_MODEL_NAME = "all-mpnet-base-v2"
 SIMILARITY_THRESHOLD = 0.6  # Used only in non-agentic mode
 AGENTIC_SCORING_MODEL = os.getenv("OPENAI_AGENTIC_SCORING_MODEL", "gpt-4.1-mini")
+# Xinference embedding endpoint (hardcoded as requested)
+XINFERENCE_BASE_URL = "http://localhost:9997/v1"
+# Batch size for Xinference embedding requests
+EMBED_BATCH_SIZE = 64
 
 
 # --- Pydantic Models ---
@@ -104,18 +107,34 @@ def refine_recommendation_output(rec: Dict) -> Dict:
     return out
 
 
-def _needs_instruction_prefix(model_name: str) -> bool:
-    name = (model_name or "").lower()
-    # Common instruction-style embedding families where query/passsage prefix helps
-    return any(k in name for k in ["e5", "gte", "bge", "m3"])  # e5/gte/bge-m3
+# Embedding backend abstraction (SentenceTransformers or Xinference via OpenAI-compatible API)
+class EmbeddingBackend:
+    def __init__(self, backend: str, model_name: str):
+        self.backend = backend
+        self.model_name = model_name
+        if backend == "st":
+            # Lazy import so that Xinference users don't need sentence-transformers installed
+            from sentence_transformers import SentenceTransformer
+            self.model = SentenceTransformer(model_name)
+        elif backend == "xinference":
+            # Use OpenAI-compatible client pointed to Xinference; api_key cannot be empty string
+            import openai
+            self.client = openai.Client(api_key="EMPTY", base_url=XINFERENCE_BASE_URL)
+        else:
+            raise ValueError(f"Unknown embed backend: {backend}")
 
+    def encode(self, texts: List[str], show_progress_bar: bool = False) -> np.ndarray:
+        if self.backend == "st":
+            return self.model.encode(texts, show_progress_bar=show_progress_bar)
 
-def _as_query(text: str, enabled: bool) -> str:
-    return f"query: {text}" if enabled else text
-
-
-def _as_passage(text: str, enabled: bool) -> str:
-    return f"passage: {text}" if enabled else text
+        # Xinference: call /v1/embeddings with batching
+        vectors = []
+        for i in range(0, len(texts), EMBED_BATCH_SIZE):
+            batch = texts[i : i + EMBED_BATCH_SIZE]
+            resp = self.client.embeddings.create(model=self.model_name, input=batch)
+            vectors.extend([d.embedding for d in resp.data])
+            time.sleep(0.01)  # light rate limit
+        return np.asarray(vectors, dtype=np.float32)
 
 
 def load_structured_cache(cache_file: str) -> Dict:
@@ -251,7 +270,14 @@ def main():
         "--embed_model",
         type=str,
         default=None,
-        help=f"SentenceTransformer model name (default: {EMBEDDING_MODEL_NAME})",
+        help=f"SentenceTransformer/Xinference embedding model name or UID (default: {EMBEDDING_MODEL_NAME})",
+    )
+    parser.add_argument(
+        "--embed_backend",
+        type=str,
+        default="st",
+        choices=["st", "xinference"],
+        help="Embedding backend: 'st' (sentence-transformers) or 'xinference' (OpenAI-compatible via Xinference)",
     )
     args = parser.parse_args()
 
@@ -291,30 +317,29 @@ def main():
     structured_cache = load_structured_cache(TRANSLATION_CACHE_FILE)
     sessions_df = pd.read_csv(args.sessions_csv)
 
-    # Select embedding model and whether to use instruction prefixes
+    # Select embedding model (prefix modifiers removed)
     embed_model_name = args.embed_model or EMBEDDING_MODEL_NAME
-    use_prefix = _needs_instruction_prefix(embed_model_name)
 
     try:
-        model = SentenceTransformer(embed_model_name)
-    except Exception as e:
-        print(f"Error loading SentenceTransformer model: {e}")
-        print(
-            "Please make sure 'sentence-transformers' is installed (`pip install sentence-transformers`)"
+        embedder = EmbeddingBackend(
+            backend=getattr(args, "embed_backend", "st"),
+            model_name=embed_model_name,
         )
+    except Exception as e:
+        print(f"Error initializing embedding backend: {e}")
         return
 
     # Prepare session texts and embeddings
     session_texts = []
     for _, row in sessions_df.iterrows():
         raw = f"{row.get('title', '')}. {row.get('abstract', '')}. {row.get('overview', '')}"
-        session_texts.append(_as_passage(raw, use_prefix))
+        session_texts.append(raw)
     print("  Encoding sessions...")
-    session_embeddings = model.encode(session_texts, show_progress_bar=True)
+    session_embeddings = embedder.encode(session_texts, show_progress_bar=True)
     print("Embeddings generated successfully.")
     print(f"Found {len(structured_cache)} BUs")
     print(f"Found {len(sessions_df)} sessions")
-    print(f"Using embedding model: {embed_model_name} (prefixes: {'on' if use_prefix else 'off'})")
+    print(f"Using embedding backend: {args.embed_backend}, model: {embed_model_name}")
 
     # Incremental mode: load existing output pairs to skip
     existing_pairs = set()
@@ -367,7 +392,7 @@ def main():
             # Encode queries and recall Top-M per query
             candidate_idx_set = set()
             for q in queries:
-                q_emb = model.encode(_as_query(q, use_prefix))
+                q_emb = embedder.encode([q])[0]
                 sims = cosine_similarity(
                     q_emb.reshape(1, -1), session_embeddings
                 ).ravel()
@@ -383,7 +408,7 @@ def main():
                 )
                 base_cosine_all = np.zeros(len(sessions_df), dtype=float)
             else:
-                summary_emb = model.encode(_as_query(summary, use_prefix))
+                summary_emb = embedder.encode([summary])[0]
                 base_cosine_all = cosine_similarity(
                     summary_emb.reshape(1, -1), session_embeddings
                 ).ravel()
@@ -568,8 +593,8 @@ BU Challenge Summary (English):
             bu_summaries_list.append({"bu_name": bu_name, "challenge_sumary": summary})
 
         print("\n[Step 3] Generating embeddings for BU summaries...")
-        summary_texts = [_as_query(entry["challenge_sumary"], use_prefix) for entry in bu_summaries_list]
-        bu_embeddings = model.encode(summary_texts, show_progress_bar=True)
+        summary_texts = [entry["challenge_sumary"] for entry in bu_summaries_list]
+        bu_embeddings = embedder.encode(summary_texts, show_progress_bar=True)
 
         print("\n[Step 4] Calculating cosine similarity...")
         similarity_matrix = cosine_similarity(bu_embeddings, session_embeddings)
