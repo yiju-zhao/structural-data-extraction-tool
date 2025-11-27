@@ -1,0 +1,47 @@
+{
+  "光Optical": {
+    "challenge_sumary": "Deploying neural combinatorial optimization for AI-driven network control faces foundational hurdles. Models must represent large, dynamic graph structure and strict discrete constraints, guarantee feasibility, and remain robust under nonstationary traffic, failures, and distribution shift. Achieving strong generalization across unseen topologies and demand regimes while providing anytime solutions and bounded suboptimality is essential. Learning needs to integrate with classical operations research via primal–dual methods, Lagrangian penalties, and certifiable post-processing, enabling hybrid solvers and warm starts. Training at scale demands sample-efficient imitation/offline RL, constraint-aware objectives, and procedurally generated curricula. Finally, low-latency, hardware-efficient inference and rigorous, KPI-aligned benchmarks are required for production optical routing and spectrum assignment.",
+    "key_points_en": [
+      "Constraint-satisfying NCO for routing, wavelength, and spectrum assignment on dynamic optical graphs.",
+      "Generalization across unseen topologies, traffic matrices, and failure scenarios with distribution shift.",
+      "Hybrid ML-OR pipelines: learning warm-starts, cuts, and heuristics with certifiable feasibility.",
+      "Scalable training with limited labels via imitation, offline RL, and self-play on procedurally generated instances.",
+      "Low-latency, hardware-aware inference (quantization, batching) with anytime performance and regret bounds.",
+      "Uncertainty-aware objectives: stochastic demands, multi-objective trade-offs, and service-level constraints.",
+      "Rigorous benchmarks, KPIs, and reproducible evaluation for network control tasks."
+    ],
+    "keywords_en": [
+      "neural combinatorial optimization",
+      "graph neural networks",
+      "attention pointer networks",
+      "transformer decoders",
+      "imitation learning",
+      "offline reinforcement learning",
+      "primal-dual optimization",
+      "Lagrangian relaxation",
+      "neuro-symbolic constraints",
+      "amortized inference",
+      "anytime algorithms",
+      "certifiable feasibility",
+      "hybrid ML-OR",
+      "routing and spectrum assignment",
+      "traffic engineering",
+      "topology generalization",
+      "uncertainty modeling",
+      "multi-objective optimization",
+      "edge inference",
+      "telecom KPIs"
+    ],
+    "candidate_queries_en": [
+      "Constraint-aware NCO with Lagrangian relaxation for optical routing",
+      "Generalization of learned heuristics across unseen network topologies",
+      "Low-latency amortized solvers for dynamic routing and spectrum assignment",
+      "Offline RL and imitation for telecom combinatorial control",
+      "Benchmarking NCO methods against OR baselines on network KPIs"
+    ],
+    "meta": {
+      "source_md_hash": "08cbf1a61e2ad9e2517d7cfacdbab5a9",
+      "generated_at": "2025-11-27T20:50:30.699382+00:00"
+    }
+  }
+}

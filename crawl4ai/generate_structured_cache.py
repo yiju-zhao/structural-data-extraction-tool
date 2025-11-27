@@ -17,8 +17,8 @@ import time
 load_dotenv()
 
 # --- Configuration ---
-RESEARCH_INTEREST_FILE = "research_interest.md"
-OUTPUT_CACHE_FILE = "team_translations_cache.json"
+RESEARCH_INTEREST_FILE = "research_interest_v3.md"
+OUTPUT_CACHE_FILE = "team_translations_cache_v3.json"
 MODEL_NAME = os.getenv("OPENAI_RICH_PROFILE_MODEL", "gpt-5")
 
 
