@@ -1,0 +1,850 @@
+Title: Active Measurement: Efficient Estimation at Scale
+Authors: Max Hamilton, Jinlin Lai, Wenlong Zhao, Subhransu Maji, Daniel Sheldon
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8103
+Link: https://openreview.net/pdf/e16ab3769c12c9856e0b5692485866ddb0ffee49.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+hamilton2025active,
+title={Active Measurement: Efficient Estimation at Scale},
+author={Max Hamilton and Jinlin Lai and Wenlong Zhao and Subhransu Maji and Daniel Sheldon},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=nFc38gSYze}
+}
+--------------------------------------------------------------------------------
+
+Title: AI-Researcher: Autonomous Scientific Innovation
+Authors: Jiabin Tang, Lianghao Xia, Zhonghang Li, Chao Huang
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.7944
+Link: https://openreview.net/pdf/a1c63cdd0495de94664b1513f7d95a3aedcb483a.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+tang2025airesearcher,
+title={{AI}-Researcher: Autonomous Scientific Innovation},
+author={Jiabin Tang and Lianghao Xia and Zhonghang Li and Chao Huang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=kQWyOYUAC4}
+}
+--------------------------------------------------------------------------------
+
+Title: AutoDiscovery: Open-ended Scientific Discovery via Bayesian Surprise
+Authors: Dhruv Agarwal, Bodhisattwa Prasad Majumder, Reece Adamson, Megha Chakravorty, Satvika Reddy Gavireddy, Aditya Parashar, Harshit Surana, Bhavana Dalvi Mishra, Andrew McCallum, Ashish Sabharwal, Peter Clark
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7507
+Link: https://openreview.net/pdf/a585b0d0a137dc03e5f215a5b1d5288868d4d6f6.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+agarwal2025autodiscovery,
+title={AutoDiscovery: Open-ended Scientific Discovery via Bayesian Surprise},
+author={Dhruv Agarwal and Bodhisattwa Prasad Majumder and Reece Adamson and Megha Chakravorty and Satvika Reddy Gavireddy and Aditya Parashar and Harshit Surana and Bhavana Dalvi Mishra and Andrew McCallum and Ashish Sabharwal and Peter Clark},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=kJqTkj2HhF}
+}
+--------------------------------------------------------------------------------
+
+Title: Bridging the Gap Between Cross-Domain Theory and Practical Application: A Case Study on Molecular Dissolution
+Authors: Sihan Wang, Wenjie Du, Qing Zhu, Yang Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7324
+Link: https://openreview.net/pdf/2895e7f7b1118ab8bdedd13f2fbea26947c603f4.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025bridging,
+title={Bridging the Gap Between Cross-Domain Theory and Practical Application: A Case Study on Molecular Dissolution},
+author={Sihan Wang and Wenjie Du and Qing Zhu and Yang Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=X6djSzDKps}
+}
+--------------------------------------------------------------------------------
+
+Title: AION-1: Omnimodal Foundation Model for Astronomical Sciences
+Authors: Liam Holden Parker, Francois Lanusse, Jeff Shen, Ollie Liu, Tom Hehir, Leopoldo Sarra, Lucas Thibaut Meyer, Micah Bowles, Sebastian Wagner-Carena, Helen Qu, Siavash Golkar, Alberto Bietti, Hatim Bourfoune, Pierre Cornette, Keiya Hirashima, Geraud Krawezik, Ruben Ohana, Nicholas Lourie, Michael McCabe, Rudy Morel, Payel Mukhopadhyay, Mariel Pettee, Kyunghyun Cho, Miles Cranmer, Shirley Ho
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7276
+Link: https://openreview.net/pdf/a319dc774bca9cb8ca346b9c30fd11596ec0f7e1.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+parker2025aion,
+title={{AION}-1: Omnimodal Foundation Model for Astronomical Sciences},
+author={Liam Holden Parker and Francois Lanusse and Jeff Shen and Ollie Liu and Tom Hehir and Leopoldo Sarra and Lucas Thibaut Meyer and Micah Bowles and Sebastian Wagner-Carena and Helen Qu and Siavash Golkar and Alberto Bietti and Hatim Bourfoune and Pierre Cornette and Keiya Hirashima and Geraud Krawezik and Ruben Ohana and Nicholas Lourie and Michael McCabe and Rudy Morel and Payel Mukhopadhyay and Mariel Pettee and Kyunghyun Cho and Miles Cranmer and Shirley Ho},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=6gJ2ZykQ5W}
+}
+--------------------------------------------------------------------------------
+
+Title: AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing
+Authors: Samuel Bright-Thonney, Christina Reissel, Gaia Grosso, Nathaniel S. Woodward, Katya Govorkova, Andrzej Novak, Sang Eon Park, Eric A. Moreno, Philip Harris
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7251
+Link: https://openreview.net/pdf/24448e230bc07ab076c1f2c372c05c127a5af6e5.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+bright-thonney2025autoscidact,
+title={AutoSci{DACT}: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing},
+author={Samuel Bright-Thonney and Christina Reissel and Gaia Grosso and Nathaniel S. Woodward and Katya Govorkova and Andrzej Novak and Sang Eon Park and Eric A. Moreno and Philip Harris},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=vKyiv67VWa}
+}
+--------------------------------------------------------------------------------
+
+Title: ALINE: Joint Amortization for Bayesian Inference and Active Data Acquisition
+Authors: Daolang Huang, Xinyi Wen, Ayush Bharti, Samuel Kaski, Luigi Acerbi
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.7181
+Link: https://openreview.net/pdf/48fe0e4bc3fa5b604da39cefa4d294425652fca6.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+huang2025aline,
+title={{ALINE}: Joint Amortization for Bayesian Inference and Active Data Acquisition},
+author={Daolang Huang and Xinyi Wen and Ayush Bharti and Samuel Kaski and Luigi Acerbi},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=btm5Z5Vu8G}
+}
+--------------------------------------------------------------------------------
+
+Title: A Plug-and-Play Query Synthesis Active Learning Framework for Neural PDE Solvers
+Authors: Zhiyuan Wang, Jinwoo Go, Byung-Jun Yoon, Nathan Urban, Xiaoning Qian
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7178
+Link: https://openreview.net/pdf/64327c2d770d0ae5f433220c3ea1f822e009766f.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025a,
+title={A Plug-and-Play Query Synthesis Active Learning Framework for Neural {PDE} Solvers},
+author={Zhiyuan Wang and Jinwoo Go and Byung-Jun Yoon and Nathan Urban and Xiaoning Qian},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=uyJcF4cwMc}
+}
+--------------------------------------------------------------------------------
+
+Title: SketchMind:  A Multi-Agent Cognitive Framework for Assessing Student-Drawn Scientific Sketches
+Authors: Ehsan Latif, Zirak Khan, Xiaoming Zhai
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7158
+Link: https://openreview.net/pdf/1f29ebbf550ce3d0ac8e2654e8faf2819c05fa9b.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+latif2025sketchmind,
+title={SketchMind:  A Multi-Agent Cognitive Framework for Assessing Student-Drawn Scientific Sketches},
+author={Ehsan Latif and Zirak Khan and Xiaoming Zhai},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=qS3WgmGs9s}
+}
+--------------------------------------------------------------------------------
+
+Title: Unveiling the Uncertainty in Embodied and Operational Carbon of Large AI Models through a Probabilistic Carbon Accounting Model
+Authors: Xiaoyang Zhang, He Fang, Yang Deng, Dan Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7157
+Link: https://openreview.net/pdf/3395c1415a13cf212388a9d2ee76fa5862815758.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+zhang2025unveiling,
+title={Unveiling the Uncertainty in Embodied and Operational Carbon of Large {AI} Models through a Probabilistic Carbon Accounting Model},
+author={Xiaoyang Zhang and He Fang and Yang Deng and Dan Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=9QyNYxKeKr}
+}
+--------------------------------------------------------------------------------
+
+Title: LeapFactual: Reliable Visual Counterfactual Explanation Using Conditional Flow Matching
+Authors: Zhuo Cao, Xuan Zhao, Lena Krieger, Hanno Scharr, Ira Assent
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7133
+Link: https://openreview.net/pdf/6326207ceaee50b951aded2d9c7205204c1c5d00.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+cao2025leapfactual,
+title={LeapFactual: Reliable Visual Counterfactual Explanation Using Conditional Flow Matching},
+author={Zhuo Cao and Xuan Zhao and Lena Krieger and Hanno Scharr and Ira Assent},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=DzQ8Dvt5qS}
+}
+--------------------------------------------------------------------------------
+
+Title: MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search
+Authors: Zonglin Yang, Wanhao Liu, Ben Gao, Yujie Liu, Wei Li, Tong Xie, Lidong Bing, Wanli Ouyang, Erik Cambria, Dongzhan Zhou
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.709
+Link: https://openreview.net/pdf/c882167545d3506b5c5a2eb7b5c1a0526cc477f3.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+yang2025moosechem,
+title={{MOOSE}-Chem2: Exploring {LLM} Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search},
+author={Zonglin Yang and Wanhao Liu and Ben Gao and Yujie Liu and Wei Li and Tong Xie and Lidong Bing and Wanli Ouyang and Erik Cambria and Dongzhan Zhou},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=Q3DtkFJ1Ap}
+}
+--------------------------------------------------------------------------------
+
+Title: Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization
+Authors: Yu Huang, Zixin Wen, Aarti Singh, Yuejie Chi, Yuxin Chen
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7077
+Link: https://openreview.net/pdf/ba051e0f1adb3538f8447d79cab371a4a52ab9a2.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+huang2025transformers,
+title={Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization},
+author={Yu Huang and Zixin Wen and Aarti Singh and Yuejie Chi and Yuxin Chen},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=aE0bCvXXBt}
+}
+--------------------------------------------------------------------------------
+
+Title: Uncertainty Quantification for Physics-Informed Neural Networks with Extended Fiducial Inference
+Authors: Frank Shih, Zhenghao Jiang, Faming Liang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7065
+Link: https://openreview.net/pdf/c7db5864a50631b2e139745b979ae38c2ee873ef.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+shih2025uncertainty,
+title={Uncertainty Quantification for Physics-Informed Neural Networks with Extended Fiducial Inference},
+author={Frank Shih and Zhenghao Jiang and Faming Liang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=HFcQGutJJn}
+}
+--------------------------------------------------------------------------------
+
+Title: Predicting Empirical AI Research Outcomes with Language Models
+Authors: Jiaxin Wen, Chenglei Si, Chen Yueh-Han, He He, Shi Feng
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7017
+Link: https://openreview.net/pdf/149b9e435472a05ff9bc8f5c3138e681d73132fd.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wen2025predicting,
+title={Predicting Empirical {AI} Research Outcomes with Language Models},
+author={Jiaxin Wen and Chenglei Si and Chen Yueh-Han and He He and Shi Feng},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=a64D9Vl7wK}
+}
+--------------------------------------------------------------------------------
+
+Title: Epistemic Uncertainty for Generated Image Detection
+Authors: Jun Nie, Yonggang Zhang, Tongliang Liu, Yiu-ming Cheung, Bo Han, Xinmei Tian
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6991
+Link: https://openreview.net/pdf/0346b866fecae4582a1a8e343d1724b2ceda3ca4.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+nie2025epistemic,
+title={Epistemic Uncertainty for Generated Image Detection},
+author={Jun Nie and Yonggang Zhang and Tongliang Liu and Yiu-ming Cheung and Bo Han and Xinmei Tian},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=5SqbLPaBww}
+}
+--------------------------------------------------------------------------------
+
+Title: Sample-efficient Learning of Concepts with Theoretical Guarantees: from Data to Concepts without Interventions
+Authors: Hidde Fokkema, Tim van Erven, Sara Magliacane
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.696
+Link: https://openreview.net/pdf/5fce45669f00d55192969c6bf4695d729cf4c32d.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+fokkema2025sampleefficient,
+title={Sample-efficient Learning of Concepts with Theoretical Guarantees: from Data to Concepts without Interventions},
+author={Hidde Fokkema and Tim van Erven and Sara Magliacane},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=RCXF0UEmuE}
+}
+--------------------------------------------------------------------------------
+
+Title: Score-informed Neural Operator for Enhancing Ordering-based Causal Discovery
+Authors: Jiyeon Kang, Songseong Kim, Chanhui Lee, Doyeong Hwang, Joanie Hayoun Chung, Yunkyung Ko, Sumin Lee, Sungwoong Kim, Sungbin Lim
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6959
+Link: https://openreview.net/pdf/c2504b851553727dae6a6d757f3665a4095d21ae.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+kang2025scoreinformed,
+title={Score-informed Neural Operator for Enhancing Ordering-based Causal Discovery},
+author={Jiyeon Kang and Songseong Kim and Chanhui Lee and Doyeong Hwang and Joanie Hayoun Chung and Yunkyung Ko and Sumin Lee and Sungwoong Kim and Sungbin Lim},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=U5w9l0yQdo}
+}
+--------------------------------------------------------------------------------
+
+Title: AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench
+Authors: Edan Toledo, Karen Hambardzumyan, Martin Josifoski, RISHI HAZRA, Nicolas Baldwin, Alexis Audran-Reiss, Michael Kuchnik, Despoina Magka, Minqi Jiang, Alisia Maria Lupidi, Andrei Lupu, Roberta Raileanu, Tatiana Shavrina, Kelvin Niu, Jean-Christophe Gagnon-Audet, Michael Shvartsman, Shagun Sodhani, Alexander H Miller, Abhishek Charnalia, Derek Dunfield, Carole-Jean Wu, Pontus Stenetorp, Nicola Cancedda, Jakob Nicolaus Foerster, Yoram Bachrach
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.6954
+Link: https://openreview.net/pdf/a22e34894b1de174131d79168e9a32bf5fefd3a5.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+toledo2025ai,
+title={{AI} Research Agents for Machine Learning: Search, Exploration, and Generalization in {MLE}-bench},
+author={Edan Toledo and Karen Hambardzumyan and Martin Josifoski and RISHI HAZRA and Nicolas Baldwin and Alexis Audran-Reiss and Michael Kuchnik and Despoina Magka and Minqi Jiang and Alisia Maria Lupidi and Andrei Lupu and Roberta Raileanu and Tatiana Shavrina and Kelvin Niu and Jean-Christophe Gagnon-Audet and Michael Shvartsman and Shagun Sodhani and Alexander H Miller and Abhishek Charnalia and Derek Dunfield and Carole-Jean Wu and Pontus Stenetorp and Nicola Cancedda and Jakob Nicolaus Foerster and Yoram Bachrach},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=RwfrdKSgCE}
+}
+--------------------------------------------------------------------------------
+
+Title: From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers
+Authors: Praneet Suresh, Jack Stanley, Sonia Joseph, Luca Scimeca, Danilo Bzdok
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6949
+Link: https://openreview.net/pdf/338d1115a9b7a074809c12b7d61ce9cbe4d68bbb.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+suresh2025from,
+title={From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers},
+author={Praneet Suresh and Jack Stanley and Sonia Joseph and Luca Scimeca and Danilo Bzdok},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=xd7cXU2P4G}
+}
+--------------------------------------------------------------------------------
+
+Title: Estimating Interventional Distributions with Uncertain Causal Graphs through Meta-Learning
+Authors: Anish Dhir, Cristiana Diaconu, Valentinian Mihai Lungu, James Requeima, Richard E. Turner, Mark van der Wilk
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6949
+Link: https://openreview.net/pdf/2a199284a88242614e66bb5f6405b802d56da768.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+dhir2025estimating,
+title={Estimating Interventional Distributions with Uncertain Causal Graphs through Meta-Learning},
+author={Anish Dhir and Cristiana Diaconu and Valentinian Mihai Lungu and James Requeima and Richard E. Turner and Mark van der Wilk},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=IQlcfc40Ja}
+}
+--------------------------------------------------------------------------------
+
+Title: AI Debate Aids Assessment of Controversial Claims
+Authors: Salman Rahman, Sheriff Issaka, Ashima Suvarna, Genglin Liu, James Shiffer, Jaeyoung Lee, Md Rizwan Parvez, Hamid Palangi, Shi Feng, Nanyun Peng, Yejin Choi, Julian Michael, Liwei Jiang, Saadia Gabriel
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6906
+Link: https://openreview.net/pdf/fd58fc85d4336f26d643c3f1bf5f1368d2cf8642.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+rahman2025ai,
+title={{AI} Debate Aids Assessment of Controversial Claims},
+author={Salman Rahman and Sheriff Issaka and Ashima Suvarna and Genglin Liu and James Shiffer and Jaeyoung Lee and Md Rizwan Parvez and Hamid Palangi and Shi Feng and Nanyun Peng and Yejin Choi and Julian Michael and Liwei Jiang and Saadia Gabriel},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=aXpbgG5z6I}
+}
+--------------------------------------------------------------------------------
+
+Title: Revealing Multimodal Causality with Large Language Models
+Authors: Jin Li, Shoujin Wang, Qi Zhang, Feng Liu, Tongliang Liu, Longbing Cao, Shui Yu, Fang Chen
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6895
+Link: https://openreview.net/pdf/6fd0ed368b98ef83e704c98c8326dd77b764dd02.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+li2025revealing,
+title={Revealing Multimodal Causality with Large Language Models},
+author={Jin Li and Shoujin Wang and Qi Zhang and Feng Liu and Tongliang Liu and Longbing Cao and Shui Yu and Fang Chen},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=nufqobhME7}
+}
+--------------------------------------------------------------------------------
+
+Title: Robust Sampling for Active Statistical Inference
+Authors: Puheng Li, Tijana Zrnic, Emmanuel Candes
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6873
+Link: https://openreview.net/pdf/1ef0de57566d25794ac344e2c032437bb681f181.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+li2025robust,
+title={Robust Sampling for Active Statistical Inference},
+author={Puheng Li and Tijana Zrnic and Emmanuel Candes},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=duVF6odtBO}
+}
+--------------------------------------------------------------------------------
+
+Title: KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment
+Authors: Yuxing Lu, Wei Wu, Xukai Zhao, Rui Peng, Jinzhuo Wang
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.6862
+Link: https://openreview.net/pdf/307d3a55037031950ed1e7b9a84ab6abf7eb8f4b.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+lu2025karma,
+title={{KARMA}: Leveraging Multi-Agent {LLM}s for Automated Knowledge Graph Enrichment},
+author={Yuxing Lu and Wei Wu and Xukai Zhao and Rui Peng and Jinzhuo Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=k0wyi4cOGy}
+}
+--------------------------------------------------------------------------------
+
+Title: FAME: Adaptive Functional Attention with Expert Routing for Function-on-Function Regression
+Authors: Yifei Gao, Yong Chen, Chen Zhang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6856
+Link: https://openreview.net/pdf/38c2191440f50d4ca7cc121075e1caf2423da876.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+gao2025fame,
+title={{FAME}: Adaptive Functional Attention with Expert Routing for Function-on-Function Regression},
+author={Yifei Gao and Yong Chen and Chen Zhang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=eLHIERUitQ}
+}
+--------------------------------------------------------------------------------
+
+Title: Right for the Right Reasons: Avoiding Reasoning Shortcuts via Prototypical Neurosymbolic AI
+Authors: Luca Andolfi, Eleonora Giunchiglia
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6842
+Link: https://openreview.net/pdf/84d2f5373daff534dde49d69f2d8c59328773580.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+andolfi2025right,
+title={Right for the Right Reasons: Avoiding Reasoning Shortcuts via Prototypical Neurosymbolic {AI}},
+author={Luca Andolfi and Eleonora Giunchiglia},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=eb71SNTjux}
+}
+--------------------------------------------------------------------------------
+
+Title: Differentiable Constraint-Based Causal Discovery
+Authors: Jincheng Zhou, Mengbo Wang, Anqi He, Yumeng Zhou, Hessam Olya, Murat Kocaoglu, Bruno Ribeiro
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6836
+Link: https://openreview.net/pdf/cd5653c955ef83374ba24bd1bf3c405232cf9d99.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+zhou2025differentiable,
+title={Differentiable Constraint-Based Causal Discovery},
+author={Jincheng Zhou and Mengbo Wang and Anqi He and Yumeng Zhou and Hessam Olya and Murat Kocaoglu and Bruno Ribeiro},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=0IyP6PnlfG}
+}
+--------------------------------------------------------------------------------
+
+Title: Graph-based Symbolic Regression with Invariance and Constraint Encoding
+Authors: Ziyu Xiang, Kenna Ashen, Xiaofeng Qian, Xiaoning Qian
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6829
+Link: https://openreview.net/pdf/b19b710f8ab444e3ef488edcfe96eeda8abcdcdb.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+xiang2025graphbased,
+title={Graph-based Symbolic Regression with Invariance and Constraint Encoding},
+author={Ziyu Xiang and Kenna Ashen and Xiaofeng Qian and Xiaoning Qian},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=JYB6wFcbky}
+}
+--------------------------------------------------------------------------------
+
+Title: MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem
+Authors: Fan Liu, Zhe-Rui Yang, Cancheng Liu, Tianrui SONG, Xiaofeng Gao, Hao Liu
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6827
+Link: https://openreview.net/pdf/e01a39be0de98c2f808394f7affa2bfb004c68a5.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+liu2025mmagent,
+title={{MM}-Agent: {LLM} as Agents for Real-world Mathematical Modeling Problem},
+author={Fan Liu and Zhe-Rui Yang and Cancheng Liu and Tianrui SONG and Xiaofeng Gao and Hao Liu},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=o8n5oNDsiq}
+}
+--------------------------------------------------------------------------------
+
+Title: Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training
+Authors: Mengru Wang, Xingyu Chen, Yue Wang, Zhiwei He, Jiahao Xu, Tian Liang, Qiuzhi Liu, Yunzhi Yao, Wenxuan Wang, Ruotian Ma, Haitao Mi, Ningyu Zhang, Zhaopeng Tu, Xiaolong Li, Dong Yu
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6818
+Link: https://openreview.net/pdf/b3d520dcc1510df18760c246a1815ddcfda65d7e.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025two,
+title={Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training},
+author={Mengru Wang and Xingyu Chen and Yue Wang and Zhiwei He and Jiahao Xu and Tian Liang and Qiuzhi Liu and Yunzhi Yao and Wenxuan Wang and Ruotian Ma and Haitao Mi and Ningyu Zhang and Zhaopeng Tu and Xiaolong Li and Dong Yu},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=x7fCiuCCAu}
+}
+--------------------------------------------------------------------------------
+
+Title: Measuring AI Ability to Complete Long Software Tasks
+Authors: Thomas Kwa, Ben West, Joel Becker, Amy Deng, Katharyn Garcia, Max Hasin, Sami Jawhar, Megan Kinniment, Nate Rush, Sydney Von Arx, Ryan Bloom, Thomas Broadley, Haoxing Du, Brian Goodrich, Nikola Jurkovic, Luke Harold Miles, Seraphina Nix, Tao Roa Lin, Neev Parikh, David Rein, Lucas Jun Koba Sato, Hjalmar Wijk, Daniel M Ziegler, Elizabeth Barnes, Lawrence Chan
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6809
+Link: https://openreview.net/pdf/402f09e70f9d9e6a99edbcaaa360692d05eec7ab.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+kwa2025measuring,
+title={Measuring {AI} Ability to Complete Long Software Tasks},
+author={Thomas Kwa and Ben West and Joel Becker and Amy Deng and Katharyn Garcia and Max Hasin and Sami Jawhar and Megan Kinniment and Nate Rush and Sydney Von Arx and Ryan Bloom and Thomas Broadley and Haoxing Du and Brian Goodrich and Nikola Jurkovic and Luke Harold Miles and Seraphina Nix and Tao Roa Lin and Neev Parikh and David Rein and Lucas Jun Koba Sato and Hjalmar Wijk and Daniel M Ziegler and Elizabeth Barnes and Lawrence Chan},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=CGNJL6CeV0}
+}
+--------------------------------------------------------------------------------
+
+Title: Valid Inference with Imperfect Synthetic Data
+Authors: Yewon Byun, Shantanu Gupta, Zachary Chase Lipton, Rachel Leah Childers, Bryan Wilder
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6804
+Link: https://openreview.net/pdf/31c62b786c16bf6e8d1a58dd0f150826e98bcbbc.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+byun2025valid,
+title={Valid Inference with Imperfect Synthetic Data},
+author={Yewon Byun and Shantanu Gupta and Zachary Chase Lipton and Rachel Leah Childers and Bryan Wilder},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=nG0URHBvFW}
+}
+--------------------------------------------------------------------------------
+
+Title: Post Hoc Regression Refinement via Pairwise Rankings
+Authors: Kevin Tirta Wijaya, Michael Sun, Minghao Guo, Hans-peter Seidel, Wojciech Matusik, Vahid Babaei
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6803
+Link: https://openreview.net/pdf/401d2d668696668846f8767f7556c7d4ebfd9df3.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wijaya2025post,
+title={Post Hoc Regression Refinement via Pairwise Rankings},
+author={Kevin Tirta Wijaya and Michael Sun and Minghao Guo and Hans-peter Seidel and Wojciech Matusik and Vahid Babaei},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=CmKar1zptJ}
+}
+--------------------------------------------------------------------------------
+
+Title: CHiQPM: Calibrated Hierarchical Interpretable Image Classification
+Authors: Thomas Norrenbrock, Timo Kaiser, Sovan Biswas, Neslihan Kose, Ramesh Manuvinakurike, Bodo Rosenhahn
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6794
+Link: https://openreview.net/pdf/337b2a81a3f0ce0d429642c2e3cc78e24a766cab.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+norrenbrock2025chiqpm,
+title={{CH}i{QPM}: Calibrated Hierarchical Interpretable Image Classification},
+author={Thomas Norrenbrock and Timo Kaiser and Sovan Biswas and Neslihan Kose and Ramesh Manuvinakurike and Bodo Rosenhahn},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=jDJUjqUies}
+}
+--------------------------------------------------------------------------------
+
+Title: ElliCE: Efficient and Provably Robust Algorithmic Recourse via the Rashomon Sets
+Authors: Bohdan Turbal, Iryna Voitsitska, Lesia Semenova
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.6787
+Link: https://openreview.net/pdf/f59d93d5b3a7a15be7221bf90c47d410aabedea6.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+turbal2025ellice,
+title={Elli{CE}: Efficient and Provably Robust Algorithmic Recourse via the Rashomon Sets},
+author={Bohdan Turbal and Iryna Voitsitska and Lesia Semenova},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=GNDgQie8W4}
+}
+--------------------------------------------------------------------------------
+
+Title: PINN Balls: Scaling Second-Order Methods for PINNs with Domain Decomposition and Adaptive Sampling
+Authors: Andrea Bonfanti, Ismael Medina, Roman List, Björn Staeves, Roberto Santana, Marco Ellero
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.677
+Link: https://openreview.net/pdf/ee853a178e7325722b8542ea242c00a2daba34be.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+bonfanti2025pinn,
+title={{PINN} Balls: Scaling Second-Order Methods for {PINN}s with Domain Decomposition and Adaptive Sampling},
+author={Andrea Bonfanti and Ismael Medina and Roman List and Bj{\"o}rn Staeves and Roberto Santana and Marco Ellero},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=xhKsnxJ9FD}
+}
+--------------------------------------------------------------------------------
+
+Title: Enhancing Deep Batch Active Learning for Regression with Imperfect Data Guided Selection
+Authors: Yinjie Min, Furong Xu, Xinyao Li, Changliang Zou, Yongdao Zhou
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6761
+Link: https://openreview.net/pdf/5713c56e4809e80e5f27c7476700542f9905ee03.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+min2025enhancing,
+title={Enhancing Deep Batch Active Learning for Regression with Imperfect Data Guided Selection},
+author={Yinjie Min and Furong Xu and Xinyao Li and Changliang Zou and Yongdao Zhou},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=i5rApSWC9E}
+}
+--------------------------------------------------------------------------------
+
+Title: From Euler to AI: Unifying Formulas for Mathematical Constants
+Authors: Tomer Raz, Michael Shalyt, Elyasheev Leibtag, Rotem Kalisch, Shachar Weinbaum, Yaron Hadad, Ido Kaminer
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6752
+Link: https://openreview.net/pdf/0cdf30240bc7f4bd5849021ad0fb0c869a8b1ee5.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+raz2025from,
+title={From Euler to {AI}: Unifying Formulas for Mathematical Constants},
+author={Tomer Raz and Michael Shalyt and Elyasheev Leibtag and Rotem Kalisch and Shachar Weinbaum and Yaron Hadad and Ido Kaminer},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=cNqMAmpZh4}
+}
+--------------------------------------------------------------------------------
+
+Title: Agnostic Active Learning Is Always Better Than Passive Learning
+Authors: Steve Hanneke
+Venue: NeurIPS 2025 Oral
+Affinity Score: 0.675
+Link: https://openreview.net/pdf/94f81d674cd7515ab9afcee952a96a32eb663874.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+hanneke2025agnostic,
+title={Agnostic Active Learning Is Always Better Than Passive Learning},
+author={Steve Hanneke},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=XPe55Uffd7}
+}
+--------------------------------------------------------------------------------
+
+Title: MLZero: A Multi-Agent System for End-to-end Machine Learning Automation
+Authors: Haoyang Fang, Boran Han, Nick Erickson, Xiyuan Zhang, Su Zhou, Anirudh Dagar, Jiani Zhang, Ali Caner Turkmen, Cuixiong Hu, Huzefa Rangwala, Ying Nian Wu, Bernie Wang, George Karypis
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6727
+Link: https://openreview.net/pdf/55f28109c8ee532fe1c950142c23f6efd636a79e.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+fang2025mlzero,
+title={{MLZ}ero: A Multi-Agent System for End-to-end Machine Learning Automation},
+author={Haoyang Fang and Boran Han and Nick Erickson and Xiyuan Zhang and Su Zhou and Anirudh Dagar and Jiani Zhang and Ali Caner Turkmen and Cuixiong Hu and Huzefa Rangwala and Ying Nian Wu and Bernie Wang and George Karypis},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=9t7gfYUp0U}
+}
+--------------------------------------------------------------------------------
+
+Title: Understanding LLM Behaviors via Compression: Data Generation, Knowledge Acquisition and Scaling Laws
+Authors: Zhixuan Pan, Shaowen Wang, Liao Pengfei, Jian Li
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.6725
+Link: https://openreview.net/pdf/95f61a66375ba3e46803c24b0ddc45e0df29334d.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+pan2025understanding,
+title={Understanding {LLM} Behaviors via Compression: Data Generation, Knowledge Acquisition and Scaling Laws},
+author={Zhixuan Pan and Shaowen Wang and Liao Pengfei and Jian Li},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=853SwC2dMZ}
+}
+--------------------------------------------------------------------------------
+
+Title: True Zero-Shot Inference of Dynamical Systems Preserving Long-Term Statistics
+Authors: Christoph Jürgen Hemmer, Daniel Durstewitz
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6716
+Link: https://openreview.net/pdf/b8ade727fbcbc039f46054a253def174a74fd065.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+hemmer2025true,
+title={True Zero-Shot Inference of Dynamical Systems Preserving Long-Term Statistics},
+author={Christoph J{\"u}rgen Hemmer and Daniel Durstewitz},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=RE97LT26w8}
+}
+--------------------------------------------------------------------------------
+
+Title: Handling Missing Responses under Cluster Dependence with Applications to Language Model Evaluation
+Authors: Zhenghao Zeng, David Arbour, Avi Feller, Ishita Dasgupta, Atanu R. Sinha, Edward Kennedy
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6674
+Link: https://openreview.net/pdf/d90a160ec9f7f7178346bc44f5642f17126bb2bc.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+zeng2025handling,
+title={Handling Missing Responses under Cluster Dependence with Applications to Language Model Evaluation},
+author={Zhenghao Zeng and David Arbour and Avi Feller and Ishita Dasgupta and Atanu R. Sinha and Edward Kennedy},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=PdKhoj6goO}
+}
+--------------------------------------------------------------------------------
+
+Title: GRIP: A Graph-Based Reasoning Instruction Producer
+Authors: Jiankang Wang, Jianjun Xu, Xiaorui Wang, Yuxin Wang, Mengting Xing, Shancheng Fang, Hongtao Xie
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6673
+Link: https://openreview.net/pdf/9ef2967c43fa97f6b4cfdddaf146abf156250794.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025grip,
+title={{GRIP}: A Graph-Based Reasoning Instruction Producer},
+author={Jiankang Wang and Jianjun Xu and Xiaorui Wang and Yuxin Wang and Mengting Xing and Shancheng Fang and Hongtao Xie},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=36TBVGwzAY}
+}
+--------------------------------------------------------------------------------
+
+Title: Quantifying Uncertainty in Error Consistency: Towards Reliable Behavioral Comparison of Classifiers
+Authors: Thomas Klein, Sascha Meyen, Wieland Brendel, Felix A. Wichmann, Kristof Meding
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6651
+Link: https://openreview.net/pdf/4234e2b23ce13c7c12032aa8eb787d764ee3cacc.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+klein2025quantifying,
+title={Quantifying Uncertainty in Error Consistency: Towards Reliable Behavioral Comparison of Classifiers},
+author={Thomas Klein and Sascha Meyen and Wieland Brendel and Felix A. Wichmann and Kristof Meding},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=ngBOb9wSYN}
+}
+--------------------------------------------------------------------------------
+
+Title: A Difference-of-Convex Functions Approach to Energy-Based Iterative Reasoning
+Authors: Daniel Tschernutter, David Diego Castro, Maciej Kasiński
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6649
+Link: https://openreview.net/pdf/57ffc92870ea3bb50ac29e1a401007fe9edc5517.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+tschernutter2025a,
+title={A Difference-of-Convex Functions Approach to Energy-Based Iterative Reasoning},
+author={Daniel Tschernutter and David Diego Castro and Maciej Kasi{\'n}ski},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=QvsDTpf4yF}
+}
+--------------------------------------------------------------------------------
+
+Title: Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs
+Authors: Mantas Mazeika, Xuwang Yin, Rishub Tamirisa, Jaehyuk Lim, Bruce W. Lee, Richard Ren, Long Phan, Norman Mu, Oliver Zhang, Dan Hendrycks
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.6648
+Link: https://openreview.net/pdf/dc8b5043fef68fe527f6020ce8fc34b2b7e8649c.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+mazeika2025utility,
+title={Utility Engineering: Analyzing and Controlling Emergent Value Systems in {AI}s},
+author={Mantas Mazeika and Xuwang Yin and Rishub Tamirisa and Jaehyuk Lim and Bruce W. Lee and Richard Ren and Long Phan and Norman Mu and Oliver Zhang and Dan Hendrycks},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=x9vcgXmRD0}
+}
+--------------------------------------------------------------------------------
+
+Title: Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage RL
+Authors: Songjun Tu, Jiahao Lin, Qichao Zhang, Xiangyu Tian, Linjing Li, Xiangyuan Lan, Dongbin Zhao
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.6647
+Link: https://openreview.net/pdf/dc89a6b0221240f7e120c7bd39c116d57711eec4.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+tu2025learning,
+title={Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage {RL}},
+author={Songjun Tu and Jiahao Lin and Qichao Zhang and Xiangyu Tian and Linjing Li and Xiangyuan Lan and Dongbin Zhao},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=Hs3FrjwyVZ}
+}
+--------------------------------------------------------------------------------
+
+Title: Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees
+Authors: Sangwoo Park, Matteo Zecchin, Osvaldo Simeone
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.6647
+Link: https://openreview.net/pdf/42cf5e1bbaeccd15c151a00a71cb2d9ecef2aa6f.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+park2025adaptive,
+title={Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees},
+author={Sangwoo Park and Matteo Zecchin and Osvaldo Simeone},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=nfhmjdZUbQ}
+}
+--------------------------------------------------------------------------------
+

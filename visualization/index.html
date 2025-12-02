@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Paper Finder Results</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: var(--text-primary);
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+        }
+
+        input[type="text"] {
+            padding: 10px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            width: 300px;
+            font-size: 0.95rem;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .stats {
+            margin-bottom: 20px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .score {
+            background-color: #eff6ff;
+            color: var(--primary-color);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            white-space: nowrap;
+            margin-left: 10px;
+        }
+
+        .title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+            line-height: 1.4;
+        }
+
+        .title a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .title a:hover {
+            color: var(--primary-color);
+        }
+
+        .meta {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        .meta div {
+            margin-bottom: 4px;
+        }
+
+        .venue {
+            display: inline-block;
+            background-color: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .actions {
+            margin-top: auto;
+            padding-top: 15px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-small {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+            background-color: transparent;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-small:hover {
+            background-color: #f8fafc;
+            color: var(--text-primary);
+        }
+
+        .bibtex-area {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f1f5f9;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.8rem;
+            white-space: pre-wrap;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Paper Finder Results</h1>
+            <div class="controls">
+                <input type="text" id="searchInput" placeholder="Search title, authors, or keywords...">
+                <button onclick="exportCSV()">Export CSV</button>
+            </div>
+        </header>
+
+        <div class="stats" id="stats">Loading papers...</div>
+        <div class="grid" id="paperGrid"></div>
+    </div>
+
+    <script>
+        let allPapers = [];
+
+        async function loadPapers() {
+            try {
+                allPapers = [
+  {
+    "title": "Active Measurement: Efficient Estimation at Scale",
+    "authors": "Max Hamilton, Jinlin Lai, Wenlong Zhao, Subhransu Maji, Daniel Sheldon",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.8103,
+    "link": "https://openreview.net/pdf/e16ab3769c12c9856e0b5692485866ddb0ffee49.pdf",
+    "bibtex": "@inproceedings{\nhamilton2025active,\ntitle={Active Measurement: Efficient Estimation at Scale},\nauthor={Max Hamilton and Jinlin Lai and Wenlong Zhao and Subhransu Maji and Daniel Sheldon},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=nFc38gSYze}\n}"
+  },
+  {
+    "title": "AI-Researcher: Autonomous Scientific Innovation",
+    "authors": "Jiabin Tang, Lianghao Xia, Zhonghang Li, Chao Huang",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.7944,
+    "link": "https://openreview.net/pdf/a1c63cdd0495de94664b1513f7d95a3aedcb483a.pdf",
+    "bibtex": "@inproceedings{\ntang2025airesearcher,\ntitle={{AI}-Researcher: Autonomous Scientific Innovation},\nauthor={Jiabin Tang and Lianghao Xia and Zhonghang Li and Chao Huang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=kQWyOYUAC4}\n}"
+  },
+  {
+    "title": "AutoDiscovery: Open-ended Scientific Discovery via Bayesian Surprise",
+    "authors": "Dhruv Agarwal, Bodhisattwa Prasad Majumder, Reece Adamson, Megha Chakravorty, Satvika Reddy Gavireddy, Aditya Parashar, Harshit Surana, Bhavana Dalvi Mishra, Andrew McCallum, Ashish Sabharwal, Peter Clark",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7507,
+    "link": "https://openreview.net/pdf/a585b0d0a137dc03e5f215a5b1d5288868d4d6f6.pdf",
+    "bibtex": "@inproceedings{\nagarwal2025autodiscovery,\ntitle={AutoDiscovery: Open-ended Scientific Discovery via Bayesian Surprise},\nauthor={Dhruv Agarwal and Bodhisattwa Prasad Majumder and Reece Adamson and Megha Chakravorty and Satvika Reddy Gavireddy and Aditya Parashar and Harshit Surana and Bhavana Dalvi Mishra and Andrew McCallum and Ashish Sabharwal and Peter Clark},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=kJqTkj2HhF}\n}"
+  },
+  {
+    "title": "Bridging the Gap Between Cross-Domain Theory and Practical Application: A Case Study on Molecular Dissolution",
+    "authors": "Sihan Wang, Wenjie Du, Qing Zhu, Yang Wang",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7324,
+    "link": "https://openreview.net/pdf/2895e7f7b1118ab8bdedd13f2fbea26947c603f4.pdf",
+    "bibtex": "@inproceedings{\nwang2025bridging,\ntitle={Bridging the Gap Between Cross-Domain Theory and Practical Application: A Case Study on Molecular Dissolution},\nauthor={Sihan Wang and Wenjie Du and Qing Zhu and Yang Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=X6djSzDKps}\n}"
+  },
+  {
+    "title": "AION-1: Omnimodal Foundation Model for Astronomical Sciences",
+    "authors": "Liam Holden Parker, Francois Lanusse, Jeff Shen, Ollie Liu, Tom Hehir, Leopoldo Sarra, Lucas Thibaut Meyer, Micah Bowles, Sebastian Wagner-Carena, Helen Qu, Siavash Golkar, Alberto Bietti, Hatim Bourfoune, Pierre Cornette, Keiya Hirashima, Geraud Krawezik, Ruben Ohana, Nicholas Lourie, Michael McCabe, Rudy Morel, Payel Mukhopadhyay, Mariel Pettee, Kyunghyun Cho, Miles Cranmer, Shirley Ho",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7276,
+    "link": "https://openreview.net/pdf/a319dc774bca9cb8ca346b9c30fd11596ec0f7e1.pdf",
+    "bibtex": "@inproceedings{\nparker2025aion,\ntitle={{AION}-1: Omnimodal Foundation Model for Astronomical Sciences},\nauthor={Liam Holden Parker and Francois Lanusse and Jeff Shen and Ollie Liu and Tom Hehir and Leopoldo Sarra and Lucas Thibaut Meyer and Micah Bowles and Sebastian Wagner-Carena and Helen Qu and Siavash Golkar and Alberto Bietti and Hatim Bourfoune and Pierre Cornette and Keiya Hirashima and Geraud Krawezik and Ruben Ohana and Nicholas Lourie and Michael McCabe and Rudy Morel and Payel Mukhopadhyay and Mariel Pettee and Kyunghyun Cho and Miles Cranmer and Shirley Ho},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=6gJ2ZykQ5W}\n}"
+  },
+  {
+    "title": "AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing",
+    "authors": "Samuel Bright-Thonney, Christina Reissel, Gaia Grosso, Nathaniel S. Woodward, Katya Govorkova, Andrzej Novak, Sang Eon Park, Eric A. Moreno, Philip Harris",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7251,
+    "link": "https://openreview.net/pdf/24448e230bc07ab076c1f2c372c05c127a5af6e5.pdf",
+    "bibtex": "@inproceedings{\nbright-thonney2025autoscidact,\ntitle={AutoSci{DACT}: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing},\nauthor={Samuel Bright-Thonney and Christina Reissel and Gaia Grosso and Nathaniel S. Woodward and Katya Govorkova and Andrzej Novak and Sang Eon Park and Eric A. Moreno and Philip Harris},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=vKyiv67VWa}\n}"
+  },
+  {
+    "title": "ALINE: Joint Amortization for Bayesian Inference and Active Data Acquisition",
+    "authors": "Daolang Huang, Xinyi Wen, Ayush Bharti, Samuel Kaski, Luigi Acerbi",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.7181,
+    "link": "https://openreview.net/pdf/48fe0e4bc3fa5b604da39cefa4d294425652fca6.pdf",
+    "bibtex": "@inproceedings{\nhuang2025aline,\ntitle={{ALINE}: Joint Amortization for Bayesian Inference and Active Data Acquisition},\nauthor={Daolang Huang and Xinyi Wen and Ayush Bharti and Samuel Kaski and Luigi Acerbi},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=btm5Z5Vu8G}\n}"
+  },
+  {
+    "title": "A Plug-and-Play Query Synthesis Active Learning Framework for Neural PDE Solvers",
+    "authors": "Zhiyuan Wang, Jinwoo Go, Byung-Jun Yoon, Nathan Urban, Xiaoning Qian",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7178,
+    "link": "https://openreview.net/pdf/64327c2d770d0ae5f433220c3ea1f822e009766f.pdf",
+    "bibtex": "@inproceedings{\nwang2025a,\ntitle={A Plug-and-Play Query Synthesis Active Learning Framework for Neural {PDE} Solvers},\nauthor={Zhiyuan Wang and Jinwoo Go and Byung-Jun Yoon and Nathan Urban and Xiaoning Qian},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=uyJcF4cwMc}\n}"
+  },
+  {
+    "title": "SketchMind:  A Multi-Agent Cognitive Framework for Assessing Student-Drawn Scientific Sketches",
+    "authors": "Ehsan Latif, Zirak Khan, Xiaoming Zhai",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7158,
+    "link": "https://openreview.net/pdf/1f29ebbf550ce3d0ac8e2654e8faf2819c05fa9b.pdf",
+    "bibtex": "@inproceedings{\nlatif2025sketchmind,\ntitle={SketchMind:  A Multi-Agent Cognitive Framework for Assessing Student-Drawn Scientific Sketches},\nauthor={Ehsan Latif and Zirak Khan and Xiaoming Zhai},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=qS3WgmGs9s}\n}"
+  },
+  {
+    "title": "Unveiling the Uncertainty in Embodied and Operational Carbon of Large AI Models through a Probabilistic Carbon Accounting Model",
+    "authors": "Xiaoyang Zhang, He Fang, Yang Deng, Dan Wang",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7157,
+    "link": "https://openreview.net/pdf/3395c1415a13cf212388a9d2ee76fa5862815758.pdf",
+    "bibtex": "@inproceedings{\nzhang2025unveiling,\ntitle={Unveiling the Uncertainty in Embodied and Operational Carbon of Large {AI} Models through a Probabilistic Carbon Accounting Model},\nauthor={Xiaoyang Zhang and He Fang and Yang Deng and Dan Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=9QyNYxKeKr}\n}"
+  },
+  {
+    "title": "LeapFactual: Reliable Visual Counterfactual Explanation Using Conditional Flow Matching",
+    "authors": "Zhuo Cao, Xuan Zhao, Lena Krieger, Hanno Scharr, Ira Assent",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7133,
+    "link": "https://openreview.net/pdf/6326207ceaee50b951aded2d9c7205204c1c5d00.pdf",
+    "bibtex": "@inproceedings{\ncao2025leapfactual,\ntitle={LeapFactual: Reliable Visual Counterfactual Explanation Using Conditional Flow Matching},\nauthor={Zhuo Cao and Xuan Zhao and Lena Krieger and Hanno Scharr and Ira Assent},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=DzQ8Dvt5qS}\n}"
+  },
+  {
+    "title": "MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search",
+    "authors": "Zonglin Yang, Wanhao Liu, Ben Gao, Yujie Liu, Wei Li, Tong Xie, Lidong Bing, Wanli Ouyang, Erik Cambria, Dongzhan Zhou",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.709,
+    "link": "https://openreview.net/pdf/c882167545d3506b5c5a2eb7b5c1a0526cc477f3.pdf",
+    "bibtex": "@inproceedings{\nyang2025moosechem,\ntitle={{MOOSE}-Chem2: Exploring {LLM} Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search},\nauthor={Zonglin Yang and Wanhao Liu and Ben Gao and Yujie Liu and Wei Li and Tong Xie and Lidong Bing and Wanli Ouyang and Erik Cambria and Dongzhan Zhou},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=Q3DtkFJ1Ap}\n}"
+  },
+  {
+    "title": "Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization",
+    "authors": "Yu Huang, Zixin Wen, Aarti Singh, Yuejie Chi, Yuxin Chen",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7077,
+    "link": "https://openreview.net/pdf/ba051e0f1adb3538f8447d79cab371a4a52ab9a2.pdf",
+    "bibtex": "@inproceedings{\nhuang2025transformers,\ntitle={Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization},\nauthor={Yu Huang and Zixin Wen and Aarti Singh and Yuejie Chi and Yuxin Chen},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=aE0bCvXXBt}\n}"
+  },
+  {
+    "title": "Uncertainty Quantification for Physics-Informed Neural Networks with Extended Fiducial Inference",
+    "authors": "Frank Shih, Zhenghao Jiang, Faming Liang",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7065,
+    "link": "https://openreview.net/pdf/c7db5864a50631b2e139745b979ae38c2ee873ef.pdf",
+    "bibtex": "@inproceedings{\nshih2025uncertainty,\ntitle={Uncertainty Quantification for Physics-Informed Neural Networks with Extended Fiducial Inference},\nauthor={Frank Shih and Zhenghao Jiang and Faming Liang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=HFcQGutJJn}\n}"
+  },
+  {
+    "title": "Predicting Empirical AI Research Outcomes with Language Models",
+    "authors": "Jiaxin Wen, Chenglei Si, Chen Yueh-Han, He He, Shi Feng",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.7017,
+    "link": "https://openreview.net/pdf/149b9e435472a05ff9bc8f5c3138e681d73132fd.pdf",
+    "bibtex": "@inproceedings{\nwen2025predicting,\ntitle={Predicting Empirical {AI} Research Outcomes with Language Models},\nauthor={Jiaxin Wen and Chenglei Si and Chen Yueh-Han and He He and Shi Feng},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=a64D9Vl7wK}\n}"
+  },
+  {
+    "title": "Epistemic Uncertainty for Generated Image Detection",
+    "authors": "Jun Nie, Yonggang Zhang, Tongliang Liu, Yiu-ming Cheung, Bo Han, Xinmei Tian",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6991,
+    "link": "https://openreview.net/pdf/0346b866fecae4582a1a8e343d1724b2ceda3ca4.pdf",
+    "bibtex": "@inproceedings{\nnie2025epistemic,\ntitle={Epistemic Uncertainty for Generated Image Detection},\nauthor={Jun Nie and Yonggang Zhang and Tongliang Liu and Yiu-ming Cheung and Bo Han and Xinmei Tian},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=5SqbLPaBww}\n}"
+  },
+  {
+    "title": "Sample-efficient Learning of Concepts with Theoretical Guarantees: from Data to Concepts without Interventions",
+    "authors": "Hidde Fokkema, Tim van Erven, Sara Magliacane",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.696,
+    "link": "https://openreview.net/pdf/5fce45669f00d55192969c6bf4695d729cf4c32d.pdf",
+    "bibtex": "@inproceedings{\nfokkema2025sampleefficient,\ntitle={Sample-efficient Learning of Concepts with Theoretical Guarantees: from Data to Concepts without Interventions},\nauthor={Hidde Fokkema and Tim van Erven and Sara Magliacane},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=RCXF0UEmuE}\n}"
+  },
+  {
+    "title": "Score-informed Neural Operator for Enhancing Ordering-based Causal Discovery",
+    "authors": "Jiyeon Kang, Songseong Kim, Chanhui Lee, Doyeong Hwang, Joanie Hayoun Chung, Yunkyung Ko, Sumin Lee, Sungwoong Kim, Sungbin Lim",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6959,
+    "link": "https://openreview.net/pdf/c2504b851553727dae6a6d757f3665a4095d21ae.pdf",
+    "bibtex": "@inproceedings{\nkang2025scoreinformed,\ntitle={Score-informed Neural Operator for Enhancing Ordering-based Causal Discovery},\nauthor={Jiyeon Kang and Songseong Kim and Chanhui Lee and Doyeong Hwang and Joanie Hayoun Chung and Yunkyung Ko and Sumin Lee and Sungwoong Kim and Sungbin Lim},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=U5w9l0yQdo}\n}"
+  },
+  {
+    "title": "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench",
+    "authors": "Edan Toledo, Karen Hambardzumyan, Martin Josifoski, RISHI HAZRA, Nicolas Baldwin, Alexis Audran-Reiss, Michael Kuchnik, Despoina Magka, Minqi Jiang, Alisia Maria Lupidi, Andrei Lupu, Roberta Raileanu, Tatiana Shavrina, Kelvin Niu, Jean-Christophe Gagnon-Audet, Michael Shvartsman, Shagun Sodhani, Alexander H Miller, Abhishek Charnalia, Derek Dunfield, Carole-Jean Wu, Pontus Stenetorp, Nicola Cancedda, Jakob Nicolaus Foerster, Yoram Bachrach",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6954,
+    "link": "https://openreview.net/pdf/a22e34894b1de174131d79168e9a32bf5fefd3a5.pdf",
+    "bibtex": "@inproceedings{\ntoledo2025ai,\ntitle={{AI} Research Agents for Machine Learning: Search, Exploration, and Generalization in {MLE}-bench},\nauthor={Edan Toledo and Karen Hambardzumyan and Martin Josifoski and RISHI HAZRA and Nicolas Baldwin and Alexis Audran-Reiss and Michael Kuchnik and Despoina Magka and Minqi Jiang and Alisia Maria Lupidi and Andrei Lupu and Roberta Raileanu and Tatiana Shavrina and Kelvin Niu and Jean-Christophe Gagnon-Audet and Michael Shvartsman and Shagun Sodhani and Alexander H Miller and Abhishek Charnalia and Derek Dunfield and Carole-Jean Wu and Pontus Stenetorp and Nicola Cancedda and Jakob Nicolaus Foerster and Yoram Bachrach},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=RwfrdKSgCE}\n}"
+  },
+  {
+    "title": "From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers",
+    "authors": "Praneet Suresh, Jack Stanley, Sonia Joseph, Luca Scimeca, Danilo Bzdok",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6949,
+    "link": "https://openreview.net/pdf/338d1115a9b7a074809c12b7d61ce9cbe4d68bbb.pdf",
+    "bibtex": "@inproceedings{\nsuresh2025from,\ntitle={From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers},\nauthor={Praneet Suresh and Jack Stanley and Sonia Joseph and Luca Scimeca and Danilo Bzdok},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=xd7cXU2P4G}\n}"
+  },
+  {
+    "title": "Estimating Interventional Distributions with Uncertain Causal Graphs through Meta-Learning",
+    "authors": "Anish Dhir, Cristiana Diaconu, Valentinian Mihai Lungu, James Requeima, Richard E. Turner, Mark van der Wilk",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6949,
+    "link": "https://openreview.net/pdf/2a199284a88242614e66bb5f6405b802d56da768.pdf",
+    "bibtex": "@inproceedings{\ndhir2025estimating,\ntitle={Estimating Interventional Distributions with Uncertain Causal Graphs through Meta-Learning},\nauthor={Anish Dhir and Cristiana Diaconu and Valentinian Mihai Lungu and James Requeima and Richard E. Turner and Mark van der Wilk},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=IQlcfc40Ja}\n}"
+  },
+  {
+    "title": "AI Debate Aids Assessment of Controversial Claims",
+    "authors": "Salman Rahman, Sheriff Issaka, Ashima Suvarna, Genglin Liu, James Shiffer, Jaeyoung Lee, Md Rizwan Parvez, Hamid Palangi, Shi Feng, Nanyun Peng, Yejin Choi, Julian Michael, Liwei Jiang, Saadia Gabriel",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6906,
+    "link": "https://openreview.net/pdf/fd58fc85d4336f26d643c3f1bf5f1368d2cf8642.pdf",
+    "bibtex": "@inproceedings{\nrahman2025ai,\ntitle={{AI} Debate Aids Assessment of Controversial Claims},\nauthor={Salman Rahman and Sheriff Issaka and Ashima Suvarna and Genglin Liu and James Shiffer and Jaeyoung Lee and Md Rizwan Parvez and Hamid Palangi and Shi Feng and Nanyun Peng and Yejin Choi and Julian Michael and Liwei Jiang and Saadia Gabriel},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=aXpbgG5z6I}\n}"
+  },
+  {
+    "title": "Revealing Multimodal Causality with Large Language Models",
+    "authors": "Jin Li, Shoujin Wang, Qi Zhang, Feng Liu, Tongliang Liu, Longbing Cao, Shui Yu, Fang Chen",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6895,
+    "link": "https://openreview.net/pdf/6fd0ed368b98ef83e704c98c8326dd77b764dd02.pdf",
+    "bibtex": "@inproceedings{\nli2025revealing,\ntitle={Revealing Multimodal Causality with Large Language Models},\nauthor={Jin Li and Shoujin Wang and Qi Zhang and Feng Liu and Tongliang Liu and Longbing Cao and Shui Yu and Fang Chen},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=nufqobhME7}\n}"
+  },
+  {
+    "title": "Robust Sampling for Active Statistical Inference",
+    "authors": "Puheng Li, Tijana Zrnic, Emmanuel Candes",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6873,
+    "link": "https://openreview.net/pdf/1ef0de57566d25794ac344e2c032437bb681f181.pdf",
+    "bibtex": "@inproceedings{\nli2025robust,\ntitle={Robust Sampling for Active Statistical Inference},\nauthor={Puheng Li and Tijana Zrnic and Emmanuel Candes},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=duVF6odtBO}\n}"
+  },
+  {
+    "title": "KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment",
+    "authors": "Yuxing Lu, Wei Wu, Xukai Zhao, Rui Peng, Jinzhuo Wang",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6862,
+    "link": "https://openreview.net/pdf/307d3a55037031950ed1e7b9a84ab6abf7eb8f4b.pdf",
+    "bibtex": "@inproceedings{\nlu2025karma,\ntitle={{KARMA}: Leveraging Multi-Agent {LLM}s for Automated Knowledge Graph Enrichment},\nauthor={Yuxing Lu and Wei Wu and Xukai Zhao and Rui Peng and Jinzhuo Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=k0wyi4cOGy}\n}"
+  },
+  {
+    "title": "FAME: Adaptive Functional Attention with Expert Routing for Function-on-Function Regression",
+    "authors": "Yifei Gao, Yong Chen, Chen Zhang",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6856,
+    "link": "https://openreview.net/pdf/38c2191440f50d4ca7cc121075e1caf2423da876.pdf",
+    "bibtex": "@inproceedings{\ngao2025fame,\ntitle={{FAME}: Adaptive Functional Attention with Expert Routing for Function-on-Function Regression},\nauthor={Yifei Gao and Yong Chen and Chen Zhang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=eLHIERUitQ}\n}"
+  },
+  {
+    "title": "Right for the Right Reasons: Avoiding Reasoning Shortcuts via Prototypical Neurosymbolic AI",
+    "authors": "Luca Andolfi, Eleonora Giunchiglia",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6842,
+    "link": "https://openreview.net/pdf/84d2f5373daff534dde49d69f2d8c59328773580.pdf",
+    "bibtex": "@inproceedings{\nandolfi2025right,\ntitle={Right for the Right Reasons: Avoiding Reasoning Shortcuts via Prototypical Neurosymbolic {AI}},\nauthor={Luca Andolfi and Eleonora Giunchiglia},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=eb71SNTjux}\n}"
+  },
+  {
+    "title": "Differentiable Constraint-Based Causal Discovery",
+    "authors": "Jincheng Zhou, Mengbo Wang, Anqi He, Yumeng Zhou, Hessam Olya, Murat Kocaoglu, Bruno Ribeiro",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6836,
+    "link": "https://openreview.net/pdf/cd5653c955ef83374ba24bd1bf3c405232cf9d99.pdf",
+    "bibtex": "@inproceedings{\nzhou2025differentiable,\ntitle={Differentiable Constraint-Based Causal Discovery},\nauthor={Jincheng Zhou and Mengbo Wang and Anqi He and Yumeng Zhou and Hessam Olya and Murat Kocaoglu and Bruno Ribeiro},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=0IyP6PnlfG}\n}"
+  },
+  {
+    "title": "Graph-based Symbolic Regression with Invariance and Constraint Encoding",
+    "authors": "Ziyu Xiang, Kenna Ashen, Xiaofeng Qian, Xiaoning Qian",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6829,
+    "link": "https://openreview.net/pdf/b19b710f8ab444e3ef488edcfe96eeda8abcdcdb.pdf",
+    "bibtex": "@inproceedings{\nxiang2025graphbased,\ntitle={Graph-based Symbolic Regression with Invariance and Constraint Encoding},\nauthor={Ziyu Xiang and Kenna Ashen and Xiaofeng Qian and Xiaoning Qian},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=JYB6wFcbky}\n}"
+  },
+  {
+    "title": "MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem",
+    "authors": "Fan Liu, Zhe-Rui Yang, Cancheng Liu, Tianrui SONG, Xiaofeng Gao, Hao Liu",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6827,
+    "link": "https://openreview.net/pdf/e01a39be0de98c2f808394f7affa2bfb004c68a5.pdf",
+    "bibtex": "@inproceedings{\nliu2025mmagent,\ntitle={{MM}-Agent: {LLM} as Agents for Real-world Mathematical Modeling Problem},\nauthor={Fan Liu and Zhe-Rui Yang and Cancheng Liu and Tianrui SONG and Xiaofeng Gao and Hao Liu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=o8n5oNDsiq}\n}"
+  },
+  {
+    "title": "Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training",
+    "authors": "Mengru Wang, Xingyu Chen, Yue Wang, Zhiwei He, Jiahao Xu, Tian Liang, Qiuzhi Liu, Yunzhi Yao, Wenxuan Wang, Ruotian Ma, Haitao Mi, Ningyu Zhang, Zhaopeng Tu, Xiaolong Li, Dong Yu",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6818,
+    "link": "https://openreview.net/pdf/b3d520dcc1510df18760c246a1815ddcfda65d7e.pdf",
+    "bibtex": "@inproceedings{\nwang2025two,\ntitle={Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training},\nauthor={Mengru Wang and Xingyu Chen and Yue Wang and Zhiwei He and Jiahao Xu and Tian Liang and Qiuzhi Liu and Yunzhi Yao and Wenxuan Wang and Ruotian Ma and Haitao Mi and Ningyu Zhang and Zhaopeng Tu and Xiaolong Li and Dong Yu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=x7fCiuCCAu}\n}"
+  },
+  {
+    "title": "Measuring AI Ability to Complete Long Software Tasks",
+    "authors": "Thomas Kwa, Ben West, Joel Becker, Amy Deng, Katharyn Garcia, Max Hasin, Sami Jawhar, Megan Kinniment, Nate Rush, Sydney Von Arx, Ryan Bloom, Thomas Broadley, Haoxing Du, Brian Goodrich, Nikola Jurkovic, Luke Harold Miles, Seraphina Nix, Tao Roa Lin, Neev Parikh, David Rein, Lucas Jun Koba Sato, Hjalmar Wijk, Daniel M Ziegler, Elizabeth Barnes, Lawrence Chan",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6809,
+    "link": "https://openreview.net/pdf/402f09e70f9d9e6a99edbcaaa360692d05eec7ab.pdf",
+    "bibtex": "@inproceedings{\nkwa2025measuring,\ntitle={Measuring {AI} Ability to Complete Long Software Tasks},\nauthor={Thomas Kwa and Ben West and Joel Becker and Amy Deng and Katharyn Garcia and Max Hasin and Sami Jawhar and Megan Kinniment and Nate Rush and Sydney Von Arx and Ryan Bloom and Thomas Broadley and Haoxing Du and Brian Goodrich and Nikola Jurkovic and Luke Harold Miles and Seraphina Nix and Tao Roa Lin and Neev Parikh and David Rein and Lucas Jun Koba Sato and Hjalmar Wijk and Daniel M Ziegler and Elizabeth Barnes and Lawrence Chan},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=CGNJL6CeV0}\n}"
+  },
+  {
+    "title": "Valid Inference with Imperfect Synthetic Data",
+    "authors": "Yewon Byun, Shantanu Gupta, Zachary Chase Lipton, Rachel Leah Childers, Bryan Wilder",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6804,
+    "link": "https://openreview.net/pdf/31c62b786c16bf6e8d1a58dd0f150826e98bcbbc.pdf",
+    "bibtex": "@inproceedings{\nbyun2025valid,\ntitle={Valid Inference with Imperfect Synthetic Data},\nauthor={Yewon Byun and Shantanu Gupta and Zachary Chase Lipton and Rachel Leah Childers and Bryan Wilder},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=nG0URHBvFW}\n}"
+  },
+  {
+    "title": "Post Hoc Regression Refinement via Pairwise Rankings",
+    "authors": "Kevin Tirta Wijaya, Michael Sun, Minghao Guo, Hans-peter Seidel, Wojciech Matusik, Vahid Babaei",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6803,
+    "link": "https://openreview.net/pdf/401d2d668696668846f8767f7556c7d4ebfd9df3.pdf",
+    "bibtex": "@inproceedings{\nwijaya2025post,\ntitle={Post Hoc Regression Refinement via Pairwise Rankings},\nauthor={Kevin Tirta Wijaya and Michael Sun and Minghao Guo and Hans-peter Seidel and Wojciech Matusik and Vahid Babaei},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=CmKar1zptJ}\n}"
+  },
+  {
+    "title": "CHiQPM: Calibrated Hierarchical Interpretable Image Classification",
+    "authors": "Thomas Norrenbrock, Timo Kaiser, Sovan Biswas, Neslihan Kose, Ramesh Manuvinakurike, Bodo Rosenhahn",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6794,
+    "link": "https://openreview.net/pdf/337b2a81a3f0ce0d429642c2e3cc78e24a766cab.pdf",
+    "bibtex": "@inproceedings{\nnorrenbrock2025chiqpm,\ntitle={{CH}i{QPM}: Calibrated Hierarchical Interpretable Image Classification},\nauthor={Thomas Norrenbrock and Timo Kaiser and Sovan Biswas and Neslihan Kose and Ramesh Manuvinakurike and Bodo Rosenhahn},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=jDJUjqUies}\n}"
+  },
+  {
+    "title": "ElliCE: Efficient and Provably Robust Algorithmic Recourse via the Rashomon Sets",
+    "authors": "Bohdan Turbal, Iryna Voitsitska, Lesia Semenova",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6787,
+    "link": "https://openreview.net/pdf/f59d93d5b3a7a15be7221bf90c47d410aabedea6.pdf",
+    "bibtex": "@inproceedings{\nturbal2025ellice,\ntitle={Elli{CE}: Efficient and Provably Robust Algorithmic Recourse via the Rashomon Sets},\nauthor={Bohdan Turbal and Iryna Voitsitska and Lesia Semenova},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=GNDgQie8W4}\n}"
+  },
+  {
+    "title": "PINN Balls: Scaling Second-Order Methods for PINNs with Domain Decomposition and Adaptive Sampling",
+    "authors": "Andrea Bonfanti, Ismael Medina, Roman List, Björn Staeves, Roberto Santana, Marco Ellero",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.677,
+    "link": "https://openreview.net/pdf/ee853a178e7325722b8542ea242c00a2daba34be.pdf",
+    "bibtex": "@inproceedings{\nbonfanti2025pinn,\ntitle={{PINN} Balls: Scaling Second-Order Methods for {PINN}s with Domain Decomposition and Adaptive Sampling},\nauthor={Andrea Bonfanti and Ismael Medina and Roman List and Bj{\\\"o}rn Staeves and Roberto Santana and Marco Ellero},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=xhKsnxJ9FD}\n}"
+  },
+  {
+    "title": "Enhancing Deep Batch Active Learning for Regression with Imperfect Data Guided Selection",
+    "authors": "Yinjie Min, Furong Xu, Xinyao Li, Changliang Zou, Yongdao Zhou",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6761,
+    "link": "https://openreview.net/pdf/5713c56e4809e80e5f27c7476700542f9905ee03.pdf",
+    "bibtex": "@inproceedings{\nmin2025enhancing,\ntitle={Enhancing Deep Batch Active Learning for Regression with Imperfect Data Guided Selection},\nauthor={Yinjie Min and Furong Xu and Xinyao Li and Changliang Zou and Yongdao Zhou},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=i5rApSWC9E}\n}"
+  },
+  {
+    "title": "From Euler to AI: Unifying Formulas for Mathematical Constants",
+    "authors": "Tomer Raz, Michael Shalyt, Elyasheev Leibtag, Rotem Kalisch, Shachar Weinbaum, Yaron Hadad, Ido Kaminer",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6752,
+    "link": "https://openreview.net/pdf/0cdf30240bc7f4bd5849021ad0fb0c869a8b1ee5.pdf",
+    "bibtex": "@inproceedings{\nraz2025from,\ntitle={From Euler to {AI}: Unifying Formulas for Mathematical Constants},\nauthor={Tomer Raz and Michael Shalyt and Elyasheev Leibtag and Rotem Kalisch and Shachar Weinbaum and Yaron Hadad and Ido Kaminer},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=cNqMAmpZh4}\n}"
+  },
+  {
+    "title": "Agnostic Active Learning Is Always Better Than Passive Learning",
+    "authors": "Steve Hanneke",
+    "venue": "NeurIPS 2025 Oral",
+    "affinity_score": 0.675,
+    "link": "https://openreview.net/pdf/94f81d674cd7515ab9afcee952a96a32eb663874.pdf",
+    "bibtex": "@inproceedings{\nhanneke2025agnostic,\ntitle={Agnostic Active Learning Is Always Better Than Passive Learning},\nauthor={Steve Hanneke},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=XPe55Uffd7}\n}"
+  },
+  {
+    "title": "MLZero: A Multi-Agent System for End-to-end Machine Learning Automation",
+    "authors": "Haoyang Fang, Boran Han, Nick Erickson, Xiyuan Zhang, Su Zhou, Anirudh Dagar, Jiani Zhang, Ali Caner Turkmen, Cuixiong Hu, Huzefa Rangwala, Ying Nian Wu, Bernie Wang, George Karypis",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6727,
+    "link": "https://openreview.net/pdf/55f28109c8ee532fe1c950142c23f6efd636a79e.pdf",
+    "bibtex": "@inproceedings{\nfang2025mlzero,\ntitle={{MLZ}ero: A Multi-Agent System for End-to-end Machine Learning Automation},\nauthor={Haoyang Fang and Boran Han and Nick Erickson and Xiyuan Zhang and Su Zhou and Anirudh Dagar and Jiani Zhang and Ali Caner Turkmen and Cuixiong Hu and Huzefa Rangwala and Ying Nian Wu and Bernie Wang and George Karypis},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=9t7gfYUp0U}\n}"
+  },
+  {
+    "title": "Understanding LLM Behaviors via Compression: Data Generation, Knowledge Acquisition and Scaling Laws",
+    "authors": "Zhixuan Pan, Shaowen Wang, Liao Pengfei, Jian Li",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6725,
+    "link": "https://openreview.net/pdf/95f61a66375ba3e46803c24b0ddc45e0df29334d.pdf",
+    "bibtex": "@inproceedings{\npan2025understanding,\ntitle={Understanding {LLM} Behaviors via Compression: Data Generation, Knowledge Acquisition and Scaling Laws},\nauthor={Zhixuan Pan and Shaowen Wang and Liao Pengfei and Jian Li},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=853SwC2dMZ}\n}"
+  },
+  {
+    "title": "True Zero-Shot Inference of Dynamical Systems Preserving Long-Term Statistics",
+    "authors": "Christoph Jürgen Hemmer, Daniel Durstewitz",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6716,
+    "link": "https://openreview.net/pdf/b8ade727fbcbc039f46054a253def174a74fd065.pdf",
+    "bibtex": "@inproceedings{\nhemmer2025true,\ntitle={True Zero-Shot Inference of Dynamical Systems Preserving Long-Term Statistics},\nauthor={Christoph J{\\\"u}rgen Hemmer and Daniel Durstewitz},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=RE97LT26w8}\n}"
+  },
+  {
+    "title": "Handling Missing Responses under Cluster Dependence with Applications to Language Model Evaluation",
+    "authors": "Zhenghao Zeng, David Arbour, Avi Feller, Ishita Dasgupta, Atanu R. Sinha, Edward Kennedy",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6674,
+    "link": "https://openreview.net/pdf/d90a160ec9f7f7178346bc44f5642f17126bb2bc.pdf",
+    "bibtex": "@inproceedings{\nzeng2025handling,\ntitle={Handling Missing Responses under Cluster Dependence with Applications to Language Model Evaluation},\nauthor={Zhenghao Zeng and David Arbour and Avi Feller and Ishita Dasgupta and Atanu R. Sinha and Edward Kennedy},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=PdKhoj6goO}\n}"
+  },
+  {
+    "title": "GRIP: A Graph-Based Reasoning Instruction Producer",
+    "authors": "Jiankang Wang, Jianjun Xu, Xiaorui Wang, Yuxin Wang, Mengting Xing, Shancheng Fang, Hongtao Xie",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6673,
+    "link": "https://openreview.net/pdf/9ef2967c43fa97f6b4cfdddaf146abf156250794.pdf",
+    "bibtex": "@inproceedings{\nwang2025grip,\ntitle={{GRIP}: A Graph-Based Reasoning Instruction Producer},\nauthor={Jiankang Wang and Jianjun Xu and Xiaorui Wang and Yuxin Wang and Mengting Xing and Shancheng Fang and Hongtao Xie},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=36TBVGwzAY}\n}"
+  },
+  {
+    "title": "Quantifying Uncertainty in Error Consistency: Towards Reliable Behavioral Comparison of Classifiers",
+    "authors": "Thomas Klein, Sascha Meyen, Wieland Brendel, Felix A. Wichmann, Kristof Meding",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6651,
+    "link": "https://openreview.net/pdf/4234e2b23ce13c7c12032aa8eb787d764ee3cacc.pdf",
+    "bibtex": "@inproceedings{\nklein2025quantifying,\ntitle={Quantifying Uncertainty in Error Consistency: Towards Reliable Behavioral Comparison of Classifiers},\nauthor={Thomas Klein and Sascha Meyen and Wieland Brendel and Felix A. Wichmann and Kristof Meding},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=ngBOb9wSYN}\n}"
+  },
+  {
+    "title": "A Difference-of-Convex Functions Approach to Energy-Based Iterative Reasoning",
+    "authors": "Daniel Tschernutter, David Diego Castro, Maciej Kasiński",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6649,
+    "link": "https://openreview.net/pdf/57ffc92870ea3bb50ac29e1a401007fe9edc5517.pdf",
+    "bibtex": "@inproceedings{\ntschernutter2025a,\ntitle={A Difference-of-Convex Functions Approach to Energy-Based Iterative Reasoning},\nauthor={Daniel Tschernutter and David Diego Castro and Maciej Kasi{\\'n}ski},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=QvsDTpf4yF}\n}"
+  },
+  {
+    "title": "Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs",
+    "authors": "Mantas Mazeika, Xuwang Yin, Rishub Tamirisa, Jaehyuk Lim, Bruce W. Lee, Richard Ren, Long Phan, Norman Mu, Oliver Zhang, Dan Hendrycks",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6648,
+    "link": "https://openreview.net/pdf/dc8b5043fef68fe527f6020ce8fc34b2b7e8649c.pdf",
+    "bibtex": "@inproceedings{\nmazeika2025utility,\ntitle={Utility Engineering: Analyzing and Controlling Emergent Value Systems in {AI}s},\nauthor={Mantas Mazeika and Xuwang Yin and Rishub Tamirisa and Jaehyuk Lim and Bruce W. Lee and Richard Ren and Long Phan and Norman Mu and Oliver Zhang and Dan Hendrycks},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=x9vcgXmRD0}\n}"
+  },
+  {
+    "title": "Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage RL",
+    "authors": "Songjun Tu, Jiahao Lin, Qichao Zhang, Xiangyu Tian, Linjing Li, Xiangyuan Lan, Dongbin Zhao",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6647,
+    "link": "https://openreview.net/pdf/dc89a6b0221240f7e120c7bd39c116d57711eec4.pdf",
+    "bibtex": "@inproceedings{\ntu2025learning,\ntitle={Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage {RL}},\nauthor={Songjun Tu and Jiahao Lin and Qichao Zhang and Xiangyu Tian and Linjing Li and Xiangyuan Lan and Dongbin Zhao},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=Hs3FrjwyVZ}\n}"
+  },
+  {
+    "title": "Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees",
+    "authors": "Sangwoo Park, Matteo Zecchin, Osvaldo Simeone",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6647,
+    "link": "https://openreview.net/pdf/42cf5e1bbaeccd15c151a00a71cb2d9ecef2aa6f.pdf",
+    "bibtex": "@inproceedings{\npark2025adaptive,\ntitle={Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees},\nauthor={Sangwoo Park and Matteo Zecchin and Osvaldo Simeone},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=nfhmjdZUbQ}\n}"
+  }
+];
+                renderPapers(allPapers);
+            } catch (error) {
+                console.error('Error loading papers:', error);
+                document.getElementById('stats').textContent = 'Error loading papers.json. Make sure you are running this on a local server or have allowed local file access.';
+            }
+        }
+
+        function renderPapers(papers) {
+            const grid = document.getElementById('paperGrid');
+            const stats = document.getElementById('stats');
+
+            grid.innerHTML = '';
+            stats.textContent = `Showing ${papers.length} papers`;
+
+            papers.forEach(paper => {
+                const card = document.createElement('div');
+                card.className = 'card';
+
+                const link = paper.link || '#';
+                const title = paper.title || 'Untitled';
+                const authors = paper.authors || 'Unknown Authors';
+                const venue = paper.venue || 'Unknown Venue';
+                const score = paper.affinity_score ? paper.affinity_score.toFixed(4) : 'N/A';
+
+                card.innerHTML = `
+                    <div class="card-header">
+                        <span class="venue">${venue}</span>
+                        <span class="score">Score: ${score}</span>
+                    </div>
+                    <h3 class="title"><a href="${link}" target="_blank">${title}</a></h3>
+                    <div class="meta">
+                        <div><strong>Authors:</strong> ${authors}</div>
+                        ${paper.keywords ? `<div><strong>Keywords:</strong> ${paper.keywords}</div>` : ''}
+                    </div>
+                    <div class="actions">
+                        <a href="${link}" target="_blank" style="text-decoration:none">
+                            <button class="btn-small">View PDF</button>
+                        </a>
+                        ${paper.bibtex ? `<button class="btn-small" onclick="toggleBibtex(this)">BibTeX</button>` : ''}
+                    </div>
+                    ${paper.bibtex ? `<div class="bibtex-area">${paper.bibtex}</div>` : ''}
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function toggleBibtex(btn) {
+            const area = btn.parentElement.nextElementSibling;
+            if (area.style.display === 'block') {
+                area.style.display = 'none';
+            } else {
+                area.style.display = 'block';
+            }
+        }
+
+        function filterPapers(query) {
+            const lowerQuery = query.toLowerCase();
+            const filtered = allPapers.filter(paper => {
+                return (paper.title && paper.title.toLowerCase().includes(lowerQuery)) ||
+                    (paper.authors && paper.authors.toLowerCase().includes(lowerQuery)) ||
+                    (paper.keywords && paper.keywords.toLowerCase().includes(lowerQuery));
+            });
+            renderPapers(filtered);
+        }
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            filterPapers(e.target.value);
+        });
+
+        function exportCSV() {
+            if (allPapers.length === 0) return;
+
+            // Define headers
+            const headers = ['Title', 'Authors', 'Venue', 'Affinity Score', 'Link', 'Keywords'];
+
+            // Convert data to CSV rows
+            const csvRows = [headers.join(',')];
+
+            allPapers.forEach(paper => {
+                const row = [
+                    `"${(paper.title || '').replace(/"/g, '""')}"`,
+                    `"${(paper.authors || '').replace(/"/g, '""')}"`,
+                    `"${(paper.venue || '').replace(/"/g, '""')}"`,
+                    paper.affinity_score || 0,
+                    `"${(paper.link || '').replace(/"/g, '""')}"`,
+                    `"${(paper.keywords || '').replace(/"/g, '""')}"`
+                ];
+                csvRows.push(row.join(','));
+            });
+
+            const csvString = csvRows.join('\n');
+            const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.setAttribute('href', url);
+            link.setAttribute('download', 'ai_papers_export.csv');
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Initialize
+        loadPapers();
+    </script>
+</body>
+
+</html>
