@@ -1,0 +1,510 @@
+Title: Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
+Authors: Jonas Geiping, Sean Michael McLeish, Neel Jain, John Kirchenbauer, Siddharth Singh, Brian R. Bartoldson, Bhavya Kailkhura, Abhinav Bhatele, Tom Goldstein
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.7941
+Link: https://openreview.net/pdf/14c70cb9442ba3067a5abf112e08a003028eec21.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+geiping2025scaling,
+title={Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach},
+author={Jonas Geiping and Sean Michael McLeish and Neel Jain and John Kirchenbauer and Siddharth Singh and Brian R. Bartoldson and Bhavya Kailkhura and Abhinav Bhatele and Tom Goldstein},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=S3GhJooWIC}
+}
+--------------------------------------------------------------------------------
+
+Title: Ada-R1: Hybrid-CoT via Bi-Level Adaptive Reasoning Optimization
+Authors: Haotian Luo, Haiying He, Yibo Wang, Jinluan Yang, Rui Liu, Naiqiang Tan, Xiaochun Cao, Dacheng Tao, Li Shen
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7905
+Link: https://openreview.net/pdf/a02fb3648324ee94fc387f1a68bfcb210d684f82.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+luo2025adar,
+title={Ada-R1: Hybrid-CoT via Bi-Level Adaptive Reasoning Optimization},
+author={Haotian Luo and Haiying He and Yibo Wang and Jinluan Yang and Rui Liu and Naiqiang Tan and Xiaochun Cao and Dacheng Tao and Li Shen},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=a9MfGUHjF8}
+}
+--------------------------------------------------------------------------------
+
+Title: Are Language Models Efficient Reasoners? A Perspective from Logic Programming
+Authors: Andreas Opedal, Yanick Zengaffinen, Haruki Shirakami, Clemente Pasti, Mrinmaya Sachan, Abulhair Saparov, Ryan Cotterell, Bernhard Schölkopf
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7876
+Link: https://openreview.net/pdf/188a56b1004acd4460a179dbaea777ff13671049.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+opedal2025are,
+title={Are Language Models Efficient Reasoners? A Perspective from Logic Programming},
+author={Andreas Opedal and Yanick Zengaffinen and Haruki Shirakami and Clemente Pasti and Mrinmaya Sachan and Abulhair Saparov and Ryan Cotterell and Bernhard Sch{\"o}lkopf},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=DV5z7VcaUA}
+}
+--------------------------------------------------------------------------------
+
+Title: Training Language Models to Reason Efficiently
+Authors: Daman Arora, Andrea Zanette
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7855
+Link: https://openreview.net/pdf/c169ad531f568624e1f7af8211b9ff6b12391b63.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+arora2025training,
+title={Training Language Models to Reason Efficiently},
+author={Daman Arora and Andrea Zanette},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=AiZxn84Wdo}
+}
+--------------------------------------------------------------------------------
+
+Title: R-KV: Redundancy-aware KV Cache Compression for Reasoning Models
+Authors: Zefan Cai, Wen Xiao, Hanshi Sun, Cheng Luo, Yikai Zhang, Ke Wan, Yucheng Li, Yeyang Zhou, Li-Wen Chang, Jiuxiang Gu, Zhen Dong, Anima Anandkumar, Abedelkadir Asi, Junjie Hu
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7796
+Link: https://openreview.net/pdf/ac69d3edde70382472407199920e54d347f5f466.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+cai2025rkv,
+title={R-{KV}: Redundancy-aware {KV} Cache Compression for Reasoning Models},
+author={Zefan Cai and Wen Xiao and Hanshi Sun and Cheng Luo and Yikai Zhang and Ke Wan and Yucheng Li and Yeyang Zhou and Li-Wen Chang and Jiuxiang Gu and Zhen Dong and Anima Anandkumar and Abedelkadir Asi and Junjie Hu},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=2jwAjomEDB}
+}
+--------------------------------------------------------------------------------
+
+Title: Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties
+Authors: Gouki Minegishi, Hiroki Furuta, Takeshi Kojima, Yusuke Iwasawa, Yutaka Matsuo
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7754
+Link: https://openreview.net/pdf/7131557a34836bae01d636c964b3953522c88ea0.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+minegishi2025topology,
+title={Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties},
+author={Gouki Minegishi and Hiroki Furuta and Takeshi Kojima and Yusuke Iwasawa and Yutaka Matsuo},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=o1g8NWkxqf}
+}
+--------------------------------------------------------------------------------
+
+Title: On the Bias of Next-Token Predictors Toward Systematically Inefficient Reasoning: A Shortest-Path Case Study
+Authors: Riccardo Alberghi, Elizaveta Demyanenko, Luca Biggio, Luca Saglietti
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7731
+Link: https://openreview.net/pdf/57860c28b21d95678533bc618a0afee1c2a54e47.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+alberghi2025on,
+title={On the Bias of Next-Token Predictors Toward Systematically Inefficient Reasoning: A Shortest-Path Case Study},
+author={Riccardo Alberghi and Elizaveta Demyanenko and Luca Biggio and Luca Saglietti},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=l8razJItEy}
+}
+--------------------------------------------------------------------------------
+
+Title: Longer Context, Deeper Thinking: Uncovering the Role of Long-Context Ability in Reasoning
+Authors: Van Yang, Zirui Liu, Hongye Jin, Qingyu Yin, Vipin Chaudhary, Xiaotian Han
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.769
+Link: https://openreview.net/pdf/3aa73c81186850fe236acaa4a81d2af3f1e5c910.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+yang2025longer,
+title={Longer Context, Deeper Thinking: Uncovering the Role of Long-Context Ability in Reasoning},
+author={Van Yang and Zirui Liu and Hongye Jin and Qingyu Yin and Vipin Chaudhary and Xiaotian Han},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=wtcv48HImz}
+}
+--------------------------------------------------------------------------------
+
+Title: REASONING COMPILER: LLM-Guided Optimizations for Efficient Model Serving
+Authors: Sujun Tang, Christopher Priebe, Rohan Mahapatra, Lianhui Qin, Hadi Esmaeilzadeh
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7623
+Link: https://openreview.net/pdf/3e257cd601e943e872f777fd88fbaf2a64c6c6ea.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+tang2025reasoning,
+title={{REASONING} {COMPILER}: {LLM}-Guided Optimizations for Efficient Model Serving},
+author={Sujun Tang and Christopher Priebe and Rohan Mahapatra and Lianhui Qin and Hadi Esmaeilzadeh},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=2D4TuZyNnr}
+}
+--------------------------------------------------------------------------------
+
+Title: When Thinking Fails: The Pitfalls of Reasoning for Instruction-Following in LLMs
+Authors: Xiaomin Li, Zhou Yu, Zhiwei Zhang, Xupeng Chen, Ziji Zhang, Yingying Zhuang, Narayanan Sadagopan, Anurag Beniwal
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.762
+Link: https://openreview.net/pdf/057301f0efb5252bc107372a0fda3e9e277ad744.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+li2025when,
+title={When Thinking Fails: The Pitfalls of Reasoning for Instruction-Following in {LLM}s},
+author={Xiaomin Li and Zhou Yu and Zhiwei Zhang and Xupeng Chen and Ziji Zhang and Yingying Zhuang and Narayanan Sadagopan and Anurag Beniwal},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=w5uUvxp81b}
+}
+--------------------------------------------------------------------------------
+
+Title: Scaling Speculative Decoding with Lookahead Reasoning
+Authors: Yichao Fu, Rui Ge, Zelei Shao, Zhijie Deng, Hao Zhang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7603
+Link: https://openreview.net/pdf/6fa865a343372d69355a7146653c669f566a1277.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+fu2025scaling,
+title={Scaling Speculative Decoding with Lookahead Reasoning},
+author={Yichao Fu and Rui Ge and Zelei Shao and Zhijie Deng and Hao Zhang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=JxxKj8pow1}
+}
+--------------------------------------------------------------------------------
+
+Title: Let Me Think! A Long Chain of Thought Can Be Worth Exponentially Many Short Ones
+Authors: Parsa Mirtaheri, Ezra Edelman, Samy Jelassi, Eran Malach, Enric Boix-Adserà
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7592
+Link: https://openreview.net/pdf/3522982c33f5d5199bd558f48909b1bccbf81615.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+mirtaheri2025let,
+title={Let Me Think! A Long Chain of Thought Can Be Worth Exponentially Many Short Ones},
+author={Parsa Mirtaheri and Ezra Edelman and Samy Jelassi and Eran Malach and Enric Boix-Adser{\`a}},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=GuvQJGgbLm}
+}
+--------------------------------------------------------------------------------
+
+Title: On Reasoning Strength Planning in Large Reasoning Models
+Authors: Leheng Sheng, An Zhang, Zijian Wu, Weixiang Zhao, Changshuo Shen, Yi Zhang, Xiang Wang, Tat-Seng Chua
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7589
+Link: https://openreview.net/pdf/ec0170f131842f1aaee5993a19df22764b470213.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+sheng2025on,
+title={On Reasoning Strength Planning in Large Reasoning Models},
+author={Leheng Sheng and An Zhang and Zijian Wu and Weixiang Zhao and Changshuo Shen and Yi Zhang and Xiang Wang and Tat-Seng Chua},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=H26A7cl91u}
+}
+--------------------------------------------------------------------------------
+
+Title: How Far Are We from Optimal Reasoning Efficiency?
+Authors: Jiaxuan Gao, Shu Yan, Qixin Tan, lu Yang, Shusheng Xu, Wei Fu, Zhiyu Mei, Kaifeng Lyu, Yi Wu
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7589
+Link: https://openreview.net/pdf/3368527a3ac4176eab10cf57d919c6de1ff4e314.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+gao2025how,
+title={How Far Are We from Optimal Reasoning Efficiency?},
+author={Jiaxuan Gao and Shu Yan and Qixin Tan and lu Yang and Shusheng Xu and Wei Fu and Zhiyu Mei and Kaifeng Lyu and Yi Wu},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=NhAi1w3s8Z}
+}
+--------------------------------------------------------------------------------
+
+Title: Don’t Think Longer, Think Wisely: Optimizing Thinking Dynamics for Large Reasoning Models
+Authors: Sohyun An, Ruochen Wang, Tianyi Zhou, Cho-Jui Hsieh
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7582
+Link: https://openreview.net/pdf/1b9aa688f3d241f228fbd9b8694bdffb938d1d5f.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+an2025dont,
+title={Don{\textquoteright}t Think Longer, Think Wisely: Optimizing Thinking Dynamics for Large Reasoning Models},
+author={Sohyun An and Ruochen Wang and Tianyi Zhou and Cho-Jui Hsieh},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=nxnBaaRLnz}
+}
+--------------------------------------------------------------------------------
+
+Title: Eliciting Reasoning in Language Models with Cognitive Tools
+Authors: Brown Ebouky, Andrea Bartezzaghi, Mattia Rigotti
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7565
+Link: https://openreview.net/pdf/ea576c6461243d27a8102c9dfa554db950d66757.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+ebouky2025eliciting,
+title={Eliciting Reasoning in Language Models with Cognitive Tools},
+author={Brown Ebouky and Andrea Bartezzaghi and Mattia Rigotti},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=6H4tDTHalg}
+}
+--------------------------------------------------------------------------------
+
+Title: Controlling Thinking Speed in Reasoning Models
+Authors: Zhengkai Lin, Zhihang Fu, Ze Chen, Chao Chen, Liang Xie, Wenxiao Wang, Deng Cai, Zheng Wang, Jieping Ye
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.7551
+Link: https://openreview.net/pdf/ee862e36e40791c52d5b9c640e6eba71b0b72428.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+lin2025controlling,
+title={Controlling Thinking Speed in Reasoning Models},
+author={Zhengkai Lin and Zhihang Fu and Ze Chen and Chao Chen and Liang Xie and Wenxiao Wang and Deng Cai and Zheng Wang and Jieping Ye},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=ESELaMThLN}
+}
+--------------------------------------------------------------------------------
+
+Title: SpecReason: Fast and Accurate Inference-Time Compute via Speculative Reasoning
+Authors: Rui Pan, Yinwei Dai, Zhihao Zhang, Gabriele Oliaro, Zhihao Jia, Ravi Netravali
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.755
+Link: https://openreview.net/pdf/7c62b5e4703772251c504c1cdc203fa7a96cd873.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+pan2025specreason,
+title={SpecReason: Fast and Accurate Inference-Time Compute via Speculative Reasoning},
+author={Rui Pan and Yinwei Dai and Zhihao Zhang and Gabriele Oliaro and Zhihao Jia and Ravi Netravali},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=wCbOKbZ7kf}
+}
+--------------------------------------------------------------------------------
+
+Title: Reasoning Path Compression: Compressing Generation Trajectories for Efficient LLM Reasoning
+Authors: Jiwon Song, Dongwon Jo, Yulhwa Kim, Jae-Joon Kim
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7531
+Link: https://openreview.net/pdf/8e675a892e87d2f3f98f3a4c08cb1e44bbf0f712.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+song2025reasoning,
+title={Reasoning Path Compression: Compressing Generation Trajectories for Efficient {LLM} Reasoning},
+author={Jiwon Song and Dongwon Jo and Yulhwa Kim and Jae-Joon Kim},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=894Yo61h1P}
+}
+--------------------------------------------------------------------------------
+
+Title: Who Reasons in the Large Language Models?
+Authors: Jie Shao, Jianxin Wu
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7518
+Link: https://openreview.net/pdf/75ddd20e90deb59d29d66780d429e4a77c1879f6.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+shao2025who,
+title={Who Reasons in the Large Language Models?},
+author={Jie Shao and Jianxin Wu},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=XIqlxqNDCL}
+}
+--------------------------------------------------------------------------------
+
+Title: The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
+Authors: Parshin Shojaee, Seyed Iman Mirzadeh, Keivan Alizadeh, Maxwell Horton, Samy Bengio, Mehrdad Farajtabar
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7512
+Link: https://openreview.net/pdf/b58069a804c5fad686ceb13a131631201748c264.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+shojaee2025the,
+title={The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity},
+author={Parshin Shojaee and Seyed Iman Mirzadeh and Keivan Alizadeh and Maxwell Horton and Samy Bengio and Mehrdad Farajtabar},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=YghiOusmvw}
+}
+--------------------------------------------------------------------------------
+
+Title: Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization
+Authors: Yu Huang, Zixin Wen, Aarti Singh, Yuejie Chi, Yuxin Chen
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7491
+Link: https://openreview.net/pdf/ba051e0f1adb3538f8447d79cab371a4a52ab9a2.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+huang2025transformers,
+title={Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization},
+author={Yu Huang and Zixin Wen and Aarti Singh and Yuejie Chi and Yuxin Chen},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=aE0bCvXXBt}
+}
+--------------------------------------------------------------------------------
+
+Title: Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training
+Authors: Mengru Wang, Xingyu Chen, Yue Wang, Zhiwei He, Jiahao Xu, Tian Liang, Qiuzhi Liu, Yunzhi Yao, Wenxuan Wang, Ruotian Ma, Haitao Mi, Ningyu Zhang, Zhaopeng Tu, Xiaolong Li, Dong Yu
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7489
+Link: https://openreview.net/pdf/b3d520dcc1510df18760c246a1815ddcfda65d7e.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025two,
+title={Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training},
+author={Mengru Wang and Xingyu Chen and Yue Wang and Zhiwei He and Jiahao Xu and Tian Liang and Qiuzhi Liu and Yunzhi Yao and Wenxuan Wang and Ruotian Ma and Haitao Mi and Ningyu Zhang and Zhaopeng Tu and Xiaolong Li and Dong Yu},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=x7fCiuCCAu}
+}
+--------------------------------------------------------------------------------
+
+Title: A Implies B: Circuit Analysis in LLMs for Propositional Logical Reasoning
+Authors: Guan Zhe Hong, Nishanth Dikkala, Enming Luo, Cyrus Rashtchian, Xin Wang, Rina Panigrahy
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.7488
+Link: https://openreview.net/pdf/edfcc94d23a1796e8903435652cc311e00009492.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+hong2025a,
+title={A Implies B: Circuit Analysis in {LLM}s for Propositional Logical Reasoning},
+author={Guan Zhe Hong and Nishanth Dikkala and Enming Luo and Cyrus Rashtchian and Xin Wang and Rina Panigrahy},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=M0U8wUow8c}
+}
+--------------------------------------------------------------------------------
+
+Title: System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts
+Authors: Xiaoqiang Wang, Suyuchen Wang, Yun Zhu, Bang Liu
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7475
+Link: https://openreview.net/pdf/d239a496aa58524a3d724289b589b295e3d663a1.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025system,
+title={System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts},
+author={Xiaoqiang Wang and Suyuchen Wang and Yun Zhu and Bang Liu},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=MNduv07wAu}
+}
+--------------------------------------------------------------------------------
+
+Title: Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage RL
+Authors: Songjun Tu, Jiahao Lin, Qichao Zhang, Xiangyu Tian, Linjing Li, Xiangyuan Lan, Dongbin Zhao
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7474
+Link: https://openreview.net/pdf/dc89a6b0221240f7e120c7bd39c116d57711eec4.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+tu2025learning,
+title={Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage {RL}},
+author={Songjun Tu and Jiahao Lin and Qichao Zhang and Xiangyu Tian and Linjing Li and Xiangyuan Lan and Dongbin Zhao},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=Hs3FrjwyVZ}
+}
+--------------------------------------------------------------------------------
+
+Title: A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings
+Authors: Xiaoang Xu, Shuo Wang, Xu Han, Zhenghao Liu, Huijia Wu, Pei Pei Li, Zhiyuan Liu, Maosong Sun, Zhaofeng He
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7466
+Link: https://openreview.net/pdf/c195879cc26e5ec0e4ce597ef295a7b72df1c34e.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+xu2025athought,
+title={A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings},
+author={Xiaoang Xu and Shuo Wang and Xu Han and Zhenghao Liu and Huijia Wu and Pei Pei Li and Zhiyuan Liu and Maosong Sun and Zhaofeng He},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=uvyr9bYwL6}
+}
+--------------------------------------------------------------------------------
+
+Title: AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning
+Authors: Yang Chen, Zhuolin Yang, Zihan Liu, Chankyu Lee, Peng Xu, Mohammad Shoeybi, Bryan Catanzaro, Wei Ping
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7455
+Link: https://openreview.net/pdf/4dbb7f099e0ae9ed52f26be78bbd5f18b4adc8a6.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+chen2025acereasonnemotron,
+title={AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning},
+author={Yang Chen and Zhuolin Yang and Zihan Liu and Chankyu Lee and Peng Xu and Mohammad Shoeybi and Bryan Catanzaro and Wei Ping},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=EgArbnS0BA}
+}
+--------------------------------------------------------------------------------
+
+Title: Optimizing Anytime Reasoning via Budget Relative Policy Optimization
+Authors: Penghui Qi, Zichen Liu, Tianyu Pang, Chao Du, Wee Sun Lee, Min Lin
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7444
+Link: https://openreview.net/pdf/8136e4668a09f8c47a2454d9e72728d4fdea055e.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+qi2025optimizing,
+title={Optimizing Anytime Reasoning via Budget Relative Policy Optimization},
+author={Penghui Qi and Zichen Liu and Tianyu Pang and Chao Du and Wee Sun Lee and Min Lin},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=jFaFCc5978}
+}
+--------------------------------------------------------------------------------
+
+Title: QFFT, Question-Free Fine-Tuning for Adaptive Reasoning
+Authors: Wanlong Liu, Junxiao Xu, Fei Yu, Yukang Lin, Ke Ji, Wenyu Chen, Lifeng Shang, Yasheng Wang, Yan Xu, Benyou Wang
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.741
+Link: https://openreview.net/pdf/0577786ecb581c41f487868548cd2602cdd5abad.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+liu2025qfft,
+title={{QFFT}, Question-Free Fine-Tuning for Adaptive Reasoning},
+author={Wanlong Liu and Junxiao Xu and Fei Yu and Yukang Lin and Ke Ji and Wenyu Chen and Lifeng Shang and Yasheng Wang and Yan Xu and Benyou Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=CrBWOjZoKc}
+}
+--------------------------------------------------------------------------------
+

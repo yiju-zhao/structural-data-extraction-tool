@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reasoning</title>
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-primary: #1e293b;
+      --text-secondary: #64748b;
+      --border-color: #e2e8f0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      margin: 0;
+      padding: 20px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: var(--text-primary);
+    }
+
+    .controls {
+      display: flex;
+      gap: 15px;
+    }
+
+    input[type="text"] {
+      padding: 10px 15px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      width: 300px;
+      font-size: 0.95rem;
+    }
+
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #1d4ed8;
+    }
+
+    .stats {
+      margin-bottom: 20px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .score {
+      background-color: #eff6ff;
+      color: var(--primary-color);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+      margin-left: 10px;
+    }
+
+    .title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0 0 10px 0;
+      line-height: 1.4;
+    }
+
+    .title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .title a:hover {
+      color: var(--primary-color);
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 15px;
+    }
+
+    .meta div {
+      margin-bottom: 4px;
+    }
+
+    .venue {
+      display: inline-block;
+      background-color: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+
+    .actions {
+      margin-top: auto;
+      padding-top: 15px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn-small {
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      background-color: transparent;
+      color: var(--text-secondary);
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-small:hover {
+      background-color: #f8fafc;
+      color: var(--text-primary);
+    }
+
+    .bibtex-area {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      background: #f1f5f9;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.8rem;
+      white-space: pre-wrap;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Reasoning</h1>
+      <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search title, authors, or keywords...">
+        <button onclick="exportCSV()">Export CSV</button>
+      </div>
+    </header>
+
+    <div class="stats" id="stats">Loading papers...</div>
+    <div class="grid" id="paperGrid"></div>
+  </div>
+
+  <script>
+    let allPapers = [
+      {
+        "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+        "authors": "Jonas Geiping, Sean Michael McLeish, Neel Jain, John Kirchenbauer, Siddharth Singh, Brian R. Bartoldson, Bhavya Kailkhura, Abhinav Bhatele, Tom Goldstein",
+        "venue": "NeurIPS 2025 Spotlight",
+        "affinity_score": 0.7941,
+        "link": "https://openreview.net/pdf/14c70cb9442ba3067a5abf112e08a003028eec21.pdf",
+        "bibtex": "@inproceedings{\ngeiping2025scaling,\ntitle={Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach},\nauthor={Jonas Geiping and Sean Michael McLeish and Neel Jain and John Kirchenbauer and Siddharth Singh and Brian R. Bartoldson and Bhavya Kailkhura and Abhinav Bhatele and Tom Goldstein},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=S3GhJooWIC}\n}"
+      },
+      {
+        "title": "Ada-R1: Hybrid-CoT via Bi-Level Adaptive Reasoning Optimization",
+        "authors": "Haotian Luo, Haiying He, Yibo Wang, Jinluan Yang, Rui Liu, Naiqiang Tan, Xiaochun Cao, Dacheng Tao, Li Shen",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7905,
+        "link": "https://openreview.net/pdf/a02fb3648324ee94fc387f1a68bfcb210d684f82.pdf",
+        "bibtex": "@inproceedings{\nluo2025adar,\ntitle={Ada-R1: Hybrid-CoT via Bi-Level Adaptive Reasoning Optimization},\nauthor={Haotian Luo and Haiying He and Yibo Wang and Jinluan Yang and Rui Liu and Naiqiang Tan and Xiaochun Cao and Dacheng Tao and Li Shen},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=a9MfGUHjF8}\n}"
+      },
+      {
+        "title": "Are Language Models Efficient Reasoners? A Perspective from Logic Programming",
+        "authors": "Andreas Opedal, Yanick Zengaffinen, Haruki Shirakami, Clemente Pasti, Mrinmaya Sachan, Abulhair Saparov, Ryan Cotterell, Bernhard Schölkopf",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7876,
+        "link": "https://openreview.net/pdf/188a56b1004acd4460a179dbaea777ff13671049.pdf",
+        "bibtex": "@inproceedings{\nopedal2025are,\ntitle={Are Language Models Efficient Reasoners? A Perspective from Logic Programming},\nauthor={Andreas Opedal and Yanick Zengaffinen and Haruki Shirakami and Clemente Pasti and Mrinmaya Sachan and Abulhair Saparov and Ryan Cotterell and Bernhard Sch{\\\"o}lkopf},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=DV5z7VcaUA}\n}"
+      },
+      {
+        "title": "Training Language Models to Reason Efficiently",
+        "authors": "Daman Arora, Andrea Zanette",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7855,
+        "link": "https://openreview.net/pdf/c169ad531f568624e1f7af8211b9ff6b12391b63.pdf",
+        "bibtex": "@inproceedings{\narora2025training,\ntitle={Training Language Models to Reason Efficiently},\nauthor={Daman Arora and Andrea Zanette},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=AiZxn84Wdo}\n}"
+      },
+      {
+        "title": "R-KV: Redundancy-aware KV Cache Compression for Reasoning Models",
+        "authors": "Zefan Cai, Wen Xiao, Hanshi Sun, Cheng Luo, Yikai Zhang, Ke Wan, Yucheng Li, Yeyang Zhou, Li-Wen Chang, Jiuxiang Gu, Zhen Dong, Anima Anandkumar, Abedelkadir Asi, Junjie Hu",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7796,
+        "link": "https://openreview.net/pdf/ac69d3edde70382472407199920e54d347f5f466.pdf",
+        "bibtex": "@inproceedings{\ncai2025rkv,\ntitle={R-{KV}: Redundancy-aware {KV} Cache Compression for Reasoning Models},\nauthor={Zefan Cai and Wen Xiao and Hanshi Sun and Cheng Luo and Yikai Zhang and Ke Wan and Yucheng Li and Yeyang Zhou and Li-Wen Chang and Jiuxiang Gu and Zhen Dong and Anima Anandkumar and Abedelkadir Asi and Junjie Hu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=2jwAjomEDB}\n}"
+      },
+      {
+        "title": "Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties",
+        "authors": "Gouki Minegishi, Hiroki Furuta, Takeshi Kojima, Yusuke Iwasawa, Yutaka Matsuo",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7754,
+        "link": "https://openreview.net/pdf/7131557a34836bae01d636c964b3953522c88ea0.pdf",
+        "bibtex": "@inproceedings{\nminegishi2025topology,\ntitle={Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties},\nauthor={Gouki Minegishi and Hiroki Furuta and Takeshi Kojima and Yusuke Iwasawa and Yutaka Matsuo},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=o1g8NWkxqf}\n}"
+      },
+      {
+        "title": "On the Bias of Next-Token Predictors Toward Systematically Inefficient Reasoning: A Shortest-Path Case Study",
+        "authors": "Riccardo Alberghi, Elizaveta Demyanenko, Luca Biggio, Luca Saglietti",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7731,
+        "link": "https://openreview.net/pdf/57860c28b21d95678533bc618a0afee1c2a54e47.pdf",
+        "bibtex": "@inproceedings{\nalberghi2025on,\ntitle={On the Bias of Next-Token Predictors Toward Systematically Inefficient Reasoning: A Shortest-Path Case Study},\nauthor={Riccardo Alberghi and Elizaveta Demyanenko and Luca Biggio and Luca Saglietti},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=l8razJItEy}\n}"
+      },
+      {
+        "title": "Longer Context, Deeper Thinking: Uncovering the Role of Long-Context Ability in Reasoning",
+        "authors": "Van Yang, Zirui Liu, Hongye Jin, Qingyu Yin, Vipin Chaudhary, Xiaotian Han",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.769,
+        "link": "https://openreview.net/pdf/3aa73c81186850fe236acaa4a81d2af3f1e5c910.pdf",
+        "bibtex": "@inproceedings{\nyang2025longer,\ntitle={Longer Context, Deeper Thinking: Uncovering the Role of Long-Context Ability in Reasoning},\nauthor={Van Yang and Zirui Liu and Hongye Jin and Qingyu Yin and Vipin Chaudhary and Xiaotian Han},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=wtcv48HImz}\n}"
+      },
+      {
+        "title": "REASONING COMPILER: LLM-Guided Optimizations for Efficient Model Serving",
+        "authors": "Sujun Tang, Christopher Priebe, Rohan Mahapatra, Lianhui Qin, Hadi Esmaeilzadeh",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7623,
+        "link": "https://openreview.net/pdf/3e257cd601e943e872f777fd88fbaf2a64c6c6ea.pdf",
+        "bibtex": "@inproceedings{\ntang2025reasoning,\ntitle={{REASONING} {COMPILER}: {LLM}-Guided Optimizations for Efficient Model Serving},\nauthor={Sujun Tang and Christopher Priebe and Rohan Mahapatra and Lianhui Qin and Hadi Esmaeilzadeh},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=2D4TuZyNnr}\n}"
+      },
+      {
+        "title": "When Thinking Fails: The Pitfalls of Reasoning for Instruction-Following in LLMs",
+        "authors": "Xiaomin Li, Zhou Yu, Zhiwei Zhang, Xupeng Chen, Ziji Zhang, Yingying Zhuang, Narayanan Sadagopan, Anurag Beniwal",
+        "venue": "NeurIPS 2025 Spotlight",
+        "affinity_score": 0.762,
+        "link": "https://openreview.net/pdf/057301f0efb5252bc107372a0fda3e9e277ad744.pdf",
+        "bibtex": "@inproceedings{\nli2025when,\ntitle={When Thinking Fails: The Pitfalls of Reasoning for Instruction-Following in {LLM}s},\nauthor={Xiaomin Li and Zhou Yu and Zhiwei Zhang and Xupeng Chen and Ziji Zhang and Yingying Zhuang and Narayanan Sadagopan and Anurag Beniwal},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=w5uUvxp81b}\n}"
+      },
+      {
+        "title": "Scaling Speculative Decoding with Lookahead Reasoning",
+        "authors": "Yichao Fu, Rui Ge, Zelei Shao, Zhijie Deng, Hao Zhang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7603,
+        "link": "https://openreview.net/pdf/6fa865a343372d69355a7146653c669f566a1277.pdf",
+        "bibtex": "@inproceedings{\nfu2025scaling,\ntitle={Scaling Speculative Decoding with Lookahead Reasoning},\nauthor={Yichao Fu and Rui Ge and Zelei Shao and Zhijie Deng and Hao Zhang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=JxxKj8pow1}\n}"
+      },
+      {
+        "title": "Let Me Think! A Long Chain of Thought Can Be Worth Exponentially Many Short Ones",
+        "authors": "Parsa Mirtaheri, Ezra Edelman, Samy Jelassi, Eran Malach, Enric Boix-Adserà",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7592,
+        "link": "https://openreview.net/pdf/3522982c33f5d5199bd558f48909b1bccbf81615.pdf",
+        "bibtex": "@inproceedings{\nmirtaheri2025let,\ntitle={Let Me Think! A Long Chain of Thought Can Be Worth Exponentially Many Short Ones},\nauthor={Parsa Mirtaheri and Ezra Edelman and Samy Jelassi and Eran Malach and Enric Boix-Adser{\\`a}},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=GuvQJGgbLm}\n}"
+      },
+      {
+        "title": "On Reasoning Strength Planning in Large Reasoning Models",
+        "authors": "Leheng Sheng, An Zhang, Zijian Wu, Weixiang Zhao, Changshuo Shen, Yi Zhang, Xiang Wang, Tat-Seng Chua",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7589,
+        "link": "https://openreview.net/pdf/ec0170f131842f1aaee5993a19df22764b470213.pdf",
+        "bibtex": "@inproceedings{\nsheng2025on,\ntitle={On Reasoning Strength Planning in Large Reasoning Models},\nauthor={Leheng Sheng and An Zhang and Zijian Wu and Weixiang Zhao and Changshuo Shen and Yi Zhang and Xiang Wang and Tat-Seng Chua},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=H26A7cl91u}\n}"
+      },
+      {
+        "title": "How Far Are We from Optimal Reasoning Efficiency?",
+        "authors": "Jiaxuan Gao, Shu Yan, Qixin Tan, lu Yang, Shusheng Xu, Wei Fu, Zhiyu Mei, Kaifeng Lyu, Yi Wu",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7589,
+        "link": "https://openreview.net/pdf/3368527a3ac4176eab10cf57d919c6de1ff4e314.pdf",
+        "bibtex": "@inproceedings{\ngao2025how,\ntitle={How Far Are We from Optimal Reasoning Efficiency?},\nauthor={Jiaxuan Gao and Shu Yan and Qixin Tan and lu Yang and Shusheng Xu and Wei Fu and Zhiyu Mei and Kaifeng Lyu and Yi Wu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=NhAi1w3s8Z}\n}"
+      },
+      {
+        "title": "Don’t Think Longer, Think Wisely: Optimizing Thinking Dynamics for Large Reasoning Models",
+        "authors": "Sohyun An, Ruochen Wang, Tianyi Zhou, Cho-Jui Hsieh",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7582,
+        "link": "https://openreview.net/pdf/1b9aa688f3d241f228fbd9b8694bdffb938d1d5f.pdf",
+        "bibtex": "@inproceedings{\nan2025dont,\ntitle={Don{\\textquoteright}t Think Longer, Think Wisely: Optimizing Thinking Dynamics for Large Reasoning Models},\nauthor={Sohyun An and Ruochen Wang and Tianyi Zhou and Cho-Jui Hsieh},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=nxnBaaRLnz}\n}"
+      },
+      {
+        "title": "Eliciting Reasoning in Language Models with Cognitive Tools",
+        "authors": "Brown Ebouky, Andrea Bartezzaghi, Mattia Rigotti",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7565,
+        "link": "https://openreview.net/pdf/ea576c6461243d27a8102c9dfa554db950d66757.pdf",
+        "bibtex": "@inproceedings{\nebouky2025eliciting,\ntitle={Eliciting Reasoning in Language Models with Cognitive Tools},\nauthor={Brown Ebouky and Andrea Bartezzaghi and Mattia Rigotti},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=6H4tDTHalg}\n}"
+      },
+      {
+        "title": "Controlling Thinking Speed in Reasoning Models",
+        "authors": "Zhengkai Lin, Zhihang Fu, Ze Chen, Chao Chen, Liang Xie, Wenxiao Wang, Deng Cai, Zheng Wang, Jieping Ye",
+        "venue": "NeurIPS 2025 Spotlight",
+        "affinity_score": 0.7551,
+        "link": "https://openreview.net/pdf/ee862e36e40791c52d5b9c640e6eba71b0b72428.pdf",
+        "bibtex": "@inproceedings{\nlin2025controlling,\ntitle={Controlling Thinking Speed in Reasoning Models},\nauthor={Zhengkai Lin and Zhihang Fu and Ze Chen and Chao Chen and Liang Xie and Wenxiao Wang and Deng Cai and Zheng Wang and Jieping Ye},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=ESELaMThLN}\n}"
+      },
+      {
+        "title": "SpecReason: Fast and Accurate Inference-Time Compute via Speculative Reasoning",
+        "authors": "Rui Pan, Yinwei Dai, Zhihao Zhang, Gabriele Oliaro, Zhihao Jia, Ravi Netravali",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.755,
+        "link": "https://openreview.net/pdf/7c62b5e4703772251c504c1cdc203fa7a96cd873.pdf",
+        "bibtex": "@inproceedings{\npan2025specreason,\ntitle={SpecReason: Fast and Accurate Inference-Time Compute via Speculative Reasoning},\nauthor={Rui Pan and Yinwei Dai and Zhihao Zhang and Gabriele Oliaro and Zhihao Jia and Ravi Netravali},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=wCbOKbZ7kf}\n}"
+      },
+      {
+        "title": "Reasoning Path Compression: Compressing Generation Trajectories for Efficient LLM Reasoning",
+        "authors": "Jiwon Song, Dongwon Jo, Yulhwa Kim, Jae-Joon Kim",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7531,
+        "link": "https://openreview.net/pdf/8e675a892e87d2f3f98f3a4c08cb1e44bbf0f712.pdf",
+        "bibtex": "@inproceedings{\nsong2025reasoning,\ntitle={Reasoning Path Compression: Compressing Generation Trajectories for Efficient {LLM} Reasoning},\nauthor={Jiwon Song and Dongwon Jo and Yulhwa Kim and Jae-Joon Kim},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=894Yo61h1P}\n}"
+      },
+      {
+        "title": "Who Reasons in the Large Language Models?",
+        "authors": "Jie Shao, Jianxin Wu",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7518,
+        "link": "https://openreview.net/pdf/75ddd20e90deb59d29d66780d429e4a77c1879f6.pdf",
+        "bibtex": "@inproceedings{\nshao2025who,\ntitle={Who Reasons in the Large Language Models?},\nauthor={Jie Shao and Jianxin Wu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=XIqlxqNDCL}\n}"
+      },
+      {
+        "title": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+        "authors": "Parshin Shojaee, Seyed Iman Mirzadeh, Keivan Alizadeh, Maxwell Horton, Samy Bengio, Mehrdad Farajtabar",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7512,
+        "link": "https://openreview.net/pdf/b58069a804c5fad686ceb13a131631201748c264.pdf",
+        "bibtex": "@inproceedings{\nshojaee2025the,\ntitle={The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity},\nauthor={Parshin Shojaee and Seyed Iman Mirzadeh and Keivan Alizadeh and Maxwell Horton and Samy Bengio and Mehrdad Farajtabar},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=YghiOusmvw}\n}"
+      },
+      {
+        "title": "Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization",
+        "authors": "Yu Huang, Zixin Wen, Aarti Singh, Yuejie Chi, Yuxin Chen",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7491,
+        "link": "https://openreview.net/pdf/ba051e0f1adb3538f8447d79cab371a4a52ab9a2.pdf",
+        "bibtex": "@inproceedings{\nhuang2025transformers,\ntitle={Transformers Provably Learn Chain-of-Thought Reasoning with Length Generalization},\nauthor={Yu Huang and Zixin Wen and Aarti Singh and Yuejie Chi and Yuxin Chen},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=aE0bCvXXBt}\n}"
+      },
+      {
+        "title": "Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training",
+        "authors": "Mengru Wang, Xingyu Chen, Yue Wang, Zhiwei He, Jiahao Xu, Tian Liang, Qiuzhi Liu, Yunzhi Yao, Wenxuan Wang, Ruotian Ma, Haitao Mi, Ningyu Zhang, Zhaopeng Tu, Xiaolong Li, Dong Yu",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7489,
+        "link": "https://openreview.net/pdf/b3d520dcc1510df18760c246a1815ddcfda65d7e.pdf",
+        "bibtex": "@inproceedings{\nwang2025two,\ntitle={Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training},\nauthor={Mengru Wang and Xingyu Chen and Yue Wang and Zhiwei He and Jiahao Xu and Tian Liang and Qiuzhi Liu and Yunzhi Yao and Wenxuan Wang and Ruotian Ma and Haitao Mi and Ningyu Zhang and Zhaopeng Tu and Xiaolong Li and Dong Yu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=x7fCiuCCAu}\n}"
+      },
+      {
+        "title": "A Implies B: Circuit Analysis in LLMs for Propositional Logical Reasoning",
+        "authors": "Guan Zhe Hong, Nishanth Dikkala, Enming Luo, Cyrus Rashtchian, Xin Wang, Rina Panigrahy",
+        "venue": "NeurIPS 2025 Spotlight",
+        "affinity_score": 0.7488,
+        "link": "https://openreview.net/pdf/edfcc94d23a1796e8903435652cc311e00009492.pdf",
+        "bibtex": "@inproceedings{\nhong2025a,\ntitle={A Implies B: Circuit Analysis in {LLM}s for Propositional Logical Reasoning},\nauthor={Guan Zhe Hong and Nishanth Dikkala and Enming Luo and Cyrus Rashtchian and Xin Wang and Rina Panigrahy},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=M0U8wUow8c}\n}"
+      },
+      {
+        "title": "System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts",
+        "authors": "Xiaoqiang Wang, Suyuchen Wang, Yun Zhu, Bang Liu",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7475,
+        "link": "https://openreview.net/pdf/d239a496aa58524a3d724289b589b295e3d663a1.pdf",
+        "bibtex": "@inproceedings{\nwang2025system,\ntitle={System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts},\nauthor={Xiaoqiang Wang and Suyuchen Wang and Yun Zhu and Bang Liu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=MNduv07wAu}\n}"
+      },
+      {
+        "title": "Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage RL",
+        "authors": "Songjun Tu, Jiahao Lin, Qichao Zhang, Xiangyu Tian, Linjing Li, Xiangyuan Lan, Dongbin Zhao",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7474,
+        "link": "https://openreview.net/pdf/dc89a6b0221240f7e120c7bd39c116d57711eec4.pdf",
+        "bibtex": "@inproceedings{\ntu2025learning,\ntitle={Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage {RL}},\nauthor={Songjun Tu and Jiahao Lin and Qichao Zhang and Xiangyu Tian and Linjing Li and Xiangyuan Lan and Dongbin Zhao},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=Hs3FrjwyVZ}\n}"
+      },
+      {
+        "title": "A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings",
+        "authors": "Xiaoang Xu, Shuo Wang, Xu Han, Zhenghao Liu, Huijia Wu, Pei Pei Li, Zhiyuan Liu, Maosong Sun, Zhaofeng He",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7466,
+        "link": "https://openreview.net/pdf/c195879cc26e5ec0e4ce597ef295a7b72df1c34e.pdf",
+        "bibtex": "@inproceedings{\nxu2025athought,\ntitle={A*-Thought: Efficient Reasoning via Bidirectional Compression for Low-Resource Settings},\nauthor={Xiaoang Xu and Shuo Wang and Xu Han and Zhenghao Liu and Huijia Wu and Pei Pei Li and Zhiyuan Liu and Maosong Sun and Zhaofeng He},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=uvyr9bYwL6}\n}"
+      },
+      {
+        "title": "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning",
+        "authors": "Yang Chen, Zhuolin Yang, Zihan Liu, Chankyu Lee, Peng Xu, Mohammad Shoeybi, Bryan Catanzaro, Wei Ping",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7455,
+        "link": "https://openreview.net/pdf/4dbb7f099e0ae9ed52f26be78bbd5f18b4adc8a6.pdf",
+        "bibtex": "@inproceedings{\nchen2025acereasonnemotron,\ntitle={AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning},\nauthor={Yang Chen and Zhuolin Yang and Zihan Liu and Chankyu Lee and Peng Xu and Mohammad Shoeybi and Bryan Catanzaro and Wei Ping},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=EgArbnS0BA}\n}"
+      },
+      {
+        "title": "Optimizing Anytime Reasoning via Budget Relative Policy Optimization",
+        "authors": "Penghui Qi, Zichen Liu, Tianyu Pang, Chao Du, Wee Sun Lee, Min Lin",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7444,
+        "link": "https://openreview.net/pdf/8136e4668a09f8c47a2454d9e72728d4fdea055e.pdf",
+        "bibtex": "@inproceedings{\nqi2025optimizing,\ntitle={Optimizing Anytime Reasoning via Budget Relative Policy Optimization},\nauthor={Penghui Qi and Zichen Liu and Tianyu Pang and Chao Du and Wee Sun Lee and Min Lin},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=jFaFCc5978}\n}"
+      },
+      {
+        "title": "QFFT, Question-Free Fine-Tuning for Adaptive Reasoning",
+        "authors": "Wanlong Liu, Junxiao Xu, Fei Yu, Yukang Lin, Ke Ji, Wenyu Chen, Lifeng Shang, Yasheng Wang, Yan Xu, Benyou Wang",
+        "venue": "NeurIPS 2025 Spotlight",
+        "affinity_score": 0.741,
+        "link": "https://openreview.net/pdf/0577786ecb581c41f487868548cd2602cdd5abad.pdf",
+        "bibtex": "@inproceedings{\nliu2025qfft,\ntitle={{QFFT}, Question-Free Fine-Tuning for Adaptive Reasoning},\nauthor={Wanlong Liu and Junxiao Xu and Fei Yu and Yukang Lin and Ke Ji and Wenyu Chen and Lifeng Shang and Yasheng Wang and Yan Xu and Benyou Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=CrBWOjZoKc}\n}"
+      }
+    ];
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+
+    function loadPapers() {
+      try {
+        renderPapers(allPapers);
+      } catch (error) {
+        console.error('Error loading papers:', error);
+        document.getElementById('stats').textContent = 'Error loading papers.json. Make sure you are running this on a local server or have allowed local file access.';
+      }
+    }
+
+    function renderPapers(papers) {
+      const grid = document.getElementById('paperGrid');
+      const stats = document.getElementById('stats');
+
+      grid.innerHTML = '';
+      stats.textContent = `Showing ${papers.length} papers`;
+
+      papers.forEach(paper => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const link = paper.link || '#';
+        const title = paper.title || 'Untitled';
+        const authors = paper.authors || 'Unknown Authors';
+        const venue = paper.venue || 'Unknown Venue';
+        const score = paper.affinity_score ? paper.affinity_score.toFixed(4) : 'N/A';
+
+        card.innerHTML = `
+                    <div class="card-header">
+                        <span class="venue">${venue}</span>
+                        <span class="score">Score: ${score}</span>
+                    </div>
+                    <h3 class="title"><a href="${link}" target="_blank">${title}</a></h3>
+                    <div class="meta">
+                        <div><strong>Authors:</strong> ${authors}</div>
+                        ${paper.keywords ? `<div><strong>Keywords:</strong> ${paper.keywords}</div>` : ''}
+                    </div>
+                    <div class="actions">
+                        <a href="${link}" target="_blank" style="text-decoration:none">
+                            <button class="btn-small">View PDF</button>
+                        </a>
+                        ${paper.bibtex ? `<button class="btn-small" onclick="toggleBibtex(this)">BibTeX</button>` : ''}
+                    </div>
+                    ${paper.bibtex ? `<div class="bibtex-area">${paper.bibtex}</div>` : ''}
+                `;
+        grid.appendChild(card);
+      });
+    }
+
+    function toggleBibtex(btn) {
+      const area = btn.parentElement.nextElementSibling;
+      if (area.style.display === 'block') {
+        area.style.display = 'none';
+      } else {
+        area.style.display = 'block';
+      }
+    }
+
+    function filterPapers(query) {
+      const lowerQuery = query.toLowerCase();
+      const filtered = allPapers.filter(paper => {
+        return (paper.title && paper.title.toLowerCase().includes(lowerQuery)) ||
+          (paper.authors && paper.authors.toLowerCase().includes(lowerQuery)) ||
+          (paper.keywords && paper.keywords.toLowerCase().includes(lowerQuery));
+      });
+      renderPapers(filtered);
+    }
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      filterPapers(e.target.value);
+    });
+
+    function exportCSV() {
+      if (allPapers.length === 0) return;
+
+      // Define headers
+      const headers = ['Title', 'Authors', 'Venue', 'Affinity Score', 'Link', 'Keywords'];
+
+      // Convert data to CSV rows
+      const csvRows = [headers.join(',')];
+
+      allPapers.forEach(paper => {
+        const row = [
+          `"${(paper.title || '').replace(/"/g, '""')}"`,
+          `"${(paper.authors || '').replace(/"/g, '""')}"`,
+          `"${(paper.venue || '').replace(/"/g, '""')}"`,
+          paper.affinity_score || 0,
+          `"${(paper.link || '').replace(/"/g, '""')}"`,
+          `"${(paper.keywords || '').replace(/"/g, '""')}"`
+        ];
+        csvRows.push(row.join(','));
+      });
+
+      const csvString = csvRows.join('\n');
+      const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', 'ai_papers_export.csv');
+      link.style.visibility = 'hidden';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Initialize
+    loadPapers();
+  </script>
+</body>
+
+</html>
