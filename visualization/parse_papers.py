@@ -56,8 +56,8 @@ def parse_papers(file_path):
     return papers
 
 if __name__ == "__main__":
-    input_file = "ai-paper-finder.info search results.txt"
-    output_file = "papers.json"
+    input_file = "physical_ai/neurips_2025_physical_ai.txt" 
+    output_file = "physical_ai/papers.json"
     
     try:
         papers = parse_papers(input_file)
