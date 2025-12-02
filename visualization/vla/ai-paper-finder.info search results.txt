@@ -1,0 +1,510 @@
+Title: VLA-OS: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models
+Authors: Chongkai Gao, Zixuan Liu, Zhenghao Chi, Junshan Huang, Xin Fei, Yiwen Hou, Yuxuan Zhang, Yudi Lin, Zhirui Fang, Lin Shao
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.861
+Link: https://openreview.net/pdf/05a810d8dce16f520e115b9ee80b8096e6512276.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+gao2025vlaos,
+title={{VLA}-{OS}: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models},
+author={Chongkai Gao and Zixuan Liu and Zhenghao Chi and Junshan Huang and Xin Fei and Yiwen Hou and Yuxuan Zhang and Yudi Lin and Zhirui Fang and Lin Shao},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=PQYazNKEYo}
+}
+--------------------------------------------------------------------------------
+
+Title: Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning
+Authors: Zhe Hu, Jing Li, Zhongzhu Pu, Hou Pong Chan, Yu Yin
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8511
+Link: https://openreview.net/pdf/686dfc3803d0035e425a87f2c05d73ee610115ea.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+hu2025praxisvlm,
+title={Praxis-{VLM}: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning},
+author={Zhe Hu and Jing Li and Zhongzhu Pu and Hou Pong Chan and Yu Yin},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=U806q3iILo}
+}
+--------------------------------------------------------------------------------
+
+Title: ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning
+Authors: Chi-Pin Huang, Yueh-Hua Wu, Min-Hung Chen, Yu-Chiang Frank Wang, Fu-En Yang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8508
+Link: https://openreview.net/pdf/b35b0fc70612e191baced400f754db8ff1fae711.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+huang2025thinkact,
+title={ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning},
+author={Chi-Pin Huang and Yueh-Hua Wu and Min-Hung Chen and Yu-Chiang Frank Wang and Fu-En Yang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=72UR53jN7T}
+}
+--------------------------------------------------------------------------------
+
+Title: Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs
+Authors: Kejia Zhang, Keda TAO, Jiasheng Tang, Huan Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8471
+Link: https://openreview.net/pdf/7ced1feb2a47fbe62a15358314c645c65555fbab.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+zhang2025poison,
+title={Poison as Cure: Visual Noise for Mitigating Object Hallucinations in {LVM}s},
+author={Kejia Zhang and Keda TAO and Jiasheng Tang and Huan Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=quKHZ3fcgx}
+}
+--------------------------------------------------------------------------------
+
+Title: AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Document Understanding
+Authors: Ahmed Masry, Juan A. Rodriguez, Tianyu Zhang, Suyuchen Wang, Chao Wang, Aarash Feizi, Akshay Kalkunte Suresh, Abhay Puri, Xiangru Jian, Pierre-Andre Noel, Sathwik Tejaswi Madhusudhan, Marco Pedersoli, Bang Liu, Nicolas Chapados, Yoshua Bengio, Enamul Hoque, Christopher Pal, Issam H. Laradji, David Vazquez, Perouz Taslakian, Spandana Gella, Sai Rajeswar
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8445
+Link: https://openreview.net/pdf/9e37ed13b5a2079e07e1423e14d3ca72f9054194.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+masry2025alignvlm,
+title={Align{VLM}: Bridging Vision and Language Latent Spaces for Multimodal Document Understanding},
+author={Ahmed Masry and Juan A. Rodriguez and Tianyu Zhang and Suyuchen Wang and Chao Wang and Aarash Feizi and Akshay Kalkunte Suresh and Abhay Puri and Xiangru Jian and Pierre-Andre Noel and Sathwik Tejaswi Madhusudhan and Marco Pedersoli and Bang Liu and Nicolas Chapados and Yoshua Bengio and Enamul Hoque and Christopher Pal and Issam H. Laradji and David Vazquez and Perouz Taslakian and Spandana Gella and Sai Rajeswar},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=vAxGuGmshO}
+}
+--------------------------------------------------------------------------------
+
+Title: Glance2Gaze: Efficient Vision-Language Models from Glance Fusion to Gaze Compression
+Authors: Juan Chen, Honglin liu, Yingying Ao, Ting Zhang, Yan Huang, Xudong Liu, Biao Li, Jintao Fang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8363
+Link: https://openreview.net/pdf/15441ca44cc1f990a89a33c2db272bdf5f95539f.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+chen2025glancegaze,
+title={Glance2Gaze: Efficient Vision-Language Models from Glance Fusion to Gaze Compression},
+author={Juan Chen and Honglin liu and Yingying Ao and Ting Zhang and Yan Huang and Xudong Liu and Biao Li and Jintao Fang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=gm65gK3uOJ}
+}
+--------------------------------------------------------------------------------
+
+Title: VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning
+Authors: Senqiao Yang, Junyi Li, Xin Lai, Jinming Wu, Wei Li, Zejun MA, Bei Yu, Hengshuang Zhao, Jiaya Jia
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8348
+Link: https://openreview.net/pdf/a1ce03f1786df2e67c61dd99ba4f40d2d92f913b.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+yang2025visionthink,
+title={VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning},
+author={Senqiao Yang and Junyi Li and Xin Lai and Jinming Wu and Wei Li and Zejun MA and Bei Yu and Hengshuang Zhao and Jiaya Jia},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=R6m6bNnmWm}
+}
+--------------------------------------------------------------------------------
+
+Title: CogVLA: Cognition-Aligned Vision-Language-Action Models via Instruction-Driven Routing & Sparsification
+Authors: Wei Li, Renshan Zhang, Rui Shao, Jie He, Liqiang Nie
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8333
+Link: https://openreview.net/pdf/e67f52c1abdf244a6b56b29468a234e1c2b8d202.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+li2025cogvla,
+title={Cog{VLA}: Cognition-Aligned Vision-Language-Action Models via Instruction-Driven Routing \& Sparsification},
+author={Wei Li and Renshan Zhang and Rui Shao and Jie He and Liqiang Nie},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=Fg9HufTI0K}
+}
+--------------------------------------------------------------------------------
+
+Title: AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning
+Authors: Zewei Zhou, Tianhui Cai, Seth Z. Zhao, Yun Zhang, Zhiyu Huang, Bolei Zhou, Jiaqi Ma
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8299
+Link: https://openreview.net/pdf/ac3e0d2216d650bf65be2b1559d68dc79c32c6ed.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+zhou2025autovla,
+title={Auto{VLA}: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning},
+author={Zewei Zhou and Tianhui Cai and Seth Z. Zhao and Yun Zhang and Zhiyu Huang and Bolei Zhou and Jiaqi Ma},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=28qUA2bSe5}
+}
+--------------------------------------------------------------------------------
+
+Title: GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents
+Authors: Qianhui Wu, Kanzhi Cheng, Rui Yang, Chaoyun Zhang, Jianwei Yang, Huiqiang Jiang, Jian Mu, Baolin Peng, Bo Qiao, Reuben Tan, Si Qin, Lars Liden, Qingwei Lin, Huan Zhang, Tong Zhang, Jianbing Zhang, Dongmei Zhang, Jianfeng Gao
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8297
+Link: https://openreview.net/pdf/b077c66cdcba53dd1796d274aeb36050df714f8a.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wu2025guiactor,
+title={{GUI}-Actor: Coordinate-Free Visual Grounding for {GUI} Agents},
+author={Qianhui Wu and Kanzhi Cheng and Rui Yang and Chaoyun Zhang and Jianwei Yang and Huiqiang Jiang and Jian Mu and Baolin Peng and Bo Qiao and Reuben Tan and Si Qin and Lars Liden and Qingwei Lin and Huan Zhang and Tong Zhang and Jianbing Zhang and Dongmei Zhang and Jianfeng Gao},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=5fSkinHw7w}
+}
+--------------------------------------------------------------------------------
+
+Title: VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning
+Authors: Qiuchen Wang, Ruixue Ding, Yu Zeng, Zehui Chen, Lin Chen, Shihang Wang, Pengjun Xie, Fei Huang, Feng Zhao
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8293
+Link: https://openreview.net/pdf/facbdeba1c5f4027c295d801ab7c24a818c3957f.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025vragrl,
+title={{VRAG}-{RL}: Empower Vision-Perception-Based {RAG} for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning},
+author={Qiuchen Wang and Ruixue Ding and Yu Zeng and Zehui Chen and Lin Chen and Shihang Wang and Pengjun Xie and Fei Huang and Feng Zhao},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=EeAHhNwXPV}
+}
+--------------------------------------------------------------------------------
+
+Title: ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs
+Authors: Xiyao Wang, Zhengyuan Yang, Chao Feng, Yuhang Zhou, Xiaoyu Liu, Yongyuan Liang, Ming Li, Ziyi Zang, Linjie Li, Chung-Ching Lin, Kevin Lin, Furong Huang, Lijuan Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.827
+Link: https://openreview.net/pdf/631a654bdd1aa99c3357feb56e89859a66512702.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025vicrit,
+title={ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in {VLM}s},
+author={Xiyao Wang and Zhengyuan Yang and Chao Feng and Yuhang Zhou and Xiaoyu Liu and Yongyuan Liang and Ming Li and Ziyi Zang and Linjie Li and Chung-Ching Lin and Kevin Lin and Furong Huang and Lijuan Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=j42rziWq1n}
+}
+--------------------------------------------------------------------------------
+
+Title: VL-SAE: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set
+Authors: Shufan Shen, Junshu Sun, Qingming Huang, Shuhui Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8269
+Link: https://openreview.net/pdf/5995cce110f7233d975ec1576f914f01445fa3f0.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+shen2025vlsae,
+title={{VL}-{SAE}: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set},
+author={Shufan Shen and Junshu Sun and Qingming Huang and Shuhui Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=1Sb0363f2y}
+}
+--------------------------------------------------------------------------------
+
+Title: VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
+Authors: Yichao Shen, Fangyun Wei, Zhiying Du, Yaobo Liang, Yan Lu, Jiaolong Yang, Nanning Zheng, Baining Guo
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8265
+Link: https://openreview.net/pdf/f6c3cc140f9485e907fb651a2a5dfb7a65d5529c.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+shen2025videovla,
+title={Video{VLA}: Video Generators Can Be Generalizable Robot Manipulators},
+author={Yichao Shen and Fangyun Wei and Zhiying Du and Yaobo Liang and Yan Lu and Jiaolong Yang and Nanning Zheng and Baining Guo},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=UPHlqbZFZB}
+}
+--------------------------------------------------------------------------------
+
+Title: Grounded Reinforcement Learning for Visual Reasoning
+Authors: Gabriel Herbert Sarch, Snigdha Saha, Naitik Khandelwal, Ayush Jain, Michael J. Tarr, Aviral Kumar, Katerina Fragkiadaki
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8265
+Link: https://openreview.net/pdf/51495ccee37191c401ab184d34f4e5dc92f3ef58.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+sarch2025grounded,
+title={Grounded Reinforcement Learning for Visual Reasoning},
+author={Gabriel Herbert Sarch and Snigdha Saha and Naitik Khandelwal and Ayush Jain and Michael J. Tarr and Aviral Kumar and Katerina Fragkiadaki},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=1amnhVRQ3l}
+}
+--------------------------------------------------------------------------------
+
+Title: Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does Not Fundamentally Alter It
+Authors: Yulu Qin, Dheeraj Varghese, Adam Dahlgren Lindström, Lucia Donatelli, Kanishka Misra, Najoung Kim
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8257
+Link: https://openreview.net/pdf/26ff5e34ec218efe95586e4fdb503f5746be7c3e.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+qin2025visionandlanguage,
+title={Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does Not Fundamentally Alter It},
+author={Yulu Qin and Dheeraj Varghese and Adam Dahlgren Lindstr{\"o}m and Lucia Donatelli and Kanishka Misra and Najoung Kim},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=KXmDTGKwhy}
+}
+--------------------------------------------------------------------------------
+
+Title: Same Task, Different Circuits: Disentangling Modality-Specific Mechanisms in VLMs
+Authors: Yaniv Nikankin, Dana Arad, Yossi Gandelsman, Yonatan Belinkov
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8255
+Link: https://openreview.net/pdf/ccc2f44216cb404ea3bbcf1c0806a230773dab2e.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+nikankin2025same,
+title={Same Task, Different Circuits: Disentangling Modality-Specific Mechanisms in {VLM}s},
+author={Yaniv Nikankin and Dana Arad and Yossi Gandelsman and Yonatan Belinkov},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=AD8ksC9bw1}
+}
+--------------------------------------------------------------------------------
+
+Title: Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards
+Authors: Honghao Chen, Xingzhou Lou, Xiaokun Feng, Kaiqi Huang, Xinlong Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.824
+Link: https://openreview.net/pdf/b75967c26b83c8cc4921f37f32977c5e087b1f44.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+chen2025unveiling,
+title={Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards},
+author={Honghao Chen and Xingzhou Lou and Xiaokun Feng and Kaiqi Huang and Xinlong Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=D8nHwexHNv}
+}
+--------------------------------------------------------------------------------
+
+Title: Visual Structures Help Visual Reasoning:  Addressing the Binding Problem in LVLMs
+Authors: Amirmohammad Izadi, Mohammadali Banayeeanzade, Fatemeh Askari, Ali Rahimiakbar, Mohammad Mahdi Vahedi, Hosein Hasani, Mahdieh Soleymani Baghshah
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8239
+Link: https://openreview.net/pdf/9aa6856102d8ec332673e3b3497a2c653885bfee.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+izadi2025visual,
+title={Visual Structures Help Visual Reasoning:  Addressing the Binding Problem in {LVLM}s},
+author={Amirmohammad Izadi and Mohammadali Banayeeanzade and Fatemeh Askari and Ali Rahimiakbar and Mohammad Mahdi Vahedi and Hosein Hasani and Mahdieh Soleymani Baghshah},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=T52hZeT7rn}
+}
+--------------------------------------------------------------------------------
+
+Title: Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering
+Authors: Yuyang Hong, Jiaqi Gu, Qi Yang, Lubin Fan, Yue Wu, Ying Wang, Kun Ding, Shiming Xiang, Jieping Ye
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8234
+Link: https://openreview.net/pdf/fc97a2f58898074b2cbe0521459da7f6551f2dcb.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+hong2025knowledgebased,
+title={Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering},
+author={Yuyang Hong and Jiaqi Gu and Qi Yang and Lubin Fan and Yue Wu and Ying Wang and Kun Ding and Shiming Xiang and Jieping Ye},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=h0LzGQq6uO}
+}
+--------------------------------------------------------------------------------
+
+Title: VLMs have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading VLMs
+Authors: Shmuel Berman, Jia Deng
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.8225
+Link: https://openreview.net/pdf/ca79a743ac55c7fce5e100be3b2d695bf84a71ba.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+berman2025vlms,
+title={{VLM}s have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading {VLM}s},
+author={Shmuel Berman and Jia Deng},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=bRWkBD2BfK}
+}
+--------------------------------------------------------------------------------
+
+Title: EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models
+Authors: Yantai Yang, Yuhao Wang, Zichen Wen, Luo Zhongwei, Chang Zou, Zhipeng Zhang, Chuan Wen, Linfeng Zhang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8225
+Link: https://openreview.net/pdf/0817b5f3709b35da9c8167416c077f27b525ad17.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+yang2025efficientvla,
+title={Efficient{VLA}: Training-Free Acceleration and Compression for Vision-Language-Action Models},
+author={Yantai Yang and Yuhao Wang and Zichen Wen and Luo Zhongwei and Chang Zou and Zhipeng Zhang and Chuan Wen and Linfeng Zhang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=SELYlDHZk2}
+}
+--------------------------------------------------------------------------------
+
+Title: Aux-Think: Exploring Reasoning Strategies for Data-Efficient Vision-Language Navigation
+Authors: Shuo Wang, Yongcai Wang, Wanting Li, Xudong Cai, Yucheng Wang, Maiyue Chen, kaihui.wang, Zhizhong Su, Deying Li, Zhaoxin Fan
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.822
+Link: https://openreview.net/pdf/4eb2cec937108c8a5e1785cf53b814a0999b4eb2.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025auxthink,
+title={Aux-Think: Exploring Reasoning Strategies for Data-Efficient Vision-Language Navigation},
+author={Shuo Wang and Yongcai Wang and Wanting Li and Xudong Cai and Yucheng Wang and Maiyue Chen and kaihui.wang and Zhizhong Su and Deying Li and Zhaoxin Fan},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=vNmWbINtwH}
+}
+--------------------------------------------------------------------------------
+
+Title: Elevating Visual Perception in Multimodal LLMs with Visual Embedding Distillation
+Authors: Jitesh Jain, Zhengyuan Yang, Humphrey Shi, Jianfeng Gao, Jianwei Yang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8218
+Link: https://openreview.net/pdf/79c1152558904f8c4793fa636c396e0a5c4740bf.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+jain2025elevating,
+title={Elevating Visual Perception in Multimodal {LLM}s with Visual Embedding Distillation},
+author={Jitesh Jain and Zhengyuan Yang and Humphrey Shi and Jianfeng Gao and Jianwei Yang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=AZ1iyo58F8}
+}
+--------------------------------------------------------------------------------
+
+Title: ChatVLA-2: Vision-Language-Action Model with Open-World Reasoning
+Authors: Zhongyi Zhou, Yichen Zhu, Xiaoyu Liu, Zhibin Tang, Junjie Wen, Yaxin Peng, Chaomin Shen, Yi Xu
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8216
+Link: https://openreview.net/pdf/c88d737915ea445cb600d21cb0c7125912b7053b.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+zhou2025chatvla,
+title={Chat{VLA}-2: Vision-Language-Action Model with Open-World Reasoning},
+author={Zhongyi Zhou and Yichen Zhu and Xiaoyu Liu and Zhibin Tang and Junjie Wen and Yaxin Peng and Chaomin Shen and Yi Xu},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=1lyKflUOhp}
+}
+--------------------------------------------------------------------------------
+
+Title: Pixel Reasoner: Incentivizing Pixel Space Reasoning via Curiosity-Driven Reinforcement Learning
+Authors: Alex Su, Haozhe Wang, Weiming Ren, Fangzhen Lin, Wenhu Chen
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8184
+Link: https://openreview.net/pdf/1cff63c2ec284033d02664f1b348bc05165216ea.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+su2025pixel,
+title={Pixel Reasoner: Incentivizing Pixel Space Reasoning via Curiosity-Driven Reinforcement Learning},
+author={Alex Su and Haozhe Wang and Weiming Ren and Fangzhen Lin and Wenhu Chen},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=VeZkY3JjWV}
+}
+--------------------------------------------------------------------------------
+
+Title: Unveiling the Compositional Ability Gap in Vision-Language Reasoning Model
+Authors: Tianle Li, Jihai Zhang, Yongming Rao, Yu Cheng
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8184
+Link: https://openreview.net/pdf/64ee56c0512b904e0aebcd799494fb96e7bdedba.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+li2025unveiling,
+title={Unveiling the Compositional Ability Gap in Vision-Language Reasoning Model},
+author={Tianle Li and Jihai Zhang and Yongming Rao and Yu Cheng},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=J76cCYTJub}
+}
+--------------------------------------------------------------------------------
+
+Title: Dynam3D: Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation
+Authors: Zihan Wang, Seungjun Lee, Gim Hee Lee
+Venue: NeurIPS 2025 Oral
+Affinity Score: 0.8168
+Link: https://openreview.net/pdf/7d0f1ac9561fa319deafaba5a89fc066c63b1e5d.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025dynamd,
+title={Dynam3D: Dynamic Layered 3D Tokens Empower {VLM} for Vision-and-Language Navigation},
+author={Zihan Wang and Seungjun Lee and Gim Hee Lee},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=s6k9l5yX8e}
+}
+--------------------------------------------------------------------------------
+
+Title: VideoHallu: Evaluating and Mitigating Multi-modal Hallucinations on Synthetic Video Understanding
+Authors: Zongxia Li, Xiyang Wu, Guangyao Shi, Yubin Qin, Hongyang Du, Tianyi Zhou, Dinesh Manocha, Jordan Lee Boyd-Graber
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8162
+Link: https://openreview.net/pdf/756648ea95e703a5d406ef365ed123793db01cae.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+li2025videohallu,
+title={VideoHallu: Evaluating and Mitigating Multi-modal Hallucinations on Synthetic Video Understanding},
+author={Zongxia Li and Xiyang Wu and Guangyao Shi and Yubin Qin and Hongyang Du and Tianyi Zhou and Dinesh Manocha and Jordan Lee Boyd-Graber},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=NoC9HT7Kf7}
+}
+--------------------------------------------------------------------------------
+
+Title: Multi-step Visual Reasoning with Visual Tokens Scaling and Verification
+Authors: Tianyi Bai, Zengjie Hu, Fupeng Sun, Qiu Jiantao, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, Wentao Zhang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8158
+Link: https://openreview.net/pdf/a48656c1e2d8fb5cee742d21b8b328458f483707.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+bai2025multistep,
+title={Multi-step Visual Reasoning with Visual Tokens Scaling and Verification},
+author={Tianyi Bai and Zengjie Hu and Fupeng Sun and Qiu Jiantao and Yizhen Jiang and Guangxin He and Bohan Zeng and Conghui He and Binhang Yuan and Wentao Zhang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=y60FhgO07j}
+}
+--------------------------------------------------------------------------------
+

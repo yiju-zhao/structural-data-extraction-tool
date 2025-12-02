@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VLA</title>
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-primary: #1e293b;
+      --text-secondary: #64748b;
+      --border-color: #e2e8f0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      margin: 0;
+      padding: 20px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: var(--text-primary);
+    }
+
+    .controls {
+      display: flex;
+      gap: 15px;
+    }
+
+    input[type="text"] {
+      padding: 10px 15px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      width: 300px;
+      font-size: 0.95rem;
+    }
+
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #1d4ed8;
+    }
+
+    .stats {
+      margin-bottom: 20px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .score {
+      background-color: #eff6ff;
+      color: var(--primary-color);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+      margin-left: 10px;
+    }
+
+    .title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0 0 10px 0;
+      line-height: 1.4;
+    }
+
+    .title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .title a:hover {
+      color: var(--primary-color);
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 15px;
+    }
+
+    .meta div {
+      margin-bottom: 4px;
+    }
+
+    .venue {
+      display: inline-block;
+      background-color: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+
+    .actions {
+      margin-top: auto;
+      padding-top: 15px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn-small {
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      background-color: transparent;
+      color: var(--text-secondary);
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-small:hover {
+      background-color: #f8fafc;
+      color: var(--text-primary);
+    }
+
+    .bibtex-area {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      background: #f1f5f9;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.8rem;
+      white-space: pre-wrap;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>VLA</h1>
+      <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search title, authors, or keywords...">
+        <button onclick="exportCSV()">Export CSV</button>
+      </div>
+    </header>
+
+    <div class="stats" id="stats">Loading papers...</div>
+    <div class="grid" id="paperGrid"></div>
+  </div>
+
+  <script>
+    let allPapers = [
+      {
+        "title": "VLA-OS: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models",
+        "authors": "Chongkai Gao, Zixuan Liu, Zhenghao Chi, Junshan Huang, Xin Fei, Yiwen Hou, Yuxuan Zhang, Yudi Lin, Zhirui Fang, Lin Shao",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.861,
+        "link": "https://openreview.net/pdf/05a810d8dce16f520e115b9ee80b8096e6512276.pdf",
+        "bibtex": "@inproceedings{\ngao2025vlaos,\ntitle={{VLA}-{OS}: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models},\nauthor={Chongkai Gao and Zixuan Liu and Zhenghao Chi and Junshan Huang and Xin Fei and Yiwen Hou and Yuxuan Zhang and Yudi Lin and Zhirui Fang and Lin Shao},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=PQYazNKEYo}\n}"
+      },
+      {
+        "title": "Praxis-VLM: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning",
+        "authors": "Zhe Hu, Jing Li, Zhongzhu Pu, Hou Pong Chan, Yu Yin",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8511,
+        "link": "https://openreview.net/pdf/686dfc3803d0035e425a87f2c05d73ee610115ea.pdf",
+        "bibtex": "@inproceedings{\nhu2025praxisvlm,\ntitle={Praxis-{VLM}: Vision-Grounded Decision Making via Text-Driven Reinforcement Learning},\nauthor={Zhe Hu and Jing Li and Zhongzhu Pu and Hou Pong Chan and Yu Yin},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=U806q3iILo}\n}"
+      },
+      {
+        "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+        "authors": "Chi-Pin Huang, Yueh-Hua Wu, Min-Hung Chen, Yu-Chiang Frank Wang, Fu-En Yang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8508,
+        "link": "https://openreview.net/pdf/b35b0fc70612e191baced400f754db8ff1fae711.pdf",
+        "bibtex": "@inproceedings{\nhuang2025thinkact,\ntitle={ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning},\nauthor={Chi-Pin Huang and Yueh-Hua Wu and Min-Hung Chen and Yu-Chiang Frank Wang and Fu-En Yang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=72UR53jN7T}\n}"
+      },
+      {
+        "title": "Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs",
+        "authors": "Kejia Zhang, Keda TAO, Jiasheng Tang, Huan Wang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8471,
+        "link": "https://openreview.net/pdf/7ced1feb2a47fbe62a15358314c645c65555fbab.pdf",
+        "bibtex": "@inproceedings{\nzhang2025poison,\ntitle={Poison as Cure: Visual Noise for Mitigating Object Hallucinations in {LVM}s},\nauthor={Kejia Zhang and Keda TAO and Jiasheng Tang and Huan Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=quKHZ3fcgx}\n}"
+      },
+      {
+        "title": "AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Document Understanding",
+        "authors": "Ahmed Masry, Juan A. Rodriguez, Tianyu Zhang, Suyuchen Wang, Chao Wang, Aarash Feizi, Akshay Kalkunte Suresh, Abhay Puri, Xiangru Jian, Pierre-Andre Noel, Sathwik Tejaswi Madhusudhan, Marco Pedersoli, Bang Liu, Nicolas Chapados, Yoshua Bengio, Enamul Hoque, Christopher Pal, Issam H. Laradji, David Vazquez, Perouz Taslakian, Spandana Gella, Sai Rajeswar",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8445,
+        "link": "https://openreview.net/pdf/9e37ed13b5a2079e07e1423e14d3ca72f9054194.pdf",
+        "bibtex": "@inproceedings{\nmasry2025alignvlm,\ntitle={Align{VLM}: Bridging Vision and Language Latent Spaces for Multimodal Document Understanding},\nauthor={Ahmed Masry and Juan A. Rodriguez and Tianyu Zhang and Suyuchen Wang and Chao Wang and Aarash Feizi and Akshay Kalkunte Suresh and Abhay Puri and Xiangru Jian and Pierre-Andre Noel and Sathwik Tejaswi Madhusudhan and Marco Pedersoli and Bang Liu and Nicolas Chapados and Yoshua Bengio and Enamul Hoque and Christopher Pal and Issam H. Laradji and David Vazquez and Perouz Taslakian and Spandana Gella and Sai Rajeswar},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=vAxGuGmshO}\n}"
+      },
+      {
+        "title": "Glance2Gaze: Efficient Vision-Language Models from Glance Fusion to Gaze Compression",
+        "authors": "Juan Chen, Honglin liu, Yingying Ao, Ting Zhang, Yan Huang, Xudong Liu, Biao Li, Jintao Fang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8363,
+        "link": "https://openreview.net/pdf/15441ca44cc1f990a89a33c2db272bdf5f95539f.pdf",
+        "bibtex": "@inproceedings{\nchen2025glancegaze,\ntitle={Glance2Gaze: Efficient Vision-Language Models from Glance Fusion to Gaze Compression},\nauthor={Juan Chen and Honglin liu and Yingying Ao and Ting Zhang and Yan Huang and Xudong Liu and Biao Li and Jintao Fang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=gm65gK3uOJ}\n}"
+      },
+      {
+        "title": "VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning",
+        "authors": "Senqiao Yang, Junyi Li, Xin Lai, Jinming Wu, Wei Li, Zejun MA, Bei Yu, Hengshuang Zhao, Jiaya Jia",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8348,
+        "link": "https://openreview.net/pdf/a1ce03f1786df2e67c61dd99ba4f40d2d92f913b.pdf",
+        "bibtex": "@inproceedings{\nyang2025visionthink,\ntitle={VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning},\nauthor={Senqiao Yang and Junyi Li and Xin Lai and Jinming Wu and Wei Li and Zejun MA and Bei Yu and Hengshuang Zhao and Jiaya Jia},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=R6m6bNnmWm}\n}"
+      },
+      {
+        "title": "CogVLA: Cognition-Aligned Vision-Language-Action Models via Instruction-Driven Routing & Sparsification",
+        "authors": "Wei Li, Renshan Zhang, Rui Shao, Jie He, Liqiang Nie",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8333,
+        "link": "https://openreview.net/pdf/e67f52c1abdf244a6b56b29468a234e1c2b8d202.pdf",
+        "bibtex": "@inproceedings{\nli2025cogvla,\ntitle={Cog{VLA}: Cognition-Aligned Vision-Language-Action Models via Instruction-Driven Routing \\& Sparsification},\nauthor={Wei Li and Renshan Zhang and Rui Shao and Jie He and Liqiang Nie},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=Fg9HufTI0K}\n}"
+      },
+      {
+        "title": "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning",
+        "authors": "Zewei Zhou, Tianhui Cai, Seth Z. Zhao, Yun Zhang, Zhiyu Huang, Bolei Zhou, Jiaqi Ma",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8299,
+        "link": "https://openreview.net/pdf/ac3e0d2216d650bf65be2b1559d68dc79c32c6ed.pdf",
+        "bibtex": "@inproceedings{\nzhou2025autovla,\ntitle={Auto{VLA}: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning},\nauthor={Zewei Zhou and Tianhui Cai and Seth Z. Zhao and Yun Zhang and Zhiyu Huang and Bolei Zhou and Jiaqi Ma},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=28qUA2bSe5}\n}"
+      },
+      {
+        "title": "GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents",
+        "authors": "Qianhui Wu, Kanzhi Cheng, Rui Yang, Chaoyun Zhang, Jianwei Yang, Huiqiang Jiang, Jian Mu, Baolin Peng, Bo Qiao, Reuben Tan, Si Qin, Lars Liden, Qingwei Lin, Huan Zhang, Tong Zhang, Jianbing Zhang, Dongmei Zhang, Jianfeng Gao",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8297,
+        "link": "https://openreview.net/pdf/b077c66cdcba53dd1796d274aeb36050df714f8a.pdf",
+        "bibtex": "@inproceedings{\nwu2025guiactor,\ntitle={{GUI}-Actor: Coordinate-Free Visual Grounding for {GUI} Agents},\nauthor={Qianhui Wu and Kanzhi Cheng and Rui Yang and Chaoyun Zhang and Jianwei Yang and Huiqiang Jiang and Jian Mu and Baolin Peng and Bo Qiao and Reuben Tan and Si Qin and Lars Liden and Qingwei Lin and Huan Zhang and Tong Zhang and Jianbing Zhang and Dongmei Zhang and Jianfeng Gao},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=5fSkinHw7w}\n}"
+      },
+      {
+        "title": "VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning",
+        "authors": "Qiuchen Wang, Ruixue Ding, Yu Zeng, Zehui Chen, Lin Chen, Shihang Wang, Pengjun Xie, Fei Huang, Feng Zhao",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8293,
+        "link": "https://openreview.net/pdf/facbdeba1c5f4027c295d801ab7c24a818c3957f.pdf",
+        "bibtex": "@inproceedings{\nwang2025vragrl,\ntitle={{VRAG}-{RL}: Empower Vision-Perception-Based {RAG} for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning},\nauthor={Qiuchen Wang and Ruixue Ding and Yu Zeng and Zehui Chen and Lin Chen and Shihang Wang and Pengjun Xie and Fei Huang and Feng Zhao},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=EeAHhNwXPV}\n}"
+      },
+      {
+        "title": "ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs",
+        "authors": "Xiyao Wang, Zhengyuan Yang, Chao Feng, Yuhang Zhou, Xiaoyu Liu, Yongyuan Liang, Ming Li, Ziyi Zang, Linjie Li, Chung-Ching Lin, Kevin Lin, Furong Huang, Lijuan Wang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.827,
+        "link": "https://openreview.net/pdf/631a654bdd1aa99c3357feb56e89859a66512702.pdf",
+        "bibtex": "@inproceedings{\nwang2025vicrit,\ntitle={ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in {VLM}s},\nauthor={Xiyao Wang and Zhengyuan Yang and Chao Feng and Yuhang Zhou and Xiaoyu Liu and Yongyuan Liang and Ming Li and Ziyi Zang and Linjie Li and Chung-Ching Lin and Kevin Lin and Furong Huang and Lijuan Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=j42rziWq1n}\n}"
+      },
+      {
+        "title": "VL-SAE: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set",
+        "authors": "Shufan Shen, Junshu Sun, Qingming Huang, Shuhui Wang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8269,
+        "link": "https://openreview.net/pdf/5995cce110f7233d975ec1576f914f01445fa3f0.pdf",
+        "bibtex": "@inproceedings{\nshen2025vlsae,\ntitle={{VL}-{SAE}: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set},\nauthor={Shufan Shen and Junshu Sun and Qingming Huang and Shuhui Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=1Sb0363f2y}\n}"
+      },
+      {
+        "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+        "authors": "Yichao Shen, Fangyun Wei, Zhiying Du, Yaobo Liang, Yan Lu, Jiaolong Yang, Nanning Zheng, Baining Guo",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8265,
+        "link": "https://openreview.net/pdf/f6c3cc140f9485e907fb651a2a5dfb7a65d5529c.pdf",
+        "bibtex": "@inproceedings{\nshen2025videovla,\ntitle={Video{VLA}: Video Generators Can Be Generalizable Robot Manipulators},\nauthor={Yichao Shen and Fangyun Wei and Zhiying Du and Yaobo Liang and Yan Lu and Jiaolong Yang and Nanning Zheng and Baining Guo},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=UPHlqbZFZB}\n}"
+      },
+      {
+        "title": "Grounded Reinforcement Learning for Visual Reasoning",
+        "authors": "Gabriel Herbert Sarch, Snigdha Saha, Naitik Khandelwal, Ayush Jain, Michael J. Tarr, Aviral Kumar, Katerina Fragkiadaki",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8265,
+        "link": "https://openreview.net/pdf/51495ccee37191c401ab184d34f4e5dc92f3ef58.pdf",
+        "bibtex": "@inproceedings{\nsarch2025grounded,\ntitle={Grounded Reinforcement Learning for Visual Reasoning},\nauthor={Gabriel Herbert Sarch and Snigdha Saha and Naitik Khandelwal and Ayush Jain and Michael J. Tarr and Aviral Kumar and Katerina Fragkiadaki},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=1amnhVRQ3l}\n}"
+      },
+      {
+        "title": "Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does Not Fundamentally Alter It",
+        "authors": "Yulu Qin, Dheeraj Varghese, Adam Dahlgren Lindström, Lucia Donatelli, Kanishka Misra, Najoung Kim",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8257,
+        "link": "https://openreview.net/pdf/26ff5e34ec218efe95586e4fdb503f5746be7c3e.pdf",
+        "bibtex": "@inproceedings{\nqin2025visionandlanguage,\ntitle={Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does Not Fundamentally Alter It},\nauthor={Yulu Qin and Dheeraj Varghese and Adam Dahlgren Lindstr{\\\"o}m and Lucia Donatelli and Kanishka Misra and Najoung Kim},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=KXmDTGKwhy}\n}"
+      },
+      {
+        "title": "Same Task, Different Circuits: Disentangling Modality-Specific Mechanisms in VLMs",
+        "authors": "Yaniv Nikankin, Dana Arad, Yossi Gandelsman, Yonatan Belinkov",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8255,
+        "link": "https://openreview.net/pdf/ccc2f44216cb404ea3bbcf1c0806a230773dab2e.pdf",
+        "bibtex": "@inproceedings{\nnikankin2025same,\ntitle={Same Task, Different Circuits: Disentangling Modality-Specific Mechanisms in {VLM}s},\nauthor={Yaniv Nikankin and Dana Arad and Yossi Gandelsman and Yonatan Belinkov},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=AD8ksC9bw1}\n}"
+      },
+      {
+        "title": "Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards",
+        "authors": "Honghao Chen, Xingzhou Lou, Xiaokun Feng, Kaiqi Huang, Xinlong Wang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.824,
+        "link": "https://openreview.net/pdf/b75967c26b83c8cc4921f37f32977c5e087b1f44.pdf",
+        "bibtex": "@inproceedings{\nchen2025unveiling,\ntitle={Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards},\nauthor={Honghao Chen and Xingzhou Lou and Xiaokun Feng and Kaiqi Huang and Xinlong Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=D8nHwexHNv}\n}"
+      },
+      {
+        "title": "Visual Structures Help Visual Reasoning:  Addressing the Binding Problem in LVLMs",
+        "authors": "Amirmohammad Izadi, Mohammadali Banayeeanzade, Fatemeh Askari, Ali Rahimiakbar, Mohammad Mahdi Vahedi, Hosein Hasani, Mahdieh Soleymani Baghshah",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8239,
+        "link": "https://openreview.net/pdf/9aa6856102d8ec332673e3b3497a2c653885bfee.pdf",
+        "bibtex": "@inproceedings{\nizadi2025visual,\ntitle={Visual Structures Help Visual Reasoning:  Addressing the Binding Problem in {LVLM}s},\nauthor={Amirmohammad Izadi and Mohammadali Banayeeanzade and Fatemeh Askari and Ali Rahimiakbar and Mohammad Mahdi Vahedi and Hosein Hasani and Mahdieh Soleymani Baghshah},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=T52hZeT7rn}\n}"
+      },
+      {
+        "title": "Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering",
+        "authors": "Yuyang Hong, Jiaqi Gu, Qi Yang, Lubin Fan, Yue Wu, Ying Wang, Kun Ding, Shiming Xiang, Jieping Ye",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8234,
+        "link": "https://openreview.net/pdf/fc97a2f58898074b2cbe0521459da7f6551f2dcb.pdf",
+        "bibtex": "@inproceedings{\nhong2025knowledgebased,\ntitle={Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering},\nauthor={Yuyang Hong and Jiaqi Gu and Qi Yang and Lubin Fan and Yue Wu and Ying Wang and Kun Ding and Shiming Xiang and Jieping Ye},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=h0LzGQq6uO}\n}"
+      },
+      {
+        "title": "VLMs have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading VLMs",
+        "authors": "Shmuel Berman, Jia Deng",
+        "venue": "NeurIPS 2025 Spotlight",
+        "affinity_score": 0.8225,
+        "link": "https://openreview.net/pdf/ca79a743ac55c7fce5e100be3b2d695bf84a71ba.pdf",
+        "bibtex": "@inproceedings{\nberman2025vlms,\ntitle={{VLM}s have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading {VLM}s},\nauthor={Shmuel Berman and Jia Deng},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=bRWkBD2BfK}\n}"
+      },
+      {
+        "title": "EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models",
+        "authors": "Yantai Yang, Yuhao Wang, Zichen Wen, Luo Zhongwei, Chang Zou, Zhipeng Zhang, Chuan Wen, Linfeng Zhang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8225,
+        "link": "https://openreview.net/pdf/0817b5f3709b35da9c8167416c077f27b525ad17.pdf",
+        "bibtex": "@inproceedings{\nyang2025efficientvla,\ntitle={Efficient{VLA}: Training-Free Acceleration and Compression for Vision-Language-Action Models},\nauthor={Yantai Yang and Yuhao Wang and Zichen Wen and Luo Zhongwei and Chang Zou and Zhipeng Zhang and Chuan Wen and Linfeng Zhang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=SELYlDHZk2}\n}"
+      },
+      {
+        "title": "Aux-Think: Exploring Reasoning Strategies for Data-Efficient Vision-Language Navigation",
+        "authors": "Shuo Wang, Yongcai Wang, Wanting Li, Xudong Cai, Yucheng Wang, Maiyue Chen, kaihui.wang, Zhizhong Su, Deying Li, Zhaoxin Fan",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.822,
+        "link": "https://openreview.net/pdf/4eb2cec937108c8a5e1785cf53b814a0999b4eb2.pdf",
+        "bibtex": "@inproceedings{\nwang2025auxthink,\ntitle={Aux-Think: Exploring Reasoning Strategies for Data-Efficient Vision-Language Navigation},\nauthor={Shuo Wang and Yongcai Wang and Wanting Li and Xudong Cai and Yucheng Wang and Maiyue Chen and kaihui.wang and Zhizhong Su and Deying Li and Zhaoxin Fan},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=vNmWbINtwH}\n}"
+      },
+      {
+        "title": "Elevating Visual Perception in Multimodal LLMs with Visual Embedding Distillation",
+        "authors": "Jitesh Jain, Zhengyuan Yang, Humphrey Shi, Jianfeng Gao, Jianwei Yang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8218,
+        "link": "https://openreview.net/pdf/79c1152558904f8c4793fa636c396e0a5c4740bf.pdf",
+        "bibtex": "@inproceedings{\njain2025elevating,\ntitle={Elevating Visual Perception in Multimodal {LLM}s with Visual Embedding Distillation},\nauthor={Jitesh Jain and Zhengyuan Yang and Humphrey Shi and Jianfeng Gao and Jianwei Yang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=AZ1iyo58F8}\n}"
+      },
+      {
+        "title": "ChatVLA-2: Vision-Language-Action Model with Open-World Reasoning",
+        "authors": "Zhongyi Zhou, Yichen Zhu, Xiaoyu Liu, Zhibin Tang, Junjie Wen, Yaxin Peng, Chaomin Shen, Yi Xu",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8216,
+        "link": "https://openreview.net/pdf/c88d737915ea445cb600d21cb0c7125912b7053b.pdf",
+        "bibtex": "@inproceedings{\nzhou2025chatvla,\ntitle={Chat{VLA}-2: Vision-Language-Action Model with Open-World Reasoning},\nauthor={Zhongyi Zhou and Yichen Zhu and Xiaoyu Liu and Zhibin Tang and Junjie Wen and Yaxin Peng and Chaomin Shen and Yi Xu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=1lyKflUOhp}\n}"
+      },
+      {
+        "title": "Pixel Reasoner: Incentivizing Pixel Space Reasoning via Curiosity-Driven Reinforcement Learning",
+        "authors": "Alex Su, Haozhe Wang, Weiming Ren, Fangzhen Lin, Wenhu Chen",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8184,
+        "link": "https://openreview.net/pdf/1cff63c2ec284033d02664f1b348bc05165216ea.pdf",
+        "bibtex": "@inproceedings{\nsu2025pixel,\ntitle={Pixel Reasoner: Incentivizing Pixel Space Reasoning via Curiosity-Driven Reinforcement Learning},\nauthor={Alex Su and Haozhe Wang and Weiming Ren and Fangzhen Lin and Wenhu Chen},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=VeZkY3JjWV}\n}"
+      },
+      {
+        "title": "Unveiling the Compositional Ability Gap in Vision-Language Reasoning Model",
+        "authors": "Tianle Li, Jihai Zhang, Yongming Rao, Yu Cheng",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8184,
+        "link": "https://openreview.net/pdf/64ee56c0512b904e0aebcd799494fb96e7bdedba.pdf",
+        "bibtex": "@inproceedings{\nli2025unveiling,\ntitle={Unveiling the Compositional Ability Gap in Vision-Language Reasoning Model},\nauthor={Tianle Li and Jihai Zhang and Yongming Rao and Yu Cheng},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=J76cCYTJub}\n}"
+      },
+      {
+        "title": "Dynam3D: Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation",
+        "authors": "Zihan Wang, Seungjun Lee, Gim Hee Lee",
+        "venue": "NeurIPS 2025 Oral",
+        "affinity_score": 0.8168,
+        "link": "https://openreview.net/pdf/7d0f1ac9561fa319deafaba5a89fc066c63b1e5d.pdf",
+        "bibtex": "@inproceedings{\nwang2025dynamd,\ntitle={Dynam3D: Dynamic Layered 3D Tokens Empower {VLM} for Vision-and-Language Navigation},\nauthor={Zihan Wang and Seungjun Lee and Gim Hee Lee},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=s6k9l5yX8e}\n}"
+      },
+      {
+        "title": "VideoHallu: Evaluating and Mitigating Multi-modal Hallucinations on Synthetic Video Understanding",
+        "authors": "Zongxia Li, Xiyang Wu, Guangyao Shi, Yubin Qin, Hongyang Du, Tianyi Zhou, Dinesh Manocha, Jordan Lee Boyd-Graber",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8162,
+        "link": "https://openreview.net/pdf/756648ea95e703a5d406ef365ed123793db01cae.pdf",
+        "bibtex": "@inproceedings{\nli2025videohallu,\ntitle={VideoHallu: Evaluating and Mitigating Multi-modal Hallucinations on Synthetic Video Understanding},\nauthor={Zongxia Li and Xiyang Wu and Guangyao Shi and Yubin Qin and Hongyang Du and Tianyi Zhou and Dinesh Manocha and Jordan Lee Boyd-Graber},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=NoC9HT7Kf7}\n}"
+      },
+      {
+        "title": "Multi-step Visual Reasoning with Visual Tokens Scaling and Verification",
+        "authors": "Tianyi Bai, Zengjie Hu, Fupeng Sun, Qiu Jiantao, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, Wentao Zhang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8158,
+        "link": "https://openreview.net/pdf/a48656c1e2d8fb5cee742d21b8b328458f483707.pdf",
+        "bibtex": "@inproceedings{\nbai2025multistep,\ntitle={Multi-step Visual Reasoning with Visual Tokens Scaling and Verification},\nauthor={Tianyi Bai and Zengjie Hu and Fupeng Sun and Qiu Jiantao and Yizhen Jiang and Guangxin He and Bohan Zeng and Conghui He and Binhang Yuan and Wentao Zhang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=y60FhgO07j}\n}"
+      }
+    ];
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+
+    function loadPapers() {
+      try {
+        renderPapers(allPapers);
+      } catch (error) {
+        console.error('Error loading papers:', error);
+        document.getElementById('stats').textContent = 'Error loading papers.json. Make sure you are running this on a local server or have allowed local file access.';
+      }
+    }
+
+    function renderPapers(papers) {
+      const grid = document.getElementById('paperGrid');
+      const stats = document.getElementById('stats');
+
+      grid.innerHTML = '';
+      stats.textContent = `Showing ${papers.length} papers`;
+
+      papers.forEach(paper => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const link = paper.link || '#';
+        const title = paper.title || 'Untitled';
+        const authors = paper.authors || 'Unknown Authors';
+        const venue = paper.venue || 'Unknown Venue';
+        const score = paper.affinity_score ? paper.affinity_score.toFixed(4) : 'N/A';
+
+        card.innerHTML = `
+                    <div class="card-header">
+                        <span class="venue">${venue}</span>
+                        <span class="score">Score: ${score}</span>
+                    </div>
+                    <h3 class="title"><a href="${link}" target="_blank">${title}</a></h3>
+                    <div class="meta">
+                        <div><strong>Authors:</strong> ${authors}</div>
+                        ${paper.keywords ? `<div><strong>Keywords:</strong> ${paper.keywords}</div>` : ''}
+                    </div>
+                    <div class="actions">
+                        <a href="${link}" target="_blank" style="text-decoration:none">
+                            <button class="btn-small">View PDF</button>
+                        </a>
+                        ${paper.bibtex ? `<button class="btn-small" onclick="toggleBibtex(this)">BibTeX</button>` : ''}
+                    </div>
+                    ${paper.bibtex ? `<div class="bibtex-area">${paper.bibtex}</div>` : ''}
+                `;
+        grid.appendChild(card);
+      });
+    }
+
+    function toggleBibtex(btn) {
+      const area = btn.parentElement.nextElementSibling;
+      if (area.style.display === 'block') {
+        area.style.display = 'none';
+      } else {
+        area.style.display = 'block';
+      }
+    }
+
+    function filterPapers(query) {
+      const lowerQuery = query.toLowerCase();
+      const filtered = allPapers.filter(paper => {
+        return (paper.title && paper.title.toLowerCase().includes(lowerQuery)) ||
+          (paper.authors && paper.authors.toLowerCase().includes(lowerQuery)) ||
+          (paper.keywords && paper.keywords.toLowerCase().includes(lowerQuery));
+      });
+      renderPapers(filtered);
+    }
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      filterPapers(e.target.value);
+    });
+
+    function exportCSV() {
+      if (allPapers.length === 0) return;
+
+      // Define headers
+      const headers = ['Title', 'Authors', 'Venue', 'Affinity Score', 'Link', 'Keywords'];
+
+      // Convert data to CSV rows
+      const csvRows = [headers.join(',')];
+
+      allPapers.forEach(paper => {
+        const row = [
+          `"${(paper.title || '').replace(/"/g, '""')}"`,
+          `"${(paper.authors || '').replace(/"/g, '""')}"`,
+          `"${(paper.venue || '').replace(/"/g, '""')}"`,
+          paper.affinity_score || 0,
+          `"${(paper.link || '').replace(/"/g, '""')}"`,
+          `"${(paper.keywords || '').replace(/"/g, '""')}"`
+        ];
+        csvRows.push(row.join(','));
+      });
+
+      const csvString = csvRows.join('\n');
+      const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', 'ai_papers_export.csv');
+      link.style.visibility = 'hidden';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Initialize
+    loadPapers();
+  </script>
+</body>
+
+</html>
