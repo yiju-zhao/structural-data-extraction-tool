@@ -1,0 +1,242 @@
+[
+  {
+    "title": "WorldMem: Long-term Consistent World Simulation with Memory",
+    "authors": "Zeqi Xiao, Yushi LAN, Yifan Zhou, Wenqi Ouyang, Shuai Yang, Yanhong Zeng, Xingang Pan",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6742,
+    "link": "https://openreview.net/pdf/7a9317ddd513784ef920b7785a796bc95d3d62f7.pdf",
+    "bibtex": "@inproceedings{\nxiao2025worldmem,\ntitle={WorldMem: Long-term Consistent World Simulation with Memory},\nauthor={Zeqi Xiao and Yushi LAN and Yifan Zhou and Wenqi Ouyang and Shuai Yang and Yanhong Zeng and Xingang Pan},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=c6CAVKlKmU}\n}"
+  },
+  {
+    "title": "WALL-E: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents",
+    "authors": "Siyu Zhou, Tianyi Zhou, Yijun Yang, Guodong Long, Deheng Ye, Jing Jiang, Chengqi Zhang",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6647,
+    "link": "https://openreview.net/pdf/4a70c0605cac16a41fee061564452113f886243a.pdf",
+    "bibtex": "@inproceedings{\nzhou2025walle,\ntitle={{WALL}-E: World Alignment by NeuroSymbolic Learning improves World Model-based {LLM} Agents},\nauthor={Siyu Zhou and Tianyi Zhou and Yijun Yang and Guodong Long and Deheng Ye and Jing Jiang and Chengqi Zhang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=DorAT49sxj}\n}"
+  },
+  {
+    "title": "PoE-World: Compositional World Modeling with Products of Programmatic Experts",
+    "authors": "Wasu Top Piriyakulkij, Yichao Liang, Hao Tang, Adrian Weller, Marta Kryven, Kevin Ellis",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.649,
+    "link": "https://openreview.net/pdf/1983f2216c20adc421975e0092eb41f2ac1d93fa.pdf",
+    "bibtex": "@inproceedings{\npiriyakulkij2025poeworld,\ntitle={PoE-World: Compositional World Modeling with Products of Programmatic Experts},\nauthor={Wasu Top Piriyakulkij and Yichao Liang and Hao Tang and Adrian Weller and Marta Kryven and Kevin Ellis},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=obwRcksFZw}\n}"
+  },
+  {
+    "title": "SPARTAN: A Sparse Transformer World Model Attending to What Matters",
+    "authors": "Anson Lei, Bernhard Schölkopf, Ingmar Posner",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6453,
+    "link": "https://openreview.net/pdf/cc56d3895429ff67c4aac6432c701cb024946501.pdf",
+    "bibtex": "@inproceedings{\nlei2025spartan,\ntitle={{SPARTAN}: A Sparse Transformer World Model Attending to What Matters},\nauthor={Anson Lei and Bernhard Sch{\\\"o}lkopf and Ingmar Posner},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=uS5ch7GjZ4}\n}"
+  },
+  {
+    "title": "COME: Adding Scene-Centric Forecasting Control to Occupancy World Model",
+    "authors": "Yining Shi, Kun Jiang, Qiang Meng, Ke Wang, Jiabao Wang, Wenchao Sun, Tuopu Wen, mengmeng yang, Diange Yang",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6447,
+    "link": "https://openreview.net/pdf/dd598a47e946c6f1d7636bde4518652893a0d07d.pdf",
+    "bibtex": "@inproceedings{\nshi2025come,\ntitle={{COME}: Adding Scene-Centric Forecasting Control to Occupancy World Model},\nauthor={Yining Shi and Kun Jiang and Qiang Meng and Ke Wang and Jiabao Wang and Wenchao Sun and Tuopu Wen and mengmeng yang and Diange Yang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=EYxLmZRSK1}\n}"
+  },
+  {
+    "title": "SimWorld: An Open-ended Simulator for Agents in Physical and Social Worlds",
+    "authors": "Xiaokang Ye, Jiawei Ren, Yan Zhuang, Xuhong He, Yiming Liang, Yiqing Yang, Mrinaal Dogra, Xianrui Zhong, Eric Liu, Kevin Benavente, Rajiv Mandya Nagaraju, Dhruv Vivek Sharma, Ziqiao Ma, Tianmin Shu, Zhiting Hu, Lianhui Qin",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6429,
+    "link": "https://openreview.net/pdf/a98dee23d8b37552151336bbac20c838fd5e9ee1.pdf",
+    "bibtex": "@inproceedings{\nye2025simworld,\ntitle={SimWorld: An Open-ended Simulator for Agents in Physical and Social Worlds},\nauthor={Xiaokang Ye and Jiawei Ren and Yan Zhuang and Xuhong He and Yiming Liang and Yiqing Yang and Mrinaal Dogra and Xianrui Zhong and Eric Liu and Kevin Benavente and Rajiv Mandya Nagaraju and Dhruv Vivek Sharma and Ziqiao Ma and Tianmin Shu and Zhiting Hu and Lianhui Qin},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=FxCy8TvQHO}\n}"
+  },
+  {
+    "title": "Kinetics: Rethinking Test-Time Scaling Law",
+    "authors": "Ranajoy Sadhukhan, Zhuoming Chen, Haizhong Zheng, Beidi Chen",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6386,
+    "link": "https://openreview.net/pdf/94d7c92831c0cda98f8a44aa8d337af43e865c73.pdf",
+    "bibtex": "@inproceedings{\nsadhukhan2025kinetics,\ntitle={Kinetics: Rethinking Test-Time Scaling Law},\nauthor={Ranajoy Sadhukhan and Zhuoming Chen and Haizhong Zheng and Beidi Chen},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=phWwTrrJFv}\n}"
+  },
+  {
+    "title": "Mozart: Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures",
+    "authors": "Shuqing Luo, Ye Han, Pingzhi Li, Jiayin Qin, Jie Peng, Yang Katie Zhao, Yu Cao, Tianlong Chen",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.638,
+    "link": "https://openreview.net/pdf/eb51e3e44d378b7b6e4b0112caf84db1a38248d8.pdf",
+    "bibtex": "@inproceedings{\nluo2025mozart,\ntitle={Mozart: Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures},\nauthor={Shuqing Luo and Ye Han and Pingzhi Li and Jiayin Qin and Jie Peng and Yang Katie Zhao and Yu Cao and Tianlong Chen},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=zWHKKspghT}\n}"
+  },
+  {
+    "title": "Zero-shot World Models via Search in Memory",
+    "authors": "Federico Malato, Ville Hautamaki",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6358,
+    "link": "https://openreview.net/pdf/d8df1fc146eaede7889589916942a9f768af945d.pdf",
+    "bibtex": "@inproceedings{\nmalato2025zeroshot,\ntitle={Zero-shot World Models via Search in Memory},\nauthor={Federico Malato and Ville Hautamaki},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=vHaShO76T8}\n}"
+  },
+  {
+    "title": "Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective",
+    "authors": "Yang Zhang, Xinran Li, Jianing Ye, Shuang Qiu, Delin Qu, Xiu Li, Chongjie Zhang, Chenjia Bai",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6322,
+    "link": "https://openreview.net/pdf/c9213e44761a54b3065c1cafc662367acc7fa15c.pdf",
+    "bibtex": "@inproceedings{\nzhang2025revisiting,\ntitle={Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective},\nauthor={Yang Zhang and Xinran Li and Jianing Ye and Shuang Qiu and Delin Qu and Xiu Li and Chongjie Zhang and Chenjia Bai},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=rRxFIOoEeF}\n}"
+  },
+  {
+    "title": "Dyn-O: Building Structured World Models with  Object-Centric Representations",
+    "authors": "Zizhao Wang, Kaixin Wang, Li Zhao, Peter Stone, Jiang Bian",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6236,
+    "link": "https://openreview.net/pdf/41da526184c5de5c0afb8fa64b72cd8ed36f772c.pdf",
+    "bibtex": "@inproceedings{\nwang2025dyno,\ntitle={Dyn-O: Building Structured World Models with  Object-Centric Representations},\nauthor={Zizhao Wang and Kaixin Wang and Li Zhao and Peter Stone and Jiang Bian},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=b2u1yrTwFK}\n}"
+  },
+  {
+    "title": "Video World Models with Long-term Spatial Memory",
+    "authors": "Tong Wu, Shuai Yang, Ryan Po, Yinghao Xu, Ziwei Liu, Dahua Lin, Gordon Wetzstein",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6232,
+    "link": "https://openreview.net/pdf/cd6a4447e1de456eed9d50abe6db7f082e4c2ea9.pdf",
+    "bibtex": "@inproceedings{\nwu2025video,\ntitle={Video World Models with Long-term Spatial Memory},\nauthor={Tong Wu and Shuai Yang and Ryan Po and Yinghao Xu and Ziwei Liu and Dahua Lin and Gordon Wetzstein},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=HbTxc6U1fO}\n}"
+  },
+  {
+    "title": "Don't be lazy: CompleteP enables compute-efficient deep transformers",
+    "authors": "Nolan Simran Dey, Bin Claire Zhang, Lorenzo Noci, Mufan Li, Blake Bordelon, Shane Bergsma, Cengiz Pehlevan, Boris Hanin, Joel Hestness",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6227,
+    "link": "https://openreview.net/pdf/684cef7ea0e3b34421adafdea187da1e5d24eb4f.pdf",
+    "bibtex": "@inproceedings{\ndey2025dont,\ntitle={Don't be lazy: CompleteP enables compute-efficient deep transformers},\nauthor={Nolan Simran Dey and Bin Claire Zhang and Lorenzo Noci and Mufan Li and Blake Bordelon and Shane Bergsma and Cengiz Pehlevan and Boris Hanin and Joel Hestness},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=lMU2kaMANl}\n}"
+  },
+  {
+    "title": "Rope to Nope and Back Again: A New Hybrid Attention Strategy",
+    "authors": "Bowen Yang, Bharat Venkitesh, Dwaraknath Gnaneshwar, Hangyu Lin, David Cairuz, Phil Blunsom, Acyr Locatelli",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6192,
+    "link": "https://openreview.net/pdf/5c1ebab2784e92dd40dab0a6913fa55826c699c5.pdf",
+    "bibtex": "@inproceedings{\nyang2025rope,\ntitle={Rope to Nope and Back Again: A New Hybrid Attention Strategy},\nauthor={Bowen Yang and Bharat Venkitesh and Dwaraknath Gnaneshwar and Hangyu Lin and David Cairuz and Phil Blunsom and Acyr Locatelli},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=Tp6ds3Dfqo}\n}"
+  },
+  {
+    "title": "StateSpaceDiffuser: Bringing Long Context to Diffusion World Models",
+    "authors": "Nedko Savov, Naser Kazemi, Deheng Zhang, Danda Pani Paudel, Xi Wang, Luc Van Gool",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6173,
+    "link": "https://openreview.net/pdf/1309bddc133aa9a2f798f3d776ffd8e4733decf5.pdf",
+    "bibtex": "@inproceedings{\nsavov2025statespacediffuser,\ntitle={StateSpaceDiffuser: Bringing Long Context to Diffusion World Models},\nauthor={Nedko Savov and Naser Kazemi and Deheng Zhang and Danda Pani Paudel and Xi Wang and Luc Van Gool},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=g52NwTQj0Q}\n}"
+  },
+  {
+    "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+    "authors": "Jonas Geiping, Sean Michael McLeish, Neel Jain, John Kirchenbauer, Siddharth Singh, Brian R. Bartoldson, Bhavya Kailkhura, Abhinav Bhatele, Tom Goldstein",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6155,
+    "link": "https://openreview.net/pdf/14c70cb9442ba3067a5abf112e08a003028eec21.pdf",
+    "bibtex": "@inproceedings{\ngeiping2025scaling,\ntitle={Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach},\nauthor={Jonas Geiping and Sean Michael McLeish and Neel Jain and John Kirchenbauer and Siddharth Singh and Brian R. Bartoldson and Bhavya Kailkhura and Abhinav Bhatele and Tom Goldstein},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=S3GhJooWIC}\n}"
+  },
+  {
+    "title": "Learning 3D Persistent Embodied World Models",
+    "authors": "Siyuan Zhou, Yilun Du, Yuncong Yang, Lei Han, Peihao Chen, Dit-Yan Yeung, Chuang Gan",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6147,
+    "link": "https://openreview.net/pdf/3e6af07877577010580a978ae5fa896dc94a397c.pdf",
+    "bibtex": "@inproceedings{\nzhou2025learning,\ntitle={Learning 3D Persistent Embodied World Models},\nauthor={Siyuan Zhou and Yilun Du and Yuncong Yang and Lei Han and Peihao Chen and Dit-Yan Yeung and Chuang Gan},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=XTTbzC7O2T}\n}"
+  },
+  {
+    "title": "Hogwild! Inference: Parallel LLM Generation via Concurrent Attention",
+    "authors": "Gleb Rodionov, Roman Garipov, Alina Shutova, George Yakushev, Erik Schultheis, Vage Egiazarian, Anton Sinitsin, Denis Kuznedelev, Dan Alistarh",
+    "venue": "NeurIPS 2025 Spotlight",
+    "affinity_score": 0.6108,
+    "link": "https://openreview.net/pdf/752690b760cb01f226ba630228b97af81df4d1d1.pdf",
+    "bibtex": "@inproceedings{\nrodionov2025hogwild,\ntitle={Hogwild! Inference: Parallel {LLM} Generation via Concurrent Attention},\nauthor={Gleb Rodionov and Roman Garipov and Alina Shutova and George Yakushev and Erik Schultheis and Vage Egiazarian and Anton Sinitsin and Denis Kuznedelev and Dan Alistarh},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=roKj4IwaVT}\n}"
+  },
+  {
+    "title": "Imagined Autocurricula",
+    "authors": "Ahmet H. Güzel, Matthew Thomas Jackson, Jarek Luca Liesen, Tim Rocktäschel, Jakob Nicolaus Foerster, Ilija Bogunovic, Jack Parker-Holder",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.609,
+    "link": "https://openreview.net/pdf/3facb7ccf15168534e07f4990a5bd009d1afea45.pdf",
+    "bibtex": "@inproceedings{\nguzel2025imagined,\ntitle={Imagined Autocurricula},\nauthor={Ahmet H. G{\\\"u}zel and Matthew Thomas Jackson and Jarek Luca Liesen and Tim Rockt{\\\"a}schel and Jakob Nicolaus Foerster and Ilija Bogunovic and Jack Parker-Holder},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=zXlB9A5xya}\n}"
+  },
+  {
+    "title": "Relieving the Over-Aggregating Effect in Graph Transformers",
+    "authors": "Junshu Sun, Wanxing Chang, Chenxue Yang, Qingming Huang, Shuhui Wang",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6082,
+    "link": "https://openreview.net/pdf/c2679266632dc3f0cf4a5a165a87a4526d797e4a.pdf",
+    "bibtex": "@inproceedings{\nsun2025relieving,\ntitle={Relieving the Over-Aggregating Effect in Graph Transformers},\nauthor={Junshu Sun and Wanxing Chang and Chenxue Yang and Qingming Huang and Shuhui Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=ckq032sarb}\n}"
+  },
+  {
+    "title": "OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+    "authors": "Mengkang Hu, Yuhang Zhou, Wendong Fan, Yuzhou Nie, Ziyu Ye, Bowei Xia, Tao Sun, Zhaoxuan Jin, Yingru Li, Zeyu Zhang, Yifeng Wang, Qianshuo Ye, Bernard Ghanem, Ping Luo, Guohao Li",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6079,
+    "link": "https://openreview.net/pdf/9ea2d3d5cf7f874c7669ab5c3f1270eb3bc794d1.pdf",
+    "bibtex": "@inproceedings{\nhu2025owl,\ntitle={{OWL}: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation},\nauthor={Mengkang Hu and Yuhang Zhou and Wendong Fan and Yuzhou Nie and Ziyu Ye and Bowei Xia and Tao Sun and Zhaoxuan Jin and Yingru Li and Zeyu Zhang and Yifeng Wang and Qianshuo Ye and Bernard Ghanem and Ping Luo and Guohao Li},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=MBJ46gd1CT}\n}"
+  },
+  {
+    "title": "RLVR-World: Training World Models with Reinforcement Learning",
+    "authors": "Jialong Wu, Shaofeng Yin, Ningya Feng, Mingsheng Long",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6057,
+    "link": "https://openreview.net/pdf/4b0d2935ed4554453743ecdcf099e0d679355328.pdf",
+    "bibtex": "@inproceedings{\nwu2025rlvrworld,\ntitle={{RLVR}-World: Training World Models with Reinforcement Learning},\nauthor={Jialong Wu and Shaofeng Yin and Ningya Feng and Mingsheng Long},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=jpiSagi8aV}\n}"
+  },
+  {
+    "title": "Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties",
+    "authors": "Gouki Minegishi, Hiroki Furuta, Takeshi Kojima, Yusuke Iwasawa, Yutaka Matsuo",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6052,
+    "link": "https://openreview.net/pdf/7131557a34836bae01d636c964b3953522c88ea0.pdf",
+    "bibtex": "@inproceedings{\nminegishi2025topology,\ntitle={Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties},\nauthor={Gouki Minegishi and Hiroki Furuta and Takeshi Kojima and Yusuke Iwasawa and Yutaka Matsuo},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=o1g8NWkxqf}\n}"
+  },
+  {
+    "title": "From Forecasting to Planning: Policy World Model for Collaborative State-Action Prediction",
+    "authors": "Zhida Zhao, Talas Fu, Yifan Wang, Lijun Wang, Huchuan Lu",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6047,
+    "link": "https://openreview.net/pdf/dbe78cc8fdf28b0340af74010ec4ad766aca831b.pdf",
+    "bibtex": "@inproceedings{\nzhao2025from,\ntitle={From Forecasting to Planning: Policy World Model for Collaborative State-Action Prediction},\nauthor={Zhida Zhao and Talas Fu and Yifan Wang and Lijun Wang and Huchuan Lu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=rMQvbxxmLe}\n}"
+  },
+  {
+    "title": "How Does Sequence Modeling Architecture Influence Base Capabilities of Pre-trained Language Models? Exploring Key Architecture Design Principles to Avoid Base Capabilities Degradation",
+    "authors": "Xin Lu, Yanyan Zhao, Si Wei, Shijin Wang, Bing Qin, Ting Liu",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6045,
+    "link": "https://openreview.net/pdf/7c47469b00c95e45f5fa5fe51764887757f9486f.pdf",
+    "bibtex": "@inproceedings{\nlu2025how,\ntitle={How Does Sequence Modeling Architecture Influence Base Capabilities of Pre-trained Language Models? Exploring Key Architecture Design Principles to Avoid Base Capabilities Degradation},\nauthor={Xin Lu and Yanyan Zhao and Si Wei and Shijin Wang and Bing Qin and Ting Liu},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=vMkJWaa02n}\n}"
+  },
+  {
+    "title": "SAMPO: Scale-wise Autoregression with Motion Prompt for Generative World Models",
+    "authors": "Sen Wang, Jingyi Tian, Le Wang, Zhimin Liao, lijiayi, Huaiyi Dong, Kun Xia, Sanping Zhou, Wei Tang, Gang Hua",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6037,
+    "link": "https://openreview.net/pdf/829c7820e5b754498ac9f30bbe8588d4d77b2ddf.pdf",
+    "bibtex": "@inproceedings{\nwang2025sampo,\ntitle={{SAMPO}: Scale-wise Autoregression with Motion Prompt for Generative World Models},\nauthor={Sen Wang and Jingyi Tian and Le Wang and Zhimin Liao and lijiayi and Huaiyi Dong and Kun Xia and Sanping Zhou and Wei Tang and Gang Hua},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=PJOwQ77Mul}\n}"
+  },
+  {
+    "title": "Unveiling the Uncertainty in Embodied and Operational Carbon of Large AI Models through a Probabilistic Carbon Accounting Model",
+    "authors": "Xiaoyang Zhang, He Fang, Yang Deng, Dan Wang",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6034,
+    "link": "https://openreview.net/pdf/3395c1415a13cf212388a9d2ee76fa5862815758.pdf",
+    "bibtex": "@inproceedings{\nzhang2025unveiling,\ntitle={Unveiling the Uncertainty in Embodied and Operational Carbon of Large {AI} Models through a Probabilistic Carbon Accounting Model},\nauthor={Xiaoyang Zhang and He Fang and Yang Deng and Dan Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=9QyNYxKeKr}\n}"
+  },
+  {
+    "title": "Social World Model-Augmented Mechanism Design Policy Learning",
+    "authors": "Xiaoyuan Zhang, Yizhe Huang, Chengdong Ma, Zhixun Chen, Long Ma, Yali Du, Song-Chun Zhu, Yaodong Yang, Xue Feng",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.603,
+    "link": "https://openreview.net/pdf/adc531aee58b43da753e7eb5e7c10dc0dde5f806.pdf",
+    "bibtex": "@inproceedings{\nzhang2025social,\ntitle={Social World Model-Augmented Mechanism Design Policy Learning},\nauthor={Xiaoyuan Zhang and Yizhe Huang and Chengdong Ma and Zhixun Chen and Long Ma and Yali Du and Song-Chun Zhu and Yaodong Yang and Xue Feng},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=uFTLo48OHF}\n}"
+  },
+  {
+    "title": "Efficient Pre-Training of LLMs via Topology-Aware Communication Alignment on More Than 9600 GPUs",
+    "authors": "Guoliang HE, YOUHE JIANG, Wencong Xiao, Jiang Kaihua, Shuguang Wang, Jun Wang, Du Zixian, Zhuo Jiang, Xinlei Zhang, Binhang Yuan, Eiko Yoneki",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6027,
+    "link": "https://openreview.net/pdf/2a97b9aff754ccdbaac31b4b7efcf27f2b4f8122.pdf",
+    "bibtex": "@inproceedings{\nhe2025efficient,\ntitle={Efficient Pre-Training of {LLM}s via Topology-Aware Communication Alignment on More Than 9600 {GPU}s},\nauthor={Guoliang HE and YOUHE JIANG and Wencong Xiao and Jiang Kaihua and Shuguang Wang and Jun Wang and Du Zixian and Zhuo Jiang and Xinlei Zhang and Binhang Yuan and Eiko Yoneki},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=xWYL9Ki32T}\n}"
+  },
+  {
+    "title": "Learning World Models for Interactive Video Generation",
+    "authors": "Taiye Chen, Xun Hu, Zihan Ding, Chi Jin",
+    "venue": "NeurIPS 2025 Poster",
+    "affinity_score": 0.6026,
+    "link": "https://openreview.net/pdf/8719f629784afe467f38017dec401d19d49735e1.pdf",
+    "bibtex": "@inproceedings{\nchen2025learning,\ntitle={Learning World Models for Interactive Video Generation},\nauthor={Taiye Chen and Xun Hu and Zihan Ding and Chi Jin},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=FzfYoUp8F1}\n}"
+  }
+]

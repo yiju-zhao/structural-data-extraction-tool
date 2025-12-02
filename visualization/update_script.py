@@ -38,6 +38,6 @@ def update_html_with_json(html_file_path, json_file_path):
 
 if __name__ == "__main__":
     html_file = "/Users/eason/Documents/HW Project/Agent/Tools/structural-data-extraction-tool/visualization/index.html"
-    json_file = "/Users/eason/Documents/HW Project/Agent/Tools/structural-data-extraction-tool/visualization/vla/papers.json"
+    json_file = "/Users/eason/Documents/HW Project/Agent/Tools/structural-data-extraction-tool/visualization/rl/papers.json"
     update_html_with_json(html_file, json_file)
     print(f"Updated {html_file} with data from {json_file}")

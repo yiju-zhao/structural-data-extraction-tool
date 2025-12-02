@@ -56,8 +56,8 @@ def parse_papers(file_path):
     return papers
 
 if __name__ == "__main__":
-    input_file = "/Users/eason/Documents/HW Project/Agent/Tools/structural-data-extraction-tool/visualization/vla/ai-paper-finder.info search results.txt" 
-    output_file = "vla/papers.json"
+    input_file = "/Users/eason/Documents/HW Project/Agent/Tools/structural-data-extraction-tool/visualization/rl/rl.txt" 
+    output_file = "rl/papers.json"
     
     try:
         papers = parse_papers(input_file)

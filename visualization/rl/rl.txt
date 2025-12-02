@@ -1,0 +1,510 @@
+Title: Computational Hardness of Reinforcement Learning with Partial $q^{\pi}$-Realizability
+Authors: Shayan Karimi, Xiaoqi Tan
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.8047
+Link: https://openreview.net/pdf/0fa62d26facf3f67b744802b60512fb02f1c41bc.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+karimi2025computational,
+title={Computational Hardness of Reinforcement Learning with Partial \$q{\textasciicircum}\{{\textbackslash}pi\}\$-Realizability},
+author={Shayan Karimi and Xiaoqi Tan},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=wZPAnkQ5q5}
+}
+--------------------------------------------------------------------------------
+
+Title: 1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities
+Authors: Kevin Wang, Ishaan Javali, Michał Bortkiewicz, Tomasz Trzcinski, Benjamin Eysenbach
+Venue: NeurIPS 2025 Oral
+Affinity Score: 0.7907
+Link: https://openreview.net/pdf/d8f9da5e245cdd9a35d572aad95616457c5d3d19.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025,
+title={1000 Layer Networks for Self-Supervised {RL}: Scaling Depth Can Enable New Goal-Reaching Capabilities},
+author={Kevin Wang and Ishaan Javali and Micha{\l} Bortkiewicz and Tomasz Trzcinski and Benjamin Eysenbach},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=s0JVsx3bx1}
+}
+--------------------------------------------------------------------------------
+
+Title: Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning
+Authors: Ezgi Korkmaz
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.7822
+Link: https://openreview.net/pdf/93ff64a0c1950f7cecb6ccbafc93ca9fd95464be.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+korkmaz2025counteractive,
+title={Counteractive {RL}: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning},
+author={Ezgi Korkmaz},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=qaHrpITIvB}
+}
+--------------------------------------------------------------------------------
+
+Title: Hadamax Encoding: Elevating Performance in Model-Free Atari
+Authors: Jacob Eeuwe Kooi, Zhao Yang, Vincent Francois-Lavet
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7735
+Link: https://openreview.net/pdf/d7f079dc090a77b543c19d2bfa41f3fb172e9174.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+kooi2025hadamax,
+title={Hadamax Encoding: Elevating Performance in Model-Free Atari},
+author={Jacob Eeuwe Kooi and Zhao Yang and Vincent Francois-Lavet},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=iRQM8Ehgl9}
+}
+--------------------------------------------------------------------------------
+
+Title: Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies
+Authors: Felix Chalumeau, Daniel Rajaonarivonivelomanantsoa, Ruan John de Kock, Juan Claude Formanek, Sasha Abramowitz, Omayma Mahjoub, Wiem Khlifi, Simon Verster Du Toit, Louay Ben Nessir, Refiloe Shabe, Arnol Manuel Fokam, Siddarth Singh, Ulrich Armel Mbou Sob, Arnu Pretorius
+Venue: NeurIPS 2025 Oral
+Affinity Score: 0.7726
+Link: https://openreview.net/pdf/5d59ea40926886752f5ab100ab83a383587e3e1e.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+chalumeau2025breaking,
+title={Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies},
+author={Felix Chalumeau and Daniel Rajaonarivonivelomanantsoa and Ruan John de Kock and Juan Claude Formanek and Sasha Abramowitz and Omayma Mahjoub and Wiem Khlifi and Simon Verster Du Toit and Louay Ben Nessir and Refiloe Shabe and Arnol Manuel Fokam and Siddarth Singh and Ulrich Armel Mbou Sob and Arnu Pretorius},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=RxkCwOKVKa}
+}
+--------------------------------------------------------------------------------
+
+Title: Stable Gradients for Stable Learning at Scale in Deep Reinforcement Learning
+Authors: Roger Creus Castanyer, Johan Obando-Ceron, Lu Li, Pierre-Luc Bacon, Glen Berseth, Aaron Courville, Pablo Samuel Castro
+Venue: NeurIPS 2025 Spotlight
+Affinity Score: 0.7696
+Link: https://openreview.net/pdf/0ab1004f74606918f59ba0e3c2ed4a84321b9305.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+castanyer2025stable,
+title={Stable Gradients for Stable Learning at Scale in Deep Reinforcement Learning},
+author={Roger Creus Castanyer and Johan Obando-Ceron and Lu Li and Pierre-Luc Bacon and Glen Berseth and Aaron Courville and Pablo Samuel Castro},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=Vqj65VeDOu}
+}
+--------------------------------------------------------------------------------
+
+Title: Normalizing Flows are Capable Models for Continuous Control
+Authors: Raj Ghugare, Benjamin Eysenbach
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7692
+Link: https://openreview.net/pdf/fb3aa8a0b0393fb8bbdda14e19034e9883eca2bc.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+ghugare2025normalizing,
+title={Normalizing Flows are Capable Models for Continuous Control},
+author={Raj Ghugare and Benjamin Eysenbach},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=EJ34X5VWwu}
+}
+--------------------------------------------------------------------------------
+
+Title: Reward-Aware Proto-Representations in Reinforcement Learning
+Authors: Hon Tik Tse, Siddarth Chandrasekar, Marlos C. Machado
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7677
+Link: https://openreview.net/pdf/3f5e3d70e65c9d7e58a3d6ff9ba0c2f2e3f3e2fb.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+tse2025rewardaware,
+title={Reward-Aware Proto-Representations in Reinforcement Learning},
+author={Hon Tik Tse and Siddarth Chandrasekar and Marlos C. Machado},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=8WdkG7g6Az}
+}
+--------------------------------------------------------------------------------
+
+Title: Staggered Environment Resets Improve Massively Parallel On-Policy Reinforcement Learning
+Authors: Sid Bharthulwar, Stone Tao, Hao Su
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7668
+Link: https://openreview.net/pdf/d6ced1636fb8d6f63defd782dea85bc7f5f15fb6.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+bharthulwar2025staggered,
+title={Staggered Environment Resets Improve Massively Parallel On-Policy Reinforcement Learning},
+author={Sid Bharthulwar and Stone Tao and Hao Su},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=hesM5BWtOJ}
+}
+--------------------------------------------------------------------------------
+
+Title: Compute-Optimal Scaling for Value-Based Deep RL
+Authors: Preston Fu, Oleh Rybkin, Zhiyuan Zhou, Michal Nauman, Pieter Abbeel, Sergey Levine, Aviral Kumar
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7635
+Link: https://openreview.net/pdf/14e03fc4d3538d1c285975bc8f07650544152d68.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+fu2025computeoptimal,
+title={Compute-Optimal Scaling for Value-Based Deep {RL}},
+author={Preston Fu and Oleh Rybkin and Zhiyuan Zhou and Michal Nauman and Pieter Abbeel and Sergey Levine and Aviral Kumar},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=9GzyCtlngK}
+}
+--------------------------------------------------------------------------------
+
+Title: Structured Reinforcement Learning for Combinatorial Decision-Making
+Authors: Heiko Hoppe, Léo Baty, Louis Bouvier, Axel Parmentier, Maximilian Schiffer
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7621
+Link: https://openreview.net/pdf/6b73bf2c56b51608edab6ef5cce9842cd2065d95.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+hoppe2025structured,
+title={Structured Reinforcement Learning for Combinatorial Decision-Making},
+author={Heiko Hoppe and L{\'e}o Baty and Louis Bouvier and Axel Parmentier and Maximilian Schiffer},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=GS9o7u5njS}
+}
+--------------------------------------------------------------------------------
+
+Title: Asymmetric REINFORCE for off-Policy Reinforcement Learning: Balancing positive and negative rewards
+Authors: Charles Arnal, Gaëtan Narozniak, Vivien Cabannes, Yunhao Tang, Julia Kempe, Remi Munos
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7613
+Link: https://openreview.net/pdf/a7d8481340b8ce8407b1c770fd381139da46a2fe.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+arnal2025asymmetric,
+title={Asymmetric {REINFORCE} for off-Policy Reinforcement Learning: Balancing positive and negative rewards},
+author={Charles Arnal and Ga{\"e}tan Narozniak and Vivien Cabannes and Yunhao Tang and Julia Kempe and Remi Munos},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=Ql3sENn0mi}
+}
+--------------------------------------------------------------------------------
+
+Title: Towards Generalizable Multi-Policy Optimization with Self-Evolution for Job Scheduling
+Authors: Inguk Choi, Woo-Jin Shin, Sanghyun Cho, Hyun-Jung Kim
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7579
+Link: https://openreview.net/pdf/d83598ca5e852cd74db17bd4ba1395bcad301653.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+choi2025towards,
+title={Towards Generalizable Multi-Policy Optimization with Self-Evolution for Job Scheduling},
+author={Inguk Choi and Woo-Jin Shin and Sanghyun Cho and Hyun-Jung Kim},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=VPm6afl0Sc}
+}
+--------------------------------------------------------------------------------
+
+Title: Outcome-Based Online Reinforcement Learning: Algorithms and Fundamental Limits
+Authors: Fan Chen, Zeyu Jia, Alexander Rakhlin, Tengyang Xie
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7573
+Link: https://openreview.net/pdf/ead39a0dea938d2741cc647d22199076cba4844b.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+chen2025outcomebased,
+title={Outcome-Based Online Reinforcement Learning: Algorithms and Fundamental Limits},
+author={Fan Chen and Zeyu Jia and Alexander Rakhlin and Tengyang Xie},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=sYfIpZzojf}
+}
+--------------------------------------------------------------------------------
+
+Title: Scaling Off-Policy Reinforcement Learning with Batch and Weight Normalization
+Authors: Daniel Palenicek, Florian Vogt, Joe Watson, Jan Peters
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7556
+Link: https://openreview.net/pdf/0e54b385a2969544e8a92a4982ca79e7ed0c4272.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+palenicek2025scaling,
+title={Scaling Off-Policy Reinforcement Learning with Batch and Weight Normalization},
+author={Daniel Palenicek and Florian Vogt and Joe Watson and Jan Peters},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=F9jumRh9iu}
+}
+--------------------------------------------------------------------------------
+
+Title: Pretraining a Shared Q-Network for Data-Efficient Offline Reinforcement Learning
+Authors: Jongchan Park, Mingyu Park, Donghwan Lee
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7553
+Link: https://openreview.net/pdf/aac07c8e5609f85991fad63886c9c5b8695187b0.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+park2025pretraining,
+title={Pretraining a Shared Q-Network for Data-Efficient Offline Reinforcement Learning},
+author={Jongchan Park and Mingyu Park and Donghwan Lee},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=82r0lqYIWg}
+}
+--------------------------------------------------------------------------------
+
+Title: FANS: A Flatness-Aware Network Structure for Generalization in Offline Reinforcement Learning
+Authors: Da Wang, Yi Ma, Ting Guo, Hongyao Tang, Wei Wei, Jiye Liang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.755
+Link: https://openreview.net/pdf/b5ca1654e85097d39812badac441c59a6f621690.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+wang2025fans,
+title={{FANS}: A Flatness-Aware Network Structure for Generalization in Offline Reinforcement Learning},
+author={Da Wang and Yi Ma and Ting Guo and Hongyao Tang and Wei Wei and Jiye Liang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=s3LMqrwwHJ}
+}
+--------------------------------------------------------------------------------
+
+Title: Reinforcement Learning Finetunes Small Subnetworks in Large Language Models
+Authors: Sagnik Mukherjee, Lifan Yuan, Dilek Hakkani-Tür, Hao Peng
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.754
+Link: https://openreview.net/pdf/9a34e049bec45c69aee22887003233d8c4c3a58b.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+mukherjee2025reinforcement,
+title={Reinforcement Learning Finetunes Small Subnetworks in Large Language Models},
+author={Sagnik Mukherjee and Lifan Yuan and Dilek Hakkani-T{\"u}r and Hao Peng},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=0NdS4xCngO}
+}
+--------------------------------------------------------------------------------
+
+Title: Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems
+Authors: Marcos Negre Saura, Richard Allmendinger, Wei Pan, Theodore Papamarkou
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7536
+Link: https://openreview.net/pdf/3b33c9cda6de25485d66e8c6d0e9fdc475b1d124.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+saura2025spatialaware,
+title={Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems},
+author={Marcos Negre Saura and Richard Allmendinger and Wei Pan and Theodore Papamarkou},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=FthMPOhgfp}
+}
+--------------------------------------------------------------------------------
+
+Title: Reward Reasoning Models
+Authors: Jiaxin Guo, Zewen Chi, Li Dong, Qingxiu Dong, Xun Wu, Shaohan Huang, Furu Wei
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.753
+Link: https://openreview.net/pdf/1b460f75d98849e58bc2a9cf1b6673536d0898d5.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+guo2025reward,
+title={Reward Reasoning Models},
+author={Jiaxin Guo and Zewen Chi and Li Dong and Qingxiu Dong and Xun Wu and Shaohan Huang and Furu Wei},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=V8Kbz7l2cr}
+}
+--------------------------------------------------------------------------------
+
+Title: AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning
+Authors: Yang Chen, Zhuolin Yang, Zihan Liu, Chankyu Lee, Peng Xu, Mohammad Shoeybi, Bryan Catanzaro, Wei Ping
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7526
+Link: https://openreview.net/pdf/4dbb7f099e0ae9ed52f26be78bbd5f18b4adc8a6.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+chen2025acereasonnemotron,
+title={AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning},
+author={Yang Chen and Zhuolin Yang and Zihan Liu and Chankyu Lee and Peng Xu and Mohammad Shoeybi and Bryan Catanzaro and Wei Ping},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=EgArbnS0BA}
+}
+--------------------------------------------------------------------------------
+
+Title: SE-GUI: Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning
+Authors: Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, Enguang Wang, Qibin Hou, Jinwei Chen, Peng-Tao Jiang, Bo Li
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7523
+Link: https://openreview.net/pdf/13bc5a7cb4ce114ec3e9a478b5ce44334b495888.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+yuan2025segui,
+title={{SE}-{GUI}: Enhancing Visual Grounding for {GUI} Agents via Self-Evolutionary Reinforcement Learning},
+author={Xinbin Yuan and Jian Zhang and Kaixin Li and Zhuoxuan Cai and Lujian Yao and Jie Chen and Enguang Wang and Qibin Hou and Jinwei Chen and Peng-Tao Jiang and Bo Li},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=IbzDaIDyt6}
+}
+--------------------------------------------------------------------------------
+
+Title: Iterative Foundation Model Fine-Tuning on Multiple Rewards
+Authors: Pouya M. Ghari, simone sciabola, Ye Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7522
+Link: https://openreview.net/pdf/f8dd9399122d37b232c077a459581d934b377a2d.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+ghari2025iterative,
+title={Iterative Foundation Model Fine-Tuning on Multiple Rewards},
+author={Pouya M. Ghari and simone sciabola and Ye Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=8s0qknrCVK}
+}
+--------------------------------------------------------------------------------
+
+Title: Prompted Policy Search: Reinforcement Learning through Linguistic and Numerical Reasoning in LLMs
+Authors: Yifan Zhou, Sachin Grover, Mohamed El Mistiri, Kamalesh Kalirathinam, Pratyush Kerhalkar, Swaroop Mishra, Neelesh Kumar, Sanket Gaurav, Oya Aran, Heni Ben Amor
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7521
+Link: https://openreview.net/pdf/f42c99bcdacf12fa97454f9d0e2deeb71bcc631a.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+zhou2025prompted,
+title={Prompted Policy Search: Reinforcement Learning through Linguistic and Numerical Reasoning in {LLM}s},
+author={Yifan Zhou and Sachin Grover and Mohamed El Mistiri and Kamalesh Kalirathinam and Pratyush Kerhalkar and Swaroop Mishra and Neelesh Kumar and Sanket Gaurav and Oya Aran and Heni Ben Amor},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=95plu1Mo20}
+}
+--------------------------------------------------------------------------------
+
+Title: Robust and Scalable Autonomous Reinforcement Learning in Irreversible Environments
+Authors: Sang-Hyun Lee
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7507
+Link: https://openreview.net/pdf/8c1c6543b0cdd620c38fc8ea14fc1c7f3e9fa54f.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+lee2025robust,
+title={Robust and Scalable Autonomous Reinforcement Learning in Irreversible Environments},
+author={Sang-Hyun Lee},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=dAAz7afWJR}
+}
+--------------------------------------------------------------------------------
+
+Title: Deployment Efficient Reward-Free Exploration with Linear Function Approximation
+Authors: Zihan Zhang, Yuxin Chen, Jason D. Lee, Simon Shaolei Du, Lin Yang, Ruosong Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7498
+Link: https://openreview.net/pdf/bc76cfdc4159e249c65bcd2fbb134ccb85ba8fbe.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+zhang2025deployment,
+title={Deployment Efficient Reward-Free Exploration with Linear Function Approximation},
+author={Zihan Zhang and Yuxin Chen and Jason D. Lee and Simon Shaolei Du and Lin Yang and Ruosong Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=ByzRO25Bjr}
+}
+--------------------------------------------------------------------------------
+
+Title: Search and Refine During Think: Facilitating Knowledge Refinement for Improved Retrieval-Augmented Reasoning
+Authors: Yaorui Shi, Sihang Li, Chang Wu, Zhiyuan Liu, Junfeng Fang, Hengxing Cai, An Zhang, Xiang Wang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7496
+Link: https://openreview.net/pdf/55cb62683b4084a45b97fd43ed7c483dbae3acc3.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+shi2025search,
+title={Search and Refine During Think: Facilitating Knowledge Refinement for Improved Retrieval-Augmented Reasoning},
+author={Yaorui Shi and Sihang Li and Chang Wu and Zhiyuan Liu and Junfeng Fang and Hengxing Cai and An Zhang and Xiang Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=rBlWKIUQey}
+}
+--------------------------------------------------------------------------------
+
+Title: Learning Preferences without Interaction for Cooperative AI: A Hybrid Offline-Online Approach
+Authors: Haitong Ma, Haoran Yu, Haobo Fu, Shuai Li
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.748
+Link: https://openreview.net/pdf/b88c2a890dfabc56df9f77ac8c47edda73daec91.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+ma2025learning,
+title={Learning Preferences without Interaction for Cooperative {AI}: A Hybrid Offline-Online Approach},
+author={Haitong Ma and Haoran Yu and Haobo Fu and Shuai Li},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=QVheAhJefR}
+}
+--------------------------------------------------------------------------------
+
+Title: Mind the GAP! The Challenges of Scale in Pixel-based Deep Reinforcement Learning
+Authors: Ghada Sokar, Pablo Samuel Castro
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7471
+Link: https://openreview.net/pdf/16cf3f2d342b9d53f4fdfbed923408d924a9dd79.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+sokar2025mind,
+title={Mind the {GAP}! The Challenges of Scale in Pixel-based Deep Reinforcement Learning},
+author={Ghada Sokar and Pablo Samuel Castro},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=LrBWGwVfCA}
+}
+--------------------------------------------------------------------------------
+
+Title: Incentivizing Dual Process Thinking for Efficient Large Language Model Reasoning
+Authors: Xiaoxue Cheng, Junyi Li, Zhenduo Zhang, Xinyu Tang, Xin Zhao, XinYu KONG, Zhiqiang Zhang
+Venue: NeurIPS 2025 Poster
+Affinity Score: 0.7471
+Link: https://openreview.net/pdf/1d54ebca47124f3efdafcb5b44f5c7243ca94f82.pdf
+Keywords: 
+BibTeX:
+@inproceedings{
+cheng2025incentivizing,
+title={Incentivizing Dual Process Thinking for Efficient Large Language Model Reasoning},
+author={Xiaoxue Cheng and Junyi Li and Zhenduo Zhang and Xinyu Tang and Xin Zhao and XinYu KONG and Zhiqiang Zhang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=ezOfR26pGQ}
+}
+--------------------------------------------------------------------------------
+

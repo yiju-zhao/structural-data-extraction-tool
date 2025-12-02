@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RL</title>
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-primary: #1e293b;
+      --text-secondary: #64748b;
+      --border-color: #e2e8f0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      margin: 0;
+      padding: 20px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: var(--text-primary);
+    }
+
+    .controls {
+      display: flex;
+      gap: 15px;
+    }
+
+    input[type="text"] {
+      padding: 10px 15px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      width: 300px;
+      font-size: 0.95rem;
+    }
+
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #1d4ed8;
+    }
+
+    .stats {
+      margin-bottom: 20px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .score {
+      background-color: #eff6ff;
+      color: var(--primary-color);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+      margin-left: 10px;
+    }
+
+    .title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0 0 10px 0;
+      line-height: 1.4;
+    }
+
+    .title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .title a:hover {
+      color: var(--primary-color);
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 15px;
+    }
+
+    .meta div {
+      margin-bottom: 4px;
+    }
+
+    .venue {
+      display: inline-block;
+      background-color: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+
+    .actions {
+      margin-top: auto;
+      padding-top: 15px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn-small {
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      background-color: transparent;
+      color: var(--text-secondary);
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-small:hover {
+      background-color: #f8fafc;
+      color: var(--text-primary);
+    }
+
+    .bibtex-area {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      background: #f1f5f9;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.8rem;
+      white-space: pre-wrap;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>RL</h1>
+      <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search title, authors, or keywords...">
+        <button onclick="exportCSV()">Export CSV</button>
+      </div>
+    </header>
+
+    <div class="stats" id="stats">Loading papers...</div>
+    <div class="grid" id="paperGrid"></div>
+  </div>
+
+  <script>
+    let allPapers = [
+      {
+        "title": "Computational Hardness of Reinforcement Learning with Partial $q^{\\pi}$-Realizability",
+        "authors": "Shayan Karimi, Xiaoqi Tan",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.8047,
+        "link": "https://openreview.net/pdf/0fa62d26facf3f67b744802b60512fb02f1c41bc.pdf",
+        "bibtex": "@inproceedings{\nkarimi2025computational,\ntitle={Computational Hardness of Reinforcement Learning with Partial \\$q{\\textasciicircum}\\{{\\textbackslash}pi\\}\\$-Realizability},\nauthor={Shayan Karimi and Xiaoqi Tan},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=wZPAnkQ5q5}\n}"
+      },
+      {
+        "title": "1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities",
+        "authors": "Kevin Wang, Ishaan Javali, Michał Bortkiewicz, Tomasz Trzcinski, Benjamin Eysenbach",
+        "venue": "NeurIPS 2025 Oral",
+        "affinity_score": 0.7907,
+        "link": "https://openreview.net/pdf/d8f9da5e245cdd9a35d572aad95616457c5d3d19.pdf",
+        "bibtex": "@inproceedings{\nwang2025,\ntitle={1000 Layer Networks for Self-Supervised {RL}: Scaling Depth Can Enable New Goal-Reaching Capabilities},\nauthor={Kevin Wang and Ishaan Javali and Micha{\\l} Bortkiewicz and Tomasz Trzcinski and Benjamin Eysenbach},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=s0JVsx3bx1}\n}"
+      },
+      {
+        "title": "Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning",
+        "authors": "Ezgi Korkmaz",
+        "venue": "NeurIPS 2025 Spotlight",
+        "affinity_score": 0.7822,
+        "link": "https://openreview.net/pdf/93ff64a0c1950f7cecb6ccbafc93ca9fd95464be.pdf",
+        "bibtex": "@inproceedings{\nkorkmaz2025counteractive,\ntitle={Counteractive {RL}: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning},\nauthor={Ezgi Korkmaz},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=qaHrpITIvB}\n}"
+      },
+      {
+        "title": "Hadamax Encoding: Elevating Performance in Model-Free Atari",
+        "authors": "Jacob Eeuwe Kooi, Zhao Yang, Vincent Francois-Lavet",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7735,
+        "link": "https://openreview.net/pdf/d7f079dc090a77b543c19d2bfa41f3fb172e9174.pdf",
+        "bibtex": "@inproceedings{\nkooi2025hadamax,\ntitle={Hadamax Encoding: Elevating Performance in Model-Free Atari},\nauthor={Jacob Eeuwe Kooi and Zhao Yang and Vincent Francois-Lavet},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=iRQM8Ehgl9}\n}"
+      },
+      {
+        "title": "Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies",
+        "authors": "Felix Chalumeau, Daniel Rajaonarivonivelomanantsoa, Ruan John de Kock, Juan Claude Formanek, Sasha Abramowitz, Omayma Mahjoub, Wiem Khlifi, Simon Verster Du Toit, Louay Ben Nessir, Refiloe Shabe, Arnol Manuel Fokam, Siddarth Singh, Ulrich Armel Mbou Sob, Arnu Pretorius",
+        "venue": "NeurIPS 2025 Oral",
+        "affinity_score": 0.7726,
+        "link": "https://openreview.net/pdf/5d59ea40926886752f5ab100ab83a383587e3e1e.pdf",
+        "bibtex": "@inproceedings{\nchalumeau2025breaking,\ntitle={Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies},\nauthor={Felix Chalumeau and Daniel Rajaonarivonivelomanantsoa and Ruan John de Kock and Juan Claude Formanek and Sasha Abramowitz and Omayma Mahjoub and Wiem Khlifi and Simon Verster Du Toit and Louay Ben Nessir and Refiloe Shabe and Arnol Manuel Fokam and Siddarth Singh and Ulrich Armel Mbou Sob and Arnu Pretorius},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=RxkCwOKVKa}\n}"
+      },
+      {
+        "title": "Stable Gradients for Stable Learning at Scale in Deep Reinforcement Learning",
+        "authors": "Roger Creus Castanyer, Johan Obando-Ceron, Lu Li, Pierre-Luc Bacon, Glen Berseth, Aaron Courville, Pablo Samuel Castro",
+        "venue": "NeurIPS 2025 Spotlight",
+        "affinity_score": 0.7696,
+        "link": "https://openreview.net/pdf/0ab1004f74606918f59ba0e3c2ed4a84321b9305.pdf",
+        "bibtex": "@inproceedings{\ncastanyer2025stable,\ntitle={Stable Gradients for Stable Learning at Scale in Deep Reinforcement Learning},\nauthor={Roger Creus Castanyer and Johan Obando-Ceron and Lu Li and Pierre-Luc Bacon and Glen Berseth and Aaron Courville and Pablo Samuel Castro},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=Vqj65VeDOu}\n}"
+      },
+      {
+        "title": "Normalizing Flows are Capable Models for Continuous Control",
+        "authors": "Raj Ghugare, Benjamin Eysenbach",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7692,
+        "link": "https://openreview.net/pdf/fb3aa8a0b0393fb8bbdda14e19034e9883eca2bc.pdf",
+        "bibtex": "@inproceedings{\nghugare2025normalizing,\ntitle={Normalizing Flows are Capable Models for Continuous Control},\nauthor={Raj Ghugare and Benjamin Eysenbach},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=EJ34X5VWwu}\n}"
+      },
+      {
+        "title": "Reward-Aware Proto-Representations in Reinforcement Learning",
+        "authors": "Hon Tik Tse, Siddarth Chandrasekar, Marlos C. Machado",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7677,
+        "link": "https://openreview.net/pdf/3f5e3d70e65c9d7e58a3d6ff9ba0c2f2e3f3e2fb.pdf",
+        "bibtex": "@inproceedings{\ntse2025rewardaware,\ntitle={Reward-Aware Proto-Representations in Reinforcement Learning},\nauthor={Hon Tik Tse and Siddarth Chandrasekar and Marlos C. Machado},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=8WdkG7g6Az}\n}"
+      },
+      {
+        "title": "Staggered Environment Resets Improve Massively Parallel On-Policy Reinforcement Learning",
+        "authors": "Sid Bharthulwar, Stone Tao, Hao Su",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7668,
+        "link": "https://openreview.net/pdf/d6ced1636fb8d6f63defd782dea85bc7f5f15fb6.pdf",
+        "bibtex": "@inproceedings{\nbharthulwar2025staggered,\ntitle={Staggered Environment Resets Improve Massively Parallel On-Policy Reinforcement Learning},\nauthor={Sid Bharthulwar and Stone Tao and Hao Su},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=hesM5BWtOJ}\n}"
+      },
+      {
+        "title": "Compute-Optimal Scaling for Value-Based Deep RL",
+        "authors": "Preston Fu, Oleh Rybkin, Zhiyuan Zhou, Michal Nauman, Pieter Abbeel, Sergey Levine, Aviral Kumar",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7635,
+        "link": "https://openreview.net/pdf/14e03fc4d3538d1c285975bc8f07650544152d68.pdf",
+        "bibtex": "@inproceedings{\nfu2025computeoptimal,\ntitle={Compute-Optimal Scaling for Value-Based Deep {RL}},\nauthor={Preston Fu and Oleh Rybkin and Zhiyuan Zhou and Michal Nauman and Pieter Abbeel and Sergey Levine and Aviral Kumar},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=9GzyCtlngK}\n}"
+      },
+      {
+        "title": "Structured Reinforcement Learning for Combinatorial Decision-Making",
+        "authors": "Heiko Hoppe, Léo Baty, Louis Bouvier, Axel Parmentier, Maximilian Schiffer",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7621,
+        "link": "https://openreview.net/pdf/6b73bf2c56b51608edab6ef5cce9842cd2065d95.pdf",
+        "bibtex": "@inproceedings{\nhoppe2025structured,\ntitle={Structured Reinforcement Learning for Combinatorial Decision-Making},\nauthor={Heiko Hoppe and L{\\'e}o Baty and Louis Bouvier and Axel Parmentier and Maximilian Schiffer},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=GS9o7u5njS}\n}"
+      },
+      {
+        "title": "Asymmetric REINFORCE for off-Policy Reinforcement Learning: Balancing positive and negative rewards",
+        "authors": "Charles Arnal, Gaëtan Narozniak, Vivien Cabannes, Yunhao Tang, Julia Kempe, Remi Munos",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7613,
+        "link": "https://openreview.net/pdf/a7d8481340b8ce8407b1c770fd381139da46a2fe.pdf",
+        "bibtex": "@inproceedings{\narnal2025asymmetric,\ntitle={Asymmetric {REINFORCE} for off-Policy Reinforcement Learning: Balancing positive and negative rewards},\nauthor={Charles Arnal and Ga{\\\"e}tan Narozniak and Vivien Cabannes and Yunhao Tang and Julia Kempe and Remi Munos},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=Ql3sENn0mi}\n}"
+      },
+      {
+        "title": "Towards Generalizable Multi-Policy Optimization with Self-Evolution for Job Scheduling",
+        "authors": "Inguk Choi, Woo-Jin Shin, Sanghyun Cho, Hyun-Jung Kim",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7579,
+        "link": "https://openreview.net/pdf/d83598ca5e852cd74db17bd4ba1395bcad301653.pdf",
+        "bibtex": "@inproceedings{\nchoi2025towards,\ntitle={Towards Generalizable Multi-Policy Optimization with Self-Evolution for Job Scheduling},\nauthor={Inguk Choi and Woo-Jin Shin and Sanghyun Cho and Hyun-Jung Kim},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=VPm6afl0Sc}\n}"
+      },
+      {
+        "title": "Outcome-Based Online Reinforcement Learning: Algorithms and Fundamental Limits",
+        "authors": "Fan Chen, Zeyu Jia, Alexander Rakhlin, Tengyang Xie",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7573,
+        "link": "https://openreview.net/pdf/ead39a0dea938d2741cc647d22199076cba4844b.pdf",
+        "bibtex": "@inproceedings{\nchen2025outcomebased,\ntitle={Outcome-Based Online Reinforcement Learning: Algorithms and Fundamental Limits},\nauthor={Fan Chen and Zeyu Jia and Alexander Rakhlin and Tengyang Xie},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=sYfIpZzojf}\n}"
+      },
+      {
+        "title": "Scaling Off-Policy Reinforcement Learning with Batch and Weight Normalization",
+        "authors": "Daniel Palenicek, Florian Vogt, Joe Watson, Jan Peters",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7556,
+        "link": "https://openreview.net/pdf/0e54b385a2969544e8a92a4982ca79e7ed0c4272.pdf",
+        "bibtex": "@inproceedings{\npalenicek2025scaling,\ntitle={Scaling Off-Policy Reinforcement Learning with Batch and Weight Normalization},\nauthor={Daniel Palenicek and Florian Vogt and Joe Watson and Jan Peters},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=F9jumRh9iu}\n}"
+      },
+      {
+        "title": "Pretraining a Shared Q-Network for Data-Efficient Offline Reinforcement Learning",
+        "authors": "Jongchan Park, Mingyu Park, Donghwan Lee",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7553,
+        "link": "https://openreview.net/pdf/aac07c8e5609f85991fad63886c9c5b8695187b0.pdf",
+        "bibtex": "@inproceedings{\npark2025pretraining,\ntitle={Pretraining a Shared Q-Network for Data-Efficient Offline Reinforcement Learning},\nauthor={Jongchan Park and Mingyu Park and Donghwan Lee},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=82r0lqYIWg}\n}"
+      },
+      {
+        "title": "FANS: A Flatness-Aware Network Structure for Generalization in Offline Reinforcement Learning",
+        "authors": "Da Wang, Yi Ma, Ting Guo, Hongyao Tang, Wei Wei, Jiye Liang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.755,
+        "link": "https://openreview.net/pdf/b5ca1654e85097d39812badac441c59a6f621690.pdf",
+        "bibtex": "@inproceedings{\nwang2025fans,\ntitle={{FANS}: A Flatness-Aware Network Structure for Generalization in Offline Reinforcement Learning},\nauthor={Da Wang and Yi Ma and Ting Guo and Hongyao Tang and Wei Wei and Jiye Liang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=s3LMqrwwHJ}\n}"
+      },
+      {
+        "title": "Reinforcement Learning Finetunes Small Subnetworks in Large Language Models",
+        "authors": "Sagnik Mukherjee, Lifan Yuan, Dilek Hakkani-Tür, Hao Peng",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.754,
+        "link": "https://openreview.net/pdf/9a34e049bec45c69aee22887003233d8c4c3a58b.pdf",
+        "bibtex": "@inproceedings{\nmukherjee2025reinforcement,\ntitle={Reinforcement Learning Finetunes Small Subnetworks in Large Language Models},\nauthor={Sagnik Mukherjee and Lifan Yuan and Dilek Hakkani-T{\\\"u}r and Hao Peng},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=0NdS4xCngO}\n}"
+      },
+      {
+        "title": "Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems",
+        "authors": "Marcos Negre Saura, Richard Allmendinger, Wei Pan, Theodore Papamarkou",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7536,
+        "link": "https://openreview.net/pdf/3b33c9cda6de25485d66e8c6d0e9fdc475b1d124.pdf",
+        "bibtex": "@inproceedings{\nsaura2025spatialaware,\ntitle={Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems},\nauthor={Marcos Negre Saura and Richard Allmendinger and Wei Pan and Theodore Papamarkou},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=FthMPOhgfp}\n}"
+      },
+      {
+        "title": "Reward Reasoning Models",
+        "authors": "Jiaxin Guo, Zewen Chi, Li Dong, Qingxiu Dong, Xun Wu, Shaohan Huang, Furu Wei",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.753,
+        "link": "https://openreview.net/pdf/1b460f75d98849e58bc2a9cf1b6673536d0898d5.pdf",
+        "bibtex": "@inproceedings{\nguo2025reward,\ntitle={Reward Reasoning Models},\nauthor={Jiaxin Guo and Zewen Chi and Li Dong and Qingxiu Dong and Xun Wu and Shaohan Huang and Furu Wei},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=V8Kbz7l2cr}\n}"
+      },
+      {
+        "title": "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning",
+        "authors": "Yang Chen, Zhuolin Yang, Zihan Liu, Chankyu Lee, Peng Xu, Mohammad Shoeybi, Bryan Catanzaro, Wei Ping",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7526,
+        "link": "https://openreview.net/pdf/4dbb7f099e0ae9ed52f26be78bbd5f18b4adc8a6.pdf",
+        "bibtex": "@inproceedings{\nchen2025acereasonnemotron,\ntitle={AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning},\nauthor={Yang Chen and Zhuolin Yang and Zihan Liu and Chankyu Lee and Peng Xu and Mohammad Shoeybi and Bryan Catanzaro and Wei Ping},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=EgArbnS0BA}\n}"
+      },
+      {
+        "title": "SE-GUI: Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning",
+        "authors": "Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, Enguang Wang, Qibin Hou, Jinwei Chen, Peng-Tao Jiang, Bo Li",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7523,
+        "link": "https://openreview.net/pdf/13bc5a7cb4ce114ec3e9a478b5ce44334b495888.pdf",
+        "bibtex": "@inproceedings{\nyuan2025segui,\ntitle={{SE}-{GUI}: Enhancing Visual Grounding for {GUI} Agents via Self-Evolutionary Reinforcement Learning},\nauthor={Xinbin Yuan and Jian Zhang and Kaixin Li and Zhuoxuan Cai and Lujian Yao and Jie Chen and Enguang Wang and Qibin Hou and Jinwei Chen and Peng-Tao Jiang and Bo Li},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=IbzDaIDyt6}\n}"
+      },
+      {
+        "title": "Iterative Foundation Model Fine-Tuning on Multiple Rewards",
+        "authors": "Pouya M. Ghari, simone sciabola, Ye Wang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7522,
+        "link": "https://openreview.net/pdf/f8dd9399122d37b232c077a459581d934b377a2d.pdf",
+        "bibtex": "@inproceedings{\nghari2025iterative,\ntitle={Iterative Foundation Model Fine-Tuning on Multiple Rewards},\nauthor={Pouya M. Ghari and simone sciabola and Ye Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=8s0qknrCVK}\n}"
+      },
+      {
+        "title": "Prompted Policy Search: Reinforcement Learning through Linguistic and Numerical Reasoning in LLMs",
+        "authors": "Yifan Zhou, Sachin Grover, Mohamed El Mistiri, Kamalesh Kalirathinam, Pratyush Kerhalkar, Swaroop Mishra, Neelesh Kumar, Sanket Gaurav, Oya Aran, Heni Ben Amor",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7521,
+        "link": "https://openreview.net/pdf/f42c99bcdacf12fa97454f9d0e2deeb71bcc631a.pdf",
+        "bibtex": "@inproceedings{\nzhou2025prompted,\ntitle={Prompted Policy Search: Reinforcement Learning through Linguistic and Numerical Reasoning in {LLM}s},\nauthor={Yifan Zhou and Sachin Grover and Mohamed El Mistiri and Kamalesh Kalirathinam and Pratyush Kerhalkar and Swaroop Mishra and Neelesh Kumar and Sanket Gaurav and Oya Aran and Heni Ben Amor},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=95plu1Mo20}\n}"
+      },
+      {
+        "title": "Robust and Scalable Autonomous Reinforcement Learning in Irreversible Environments",
+        "authors": "Sang-Hyun Lee",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7507,
+        "link": "https://openreview.net/pdf/8c1c6543b0cdd620c38fc8ea14fc1c7f3e9fa54f.pdf",
+        "bibtex": "@inproceedings{\nlee2025robust,\ntitle={Robust and Scalable Autonomous Reinforcement Learning in Irreversible Environments},\nauthor={Sang-Hyun Lee},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=dAAz7afWJR}\n}"
+      },
+      {
+        "title": "Deployment Efficient Reward-Free Exploration with Linear Function Approximation",
+        "authors": "Zihan Zhang, Yuxin Chen, Jason D. Lee, Simon Shaolei Du, Lin Yang, Ruosong Wang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7498,
+        "link": "https://openreview.net/pdf/bc76cfdc4159e249c65bcd2fbb134ccb85ba8fbe.pdf",
+        "bibtex": "@inproceedings{\nzhang2025deployment,\ntitle={Deployment Efficient Reward-Free Exploration with Linear Function Approximation},\nauthor={Zihan Zhang and Yuxin Chen and Jason D. Lee and Simon Shaolei Du and Lin Yang and Ruosong Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=ByzRO25Bjr}\n}"
+      },
+      {
+        "title": "Search and Refine During Think: Facilitating Knowledge Refinement for Improved Retrieval-Augmented Reasoning",
+        "authors": "Yaorui Shi, Sihang Li, Chang Wu, Zhiyuan Liu, Junfeng Fang, Hengxing Cai, An Zhang, Xiang Wang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7496,
+        "link": "https://openreview.net/pdf/55cb62683b4084a45b97fd43ed7c483dbae3acc3.pdf",
+        "bibtex": "@inproceedings{\nshi2025search,\ntitle={Search and Refine During Think: Facilitating Knowledge Refinement for Improved Retrieval-Augmented Reasoning},\nauthor={Yaorui Shi and Sihang Li and Chang Wu and Zhiyuan Liu and Junfeng Fang and Hengxing Cai and An Zhang and Xiang Wang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=rBlWKIUQey}\n}"
+      },
+      {
+        "title": "Learning Preferences without Interaction for Cooperative AI: A Hybrid Offline-Online Approach",
+        "authors": "Haitong Ma, Haoran Yu, Haobo Fu, Shuai Li",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.748,
+        "link": "https://openreview.net/pdf/b88c2a890dfabc56df9f77ac8c47edda73daec91.pdf",
+        "bibtex": "@inproceedings{\nma2025learning,\ntitle={Learning Preferences without Interaction for Cooperative {AI}: A Hybrid Offline-Online Approach},\nauthor={Haitong Ma and Haoran Yu and Haobo Fu and Shuai Li},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=QVheAhJefR}\n}"
+      },
+      {
+        "title": "Mind the GAP! The Challenges of Scale in Pixel-based Deep Reinforcement Learning",
+        "authors": "Ghada Sokar, Pablo Samuel Castro",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7471,
+        "link": "https://openreview.net/pdf/16cf3f2d342b9d53f4fdfbed923408d924a9dd79.pdf",
+        "bibtex": "@inproceedings{\nsokar2025mind,\ntitle={Mind the {GAP}! The Challenges of Scale in Pixel-based Deep Reinforcement Learning},\nauthor={Ghada Sokar and Pablo Samuel Castro},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=LrBWGwVfCA}\n}"
+      },
+      {
+        "title": "Incentivizing Dual Process Thinking for Efficient Large Language Model Reasoning",
+        "authors": "Xiaoxue Cheng, Junyi Li, Zhenduo Zhang, Xinyu Tang, Xin Zhao, XinYu KONG, Zhiqiang Zhang",
+        "venue": "NeurIPS 2025 Poster",
+        "affinity_score": 0.7471,
+        "link": "https://openreview.net/pdf/1d54ebca47124f3efdafcb5b44f5c7243ca94f82.pdf",
+        "bibtex": "@inproceedings{\ncheng2025incentivizing,\ntitle={Incentivizing Dual Process Thinking for Efficient Large Language Model Reasoning},\nauthor={Xiaoxue Cheng and Junyi Li and Zhenduo Zhang and Xinyu Tang and Xin Zhao and XinYu KONG and Zhiqiang Zhang},\nbooktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\nyear={2025},\nurl={https://openreview.net/forum?id=ezOfR26pGQ}\n}"
+      }
+    ];
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+    renderPapers(allPapers);
+
+    function loadPapers() {
+      try {
+        renderPapers(allPapers);
+      } catch (error) {
+        console.error('Error loading papers:', error);
+        document.getElementById('stats').textContent = 'Error loading papers.json. Make sure you are running this on a local server or have allowed local file access.';
+      }
+    }
+
+    function renderPapers(papers) {
+      const grid = document.getElementById('paperGrid');
+      const stats = document.getElementById('stats');
+
+      grid.innerHTML = '';
+      stats.textContent = `Showing ${papers.length} papers`;
+
+      papers.forEach(paper => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const link = paper.link || '#';
+        const title = paper.title || 'Untitled';
+        const authors = paper.authors || 'Unknown Authors';
+        const venue = paper.venue || 'Unknown Venue';
+        const score = paper.affinity_score ? paper.affinity_score.toFixed(4) : 'N/A';
+
+        card.innerHTML = `
+                    <div class="card-header">
+                        <span class="venue">${venue}</span>
+                        <span class="score">Score: ${score}</span>
+                    </div>
+                    <h3 class="title"><a href="${link}" target="_blank">${title}</a></h3>
+                    <div class="meta">
+                        <div><strong>Authors:</strong> ${authors}</div>
+                        ${paper.keywords ? `<div><strong>Keywords:</strong> ${paper.keywords}</div>` : ''}
+                    </div>
+                    <div class="actions">
+                        <a href="${link}" target="_blank" style="text-decoration:none">
+                            <button class="btn-small">View PDF</button>
+                        </a>
+                        ${paper.bibtex ? `<button class="btn-small" onclick="toggleBibtex(this)">BibTeX</button>` : ''}
+                    </div>
+                    ${paper.bibtex ? `<div class="bibtex-area">${paper.bibtex}</div>` : ''}
+                `;
+        grid.appendChild(card);
+      });
+    }
+
+    function toggleBibtex(btn) {
+      const area = btn.parentElement.nextElementSibling;
+      if (area.style.display === 'block') {
+        area.style.display = 'none';
+      } else {
+        area.style.display = 'block';
+      }
+    }
+
+    function filterPapers(query) {
+      const lowerQuery = query.toLowerCase();
+      const filtered = allPapers.filter(paper => {
+        return (paper.title && paper.title.toLowerCase().includes(lowerQuery)) ||
+          (paper.authors && paper.authors.toLowerCase().includes(lowerQuery)) ||
+          (paper.keywords && paper.keywords.toLowerCase().includes(lowerQuery));
+      });
+      renderPapers(filtered);
+    }
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      filterPapers(e.target.value);
+    });
+
+    function exportCSV() {
+      if (allPapers.length === 0) return;
+
+      // Define headers
+      const headers = ['Title', 'Authors', 'Venue', 'Affinity Score', 'Link', 'Keywords'];
+
+      // Convert data to CSV rows
+      const csvRows = [headers.join(',')];
+
+      allPapers.forEach(paper => {
+        const row = [
+          `"${(paper.title || '').replace(/"/g, '""')}"`,
+          `"${(paper.authors || '').replace(/"/g, '""')}"`,
+          `"${(paper.venue || '').replace(/"/g, '""')}"`,
+          paper.affinity_score || 0,
+          `"${(paper.link || '').replace(/"/g, '""')}"`,
+          `"${(paper.keywords || '').replace(/"/g, '""')}"`
+        ];
+        csvRows.push(row.join(','));
+      });
+
+      const csvString = csvRows.join('\n');
+      const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', 'ai_papers_export.csv');
+      link.style.visibility = 'hidden';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Initialize
+    loadPapers();
+  </script>
+</body>
+
+</html>
