@@ -11,7 +11,8 @@ def clean_transcript(input_path, output_path):
 
     cleaned_text = []
     # Regex for VTT timestamp line: 00:00:00.000 --> 00:00:00.000
-    timestamp_pattern = re.compile(r'^\d{2}:\d{2}:\d{2}\.\d{3} --> \d{2}:\d{2}:\d{2}\.\d{3}')
+    # Also handles format: 002357.755 -- 002359.794
+    timestamp_pattern = re.compile(r'^\d{2}:\d{2}:\d{2}\.\d{3} --> \d{2}:\d{2}:\d{2}\.\d{3}|^\d+\.\d+\s+--\s+\d+\.\d+')
 
     for line in lines:
         line = line.strip()
