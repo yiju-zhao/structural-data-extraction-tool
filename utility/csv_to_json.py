@@ -3,15 +3,25 @@ import json
 import re
 from datetime import datetime
 
-INPUT_FILE = '/Users/eason/Documents/HW Project/Agent/Tools/structural-data-extraction-tool/crawl4ai/neurips_2025_sessions_SanDiego_detail.csv'
-OUTPUT_FILE = 'neurips_2025_sessions.json'
+INPUT_FILE = '/Users/eason/Documents/HW Project/Agent/Tools/structural-data-extraction-tool/neurips2025/neurips_2025_sessions_MexicoCity_detail.csv'
+OUTPUT_FILE = 'neurips_2025_sessions_mexicoCity.json'
 YEAR = 2025
 
 def parse_date(date_str):
-    # Format: "TUE 2 DEC"
-    # We ignore the day of week and parse "2 DEC"
+    # Format: "Sunday, Nov 30, 2025" or "TUE 2 DEC"
+    if not date_str:
+        return None
     try:
-        # Remove day of week (first word)
+        # Try explicit format with year first: "Sunday, Nov 30, 2025"
+        # %A: Weekday, %b: Abbr Month, %d: Day, %Y: Year
+        dt = datetime.strptime(date_str, "%A, %b %d, %Y")
+        return dt.date()
+    except ValueError:
+        pass
+
+    try:
+        # Fallback to old logic: "TUE 2 DEC"
+        # We ignore the day of week and parse "2 DEC"
         parts = date_str.split()
         if len(parts) >= 3:
             day_month_str = f"{parts[1]} {parts[2]}"
@@ -74,6 +84,7 @@ def main():
     print("Please enter the location for these sessions (e.g. San Diego):")
     location = input().strip()
     
+
     try:
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
