@@ -287,9 +287,23 @@ Items missing fields will have `null` values. The `_type` field is automatically
 ## CLI Reference
 
 ```bash
-# Analyze page structure
+# Analyze page structure (overview)
 python extract.py --analyze <url>
 python extract.py -a <url>
+
+# Inspect specific selector (detailed exploration)
+python extract.py --inspect <url> --selector "div.item"
+python extract.py -i <url> -s "div.item"
+
+# Inspect with field testing
+python extract.py --inspect <url> --selector "div.item" \
+    --fields "title:h2::text,url:a::href"
+
+# Inspect with parent hierarchy
+python extract.py --inspect <url> --selector "div.item" --parents
+
+# More samples (default is 3)
+python extract.py --inspect <url> --selector "div.item" --sample 10
 
 # Run extraction from config
 python extract.py <config.yaml>
@@ -303,9 +317,58 @@ python extract.py --no-headless --analyze <url>
 
 ---
 
+## Inspect Mode Details
+
+The `--inspect` mode replaces ad-hoc Playwright scripts for DOM exploration. It provides:
+
+### 1. Selector Testing
+```bash
+python extract.py -i <url> -s "div.poster-session"
+```
+Output:
+- Element count
+- Sample HTML for each match
+- Suggestions if no matches (similar class names)
+
+### 2. Parent Hierarchy Discovery
+```bash
+python extract.py -i <url> -s "div.session" --parents
+```
+Shows parent chain to help identify context containers:
+```
+Parent chain:
+  └─ div.timebox
+    └─ div.day-container
+      └─ body
+```
+
+### 3. Field Extraction Testing
+```bash
+python extract.py -i <url> -s "div.session" \
+    --fields "title:.title::text,url:a::href,speaker:.author::text"
+```
+Tests field definitions before writing config:
+```
+--- Sample extraction ---
+  title: Machine Learning Advances
+  url: /session/123
+  speaker: Dr. Jane Smith
+```
+
+### 4. Context Discovery
+Automatically shows common parent containers that could be used as contexts:
+```
+=== Potential Context Elements ===
+Common parent containers:
+  div.timebox: 42
+  div.day-container: 5
+```
+
+---
+
 ## Workflow Example: Conference Schedule
 
-### Step 1: Analyze
+### Step 1: Analyze (Overview)
 ```bash
 python extract.py --analyze https://conf.example.com/schedule
 ```
@@ -315,7 +378,25 @@ Output reveals:
 - `div.timebox` (many children)
 - Classes: `session`, `talk`, `poster`, `break`
 
-### Step 2: Create Config
+### Step 2: Inspect (Detailed Exploration)
+```bash
+# Test main selector
+python extract.py -i https://conf.example.com/schedule -s "div.session" --parents
+
+# Test field extraction
+python extract.py -i https://conf.example.com/schedule -s "div.session" \
+    --fields "title:.title::text,speaker:.speaker::text,url:a::href"
+
+# Check poster sessions (different structure?)
+python extract.py -i https://conf.example.com/schedule -s ".content.poster" --parents
+```
+
+This reveals:
+- `div.session` has 87 matches with parent chain: `timebox → day-container`
+- `.content.poster` has 3320 matches with different parent structure
+- Field extraction works with `.title::text`
+
+### Step 3: Create Config
 
 ```yaml
 version: "1.0"

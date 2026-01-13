@@ -526,6 +526,128 @@ def json_to_csv(json_path: str):
 # Main Entry Point
 # =============================================================================
 
+async def inspect_page(url: str, selector: str, headless: bool = True,
+                       sample: int = 3, show_parents: bool = False,
+                       test_fields: str = None):
+    """Interactive inspection mode for exploring page structure.
+
+    Args:
+        url: Page URL to inspect
+        selector: CSS selector to test
+        headless: Run browser in headless mode
+        sample: Number of sample elements to show
+        show_parents: Show parent element hierarchy
+        test_fields: Comma-separated field definitions to test
+    """
+    print(f"Fetching {url}...")
+    html = await fetch_html(url, headless=headless)
+    soup = BeautifulSoup(html, "lxml")
+
+    print(f"\n=== Selector Test: {selector} ===\n")
+
+    # Test selector
+    elements = soup.select(selector)
+    print(f"Matched elements: {len(elements)}")
+
+    if not elements:
+        # Try to help find similar selectors
+        print("\nNo matches. Trying variations...")
+
+        # Extract class name from selector
+        class_match = re.search(r'\.([a-zA-Z0-9_-]+)', selector)
+        if class_match:
+            class_name = class_match.group(1)
+            # Find elements containing this class
+            partial_matches = soup.find_all(class_=re.compile(class_name))
+            if partial_matches:
+                print(f"Found {len(partial_matches)} elements with '{class_name}' in class:")
+                classes_found = Counter()
+                for el in partial_matches[:50]:
+                    for cls in el.get('class', []):
+                        if class_name in cls:
+                            classes_found[cls] += 1
+                for cls, count in classes_found.most_common(10):
+                    print(f"  .{cls}: {count}")
+        return
+
+    # Show sample elements
+    print(f"\n=== Sample Elements (first {min(sample, len(elements))}) ===")
+    for i, elem in enumerate(elements[:sample]):
+        print(f"\n--- Element {i+1} ---")
+
+        # Show truncated HTML
+        html_str = str(elem)
+        if len(html_str) > 500:
+            html_str = html_str[:500] + "..."
+        print(f"HTML: {html_str}")
+
+        # Show classes
+        classes = elem.get('class', [])
+        if classes:
+            print(f"Classes: {' '.join(classes)}")
+
+        # Show parent hierarchy if requested
+        if show_parents:
+            print("Parent chain:")
+            parent = elem.parent
+            depth = 0
+            while parent and parent.name and depth < 5:
+                parent_classes = parent.get('class', [])
+                class_str = f".{'.'.join(parent_classes)}" if parent_classes else ""
+                print(f"  {'  ' * depth}└─ {parent.name}{class_str}")
+                parent = parent.parent
+                depth += 1
+
+    # Test field extraction if provided
+    if test_fields:
+        print(f"\n=== Field Extraction Test ===")
+        field_defs = [f.strip() for f in test_fields.split(',')]
+
+        for elem in elements[:sample]:
+            print(f"\n--- Sample extraction ---")
+            for field_def in field_defs:
+                # Parse field definition
+                if ':' in field_def:
+                    name, rest = field_def.split(':', 1)
+                    if '::' in rest:
+                        sel, attr = rest.rsplit('::', 1)
+                    else:
+                        sel, attr = rest, 'text'
+                else:
+                    name, sel, attr = field_def, '', 'text'
+
+                # Extract value
+                target = elem.select_one(sel) if sel else elem
+                if target:
+                    if attr == 'text':
+                        value = target.get_text(strip=True)[:100]
+                    else:
+                        value = target.get(attr, '')
+                    print(f"  {name}: {value}")
+                else:
+                    print(f"  {name}: (not found)")
+
+    # Show context candidates
+    print(f"\n=== Potential Context Elements ===")
+    context_candidates = Counter()
+    for elem in elements[:20]:
+        parent = elem.parent
+        depth = 0
+        while parent and parent.name and depth < 10:
+            if parent.name in ('div', 'section', 'article'):
+                classes = parent.get('class', [])
+                if classes:
+                    selector_str = f"{parent.name}.{'.'.join(classes)}"
+                    context_candidates[selector_str] += 1
+            parent = parent.parent
+            depth += 1
+
+    if context_candidates:
+        print("Common parent containers (potential contexts):")
+        for sel, count in context_candidates.most_common(10):
+            print(f"  {sel}: {count}")
+
+
 async def main():
     parser = argparse.ArgumentParser(
         description="Unified Web Data Extraction Tool",
@@ -535,6 +657,13 @@ Examples:
     # Analyze page structure
     python extract.py --analyze https://example.com/products
 
+    # Inspect specific selector
+    python extract.py --inspect https://example.com --selector "div.item"
+
+    # Inspect with field testing
+    python extract.py --inspect https://example.com --selector "div.item" \\
+        --fields "title:h2::text,url:a::href"
+
     # Run extraction from config
     python extract.py configs/my_extraction.yaml
 
@@ -542,8 +671,13 @@ Examples:
     python extract.py --json2csv output.json
         """
     )
-    parser.add_argument("config", nargs="?", help="YAML config file or URL (with --analyze)")
+    parser.add_argument("config", nargs="?", help="YAML config file or URL (with --analyze/--inspect)")
     parser.add_argument("--analyze", "-a", action="store_true", help="Analyze page structure")
+    parser.add_argument("--inspect", "-i", action="store_true", help="Inspect specific selector")
+    parser.add_argument("--selector", "-s", help="CSS selector to inspect (with --inspect)")
+    parser.add_argument("--fields", "-f", help="Field definitions to test (with --inspect)")
+    parser.add_argument("--sample", type=int, default=3, help="Number of sample elements (with --inspect)")
+    parser.add_argument("--parents", "-p", action="store_true", help="Show parent hierarchy (with --inspect)")
     parser.add_argument("--json2csv", help="Convert JSON file to CSV")
     parser.add_argument("--no-headless", action="store_true", help="Show browser window")
 
@@ -566,6 +700,21 @@ Examples:
         print("\nAnalyzing page structure...")
         stats = analyze_html(html)
         print_analysis(stats)
+        return
+
+    # Inspect mode
+    if args.inspect:
+        if not args.selector:
+            print("Error: --inspect requires --selector")
+            return
+        await inspect_page(
+            url=args.config,
+            selector=args.selector,
+            headless=not args.no_headless,
+            sample=args.sample,
+            show_parents=args.parents,
+            test_fields=args.fields
+        )
         return
 
     # Config-based extraction
