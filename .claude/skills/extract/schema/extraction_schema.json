@@ -1,0 +1,244 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Extraction Config",
+  "description": "Schema for YAML-based web extraction configurations",
+  "type": "object",
+  "required": ["items"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Config version",
+      "default": "1.0"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of this extraction config"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of what this config extracts"
+    },
+    "source": {
+      "type": "object",
+      "description": "Data source configuration",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to fetch and extract from"
+        },
+        "file": {
+          "type": "string",
+          "description": "Local HTML file to extract from"
+        },
+        "options": {
+          "type": "object",
+          "properties": {
+            "headless": {
+              "type": "boolean",
+              "default": true,
+              "description": "Run browser in headless mode"
+            },
+            "wait_for": {
+              "type": "string",
+              "description": "CSS selector to wait for before extracting"
+            }
+          }
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "description": "Output configuration",
+      "properties": {
+        "format": {
+          "oneOf": [
+            {"type": "string", "enum": ["json", "csv"]},
+            {"type": "array", "items": {"type": "string", "enum": ["json", "csv"]}}
+          ],
+          "default": ["json"],
+          "description": "Output format(s)"
+        },
+        "path": {
+          "type": "string",
+          "description": "Output file path (without extension)"
+        }
+      }
+    },
+    "contexts": {
+      "type": "array",
+      "description": "Context layers for hierarchical extraction",
+      "items": {
+        "type": "object",
+        "required": ["name", "selector"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Context name for reference"
+          },
+          "selector": {
+            "type": "string",
+            "description": "CSS selector for context elements"
+          },
+          "parent": {
+            "type": "string",
+            "description": "Parent context name (for inheritance)"
+          },
+          "fields": {
+            "$ref": "#/definitions/fields",
+            "description": "Fields to extract at this context level"
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "description": "Item extraction patterns",
+      "items": {
+        "type": "object",
+        "required": ["selector"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Pattern name (used as _type in output)"
+          },
+          "selector": {
+            "type": "string",
+            "description": "CSS selector for items"
+          },
+          "selector_type": {
+            "type": "string",
+            "enum": ["css", "regex"],
+            "default": "css",
+            "description": "Selector type"
+          },
+          "context": {
+            "type": "string",
+            "description": "Context name to inherit fields from"
+          },
+          "fields": {
+            "$ref": "#/definitions/fields",
+            "description": "Fields to extract from each item"
+          }
+        }
+      }
+    },
+    "transforms": {
+      "type": "object",
+      "description": "Named reusable transforms",
+      "additionalProperties": {
+        "$ref": "#/definitions/transform"
+      }
+    },
+    "schema": {
+      "type": "object",
+      "description": "Output schema definition",
+      "properties": {
+        "fields": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {
+                "type": "object",
+                "required": ["name"],
+                "properties": {
+                  "name": {"type": "string"},
+                  "required": {"type": "boolean", "default": false}
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "fields": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/fieldConfig"
+      }
+    },
+    "fieldConfig": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Short form: selector::attribute"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "selector": {
+              "type": "string",
+              "description": "CSS selector relative to item"
+            },
+            "extract": {
+              "type": "string",
+              "enum": ["text", "html", "href", "src", "class", "id"],
+              "default": "text",
+              "description": "What to extract from element"
+            },
+            "source": {
+              "type": "string",
+              "enum": ["selector", "class", "id", "tag"],
+              "default": "selector",
+              "description": "Where to get value from"
+            },
+            "transform": {
+              "$ref": "#/definitions/transform",
+              "description": "Transform to apply to extracted value"
+            }
+          }
+        }
+      ]
+    },
+    "transform": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": ["strip", "absolute_url", "lowercase", "uppercase"],
+          "description": "Named transform"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["regex", "url_join"],
+              "description": "Transform type"
+            },
+            "regex": {
+              "type": "string",
+              "description": "Regex pattern"
+            },
+            "pattern": {
+              "type": "string",
+              "description": "Pattern for regex transform type"
+            },
+            "group": {
+              "type": "integer",
+              "default": 1,
+              "description": "Regex capture group"
+            },
+            "base": {
+              "type": "string",
+              "description": "Base URL for url_join"
+            },
+            "replace": {
+              "type": "array",
+              "items": {"type": "string"},
+              "minItems": 2,
+              "maxItems": 2,
+              "description": "[old, new] for string replacement"
+            },
+            "strip": {
+              "type": "boolean",
+              "description": "Strip whitespace"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

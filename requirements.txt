@@ -6,5 +6,7 @@ pydantic
 requests
 beautifulsoup4
 selenium
-html5lib 
+html5lib
 lxml
+crawl4ai
+pyyaml
