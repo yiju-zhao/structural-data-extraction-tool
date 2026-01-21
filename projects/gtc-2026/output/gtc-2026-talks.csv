@@ -1,0 +1,290 @@
+session_code,title,session_type,url
+S81595,GTC 2026 Keynote [S81595],Keynote,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81595/
+S81703,NVIDIA NeMo Guardrails と Amazon Bedrock による AI ガードレール構築と検知性能評価 [S81703],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81703/
+S81827,NVIDIA NeMo を活用した半導体領域知識を組み込む小規模 LLM のファインチューニング [S81827],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81827/
+S81963,NVIDIAソフトウェアとの統合により進化する富士通の自律型AIプラットフォーム [S81963],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81963/
+S82285,Ozaki Scheme: Addressing the Accuracy Challenge in the Era of Low-Precision Accelerators [S82285],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82285/
+S81896,VLM・VSSによる現場の安全性向上と作業効率向上の実現 [S81896],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81896/
+S81884,オールフォトニクスネットワークとNVIDIA DynamoによるAIエージェント向けプラットフォームの最適化手法 [S81884],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81884/
+S81893,次世代GPU基盤の実力とサービス価値 NVIDIA HGX B300とNVIDIA Spectrum-Xがもたらす変化 [S81893],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81893/
+S81667,How Open World Models are Powering the Next Breakthroughs in Physical AI [S81667],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81667/
+S81789,Open-Source AI Shaping the Next Era of Intelligent Digital Workers [S81789],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81789/
+S81493,Securing Coding Assistants [S81493],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81493/
+S81598,Accelerate the Physical AI Era With Digital Twins and Real-Time Simulation [S81598],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81598/
+S81806,"AI Revolution in Heartcare: Redefining Research, Care, and the Patient Experience [S81806]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81806/
+S81859,CUDA: New Features and Beyond [S81859],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81859/
+S81796,From Cluster to Factory: Scale AI Infrastructure Operations With Software-Defined Intelligence [S81796],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81796/
+S81643,How Simulation and AI are Giving Life to Digital Twins for Patient Care [S81643],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81643/
+S81612,Practical Context Engineering: Eliminate Bugs With High-Signal AI Code Review [S81612],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81612/
+S81695,Racing to the Top: How We Scaled Kimi K2 [S81695],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81695/
+S81755,"Scaling AI Agents Globally Across Brands, Use Cases, and Restaurants [S81755]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81755/
+S81491,Security for the AI-First Enterprise [S81491],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81491/
+S82003,Telecom Special Address: The AI Grid—Intelligently Connecting AI Infrastructure [S82003],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82003/
+S81748,The AI-XR Co-Scientist Lab: How Stanford's LabOS is Accelerating Advanced Science With XR [S81748],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81748/
+S81778,The Creative OS: AI Built With Human Imagination at the Center [S81778],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81778/
+S81769,The Era of GPU Data Processing: From SQL to Search and Back Again [S81769],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81769/
+S81715,Turning Models Into Engines: The AI Factory Era [S81715],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81715/
+S81584,Autonomous AI Factories: A Technical Preview of Agent-Native Production [S81584],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81584/
+S81862,Bringing Physical AI to Smart Spaces [S81862],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81862/
+S81636,Building Shopify’s Commerce Foundation Models [S81636],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81636/
+S81874,Charting a Course for the Next Decade of Gaming with AI [S81874],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81874/
+S81492,How Disney Droids Come to Life With Physics Simulation [S81492],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81492/
+S81628,MLOps 101: Platforms and Processes for Building AI [S81628],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81628/
+S82132,The Blueprint for a Modern Resource-Responsible AI Factory [S82132],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82132/
+S81804,The Genesis of Accelerated Quantum Supercomputing: Unifying AI and Quantum [S81804],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81804/
+S81690,Transform Content Delivery With Generative AI at the Edge [S81690],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81690/
+S81836,Visual AI Agents for Real-Time Video Understanding [S81836],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81836/
+S81629,Accelerate Power Grid Interconnection for Load and Generation Using Agentic AI and Digital Twins [S81629],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81629/
+S81556,Agentic AI for Services at Scale: How Agentic AI Transforms Building and Data Center Services [S81556],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81556/
+S82020,A Deep Dive Into Two Telco-Built Sovereign AI Clouds [S82020],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82020/
+S81863,A New Frontier for Vision AI with Expert Reasoning Agents [S81863],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81863/
+S81489,A New Paradigm: Verifiable AI [S81489],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81489/
+S81773,Accelerate AI Inference Using DOCA for Storage [S81773],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81773/
+S81985,Accelerate Business Jet Customization With Photorealistic Rendering [S81985],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81985/
+S81594,Accelerate Causal Discovery in Complex Systems Using Modern GPU Techniques [S81594],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81594/
+S81788,Accelerate Cloud Platforms for the Next Era of AI [S81788],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81788/
+S82266,Accelerate Enterprise AI Adoption: Secure Your Agentic Foundations from Day 1 (Presented by CrowdStrike) [S82266],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82266/
+S81732,Accelerate Geospatial Workflows for Planetary Insight [S81732],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81732/
+S81581,Accelerate GPU Scientific Computing With nvmath-python [S81581],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81581/
+S81683,Accelerate Grid Modernization for AI Growth Using NVIDIA Omniverse [S81683],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81683/
+S81470,Accelerate Native Sparse Attention Kernels on Blackwell by CuTeDSL [S81470],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81470/
+S82113,Accelerate Open Science: Incorporating CUDA Into the SciPy Ecosystem [S82113],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82113/
+S81552,Accelerate Operational Excellence Through AIOps Resiliency Solutions [S81552],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81552/
+S81479,Accelerate Physical AI for the Real World: A Vision From NVIDIA Robotics Research [S81479],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81479/
+S81663,Accelerate the Path to In-Silico Life Sciences and Drug Discovery [S81663],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81663/
+S81857,Accelerated AI Networking with DOCA [S81857],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81857/
+S81792,Accelerated Building Blocks for Next-Generation AI+HPC Workloads [S81792],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81792/
+S82017,Accelerating Industrial Engineering: From Product Design to Manufacturing in the AI Supercomputing Era [S82017],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82017/
+S82028,Accelerating Small Molecule Drug Discovery for Hard-to-Target Proteins [S82028],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82028/
+S82200,Achieve 20% Higher Model Utilization: A Deep Dive on Training and Inference (Presented by CoreWeave) [S82200],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82200/
+S81463,Achieve Peak Tensor Core Performance for GEMM on Blackwell via CuTe DSL [S81463],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81463/
+S81424,"Achieve Truly Serverless GPUs With libfuse, CRIU, and CUDA-Checkpoint [S81424]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81424/
+S81765,"Activate Always-On AI Security, From Cloud to Edge [S81765]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81765/
+S81864,Advancing Road Safety for Roadway Users With Caltrans​ [S81864],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81864/
+S81718,Agentic AI for the Next Generation of Financial Advisors [S81718],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81718/
+S81831,AI Coding for the GPU: Build a Coding Agent to Help GPU Developers Write Speed-of-Light Code [S81831],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81831/
+S82010,AI Grid Explained: From Secure AI Factories to Distributed Intelligence [S82010],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82010/
+S82014,AI Grid for Robots: Applications and Infrastructure for Physical AI Powered by Telcos [S82014],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82014/
+S82012,AI Grid Tokenomics: Powering Distributed AI Inference at Scale [S82012],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82012/
+S81664,"AI on the Front Lines of Healthcare: Unlock Clinical, Operational, and Diagnostic Value [S81664]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81664/
+S81996,AI Performance and Inference Economics for Engineers [S81996],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81996/
+S81944,AI 与工业的融合：探索工业具身智能新路径 [S81944],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81944/
+S81564,AI-First Design: Build Smarter From Day Zero Through Every Funding Stage [S81564],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81564/
+S81811,"All the Precision, None of the Transistors [S81811]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81811/
+S81790,An AI-Driven Autonomous Lab of the Future for Chemistry and Materials Science [S81790],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81790/
+S82016,Autonomous Networks: The New Brain of Telco Operations [S82016],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82016/
+S81624,Beauty Reinvented with L'Oréal: AI-Enabled Formulation Optimization [S81624],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81624/
+S82191,Benchmarking the Path to Useful Quantum Computers [S82191],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82191/
+S81658,Best Practices for Hashmap Optimization on NVIDIA Grace and Vera CPUs [S81658],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81658/
+S81519,Best Practices for Scaling Inference [S81519],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81519/
+S81515,Best Practices of Multi-Modal and Vision Generation Training in M-Core [S81515],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81515/
+S81630,Beyond the Basics: OpenUSD for Advanced Physical AI Simulation [S81630],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81630/
+S81992,Beyond the Model: Driving Cutting-Edge Drug Discovery [S81992],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81992/
+S82244,Blueprint for AI Scale: How Industry Architects Success With NVIDIA GPUs on Google Cloud (Presented by Google Cloud) [S82244],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82244/
+S82203,Build a GPU-Accelerated Database Engine With CUDA [S82203],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82203/
+S81731,Build a High-Performance Research Cluster [S81731],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81731/
+S81640,Build a Software-Defined Multi-Tenant NVLinked Cluster [S81640],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81640/
+S81512,Build an Open Surgery Robot AI Platform With NVIDIA Frameworks [S81512],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81512/
+S82144,Build and Deploy AI Models and Agents for Media & Entertainment [S82144],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82144/
+S82197,Build Custom Large-Scale Generative AI Models [S82197],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82197/
+S81747,Build Fault-Tolerant Distributed AI Training at Scale [S81747],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81747/
+S81793,Build Gigascale AI Factories With Next-Generation Rack-Scale Systems [S81793],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81793/
+S81623,Build High-Performance Financial AI: Achieve Microsecond Latency and Scalable LLM Inference [S81623],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81623/
+S81618,Build Next-Generation Foundation Models in Finance [S81618],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81618/
+S81625,Build Purpose-Built AI Security With DOCA [S81625],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81625/
+S81867,Build Real-Time Vision AI Agents for Smart Cities [S81867],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81867/
+S81750,Build the Future of AI Infrastructure With NVIDIA DOCA [S81750],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81750/
+S81835,Build Trust and Discovery Through Open‑Source AI in Research [S81835],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81835/
+S82114,Build Trust at Scale: Governing AI Across Your Enterprise (Presented by ServiceNow) [S82114],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82114/
+S82081,Build Your AI Factory With NVIDIA's Optimized AI Infrastructure Runtime [S82081],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82081/
+S82025,"Building a Global, Multi-Tenant GPU Cluster for Research and Development [S82025]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82025/
+S81508,Building and Scaling AI Factories With Digital Twins and Robotics [S81508],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81508/
+S82174,"Building Local, Sovereign AI in Practice (Presented by Nscale) [S82174]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82174/
+S81782,Building the Architecture of Advertising Intelligence: How GPU-Accelerated AI Agents are Reshaping Digital Advertising [S81782],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81782/
+S81694,"Building, Measuring, and Using AI Scientists [S81694]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81694/
+S81580,China AI Networking Day - 迎接 10 亿瓦级 AI 工厂的时代 [S81580],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81580/
+S81714,CSO Insights: Driving AI-Optimized Energy Efficiency and Data Center Performance [S81714],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81714/
+S82116,Customer-Centric Innovation in Automotive [S82116],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82116/
+S81433,cuTile Programming [S81433],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81433/
+S81542,Cutting-Edge Molecular Dynamics on the Latest Multi-Node NVLink Technology [S81542],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81542/
+S81848,Deep Dive on Gigawatt AI Factories [S81848],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81848/
+S81651,Develop a Real-Time Digital Twin for Rapid Automotive Engineering Design [S81651],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81651/
+S81530,Developing the First Generative AI Model of Global Financial Markets [S81530],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81530/
+S81684,"Diffusion Unlocked: Advanced Techniques for Training, Inference, and Deployment [S81684]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81684/
+S81522,Distillation Recipes and Synthetic Data Fine-Tuning for Algorithmic Trading [S81522],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81522/
+S81970,DiT 视频模型推理加速新方案：兼顾精度与效率的平衡之道 [S81970],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81970/
+S81772,Don’t Leave Tensors on the Table: Programming and Optimizing Tensor Cores [S81772],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81772/
+S81794,Drive Down Costs: Enhanced Tokenomics and Smart Routing for High-Scale Enterprise AI [S81794],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81794/
+S81845,Drive Optimal Tokens per Watt on any AI Infrastructure Using Benchmarking Recipes [S81845],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81845/
+S81842,Edge Computing 101: Introduction to Smart Edge and Autonomous Robots [S81842],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81842/
+S81673,"Enable Enterprise AI Factories With Secure, High-Performance Networking [S81673]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81673/
+S82289,Enable Seamless Human-Humanoid Collaboration in a Shared Operational Environment (Presented by EY) [S82289],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82289/
+S82026,Engineering Real-World LLM Inference: Bridging Open-Source and Production Systems [S82026],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82026/
+S81853,Enhance Data Center Efficiency and Throughput by Co-Scheduling on NVIDIA CPU+GPU Systems [S81853],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81853/
+S81898,Europe’s AI Launchpad: Unlock Startup Growth Through Sovereign AI Infrastructure [S81898],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81898/
+S82065,"Five Bottlenecks, Five Fixes: How We Avoid Leaving Training Performance on the Table [S82065]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82065/
+S81802,Foundation Models Revolutionize Molecular Dynamics Simulations for Chemistry and Materials Science [S81802],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81802/
+S81830,From Challenge to Competitive Advantage: How VC Startups Leverage NVIDIA to Win Markets [S81830],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81830/
+S81570,From Data to Decisions: Enabling AI Agents With Business Knowledge [S81570],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81570/
+S81680,From Grace to Vera: NVIDIA’s Next ARM-Based Data Center CPU [S81680],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81680/
+S81993,From Physical Vision Systems to OpenUSD: Building Digital Twins for Virtual Commissioning [S81993],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81993/
+S81825,From Prompt to Pull Request: Engineering Coding Agents into Your Stack [S81825],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81825/
+S81622,"From Prototype to Playable: Bringing Scalable ML Into ""World of Tanks: HEAT"" With NVIDIA Triton [S81622]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81622/
+S81957,From Signal to Strategy: Unlock Alpha With AI-Powered Research and Trading [S81957],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81957/
+S81987,From Vision to Reality: Building AI Factories [S81987],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81987/
+S81548,Global Governance and the Future of AI Safety Regulation [S81548],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81548/
+S81840,GPU Access to Unbounded Dataset Sizes Breaks Open Document Ingestion and Search [S81840],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81840/
+S81632,Harness Agentic AI and Reasoning Models to Accelerate Scientific Discovery [S81632],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81632/
+S81647,Harness AI to Accelerate Innovation in Healthcare Robotics [S81647],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81647/
+S81599,Healthcare Reimagined: Bridging Digital Intelligence and Physical Autonomy [S81599],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81599/
+S81503,High-Performance Quantum- and AI-Driven Drug Discovery: Accelerate EXESS With FP64 Emulation on Blackwell [S81503],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81503/
+S82154,Holistic Model Co-Design: Close the Loop With Software and Hardware for Inference Efficiency [S82154],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82154/
+S81832,How AI is Changing Everyday Work [S81832],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81832/
+S81751,How AI is Changing the Scientific Method in Biology and Beyond [S81751],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81751/
+S81701,How Perplexity AI Scales Real-Time Search With Breakthrough Mixture-of-Experts Performance [S81701],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81701/
+S81707,"How to Teach Coding Agents Your Domain-Specific Language: SDG to Fine-Tuned Models, COBOL Edition [S81707]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81707/
+S81856,"Inside NVIDIA DGX AI Factory: Accelerating Networking for AI Across Cloud, Core, and Edge [S81856]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81856/
+S81951,Inside Resilient AI Factories: How Predictive Analytics and IST are Driving Next-Level Data Center Reliability [S81951],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81951/
+S81661,Introduction to Neural Rendering [S81661],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81661/
+S82141,Large-Scale JAX Training With Pipeline Parallelism [S82141],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82141/
+S81820,Leverage DL to Enable Blood-Based Multi-Cancer Detection and Empower Health Systems to Reach More Patients [S81820],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81820/
+S81730,Leverage Physical AI to Simulate and Orchestrate Robotic Fleets for Retail Fulfillment Centers [S81730],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81730/
+S81653,LLM-Generated CUDA Kernels: Are We There Yet? [S81653],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81653/
+S81590,Lower the Barriers: How New Tools Unlock GPU Acceleration for Everyone [S81590],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81590/
+S81533,Massive Parallelization of Subgraph Isomorphism for Scalable Quantum Compilation and Faster Graph Analytics [S81533],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81533/
+S81422,Master AI Infrastructure At Scale: A DevOps Playbook [S81422],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81422/
+S81464,Medical Speech and Transcription Frontiers: Transforming European Healthcare Delivery [S81464],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81464/
+S81657,MLOps 201: Master Operational Excellence With Agentic AI [S81657],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81657/
+S81662,MLOps 202: From Models to Production AI Systems at Scale [S81662],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81662/
+S81719,"Nemotron Unpacked: Build, Fine-Tune, and Deploy NVIDIA's Open Models [S81719]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81719/
+S81717,"Next-Gen Offshore Platforms : Safer, Smarter, and Efficient With Digital Twins [S81717]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81717/
+S81742,Next-Generation Intelligent Surgical Robots [S81742],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81742/
+S81708,NVIDIA 101: From Chips to Software—How NVIDIA's AI Platform Enables the AI Revolution [S81708],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81708/
+S81897,NVIDIA Cosmosを活用した自動運転向けデータセット基盤の実装事例 [S81897],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81897/
+S81678,NVIDIA GPU Acceleration on Snap's Experimentation Platform: A Cost-Benefit Analysis Demonstrating Million-Dollar Savings [S81678],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81678/
+S81620,NVIDIA GPU 的 LLM 异步强化学习训练 [S81620],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81620/
+S81964,NVIDIA サービスを活用し、LLM の精度向上からフィジカル AI への応用について [S81964],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81964/
+S82221,NVIDIA 加速辅助驾驶 2.0 时代 AI 定义汽车的大规模应用 [S82221],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82221/
+S81559,Optimize Biologics Design Workflow With Auto-Tuned Models and Multi-Agent Systems [S81559],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81559/
+S82151,Optimize NVIDIA Vera Rubin NVL72 and GB300 NVL72 Workloads With Lambda’s Bare-Metal Cloud (Presented by Lambda) [S82151],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82151/
+S81833,Optimize Performance of Vision AI Models on the Edge [S81833],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81833/
+S82115,Optimizing $1 Trillion in Payments: From Contextual Bandits to Foundational Models [S82115],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82115/
+S81656,Optimizing the Shopping Experience at Amazon Ads With NVIDIA Dynamo [S81656],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81656/
+S81709,Parameterized CUDA Graph Launch in PyTorch: CUDA Graphs Without the Pain [S81709],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81709/
+S81821,Physical AI for Healthcare Robotics—Part 1: Simulation-First Design and Accelerated Development [S81821],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81821/
+S81822,Physical AI for Healthcare Robotics—Part 2: Closing the Sim-to-Real Gap and Real-World Deployment [S81822],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81822/
+S81734,"Powering Agentic Commerce with Open-Source AI: Easy to Build, Train, and Deploy [S81734]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81734/
+S81942,Powering Research: Real Academic Use Cases With NVIDIA Accelerated Computing and AI [S81942],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81942/
+S81780,Powering the AI Era in Genomics With Advanced Next-Generation Sequencing Technologies [S81780],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81780/
+S81805,Provide the Best Care for Patients Using Foundation Models and Agents [S81805],Fireside Chat,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81805/
+S81726,Puma’s Smart Stores: Agents and Digital Humans Redefine Customer Interaction [S81726],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81726/
+S81824,Push the Boundaries of CAE and EDA With NVIDIA cuDSS [S81824],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81824/
+S81547,Push the Performance Frontier of Computer Vision Models With NVFP4 Reduced Precision [S81547],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81547/
+S81531,Python All the Way Down: Speed-of-Light CUDA Without Leaving Python [S81531],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81531/
+S81686,Quantum and HPC at Riken: The Sum is Greater Than Its Parts [S81686],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81686/
+S81696,Quantum Computing at NERSC and Lawrence Berkeley National Laboratory [S81696],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81696/
+S81688,Qwen: Toward Generalist Models [S81688],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81688/
+S81781,Real-Time Science and Engineering With AI Physics and Kit-CAE [S81781],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81781/
+S81744,Real-time Voice Transformation with GPU Accelerated AI [S81744],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81744/
+S81675,Reimagining Store Operations at Scale to Accelerate Retail ROI [S81675],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81675/
+S81676,"Reimagining the OR With Physical and Digital Robotics: Innovations, Challenges, and Opportunities [S81676]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81676/
+S82182,Reinforcement Learning at Scale: Engineering the Next Generation of Intelligence [S82182],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82182/
+S81813,Reinventing Clinical Decision Support With Agentic AI and a Data Flywheel [S81813],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81813/
+S81982,Revolutionize Automated Parcel Handling With Humanoid Robots [S81982],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81982/
+S82288,Revolutionize Warehouse and Shipping Operations Through AI Optimization (Presented by EY) [S82288],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82288/
+S81749,Robotic Automation in Neurosurgery Navigation With Isaac and Holoscan [S81749],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81749/
+S81421,Robust LLM Training Infrastructure at ByteDance [S81421],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81421/
+S81557,Scalable AI Localization for Live Media Using NVIDIA Holoscan for Media [S81557],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81557/
+S81543,Scalable Data Access for Next-Gen Algorithmic Trading [S81543],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81543/
+S82243,Scale Foundation Models With Google Cloud AI Hypercomputer (Presented by Google Cloud) [S82243],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82243/
+S81828,Scale Open-Source VLMs to Billions of Interactions for Ecommerce [S81828],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81828/
+S81633,Scale Sports Intelligence and Insight With Foundational Models [S81633],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81633/
+S82080,"Scaling AI Agents Across SAP Apps, From PoC to Production (Presented by SAP) [S82080]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82080/
+S81870,Scaling DuckDB Beyond Its Limits: GPU-Accelerated Analytics With Sirius [S81870],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81870/
+S81652,Scaling Laws in Biology: Why Bigger Models Alone Aren’t Enough [S81652],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81652/
+S81561,Scaling Out and Across: Networking Innovations for Giga-Scale AI Systems [S81561],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81561/
+S82018,Scaling the AI Life Cycle: Next-Gen Training and Inference With Crusoe Cloud (Presented by Crusoe) [S82018],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82018/
+S81617,Scaling Trustworthy Multi-Modal Video Intelligence: A Life Cycle-Aware Approach for Domain-Specific Real-World Platforms [S81617],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81617/
+S82321,SeamlessFlow：NVIDIA GPU 集群上基于 Megatron-Core 的 Trainer-Agent 隔离与标签调度无空泡强化学习框架 [S82321],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82321/
+S82177,Secure Multi-Tenant AI: Sovereign Neo-Cloud Infrastructure With Fractional GPU Sharing [S82177],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82177/
+S81691,Securing the AI Factory: Accelerate Runtime Security for Enterprise Innovation [S81691],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81691/
+S81677,Shaping The Future: GE HealthCare and the Rise of Autonomous Medical Imaging [S81677],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81677/
+S81873,Shatter the Memory Wall: Composable Building Blocks for Massive Scale Analytics [S81873],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81873/
+S82147,Simulating Reality Inside General World Models [S82147],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82147/
+S81841,"Smart Agents, Safer Systems: Engineering AI for Trust and Transparency [S81841]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81841/
+S81462,Solve the Day 1 Challenge of Landing LLM Inference in Enterprise [S81462],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81462/
+S82019,Sovereign AI for Telcos: Offtake Stories and Monetization Models From Around the World [S82019],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82019/
+S81988,Spain's First Physical AI Lab: Empowering the Northern Spanish Industrial Ecosystem [S81988],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81988/
+S81785,Speed Meets Safety: Accelerating Automotive Crash Simulations With AI Physics [S81785],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81785/
+S81777,Strategic Capital and the Evolution of the AI Ecosystem [S81777],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81777/
+S82044,"Supercharging Responsible AI Innovation: Compute, Synthetic Data, and Regulatory-Informed Design [S82044]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82044/
+S81710,Swallow LLM: Continual Pre-Training and RL for Sovereign AI [S81710],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81710/
+S82052,"The 2026 Infrastructure, Operations, and Cloud Services Agenda: Scale Agentic AI With NVIDIA Nemotron 3 (Presented by Vultr) [S82052]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82052/
+S82005,The AI-Augmented Surgeon: Inside the Operating Room of the Future [S82005],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82005/
+S81851,The Builder’s Toolkit: Scaling Enterprise AI Factories [S81851],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81851/
+S81894,The Case for Block-Based Programming With cuTile and Triton for Image Processing Workloads Used in Semi Manufacturing [S81894],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81894/
+S81513,The Generative AI Revolution: AI スーパーコンピュータ設計のパラダイムシフト [S81513],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81513/
+S81847,The Playbook: Mastering AI Scale Across Multi-Cloud Environments [S81847],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81847/
+S81791,The State of Open-Source AI [S81791],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81791/
+S81735,Think You Know AI? 25 Startups Prove You Wrong [S81735],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81735/
+S81866,Transform Energy Inspections With Automated Vision and Reporting [S81866],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81866/
+S81452,Transform Shopee Ecommerce Using a Southeast Asia-Tuned LLM [S81452],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81452/
+S82187,Transforming Bottlenecks into Breakthroughs: Scaling Secure AI Networks for AI Factories (Presented by Cisco Systems) [S82187],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82187/
+S81871,Transforming Industrial Ops: Real-Time Forecasting and Anomaly Detection With Foundational Time-Series Models at Scale [S81871],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81871/
+S82173,Turning Telecom Networks Into Sovereign AI-Ready Platforms (Presented by Nscale) [S82173],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82173/
+S81729,Unified Architectures and Evaluation Frameworks for Financial AI Agents [S81729],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81729/
+S81826,Unlock Efficiency for Financial Agents With Scalable Data Curation [S81826],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81826/
+S81563,"Unlock Fast, Cost-Effective Interactive Analytics on Massive Data Lakehouses [S81563]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81563/
+S81722,Vibe Decoding Quantum Error Correction With CUDA-Q [S81722],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81722/
+S82059,vLLM in 2026: Architectural Challenges and Performance Optimizations [S82059],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82059/
+S82022,Wireless Network Digital Twins: Use Cases for 5G and 6G [S82022],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82022/
+S81634,"Workflow Revolution: How Doudna Drives HPC, AI, and Quantum Scientific Impact [S81634]",Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81634/
+S81972,インタラクティブCFD最前線：Omniverseで体験するデジタルツインと都市シミュレーション [S81972],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81972/
+S81860,从 Isaac Gym 迁移到 Isaac Lab，及未来技术演进 [S81860],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81860/
+S82027,从云端到本地，重塑座舱AI [S82027],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82027/
+S81823,利用 NVIDIA Cosmos VSS 构建智慧交通（ITS）违章检测系统 [S81823],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81823/
+S81943,利用 NVIDIA Dynamo Router 的 LongCat-Flash 高效推理案例研究：面向智能体时代的模型-系统协同设计 [S81943],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81943/
+S81969,利用 PhysicsNeMo 加速机器人中的柔性触觉传感器仿真 [S81969],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81969/
+S81981,十载相伴，NVIDIA 赋能创业公司在 AI 时代加速前行 [S81981],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81981/
+S81938,基于 DeepGEMM × FlashMLA × DeepEP 对 DeepSeek 模型在 Blackwell 的全栈深度优化 [S81938],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81938/
+S81962,基于 NVIDIA Jetson Thor 的机器人视觉解决方案 [S81962],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81962/
+S81974,基于 NVIDIA 全栈技术打造代理式 AI 与物理 AI 的未来基石 [S81974],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81974/
+S81979,基于扩散模型的具身智能：从统一理论到 GPU 加速的机器人策略 Diffusion-Driven Embodied AI: From Unified Theory to GPU-Accelerated Robot Policies [S81979],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81979/
+S81619,机器人仿真实战：从资产到真机部署的全流程讲解 [S81619],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81619/
+S81846,洞察 2026 中国 AI 市场 — AI 智能体和物理 AI 浪潮下的创业风口 [S81846],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81846/
+S81712,複雑ドキュメント向けソブリンAI：日本の先端事例から学ぶ [S81712],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81712/
+S81577,通过触觉 AI 解锁高自由度灵巧操作 [S81577],Talks or Panels,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81577/
+S81674,"AI Agents, Robotics, and Digital Twins: The Full Stack of Self-Driving Labs and Biomanufacturing [S81674]",Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81674/
+S82011,AI Grid in Action: Killer Applications for Distributed Inferencing That Telcos Can Monetize [S82011],Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82011/
+S81810,AI Research Breakthroughs from NVIDIA Research (Hosted by Karoly of Two Minute Papers) [S81810],Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81810/
+S81578,Architecting AI Systems That Power Business Growth in Sports [S81578],Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81578/
+S81685,Build Flexible and Secure Power Infrastructure for a Sustainable Future at Scale [S81685],Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81685/
+S81467,Graduate Fellowship Fast Forward Talks [S81467],Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81467/
+S81523,Pioneering Autonomous Science: Toward a Unified Cross-Lab Workflow [S81523],Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81523/
+S81610,"The Agentic Revolution for Specialty Care, Powered by AI for Better Lives and Bottom Lines [S81610]",Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81610/
+S81659,The AI-Native Digital Health Stack: A Developer's Guide to 2026 [S81659],Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81659/
+S81525,The Edge of the Edge: Redefining GPU-Enabled AI Sensor Processing [S81525],Lightning Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81525/
+EX82287,"A Practical Playbook for Making AI Real: Bring Physical and Agentic AI to Life (Presented by SoftServe, Inc.) [EX82287]",Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82287/
+EX82195,AI-Accelerated Design: From Hyperscale Data Centers to Molecular Discovery (Presented by Cadence) [EX82195],Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82195/
+EX82257,"Building AI Factories for High-Assurance, Mission-Critical Environments (Presented by Astris AI) [EX82257]",Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82257/
+EX82138,Control the New Wave of Enterprise AI With Nutanix (Presented by Nutanix) [EX82138],Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82138/
+EX82048,Design an Enterprise-Grade Platform for Generative and Agentic AI at Scale (Presented by EXL Service) [EX82048],Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82048/
+EX81904,Fast-Track Enterprise AI: From Pilot to Production in Weeks (Presented by Voltage Park) [EX81904],Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex81904/
+EX82094,Network Automation Lessons Learned From Launching 20+ Multi-Tenant Clouds and AI Factories (Presented by Netris) [EX82094],Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82094/
+EX82275,Red Hat & NVIDIA: Driving Mainstream Enterprise AI Solutions to Unlock Wide-Scale Adoption of AI (Presented by Red Hat) [EX82275],Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82275/
+EX82240,Why AI Platforms are Reclaiming Their GPU Infrastructure (Presented by Hydra Host) [EX82240],Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82240/
+EX82242,Your Agent is Expensive and Wrong (Let's Fix Both!) (Presented by Databricks) [EX82242],Theater Talk,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82242/
+S81537,Beyond Guardrails: Best Practices Across the Industry for Trustworthy AI [S81537],Fireside Chat,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81537/
+S81702,"Agentic AI with Open Source Models: Architecture, Fine-Tuning, and Deployment Tips [S81702]",Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81702/
+S81689,Build Industrial-Scale Generative Recommenders with GPU-Optimized Retrieval and Training [S81689],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81689/
+S81868,Decoding Quantum Errors With AI [S81868],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81868/
+S81693,Hardware-Efficient and Lossless Video Generation at Scale: Native Sparse Attention and Mixed-Low-Bit Quantization [S81693],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81693/
+S81478,How to Build End‑to‑End Physical AI Systems for Humanoid Robots [S81478],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81478/
+S81666,"Maximize Memory Bandwidth on Modern GPUs: Practical Techniques, Patterns, and Worked Examples [S81666]",Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81666/
+S82033,"Optimize KV Caches for LLM Inference: Dynamo KVBM, FlexKV, LMCache [S82033]",Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82033/
+S81518,Optimize Mixture-Of-Experts for Low-Latency Inference Decode on Blackwell [S81518],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81518/
+S81553,Quick Start to Accelerated Quantum Supercomputing [S81553],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81553/
+S81488,Robot Simulation 101 [S81488],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81488/
+S81762,Supercharge LLM Inference With Dynamo [S81762],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81762/
+S82078,Transform Your Organization With End-to-End AIOps [S82078],Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82078/
+S81704,"Voice-Native Agents: Rearchitecting Conversational AI with Open, Low-Latency Speech Models [S81704]",Tutorial,https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81704/

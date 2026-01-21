@@ -181,16 +181,9 @@ cython_debug/
 .cursorindexingignore
 
 secrets.toml
-output/
-test/
-static/
-configs/
-archive/
-
+docs/
 # *.csv
 *.DS_Store
 # *.json
-
-*/browseruse_agent_data
 
 */node_modules

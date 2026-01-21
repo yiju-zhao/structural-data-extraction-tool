@@ -1,0 +1,58 @@
+version: "1.0"
+name: "gtc_2026_session_list"
+description: "Extract all sessions from GTC 2026 session catalog"
+
+source:
+  url: "https://www.nvidia.com/gtc/session-catalog/"
+  options:
+    headless: true
+    wait_for: '[class*="session-card"]'
+    wait_timeout: 10000
+
+output:
+  format: [json, csv]
+  path: "output/gtc-2026-all-sessions"
+
+# Extract session cards from the catalog page
+items:
+  - name: session
+    selector: '[class*="session-card"]'
+    fields:
+      # Session code from class attribute
+      session_code:
+        source: class
+        transform:
+          regex: 'session-code-(\w+)'
+          group: 1
+
+      # Session title from h3 link
+      title:
+        selector: 'h3 a'
+        extract: text
+        transform: strip
+
+      # Session type from badge (excluding In-Person/Virtual)
+      session_type:
+        selector: '[class*="badge-keynote"], [class*="badge-talk"], [class*="badge-workshop"]'
+        extract: text
+        transform: strip
+
+      # URL from h3 link
+      url:
+        selector: 'h3 a'
+        extract: href
+        transform:
+          type: url_join
+          base: "https://www.nvidia.com/gtc/session-catalog/"
+
+schema:
+  fields:
+    - name: session_code
+      required: true
+    - name: title
+      required: true
+    - name: session_type
+    - name: url
+
+# Note: This config may not load all sessions due to infinite scroll.
+# For complete extraction, use extract_session_list.py which handles scrolling.
