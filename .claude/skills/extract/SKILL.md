@@ -6,146 +6,206 @@ allowed-tools: Read, Bash, Write, Glob, Grep, WebFetch
 
 # Structured Data Extraction
 
-Workflow guide for extracting structured web data using YAML configs and custom Python scripts.
+Workflow guide for extracting structured web data using YAML configs and Python scripts.
 
-## Core Principle
+## Core Architecture
 
-**Atomic capability**: `URL → Config → Script → Output`
+```
+┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐
+│   YAML Config   │ ───▶ │  Python Script  │ ───▶ │     Output      │
+│  (WHAT to get)  │      │ (HOW to get it) │      │  (JSON / CSV)   │
+└─────────────────┘      └─────────────────┘      └─────────────────┘
+```
 
-This skill provides:
-- YAML config format for declarative extraction
-- Config examples for common patterns
-- Workflow guidance for the agent
+### Separation of Concerns
 
-Everything else (batch processing, custom logic) is project-specific and built on top of this atomic operation.
+| Component | Purpose | Location |
+|-----------|---------|----------|
+| **YAML Config** | Define WHAT to extract (selectors, fields, patterns, filters) | `configs/*.yaml` |
+| **Python Script** | Execute HOW to extract (fetch pages, parse HTML, save output) | `scripts/*.py` |
+
+**YAML Config** = Declarative rules (what data, which selectors, what transforms)
+**Python Script** = Procedural execution (load config, fetch URL, extract, save)
 
 ---
 
 ## Project Structure
 
-Each extraction project follows this structure:
-
 ```
 projects/<project_name>/
-├── configs/          # YAML configs (declarative extraction rules)
-├── scripts/          # Custom Python scripts (agent writes as needed)
-├── output/           # Extraction results (JSON, CSV)
+├── configs/          # YAML configs (WHAT to extract)
+│   └── session_details.yaml
+├── scripts/          # Python scripts (HOW to execute)
+│   └── batch_extract.py
+├── output/           # Extraction results
+│   └── sessions.csv
 └── docs/             # Project notes (optional)
 ```
 
-**Simple rule**: configs/ = YAML, scripts/ = Python, output/ = results, docs/ = notes
+---
+
+## YAML Config: Define WHAT to Extract
+
+Config files declare extraction rules without any execution logic.
+
+### Basic Structure
+
+```yaml
+version: "1.0"
+name: "my_extraction"
+description: "What this config extracts"
+
+source:
+  url: "https://example.com/page"
+  options:
+    headless: true
+    wait_for: "body"
+
+output:
+  format: [json, csv]
+  path: "output/results"
+
+# Standard extraction rules (for simple cases)
+items:
+  - name: product
+    selector: "div.product"
+    fields:
+      title:
+        selector: "h2"
+        extract: text
+      price:
+        selector: ".price"
+        extract: text
+      url:
+        selector: "a"
+        extract: href
+
+# Custom extraction rules (for complex cases)
+custom:
+  selectors:
+    speakers:
+      html: "span.p--medium"
+    abstract:
+      container: "div[style*='margin-bottom']"
+      paragraphs: "p"
+      min_length: 50
+    topics:
+      industry_pattern: 'Industry:\s*([^\n]+)'
+  filters:
+    exclude_patterns:
+      - "|"              # Skip speaker paragraphs
+    stop_markers:
+      - "Prerequisite"   # Stop before prerequisites
+      - "Certificate:"   # Stop before certificate info
+      - "Important:"     # Stop before important notices
+  technologies:
+    html_selector:
+      container: "div[style*='padding-bottom']"
+      label: "NVIDIA Technology"
+      value: "span"
+```
+
+### Config Sections
+
+| Section | Purpose |
+|---------|---------|
+| `source` | URL and fetch options |
+| `output` | Output format and path |
+| `items` | Standard CSS selector extraction |
+| `custom` | Complex extraction rules (selectors, filters, patterns) |
+| `schema` | Field validation rules |
+
+---
+
+## Python Script: Execute the Extraction
+
+Scripts read YAML configs and perform the actual extraction.
+
+### Script Responsibilities
+
+1. **Load config** - Read YAML file
+2. **Fetch HTML** - Use Playwright for JS-rendered pages
+3. **Parse & Extract** - Apply selectors and filters from config
+4. **Transform** - Clean data (remove markers, normalize whitespace)
+5. **Save output** - Write JSON/CSV
+
+### Script Template Pattern
+
+```python
+#!/usr/bin/env python3
+"""Extraction script that reads config and executes extraction."""
+
+import yaml
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+
+def load_config(config_path):
+    """Load extraction rules from YAML."""
+    with open(config_path, 'r') as f:
+        return yaml.safe_load(f)
+
+def extract_data(url, browser, config):
+    """Extract data using rules from config."""
+    custom = config.get('custom', {})
+    selectors = custom.get('selectors', {})
+    filters = custom.get('filters', {})
+
+    # Use selectors from config
+    speaker_selector = selectors['speakers']['html']
+    # Apply filters from config
+    stop_markers = filters.get('stop_markers', [])
+    # ... extraction logic
+
+def main():
+    config = load_config('configs/extraction.yaml')
+    # Execute extraction using config rules
+    # Save to config['output']['path']
+
+if __name__ == '__main__':
+    main()
+```
 
 ---
 
 ## Agent Workflow
 
-### Phase 1: Explore
+### Phase 1: Analyze Page
 
-1. **Analyze page structure**
-   - Use `.claude/skills/extract/examples/scripts/analyze_page.py` (replace `URL_HERE`)
-   - Identifies element counts, CSS classes, container patterns
+1. Run `analyze_page.py` to identify page structure
+2. Identify CSS selectors for target data
+3. Note any special patterns (markers to filter, nested structures)
 
-2. **Identify extraction pattern**
-   - Flat list → `simple_list.yaml`
-   - Hierarchical (day→time→session) → `hierarchical.yaml`
-   - Multiple item types → `multi_pattern.yaml`
+### Phase 2: Create YAML Config
 
-3. **Ask user for schema confirmation** ⚠️ REQUIRED
-   - NEVER assume fields
-   - Use AskUserQuestion to confirm exact fields to extract
-   - Example: "What fields? Title only / Title+Type / Title+Type+URL / Other"
+1. Create `configs/<name>.yaml`
+2. Define selectors for each field
+3. Add filters for unwanted content (prerequisites, certificates, etc.)
+4. Add stop markers if content has multiple sections
 
-### Phase 2: Configure
+### Phase 3: Write/Adapt Script
 
-1. **Create project directory**
-   ```bash
-   mkdir -p projects/<name>/{configs,scripts,output,docs}
-   ```
+1. Copy template or adapt existing script
+2. Script reads config and applies rules
+3. Script handles batch processing if needed
 
-2. **Write YAML config** in `projects/<name>/configs/`
-   - Copy from `.claude/skills/extract/examples/configs/`
-   - Customize selectors, fields, transforms
+### Phase 4: Run & Iterate
 
-### Phase 3: Extract
-
-1. **Write extraction script** in `projects/<name>/scripts/`
-   - Copy `.claude/skills/extract/examples/scripts/extract_template.py`
-   - Customize `extract_items()` function
-   - Script should: load config → fetch HTML → extract → save output
-
-2. **Run extraction**
-   ```bash
-   cd projects/<name>
-   ../../.venv/bin/python scripts/extract.py
-   ```
-
-### Phase 4: Iterate
-
-If extraction fails:
-- Copy `.claude/skills/extract/examples/scripts/extract_with_debug.py`
-- Run with `--debug` to see selector matches and sample values
-- Run with `--validate` to count null/missing fields
-- Update config or add custom logic to script
+```bash
+.venv/bin/python scripts/extract.py --config configs/my_config.yaml
+```
 
 ---
 
-## YAML Config Format
+## Config Examples
 
-### Basic Structure
-
+### Simple List Extraction
 See: `.claude/skills/extract/examples/configs/simple_list.yaml`
 
-Every config has:
-- **version**: Config format version
-- **name**: Descriptive name
-- **source**: URL or file + options (headless, wait_for)
-- **output**: Format (json/csv) and file path
-- **items**: Selector patterns and field definitions
-
-### Field Extraction
-
-**Short form**: `"selector::attribute"` (e.g., `"h2.title::text"`, `"a::href"`)
-
-**Full form**: Object with `selector`, `extract` keys
-
-**Extract methods**: `text`, `html`, `href`, `src`, `class`, or any HTML attribute
-
-Note: Example configs may reference `transform` but the basic template doesn't implement it - agent can add transform logic to custom scripts if needed.
-
 ### Hierarchical Data
-
 See: `.claude/skills/extract/examples/configs/hierarchical.yaml`
 
-For nested structures (day → time → sessions):
-- Define **contexts** for parent containers
-- Use **parent** to inherit fields from ancestors
-- Items reference **context** to get inherited fields
-
 ### Multiple Patterns
-
 See: `.claude/skills/extract/examples/configs/multi_pattern.yaml`
-
-For pages with different item types:
-- Define multiple **items** patterns with different selectors
-- Use **schema** to enforce consistent output fields
-- Items get `_type` field to identify which pattern matched
-
----
-
-## When to Use YAML vs Custom Scripts
-
-### Use YAML when:
-- Single-page extraction
-- Standard CSS selectors work
-- Simple field transformations
-
-### Write custom scripts when:
-- Batch processing multiple URLs
-- Complex pagination
-- Custom data transformations
-- Need to combine multiple extractions
-
-**Example**: `projects/gtc-2026/` uses custom batch scripts that build on YAML configs
 
 ---
 
@@ -154,59 +214,37 @@ For pages with different item types:
 ```
 projects/gtc-2026/
 ├── configs/
-│   ├── session_list.yaml         # Extract session IDs from listing
-│   └── session_details.yaml      # Extract details per session
+│   ├── session_details_general.yaml      # Rules for session pages
+│   └── session_details_training.yaml     # Rules for training labs
 ├── scripts/
-│   ├── extract_session_list.py   # Fetch list, save IDs
-│   └── batch_extract.py          # Loop IDs, extract details, combine
+│   ├── batch_extract.py                  # Generic batch extractor
+│   └── batch_extract_training.py         # Training-specific extractor
 └── output/
-    ├── session_list.json
-    ├── session_details.json
-    └── sessions.csv
+    ├── gtc-2026-talks-detailed.csv
+    └── gtc-2026-training-detailed.csv
 ```
 
-**Workflow**: Agent creates YAML configs → writes batch script → extracts all sessions
+**Config defines**: selectors, filters (skip `|` paragraphs), stop markers (`Prerequisite`, `Certificate:`)
+**Script executes**: loads config, fetches URLs, applies rules, saves CSV
 
 ---
 
-## Important Rules for Agent
+## Script Templates
 
-### Schema Confirmation (REQUIRED)
+| Template | Use Case |
+|----------|----------|
+| `analyze_page.py` | Explore page structure before writing config |
+| `extract_template.py` | Basic single-page extraction |
+| `extract_with_debug.py` | Debug extraction with verbose output |
 
-**ALWAYS use AskUserQuestion to confirm exact fields before extraction.**
-
-Example:
-```
-User: "Extract conference sessions"
-
-Agent: [Uses AskUserQuestion]
-  "What fields do you want to extract?"
-  - Title only
-  - Title + Type
-  - Title + Type + Speaker + URL
-  - Other (I'll specify)
-```
-
-**Rules**:
-1. NEVER assume fields
-2. NEVER add extra fields "to be helpful"
-3. NEVER invent fields that don't exist on page
-4. ALWAYS confirm schema before creating config
-
-### Script Guidelines
-
-1. **Start with YAML** - use configs for declarative extraction
-2. **Add scripts when needed** - batch processing, custom logic
-3. **Keep scripts project-specific** - no shared scripts across projects
-4. **Use virtual environment** - `.venv/bin/python`
-5. **NEVER modify** `.claude/skills/extract/` - it's read-only
+Location: `.claude/skills/extract/examples/scripts/`
 
 ---
 
-## Reference: Example Files
+## Important Rules
 
-**Config templates**: `.claude/skills/extract/examples/configs/`
-- `simple_list.yaml`, `hierarchical.yaml`, `multi_pattern.yaml`
-
-**Script templates**: `.claude/skills/extract/examples/scripts/`
-- `analyze_page.py`, `extract_template.py`, `extract_with_debug.py`
+1. **Config = WHAT**: All extraction rules go in YAML
+2. **Script = HOW**: Scripts read config, don't hardcode selectors
+3. **Confirm schema**: Ask user for fields before creating config
+4. **Use virtual env**: `.venv/bin/python`
+5. **Don't modify skill**: `.claude/skills/extract/` is read-only
