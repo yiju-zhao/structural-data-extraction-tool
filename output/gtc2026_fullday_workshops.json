@@ -1,0 +1,327 @@
+{
+  "event": "NVIDIA GTC 2026",
+  "location": "San Jose, CA",
+  "dates": {
+    "conference": "March 16-19, 2026",
+    "keynote": "March 16, 2026",
+    "workshops": "March 15, 2026"
+  },
+  "session_type": "Full-Day Workshop",
+  "total_workshops": 9,
+  "workshops": [
+    {
+      "session_id": "DLIW82209",
+      "title": "Accelerated Networking for AI Infrastructure",
+      "speakers": [
+        {
+          "name": "Nawar Nawar",
+          "title": null,
+          "company": "NVIDIA"
+        }
+      ],
+      "description": "Bring your own laptop to experience advanced networking in action with this hands-on workshop. You'll learn how to design a resilient Ethernet management network with BGP, VXLAN, EVPN, and MLAG for modern AI clusters. Dive into monitoring and validating InfiniBand communications using performance tests and subnet manager tools. And finally, learn the most unique networking technology for high-speed GPU-to-GPU workloads as you configure NVIDIA NVLink™ with NMX-C. Don't miss this opportunity to gain practical expertise in building and optimizing scalable, high-performance AI infrastructure.",
+      "learning_objectives": [
+        "Configure a multi-tenant Ethernet network using Cumulus Linux NOS.",
+        "Validate, test and operate an E-W InfiniBand fabric for multi-node communication.",
+        "Setup, manage and troubleshoot high performance NVLink fabric, using NMX control services for GB200 and GB300 deployments."
+      ],
+      "prerequisites": [
+        "Basic Linux administration skills, including directory navigation, file management, and text editing with nano or vim are required.",
+        "Intermediate TCP/IP networking experience is expected, with familiarity in L2/L3 protocols, IP networking concepts, and proficiency using tools such as iperf, wireshark, and the command line."
+      ],
+      "industry": "All Industries",
+      "topic": "AI Networking, 5G/6G",
+      "technical_level": null,
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": null,
+      "format": "In-Person",
+      "certificate": true
+    },
+    {
+      "session_id": "DLIW82267",
+      "title": "Adding New Knowledge to LLMs",
+      "speakers": [
+        {
+          "name": "John Jahanipour",
+          "title": "Senior Solutions Architect",
+          "company": "NVIDIA"
+        }
+      ],
+      "description": "In today's AI landscape, even powerful Large Language Models (LLMs) face limitations when confronted with specialized business knowledge, technical domains, or cultural contexts absent from their training data. While retrieval-augmented generation can mitigate some gaps, true domain mastery requires deeper model adaptation. This comprehensive workshop equips developers with hands-on skills to transform open-source LLMs into domain-specialized AI assets. Through five interconnected modules, you'll master the complete lifecycle of model customization. By workshop completion, you'll possess the complete technical skillset to develop, deploy, and operate sovereign AI systems tailored to your specific requirements - from data preparation to production scaling. Bring your laptop; we'll provide the GPUs.",
+      "learning_objectives": null,
+      "key_takeaways": [
+        "Build custom evaluation benchmarks using NeMo Evaluator to identify model limitations and track engineering progress. Learn metrics that matter for your specific use case.",
+        "Implement state-of-the-art data cleaning pipelines with NeMo Curator to assemble high-quality domain-specific datasets that address your business or cultural requirements.",
+        "Master multiple adaptation techniques including in-context learning, Parameter-Efficient Fine-Tuning (PEFT), Continued Pre-Training (CPT), Supervised Fine-Tuning (SFT), and Reinforcement Learning from Human Feedback (RLHF).",
+        "Apply distillation, quantization, and pruning techniques with NeMo Model Optimizer and TensorRT-LLM to dramatically reduce inference costs without sacrificing performance.",
+        "Learn to deploy, monitor, and scale your custom models within Kubernetes environments using NVIDIA Inference Microservices (NIMs)."
+      ],
+      "prerequisites": [
+        "Intermediate Python programming skills.",
+        "Previous work with LLM-based applications and understanding of prompt engineering principles.",
+        "Experience with data processing pipelines and text preprocessing techniques.",
+        "Understanding of fine-tuning, training/validation splits, and basic ML metrics.",
+        "Basic knowledge of GPU acceleration for ML workloads (CUDA experience helpful but not required).",
+        "Familiarity with containerization and basic Kubernetes concepts (Optional but helpful)."
+      ],
+      "industry": "All Industries",
+      "topic": "Large Language Models (LLMs)",
+      "technical_level": "Technical - Advanced",
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": "NeMo",
+      "format": "In-Person",
+      "certificate": true
+    },
+    {
+      "session_id": "DLIW82269",
+      "title": "Building AI Agents with Multimodal Models",
+      "speakers": [
+        {
+          "name": "Mark Moyou",
+          "title": "Sr. Data Scientist",
+          "company": "NVIDIA"
+        }
+      ],
+      "description": "Just like how humans have multiple senses to perceive the world around them, computers have a variety of sensors to help perceive the human world. In the health industry, computed tomography (CT) scans provide a 3D representation used to detect potentially dangerous abnormalities. In the robotics industry, lidars are used to help robots see depth and navigate the complex topology around them. In this course, learners will develop neural network based multimodal models that can understand many different data types by exploring different fusion techniques.",
+      "learning_objectives": null,
+      "key_takeaways": [
+        "Different data types and how to make them neural network ready.",
+        "Model fusion, and the differences between early, late, and intermediate fusion",
+        "Structure loss and how to avoid it",
+        "The difference between modality and agent orchestration",
+        "Applications of NVIDIA AI Blueprints for Visual AI Agents with VSS"
+      ],
+      "prerequisites": [
+        "Basic understanding of Python (including classes, objects, and decorators)",
+        "Basic understanding of Neural Networks such image convolution and sequential models (covered in Fundamentals of Deep Learning)"
+      ],
+      "industry": "All Industries",
+      "topic": "Image / Video Detection & Recognition",
+      "technical_level": "Technical - Beginner",
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": "NVIDIA NIM",
+      "format": "In-Person",
+      "certificate": true
+    },
+    {
+      "session_id": "DLIW82270",
+      "title": "Building LLM Applications With Prompt Engineering",
+      "speakers": [
+        {
+          "name": "Matt Linder",
+          "title": "Sr. Solutions Architect",
+          "company": "NVIDIA"
+        }
+      ],
+      "description": "With the incredible capabilities of large language models (LLMs), enterprises are eager to integrate them into their products and internal applications for a wide variety of use cases, including (but not limited to) text generation, large-scale document analysis, and chatbot assistants. The fastest way to begin leveraging LLMs for diverse tasks is by using modern prompt engineering techniques. These techniques are also foundational for more advanced LLM-based methods such as Retrieval-Augmented Generation (RAG) and Parameter-Efficient Fine-Tuning (PEFT). In this workshop, learners will work with an NVIDIA language model NIM, powered by the open-source Llama-3.1 large language model, alongside the popular LangChain library. The workshop will provide a foundational skill set for building a range of LLM-based applications using prompt engineering.",
+      "learning_objectives": null,
+      "key_takeaways": [
+        "Understand how to apply iterative prompt engineering best practices to create LLM-based applications for various language-related tasks",
+        "Be proficient in using LangChain to organize and compose LLM workflows.",
+        "Write application code to harness LLMs for generative tasks, document analysis, chatbot applications, and more."
+      ],
+      "prerequisites": [
+        "Familiarity with basic programming fundamentals such as functions and variables."
+      ],
+      "industry": "All Industries",
+      "topic": "AI Inference",
+      "technical_level": "Technical - Beginner",
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": "NVIDIA NIM",
+      "format": "In-Person",
+      "certificate": true
+    },
+    {
+      "session_id": "DLIW82268",
+      "title": "Building Observable and Scalable Multi-Agent Workflows for Asset Lifecycle Management",
+      "speakers": [
+        {
+          "name": "Vineeth Kalluru",
+          "title": "Sr. Solutions Architect",
+          "company": "NVIDIA"
+        },
+        {
+          "name": "Viraj Modak",
+          "title": "AI Solutions Architect",
+          "company": "NVIDIA"
+        }
+      ],
+      "description": "Learn to develop multi-agent workflows tailored for Asset Lifecycle Management use cases within industrial process applications. You'll be introduced to the NVIDIA open-source NeMo Agent Toolkit (NAT) and its key features, enabling the creation of a comprehensive and customizable reference solution for this use case. You'll also be guided in effectively utilizing other components of NVIDIA AI stack, including NVIDIA Inference Microservices (NIM), cloud endpoints, and NVIDIA Tesseract time series foundational models. These components are used to design agents capable of executing frequently performed tasks such as data querying and analysis, Forecasting, Remaining useful life prediction, and Anomaly detection. Furthermore, you will gain insight into NAT's marquee features, such as workflow observability and sizing, prompt optimization, and third-party connections.",
+      "learning_objectives": null,
+      "key_takeaways": [
+        "Develop multi-agent workflows from scratch using NAT with the popular NASA Turbofan engine time series dataset.",
+        "Understand the internals of mulit-agent solutions through NAT framework features such as agent configurations, tool definitions and eval harness",
+        "Enhance the capabilities of the solution such as modifying existing tools definitions, adding new tools, and prompt engineering.",
+        "Improve the solution's functionality, focusing on modifying existing tool definitions, creating new tools, and refining prompts through engineering.",
+        "Leverage observability and monitoring features to gain fine-grained visibility into the end-to-end workflow to identify latency bottlenecks and accuracy issues."
+      ],
+      "prerequisites": [
+        "Basic familiarity with Python."
+      ],
+      "industry": "Manufacturing",
+      "topic": "Video Analytics",
+      "technical_level": "Technical - Intermediate",
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": "NeMo",
+      "format": "In-Person",
+      "certificate": true
+    },
+    {
+      "session_id": "DLIW82274",
+      "title": "Deploying and Optimizing AI Inference at Scale",
+      "speakers": [
+        {
+          "name": "Anshul Jindal",
+          "title": "Sr. Solutions Architect",
+          "company": "NVIDIA"
+        },
+        {
+          "name": "Mohak Chadha",
+          "title": "Solutions Architect",
+          "company": "NVIDIA"
+        },
+        {
+          "name": "Severine Habert",
+          "title": "Solutions Architect",
+          "company": "NVIDIA"
+        }
+      ],
+      "description": "As foundation models move toward deeper test-time computation, inference becomes the dominant scaling constraint. Latency, throughput, and cost are governed by a small set of forces: autoregressive decoding, KV-cache growth, memory bandwidth, and scheduling under contention. This workshop frames large-scale inference through these emerging laws of inference, starting from first principles and building toward real systems. Learners begin with monolithic and gateway-based vLLM deployments on Kubernetes to establish baseline behavior, then transition to NVIDIA Dynamo to operate aggregated and disaggregated inference architectures using built-in KV-aware routing and scheduling. A core emphasis is observability: attendees will deploy a full stack (Prometheus, Grafana, Loki, Tempo) to monitor metrics, capture structured logs, and perform distributed tracing. The outcome is a principled understanding of where inference time and money go - and how architectural choices bend those curves in production.",
+      "learning_objectives": null,
+      "key_takeaways": [
+        "Reason about LLM inference from first principles, including prefill vs. decode, KV-cache scaling, and memory–compute trade-offs.",
+        "Deploy vLLM-based inference systems on Kubernetes, starting from monolithic serving.",
+        "Use NVIDIA Dynamo for aggregated and disaggregated inference with KV-aware routing and scheduling.",
+        "Expose inference services and track token-level usage for monitoring and cost management.",
+        "Deploy Prometheus, Grafana, Loki, and Tempo to observe inference behavior across requests, tokens, and system components."
+      ],
+      "prerequisites": [
+        "Command-line proficiency.",
+        "Experience working with configuration files (e.g., YAML, JSON).",
+        "Familiarity with containers and container-based workflows (e.g., Docker) and some basic knowledge of Kubernetes.",
+        "Basic understanding of large language model (LLM) inference concepts.",
+        "Familiarity with distributed computing concepts, such as data or model parallelism."
+      ],
+      "industry": "All Industries",
+      "topic": "ModelOps",
+      "technical_level": "Technical - Advanced",
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": "Dynamo",
+      "format": "In-Person",
+      "certificate": true
+    },
+    {
+      "session_id": "DLIW82265",
+      "title": "Fundamentals of GPU-Accelerated Workflows with CUDA Python",
+      "speakers": [
+        {
+          "name": "Bryce Lelbach",
+          "title": "Principal Architect",
+          "company": "NVIDIA"
+        },
+        {
+          "name": "Katrina Riehl",
+          "title": "Principal Technical Product Manager",
+          "company": "NVIDIA"
+        }
+      ],
+      "description": "This course delivers a hands-on introduction to GPU-accelerated computing in Python, empowering developers to build fast, scalable applications using NVIDIA's CUDA ecosystem. Through guided notebooks, participants master CuPy for array acceleration, cuDF for GPU DataFrames, and the cuda-python API to write custom kernels—all without leaving Python. Real-world exercises in data science, machine learning, and scientific computing emphasize performance, interoperability, and end-to-end efficiency. Learners progress from drop-in speedups to fully integrated GPU pipelines, mastering data movement, asynchronous execution, and profiling with Nsight tools. By the end, attendees can transform CPU-bound Python code into production-grade GPU solutions, bridge prototyping to deployment, and apply best practices for performance and reproducibility in modern accelerated computing.",
+      "learning_objectives": null,
+      "key_takeaways": [
+        "Build end-to-end GPU-accelerated applications using CUDA Python and interoperable libraries",
+        "Write, compile, and launch custom CUDA kernels directly in Python",
+        "Accelerate numerical and analytical workloads with CuPy and cuDF as drop-in replacements for NumPy and Pandas",
+        "Integrate GPU operations seamlessly into data science, ML, and HPC pipelines",
+        "Ensure reproducibility, performance, and scalability using Nsight profiling and best-practice design patterns"
+      ],
+      "prerequisites": [
+        "Basic Python competency including familiarity with variable types, loops, conditional statements, functions, and array manipulations.",
+        "NumPy competency including the use of ndarrays and ufuncs.",
+        "No previous knowledge of CUDA programming is assumed."
+      ],
+      "industry": "HPC / Scientific Computing",
+      "topic": "Programming Languages / Compilers",
+      "technical_level": "Technical - Beginner",
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": "CUDA",
+      "format": "In-Person",
+      "certificate": true
+    },
+    {
+      "session_id": "DLIW82273",
+      "title": "How to Simulate, Train, Validate, and Deploy an End-to-End Robotics Workflow with NVIDIA Isaac",
+      "speakers": [
+        {
+          "name": "Maycon da Silva Carvalho",
+          "title": "Sr. Solutions Architect",
+          "company": "NVIDIA"
+        },
+        {
+          "name": "Kartik Sachdev",
+          "title": "Solutions Architect",
+          "company": "NVIDIA"
+        },
+        {
+          "name": "Lior Ben Horin",
+          "title": "Sr. Developer Relations Manager - Physical AI Ecosystem",
+          "company": "NVIDIA"
+        }
+      ],
+      "description": "In this full-day workshop, we'll guide you through an end-to-end robotic workflow—from simulation-based training to real-world robot deployment. You'll simulate the robot in NVIDIA Isaac Sim™, train the policies in Isaac Lab, validate the trained skills through software-in-the-loop testing, and deploy them to physical robots. Through practical exercises, you'll gain end-to-end experience in the techniques that bridge the sim-to-real gap: synthetic data generation, policy training and refinement, hardware testing on edge devices, and real-robot deployment. This workshop demonstrates how simulation accelerates robot learning and reduces the time and cost of bringing AI-powered automation to production environments.",
+      "learning_objectives": null,
+      "key_takeaways": [
+        "Train robot policies and behaviors using simulation-based workflows",
+        "Validate trained policies through software-in-the-loop (SIL) and hardware-in-the-loop (HIL) testing methodologies",
+        "Apply sim-to-real techniques to bridge the gap between simulation validation and physical robot performance",
+        "Deploy trained models to physical robots and execute real-world tasks",
+        "Debug and optimize policies on real-world robots"
+      ],
+      "prerequisites": [
+        "Intermediate experience with Python, including working with packages, virtual environments, and basic scripting.",
+        "Familiarity with 3D content concepts such as meshes, materials, transforms, and scene hierarchies from tools like Blender, Maya, or similar DCC applications.",
+        "Understand command-line usage for running scripts and managing project files. Understand basics of world foundation models.",
+        "Have familiarity with robotics or simulation workflows (for example, using simulation tools or working with physics-enabled assets)."
+      ],
+      "industry": "Retail / Consumer Packaged Goods",
+      "topic": "Robotics Simulation",
+      "technical_level": "Technical - Advanced",
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": "Isaac",
+      "format": "In-Person",
+      "certificate": true
+    },
+    {
+      "session_id": "DLIW82272",
+      "title": "OpenUSD Crash Course: Build 3D Data Pipelines for Physical AI",
+      "speakers": [
+        {
+          "name": "Daniel Roizman",
+          "title": "CEO",
+          "company": "UME.Studio"
+        }
+      ],
+      "description": "Discover how OpenUSD principles and Python scripting can build scalable 3D data pipelines for manufacturing, robotics, and physical AI applications. Throughout this full-day workshop, you'll learn composition arc techniques, asset hierarchy design, and performance optimization strategies essential for production pipelines. Develop practical skills in automating 3D asset workflows, managing complex scene data, and preparing simulation environments for physical AI training. This workshop directly prepares you for the NVIDIA-Certified Professional: OpenUSD Development exam.",
+      "learning_objectives": null,
+      "key_takeaways": [
+        "Apply USD Python for programmatic scene creation and asset management",
+        "Compose complex USD scenes using references, payloads, variant sets, and LIVERPS strength ordering",
+        "Structure asset hierarchies and layer stacks to support production-scale pipelines",
+        "Apply data exchange principles for extracting, transforming, and validating USD data",
+        "Optimize scene performance through instancing and modular design for large-scale simulations"
+      ],
+      "prerequisites": [
+        "Intermediate Python experience, including packages, virtual environments, and scripting fundamentals.",
+        "Familiarity with 3D modeling concepts: meshes, materials, transforms, scene hierarchies, and asset organization.",
+        "Understanding of data pipeline concepts and file-based workflows.",
+        "Basic knowledge of composition and layering concepts in content creation tools."
+      ],
+      "industry": "All Industries",
+      "topic": "Industrial Digitalization / Digital Twin",
+      "technical_level": "Technical - Intermediate",
+      "intended_audience": "Developer / Engineer",
+      "nvidia_technology": "Omniverse",
+      "format": "In-Person",
+      "certificate": true
+    }
+  ]
+}
