@@ -152,7 +152,7 @@
   {
     "name": "Wistron & Wiwynn",
     "description": "Wistron, a global leader in technology and communication solutions, drives innovation across industries with advanced design and manufacturing expertise. Its subsidiary, Wiwynn, specializes in cloud IT infrastructure and AI-driven solutions, empowering hyperscale data centers worldwide. Together, we deliver cutting-edge technologies that accelerate digital transformation and sustainable growth.",
-    "company_url": "",
+    "company_url": "https://www.wistron.com/en",
     "tier": "Diamond"
   },
   {
@@ -302,7 +302,7 @@
   {
     "name": "Agile Robots SE",
     "description": "Agile Robots is a leading provider of next-generation automation solutions. By combining artificial intelligence and robotics, the company makes industries smarter, more flexible, and more efficient. Founded in Munich in 2018 by renowned robotics researchers from the German Aerospace Center (DLR), Agile Robots has experienced rapid global growth. Today, more than 2,500 highly skilled robotics and AI enthusiasts are employed in Germany, China, India and the United States.",
-    "company_url": "",
+    "company_url": "https://www.agile-robots.com/de/",
     "tier": "Gold"
   },
   {
@@ -362,7 +362,7 @@
   {
     "name": "Global AI",
     "description": "Global AI is a U.S.-based sovereign AI infrastructure company that designs, builds, and operates cutting-edge, high-performance AI infrastructure. As the world’s first sovereign AI hyperscaler, it delivers dedicated, single-tenant, air-gapped solutions to nations and enterprises. Global AI defines sovereign AI as the ability to build, operate, and secure AI within one’s own jurisdiction, free from external control and powered by trusted technology.",
-    "company_url": "",
+    "company_url": "https://www.globalai.com/",
     "tier": "Gold"
   },
   {
@@ -404,7 +404,7 @@
   {
     "name": "Lightwheel",
     "description": "Lightwheel is a global leader in synthetic data and Embodied AI Solutions. By combining generative AI with simulation, Lightwheel creates physically accurate and highly generalizable datasets that accelerate the deployment of embodied AI and world models. Lightwheel offers a suite of products including SimReady Assets & Scenes, the Data Pyramid, and the Enterprise Evaluation Platform, delivering end-to-end Embodied AI solutions.",
-    "company_url": "",
+    "company_url": "https://www.lightwheel.ai/",
     "tier": "Gold"
   },
   {
@@ -458,7 +458,7 @@
   {
     "name": "Simplismart",
     "description": "Simplismart is a cloud-agnostic and model-agnostic MLOps platform designed to help you train, monitor, and deploy GenAI workflows with unmatched performance, scalability, and efficiency. With the fastest inference deployments in the industry, it streamlines workflows and offers end-to-end control, enabling enterprise-grade solutions in just a few clicks.",
-    "company_url": "",
+    "company_url": "https://www.simplismart.ai/",
     "tier": "Gold"
   },
   {
@@ -506,7 +506,7 @@
   {
     "name": "ASROCK RACK INC.",
     "description": "ASRock Rack Inc., founded in 2013 in Taipei, Taiwan, is a leading server company renowned for its comprehensive portfolio of server products tailored for a diverse range of applications, from small businesses to large-scale workloads.",
-    "company_url": "",
+    "company_url": "https://www.asrockrack.com/",
     "tier": "Silver"
   },
   {
@@ -518,7 +518,7 @@
   {
     "name": "Astris AI, A Lockheed Martin Company",
     "description": "Lockheed Martin, in its work with the U.S. Department of Defense (DoD), faced an immense challenge: meeting the strictest security, governance, and transparency requirements while delivering advanced AI capabilities. Lockheed Martin’s AI Center (LAIC) developed the AI Factory—a secure, scalable, and modular AI platform designed to deliver state-of-the-art AI solutions with full traceability, governance, and security.",
-    "company_url": "",
+    "company_url": "https://astrisai.com/",
     "tier": "Silver"
   },
   {
@@ -530,7 +530,7 @@
   {
     "name": "Centific",
     "description": "Centific is a global digital solutions company accelerating enterprise adoption of Foundational AI and Vision AI. As an elite NVIDIA partner, we power LLMs and VLMs with high-quality data, human-in-the-loop validation, and domain-specific AI integration. From smart retail to public safety, our platforms like VerityAI and the AI Data Foundry help enterprises scale responsibly with trusted, efficient, and ethical AI.",
-    "company_url": "",
+    "company_url": "https://www.centific.com/",
     "tier": "Silver"
   },
   {
@@ -554,7 +554,7 @@
   {
     "name": "Compal Electronics, Inc",
     "description": "A Global Fortune 500 company with $35 Billion Revenue. One of the largest Server manufacture in the world. Compal Servers provides high-performance, reliable, and scalable server solutions for businesses of all sizes.",
-    "company_url": "",
+    "company_url": "https://www.compalserver.com/",
     "tier": "Silver"
   },
   {
@@ -572,13 +572,13 @@
   {
     "name": "DDC Solutions (a member of Daikin group)",
     "description": "DDC Solutions, a member of the Daikin Group, offers the industry’s most versatile data center cooling platform. Our next-generation approach to containment creates an optimized environment for every rack, achieving exceptional PUEs and supporting seamless operation of the latest NVIDIA GPUs.",
-    "company_url": "",
+    "company_url": "https://www.ddcsolutions.com/",
     "tier": "Silver"
   },
   {
     "name": "Dream",
     "description": "Dream is an AI company providing cyber resilience for nations and critical infrastructure, using a suite of proprietary AI models designed to think like both a defender and an attacker. By fusing advanced posture management with AI predictive detection, Dream created a robust data ecosystem that not only anticipates but actively eliminates threats before they materialize.",
-    "company_url": "",
+    "company_url": "https://dreamgroup.com/",
     "tier": "Silver"
   },
   {
@@ -596,7 +596,7 @@
   {
     "name": "EDOM Technology Co., Ltd.",
     "description": "More Than Distribution — EDOM is Your Best Solutions Partner. Since 1996, Taipei-based EDOM Technology has been Asia’s leading distribution and solutions provider. From IoT, automotive, and robotics to data centers and industrial applications, EDOM connects vendors, customers, and partners through deep technical expertise, reliable logistics, and comprehensive solution services.",
-    "company_url": "",
+    "company_url": "https://www.edom.com/",
     "tier": "Silver"
   },
   {
@@ -614,7 +614,7 @@
   {
     "name": "EXL",
     "description": "EXL (NASDAQ: EXLS) is a leading data analytics and digital operations company. Using a data and AI-led approach, we help clients reinvent business models, improve outcomes, and drive growth. Leveraging data, AI, and deep industry expertise, EXL transforms operations across industries like insurance, healthcare, banking, media, and retail. Founded in 1999, EXL is headquartered in New York with over 65,000 employees worldwide. Learn more at www.exlservice.com.",
-    "company_url": "",
+    "company_url": "https://www.exlservice.com/",
     "tier": "Silver"
   },
   {
@@ -638,7 +638,7 @@
   {
     "name": "Hydra Host",
     "description": "Hydra Host is a global provider of bare metal GPU infrastructure and an NVIDIA Cloud Partner. We help organizations build sovereign AI by offering flexible GPU rentals that eliminate cloud lock-in, optimize performance, and unlock predictable costs. Hydra’s model makes high-performance compute accessible, scalable, and independent from hyperscalers.",
-    "company_url": "",
+    "company_url": "https://hydrahost.com/",
     "tier": "Silver"
   },
   {
@@ -656,7 +656,7 @@
   {
     "name": "Intelliflex",
     "description": "Intelliflex delivers advanced modular data center solutions engineered for AI and high-performance computing. Our flagship OctoPod platform combines scalability, efficiency, and rapid deployment to accelerate the rollout of next-gen AI infrastructure. By uniting engineering, manufacturing, and construction expertise, Intelliflex empowers organizations to unlock faster innovation and maximize return on investment.",
-    "company_url": "",
+    "company_url": "https://www.intelliflex.com/",
     "tier": "Silver"
   },
   {
@@ -668,7 +668,7 @@
   {
     "name": "Lablup Inc.",
     "description": "Lablup makes AI accessible offering Backend.AI, the first NVIDIA DGX-Ready Software in APAC as a MLOps platform. It provides top-class efficiency and speed using patented fractional GPU scaling for all-size AI workloads including GenAI and LLMs to all industries like telco, finance, healthcare, etc.",
-    "company_url": "",
+    "company_url": "https://lablup.com/",
     "tier": "Silver"
   },
   {
@@ -680,31 +680,31 @@
   {
     "name": "L&T Technology Services",
     "description": "L&T Technology Services (LTTS) is a global leader in AI, Digital, and ER&D Consulting Services. A listed subsidiary of Larsen & Toubro (L&T), we offer design, development, testing, and sustenance services across products and processes in Mobility, Sustainability and Tech segments. Our customer base includes 69 Fortune 500 companies and 57 top ER&D companies across industrial products, medical devices, transportation, telecom, hi-tech, and process industries.",
-    "company_url": "",
+    "company_url": "https://www.lnttechnology.com/",
     "tier": "Silver"
   },
   {
     "name": "Marvik",
     "description": "Marvik is a hands-on AI consulting firm built for the now. We design and deploy AI solutions that scale with your business and keep you competitive in industries where speed and impact matter most. With more than 200 projects delivered and a team of senior AI specialists, we bring expertise in computer vision, agents and LLMs, predictive analytics, robotics and gen AI. Backed by leading technology partners, we help organizations move from idea to production, fast, safe, and at scale.",
-    "company_url": "",
+    "company_url": "https://marvik.ai/",
     "tier": "Silver"
   },
   {
     "name": "MEGMEET",
     "description": "Megmeet is a leading turnkey solution provider specializing in power solutions for data centers and networking, e-mobility and EV infrastructure, industrial automation and drives, healthcare, green energy, consumer and lifestyle electronics applications.\nMEGMEET's global footprint includes R&D centers in China, Germany, Sweden, and The United States; Manufacturing centers in Thailand, India, The United States and China; and regional offices throughout North America, Europe and Asia.",
-    "company_url": "",
+    "company_url": "https://www.megmeet.com/",
     "tier": "Silver"
   },
   {
     "name": "MiTAC Computing Technology Corporation",
     "description": "MiTAC Computing delivers comprehensive, energy-efficient solutions – from servers and racks to fully integrated clusters – with expertise in AI, HPC, cloud, and edge computing. We offer agile, customized platforms ensuring optimal performance and scalability. Leveraging the latest in AI and liquid cooling, MiTAC Computing stands out with innovative, efficient, and reliable technology, providing integrated hardware and software solutions — empowering businesses to meet future challenges.",
-    "company_url": "",
+    "company_url": "https://www.mitaccomputing.com/",
     "tier": "Silver"
   },
   {
     "name": "Netris",
     "description": "Netris is the leading Network Automation, Abstraction, and Multi-Tenancy (NAAM) Platform purpose-built for GPU Clouds and Enterprise AI Factories. It provides the essential foundation for transforming GPUs from idle capital expense into sustainable revenue. By automating complex multi-fabric networks across Ethernet, InfiniBand, NVLink, DPUs, Virtual, and Edge, Netris enables operators to launch AI clouds in weeks instead of years and ensure secure, compliant multi-tenancy.",
-    "company_url": "",
+    "company_url": "https://www.netris.ai/",
     "tier": "Silver"
   },
   {
@@ -722,7 +722,7 @@
   {
     "name": "nVent",
     "description": "nVent is a global leader in electrical connection and protection solutions,  nVent specializes in complete liquid cooling architecture design, offering solutions that encompass the entire cooling circuit from the Coolant Distribution Unit (CDU) Technology Cooling System (TCS) to the server, AC&DC Power distribution. High Density Liquid Cooled Services ensuring lower total cost of ownership and ease of installation. We Do Cool Stuff",
-    "company_url": "",
+    "company_url": "https://www.nvent.com/",
     "tier": "Silver"
   },
   {
@@ -746,7 +746,7 @@
   {
     "name": "Sanmina Corporation",
     "description": "",
-    "company_url": "",
+    "company_url": "https://www.sanmina.com/",
     "tier": "Silver"
   },
   {
@@ -782,7 +782,7 @@
   {
     "name": "TrendAI",
     "description": "TrendAI™, a business unit of Trend Micro and global AI security leader, makes the world safer for digital information exchange across enterprises, governments, and organizations. Powered by security expertise and innovation, TrendAI™ leverages artificial intelligence to protect over 500,000 enterprises and millions of individuals across AI, cloud, networks, endpoints, and devices. AI Fearlessly. TrendMicro.com",
-    "company_url": "",
+    "company_url": "https://trendai.cloud/",
     "tier": "Silver"
   },
   {
@@ -800,7 +800,7 @@
   {
     "name": "ZutaCore®",
     "description": "ZutaCore® is a leader in waterless, direct liquid cooling solutions for AI and high-performance computing (HPC) workloads. Powered by our two-phase HyperCool® technology, we remove heat directly at the source - eliminating water usage, cutting energy consumption by up to 82%, and enabling higher compute density. Our closed-loop systems deliver sustainable, reliable, and cost-efficient cooling for next-generation workloads.",
-    "company_url": "",
+    "company_url": "https://zutacore.com/",
     "tier": "Silver"
   },
   {
@@ -812,7 +812,7 @@
   {
     "name": "Pellera Technologies",
     "description": "Pellera empowers businesses to achieve \ngreater efficiency, adaptability, and growth for today and tomorrow. \n\nPellera reshapes what’s possible with IT, offering \nadvanced solutions in digital infrastructure, cloud, cybersecurity, \nand AI. Pellera doesn’t just deliver technology—we partner with you to \nbuild tailored strategies designed to simplify complexities, unlock \nopportunities, and drive transformational outcomes.",
-    "company_url": "",
+    "company_url": "https://www.pelleratech.com/",
     "tier": "A La Carte"
   },
   {
@@ -830,37 +830,37 @@
   {
     "name": "AAEON",
     "description": "Established in 1992, AAEON is a major player of industrial and embedded computing solutions, focusing on innovation for Industry 4.0, AI hardware, and IoT. AAEON develops hardware and intelligent automated services for global OEM/ODMs and system integrators, offering customized end-to-end services from product concept and development to volume manufacturing, after-sales support, and continuous advancement of industry standards and processes.",
-    "company_url": "",
+    "company_url": "https://www.aaeon.com/en/",
     "tier": "Exhibitor"
   },
   {
     "name": "Abridge",
     "description": "Abridge was founded in 2018 to power deeper understanding in healthcare. The enterprise-grade AI platform transforms medical conversations into clinically useful and billable documentation at the point of care, reducing administrative burden and clinician burnout while improving patient experience. With deep EHR integration, support for 28+ languages, and 50+ specialties, Abridge is implemented across a wide range of care settings, including outpatient, emergency department, and inpatient.",
-    "company_url": "",
+    "company_url": "https://www.abridge.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Accelsius",
     "description": "Accelsius enables sustainable, high-performance computing through two-phase, direct-to-chip liquid cooling. Our NeuCool™ platform delivers unmatched heat removal with non-conductive fluid, reducing energy use and protecting IT assets. We support hyperscalers, OEMs, and colos aiming to maximize density and uptime—especially for AI. NeuCool ensures superior heat removal and chip-level thermal uniformity for next-gen GPUs.",
-    "company_url": "",
+    "company_url": "https://accelsius.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Adaption",
     "description": "Adaption builds enterprise-grade AI systems designed to adapt as real-world conditions change. While most models rely on static training and costly retraining cycles, Adaption enables intelligence that continuously evolves through interaction with live data and environments. The result is efficient, scalable AI that operates across domains, languages, and operational constraints, built for deployment, reliability, and impact at production scale.",
-    "company_url": "",
+    "company_url": "https://adaptionlabs.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "ADLINK Technology, Inc.",
     "description": "ADLINK Technology Inc. is a global leader in edge AI computing, designing advanced hardware and software for embedded and intelligent systems. Its COTS portfolio—including computer-on-modules, industrial motherboards, and edge AI platforms—is built for industrial reliability and long lifecycle support. Over 1,600 customers worldwide trust ADLINK to power mission-critical applications from healthcare to autonomous systems.",
-    "company_url": "",
+    "company_url": "https://www.adlinktech.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Aetina Corporation",
     "description": "Aetina is a leading provider of Edge AI solutions, offering Arm and x86-based AI computing systems, platforms, and software tools. Its integrated solutions leverage NVIDIA Jetson SoMs, GPUs, and AI development suites to enable efficient, scalable AI deployments across verticals, accelerating edge intelligence with ecosystem-driven innovation.",
-    "company_url": "",
+    "company_url": "https://www.aetina.com/",
     "tier": "Exhibitor"
   },
   {
@@ -878,49 +878,49 @@
   {
     "name": "AIC Inc.",
     "description": "AIC is a global leader in designing and manufacturing high-performance enterprise servers and next-generation AI storage solutions. With 30 years of expertise, AIC is recognized for its high-density storage servers, mainstream servers, storage server barebones, and advanced AI storage offerings. Headquartered in Taiwan, AIC operates worldwide with offices across the United States, Asia, and Europe, and remains committed to driving innovation across diverse industries. Visit: www.aicipc.com",
-    "company_url": "",
+    "company_url": "https://www.aicipc.com/en/",
     "tier": "Exhibitor"
   },
   {
     "name": "AI Pub by Ten: Making Every GPU Count",
     "description": "Founded in 2020 in S. Korea, Ten develops AI Pub, a platform that optimizes AI infrastructure, enabling operators to allocate GPU resources efficiently, fairly, and dynamically for developers and researchers while maximizing ROI on high-cost GPUs. Ten also offers RA:X, an automated benchmarking tool to configure servers more cost-effectively and for higher performance. Both solutions are widely adopted in S. Korea by major corporations, educational institutions, and government agencies.",
-    "company_url": "",
+    "company_url": "https://tensor-fusion.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "AI-RAN Alliance",
     "description": "The AI-RAN Alliance is a collaborative consortium focused on enabling the evolution and advancement of AI integration into RAN. Established in 2024, the Alliance strives to promote innovation, establish best practices, and drive the development of AI technologies that enhance the performance, efficiency, and flexibility of RAN systems used in telecommunications. For more information, visit: https://ai-ran.org/",
-    "company_url": "",
+    "company_url": "https://ai-ran.org/",
     "tier": "Exhibitor"
   },
   {
     "name": "Alembic Technologies Inc.",
     "description": "Alembic is a next-generation Causal AI platform that provides enterprises with unprecedented intelligence around the effects of their actions. Initially focused on how marketers connect advertising spend to revenue, Alembic’s ambition is to provide Causal inference analysis across the enterprise. Its proprietary Causal AI and graph neural-network architecture enable deterministic attribution, revenue forecasting, and insight generation across brand, performance, and omnichannel budgets.",
-    "company_url": "",
+    "company_url": "https://alembic.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Aligned Data Systems",
     "description": "Aligned Data Centers is a leading provider of sustainable, ultra-efficient, and adaptive data center infrastructure built to scale AI innovation. Backed by 50+ patents in award-winning cooling technology and rapid energy and land enablement, we support the world’s most demanding AI, HPC, and cloud workloads. Aligned is committed to local communities, transforming industrial sites into technology hubs that create jobs and develop skilled workforces.",
-    "company_url": "",
+    "company_url": "https://aligneddc.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Altos Computing Inc.",
     "description": "Altos Computing Inc., a subsidiary of Acer Inc., was founded in 2017 to shape the future of intelligent computing. Powered by agile R&D and a strong partner ecosystem, Altos delivers end-to-end solutions across AI servers, workstations, thin clients, displays, networking, and storage. With a focus on AI, HPC, and modern infrastructure, Altos helps organizations accelerate digital transformation. Altos is listed on the Taipei Exchange Emerging Stock Market.",
-    "company_url": "",
+    "company_url": "https://www.altoscomputing.com/en-US",
     "tier": "Exhibitor"
   },
   {
     "name": "AMAX",
     "description": "AMAX is a leading global provider of advanced computing solutions for AI, HPC, edge, and data center applications. With decades of engineering expertise, AMAX specializes in designing, building, and deploying solutions that deliver superior performance, reliability, and efficiency—helping customers overcome complex challenges in AI technology implementation.",
-    "company_url": "",
+    "company_url": "https://www.amax.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Amphenol",
     "description": "Amphenol Communications Solutions (ACS), a division of Amphenol Corporation, is a world leader in interconnect solutions for Communications, Mobile, RF, Optics, and Commercial electronics markets.",
-    "company_url": "",
+    "company_url": "https://www.amphenol.com/",
     "tier": "Exhibitor"
   },
   {
@@ -938,13 +938,13 @@
   {
     "name": "APPRO Photoelectron Inc.",
     "description": "APPRO is dedicated in image processing technology and has own algorithm to do customize the image quality to meet the real needs of customers. For the AI and Deep Learning applications, APPRO can offer a “good eyes” to help customers to do analysis.",
-    "company_url": "",
+    "company_url": "https://www.appropho.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Arango",
     "description": "Arango solves the data infrastructure nightmare of building GenAI apps that get in the way of delivering ROI and business value. The Arango GenAI Data Platform enables developers to build enterprise-grade GenAI applications, eliminating the complexity and costs of integrating fragmented tools and technologies, within a single integrated environment. At its core is a massively scalable multi-model database, combining graph, vector, document, key-value, and search data.",
-    "company_url": "",
+    "company_url": "https://arango.ai/",
     "tier": "Exhibitor"
   },
   {
@@ -956,61 +956,61 @@
   {
     "name": "Arrcus",
     "description": "A leading provider of networking software solutions that empower businesses to achieve unparalleled scalability, performance, and reliability. Arrcus' disaggregated solutions deliver innovative, agile, and cost-effective networking, allowing enterprises to break free from rigid, monolithic systems.",
-    "company_url": "",
+    "company_url": "https://arrcus.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "AVerMedia Technologies, Inc.",
     "description": "A leading global provider of application-ready Physical AI turnkey solutions and recognized for its expertise in video and audio technologies, AVerMedia offers customized, fully integrated hardware and software solutions to accelerate AI deployments across industries such as smart cities, robotics, and industrial automation. As an NVIDIA Elite Partner, AVerMedia is dedicated to delivering cutting-edge AI inference solutions that enable businesses to scale AI effectively and reliably at the edge.",
-    "company_url": "",
+    "company_url": "https://www.avermedia.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Aviz Networks",
     "description": "Aviz partners with NVIDIA to deliver the ultimate AI networking stack optimized for Networks for AI and AI for Networks. From Spectrum-X fabrics with multi-tenant orchestration and GPU-aware telemetry, to SONiC on NVIDIA Spectrum switches, DPU-accelerated Service Nodes, and GPU-powered Network Copilot™, we pair NVIDIA’s world-class hardware with Aviz AI-native software for scalable, efficient, and intelligent AI operations.",
-    "company_url": "",
+    "company_url": "https://aviznetworks.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Axiomtek Co., Ltd.",
     "description": "Founded in 1990, Axiomtek is a leading designer and manufacturer of industrial computers and embedded solutions. Its broad portfolio includes embedded boards, SOMs, edge AI, fanless and industrial systems, network appliances, medical PCs, gateways, transportation solutions, and digital signage. Through integrated embedded computing services, Axiomtek delivers reliable board- to system-level solutions across edge AI, automation, transportation, retail, healthcare, energy, and more.",
-    "company_url": "",
+    "company_url": "https://www.axiomtek.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Basler",
     "description": "Basler AG is an international leader and experienced expert in computer vision. The company offers a broad coordinated portfolio of vision hardware and software. In addition, it enables customers to solve their vision application issues by developing customer-specific products or solutions. Founded in 1988, the Basler Group employs around 850 people at its headquarters in Ahrensburg, Germany, as well as other sales and development locations throughout Europe, Asia, and North America.",
-    "company_url": "",
+    "company_url": "https://www.baslerweb.com/en-us/",
     "tier": "Exhibitor"
   },
   {
     "name": "Beamr",
     "description": "Beamr (Nasdaq: BMR), a leader in high-performance video workflows powered by AI, is trusted by top media companies like Netflix and Paramount. Beamr’s proprietary Content-Adaptive Bitrate technology (CABR), a winner of the Emmy® Award for Technology and Engineering reduces video file size by 30%—50% without compromising visual quality—addressing demand for efficient video workflows across high-growth markets such as media and entertainment, user-generated content, and autonomous vehicles.",
-    "company_url": "",
+    "company_url": "https://beamr.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Bechtel",
     "description": "Bechtel is a trusted engineering, construction and project management partner to industry and government. Differentiated by the quality of our people and our relentless drive to deliver the most successful outcomes, we align our capabilities to our customers’ objectives to create a lasting positive impact. Since 1898, we have helped customers complete more than 25,000 projects that have created jobs, grown economies, and made the world a safer, cleaner place.",
-    "company_url": "",
+    "company_url": "https://www.bechtel.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Beehe Electric(Taicang) Co., Ltd.",
     "description": "Beehe Electric Co.,Ltd  was founded in 2006, The headquarter is located in Taicang City, Jiangsu Province, which is known as one of the top 100 industrial counties in China. Beehe dedicated to the research and development, design and manufacturing of industrial thermal control systems, with strong design, process control, production and service abilities. Beehe is the only supplier recommended by Intel list that can provide reliable one-stop data center liquid cooling solutions.",
-    "company_url": "",
+    "company_url": "http://www.beehe.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Bitdeer AI",
     "description": "Bitdeer AI, an NVIDIA Cloud Partner in Singapore, delivers an integrated AI platform spanning AI Data Center infrastructure and a unified AI Cloud. The platform combines GPU Compute, AI Studio, Database Management Systems, a Model Library, and an AI Agent Platform, offering secure, scalable, and high-performance AI capabilities. We help organizations reduce deployment complexity, optimize cost and performance, and accelerate the transition from experimentation to production-ready AI.",
-    "company_url": "",
+    "company_url": "https://www.bitdeer.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "BizLink Technology, Inc.",
     "description": "",
-    "company_url": "",
+    "company_url": "https://www.bizlinktech.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1022,7 +1022,7 @@
   {
     "name": "Bulk Infrastructure",
     "description": "Bulk Infrastructure delivers AI-ready digital infrastructure from the Nordics. Located in cooler climates with access to renewable power, our data center campuses are ideally positioned for large-scale AI, combining lower-carbon operations with direct fiber connectivity to the US, UK and Europe. With secured grid capacity, the ability to scale to gigawatt-scale campuses and next-generation deployments already live, we enable Hyperscalers and NeoClouds to deploy quickly and grow with confidence.",
-    "company_url": "",
+    "company_url": "https://bulkinfrastructure.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1034,25 +1034,25 @@
   {
     "name": "Carahsoft Technology Corp.",
     "description": "Carahsoft Technology Corp. is The Trusted Government IT Solutions Provider®, supporting Public Sector organizations across Federal, State and Local Government agencies and Education and Healthcare markets.",
-    "company_url": "",
+    "company_url": "https://www.carahsoft.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Chai Discovery",
     "description": "Chai Discovery is an applied research lab working on the future of medicine. We build models that can predict and reprogram interactions between molecules. Our latest generative model, Chai-2, produces functional molecules with drug-like properties in a single-shot. Our ambition is to build a computational design suite for therapeutics, radically accelerating the pace at which new medicines are discovered and developed.",
-    "company_url": "",
+    "company_url": "https://www.chaidiscovery.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Chenbro",
     "description": "Chenbro, founded in 1983, is a pioneer in the design and manufacturing of integrated solutions for rackmount and tower servers, and personal computer chassis. With strong R&D and manufacturing capabilities, Chenbro has been recognized by tier-1 cloud service providers. Chenbro offers three service models: OTS (Off-The-Shelf), JDM/ODM (Joint Design Manufacturing), and OEM Plus, positioning itself as a global leader in Integrated Enclosure Solutions for the Cloud Industry (5G/AI/AIoT).",
-    "company_url": "",
+    "company_url": "https://www.chenbro.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Classiq Technologies Inc.",
     "description": "Classiq is the leading quantum computing software company, providing the technology that makes it practical for enterprises and researchers to access and harness quantum computing. Classiq’s platform transforms high-level functional models into optimized, hardware-ready quantum circuits automatically. This enables teams to develop algorithms faster, optimize them for cost and performance, and make quantum applications usable sooner, without deep hardware expertise.",
-    "company_url": "",
+    "company_url": "https://www.classiq.io/",
     "tier": "Exhibitor"
   },
   {
@@ -1064,7 +1064,7 @@
   {
     "name": "Clockwork.io",
     "description": "Clockwork is the Software-Driven Fabric company maximizing GPU utilization and making AI workloads resilient to failure. Powered by FleetIQ, it delivers sub-microsecond cross-stack observability, workload-aware fault tolerance, and acceleration to achieve up to 2× faster jobs and peak cluster utilization across Ethernet, RoCE, and InfiniBand. Companies including Uber, Wells Fargo, DCAI, WhiteFiber, Nebius, and Nscale rely on Clockwork for their most demanding workloads.",
-    "company_url": "",
+    "company_url": "https://clockwork.io/",
     "tier": "Exhibitor"
   },
   {
@@ -1076,7 +1076,7 @@
   {
     "name": "Cohere Technologies",
     "description": "Cohere is the innovator of Universal Spectrum Multiplier (USM) software for 4G, 5G, and Multi-G. USM significantly improves mobile networks in any FDD and TDD spectrum band. Cohere is the innovator of Pulsone™ Technology which is based on the Zak-OTFS waveform for ISAC and NTN. Pulsone is a trademark of Cohere Technologies. The company is headquartered in San Jose, Calif. (USA). Website: www.cohere-tech.com",
-    "company_url": "",
+    "company_url": "https://cohere.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1088,7 +1088,7 @@
   {
     "name": "Connect Tech",
     "description": "Connect Tech is a global leader in Edge AI compute solutions, including edge devices, carrier boards, thermal solutions, etc. As an NVIDIA Jetson Elite Partner, Connect Tech’s diverse portfolio of products meets the demands of the most challenging Edge AI applications, including industrial automation, public sector, robotics, transportation, and more.",
-    "company_url": "",
+    "company_url": "https://connecttech.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1100,13 +1100,13 @@
   {
     "name": "D3 Embedded",
     "description": "D3 Embedded is a U.S.-based company that develops end-to-end solutions integrating rugged camera and radar sensors, connectivity, custom Jetson boards, and AI to deliver advanced perception for performance-critical applications.",
-    "company_url": "",
+    "company_url": "https://d3embedded.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Dassault Systèmes",
     "description": "Dassault Systèmes promotes human progress in three sectors – Life Sciences/Healthcare, Infrastructure/Cities & Manufacturing Industries. We equip businesses and individuals with virtual universes to envision sustainable innovations that harmonize products, nature, and life.",
-    "company_url": "",
+    "company_url": "https://www.3ds.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1118,25 +1118,25 @@
   {
     "name": "DeepHow",
     "description": "DeepHow is the AI-powered Operational Knowledge Management Platform for frontline work. It captures expert know-how, transforms it into intuitive guidance, delivers it in the flow of work, and uses AI to verify execution. Organizations use DeepHow to train faster, reduce errors, improve safety and quality, and ensure consistent execution across every site, role, and shift. From manufacturing to pharma, retail,  and consumer products, DeepHow turns tribal knowledge into a strategic advantage.",
-    "company_url": "",
+    "company_url": "https://www.deephow.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "DeepRoute.ai",
     "description": "DeepRoute.ai is an AI company dedicated to the research, development and application of smart driving solutions. Being a pioneer in deploying end-to-end model, DeepRotue.ai aims to create AGI in robots through mass-produced vehicles.",
-    "company_url": "",
+    "company_url": "https://www.deeproute.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "Deepwave",
     "description": "Deepwave turns RF data into real-time insights.  Our team includes RF data, AI, and high-performance computing experts who saw the need for providing easier access to RF intelligence.  We launched the company to solve this challenge.  Deepwave provides intelligent RF data and infrastructure.  Our platform makes it easy to extract intelligence from RF signals to inform automated systems and workﬂows.  Deepwave holds US patents for the ARTIFICIAL INTELLIGENCE RADIO TRANSCEIVER (“AIR-T”).",
-    "company_url": "",
+    "company_url": "https://deepwave.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "Delos Data",
     "description": "Delos Data is a startup building next-generation AI Interconnect, focused on optimizing for the GPU and AI workload. The company’s integrated approach across systems, software, and hardware addresses the critical bottlenecks of reliability and scale, unlocking higher utilization and efficiency for hyperscalers, AI enterprises, and next-generation datacenters.",
-    "company_url": "",
+    "company_url": "https://www.delos.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1160,43 +1160,43 @@
   {
     "name": "Dyna Robotics",
     "description": "Dyna Robotics builds embodied AI foundation models for real-world production. Its robots learn complex manipulation tasks like folding, packaging, kitting, and food prep, improving through thousands of policy training cycles monthly. After a $23.5M seed round, Dyna launched DYNA-1, now live commercially. Each deployment serves as both product and data engine, scaling robotic intelligence. Founded by Lindon Gao, York Yang, and former DeepMind scientist Jason Ma, Dyna closed a $120M Series A.",
-    "company_url": "",
+    "company_url": "https://dynarobotics.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "e-con Systems",
     "description": "With over 20 years of expertise in embedded vision, e-con Systems designs, develops, and manufactures OEM and ODM vision platforms . Its portfolio includes cameras, AI vision boxes, and other integrated imaging platforms for applications across robotics, mobility, medical and life sciences, intelligent transport systems (ITS), sports analytics, surveillance, smart agriculture and more. With 2 Million+ cameras shipped, e-con Systems powers over 350 customer products worldwide.",
-    "company_url": "",
+    "company_url": "https://www.e-consystems.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "EIZO Rugged Solutions",
     "description": "EIZO Rugged Solutions designs rugged video graphics and GPGPU solutions featuring NVIDIA GPUs and embedded SoMs for military and aerospace applications. Products include 3U OpenVPX and XMC modules, plus compute & I/O-intensive single-board computers.",
-    "company_url": "",
+    "company_url": "https://www.eizorugged.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Emerald AI",
     "description": "Emerald AI solves the biggest bottleneck to the AI revolution—energy—by transforming AI data centers into flexible grid assets that can unlock hundreds of gigawatts of existing power capacity on today’s grids, drive lower power bills for communities, and make the grid more reliable.",
-    "company_url": "",
+    "company_url": "https://www.emeraldai.co/",
     "tier": "Exhibitor"
   },
   {
     "name": "Encord",
     "description": "Encord is the multimodal data platform for AI. With Encord, AI teams can easily manage, curate, and label petabytes of images, videos, audio, documents, text, and DICOM files on one unified platform while benefiting from AI-assisted speed and accuracy with human-in-the-loop workflows.",
-    "company_url": "",
+    "company_url": "https://encord.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "EverFocus",
     "description": "EverFocus is a global leader in Vision AI, focusing on robotics, smart manufacturing, and in-vehicle systems. We transform video data into actionable insights that improve safety and efficiency. Our solutions serve transportation, industrial automation, and smart environments across fleets, factories, and large facilities, helping clients create scalable, intelligent systems for real-time response and business value.",
-    "company_url": "",
+    "company_url": "https://www.everfocus.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Exxact",
     "description": "Named 2024 & 2025 NVIDIA Partner Network Solution Integration Partner of the Year, Exxact delivers custom turnkey AI and HPC workstations, servers, clusters, and storage that empower clients to advance groundbreaking research and solve complex challenges across industries.",
-    "company_url": "",
+    "company_url": "https://www.exxactcorp.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1208,13 +1208,13 @@
   {
     "name": "Flexcompute",
     "description": "Flexcompute is a physics intelligence company that turns the laws of physics into a shared brain for engineers and agents to design, optimize, and operate real-world systems. With a platform that combines GPU-native multiphysics simulation, geometry-native reasoning, and neural memory that continuously learns from every simulation and test, Flexcompute dramatically reduces the latency to physics insight. Used across aerospace, automotive, energy, and advanced manufacturing.",
-    "company_url": "",
+    "company_url": "https://flexcompute.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Fogsphere",
     "description": "Fogsphere is an edge-first, real-time Safety, Security, and Operational Intelligence platform that turns cameras and sensors into live decision systems. On-prem or hybrid, it analyzes industrial sites at the edge to prevent incidents, enforce compliance, secure perimeters, and flag operational risk-automating responses to unsafe acts, vehicle-pedestrian conflicts, intrusions, and abnormal conditions. Integrates with HSE, security, and OT/IT for auditable mission-critical intelligence.",
-    "company_url": "",
+    "company_url": "https://fogsphere.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1226,7 +1226,7 @@
   {
     "name": "FPT",
     "description": "FPT is a global technology corporation operating in 30 countries and territories. We developed FPT AI Factory, a comprehensive ecosystem for end-to-end AI development. With robust AI infrastructure, intelligent platforms, and ready-to-use applications, FPT empowers enterprises, startups, and the tech community to accelerate their AI journey. Guided by the vision “Build Your Own AI,” we enable fast, efficient innovation while ensuring optimal price-performance and sovereign AI.",
-    "company_url": "",
+    "company_url": "https://fptsoftware.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1238,7 +1238,7 @@
   {
     "name": "Future Tech",
     "description": "Future Tech is a global IT solutions provider, offering an array of technology services to corporate and government sectors trusted by Fortune 500 companies. Future Tech helps organizations optimize their IT environments and transition to next-generation technologies. With deep expertise across aerospace, defense, healthcare, and manufacturing sectors, Future Tech understands how to navigate the complexities of enterprise-scale environments and the demands of multi-stakeholder organizations.",
-    "company_url": "",
+    "company_url": "https://futuretech.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1250,13 +1250,13 @@
   {
     "name": "GE VERNOVA",
     "description": "GE Vernova Inc. (NYSE: GEV) is a purpose-built global energy company that includes Power, Wind, and Electrification segments and is supported by its accelerator businesses. Building on over 130 years of experience tackling the world’s challenges, GE Vernova is uniquely positioned to help lead the energy transition by continuing to electrify the world while simultaneously working to decarbonize it.",
-    "company_url": "",
+    "company_url": "https://www.gevernova.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Graid Technology",
     "description": "Graid Technology is revolutionizing data storage with GPU-based SupremeRAID™, designed for high-performance AI/HPC and NVMe servers. SupremeRAID™ eliminates traditional RAID bottlenecks, maximizing SSD performance while freeing CPU resources.",
-    "company_url": "",
+    "company_url": "https://www.graidtechnology.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1268,49 +1268,49 @@
   {
     "name": "idealworks",
     "description": "",
-    "company_url": "",
+    "company_url": "https://idealworks.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Ignitarium",
     "description": "Ignitarium, a Neurealm company, is a specialized engineering services provider with expertise across semiconductors, AI and wireless-enabled embedded systems. With a worldwide presence spanning India, US, Canada, Germany and Japan, its work powers real-world innovation across Automotive, Industry 4.0, Consumer Electronics, Robotics and Healthcare.",
-    "company_url": "",
+    "company_url": "https://ignitarium.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Infleqtion",
     "description": "Infleqtion is a global leader in neutral-atom quantum technology. We design and build quantum computers, precision sensors, and quantum software for governments, enterprises, and research institutions. Our commercial portfolio includes quantum computers as well as quantum RF systems, quantum clocks, and inertial navigation solutions. Infleqtion is the partner of choice for governments and commercial customers seeking cutting-edge quantum capabilities.",
-    "company_url": "",
+    "company_url": "https://www.infleqtion.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Innoactive GmbH",
     "description": "Innoactive is an Enterprise XR Streaming Platform delivering spatial streaming for NVIDIA Omniverse on demand worldwide. The platform enables enterprises to launch and stream Omniverse Kit-based applications and photorealistic enterprise digital twins to all XR devices, including Apple Vision Pro, iPad in AR, XR headsets, and browsers. Built for global scalability, multi-user collaboration, and enterprise deployment across cloud and on-premise environments.",
-    "company_url": "",
+    "company_url": "https://www.innoactive.de/",
     "tier": "Exhibitor"
   },
   {
     "name": "Instrumental",
     "description": "Instrumental is the leading Manufacturing AI and Data Platform for HPC OEMs and manufacturers, accelerating the build and deployment of trays and servers. Our proprietary Visual AI detects assembly defects that would otherwise fail functional test, enabling immediate fixes and boosting First Pass Yield.   Backed by a powerful data platform and synchronized models, Instrumental equips engineers to resolve issues permanently—delivering faster ramps, reliable products, and higher margins.",
-    "company_url": "",
+    "company_url": "https://instrumental.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "IQM Quantum Computers",
     "description": "IQM Quantum Computers is a global leader in superconducting quantum computers. IQM provides both on-premises full-stack quantum computers and a cloud platform to access its computers. IQM customers include the leading high-performance computing centres, research labs, universities and enterprises which have full access to IQM's software and hardware.  IQM has over 300 employees with offices in Espoo, Madrid, Munich, Paris, Palo Alto, Singapore, Tokyo, Warsaw.  Read more: meetiqm.com",
-    "company_url": "",
+    "company_url": "https://www.meetiqm.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "IQVIA",
     "description": "IQVIA is a leading global provider of clinical research services, commercial insights and healthcare intelligence to the life sciences and healthcare industries. IQVIA’s portfolio of solutions are powered by IQVIA Connected Intelligence™ to deliver actionable insights and services built on high-quality health data, Healthcare-grade AI®, advanced analytics, the latest technologies and extensive domain expertise.",
-    "company_url": "",
+    "company_url": "https://www.iqvia.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Jacobs",
     "description": "At Jacobs, we're challenging today to reinvent tomorrow. With approximately $12 billion in annual revenue and a team of almost 43,000, we provide end-to-end services in advanced manufacturing, cities & places, energy, environmental, life sciences, transportation and water. See how at jacobs.com and connect with us on LinkedIn, Instagram, X and Facebook.",
-    "company_url": "",
+    "company_url": "https://www.jacobs.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1322,49 +1322,49 @@
   {
     "name": "KION",
     "description": "KION is shaping world trade and ensures that its customers’ supply chains reach their full potential: efficient, smart and sustainable with real-time traceability and high speed. Our services include industrial trucks, integrated automation technologies, AI-based solutions, and software as well as services. KION’s supply chain solutions enable the smooth flow of materials and information in our customers’ warehouses, production plants, and distribution centers in over 100 countries worldwide.",
-    "company_url": "",
+    "company_url": "https://www.kiongroup.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Lanner Electronics",
     "description": "Lanner Electronics is a world-leading hardware solution provider for network computing and Edge AI. Working closely with NVIDIA, Lanner delivers purpose-built platforms for AI-accelerated infrastructure, including rugged Edge AI systems based on NVIDIA Jetson Orin and AGX Orin, Robotic AI computers powered by Jetson Thor, MGX servers for AI-RAN, AI-accelerated network appliances for AI-powered NGFW, industrial workstations, and GPU servers enabling private LLM/VLM at the edge.",
-    "company_url": "",
+    "company_url": "https://www.lannerinc.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Latitude.sh",
     "description": "Latitude.sh provides instant compute and connectivity anywhere you need it, fully automated and deployed in seconds. A Megaport company, Latitude.sh combines high-performance GPU and CPU instances with a global private backbone, powering mission-critical AI workloads from LLM-training to inference at scale.",
-    "company_url": "",
+    "company_url": "https://latitude.sh/",
     "tier": "Exhibitor"
   },
   {
     "name": "Lattice Semiconductor",
     "description": "Lattice Semiconductor is the low power programmable leader. We solve customer problems across the network, from the Edge to the Cloud, in the growing Communications, Computing, Industrial, Automotive, and Consumer markets. Our technology, long-standing relationships, and commitment to world-class support let our customers quickly and easily unleash their innovation to create a smart, secure, and connected world.\n\nFor more information about Lattice, please visit www.latticesemi.com.",
-    "company_url": "",
+    "company_url": "https://www.latticesemi.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "LEM Surgical",
     "description": "LEM Surgical, founded 2021 in Switzerland, is transforming orthopedic surgery with its Dynamis robotic surgical system - a novel humanoid platform designed for supervised autonomous hard tissue surgery. Our quintuple aim: achieve better clinical outcomes, improve patient satisfaction, enhance provider satisfaction, achieve financial sustainability and advance health equity. Development & manufacturing are Swiss-made. Dynamis is FDA cleared and in routinely use in a top tier U.S. hospital.",
-    "company_url": "",
+    "company_url": "https://lemsurgical.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Leopard Imaging",
     "description": "Leopard Imaging, headquartered in Silicon Valley and founded in 2008, leads the world in AI vision innovation — advancing computational imaging performance in autonomous machineries, smart drones, AI-enabled IoT, robotics, automation, and medical technology.",
-    "company_url": "",
+    "company_url": "https://leopardimaging.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Lightricks",
     "description": "LTX-2 is an artificial intelligence multimodal foundational model released by Lightricks in October 2025, and made open source in January of 2026. LTX-2 is capable of producing synchronized audio and video, with native 4k resolution at 50fps. The model is optimized and can be run on consumer GPUs",
-    "company_url": "",
+    "company_url": "https://www.lightricks.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Linker Vision",
     "description": "Linker Vision builds a global Physical AI and Digital Twin platform for real-time operations across cities and industrial environments. As a unified AI operating system, it integrates Vision AI, VLMs, and large-scale Digital Twins from simulation and training to deployment. In partnership with NVIDIA, the platform enables scalable AI across smart cities, industrial spaces, telecom, humanoid robotics, autonomous services, and essential services.",
-    "company_url": "",
+    "company_url": "https://www.linkervision.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1376,31 +1376,31 @@
   {
     "name": "Luminary Cloud",
     "description": "Luminary Cloud is the first Physics AI Model Factory. It is the fastest and easiest way to build & deploy Physics AI models to instantly predict physics reality with precision.",
-    "company_url": "",
+    "company_url": "https://www.luminarycloud.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Manycore Tech",
     "description": "Manycore Tech is a global leading provider of spatial intelligence services, committed to accelerating the integration of AI into the physical world. We have established a complete technological flywheel of \"spatial editing tools-spatial data-spatial large models\". Our technologies and products are widely applied in various industries like spatial design, 3D content creation, e-commerce advertising generation, cultural heritage preservation, industrial digital twins, intelligent agent training.",
-    "company_url": "",
+    "company_url": "https://www.manycoretech.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Mark III Systems",
     "description": "Mark III Systems, an NPN Elite Partner and 2025 NVIDIA Software and Higher Ed/Research Partner of the Year, works closely everyday with enterprises, research institutions, and universities in the details to design, deploy, and co-pilot their AI, GenAI, Modern HPC, and Digital Twin Factories/CoEs, with its unique, cross-functional team.",
-    "company_url": "",
+    "company_url": "https://www.markiiisys.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Microway",
     "description": "Microway delivers full stack AI hardware & software deployments spanning GPU clusters, servers, workstations, networking, and storage.  As an NVIDIA DGX SuperPOD Specialization Partner and an NPN Elite Provider of NVIDIA DGX and NVIDIA Data Center GPU solutions, we focus on delivering the most complex, high-performance AI & HPC infrastructure to customers throughout North America. Trust in our expertise! We have been delivering NVIDIA Data Center GPUs for decades--since their inception.",
-    "company_url": "",
+    "company_url": "https://www.microway.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Milestone Systems",
     "description": "Milestone Systems is a world leader in data-driven video technology. We provide a clear picture of how to create a safer and better world. In 2025, Milestone launched Project Hafnia, the world’s largest regulatory-compliant video data library, with a mandate to advance the global development of Vision AI. With a suite of developer tools and partnership with NVIDIA, it enables more accurate and intelligent video solutions for traffic management, public safety, and urban infrastructure.",
-    "company_url": "",
+    "company_url": "https://www.milestonesys.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1418,7 +1418,7 @@
   {
     "name": "Mitsubishi Heavy Industries, Ltd.",
     "description": "Mitsubishi Heavy Industries (MHI) Group is one of the world’s leading industrial groups, spanning energy, smart infrastructure, industrial machinery, aerospace and defense. MHI Group combines cutting-edge technology with deep experience to deliver innovative, integrated solutions that help to realize a carbon neutral world, improve the quality of life and ensure a safer world. For more information, please visit www.mhi.com or follow our insights and stories on spectra.mhi.com.",
-    "company_url": "",
+    "company_url": "https://www.mhi.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1430,7 +1430,7 @@
   {
     "name": "Neousys Technology America, Inc.",
     "description": "Neousys designs and manufactures industrial computers and rugged GPU computing platform featuring exclusive mechanical and thermal designs to enable AI-powered for automation, robotics, autonomy and intelligent video analytics applications.",
-    "company_url": "",
+    "company_url": "https://www.neousys-tech.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1442,37 +1442,37 @@
   {
     "name": "NEXCOM International Co., Ltd.",
     "description": "Founded in 1992, NEXCOM is a global leader in edge computing and industrial IoT solutions. It provides SD-Edge Computing, AIoT, cybersecurity, and more, driving innovation and sustainability to build an AIoT ecosystem for ESG transformation.",
-    "company_url": "",
+    "company_url": "https://www.nexcom.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "ODINN",
     "description": "ODINN delivers a radical new breed of high-performance edge computing that is sovereign, deployable, and beautifully engineered. Our flagship product, OMNIA, is the fastest portable data center on Earth, enabling real-time AI inference at the edge in a fully air-gapped environment. With its integrated interface and proprietary thermal engineering, OMNIA delivers uncompromised data center-grade compute power within a portable, carry-on size chassis that can be deployed in minutes.",
-    "company_url": "",
+    "company_url": "https://odinn.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "One Stop Systems",
     "description": "One Stop Systems, Inc. (Nasdaq: OSS) is a San Diego-based public technology company that designs and manufactures high-performance edge computing products and systems. Its hardware and software bring data center-class performance to harsh land, sea, and air environments. OSS offers ruggedized servers, compute accelerators, flash storage arrays, and storage acceleration software used in autonomous trucking and farming, aircraft, drones, ships, and vehicles.",
-    "company_url": "",
+    "company_url": "https://www.onestopsystems.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Onyx Healthcare, Inc.",
     "description": "Onyx Healthcare, headquartered in Taiwan with offices in the Netherlands and California, is a professional medical IT company and NVIDIA Partner Network (NPN) Partner serving tier-1 medical device companies worldwide. Onyx delivers AI-ready medical PCs, medical displays, mobile carts, infotainment, and smart clinical solutions. Certified to ISO 13485, IEC/UL 60601-1, ISO 14971, and FDA registered, with 7–10 year product longevity and award-winning innovation.",
-    "company_url": "",
+    "company_url": "https://www.onyxhealthcare.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "OpenEvidence, Inc.",
     "description": "OpenEvidence is the fastest-growing and most widely used clinical decision support platform in the United States, and the most widely used medical search engine among U.S. clinicians. Trusted by hundreds of thousands of verified healthcare professionals, it supports high-stakes, point-of-care decisions that are sourced, cited, and grounded in peer-reviewed medical literature. OpenEvidence is actively used daily by over 40% of U.S. physicians across more than 10,000 hospitals and medical centers.",
-    "company_url": "",
+    "company_url": "https://openevidence.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Opentrons",
     "description": "We make robots for scientists. At Opentrons we believe that scientists should be able to focus on their science to accelerate discovery and innovation, and that access to automation is a key tool to facilitate that. Our mission is to democratize access to laboratory robotics. There are currently ten times the number of scientists to lab robots in the world. When we’re done, that ratio will be flipped, and there will be ten times the number of lab robots to scientists.",
-    "company_url": "",
+    "company_url": "https://opentrons.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1484,49 +1484,49 @@
   {
     "name": "PC Partner Technology Pte. Ltd.",
     "description": "PC Partner Technology Pte. Ltd. has a wide range of portfolio includes branded video graphics cards, Mini PCs, motherboards, gaming hardware, and industrial-grade embedded and GPU-accelerated computing solutions. We also provide comprehensive electronic manufacturing services to reputable brands globally.\nIn 2025, PC Partner also joined the NVIDIA Partner Network (NPN) to address business and enterprise computing and visualization needs of today’s ever-changing market with GPU Server offerings.",
-    "company_url": "",
+    "company_url": "https://www.pcpartner.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Personal AI",
     "description": "The Small Language Model Platform Optimized For Edge Deployments.",
-    "company_url": "",
+    "company_url": "https://www.personal.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "Phaidra",
     "description": "Phaidra builds AI agents that autonomously optimize the complex power, cooling and workload management systems in AI factories to maximize tokens per watt.",
-    "company_url": "",
+    "company_url": "https://www.phaidra.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "Phison Technology",
     "description": "Founded in 2000 with the invention of the world’s first single-chip USB flash drive, Phison is a widely trusted partner for leading OEMs and consumer brands.  Our flash storage and memory solutions deliver the performance, reliability, capacity and efficiency need to keep the wheels of innovation turning.  From enterprise data centers and AI-powered ecosystems to mission-critical aerospace, automotive, and consumer devices, Phison continues to redefine what’s next in flash storage and memory.",
-    "company_url": "",
+    "company_url": "https://www.phison.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Premio Inc",
     "description": "Premio Inc. is a global technology leader with over 35 years of expertise in rugged edge computing. Specializing in \"The Machines Behind the AI Scenes,\" Premio designs and manufactures industrial-grade solutions, including rugged edge AI computers, HMI displays, and HPC storage servers. As an \"Inside Outsource\" partner, it provides end-to-end engineering, ISO-certified manufacturing, and lifecycle support to accelerate time-to-market for Industry 4.0, robotics, and smart infrastructure.",
-    "company_url": "",
+    "company_url": "https://premioinc.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "ProHawk AI",
     "description": "ProHawk AI, an NVIDIA Preferred Partner, delivers real-time, pixel-level AI-enabled computer vision that boosts detection, analytics, and operator performance in the toughest conditions (low light, glare, weather, motion). NVIDIA-optimized across Metropolis, DeepStream, and jetson edge to RTX PRO cloud deployments with Dell and HPE ecosystems—turning noisy video into trusted AI-ready data.",
-    "company_url": "",
+    "company_url": "https://www.prohawk.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "Protopia AI",
     "description": "Protopia AI enables secure production AI on shared infrastructure with no performance trade-offs. Protopia integrates directly into existing AI stacks and is compatible with NVIDIA NIM microservices and NVIDIA AI Factories.",
-    "company_url": "",
+    "company_url": "https://protopia.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "PsiQuantum",
     "description": "PsiQuantum was founded in 2016 and is headquartered in Palo Alto, California. The company’s mission is to build and deploy the world’s first useful, fault-tolerant quantum computing systems. PsiQuantum’s photonic approach enables it to leverage high-volume semiconductor manufacturing and existing cryogenic infrastructure to rapidly scale its systems. Learn more at www.psiquantum.com.",
-    "company_url": "",
+    "company_url": "https://psiquantum.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1538,31 +1538,31 @@
   {
     "name": "Qblox",
     "description": "Qblox is accelerating the quantum revolution as the global leader in scalable quantum control. The company provides the essential control and readout engine that empowers researchers and engineers to build high-performance, robust, and scalable systems. Trusted by academic and industrial leaders worldwide, Qblox sets the standard for quantum control and delivers the backbone for a new era of computing. Learn more at www.qblox.com.",
-    "company_url": "",
+    "company_url": "https://qblox.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Qodo",
     "description": "Qodo is a quality-first generative AI coding platform that helps developers write, test, and review code within IDE and Git. Our AI code generation offers automated code reviews, contextual suggestions, and comprehensive test generation.",
-    "company_url": "",
+    "company_url": "https://qodo.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "Qt Group",
     "description": "Qt Group is a global software company offering cross-platform solutions for the entire software development lifecycle, from UI design and development to quality management. Our customers are in more than 70 different industries in over 180 countries. We offer comprehensive quality assurance tools, including Axivion to stop software erosion in CUDA, C, C++, and C# code. Following the industry-leading safety and security standards, Axivion is ideal for creating safety-critical software.",
-    "company_url": "",
+    "company_url": "https://www.qt.io/",
     "tier": "Exhibitor"
   },
   {
     "name": "Quantum Machines",
     "description": "Quantum Machines (QM) is a global leader in quantum control solutions, advancing quantum computing through its hybrid control approach. By tightly integrating quantum and classical operations, QM eliminates friction across hardware and software, enabling faster iteration, real-time adaptation, and scalable system design. Its platform supports any quantum processor, helping researchers and builders accelerate breakthroughs and push what’s possible.",
-    "company_url": "",
+    "company_url": "https://www.quantum-machines.co/",
     "tier": "Exhibitor"
   },
   {
     "name": "Reflection",
     "description": "Frontier open intelligence accessible to all. Our team previously built frontier LLMs at labs like DeepMind, OpenAI, and Anthropic.",
-    "company_url": "",
+    "company_url": "https://reflection.app/",
     "tier": "Exhibitor"
   },
   {
@@ -1574,7 +1574,7 @@
   {
     "name": "Richtech Robotics",
     "description": "Richtech Robotics develops advanced robotic solutions and the data infrastructure that makes its robots more intelligent. Guided by three strategic pillars — Industrial, Commercial, and Data Services — Richtech Robotics aims to deliver dependable automation, consistent service performance, and continuous AI-driven improvement at scale. From factory floors to hospitality venues, our robots work alongside people to enhance efficiency, precision, and quality. Learn more at www.RichtechRobotics.com.",
-    "company_url": "",
+    "company_url": "https://www.richtechrobotics.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1598,19 +1598,19 @@
   {
     "name": "SecEdge Inc.",
     "description": "SecEdge is a digital security leader for securing Physical AI, IoT, and Edge devices by providing AI model access, management and protection in an award winning software platform. SecEdge's standards compliant products support the NVIDIA Jetson Platform. SecEdge products are offered by NVIDIA hardware partners such as Advantech, AAEON, Ubiquitous AI, EDOM, and distribution partners such as Arrow Electronics.",
-    "company_url": "",
+    "company_url": "https://www.secedge.io/",
     "tier": "Exhibitor"
   },
   {
     "name": "Seeed Studio",
     "description": "Seeed Studio is the AI hardware partner for global developers since 2008, providing sensing, networking, and edge AI hardware. Delivering modern AI with real-world data, Seeed accelerates ever-growing AI applications with global ecosystems.",
-    "company_url": "",
+    "company_url": "https://www.seeedstudio.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Sharpa",
     "description": "Founded in 2024, Sharpa is an AI robotics company focused on building ultra-high-performance robots and core components for future general-purpose robotic applications. Sharpa’s mission is to manufacture time by making robots useful.\nSharpa's global headquarters are in Singapore, with a business operation center in Mountain View, USA, and its manufacturing R&D center in Shanghai, China.",
-    "company_url": "",
+    "company_url": "https://www.sharpa.ai/",
     "tier": "Exhibitor"
   },
   {
@@ -1622,7 +1622,7 @@
   {
     "name": "Singtel RE:AI",
     "description": "Build sovereign, scalable AI in ASEAN with RE:AI, Singtel’s sovereign AI cloud. Together with Nxera data centres and **Paragon™ multi-network, multi-cloud orchestration, RE:AI also delivers turnkey AI-as-a-Service solutions to help organisations in different industry verticals move from pilots to production faster. RE:AI, Nxera, and Paragon™ are portfolios of Singtel Digital InfraCo (Singtel Group).",
-    "company_url": "",
+    "company_url": "https://www.singtel.com/business/ai",
     "tier": "Exhibitor"
   },
   {
@@ -1634,7 +1634,7 @@
   {
     "name": "Solomon Technology Corporation",
     "description": "Solomon, a partner of NVIDIA Isaac Manipulator, optimizes robotic motion planning for efficient and safer operations. We enable multi-arm picking with collision avoidance, deliver customizable solutions with rapid AI training, and boost productivity.",
-    "company_url": "",
+    "company_url": "https://www.solomon-tec.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1646,7 +1646,7 @@
   {
     "name": "SqueezeBits",
     "description": "SqueezeBits is a startup specializing in AI model compression and inference optimization. With hardware-aware optimization, we help large LLMs and generative AI run efficiently across diverse computing environments. Our Yetter Inference Engine supports multiple modalities—from text to video generation—and delivers strong efficiency on both the latest GPUs and prior-generation GPUs such as the A100.",
-    "company_url": "",
+    "company_url": "https://squeezebits.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1658,7 +1658,7 @@
   {
     "name": "Switch",
     "description": "Switch, founded in 2000 by CEO Rob Roy, stands at the forefront as the leading data center campus designer, builder and operator. As the AI, cloud and enterprise data center experts, Switch provides the most modular, scalable and sustainable data centers to the most discerning clients. The company offers a comprehensive, future-proof portfolio ranging from highly dense liquid cooled AI to hyperscale cloud and the industry’s highest rated and most-secure enterprise data centers.",
-    "company_url": "",
+    "company_url": "https://www.switch.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1670,19 +1670,19 @@
   {
     "name": "TD Synnex",
     "description": "TD SYNNEX is a leading global IT distributor and solutions aggregator, formed by the merger of Tech Data and Synnex. Headquartered in Florida and California, it operates in 100+ countries, offering technology products, cloud services, and supply chain solutions. With a vast vendor portfolio and advanced services, TD SYNNEX empowers partners to deliver end-to-end technology solutions worldwide.",
-    "company_url": "",
+    "company_url": "https://www.tdsynnex.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Telit",
     "description": "As the largest western provider pioneering IoT innovation, Telit Cinterion delivers award-winning and highly secure IoT solutions, modules and services.",
-    "company_url": "",
+    "company_url": "https://www.telit.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "TELUS",
     "description": "TELUS is a world-leading communications technology company operating in more than 45 countries and generating over $20 billion in annual revenue with more than 20 million customer connections through our advanced suite of broadband services for consumers, businesses and the public sector.",
-    "company_url": "",
+    "company_url": "https://www.telus.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1694,7 +1694,7 @@
   {
     "name": "Teradyne",
     "description": "Teradyne Robotics is a global leader in advanced robotics solutions, dedicated to revolutionizing manufacturing processes through innovation in collaborative and mobile robotic technology. Teradyne Robotics companies, Universal Robots and Mobile Industrial Robots (MiR), empower businesses to enhance operational efficiency by integrating machines with human talent. Our solutions enable companies to optimize manufacturing processes, improve quality, boost productivity, and enhance worker safety.",
-    "company_url": "",
+    "company_url": "https://www.teradyne.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1712,43 +1712,43 @@
   {
     "name": "Trane",
     "description": "Trane® by Trane Technologies helps advanced hyperscale and colocation data centers achieve optimal performance, sustainability and resilience. We collaborate to design, build and optimize thermal management, with a broad portfolio of resource-efficient, scalable cooling solutions. Supported by our world-class global service network, we excel in integrated system optimization, aiding AI-driven data centers in 100+ countries— delivering positive impact for your business, community, and the planet.",
-    "company_url": "",
+    "company_url": "https://www.trane.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Tulip",
     "description": "Tulip, the leader in frontline operations, is helping companies around the world equip their workforce with connected apps– leading to higher quality work, improved efficiency, and end-to-end traceability across operations. With Tulip’s cloud-based platform, those closest to operations can take advantage of composability and edge connectivity to digitally transform processes, guide operators, track production, and gain a real-time, holistic view of operations.",
-    "company_url": "",
+    "company_url": "https://tulip.co/",
     "tier": "Exhibitor"
   },
   {
     "name": "Under Control Robotics | UCR",
     "description": "UCR builds general-purpose robots that take on hazardous and physically-demanding industrial tasks, enabling a safer and more productive world. UCR robots autonomously adapt to varied terrain and payloads up to 50lb using AI-driven whole-body control. UCR’s foundation models enable rapid acquisition of new skills, accelerating time to value for customers. UCR leads in shipping cost-effective industrial humanoids with high-payload capability (50lb) for high-value applications.",
-    "company_url": "",
+    "company_url": "https://www.ucr.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "Unitree Robotics",
     "description": "Unitree Robotics is a global leader in civilian robotics, specializing in high-performance legged/humanoid robots. Recognized at major events like 2022 Winter Olympics & 2024 Spring Festival Gala, its quadruped robots dominate 60-70% of global shipments. Founded in 2016, Unitree holds 180+ patents and serves over 50% countries worldwide.",
-    "company_url": "",
+    "company_url": "https://www.unitree.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Utilidata",
     "description": "Utilidata’s Karman platform provides autonomous power management for AI data centers, enabling operators to run more servers on the same power envelope. By embedding real-time sensing and control directly into power distribution equipment, Karman unlocks stranded capacity, improves reliability, and increases tokens per watt. The Karman platform is built on a custom NVIDIA Jetson Orin Nano, delivering unparalleled visibility and power-flow control in compact devices and constrained spaces.",
-    "company_url": "",
+    "company_url": "https://utilidata.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "VDURA",
     "description": "VDURA is a leader in AI and HPC data storage infrastructure software, delivering high-performance, scalable storage solutions that power the world’s most demanding AI applications.",
-    "company_url": "",
+    "company_url": "https://vdura.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "Vecow",
     "description": "Vecow is a global leader delivering advanced computing platforms purpose-built for high-stakes Edge AI and Robotics applications. As an NVIDIA partner, we provide rugged, fanless solutions that integrate real-time inference, precision time synchronization, and high-speed connectivity for autonomous mobile robots (AMR) and industrial automation. From AI acceleration to industrial reliability, Vecow is your trusted partner for deploying intelligence in the harshest environments.",
-    "company_url": "",
+    "company_url": "https://www.vecow.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1760,19 +1760,19 @@
   {
     "name": "VESSL AI",
     "description": "VESSL AI is the specialized AI Cloud for AI researchers in Physical AI, AI for Science, and Multimodal training, offering private cluster flexibility with serverless agility. We provide AI researchers pre-optimized environments such as CARLA, Isaac Sim, alongside PyTorch, JAX, and more. Our Fluid Computing technology enables seamless multi-node training, mid-workload scaling, and instant 1 to 48 GPU capacity blocking with zero contracts.",
-    "company_url": "",
+    "company_url": "https://vessl.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "Visteon Corporation",
     "description": "Visteon is a global leader in automotive cockpit electronics, delivering digital cockpits, advanced displays, battery management and power electronics for EVs. With strong software and AI capabilities, Visteon partners with automakers worldwide to design and build adaptable, next‑gen solutions that transform passenger, two‑wheeler and commercial vehicles.",
-    "company_url": "",
+    "company_url": "https://www.visteon.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "VITURE",
     "description": "VITURE is a global pioneer in XR glasses, shaping the next-generation gateway to digital content through cutting-edge technology, sleek design, and user-centric innovation. Our lightweight, multimodal AI-powered AR systems enable hand tracking and 6DoF experiences across entertainment, gaming, productivity, and enterprise—unlocking immersive spatial computing anywhere.",
-    "company_url": "",
+    "company_url": "https://www.viture.com/",
     "tier": "Exhibitor"
   },
   {
@@ -1784,25 +1784,25 @@
   {
     "name": "WOLF Advanced Technology",
     "description": "WOLF designs and manufactures rugged high performance computing, AI, and video I/O boards, modules and systems. WOLF solutions operate in harsh aerospace and defense environments using the high-speed processing available from advanced NVIDIA GPUs and APUs and Xilinx FPGAs. Product architectures include VPX, SOSA, XMC, MXM/MXC, and custom designs.",
-    "company_url": "",
+    "company_url": "https://wolfai.com/",
     "tier": "Exhibitor"
   },
   {
     "name": "xpander.ai",
     "description": "Full-stack platform for autonomous agents across any framework, cloud, or model. From Agent Builder workbench to production deployment on any infrastructure provider.",
-    "company_url": "",
+    "company_url": "https://xpander.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "XRlabs LTD",
     "description": "XRlabs is developing a unified surgical intelligence platform that combines extended reality and AI to enhance surgical visualisation and intraoperative decision making. XRlabs is redefining how surgeons plan, train and operate. Its surgical foundation models learn from multimodal operating room data to deliver real time guidance, automation and safer workflows, integrating seamlessly into existing operating rooms and medical devices to make surgical excellence borderless.",
-    "company_url": "",
+    "company_url": "https://xrlabs.ai/",
     "tier": "Exhibitor"
   },
   {
     "name": "YUAN High-Tech Development Co., Ltd",
     "description": "YUAN, founded in 1990, has over 30 years of experience in video and audio technologies. Specializing in image capture, streaming, and analysis, YUAN provides image capture modules for security, industrial automation, healthcare, traffic, and smart education.\n\nWith strong hardware and software R&D capabilities, and as a strategic NVIDIA partner, YUAN delivers AI platforms powered by NVIDIA processors and the NexVDO SDK, enabling fast AI deployment and intelligent decision-making.",
-    "company_url": "",
+    "company_url": "https://www.yuan.com.tw/",
     "tier": "Exhibitor"
   },
   {
@@ -1814,43 +1814,43 @@
   {
     "name": "Aigen Inc.",
     "description": "Global agriculture is hitting a wall: \"superweed\" species are now herbicide-resistant, rendering a $40B chemical market increasingly ineffective. Aigen is disrupting this legacy cycle with solar-powered, AI-driven robotics replacing chemicals with precise mechanical elimination. Beyond weeding, our fleet acts as a distributed edge-sensing network, capturing high-fidelity, real-time crop data at scale. We are building autonomous infrastructure turning fields into a digital platform.",
-    "company_url": "",
+    "company_url": "https://aigen.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "ALLSIDES",
     "description": "ALLSIDES’ mission is to become the foundational provider of 3D data for content creation, AI, and graphics. With fully automated, AI-powered 3D scanning, we are an industry leader in retail and e-commerce, serving Amazon, Adidas, Zalando, and Nike. We are expanding into simulation, physical AI, and gaming, powered by proprietary software built on NVIDIA CUDA and OptiX, and exploring integrations with Omniverse, Cosmic, and Gen3C.",
-    "company_url": "",
+    "company_url": "https://www.allsides.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Aqrose Technology: AI-Powered Solutions for Industrial Inspection Challenges",
     "description": "Aqrose is originated in 2017  focusing on industrial AI, computational imaging and robotic technologies, with global footprints in USA, China, Germany, Tokyo and Korea. We are able to provide AI consulting service, pretrained AI models, AI development platform and turnkey AI vision solutions. With extensive implementation experience, we have delivered 20,000+ complete AI solutions across 200+ factories and trusted by 50+ benchmark customers.",
-    "company_url": "",
+    "company_url": "https://www.aqrose.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "AuraML",
     "description": "AuraSIM is an AI powered generative simulation platform for industrial robotics. It enables rapid creation of realistic digital twins, synthetic data generation, and large scale training and validation of robot perception, manipulation, and autonomy. AuraSIM helps robotics teams reduce deployment risk, accelerate development cycles, and scale real world performance before physical rollout",
-    "company_url": "",
+    "company_url": "https://auraml.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Biofy",
     "description": "Biofy is an AI healthtech company that develops life-saving solutions, starting with Abby, a platform that combines DNA sequencing with AI to detect bacterial infections, their antibiotic resistance, and recommend the best treatment in just 4 hours, while traditional tests take about 5 days.\nBiofy has already developed models for generating synthetic bacterial DNA, aiming to predict future mutations, and is currently creating a new foundational model for the discovery of new antimicrobial drugs.",
-    "company_url": "",
+    "company_url": "https://biofy.io/",
     "tier": "Inception Startup"
   },
   {
     "name": "CAMB.AI",
     "description": "CAMB.AI is building localization infrastructure for the internet, powered by its proprietary MARS TTS and BOLI translation AI models. Having raised $18.5M, the company enables seamless communication across video, audio, and text in 150+ languages. Its real-time, voice and emotion preserving solutions are trusted by brands like NASCAR, the Australian Open, Comcast, and IMAX. CAMB.AI serves industries including entertainment, sports, contact centers, gaming, and publishing.",
-    "company_url": "",
+    "company_url": "https://camb.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "ceramic.ai",
     "description": "Ceramic.ai builds a search infrastructure from the ground up, specially for LLMs and AI Agents. Ceramic’s search helps LLMs reduce hallucinations, increase data freshness and improve overall quality.",
-    "company_url": "",
+    "company_url": "https://ceramic.ai/",
     "tier": "Inception Startup"
   },
   {
@@ -1868,37 +1868,37 @@
   {
     "name": "Factory",
     "description": "",
-    "company_url": "",
+    "company_url": "https://factory.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "FlexAI",
     "description": "You build and deploy AI. We handle infrastructure. FlexAI manages workloads across any cloud and GPU with automatic optimization.",
-    "company_url": "",
+    "company_url": "https://flexai.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Generative Bionics",
     "description": "Generative Bionics combines humanoid robotics, AI,  and distinctive, original design to create innovative Embodied AI solutions for industrial applications. We approach humanoid robots as sophisticated products of computational co-design methods, integrating specific task requirements with comprehensive human cognitive and motor models. This process ensures our humanoids are optimized for precise and natural interactions, reflecting a harmonious balance of aesthetics and functionality.",
-    "company_url": "",
+    "company_url": "https://www.generativebionics.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Genspark",
     "description": "Genspark is the all-in-one AI workspace for 1B+ global knowledge workers. Genspark plugs into 30+ LLMs and orchestrates AI agents to transform business intent into finished deliverables: from board presentations, deep financial models, to full stack web applications, and mobile apps. After achieving $50 million in ARR within five months since product launch, Genspark raised a 275M Series B, becoming one of the fastest growing unicorns in Silicon Valley.",
-    "company_url": "",
+    "company_url": "https://www.genspark.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "Heidi",
     "description": "Heidi is building an AI Care Partner to expand clinical capacity by automating administrative work — documentation, form filling, and task management — so clinicians can focus on patients. Heidi supports more than 2.3 million consults each week in 110 languages from 190 countries. Founded in Melbourne, Australia, Heidi has raised $96.6M USD from global investors including Point72 Private Investments, Blackbird, Headline, Phoenix Court's growth fund - Latitude, Possible Ventures, and Archangel.",
-    "company_url": "",
+    "company_url": "https://heidi.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "Krinwave Technology",
     "description": "Krinwave Technology is a professional imaging company that leads with groundbreaking original technologies and is dedicated to the development of next-generation super-resolution ultrasound.",
-    "company_url": "",
+    "company_url": "https://krinwave.com/",
     "tier": "Inception Startup"
   },
   {
@@ -1910,37 +1910,37 @@
   {
     "name": "Lexlegis.Ai",
     "description": "Lexlegis.ai is a next-generation Legal AI platform built to transform how legal professionals research, analyse documents, and draft with speed and precision. By combining proprietary AI engines, retrieval-augmented intelligence, and workflow automation, it delivers measurable productivity gains for law firms, enterprises, and compliance-driven organisations. Positioned at the forefront of India’s legal-tech evolution, Lexlegis.ai is designed for secure, scalable global expansion.",
-    "company_url": "",
+    "company_url": "https://lexlegis.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "Manus",
     "description": "Manus is an autonomous AI agent that functions as an \"action engine,\" designed to go beyond providing answers to actively executing tasks and automating complex workflows. Developed by Singapore-based Butterfly Effect Technology, Manus operates as a general AI agent capable of independently planning, executing, and delivering results for a wide range of user requests. By bridging the gap between idea and execution, Manus extends human reach, enabling users to turn thoughts into actions.",
-    "company_url": "",
+    "company_url": "https://manus.im/",
     "tier": "Inception Startup"
   },
   {
     "name": "Marketeam.ai",
     "description": "Marketeam.ai is building the first AI-native marketing operating system. Think of it like an IDE for marketing, but proactive. Instead of fragmented tools and dashboards, it runs marketing as a single autonomous system, operating as a fully functional, high-autonomy AI marketing team. It ingests real-time data, tracks competitors & market trends, develops strategy, executes across channels, & continuously optimizes, end to end. 10× your marketing team w/o 10×ing your budget with Marketeam.ai.",
-    "company_url": "",
+    "company_url": "https://marketeam.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "Menlo Research",
     "description": "Menlo Research builds thinking machines that work with and for humanity. We’re building Jan, a general-purpose AI agent with 5M+ users; Asimov, modular robots for heavy-duty work; Menlo Cloud for enabling thinking machines; and Perceptron, intelligent sensors.",
-    "company_url": "",
+    "company_url": "https://menlo.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "MetAI",
     "description": "MetAI is building AI-native, industrial-grade simulation infrastructure for the Physical AI era. MetGen converts 2D blueprints, such as CAD drawings, into high-fidelity, simulation-ready 3D environments in minutes. These digital twins enable AI agents across warehouses and advanced manufacturing—from robotics to layout optimization—to train, test, and iterate before real-world deployment. MetAI provides the data engine enabling real-to-sim-to-real at industrial scale.",
-    "company_url": "",
+    "company_url": "https://metai.co/",
     "tier": "Inception Startup"
   },
   {
     "name": "Mirror Security",
     "description": "Mirror Security, a research-driven AI security company spun from University College Dublin, offers encrypted LLM inference through Fully Homomorphic Encryption (FHE). Enabling AI to process sensitive data without decryption, eliminating the critical \"inference gap\" vulnerability by maintaining cryptographic protection across prompts, AI memory, and responses during LLM computation. Making \"AI Work without seeing\" increases adoption of AI in regulated industry",
-    "company_url": "",
+    "company_url": "https://mirrorsecurity.ai/",
     "tier": "Inception Startup"
   },
   {
@@ -1952,31 +1952,31 @@
   {
     "name": "Plurai",
     "description": "Plurai is a trust and optimization platform for AI Agents, enabling organizations to safely ship, monitor and continuously improve generative AI systems in production. It unifies simulation, evaluation, guardrails, and optimization into a single lifecycle. Powered by synthetic data, realistic scenario simulations, and custom evaluation metrics, Plurai provides end-to-end visibility, protection, and improvement, ensuring GenAI applications are reliable, compliant, and aligned with business goals.",
-    "company_url": "",
+    "company_url": "https://plurai.ai/",
     "tier": "Inception Startup"
   },
   {
     "name": "PYLER",
     "description": "PYLER focuses on safe and trustworthy multi-modal video intelligence. Providing scalable solutions for content moderation and validation. PYLER partners with the world's most trusted brands including Samsung, LG, Kenvue, BYD, and more to enhance brand safety, suitability, and media transparency on the largest video media platform. Consequently, it empowers brands to execute video retrieval and moderation in real time, delivering unprecedented precision and control at scale.",
-    "company_url": "",
+    "company_url": "https://pyler.tech/",
     "tier": "Inception Startup"
   },
   {
     "name": "Rox",
     "description": "Rox builds AI-native Revenue Agents for the Global 2000. Pre-built agents plug directly into your data warehouse and CRM to unify customer data. These agents let sellers can automate research, deal monitoring, outreach, opportunity management, and more. Rox delivers board-level ROI in under 90 days and frees sellers to spend more time with customers and less on admin.",
-    "company_url": "",
+    "company_url": "https://rox.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Spingence Technology",
     "description": "Founded in Taiwan in 2015, Spingence focuses on transforming advanced AI into practical enterprise solutions. Through the Metropolise platform, we enable AI-based defect inspection for precision manufacturing. Leveraging on-premise AI and enterprise LLM deployments, we help organizations build secure and flexible AI Factories. We further apply Omniverse to deliver digital twin applications that bridge physical with virtual simulation, enabling scalable, real-world digital transformation.",
-    "company_url": "",
+    "company_url": "https://spingence.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "SpiralAI",
     "description": "SpiralAI builds LLMs optimized to maximize engagement by enabling AI to act as genuine partners, not just assistants.\nDesigned as an interface layer for characters, robots, and interactive systems, our platform allows IP holders and developers to deploy brand-safe, emotionally engaging partner AIs with control over personality, memory, and ethical alignment.\nOptimized for real-time inference on NVIDIA GPUs, SpiralAI delivers scalable, low-latency partner AI for entertainment and robotics.",
-    "company_url": "",
+    "company_url": "https://spiralai.co/",
     "tier": "Inception Startup"
   },
   {
@@ -2000,43 +2000,43 @@
   {
     "name": "Type One Energy",
     "description": "Type One Energy Group is developing sustainable, affordable fusion power through an optimized stellarator approach. Founded in 2019 and venture-backed in 2023, the company is led by world-class fusion scientists and experienced energy industry leaders. Using advanced manufacturing, computational physics, and high-field superconducting magnets, Type One Energy’s FusionDirect program is pursuing a low-risk, capital-efficient path to a commercial fusion power plant.",
-    "company_url": "",
+    "company_url": "https://typeoneenergy.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Verobotics",
     "description": "Verobotics is redefining building exterior management with a pioneering robotics platform that delivers fully automated cleaning and inspection. In a $40B market full of hazards and inefficiencies, we give building owners a safer, smarter, data-driven way to protect their assets while creating the most comprehensive exterior intelligence layer for the modern city.",
-    "company_url": "",
+    "company_url": "https://verobotics.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Vortex Imaging",
     "description": "Vortex Imaging delivers hospital-grade, quantitative 3D images at the bedside via our proprietary radiation-free probe. Powered by GPU-accelerated, geophysics-inspired algorithms, we transform raw data into definitive diagnostic volumes in real-time. Eliminating CT/MRI wait times and radiation, our tech achieved breakthrough first-in-human results. Vortex empowers clinicians with instant, high-fidelity 3D visualization and diagnostic confidence, democratizing advanced imaging everywhere.",
-    "company_url": "",
+    "company_url": "https://vorteximaging.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Whale",
     "description": "As a global AI company, Whale empowers the world's leading consumer businesses to achieve operational transformation. We integrate intelligence, operations, and customer understanding into a unified platform, turning data into decisive action.\n\nTrusted by over 1,500 enterprises worldwide, Whale process millions of data points daily, driving tangible business outcomes. Headquartered in Singapore, Whale delivers high-impact AI from our hubs across Southeast Asia, the United States, and Europe.",
-    "company_url": "",
+    "company_url": "https://whale.im/",
     "tier": "Inception Startup"
   },
   {
     "name": "WideBot AI",
     "description": "",
-    "company_url": "",
+    "company_url": "https://widebot.io/",
     "tier": "Inception Startup"
   },
   {
     "name": "ZEDEDA",
     "description": "About ZEDEDA\nZEDEDA makes edge computing effortless, open, and intrinsically secure – extending the cloud\nexperience to the edge. ZEDEDA reduces the cost of managing and orchestrating distributed\nedge infrastructure, while increasing visibility, security and control.\nZEDEDA ensures extensibility and flexibility by leveraging a partner ecosystem,\nand EVE-OS, open-source Linux-based edge operating system.",
-    "company_url": "",
+    "company_url": "https://zededa.com/",
     "tier": "Inception Startup"
   },
   {
     "name": "Haptikos",
     "description": "",
-    "company_url": "",
+    "company_url": "https://haptikos.com/",
     "tier": "Other Exhibitors"
   }
 ]
