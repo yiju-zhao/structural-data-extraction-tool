@@ -1,0 +1,807 @@
+{
+  "conference": "FAST '26",
+  "name": "23rd USENIX Conference on File and Storage Technologies",
+  "url": "https://www.usenix.org/conference/fast26/technical-sessions",
+  "extracted_date": "2026-02-03",
+  "program_chairs": [
+    {
+      "name": "André Brinkmann",
+      "affiliation": "Johannes Gutenberg-Universität Mainz"
+    },
+    {
+      "name": "Philip Shilane",
+      "affiliation": "Dell Technologies"
+    }
+  ],
+  "days": [
+    {
+      "date": "Tuesday, February 24",
+      "sessions": [
+        {
+          "time": "7:30 am–9:00 am",
+          "title": "Continental Breakfast",
+          "type": "break"
+        },
+        {
+          "time": "9:00 am–9:15 am",
+          "title": "Opening Remarks and Erik Riedel Best Paper Awards",
+          "type": "ceremony"
+        },
+        {
+          "time": "9:15 am–10:35 am",
+          "title": "Cloud Technologies I",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "Here, There and Everywhere: The Past, the Present and the Future of Local Storage in Cloud",
+              "authors": [
+                {"name": "Leping Yang", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Yanbo Zhou", "affiliation": "Alibaba Cloud"},
+                {"name": "Gong Zeng", "affiliation": "Alibaba Cloud"},
+                {"name": "Li Zhang", "affiliation": "Alibaba Cloud"},
+                {"name": "Saisai Zhang", "affiliation": "Alibaba Cloud"},
+                {"name": "Ruilin Wu", "affiliation": "Alibaba Cloud"},
+                {"name": "Chaoyang Sun", "affiliation": "Alibaba Cloud"},
+                {"name": "Shiyi Luo", "affiliation": "Alibaba Cloud"},
+                {"name": "Wenrui Li", "affiliation": "Alibaba Cloud"},
+                {"name": "Keqiang Niu", "affiliation": "Alibaba Cloud"},
+                {"name": "Xiaolu Zhang", "affiliation": "Alibaba Cloud"},
+                {"name": "Junping Wu", "affiliation": "Alibaba Cloud"},
+                {"name": "Jiaji Zhu", "affiliation": "Alibaba Cloud"},
+                {"name": "Jiesheng Wu", "affiliation": "Alibaba Cloud"},
+                {"name": "Mariusz Barczak", "affiliation": "Solidigm"},
+                {"name": "Wayne Gao", "affiliation": "Solidigm"},
+                {"name": "Ruiming Lu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Erci Xu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Guangtao Xue", "affiliation": "Shanghai Jiao Tong University"}
+              ],
+              "tags": ["Deployed-Systems Paper"]
+            },
+            {
+              "title": "Cost-efficient Archive Cloud Storage with Tape: Design and Deployment",
+              "authors": [
+                {"name": "Qing Wang", "affiliation": "Tsinghua University"},
+                {"name": "Fan Yang", "affiliation": "Huawei Cloud"},
+                {"name": "Qiang Liu", "affiliation": "Huawei Cloud"},
+                {"name": "Geng Xiao", "affiliation": "Huawei Cloud"},
+                {"name": "Yongpeng Chen", "affiliation": "Tsinghua University"},
+                {"name": "Hao Lan", "affiliation": "Tsinghua University"},
+                {"name": "Leiming Chen", "affiliation": "Huawei Cloud"},
+                {"name": "Bangzhu Chen", "affiliation": "Huawei Cloud"},
+                {"name": "Chenrui Liu", "affiliation": "Huawei Cloud"},
+                {"name": "Pingchang Bai", "affiliation": "Huawei Cloud"},
+                {"name": "Bin Huang", "affiliation": "Huawei Cloud"},
+                {"name": "Zigan Luo", "affiliation": "Huawei Cloud"},
+                {"name": "Mingyu Xie", "affiliation": "Huawei Cloud"},
+                {"name": "Yu Wang", "affiliation": "Huawei Cloud"},
+                {"name": "Youyou Lu", "affiliation": "Tsinghua University"},
+                {"name": "Huatao Wu", "affiliation": "Huawei Cloud"},
+                {"name": "Jiwu Shu", "affiliation": "Tsinghua University and Minjiang University"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "Towards Condensed and Efficient Read-Only File System via Sort-Enhanced Compression",
+              "authors": [
+                {"name": "Hao Huang", "affiliation": "Harbin Institute of Technology, Shenzhen"},
+                {"name": "Yifeng Zhang", "affiliation": "Harbin Institute of Technology, Shenzhen"},
+                {"name": "Yanqi Pan", "affiliation": "Harbin Institute of Technology, Shenzhen"},
+                {"name": "Wen Xia", "affiliation": "Harbin Institute of Technology (Shenzhen)"},
+                {"name": "Xiangyu Zou", "affiliation": "Harbin Institute of Technology, Shenzhen"},
+                {"name": "Darong Yang", "affiliation": "Harbin institute of Technology, Shenzhen"},
+                {"name": "Jubin Zhong", "affiliation": "Huawei Technologies Co., Ltd"},
+                {"name": "Hua Liao", "affiliation": "Huawei Technologies Co., Ltd"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "McQueen: Apple's Geo-Distributed Object Store at Exabyte Scale",
+              "authors": [
+                {"name": "Benjamin Baron", "affiliation": "Apple"},
+                {"name": "Aline Bousquet", "affiliation": "Apple"},
+                {"name": "Eric Metens", "affiliation": "Apple"},
+                {"name": "Swapnil Pimpale", "affiliation": "Apple"},
+                {"name": "Marc de Saint Sauveur", "affiliation": "Apple"},
+                {"name": "Varsha Muzumdar", "affiliation": "Apple"},
+                {"name": "Vinay Ari", "affiliation": "Apple"}
+              ],
+              "tags": ["Deployed-Systems Paper"]
+            }
+          ]
+        },
+        {
+          "time": "10:35 am–11:05 am",
+          "title": "Coffee and Tea Break",
+          "type": "break"
+        },
+        {
+          "time": "11:05 am–12:25 pm",
+          "title": "AI and LLMs I",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs",
+              "authors": [
+                {"name": "Xinrui Zheng", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Dongliang Wei", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Jianxiang Gao", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Yixin Song", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Zeyu Mi", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Haibo Chen", "affiliation": "Shanghai JiaoTong University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "CacheSlide: Unlocking Cross Position-Aware KV Cache Reuse for Accelerating LLM Serving",
+              "authors": [
+                {"name": "Yang Liu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Yunfei Gu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Liqiang Zhang", "affiliation": "Inspur (Jinan) Data Technology Co., Ltd"},
+                {"name": "Chentao Wu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Guangtao Xue", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Jie Li", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Minyi Guo", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Junhao Hu", "affiliation": "Peking University"},
+                {"name": "Jie Meng", "affiliation": "Huawei Cloud"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation–Storage Awareness",
+              "authors": [
+                {"name": "Shipeng Hu", "affiliation": "Tsinghua University"},
+                {"name": "Guangyan Zhang", "affiliation": "Tsinghua University"},
+                {"name": "Yuqi Zhou", "affiliation": "China University of Geosciences Beijing"},
+                {"name": "Yaya Wei", "affiliation": "Omni-Channel Operation Center China Telecommunications Corporation"},
+                {"name": "Ziyan Zhong", "affiliation": "Omni-Channel Operation Center China Telecommunications Corporation"},
+                {"name": "Jike Chen", "affiliation": "Tsinghua University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Accelerating Model Loading in LLM Inference by Programmable Page Cache",
+              "authors": [
+                {"name": "Yubo Liu", "affiliation": "Huawei Technologies"},
+                {"name": "Hongbo Li", "affiliation": "Huawei Technologies"},
+                {"name": "Xiaojia Huang", "affiliation": "Huawei Technologies"},
+                {"name": "Yongfeng Wang", "affiliation": "Huawei Technologies"},
+                {"name": "Hanjun Guo", "affiliation": "Huawei Technologies"},
+                {"name": "Hui Chen", "affiliation": "Huawei Technologies"},
+                {"name": "Yuxin Ren", "affiliation": "Huawei Technologies"},
+                {"name": "Ning Jia", "affiliation": "Huawei Technologies"}
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "time": "12:25 pm–2:00 pm",
+          "title": "Lunch (on your own)",
+          "type": "break"
+        },
+        {
+          "time": "2:00 pm–3:40 pm",
+          "title": "Indexing",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "OdinANN: Direct Insert for Consistently Stable Performance in Billion-Scale Graph-Based Vector Search",
+              "authors": [
+                {"name": "Hao Guo", "affiliation": "Tsinghua University"},
+                {"name": "Youyou Lu", "affiliation": "Tsinghua University"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "DMTree: Towards Efficient Tree Indexing on Disaggregated Memory via Compute-side Collaborative Design",
+              "authors": [
+                {"name": "Guoli Wei", "affiliation": "University of Science and Technology of China"},
+                {"name": "Yongkun Li", "affiliation": "University of Science and Technology of China"},
+                {"name": "Haoze Song", "affiliation": "University of Hong Kong"},
+                {"name": "Tao Li", "affiliation": "University of Science and Technology of China"},
+                {"name": "Lulu Yao", "affiliation": "University of Science and Technology of China"},
+                {"name": "Yinlong Xu", "affiliation": "University of Science and Technology of China"},
+                {"name": "Heming Cui", "affiliation": "University of Hong Kong"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "An Efficient Cloud Storage Model with Compacted Metadata Management for Performance Monitoring Timeseries Systems",
+              "authors": [
+                {"name": "Kai Zhang", "affiliation": "The Chinese University of Hong Kong"},
+                {"name": "Tianyu Wang", "affiliation": "Shenzhen University"},
+                {"name": "Zili Shao", "affiliation": "The Chinese University of Hong Kong"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "\"Range as a Key\" is the Key! Fast and Compact Cloud Block Store Index with RASK",
+              "authors": [
+                {"name": "Haoru Zhao", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Mingkai Dong", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Erci Xu", "affiliation": "Shanghai Jiao Tong University and Alibaba Cloud"},
+                {"name": "Zhongyu Wang", "affiliation": "Alibaba Group"},
+                {"name": "Haibo Chen", "affiliation": "Shanghai JiaoTong University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Holistic and Automated Task Scheduling for Distributed LSM-tree-based Storage",
+              "authors": [
+                {"name": "Yuanming Ren", "affiliation": "The Chinese University of Hong Kong"},
+                {"name": "Siyuan Sheng", "affiliation": "The Chinese University of Hong Kong"},
+                {"name": "Zhang Cao", "affiliation": "The Chinese University of Hong Kong"},
+                {"name": "Yongkun Li", "affiliation": "University of Science and Technology of China"},
+                {"name": "Patrick P. C. Lee", "affiliation": "The Chinese University of Hong Kong"}
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "time": "3:40 pm–4:10 pm",
+          "title": "Coffee and Tea Break",
+          "type": "break"
+        },
+        {
+          "time": "4:10 pm–5:10 pm",
+          "title": "Work-in-Progress Reports (WiPs)",
+          "type": "wips",
+          "description": "Short, pithy, and fun, Work-in-Progress reports introduce interesting new or ongoing work."
+        },
+        {
+          "time": "5:30 pm–7:00 pm",
+          "title": "FAST '26 Poster Session and Reception",
+          "type": "poster",
+          "description": "Check out the cool new ideas and the latest preliminary research on display at the Poster Session and Reception. Take part in discussions with your colleagues over food and beverages."
+        }
+      ]
+    },
+    {
+      "date": "Wednesday, February 25",
+      "sessions": [
+        {
+          "time": "8:00 am–9:00 am",
+          "title": "Continental Breakfast",
+          "type": "break"
+        },
+        {
+          "time": "9:00 am–10:00 am",
+          "title": "Keynote Address",
+          "type": "keynote",
+          "papers": [
+            {
+              "title": "Everything You Always Wanted to Know About Storage Analysis (But Were Afraid to Ask)",
+              "authors": [
+                {"name": "Erez Zadok", "affiliation": "Stony Brook University"}
+              ],
+              "abstract": "Storage, often the slowest component of modern systems, has evolved into a complex and challenging field. Over the years, the storage stack has grown deeper, making it difficult to work on storage systems, which are unforgiving of errors. Therefore, understanding their behavior and performance under various conditions is crucial. This talk delves into my 30-year-long journey in characterizing storage and file system performance, highlighting mistakes made along the way, insights gained from benchmarking, and strategies to optimize storage system performance (hint: \"it depends\"). Given the ubiquitous nature of stored data, storage researchers have a diverse range of fields and areas to explore. This talk also weaves my experiences collaborating with researchers in different fields, including Formal Methods, NLP, AI/ML, Cryptography, and Visual Analytics.",
+              "speaker_bio": "Erez Zadok is a Professor of Computer Science at Stony Brook University. He received his PhD degree from Columbia University. He directs the File Systems and Storage Lab (FSL) at the Computer Science Department at Stony Brook University, where he joined as faculty in 2001. His current research interests include file systems and storage, operating systems, performance and benchmarking, energy efficiency, security and privacy, networking, and applied ML. He received two SUNY Chancellor's Awards for Excellence, the NSF CAREER Award, and several industry awards. Zadok's funding exceeds $25M and includes federal, state, and industry awards. Zadok published over 150 refereed journal/article papers and one book. Zadok graduated 14 PhDs and over 170 MS students, and has advised over 45 undergraduates. Zadok's service includes chairing several major conferences (FAST and USENIX ATC) and serving on several steering committees. Zadok is the Editor-in-Chief of ACM Transactions on Storage (TOS). He is a member of the USENIX, ACM SIGOPS, and IEEE Computer Society.",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "time": "10:00 am–10:20 am",
+          "title": "FAST '26 Test of Time Award Presentation",
+          "type": "ceremony"
+        },
+        {
+          "time": "10:20 am–10:50 am",
+          "title": "Coffee and Tea Break",
+          "type": "break"
+        },
+        {
+          "time": "10:50 am–12:30 pm",
+          "title": "AI and LLMs II",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "Preparation Meets Opportunity: Enhancing Data Preprocessing for ML Training With Seneca",
+              "authors": [
+                {"name": "Omkar Desai", "affiliation": "Syracuse University"},
+                {"name": "Ziyang Jiao", "affiliation": "Syracuse University"},
+                {"name": "Shuyi Pei", "affiliation": "Samsung Semiconductor"},
+                {"name": "Janki Bhimani", "affiliation": "Florida International University"},
+                {"name": "Bryan S. Kim", "affiliation": "Syracuse University"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "GPU Checkpoint/Restore Made Fast and Lightweight",
+              "authors": [
+                {"name": "Shaoxun Zeng", "affiliation": "Tsinghua University"},
+                {"name": "Tingxu Ren", "affiliation": "Tsinghua University"},
+                {"name": "Jiwu Shu", "affiliation": "Tsinghua University"},
+                {"name": "Youyou Lu", "affiliation": "Tsinghua University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Fast Cloud Storage for AI Jobs via Grouped I/O API with Transparent Read/Write Optimizations",
+              "authors": [
+                {"name": "Yingyi Hao", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Ting Yao", "affiliation": "Huawei technologies co. ltd"},
+                {"name": "Xingda Wei", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Dingyan Zhang", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Tianle Sun", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Yiwen Zhang", "affiliation": "Huawei technologies co. ltd"},
+                {"name": "Zhiyong Fu", "affiliation": "Huawei technologies co. ltd"},
+                {"name": "Huatao Wu", "affiliation": "Huawei technologies co. ltd"},
+                {"name": "Rong Chen", "affiliation": "Shanghai Jiao Tong University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "AdaCheck: An Adaptive Checkpointing System for Efficient LLM Training with Redundancy Utilization",
+              "authors": [
+                {"name": "Weijie Liu", "affiliation": "National University of Defense Technology"},
+                {"name": "Shengwei Li", "affiliation": "National University of Defense Technology"},
+                {"name": "Zhiquan Lai", "affiliation": "National University of Defense Technology"},
+                {"name": "Keshi Ge", "affiliation": "National University of Defense Technology"},
+                {"name": "Peng Sun", "affiliation": "Shanghai AI Laboratory"},
+                {"name": "Qiaoling Chen", "affiliation": "Nanyang Technological University"},
+                {"name": "Kai Lu", "affiliation": "National University of Defense Technology"},
+                {"name": "Dongsheng Li", "affiliation": "National University of Defense Technology"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Sharpen the Spec, Cut the Code: A Case for Generative File System with SYSSPEC",
+              "authors": [
+                {"name": "Qingyuan Liu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Mo Zou", "affiliation": "Independent Researcher"},
+                {"name": "Hengbin Zhang", "affiliation": "Zhejiang University"},
+                {"name": "Dong Du", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Yubin Xia", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Haibo Chen", "affiliation": "Shanghai JiaoTong University"}
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "time": "12:30 pm–2:00 pm",
+          "title": "Conference Luncheon",
+          "type": "break"
+        },
+        {
+          "time": "2:00 pm–3:40 pm",
+          "title": "SSDs and CXL",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs",
+              "authors": [
+                {"name": "Dongha Yoon", "affiliation": "Virginia Tech"},
+                {"name": "Hansen Idden", "affiliation": "Virginia Tech"},
+                {"name": "Jinshu Liu", "affiliation": "Virginia Tech"},
+                {"name": "Berkay Inceisci", "affiliation": "Virginia Tech"},
+                {"name": "Sam H. Noh", "affiliation": "Virginia Tech"},
+                {"name": "Huaicheng Li", "affiliation": "Virginia Tech"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Xerxes: Extensive Exploration of Scalable Hardware Systems with CXL-Based Simulation Framework",
+              "authors": [
+                {"name": "Yuda An", "affiliation": "Peking University"},
+                {"name": "Shushu Yi", "affiliation": "Peking University"},
+                {"name": "Bo Mao", "affiliation": "Xiamen University"},
+                {"name": "Qiao Li", "affiliation": "Mohamed bin Zayed University of Artificial Intelligence"},
+                {"name": "Mingzhe Zhang", "affiliation": "Institute of Information Engineering, Chinese Academy of Sciences"},
+                {"name": "Diyu Zhou", "affiliation": "Peking University"},
+                {"name": "Ke Zhou", "affiliation": "Huazhong University of Science and Technology (HUST)"},
+                {"name": "Nong Xiao", "affiliation": "Sun Yat-sen University"},
+                {"name": "Guangyu Sun", "affiliation": "Peking University"},
+                {"name": "Yingwei Luo", "affiliation": "Peking University"},
+                {"name": "Jie Zhang", "affiliation": "Peking University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Characterizing and Emulating FDP SSDs with Warp",
+              "authors": [
+                {"name": "Inho Song", "affiliation": "Virginia Tech"},
+                {"name": "Shoaib Asif Qazi", "affiliation": "Virginia Tech"},
+                {"name": "Javier González", "affiliation": "Samsung"},
+                {"name": "Matias Bjørling", "affiliation": "Western Digital"},
+                {"name": "Sam H. Noh", "affiliation": "Virginia Tech"},
+                {"name": "Huaicheng Li", "affiliation": "Virginia Tech"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "ScaleSwap: A Scalable OS Swap System for All-Flash Swap Arrays",
+              "authors": [
+                {"name": "Taehwan Ahn", "affiliation": "Chung-Ang University"},
+                {"name": "Chanhyeong Yu", "affiliation": "Chung-Ang University"},
+                {"name": "Sangjin Lee", "affiliation": "Chung-Ang University"},
+                {"name": "Yongseok Son", "affiliation": "Chung-Ang University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "DPAS: A Prompt, Accurate and Safe I/O Completion Method for SSDs",
+              "authors": [
+                {"name": "Dongjoo Seo", "affiliation": "University of California, Irvine"},
+                {"name": "Jihyeon Jung", "affiliation": "Kookmin University"},
+                {"name": "Yeohwan Yoon", "affiliation": "Kookmin University"},
+                {"name": "Ping-Xiang Chen", "affiliation": "University of California, Irvine"},
+                {"name": "Yongsoo Joo", "affiliation": "Kookmin University"},
+                {"name": "Sung-Soo Lim", "affiliation": "Kookmin University"},
+                {"name": "Nikil Dutt", "affiliation": "University of California, Irvine"}
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "time": "3:40 pm–4:10 pm",
+          "title": "Coffee and Tea Break",
+          "type": "break"
+        },
+        {
+          "time": "4:10 pm–5:30 pm",
+          "title": "Virtualization",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "How Soon is Now? Preloading Images for Virtual Disks with ThinkAhead",
+              "authors": [
+                {"name": "Xinqi Chen", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Yu Zhang", "affiliation": "Alibaba Group"},
+                {"name": "Erci Xu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Changhong Wang", "affiliation": "Alibaba Group"},
+                {"name": "Jifei Yi", "affiliation": "Alibaba Group"},
+                {"name": "Qiuping Wang", "affiliation": "Alibaba Group"},
+                {"name": "Shizhuo Sun", "affiliation": "Alibaba Group"},
+                {"name": "Zhongyu Wang", "affiliation": "Alibaba Group"},
+                {"name": "Haonan Wu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Junping Wu", "affiliation": "Alibaba Group"},
+                {"name": "Hailin Peng", "affiliation": "Alibaba Group"},
+                {"name": "Rong Liu", "affiliation": "Alibaba Group"},
+                {"name": "Yinhu Wang", "affiliation": "Alibaba Group"},
+                {"name": "Jiaji Zhu", "affiliation": "Alibaba Group"},
+                {"name": "Jiesheng Wu", "affiliation": "Alibaba Group"},
+                {"name": "Guangtao Xue", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Patrick P. C. Lee", "affiliation": "The Chinese University of Hong Kong"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "CoFS: A Filesystem for Fast Container Startup Utilizing MPHF",
+              "authors": [
+                {"name": "Li Wang", "affiliation": "KylinSoft"},
+                {"name": "Jinxu Du", "affiliation": "KylinSoft"},
+                {"name": "Yang Yang", "affiliation": "KylinSoft"},
+                {"name": "Qingbo Wu", "affiliation": "KylinSoft"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "RosenBridge: A Framework for Enabling Express I/O Paths Across the Virtualization Boundary",
+              "authors": [
+                {"name": "Shi Qiu", "affiliation": "Xiamen university"},
+                {"name": "Li Wang", "affiliation": "KylinSoft"},
+                {"name": "Jianqin Yan", "affiliation": "Xiamen University"},
+                {"name": "Ruofan Xiong", "affiliation": "Xiamen University"},
+                {"name": "Yingruo Jiang", "affiliation": "Xiamen University"},
+                {"name": "Xin Yao", "affiliation": "Huawei"},
+                {"name": "Renhai Chen", "affiliation": "Huawei"},
+                {"name": "Gong Zhang", "affiliation": "Huawei"},
+                {"name": "Jiwu Shu", "affiliation": "Tsinghua University"},
+                {"name": "Yiming Zhang", "affiliation": "Shanghai Jiao Tong University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "StrataDisk: Trusted Block Storage for TEEs Based on Layered Secure Logging",
+              "authors": [
+                {"name": "Erci Xu", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Xinyi Yu", "affiliation": "Xiamen University"},
+                {"name": "Lujia Yin", "affiliation": "HUST"},
+                {"name": "Xinyuan Luo", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Shaowei Song", "affiliation": "Ant Group"},
+                {"name": "Qingsong Chen", "affiliation": "Ant Group"},
+                {"name": "Shoumeng Yan", "affiliation": "Ant Group"},
+                {"name": "Jiwu Shu", "affiliation": "Tsinghua University"},
+                {"name": "Hongliang Tian", "affiliation": "Ant Group"},
+                {"name": "Yiming Zhang", "affiliation": "Shanghai Jiao Tong University"}
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Thursday, February 26",
+      "sessions": [
+        {
+          "time": "8:00 am–9:00 am",
+          "title": "Continental Breakfast",
+          "type": "break"
+        },
+        {
+          "time": "9:00 am–10:20 am",
+          "title": "Cloud Technologies II",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "SkySync: Accelerating File Synchronization with Collaborative Delta Generation",
+              "authors": [
+                {"name": "Zhihao Zhang", "affiliation": "Xiamen University and Alibaba Cloud"},
+                {"name": "Huiba Li", "affiliation": "Alibaba Cloud"},
+                {"name": "Lu Tang", "affiliation": "Xiamen University"},
+                {"name": "Guangtao Xue", "affiliation": "Shanghai Jiao Tong University"},
+                {"name": "Jiwu Shu", "affiliation": "Tsinghua University"},
+                {"name": "Yiming Zhang", "affiliation": "Shanghai Jiao Tong University and Xiamen University"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "ParaSync: Exploiting Fine-Grained Parallelism for Efficient File Synchronization",
+              "authors": [
+                {"name": "Zhihao Zhang", "affiliation": "Xiamen University"},
+                {"name": "Lu Tang", "affiliation": "Xiamen University"},
+                {"name": "Huiba Li", "affiliation": "Alibaba"},
+                {"name": "Yue Yu", "affiliation": "Sun Yat-sen University & HUST"},
+                {"name": "Jiwu Shu", "affiliation": "Tsinghua University"},
+                {"name": "Yiming Zhang", "affiliation": "Shanghai Jiao Tong University"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Discard-Based Garbage Collection for Distributed Log-Structured Storage Systems in ByteDance",
+              "authors": [
+                {"name": "Runhua Bian", "affiliation": "ByteDance, Tsinghua University"},
+                {"name": "Liqiang Zhang", "affiliation": "ByteDance"},
+                {"name": "Jinxin Liu", "affiliation": "ByteDance"},
+                {"name": "Jiacheng Zhang", "affiliation": "ByteDance"},
+                {"name": "Jianong Zhong", "affiliation": "ByteDance"},
+                {"name": "Jiahao Gu", "affiliation": "ByteDance"},
+                {"name": "Hao Guo", "affiliation": "Tsinghua University"},
+                {"name": "Zhihong Guo", "affiliation": "ByteDance"},
+                {"name": "Yunhao Li", "affiliation": "ByteDance"},
+                {"name": "Fenghao Zhang", "affiliation": "ByteDance"},
+                {"name": "Jiangkun Zhao", "affiliation": "ByteDance"},
+                {"name": "Yangming Chen", "affiliation": "ByteDance"},
+                {"name": "Guojun Li", "affiliation": "ByteDance"},
+                {"name": "Ruwen Fan", "affiliation": "Tsinghua University"},
+                {"name": "Haijia Shen", "affiliation": "ByteDance"},
+                {"name": "Chengyu Dong", "affiliation": "ByteDance"},
+                {"name": "Yao Wang", "affiliation": "ByteDance"},
+                {"name": "Rui Shi", "affiliation": "ByteDance"},
+                {"name": "Jiwu Shu", "affiliation": "Tsinghua University"},
+                {"name": "Youyou Lu", "affiliation": "Tsinghua University"}
+              ],
+              "tags": ["Deployed-Systems Paper"]
+            },
+            {
+              "title": "PolarStore: High-Performance Data Compression for Large-Scale Cloud-Native Databases",
+              "authors": [
+                {"name": "Qingda Hu", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Xinjun (Jimmy) Yang", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Feifei Li", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Junru Li", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Ya Lin", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Yuqi Zhou", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Yicong Zhu", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Junwei Zhang", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Rongbiao Xie", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Ling Zhou", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Bin Wu", "affiliation": "Alibaba Cloud Computing"},
+                {"name": "Wenchao Zhou", "affiliation": "Alibaba Cloud Computing"}
+              ],
+              "tags": ["Available Media"]
+            }
+          ]
+        },
+        {
+          "time": "10:20 am–10:50 am",
+          "title": "Coffee and Tea Break",
+          "type": "break"
+        },
+        {
+          "time": "10:50 am–12:30 pm",
+          "title": "Tiering, Mobile, and SSDs",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "Unleashing Zoned UFS: Cross-Layer Optimizations for Next-Generation Mobile Storage",
+              "authors": [
+                {"name": "Jungae Kim", "affiliation": "SK hynix Inc."},
+                {"name": "Jaegeuk Kim", "affiliation": "Google"},
+                {"name": "Kyu-Jin Cho", "affiliation": "Seoul National University"},
+                {"name": "Sungjin Park", "affiliation": "SK hynix Inc."},
+                {"name": "Jinwoo Kim", "affiliation": "SK hynix Inc."},
+                {"name": "Jieun Kim", "affiliation": "SK hynix Inc."},
+                {"name": "Iksung Oh", "affiliation": "SK hynix Inc."},
+                {"name": "Chul Lee", "affiliation": "Google"},
+                {"name": "Bart Van Assche", "affiliation": "Google"},
+                {"name": "Daeho Jeong", "affiliation": "Google"},
+                {"name": "Konstantin Vyshetsky", "affiliation": "Google"},
+                {"name": "Jin-Soo Kim", "affiliation": "Seoul National University"}
+              ],
+              "tags": ["Deployed-Systems Paper"]
+            },
+            {
+              "title": "DOGI: Data Placement with Oracle-Guided Insights for Log-Structured Systems",
+              "authors": [
+                {"name": "Jeeyun Kim", "affiliation": "POSTECH"},
+                {"name": "Seonggyun Oh", "affiliation": "DGIST"},
+                {"name": "Jungwoo Kim", "affiliation": "DGIST"},
+                {"name": "Jisung Park", "affiliation": "POSTECH"},
+                {"name": "Jaeho Kim", "affiliation": "Gyeongsang National University"},
+                {"name": "Sungjin Lee", "affiliation": "POSTECH"},
+                {"name": "Sam H. Noh", "affiliation": "Virginia Tech"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Getting the MOST out of your Storage Hierarchy with Mirror-Optimized Storage Tiering",
+              "authors": [
+                {"name": "Kaiwei Tu", "affiliation": "University of Wisconsin–Madison"},
+                {"name": "Kan Wu", "affiliation": "Google"},
+                {"name": "Andrea C. Arpaci-Dusseau", "affiliation": "University of Wisconsin–Madison"},
+                {"name": "Remzi H. Arpaci-Dusseau", "affiliation": "University of Wisconsin–Madison"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "Rearchitecting Buffered I/O in the Era of High-Bandwidth SSDs",
+              "authors": [
+                {"name": "Yekang Zhan", "affiliation": "Huazhong University of Science and Technology"},
+                {"name": "Tianze Wang", "affiliation": "Huazhong University of Science and Technology"},
+                {"name": "Zheng Peng", "affiliation": "Huazhong University of Science and Technology"},
+                {"name": "Haichuan Hu", "affiliation": "Huazhong University of Science and Technology"},
+                {"name": "Jiahao Wu", "affiliation": "Huazhong University of Science and Technology"},
+                {"name": "Xiangrui Yang", "affiliation": "Huazhong University of Science and Technology"},
+                {"name": "Qiang Cao", "affiliation": "Huazhong University of Science and Technology"},
+                {"name": "Hong Jiang", "affiliation": "University of Texas at Arlington"},
+                {"name": "Jie Yao", "affiliation": "Huazhong University of Science and Technology"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "FailureMiner: A Joint Key Decision Mining Scheme for Practical SSD Failure Prediction and Analysis",
+              "authors": [
+                {"name": "Shuyang Wang", "affiliation": "Samsung R&D Institute China Xi'an, Samsung Electronics"},
+                {"name": "Yuqi Zhang", "affiliation": "Samsung R&D Institute China Xi'an, Samsung Electronics"},
+                {"name": "Haonan Luo", "affiliation": "Samsung R&D Institute China Xi'an, Samsung Electronics"},
+                {"name": "Kangkang Liu", "affiliation": "Tencent"},
+                {"name": "Gil Kim", "affiliation": "Samsung Electronics"},
+                {"name": "JongSung Na", "affiliation": "Samsung Electronics"},
+                {"name": "Claude Kim", "affiliation": "Samsung Electronics"},
+                {"name": "Geunrok Oh", "affiliation": "Samsung Electronics"},
+                {"name": "Kyle Choi", "affiliation": "Samsung Electronics"},
+                {"name": "Ni Xue", "affiliation": "Samsung R&D Institute China Xi'an, Samsung Electronics"},
+                {"name": "Xing He", "affiliation": "Samsung R&D Institute China Xi'an, Samsung Electronics"}
+              ],
+              "tags": ["Deployed-Systems Paper"]
+            }
+          ]
+        },
+        {
+          "time": "12:30 pm–2:00 pm",
+          "title": "Lunch (on your own)",
+          "type": "break"
+        },
+        {
+          "time": "2:00 pm–3:20 pm",
+          "title": "Integrity",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "DRBoost: Boosting Degraded Read Performance in MSR-Coded Storage Clusters",
+              "authors": [
+                {"name": "Xiao Niu", "affiliation": "Tsinghua University"},
+                {"name": "Guangyan Zhang", "affiliation": "Tsinghua University"},
+                {"name": "Zhiyue Li", "affiliation": "Tsinghua University"},
+                {"name": "Sijie Cai", "affiliation": "Tsinghua University"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "LESS is More for I/O-Efficient Repairs in Erasure-Coded Storage",
+              "authors": [
+                {"name": "Keyun Cheng", "affiliation": "The Chinese University of Hong Kong"},
+                {"name": "Guodong Li", "affiliation": "Shandong University"},
+                {"name": "Xiaolu Li", "affiliation": "Huazhong University of Science and Technology"},
+                {"name": "Sihuang Hu", "affiliation": "Shandong University"},
+                {"name": "Patrick P. C. Lee", "affiliation": "The Chinese University of Hong Kong"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "Advancing Data Integrity in Linux",
+              "authors": [
+                {"name": "Anuj Gupta", "affiliation": "Samsung Semiconductor"},
+                {"name": "Christoph Hellwig", "affiliation": "unaffiliated"},
+                {"name": "kanchan joshi", "affiliation": "Samsung semiconductors India R&D, India"},
+                {"name": "Vikash Kumar", "affiliation": "Samsung Electronics"},
+                {"name": "Javier Gonzalez", "affiliation": "Samsung Semiconductor"},
+                {"name": "Roshan R Nair", "affiliation": "unaffiliated"},
+                {"name": "Jinyoung CHOI", "affiliation": "Samsung Electronics"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "CETOFS: A High-Performance File System with Host-Server Collaboration for Remote Storage",
+              "authors": [
+                {"name": "Wenqing Jia", "affiliation": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences; and University of Chinese Academy of Sciences"},
+                {"name": "Dejun Jiang", "affiliation": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences; and University of Chinese Academy of Sciences"},
+                {"name": "Jin Xiong", "affiliation": "State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences; and University of Chinese Academy of Sciences"}
+              ],
+              "tags": ["Available Media"]
+            }
+          ]
+        },
+        {
+          "time": "3:20 pm–3:50 pm",
+          "title": "Coffee and Tea Break",
+          "type": "break"
+        },
+        {
+          "time": "3:50 pm–5:10 pm",
+          "title": "OS",
+          "type": "technical",
+          "papers": [
+            {
+              "title": "Cache-Centric Multi-Resource Allocation for Storage Services",
+              "authors": [
+                {"name": "Chenhao Ye", "affiliation": "University of Wisconsin–Madison"},
+                {"name": "Shawn Zhong", "affiliation": "University of Wisconsin–Madison"},
+                {"name": "Andrea Arpaci-Dusseau", "affiliation": "University of Wisconsin–Madison"},
+                {"name": "Remzi Arpaci-Dusseau", "affiliation": "University of Wisconsin–Madison"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "Lockify: Understanding Linux Distributed Lock Management Overheads in Shared Storage",
+              "authors": [
+                {"name": "Taeyoung Park", "affiliation": "Sungkyunkwan University"},
+                {"name": "Yunjae Jo", "affiliation": "Sungkyunkwan University"},
+                {"name": "Daegyu Han", "affiliation": "Sungkyunkwan University"},
+                {"name": "Beomseok Nam", "affiliation": "Sungkyunkwan University"},
+                {"name": "Jaehyun Hwang", "affiliation": "Sungkyunkwan University"}
+              ],
+              "tags": ["Available Media"]
+            },
+            {
+              "title": "uCache: A Customizable Unikernel-based IO Cache",
+              "authors": [
+                {"name": "Ilya Meignan-Masson", "affiliation": "TU Munich"},
+                {"name": "Masanori Misono", "affiliation": "TU Munich"},
+                {"name": "Viktor Leis", "affiliation": "TU Munich"},
+                {"name": "Pramod Bhatotia", "affiliation": "TU Munich"}
+              ],
+              "tags": []
+            },
+            {
+              "title": "UnICom: A Universally High-Performant I/O Completion Mechanism for Modern Computer Systems",
+              "authors": [
+                {"name": "Riwei Pan", "affiliation": "Department of Computer Science, City University of Hong Kong"},
+                {"name": "Yu Liang", "affiliation": "ETH Zurich & Inria-Paris"},
+                {"name": "Sam H. Noh", "affiliation": "Virginia Tech"},
+                {"name": "Lei Li", "affiliation": "Department of Computer Science, City University of Hong Kong"},
+                {"name": "Nan Guan", "affiliation": "Department of Computer Science, City University of Hong Kong"},
+                {"name": "Tei-Wei Kuo", "affiliation": "Delta Electronics & National Taiwan University"},
+                {"name": "Chun Jason Xue", "affiliation": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)"}
+              ],
+              "tags": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_papers": 44,
+    "technical_sessions": 11,
+    "keynotes": 1,
+    "deployed_systems_papers": 5,
+    "available_media": 13
+  }
+}
