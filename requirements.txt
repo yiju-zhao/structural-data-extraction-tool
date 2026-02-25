@@ -1,12 +1,6 @@
-browser-use
-langchain-openai
 python-dotenv
 pandas
-pydantic
-requests
 beautifulsoup4
-selenium
-html5lib
-lxml
 crawl4ai
-pyyaml
+playwright
+lotus-ai

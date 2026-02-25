@@ -30,13 +30,25 @@ INDEX_DIR = os.path.join(PROJECT_DIR, ".session_index")
 SEARCH_K = 150  # embedding pre-filter size
 TOPK = 50       # final top-K per BU
 
+# Xinference server configuration
+XINFERENCE_BASE_URL = os.getenv("XINFERENCE_BASE_URL", "http://localhost:9997/v1")
+XINFERENCE_MODEL = os.getenv("XINFERENCE_MODEL", "qwen3")
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(INDEX_DIR, exist_ok=True)
 
 # ---------------------------------------------------------------------------
-# LOTUS setup
+# LOTUS setup — using local Qwen3 via Xinference (OpenAI-compatible API)
 # ---------------------------------------------------------------------------
-lm = LM(model="gpt-5-mini", max_batch_size=5, max_tokens=4096, rate_limit=30)
+# Set a dummy API key for LiteLLM (Xinference doesn't require one)
+os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "not-needed")
+
+lm = LM(
+    model=f"openai/{XINFERENCE_MODEL}",
+    max_batch_size=5,
+    max_tokens=4096,
+    api_base=XINFERENCE_BASE_URL,
+)
 rm = SentenceTransformersRM(model="intfloat/e5-base-v2")
 vs = FaissVS()
 lotus.settings.configure(lm=lm, rm=rm, vs=vs)

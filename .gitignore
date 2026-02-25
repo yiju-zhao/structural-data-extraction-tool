@@ -194,3 +194,5 @@ scripts/
 *.skill
 .claude/
 .venv-lotus/
+
+.session_index/
