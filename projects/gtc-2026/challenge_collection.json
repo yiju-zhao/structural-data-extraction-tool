@@ -1,85 +1,85 @@
 {
   "DCN": {
-    "数据中心网络": [
-      "NV是不是真的在搞以太scaleup？或者在超以太真正的策略到底是什么？",
-      "NV的448G路线，现在应该是224G bidi 但是bidi只能走电。未来是否考虑光的布局，技术路线会是什么？ ",
-      "英伟达以太网芯片的节奏和规格",
-      "NV以太芯片的在北美客户的部署，使用和运维情况？主要是市场反应和口碑，客户的反馈？",
-      "英伟达的Scale Across技术路线，场景和实际部署情况。"
+    "Data Center Networking": [
+      "Is NVIDIA truly pursuing Ethernet-based scale-up, or what is the actual strategy behind ultra-Ethernet?",
+      "NVIDIA's 448G roadmap currently relies on 224G BiDi, but BiDi is limited to electrical interconnects. Are there plans to incorporate optical solutions in the future, and what would the technology roadmap look like?",
+      "NVIDIA Ethernet chip roadmap and specifications",
+      "Deployment, usage, and operations of NVIDIA Ethernet chips with North American customers — what is the market reception, reputation, and customer feedback?",
+      "NVIDIA's Scale Across technology roadmap: use cases and real-world deployment status."
     ]
   },
   "海思麒麟AI": {
     "LLM": [
-      "如何解决LLM 上线后吞吐、时延和能耗问题，了解主流 serving 优化方案及不同规模模型在不同业务量级下的性价比拐点"
+      "How to address throughput, latency, and power consumption challenges after LLM deployment — understanding mainstream serving optimization approaches and the cost-performance inflection points for models of different scales at different traffic levels."
     ],
-    "多模态/VLM": [
-      "如何减缓多模态模型接入视频或长序列后显存与吞吐压力，在实际系统中的显存控制、端侧轻量化和吞吐优化做法"
+    "Multimodal/VLM": [
+      "How to mitigate GPU memory pressure and throughput bottlenecks when multimodal models handle video or long sequences — practical approaches to memory management, on-device lightweighting, and throughput optimization in production systems."
     ],
     "Agentic AI × RL": [
-      "Agent 系统在编排架构、效果评测和出错后怎么兜底等方面的成熟工程实践"
+      "Mature engineering practices for Agent systems covering orchestration architecture, evaluation, and fallback/error-recovery strategies."
     ],
-    "AI 基础设施": [
-      "新一代 GPU、推理软件栈和 AI Factory 能力对现有 AIGC/LLM/VLM 路线的实际影响"
+    "AI Infrastructure": [
+      "The actual impact of next-generation GPUs, inference software stacks, and AI Factory capabilities on existing AIGC/LLM/VLM roadmaps."
     ]
   },
   "海思麒麟GPU": {
-    "图形": ["神经渲染在目前仅有的几个常见场景（超分插帧）之外的未来发展"],
-    "未分类": [
-      "物理几何空间和新表达方式（e.g. 3DGS）的未来发展和AI结合的趋势",
-      "世界模型空间交互与AI生成等新技术的应用和未来"
+    "Graphics": ["Future development of neural rendering beyond its current common use cases (super-resolution and frame interpolation)."],
+    "Uncategorized": [
+      "Future development of physical geometric space and novel representations (e.g., 3DGS) and trends in their integration with AI.",
+      "Applications and future prospects of emerging technologies such as world model spatial interaction and AI-generated content."
     ]
   },
   "加研诺亚": {
-    "硬件亲和架构、DLLM高效优化、大模型长序列": [
-      "主流原生长序列架构演化趋势，针对精度、缓存与计算量等维度的优化方向",
-      "针对大模型长序列难题的硬件侧优化",
-      "DLLM训推领域硬件侧优化"
+    "Hardware-Affine Architecture, Efficient DLLM Optimization & Long-Sequence LLMs": [
+      "Evolution trends of mainstream native long-sequence architectures, with optimization directions across dimensions such as precision, caching, and computational cost.",
+      "Hardware-side optimizations targeting long-sequence challenges in large language models.",
+      "Hardware-side optimizations for DLLM training and inference."
     ]
   },
   "数据存储": {
-    "AI数据中心架构": [
-      "超节点内和超节点间网络连接架构趋势是什么？",
-      "AI训练和推理创新算法和软件框架中，是否对存储有了新的定义？是否对存储提出了新的需求和挑战？",
-      "Nvidia Storage Next的发展进程如何？"
+    "AI Data Center Architecture": [
+      "What are the trends in intra-supernode and inter-supernode network connectivity architectures?",
+      "In innovative algorithms and software frameworks for AI training and inference, are there new definitions of storage? Are new requirements and challenges being placed on storage?",
+      "What is the progress of NVIDIA Storage Next?"
     ],
-    "企业AI架构": [
-      "Nvidia企业AI参考架构趋势是什么？",
-      "企业AI中的数据技术和存储基础设施发展动向是什么？",
-      "文件在Multi-Agent系统中的应用趋势和前景如何？"
+    "Enterprise AI Architecture": [
+      "What are the trends in NVIDIA's enterprise AI reference architecture?",
+      "What are the developments in data technology and storage infrastructure for enterprise AI?",
+      "What are the trends and prospects for file usage in Multi-Agent systems?"
     ]
   },
   "海思": {
-    "算力基础设施与互联技术 ": [
-      "万卡规模的算力集群架构",
-      "Spectrum-X 网络平台和 RoCE 方案的最新进展",
-      "先进封装策略 Blackwell 架构之后的封装演进"
+    "Computing Infrastructure & Interconnect Technology": [
+      "Computing cluster architecture at the scale of tens of thousands of GPUs.",
+      "Latest developments in the Spectrum-X networking platform and RoCE solutions.",
+      "Advanced packaging strategy: packaging evolution beyond the Blackwell architecture."
     ],
-    "CUDA软件生态与算子库演进": [
-      "指令级优化、多 GPU 内存池管理",
-      "底层编译器处理 LLM 的稀疏计算和长文本上下文"
+    "CUDA Software Ecosystem & Operator Library Evolution": [
+      "Instruction-level optimization and multi-GPU memory pool management.",
+      "Low-level compiler handling of sparse computation and long-context processing for LLMs."
     ],
-    "智能体与高效推理": [
-      "混合推理加速、模型量化压缩技术、以及 Agent 在端侧落地",
-      "开源模型在智能体架构下的微调与部署，端云协同上的算力调度逻辑",
-      "多模态、生成式视频模型的推理效率优化"
+    "Agentic AI & Efficient Inference": [
+      "Hybrid inference acceleration, model quantization and compression techniques, and on-device Agent deployment.",
+      "Fine-tuning and deployment of open-source models within agentic architectures, and compute scheduling logic for edge-cloud collaboration.",
+      "Inference efficiency optimization for multimodal and generative video models."
     ],
-    "边缘AI与具身智能": [
-      "自动驾驶的大模型化、数字孪生、机器人感知算法",
-      "构建人形机器人的端到端物理 AI 系统",
-      "边缘侧实时推理和长效稳定性方面的技术标准"
+    "Edge AI & Embodied Intelligence": [
+      "Large model adoption in autonomous driving, digital twins, and robot perception algorithms.",
+      "Building end-to-end physical AI systems for humanoid robots.",
+      "Technical standards for real-time inference and long-term stability at the edge."
     ]
   },
   "温哥华云": {
-    "基础模型\r\n行业模型和\r\n智能体": [
-      "洞察基础模型和行业大模型的趋势，行业怎么使用Generative AI， Agent智能体在企业落地的挑战和趋势",
-      "极致MaaS服务性能和性价比， 洞察极致推理性能的优化技术及趋势， 自动化算子优化技术和趋势",
-      "多模型/多模态模型的Agent智能体系统发展趋势及关键技术洞察"
+    "Foundation Models, Industry Models & Agents": [
+      "Insights into trends in foundation models and industry-specific large models; how industries are adopting Generative AI; challenges and trends for AI Agents entering enterprise environments.",
+      "Extreme MaaS service performance and cost-effectiveness; insights into optimization techniques and trends for peak inference performance; automated operator optimization techniques and trends.",
+      "Insights into development trends and key technologies for multi-model/multimodal Agent systems."
     ],
     "AI Infrastructure": [
-      "Agentic AI和Agent智能体的发展对云基础设施的挑战和影响。 GPU云服务及Serverless GPU的技术洞察",
-      "洞察下一代AI Factories对高性能计算及网络的发展趋势， 洞察AI计算网络技术及系统设计趋势",
-      "分析洞察训练基础设施和推理基础设施的技术发展趋势，资源利用率提升技术和分析",
-      "洞察端云协同的AI基础设施发展趋势和技术分析"
+      "Challenges and impact of Agentic AI and AI Agents on cloud infrastructure. Technical insights into GPU cloud services and Serverless GPU.",
+      "Insights into how next-generation AI Factories are driving HPC and networking trends; analysis of AI compute network technologies and system design trends.",
+      "Analysis of technology development trends in training and inference infrastructure, and techniques for improving resource utilization.",
+      "Insights into the development trends and technical analysis of edge-cloud collaborative AI infrastructure."
     ]
   },
   "CSI": {
@@ -99,22 +99,22 @@
       "The core issues that the next generation of NVIDIA GPUs (Feynman/?) will address, the major generational differences, and the key updates and changes in the software stack."
     ],
     "Agentic AI & Reasoning": [
-      "智能体 (AI Agents)： 如何让大模型具备推理逻辑（Reasoning），并能够独立调用工具（API、软件、硬件）完成复杂任务。",
-      "长文本与高并发推理： 针对 MoE 架构和百万级 Token 上下文的优化技术，以及如何进一步降低 Token 推理成本。",
-      "自动驾驶：NVIDIA DRIVE 平台，展示从 L2+ 到 L4 级别的端到端自动驾驶方案， 以及Grok自动驾驶智能体，能否与特斯拉AI软件副总裁Ashok Elluswamy当面交流探索自动驾驶的发展趋势，以及对于智能体框架的机会点"
+      "AI Agents: how to equip large models with reasoning capabilities and enable them to autonomously invoke tools (APIs, software, hardware) to complete complex tasks.",
+      "Long-context and high-concurrency inference: optimization techniques for MoE architectures and million-token contexts, and how to further reduce per-token inference costs.",
+      "Autonomous Driving: the NVIDIA DRIVE platform showcasing end-to-end autonomous driving solutions from L2+ to L4, as well as the Grok autonomous driving agent — exploring the opportunity to engage directly with Tesla's VP of AI Software Ashok Elluswamy on autonomous driving trends and opportunities in the agentic framework."
     ],
     "Infrastructure & AI Factories": [
-      "新一代 GPU 架构： 继 Blackwell 之后的架构更新（如 2025-2026 推出的 Blackwell Ultra 或更高代号）。",
-      "机间通信与网络： 针对万卡集群的 NVLink、InfiniBand 以及新一代 Spectrum-X 以太网交换技术。"
+      "Next-generation GPU architecture: post-Blackwell architecture updates (e.g., Blackwell Ultra or higher codename expected in 2025–2026).",
+      "Inter-node communication and networking: NVLink, InfiniBand, and next-generation Spectrum-X Ethernet switching technology for clusters at the scale of tens of thousands of GPUs."
     ],
-    "分布式&AI框架（训推、RL等": [
-      "•持续关注后训练+Reasoning+RL的快速变化对软件基础设施的影响；",
-      "•聚焦关注构建更灵活的任务调度框架，如支持并行工具调用和异步回调；",
-      "•多模态RL数据流处理管道和高效推理路由，关注统一的状态/记忆管理后端，以简化上下文追踪研究进展",
-      "•多框架跨生态互操作性不足，模型转换和迁移成本高；调试和性能分析工具弱，复现和调优成本高。自动并行化还需提升智能化程度，减少手动配置。",
-      "•通用的分布式RL库设计，将分布式训练组件化、可插拔；",
-      "•关注多智能体RL的框架支持（通信协议、协作策略）；",
-      "•结合Lifelong Learning、多任务学习等新范式扩展现有框架。"
+    "Distributed & AI Frameworks (Training/Inference, RL, etc.)": [
+      "Continued focus on the rapid evolution of post-training + Reasoning + RL and its impact on software infrastructure.",
+      "Focus on building more flexible task scheduling frameworks that support parallel tool invocation and asynchronous callbacks.",
+      "Multimodal RL data pipeline processing and efficient inference routing; attention to unified state/memory management backends to simplify context tracking research.",
+      "Insufficient cross-framework interoperability, high model conversion and migration costs; weak debugging and profiling tools, high reproduction and tuning overhead. Auto-parallelization still needs to become more intelligent to reduce manual configuration.",
+      "General-purpose distributed RL library design with modular, pluggable distributed training components.",
+      "Framework support for multi-agent RL (communication protocols, collaborative strategies).",
+      "Extending existing frameworks with new paradigms such as Lifelong Learning and multi-task learning."
     ]
   }
 }
