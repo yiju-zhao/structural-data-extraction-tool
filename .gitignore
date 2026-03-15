@@ -196,3 +196,7 @@ scripts/
 .venv-lotus/
 
 .session_index/
+
+# GTC extraction runtime files
+.extract_session.js
+.extraction_progress.json
