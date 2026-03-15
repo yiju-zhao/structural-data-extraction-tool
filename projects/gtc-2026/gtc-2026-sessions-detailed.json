@@ -383,7 +383,7 @@
   {
     "session_id": "DLIW82209",
     "title": "Accelerated Networking for AI Infrastructure",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "Gain a holistic understanding of AI factory networking, exploring how key communication methods between GPUs, racks, and storage shape overall AI performance and scalability.\n\n\nBring your own laptop and experience AI factory networking in action. In AI factories, the network is critical to maximizing performance. You'll see how networking choices shape AI workload performance and scalability, then configure key pieces yourself in guided labs. \n\nWe start with a level set session that walks through essential communication paths in an AI factory deployments: east-west GPU-to-GPU communication across racks with InfiniBand, north south and storage connectivity over Spectrum-X Ethernet, and low latency, high bandwidth NVLINK communication between GPUs within the same rack.\n\n\nBy the end of the session, you'll be familiar with the key networking technologies that underpin AI factories and have a clear view of how network design decisions translate directly into faster, more efficient AI workloads.\n\n\nPrerequisite(s):\n\nBasic Linux administration skills, including directory navigation, file management, and text editing with nano or vim are required.\nIntermediate TCP/IP networking experience is expected, with familiarity in L2/L3 protocols, IP networking concepts, and proficiency using tools such as iperf, wireshark, and the command line.",
@@ -409,7 +409,7 @@
   {
     "session_id": "DLIW82265",
     "title": "Fundamentals of GPU-Accelerated Workflows with CUDA Python",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "This course delivers a hands-on introduction to GPU-accelerated computing in Python, empowering developers to build fast, scalable applications using NVIDIA's CUDA ecosystem. Through guided notebooks, participants master CuPy for array acceleration, cuDF for GPU DataFrames, and the cuda-python API to write custom kernels-all without leaving Python. Real-world exercises in data science, machine learning, and scientific computing emphasize performance, interoperability, and end-to-end efficiency.\nLearners progress from drop-in speedups to fully integrated GPU pipelines, mastering data movement, asynchronous execution, and profiling with Nsight tools. By the end, attendees can transform CPU-bound Python code into production-grade GPU solutions, bridge prototyping to deployment, and apply best practices for performance and reproducibility in modern accelerated computing.\nCertificate: Upon successful completion of the assessment, you'll receive an NVIDIA certificate to recognize your subject matter competency and support your professional career growth.Prerequisite(s):\n\nBasic Python competency including familiarity with variable types, loops, conditional statements, functions, and array manipulations.\nNumPy competency including the use of ndarrays and ufuncs.\nNo previous knowledge of CUDA programming is assumed.",
@@ -442,7 +442,7 @@
   {
     "session_id": "DLIW82267",
     "title": "Adding New Knowledge to LLMs",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "In today's AI landscape, even powerful Large Language Models (LLMs) face limitations when confronted with specialized business knowledge, technical domains, or cultural contexts absent from their training data. While retrieval-augmented generation can mitigate some gaps, true domain mastery requires deeper model adaptation.\nThis comprehensive workshop equips developers with hands-on skills to transform open-source LLMs into domain-specialized AI assets. Through five interconnected modules, you'll master the complete lifecycle of model customization. By workshop completion, you'll possess the complete technical skillset to develop, deploy, and operate sovereign AI systems tailored to your specific requirements - from data preparation to production scaling. Bring your laptop; we'll provide the GPUs.\nCertificate: Upon successful completion of the assessment, you'll receive an NVIDIA certificate to recognize your subject matter competency and support your professional career growth.\nPrerequisite(s):\n\nIntermediate Python programming skills.\nPrevious work with LLM-based applications and understanding of prompt engineering principles.\nExperience with data processing pipelines and text preprocessing techniques.\nUnderstanding of fine-tuning, training/validation splits, and basic ML metrics.\nBasic knowledge of GPU acceleration for ML workloads (CUDA experience helpful but not required).\nFamiliarity with containerization and basic Kubernetes concepts (Optional but helpful).",
@@ -470,7 +470,7 @@
   {
     "session_id": "DLIW82268",
     "title": "Building Observable and Scalable Multi-Agent Workflows for Asset Lifecycle Management",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "Learn to develop multi-agent workflows tailored for Asset Lifecycle Management use cases within industrial process applications. You'll be introduced to the NVIDIA open-source NeMo Agent Toolkit (NAT) and its key features, enabling the creation of a comprehensive and customizable reference solution for this use case. You'll also be guided in effectively utilizing other components of NVIDIA AI stack, including NVIDIA Inference Microservices (NIM), cloud endpoints, and NVIDIA Tesseract time series foundational models. These components are used to design agents capable of executing frequently performed tasks such as data querying and analysis, Forecasting, Remaining useful life prediction, and Anomaly detection. Furthermore, you will gain insight into NAT's marquee features, such as workflow observability and sizing, prompt optimization, and third-party connections.\nCertificate: Upon successful completion of the assessment, you'll receive an NVIDIA certificate to recognize your subject matter competency and support your professional career growth.\nPrerequisite(s):\n\nBasic familiarity with Python.",
@@ -503,7 +503,7 @@
   {
     "session_id": "DLIW82269",
     "title": "Building AI Agents with Multimodal Models",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "Just like how humans have multiple senses to perceive the world around them, computers have a variety of sensors to help perceive the human world. In the health industry, computed tomography (CT) scans provide a 3D representation used to detect potentially dangerous abnormalities. In the robotics industry, lidars are used to help robots see depth and navigate the complex topology around them. In this course, learners will develop neural network based multimodal models that can understand many different data types by exploring different fusion techniques.\nCertificate: Upon successful completion of the assessment, you'll receive an NVIDIA certificate to recognize your subject matter competency and support your professional career growth.\nPrerequisite(s):\n\nBasic understanding of Python (including classes, objects, and decorators)\nBasic understanding of Neural Networks such image convolution and sequential models (covered in Fundamentals of Deep Learning)",
@@ -531,7 +531,7 @@
   {
     "session_id": "DLIW82270",
     "title": "Building LLM Applications with Prompt Engineering",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "With the incredible capabilities of large language models (LLMs), enterprises are eager to integrate them into their products and internal applications for a wide variety of use cases, including (but not limited to) text generation, large-scale document analysis, and chatbot assistants. The fastest way to begin leveraging LLMs for diverse tasks is by using modern prompt engineering techniques. These techniques are also foundational for more advanced LLM-based methods such as Retrieval-Augmented Generation (RAG) and Parameter-Efficient Fine-Tuning (PEFT). In this workshop, learners will work with an NVIDIA language model NIM, powered by the open-source Llama-3.1 large language model, alongside the popular LangChain library. The workshop will provide a foundational skill set for building a range of LLM-based applications using prompt engineering.\nCertificate: Upon successful completion of the assessment, you'll receive an NVIDIA certificate to recognize your subject matter competency and support your professional career growth.\nPrerequisite(s):\n\nFamiliarity with basic programming fundamentals such as functions and variables.",
@@ -557,7 +557,7 @@
   {
     "session_id": "DLIW82272",
     "title": "OpenUSD Crash Course: Build 3D Data Pipelines for Physical AI",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "Discover how OpenUSD principles and Python scripting can build scalable 3D data pipelines for manufacturing, robotics, and physical AI applications. Throughout this full-day workshop, you'll learn composition arc techniques, asset hierarchy design, and performance optimization strategies essential for production pipelines. Develop practical skills in automating 3D asset workflows, managing complex scene data, and preparing simulation environments for physical AI training. This workshop directly prepares you for the NVIDIA-Certified Professional: OpenUSD Development exam.\nCertificate: Upon successful completion of the assessment, you'll receive an NVIDIA certificate to recognize your subject matter competency and support your professional career growth.\nPrerequisite(s):\n\nIntermediate Python experience, including packages, virtual environments, and scripting fundamentals.\nFamiliarity with 3D modeling concepts: meshes, materials, transforms, scene hierarchies, and asset organization.\nUnderstanding of data pipeline concepts and file-based workflows.\nBasic knowledge of composition and layering concepts in content creation tools.",
@@ -585,7 +585,7 @@
   {
     "session_id": "DLIW82273",
     "title": "How to Simulate, Train, Validate, and Deploy an End-to-End Robotics Workflow with NVIDIA Isaac",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "In this full-day workshop, we'll guide you through an end-to-end robotic workflow-from simulation-based training to real-world robot deployment. You'll simulate the robot in NVIDIA Isaac SimTM, train the policies in Isaac Lab, validate the trained skills through software-in-the-loop testing, and deploy them to physical robots. Through practical exercises, you'll gain end-to-end experience in the techniques that bridge the sim-to-real gap: synthetic data generation, policy training and refinement, hardware testing on edge devices, and real-robot deployment. This workshop demonstrates how simulation accelerates robot learning and reduces the time and cost of bringing AI-powered automation to production environments.\nCertificate: Upon successful completion of the assessment, you'll receive an NVIDIA certificate to recognize your subject matter competency and support your professional career growth.\nPrerequisite(s):\n\nIntermediate experience with Python, including working with packages, virtual environments, and basic scripting.\nFamiliarity with 3D content concepts such as meshes, materials, transforms, and scene hierarchies from tools like Blender, Maya, or similar DCC applications.\nUnderstand command-line usage for running scripts and managing project files. Understand basics of world foundation models.\nHave familiarity with robotics or simulation workflows (for example, using simulation tools or working with physics-enabled assets).",
@@ -628,7 +628,7 @@
   {
     "session_id": "DLIW82274",
     "title": "Deploying and Optimizing AI Inference at Scale",
-    "session_type": "Full-Day Workshop $",
+    "session_type": "Full-Day Workshop",
     "format": "In-Person",
     "recording": "No",
     "abstract": "As foundation models move toward deeper test-time computation, inference becomes the dominant scaling constraint. Latency, throughput, and cost are governed by a small set of forces: autoregressive decoding, KV-cache growth, memory bandwidth, and scheduling under contention. This workshop frames large-scale inference through these emerging laws of inference, starting from first principles and building toward real systems. Learners begin with monolithic and gateway-based vLLM deployments on Kubernetes to establish baseline behavior, then transition to NVIDIA Dynamo to operate aggregated and disaggregated inference architectures using built-in KV-aware routing and scheduling. A core emphasis is observability: attendees will deploy a full stack (Prometheus, Grafana, Loki, Tempo) to monitor metrics, capture structured logs, and perform distributed tracing. The outcome is a principled understanding of where inference time and money go - and how architectural choices bend those curves in production.\nCertificate: Upon successful completion of the assessment, you'll receive an NVIDIA certificate to recognize your subject matter competency and support your professional career growth.\nPrerequisite(s):\n\nCommand-line proficiency.\nExperience working with configuration files (e.g., YAML, JSON).\nFamiliarity with containers and container-based workflows (e.g., Docker) and some basic knowledge of Kubernetes.\nBasic understanding of large language model (LLM) inference concepts.\nFamiliarity with distributed computing concepts, such as data or model parallelism.",
@@ -1326,7 +1326,7 @@
   {
     "session_id": "DLIT81484",
     "title": "How to Run AI-Powered Computer-Aided Engineering Simulations",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this lab, we explore how to build AI surrogate models for crash simulations, one of the most computationally intensive tasks in computer aided-engineering (CAE). Learn how modern AI architectures can reproduce high-fidelity physics simulations at a fraction of the cost, enabling faster design exploration and decision-making. We'll walk through the full workflow for developing an AI surrogate for CAE applications, including data preparation and analysis, training and optimization, loading and running inference with pre-trained models, and evaluating model accuracy and uncertainty. We'll also discuss how AI-accelerated workflows are transforming CAE across various industries and areas of research, and how these tools can integrate seamlessly into existing engineering pipelines.\n\nPrerequisite(s):\n\nBasic understanding of engineering or scientific modeling workflows and the associated technical terminology\nBasic programming knowledge in Python (data structures, functions, basic libraries)\nUnderstanding of deep learning concepts (neural networks, training, inference)\nExperience with PyTorch or similar ML frameworks\nExperience with Linux command line operations\nBasic understanding of data preprocessing techniques\nBasic knowledge of parallel computing concepts\nUnderstanding of model validation and verification methods",
@@ -1359,7 +1359,7 @@
   {
     "session_id": "DLIT81800",
     "title": "Assembling Industrial Digital Twins with OpenUSD and NVIDIA Omniverse Libraries",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this hands-on lab, participants will explore how to build industrial  digital twins from manufacturing facilities to AI factories, using OpenUSD and NVIDIA Omniverse libraries, drawing on real-world collaboration with industry leaders. The session walks through an end-to-end workflow, from CAD models to full digital twin assembly, demonstrating how manufacturers are transforming design and production through simulation and interoperability.\n \nPrerequisite(s):\n\nIntermediate experience with 3D content concepts: meshes, materials, transforms, scene hierarchies, and USD fundamentals\nFamiliarity with manufacturing workflows, factory layouts, or industrial automation processes\nBasic Python scripting experience for automation and integration tasks\nKnowledge of data integration concepts and structured data formats",
@@ -1385,7 +1385,7 @@
   {
     "session_id": "DLIT81879",
     "title": "Create Vision AI Applications With Generative AI Coding Agents",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Computer vision is a cornerstone of the generative AI revolution, providing the essential visual metadata required by vision language models (VLMs) to extract actionable insights. In this two-hour instructor-led workshop, you will learn how to GPU-accelerate your video analytics workflow by combining the NVIDIA DeepStream SDK with the power of prompt engineering.\n\nDiscover how to generate complete, GPU-accelerated DeepStream pipelines using simple natural language prompts. Whether you are a developer new to DeepStream or an advanced user looking to accelerate your prototyping, this course demonstrates how to produce intuitive, readable Python applications without the manual overhead. Join us to bridge the gap between traditional video analytics and modern GenAI development.\n \nPrerequisite(s):\n\nUnderstanding of Python and basic knowledge of computer vision models.",
@@ -1416,7 +1416,7 @@
   {
     "session_id": "DLIT81936",
     "title": "Fine-Tune a Telco Reasoning Model: A Guide to Synthetic Data, Tool Calling, and Evaluation",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Network operation centers (NoC) are the central nervous system of telecommunications, but they are often overwhelmed by \"alarm storms.\" In a traditional setup, engineers manually validate alarms, swivel between multiple dashboards, check topologies, and perform root-cause analysis. This manual process is time-consuming and prone to fatigue. To solve this, we are moving toward zero-touch, self-healing networks. In this tutorial, we'll walk through creating a fine-tuning playbook that integrates synthetic data generation, training, and evaluation pipelines. We'll demonstrate how to build an AI-driven reasoning model capable of autonomously performing NoC engineer workflows - detecting issues, calling tools, and remediating incidents without human intervention.\n \nPrerequisite(s):\n\n Familiarity with Python, LLM fine-tuning concepts, and basic containerization.",
@@ -2680,7 +2680,7 @@
   {
     "session_id": "DLIT81639",
     "title": "Automate 3D Data Pipelines With USD Exchange SDK",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn how to build robust OpenUSD-based data pipelines using USD Exchange SDK, to leverage existing 3D software and tools for scalable physical AI workflows. Start from common 3D source formats and write Python-based code to extract, transform, and load assets into reusable, modular USD representations suitable for large-scale workflows.\nThrough guided, hands-on exercises, structure 3D content into composable USD assets, apply simulation-ready (\"SimReady\") standards, and enrich assets with rigid-body physics that support downstream robotics and simulation workloads. By the end, you'll have automated an asset conversion pipeline capable of processing large 3D datasets, for a practical blueprint to adapt to own production environment. \n\nPrerequisite(s):\n\n\nIntermediate experience with Python: working with packages, virtual environments, basic scripting.\n\n\nFamiliarity with content concepts: meshes, materials, transforms, scene hierarchies common to 3D modeling applications.\n\n\nUnderstand command-line usage for running scripts, managing project files.\n\n\nRecommended:\n\n\nCompleted Learn OpenUSD curriculum, covering fundamentals of USD-based scene representation and concepts (stages, layers, prims, composition).\n\n\nBasic familiarity with robotics, simulation or general 3D content workflows (simulation tools, physics-enabled assets).",
@@ -2801,7 +2801,7 @@
   {
     "session_id": "DLIT81725",
     "title": "Develop Production Agents with Eval-Driven Design",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This training lab will explore new techniques for building robust, production-ready AI agents by focusing on an evaluation-driven design workflow. You'll learn how we use human-created datasets for iterative improvement and how to apply continuous eval and iterate cycles, including prompt changes and experimentation, to significantly improve agent performance.\n \nPrerequisite(s):\n\n\nThe prerequisites for this course are practical familiarity with AI/ML fundamentals, including Large Language Models (LLMs), and programming proficiency in Python.\n\n\nAttendees should also have a working understanding of basic prompt engineering and experience with the overall lifecycle of building an AI application, as the lab is focused on the advanced, production-ready stage of evaluation and iterative design.",
@@ -2894,7 +2894,7 @@
   {
     "session_id": "DLIT81774",
     "title": "Build a Video Analytics AI Agent With Vision Language Models",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "New vision language models (VLMs) are transforming computer vision with scalable, reasoning zero-shot solutions. Learn about Cosmos Reason - a new open and fully customizable reasoning VLM for physical AI and robotics - that lets robots and vision AI agents reason like humans, using prior knowledge, physics understanding, and common sense to understand and act in the real world. In this lab, you'll build a video analytics AI agent using the NVIDIA Blueprint for Video Search and Summarization (VSS) with Cosmos Reason VLM.\n \nPrerequisite(s):\n\nBasic understanding of computer vision models.",
@@ -3212,7 +3212,7 @@
   {
     "session_id": "DLIT82259",
     "title": "Scalable and Resilient Training with Megatron-Bridge and NeMo",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "As modern data centers evolve into AI factories, training foundational models becomes critical. But scaling these training pipelines across tens of thousands of GPUs introduces significant challenges-such as node failures, network errors, checkpointing overhead-that can quickly turn occasional anomalies into frequent production issues. In our hands-on lab, learn about the challenges of running training pipelines and how to integrate resiliency and fault-tolerance features. We'll present various fault-tolerance mechanisms provided in frameworks like NVRx and PyTorch, and demonstrate how to achieve robust, scalable training in modern AI factories using NVIDIA NeMo. Gain practical insights into techniques for measuring I/O and overall  infrastructure performance. You should be familiar with Python and deep learning frameworks, understand LLM training concepts, and be comfortable with Linux.",
@@ -4169,7 +4169,7 @@
   {
     "session_id": "S82419",
     "title": "GPU ♥ LPU: Everything You Wanted to Know",
-    "session_type": "Talk",
+    "session_type": "Fireside Chat",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "With language processing units (LPUs) and GPUs in the same data center, developers can optimize for both ultra-low latency and high throughput. LPUs excel at token-by-token and interactive workloads, while GPUs excel at massive parallelism and larger batches. This talk helps developers understand the complementary strengths of LPUs and GPUs.",
@@ -5499,7 +5499,7 @@
   {
     "session_id": "DLIT81814",
     "title": "Build Agentic Workflows for Financial Applications",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "We'll walk you through how to turn financial services workflows into end‐to‐end AI agents, covering orchestration, tools, retrieval, and guardrails tailored to domain-specific applications in the financial services industry (FSI). Using NVIDIA's NeMo Agent Toolkit and Blueprints, you'll get hands on to building multi‐agent systems that support use cases such as investment research and agentic commerce.\n \nPrerequisite(s):\n\nParticipants should be comfortable with basic Python and familiar with core AI/ML or LLM concepts so they can follow the code and agent patterns efficiently.\nExperience working with financial services data or workflows (e.g., banking, insurance, payments) is recommended but not required; the material is designed for technical practitioners such as data scientists, ML engineers, and developers who want to build or own FSI agentic AI solutions.",
@@ -5536,7 +5536,7 @@
   {
     "session_id": "DLIT81816",
     "title": "Build Robot-Ready Assets for Physically Accurate Simulations With Lightwheel",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this hands-on lab, Lightwheel, a leading provider of simulation-ready assets, platforms, and synthetic data for embodied AI, guides you through the complete SimReady asset preparation workflow. You'll learn to generate high-fidelity synthetic data using OpenUSD, configure accurate physics properties (mass, friction, collision geometry) with PhysX and Newton, and add semantic metadata along with manipulation affordances. You'll validate your work by deploying trained robot agents inside NVIDIA Isaac Sim. By the end of the lab, you'll know how to build simulation-ready scenes that support real-to-sim calibration and sim-to-real transfer, enabling robots to learn robustly in simulation and perform reliably in the real world.\n \nPrerequisite(s):\n\nBasic familiarity with 3D content concepts (meshes, materials, transforms) and modeling software\nUnderstanding of physics simulation fundamentals (mass, friction, collision)\nFamiliarity with robotics terminology (end-effector, gripper, kinematics)\n\nRecommended:\n\nFamiliarity with Isaac Sim (recommended course: Getting Started With Isaac Sim).",
@@ -5569,7 +5569,7 @@
   {
     "session_id": "DLIT81861",
     "title": "Compress, Cut, and Distill: The Latest Gen AI Model Compression Techniques in Practice",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This training lab explores the art and engineering of compressing large language models to make them cheaper, faster, and easier to deploy while preserving practical capability. Designed for a broad audience that spans beginners to advanced practitioners, the workshop will introduce foundational concepts for newcomers, share implementation patterns and pitfalls for experienced engineers, and highlight cutting-edge research directions for specialists.\n \nPrerequisite(s):\n\nFamiliarity with Python/PyTorch: Proficiency in Python programming and basic hands-on experience using deep learning frameworks.\nConceptual Knowledge of Deep Learning: Basic understanding of neural networks, backpropagation, and the model fine-tuning process.\nFamiliarity with LLM Architectures: Conceptual understanding of the Transformer architecture, including components like attention mechanisms and feed-forward networks.",
@@ -5610,7 +5610,7 @@
   {
     "session_id": "DLIT82184",
     "title": "How to Provision and Install NVIDIA Run:AI",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Get grounded in the practical fundamentals of deploying NVIDIA Run:AI from the ground up. This lab walks you through every stage of installation-from environment preparation to final validation-so you can confidently stand-up Run:AI within your own organization. Follow a guided, instructor-led deployment in your provided lab environment, learn how to verify installations, and practice diagnosing and resolving common setup issues. Whether you're preparing for full production rollout or building a proof of concept, this session delivers the skills to deploy successfully and maintain stability.\n \nPrerequisite(s):\n\nGeneral experience with Kubernetes cluster administration.\nBasic understanding of containerized workloads and GPU infrastructure.",
@@ -6447,7 +6447,7 @@
   {
     "session_id": "DLIT81565",
     "title": "The Kaggle Grandmasters Playbook: Battle-Tested Modeling Techniques for Tabular Data",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Our workshop highlights proven strategies for tabular data developed by NVIDIA's Kaggle grandmasters, who have earned top honors in hundreds of international data science competitions. You'll practice rapid electronic design automation (EDA), large-scale feature engineering, model building, ensembling, and pseudo-labeling - all accelerated with GPUs for faster experimentation and better accuracy.\n \nPrerequisite(s):\n\nBasic Python knowledge and basic understanding of machine learning models and tabular data.",
@@ -6731,7 +6731,7 @@
   {
     "session_id": "DLIT81803",
     "title": "OpenUSD Asset Integration and Data Review With Clash Detection",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Integrate clash detection into your OpenUSD-based digital twin workflows using NVIDIA Omniverse libraries. In this lab, we'll ensure ingested assets are run through conflict analysis using the Clash Detection SDK. You'll create and execute collision detection queries, inspect and visualize results in an Omniverse viewport, and implement robust overlap detection in complex 3D scenes. We will learn the fundamentals of simulation for digital twins, engineering validation, and automated design verification workflows.\n \nPrerequisite(s):\n\nFamiliarity with CAD workflows, 3D modeling concepts\nBasic understanding of simulation concepts and collision detection principles\nExperience navigating 3D viewports and interactive visualization environments\nIntermediate scripting experience with Python",
@@ -6930,7 +6930,7 @@
   {
     "session_id": "DLIT81958",
     "title": "Deploy State-of-the-Art Gen AI on Your RTX PRO Workstation",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This session guides you through the end-to-end deployment of generative image models on NVIDIA RTX PRO workstations by leveraging ONNX Runtime and TensorRT-RTX. We'll demonstrate how to ship a multi-stage model pipeline across a wide set of hardware without sacrificing performance. This workflow will be powered by classic graphics APIs, ONNX Runtime, and the TensorRT-RTX Execution Provider. You'll leave with the skills to convert raw models into high-performance, offline-capable applications that run seamlessly across diverse hardware architectures.\n \nPrerequisite(s):\n\nFoundational knowledge of Python and GenAI models",
@@ -6998,7 +6998,7 @@
   {
     "session_id": "DLIT82006",
     "title": "Build Cost-Effective, Scalable RAG Pipelines: From Ingestion to Response Generation",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "We'll walk you through the full life cycle of a RAG pipeline: data ingestion, chunking and embedding, retrieval orchestration, and response generation, emphasizing robustness techniques such as hybrid retrieval, fallback strategies, caching, and constraint-aware prompting, along with patterns for monitoring quality and detecting drift over time. You'll also explore scaling concerns, including index sharding, cost-aware architecture choices, and aligning RAG design with product requirements and service-level agreements. By the end, you'll have implemented and evaluated a RAG pipeline that balances answer quality, latency, and reliability, providing a template for deploying similar systems in production.",
@@ -8389,7 +8389,7 @@
   {
     "session_id": "DLIT81546",
     "title": "Supercharge Tabular ML Models With GPU-Accelerated Feature Engineering",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Fast experimentation in feature engineering is essential to quickly discover the most valuable features that improve model performance. In this tutorial, we leverage NVIDIA cuDF and cuML libraries to accelerate the experimentation pipeline on GPUs with their zero-code change features, enabling faster feature engineering and quicker development of more accurate models.\n \nPrerequisite(s):\n\n\nBasic understanding of Python and tabular data.",
@@ -8523,7 +8523,7 @@
   {
     "session_id": "DLIT81697",
     "title": "Configure and Tune Robot Assets With OpenUSD and PhysX",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn from NVIDIA experts about OpenUSD best practices and physics tuning of mechanisms, using the example of a robotic hand. Starting from a URDF file, see how to structure, assemble, and optimize USD. Then learn about the physics tuning process, to enable dexterous hands to behave realistically in simulation. We will focus on best practices that make complex hand models performant, controllable, and ready for downstream learning and control tasks.\n \nPrerequisite(s):\n\n\nIntermediate experience with Python, including working with packages, virtual environments, and basic scripting.\n\n\nFamiliarity with 3D content concepts such as meshes, materials, transforms, and scene hierarchies from tools like Blender, Maya, or similar DCC applications.\n\n\nUnderstand command-line usage for running scripts and managing project files.\n\n\nHave familiarity with robotics or simulation workflows (for example, using simulation tools or working with physics-enabled assets).",
@@ -8654,7 +8654,7 @@
   {
     "session_id": "DLIT81818",
     "title": "Tabular Foundation Models for Financial Services",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Tabular data powers entire industries, but building state-of-the-art models for structured data at scale remains complex. In this session, we'll unveil a comprehensive workflow for building transformer-based tabular foundation models. Each stage of our reference architecture is GPU-accelerated: tabular synthetic data generation, feature engineering and tokenization, training large-scale tabular transformers, and deploying inference pipelines. We apply this workflow to the real-world problem of fraud detection in credit card transactions, highlighting best practices and NVIDIA's ecosystem for scalable tabular AI.\n \nPrerequisite(s):\n\nParticipants should be comfortable with basic Python and familiar with core AI/ML and Foundation Model concepts (tokenization, pre-training, fine tuning).\nExperience working with financial services data or workflows (e.g., banking, payments) is recommended but not required; the material is designed for technical practitioners such as data scientists, ML engineers, and developers.",
@@ -9080,7 +9080,7 @@
   {
     "session_id": "DLIT82342",
     "title": "Transform Massive Raw Data Into Diverse High-Quality Post-Training Datasets",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Struggling to gather high-quality data for your vision language models? This hands-on training lab walks you through a complete synthetic data generation pipeline-from curation and augmentation to pseudo-annotation and quality control. You'll learn how to transform any data into a high-quality dataset to post-train your vision language models (VLMs) for your domain-specific use cases.",
@@ -9862,7 +9862,7 @@
   {
     "session_id": "S81810",
     "title": "AI Research Breakthroughs from NVIDIA Research (Hosted by Karoly of Two Minute Papers)",
-    "session_type": "Lightning Talk",
+    "session_type": "Panel",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Don't miss this exciting live panel discussion, hosted by Károly Zsolnai-Fehér (better known as the creator of Two Minute Papers), featuring top researchers from NVIDIA Research. They'll dive into the latest breakthroughs in AI, spotlight the most promising emerging technical trends, and candidly explore the biggest open challenges facing the field today. Join us for an interactive, high-energy conversation packed with cutting-edge insights!",
@@ -10157,7 +10157,7 @@
   {
     "session_id": "S82074",
     "title": "How to Build Your Custom AI Advantage (Presented by Mistral AI)",
-    "session_type": "Talk",
+    "session_type": "Panel",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Enterprises need AI that builds on their unique expertise and strengthens their competitive edge. In this session, Tim Lacroix (co-founder and CTO, Mistral AI), Kari Briski (vice president of Gen AI, NVIDIA), and Carlos Pereira (chief architect, Cisco Customer Experience) reveal how Mistral AI's open-source leadership-paired with a full-stack AI approach-delivers unmatched customization, efficiency, and control. We'll reveal new models, products and platforms from Mistral AI that help to unlock the ROI of AI in the enterprise.",
@@ -10623,7 +10623,7 @@
   {
     "session_id": "DLIT81682",
     "title": "Accelerate Drug Discovery With NVIDIA Libraries and Platforms",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "The field of drug discovery is increasingly benefiting from AI, helping researchers build efficient predictive and generative workflows that drastically reduce time-to-clinic. NVIDIA accelerates this process with open-source solutions like BioNeMo Recipes, NIM, and Clara Open Models for Digital Biology, providing easy-to-adopt solutions for training and deploying foundation models and agentic AI systems for drug discovery. In this session, we'll demonstrate how the latest NVIDIA accelerated libraries and models streamline AI workflows, accelerate drug discovery, and enable more efficient biomolecular design and analysis.\n \nPrerequisite(s):\n\nBasic understanding of Python, Machine Learning, and Docker",
@@ -10752,7 +10752,7 @@
   {
     "session_id": "DLIT81754",
     "title": "From Ingestion to Inference: Mastering the High-Performance GPU Data Science Pipeline",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Get a comprehensive guide to constructing a complete, high-performance data science pipeline that leverages GPU acceleration throughout its life cycle. We'll sequentially cover the pipeline's core components: data ingestion, exploration, processing, and model training. For the initial stages of data ingestion and exploration, we'll demonstrate the use of GPU-accelerated frameworks, specifically Polars and/or cuDF pandas, to achieve significant speedups in data manipulation and analysis. Then we'll showcase the power of the cuML library (part of the RAPIDS ecosystem) for training and testing various machine learning models entirely on the GPU.\n \nPrerequisite(s):\n\nAttendees need basic Python skills and introductory data science knowledge, but no prior GPU experience is required.",
@@ -10939,7 +10939,7 @@
   {
     "session_id": "DLIT81801",
     "title": "Real-Time Simulation for Real-Time Results: How AI Physics Can Accelerate Your AI Factory",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This hands-on lab introduces mechanical and simulation engineers to GPU-accelerated, real-time CFD workflows that combine interactive visualization with physics-AI models. Participants will use NVIDIA technologies to connect CFD simulations, PhysicsNeMo, and digital twin environments for faster iteration and more reliable design insights.\nWe will configure and run real-time CFD cases, integrate PhysicsNeMo for accelerated prediction, and visualize results interactively for design exploration. The session will show how to move from traditional batch-style CFD to responsive, GPU-driven workflows that support rapid concept evaluation and collaborative design reviews.\n \nPrerequisite(s):\n\nFamiliarity with CAE workflows and core computational fluid dynamics concepts.\nExperience with engineering simulation principles, including mesh, boundary conditions, and solver workflows.\nUnderstanding of 3D scene composition, transforms, and visualization in simulation or 3D environments.\nBasic knowledge of physics-based simulation and design optimization processes.",
@@ -11034,7 +11034,7 @@
   {
     "session_id": "DLIT81948",
     "title": "Create Generative AI Workflow for Design and Visualization in ComfyUI",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "The latest image and video generation models, combined with LLM, are fantastic tools to build powerful agentic AI workflows, but they're hard to access through too many cloud access points to efficiently iterate on concepts and stay up to date. In this two-hour instructor-led workshop, you'll learn how to use GPU acceleration for ComfyUI on local workstation or servers, pulling the latest models to build complex generative workflows. Workflows will range from image generation and separation, artefact removal, 3D generation, Physically based rendering (PBR) material generation, 360 and HDR Image Based Lighting (IBL) generation, as well as video generation. Whether you are a developer willing to learn what models work best for what tasks, or an industrial designer or digital artist willing to understand how to drive AI with your inputs, this course demonstrates how ComfyUI can be used to power design and visualization workflows with Gen AI. \n \nPrerequisite(s):\n\nA desire to learn. Whether you are an expert in models, ComfyUI or a beginner, you should learn something if you are ready to drink the AI from the firehose.",
@@ -13960,7 +13960,7 @@
   {
     "session_id": "DLIT81541",
     "title": "Build Surgical and Medical Robotics With NVIDIA Isaac for Healthcare: From Simulation to Deployment",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Gain hands-on experience in setting up simulation environments, generating and converting synthetic medical data, modifying scenes and assets, collecting and curating datasets via state-machine demonstrations, fine-tuning the GR00T N1 Vision-Language-Action (VLA) model, and testing robotic ultrasound tasks in simulation. We emphasize safe, efficient AI model development and deployment for healthcare applications.\n \nPrerequisite(s):\n\n\nIsaacSim and IsaacLab foundational experience.\n\n\nPython and terminal experience.\n\n\nGeneral understanding of deep learning, and vision language action models.",
@@ -13987,7 +13987,7 @@
   {
     "session_id": "DLIT81660",
     "title": "Data to Decisions: GPU-Accelerated Decision Optimization",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn to optimize decision optimization problems with GPU-accelerated workflows using NVIDIA cuOpt, RAPIDS, CUDA-X libraries, and Nemotron models. This hands-on lab dives into advanced LP/MIP solver integration, accelerated primal heuristics, cutting-plane methods, and deployment patterns for large-scale, real-time optimization.\n \nPrerequisite(s):\n\n\nFoundational knowledge of optimization: Familiarity with Linear Programming and Mixed Integer Programming concepts (constraints, relaxations, heuristics, cutting planes).\n\n\nBasic Python proficiency: Ability to read and modify Python scripts used in optimization workflows.\n\n\nSome experience with GPUs or CUDA-based frameworks: Prior exposure to GPU computing (e.g., RAPIDS, CUDA-X libraries) is helpful but not mandatory.\n\n\nComfort with OR tooling: Experience with at least the optimization solver ecosystem",
@@ -14018,7 +14018,7 @@
   {
     "session_id": "DLIT81698",
     "title": "Scalable Environment Setup and Policy Evaluation in Simulation with Isaac Lab Arena and GR00T",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this hands-on lab, you'll gain expertise on workflows for simulation-based policy evaluation, including how to setup simulation environments with Isaac Lab Arena, how to post-train GR00T models for custom tasks and how to evaluate trained policies in simulation at scale. NVIDIA Isaac Lab Arena is a framework for scalable policy evaluation in simulation. \nNVIDIA Isaac GR00T provides robot foundation models for cognition and control, built on NVIDIA OmniverseTM and CosmosTM.\n \nPrerequisite(s):\n\nIntermediate experience with Python, including working with packages, virtual environments, and basic scripting.\nUnderstand command-line usage for running scripts and managing project files.\nHave familiarity with robotics or simulation workflows (for example, using simulation tools or working with physics-enabled assets).",
@@ -14059,7 +14059,7 @@
   {
     "session_id": "DLIT81798",
     "title": "Building and Deploying Digital Twin Applications With Omniverse Kit App Streaming",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Unlock the power of real-time 3D digital twin applications with NVIDIA Omniverse Kit App Streaming. In this lab, you'll build, containerize, deploy, and extend interactive 3D applications that stream directly to web clients, enabling scalable, remote simulation and control for digital twin solutions. We're going to create a streaming-ready OpenUSD application and a front-end client, then package and deploy a solution using industry-standard tools and APIs. You'll explore how to implement custom messaging between your app and client, allowing for rich, bi-directional interaction and integration with live data sources. You'll gain practical experience with the full development and deployment workflow for Omniverse Kit App Streaming and develop a solid foundation for building operational digital twins that deliver real-time insights and collaboration across your organization.\n \nPrerequisite(s):\n\nIntermediate Python experience, including working with packages and basic scripting\nFamiliarity with cloud platforms and IoT concepts\nUnderstanding of 3D scene concepts: transforms, hierarchies, and basic visualization\nBasic knowledge of REST APIs and data streaming concepts",
@@ -14117,7 +14117,7 @@
   {
     "session_id": "DLIT81945",
     "title": "Faster Together: Train and Deploy a Speculative Decoding Model for Low-Latency LLM Inference",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Dive deep into theory and practice of low-latency inference by deploying NVIDIA TensorRT-LLM with advanced speculative decoding techniques. You'll train an Eagle-3 draft head to propose candidate tokens efficiently, serve it, and benchmark it using AIPerf to quantify how these strategies minimize latency.\n \nPrerequisite(s):\n\nFamiliarity with bash and Python.\nFamiliarity with the concept of token.",
@@ -14149,7 +14149,7 @@
   {
     "session_id": "DLIT82008",
     "title": "Deploy and Customize Your AI Factory: Make Your AI Factory Feel Like Home!",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This hands-on lab will get you down and dirty with customizing an AI factory.  Experience how typical administrator tasks are made easier with NVIDIA Mission Control, and explore the interfaces and tools that NVIDIA Mission Control provides for doing \"Day 1 and beyond\" work.\n \nPrerequisite(s):\n\nTo be successful, participants should have an understanding of AI clusters, Linux, and containers.\nBring a laptop as this session is very interactive!",
@@ -15421,7 +15421,7 @@
   {
     "session_id": "DLIT81587",
     "title": "Accelerated Omics and Single-cell Analysis Using NVIDIA GPUs",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "The explosion of biological data generation and innovations in AI have opened new frontiers in scientific discovery and biomedicine. With the ability to process vast amounts of biological data, accelerated analysis and foundation model approaches are transforming digital biology. This workshop provides hands-on experience for how accelerated libraries and deep learning models can be leveraged to process and analyze complex biological data. Gain an understanding of the end-to-end process, from how NVIDIA libraries support data generation, pre-processing, and analysis of single-cell data, to how foundation models are being used and evaluated in the life sciences. Get an overview of relevant solutions in digital biology, such as Parabricks, RAPIDS-singlecell (developed by scverse), NVIDIA CUDA-X Data Science Libraries, and Clara Open Models. \n \nPrerequisite(s):\n\nBasic familiarity with Python, Jupyter, and Bioinformatics workflows.",
@@ -15458,7 +15458,7 @@
   {
     "session_id": "DLIT81609",
     "title": "Build End-to-End Medical AI Workflows With NVIDIA Clara Open Models",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This comprehensive hands-on workshop demonstrates how to build production-ready medical AI workflows using NVIDIA Clara's latest open models and tools. You'll gain practical experience with NV-Segment, NV-Generate, NV-Reason, and MONAI Label to create powerful medical imaging applications.\n \nPrerequisite(s):\n\nBasic Python Experience\nBasic medical background",
@@ -15486,7 +15486,7 @@
   {
     "session_id": "DLIT81641",
     "title": "Find the Bottleneck: Optimize AI Pipelines With Nsight Systems",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn about using NVIDIA Nsight Systems for bottleneck detection in AI pipelines and explore new features to optimize and scale the execution of your applications. This lab will guide you through the performance analysis process of GPU-accelerated AI applications that run across multiple, possibly containerized, compute instances.   \n\nIn addition to profiling of CPU, GPU, network and I/O activity, we'll show how NVTX and plugin mechanisms enable the collection of custom data to support an even more comprehensive and tailored analysis on the target platform. We'll also show how the recipe system can be used to identify bottlenecks in applications running across multiple nodes.  \n\nThis lab is for both beginners and experienced developers who want to learn about the latest features, tips, and tricks for performance analysis to get the most out of their hardware. \n \nPrerequisite(s):\n\nFamiliarity with GPUs and CUDA\nUp to date Chrome or IE browser",
@@ -15717,7 +15717,7 @@
   {
     "session_id": "DLIT81738",
     "title": "Deploy and Optimize LLMs and VLMs on NVIDIA Jetson Thor",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn to deploy, optimize, and accelerate large language models (LLMs) and vision-language models (VLMs) on NVIDIA Jetson Thor through hands-on exercises with real hardware. We'll demonstrate production-ready inference frameworks including vLLM and SGLang, apply NVIDIA ModelOpt for quantization, showcase systematic methods to achieve inference performance improvements, and explore advanced capabilities like tool calling and live VLM inference - all running on edge devices you can touch and interact with.\n \nPrerequisite(s):\nRequired:\n\n\nBasic understanding of Large Language Models and transformer architectures\n\n\nFamiliarity with Python programming and container technologies (Docker)\n\n\nExperience with command-line interfaces and SSH for remote device access\n\n\nLaptop with network connectivity (Ethernet preferred, WiFi acceptable)\n\n\nRecommended:\n\nPrior exposure to PyTorch or inference frameworks\nBasic understanding of model quantization concepts\nFamiliarity with REST APIs and web services",
@@ -15755,7 +15755,7 @@
   {
     "session_id": "DLIT81764",
     "title": "Unlock Real-Time Financial Decisions With GPU-Accelerated Portfolio Optimization",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Discover how to resolve the trade-off between computational speed and model complexity in financial portfolio management. This session combines NVIDIA's Quantitative Portfolio Optimization developer example with exclusive insights from Kendall Square Capital, demonstrating how to accelerate large-scale, complex portfolio optimization problems without compromising result quality.\n\nLearn how to formulate data-driven models to leverage cuOpt and CUDA-X Data Science libraries to unlock accelerations up to triple-digit speed-ups compared to CPU-based solutions. Gain insights into how these innovations transform portfolio optimization from a slow batch process into a dynamic workflow, unlocking new frontiers in automated investing research and real-time rebalancing.\n \nPrerequisite(s):\n\nPython programming, basic knowledge of numerical optimization",
@@ -15929,7 +15929,7 @@
   {
     "session_id": "DLIT82000",
     "title": "Split and Win: Dynamo's Prefill-Decode Disaggregation and Smart KV Routing for Extreme LLM Throughput",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Master the deployment of massive mixture-of-expert architectures by configuring Dynamo's PD Disaggregation with Large Expert Parallelism to maximize GPU efficiency. Learn to optimize distributed data flows including KV Cache Aware Routing to achieve an order-of-magnitude increase in serving throughput while meeting strict production latency demands.\n \nPrerequisite(s):\n\nFamiliarity with LLM inference pipelines (prefill-decode, kv-cache, etc) and compilers including TensorRT-LLM, vLLM, or SGLang",
@@ -17191,7 +17191,7 @@
   {
     "session_id": "DLIT81550",
     "title": "Build Domain AI Agents that Accurately Use Tools with Reinforcement Learning",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this hands-on lab, we will create adaptive, tool-using AI agents that learn through trial, error, and feedback, moving beyond static prompting. We'll work with NVIDIA NeMo Gym and NeMo RL open libraries, and post-train Nemotron open models to build domain-specific agents capable of mastering complex workflows and tool-use using reinforcement learning (RL).\n \nAs a practical and engaging challenge, we'll build and train an agent to play a \"Wordle\" game. While the game is lighthearted, attendees experience the same enterprise-grade stack and development patterns that can scale to real-world applications such as autonomous coding, applied reasoning, scientific discovery, and to any custom use case.\nTogether, we'll walk through the full RL lifecycle - from building custom simulations/ RL environments and designing verifiable rewards to iterative training and performance evaluation - developing the foundations needed to build high-performance, domain AI agents that continually learn and adapt.\n \nPrerequisite(s):\n\n\nBasic experience with Python\n\n\nA general understanding of LLMs or agent workflows or Generative AI concepts (no deep ML background required)\n\n\nFamiliarity with REST APIs or function-calling concepts is helpful but not mandatory\n\n\nOptional but beneficial: Exposure to NVIDIA NeMo, containerized development (Docker), or cloud workflows\n\n\nNo prior experience with Nemotron models or NeMo is required.",
@@ -17228,7 +17228,7 @@
   {
     "session_id": "DLIT81592",
     "title": "Advancing Multimodal Systems: Alignment, Information Typology, Reasoning, and Cross-Modal Flow",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This lab explores key principles for advancing multi-modal systems, focusing on multi-modal information typology, alignment, multi-step reasoning, and cross-modal flow. We analyze redundant, unique, and synergistic information, and examine multi-modal alignment through coarse-grained versus fine-grained behavior. The lab then investigates multi-step multi-modality reasoning with external knowledge, where agents integrate images, text, tables, and diagrams to solve complex tasks. Finally, we study multi-modal information flow through cross-modal translation, cross-modal editing, and cross-modal querying, supported by NIM examples for text-to-image generation, semantic image editing, and visual question-answering.\n \nPrerequisite(s):\n\n\nBasic understanding of machine learning and deep learning concepts, including embeddings and neural network architectures.\n\n\nFamiliarity with multimodal AI concepts, such as combining text, image, and other data modalities.\n\n\nExperience with Python programming and standard ML libraries (e.g., PyTorch, TensorFlow).\n\n\nBasic knowledge of data visualization techniques (e.g., PCA, t-SNE) for interpreting embeddings.",
@@ -17266,7 +17266,7 @@
   {
     "session_id": "DLIT81644",
     "title": "Generate Synthetic Data for Physical AI with NVIDIA Cosmos World Foundation Models",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This hands-on lab introduces roboticists, AI developers, and pipeline engineers to NVIDIA Cosmos world foundation models (WFMs) for synthetic data generation in robot learning pipelines. Participants will learn how to leverage simulation scenes from Isaac Sim and real-life images and videos to provide initial datasets and augment them with Cosmos Transfer, then evaluate data quality with Cosmos Reason-all within a production-ready robotics pipeline.\n\nThrough this session, you'll experience an end-to-end data pipeline workflow, leveraging Cosmos WFMs to generate synthetic data from real-world and physically-accurate simulated data, and using Cosmos Reason as an intelligent critic to validate data quality. \n\nBy completing this lab, you'll unlock the ability to generate high-quality training datasets, accelerating your action model development.\n\n \nPrerequisite(s):\n\nFamiliarity with robotics simulation concepts (what is synthetic data, why it matters)\nBasic Python scripting experience (reading/writing scripts, understanding function calls)\nUnderstanding of machine learning fundamentals (training, fine-tuning, evaluation)\nFamiliarity with Cosmos (recommended course: An Introduction to NVIDIA Cosmos for Physical AI)",
@@ -17298,7 +17298,7 @@
   {
     "session_id": "DLIT81650",
     "title": "Develop AI-Powered Operational Dashboards for Digital Twin Applications",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Create intelligent operational dashboards for digital twin applications using NVIDIA Omniverse. Build compact, real-time monitoring interfaces with React to track factory metrics, robot states, and sensor data streams. Embed custom panels into Kit applications and deploy dashboards across local and cloud environments. Learn to integrate LLM agents for natural language interaction with your digital twin data. Through hands-on exercises, learn the workflow for dashboard creation for streaming deployment, enabling intelligent monitoring and control of complex industrial operations.\n \nPrerequisite(s):\n\nFamiliarity with REST APIs, data streaming, and real-time visualization concepts\nBasic understanding of factory operations, IoT metrics, and monitoring workflows\nExperience with Python scripting for backend integration and automation\nKnowledge of LLM concepts and natural language processing",
@@ -17330,7 +17330,7 @@
   {
     "session_id": "DLIT82181",
     "title": "How to Accelerate AI Workflows With NVIDIA Run:AI",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Unlock faster, smarter AI development in this hands-on introduction to the NVIDIA Run:AI platform. In this lab, you'll explore how Run:AI streamlines machine learning operations, removes infrastructure bottlenecks, and simplifies workload management to accelerate outcomes. Learn how dynamic resource allocation transforms efficiency across enterprise teams, ensuring workloads run faster, smoother, and at scale. Then apply what you learn directly in your lab environment as instructors guide you through real-world examples of accelerated ML operations. You'll leave with practical skills and a strong foundation for optimizing performance with Run:AI.\n \nPrerequisite(s):\n\nBasic understanding of machine learning workflows and terminology.\nGeneral familiarity with containerized environments (Docker or Kubernetes preferred).\nNo prior Run:AI experience required.",
@@ -17356,7 +17356,7 @@
   {
     "session_id": "DLIT82308",
     "title": "Hands-On NVIDIA DGX Spark (Sponsored by GCL)",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "NVIDIA is teaming up with GCL for a hands-on lab on NVIDIA DGX Spark. In this lab, you will build an AI agent using the latest open-source NVIDIA and community model, and explore enhancing and extending the agent abilities.",
@@ -18689,7 +18689,7 @@
   {
     "session_id": "DLIT81579",
     "title": "Optimize PyTorch Models for High-Performance Inference With Nsight Deep Learning Designer",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn how to use a graphical user interface-based integrated development environment (IDE) purpose-built for deep neural network developers to manage the end-to-end process of going from PyTorch to a deployment-ready model that yields the best inference performance. Learn how to use a GPU-based performance profiler to guide sound decision-making for model optimizations.\n \nPrerequisite(s):\n\nThe core concepts of PyTorch and Deep Learning are needed to get through this course.",
@@ -18742,7 +18742,7 @@
   {
     "session_id": "DLIT81668",
     "title": "Harness NVIDIA AI Advanced Tools for Generative AI in Digital Health",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Explore the NVIDIA Data Flywheel, which uses agent deployment artifacts from production applications to increase the overall accuracy and reduce the latency/cost of agentic AI systems. We'll explore how to utilize the NeMo Microservices Platform for programmatic control of datasets, fine-tuning, evaluation, and inference. \n \nPrerequisite(s):\n\n\nFamiliarity with Python, basic understanding of how agentic systems work, hands-on knowledge is encouraged but not required.",
@@ -18809,7 +18809,7 @@
   {
     "session_id": "DLIT81699",
     "title": "Building and Testing Multi‐Robot Scenarios with Isaac Sim and ROS 2",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Gain practical experience in orchestrating multi-robot collaboration, automating simulation workflows, and executing autonomous navigation and object manipulation tasks in a test scenario, using ROS 2, Simulation Interfaces, and Isaac Sim. These skills will empower you to deploy and test advanced robotics solutions.\n \nPrerequisite(s):\n\nBasic understanding of ROS (Robot Operating System).\nIntermediate experience with Python, including working with packages, virtual environments, and basic scripting.\nFamiliarity with 3D content concepts such as meshes, materials, transforms, and scene hierarchies from tools like Blender, Maya, or similar DCC applications.\nUnderstand command-line usage for running scripts and managing project files.\nHave familiarity with robotics or simulation workflows (for example, using simulation tools or working with physics-enabled assets).",
@@ -19053,7 +19053,7 @@
   {
     "session_id": "DLIT81881",
     "title": "Scaling Robotic AI Development from Prototype to Production",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this hands-on lab, General Robotics will guide you through a complete, end-to-end solution development workflow built on the NVIDIA ecosystem. You'll learn to:\n\nCapture teleoperated demonstrations of real manual tasks\nAugment, vary, and scale those tasks in simulation using NVIDIA Isaac\nGenerate high-volume synthetic datasets to expand coverage\nFine-tune modern robotics models using NVIDIA's training infrastructure\nTest policies and reinforcement learning models in advanced simulation, leveraging NVIDIA AI models like GraspGen, CuMotion, and Foundation Stereo\nDeploy learned behaviors to real robots running on Jetson\nAnalyze system performance and iterate using the latest LLMs and agentic tools\nBridge the human-robot gap across development, validation, and deployment\n\nPrerequisite(s):\n\nEnthusiasm to learn the latest techniques in AI and robotics.",
@@ -19079,7 +19079,7 @@
   {
     "session_id": "DLIT82002",
     "title": "Efficient Workload Management for AI Factories: What Every Admin Needs to Know",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this hands-on lab you'll learn, as an AI factory administrator, how real workloads are run on a cluster. Intended for IT types (not data scientists!), this lab will have you configuring Run:ai, allocating and monitoring resources, and building a workload with NVIDIA NIMS to understand just what the user experience is, and what tools are at your disposal to make the AI factory workloads actually work.\n \nPrerequisite(s):\n\nTo be successful, participants should have an understanding of AI clusters, Linux, and containers.\nBring a laptop as this session is very interactive!",
@@ -19230,7 +19230,7 @@
   {
     "session_id": "DLIT82062",
     "title": "MLOps Best Practices: Build an AI Agent",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn practical ways to implement MLOps first principles as you create autonomous AI agents using LangGraph and NVIDIA NIM by building an agentic system that demonstrates tool integration, multi-step reasoning, and adaptive planning. Master the foundational agent architecture that MLOps engineers use to automate tedious workflows like incident investigation, experiment documentation, and model health monitoring - then customize it for your own use cases.\n \nPrerequisite(s):\n\nBasic programming knowledge",
@@ -19440,7 +19440,7 @@
   {
     "session_id": "S82390",
     "title": "Redefining AI Performance: NVIDIA Blackwell on OCI Accelerated Infrastructure (Presented by Oracle)",
-    "session_type": "Talk",
+    "session_type": "Panel",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This session introduces OCI's newest purpose-built GPU instances that unify large-scale AI, agentic inference, and advanced visual computing workloads-and shows how they come to life on Oracle Cloud Infrastructure (OCI). Learn how new OCI GPU shapes deliver a dramatic leap forward over prior generations, enabling higher LLM inference throughput for agentic AI, faster genomics sequencing, acceleration for text-to-video generation, faster recommender system inference, and rendering dramatic performance gains. These improvements unlock entirely new classes of real-time, data-intensive enterprise applications across healthcare, financial services, manufacturing, media, and scientific research.",
@@ -21365,7 +21365,7 @@
   {
     "session_id": "DLIT81597",
     "title": "Using Reasoning VLAs to Develop Safer Autonomous Vehicles",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this training lab, we'll demonstrate how state-of-the-art reasoning vision-language-actions (VLAs) models, like Alpamayo R1, can be used as part of a safety evaluation pipeline ready for next-generation, end-to-end AI-powered autonomous vehicles (AVs). Learn how to use these powerful reasoning models to aid in data curation for safety validation, using these models to mine the NVIDIA Physical AI Dataset to identify key scenarios to target with additional testing. \n \nPrerequisite(s):\n\nPython (specifically, Jupyter Lab/Notebook-based computing)",
@@ -21398,7 +21398,7 @@
   {
     "session_id": "DLIT81642",
     "title": "Accelerate Apache Spark With GPU and AI: A Hands-On Workshop",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this training lab, we'll introduce Aether - a set of automation and AI tools that speed up and reduce the cost of accelerated extract, transform, load and analytics workloads on the RAPIDS Accelerator for Apache Spark. Aether combines automation along with advanced AI tools to automatically test and optimize your Apache Spark workloads with GPU.\n \nPrerequisite(s):\n\nSome experience with Linux and the command line needed.\nAn understanding of large-scale analytics and Apache Spark is not required, but would be helpful.",
@@ -21435,7 +21435,7 @@
   {
     "session_id": "DLIT81700",
     "title": "Accelerate Robot Learning With NVIDIA Isaac Lab and Newton",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This hands-on lab introduces Newton, a GPU-accelerated physics engine. Then we'll integrate Newton with Isaac Lab, showing how they can work together in robot-learning workflows. You'll configure tasks to run on Newton, and train and evaluate policies in Isaac Lab with Newton providing high-fidelity, high-throughput physics. You'll leave knowing how to use Newton for more realistic robotics simulation.\nPrerequisite(s):\n\nIntermediate experience with Python, including working with packages, virtual environments, and basic scripting.\nFamiliarity with 3D content concepts such as meshes, materials, transforms, and scene hierarchies from tools like Blender, Maya, or similar DCC applications.\nUnderstand command-line usage for running scripts and managing project files.\nHave familiarity with robotics or simulation workflows (for example, using simulation tools or working with physics-enabled assets).",
@@ -21472,7 +21472,7 @@
   {
     "session_id": "DLIT82021",
     "title": "Ultra Scale Runbook for PyTorch on NVIDIA GPUs for Training and Inference",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "In this lab, we'll walk through large-scale training and deployment of a well-known mixture-of-experts (MoE) LLM. You'll learn how to scale MoE pre-training by composing several parallelism techniques (FSDP, Tensor Parallel, Pipeline Parallel), memory saving techniques (Activation Checkpointing, CPU Offloading), and torch.compile driven optimizations. We'll use TorchTitan as our pre-training framework.\n\nWe'll also demonstrate how to deploy such a model using the vLLM framework. You'll learn how to apply CUDA-accelerated inference-specific optimizations available in vLLM.\n \nPrerequisite(s):\n\nKnowledge of PyTorch concepts and modules.\nKnowledge of MoE LLM models like DeepSeek-V3 or LLAMA4-Scout.\nKnowledge of system concepts like docker, CUDA, distributed processes.",
@@ -21510,7 +21510,7 @@
   {
     "session_id": "DLIT82143",
     "title": "High-Performance LLM Serving and Training with SGLang",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This training lab shows you how to optimize and scale LLM workflows with SGLang. We walk through practical performance tuning using the SGL-Cookbook, dive into profiling and bottleneck analysis for developers, and demonstrate its deep integration into reinforcement learning (RL) training frameworks by showing how to use SGLang in a real RL run with the Miles RL framework.\n \nPrerequisite(s):\n\nComfortable with Python and command-line workflows\nCurious about how LLM systems are optimized and scaled in practice\nNo prior experience with SGLang, performance tuning, or RL training is required",
@@ -21546,7 +21546,7 @@
   {
     "session_id": "DLIT82183",
     "title": "Advanced Workload Orchestration With NVIDIA Run:AI",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "NVIDIA Run:ai is a comprehensive platform that brings advanced, AI-native scheduling and resource management to GPU infrastructure, enabling enterprises to accelerate and scale AI operations efficiently, reduce costs, and accelerate innovation. In this lab, you will learn the basics of NVIDIA Run:ai and how to create AI workloads. Designed for AI practitioners, this lab guides you through the practical steps of creating, launching, and monitoring interactive, inference, and training workloads using NVIDIA Run:ai.\n \nPrerequisite(s):\n\nFamiliarity with the NVIDIA Run:ai platform\nFamiliarity with containerized environments (e.g., Docker)\nGeneral knowledge of AI/ML workflows\nExperience working with machine learning libraries and tools, such as PyTorch and Jupyter Lab",
@@ -22542,7 +22542,7 @@
   {
     "session_id": "DLIT81545",
     "title": "Profiling Python and AI workloads with Nsight Compute",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn how to use the Nsight Compute tool to profile CUDA and AI GPU kernels in the Python framework of your choice: Numba, Triton or PyTorch. Understand the optimization workflows provided by NVIDIA Nsight Compute UI and its ncu command line interface. Use the new scoreboard dependency analysis view and source page improvements like opcode to metric pipeline associations. Learn how to use the Nsight Jupyterlab Extension for profiling and streaming reports directly in Jupyter. Try the latest Nsight Python decorators for profiling from within any Python script.\n \nPrerequisite(s):\n\nIntermediate knowledge of CUDA",
@@ -22604,7 +22604,7 @@
   {
     "session_id": "DLIT81567",
     "title": "Accelerating LLM Training and Inferencing With Reduced Precision Format",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Large-scale LLMs require enormous computational resources, making efficiency crucial for training. Learn how cutting-edge reduced-precision formats such as FP8, MXFP4 and NVFP4 can dramatically accelerate pre-training, post-training, and inference while maintaining accuracy close to full-precision baseline models. You'll learn how NVIDIA's innovative NVFP4 format better captures dynamic range and reduces quantization error compared to MXFP4. We'll cover techniques including Random Hadamard Transforms, two-dimensional block quantization, stochastic rounding, and strategic placement of higher-precision layers to stabilize training. \nGain practical skills with the software tools necessary for quantization-aware training and efficient inference deployment, helping your applications retain accuracy while benefiting from reduced precision.\n \nPrerequisite(s):\n\nUnderstanding of LLM training and inference\nBasic understandings of reduced precision formats\nPython, docker and shell scripting skills",
@@ -22642,7 +22642,7 @@
   {
     "session_id": "DLIT81572",
     "title": "Powering Specialized Agents: Architecting Synthetic Data Pipelines with NVIDIA Data Designer",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Building a truly performant LLM agent means fine-tuning for your unique use-case. This requires training data that span multiple specialized domains or tools; for most real-world applications, the data you need simply don't exist.\n\nThis hands-on workshop leverages NVIDIA Data Designer, our recently open-sourced, state-of-the-art framework, to bridge this gap. We'll cover the latest techniques developed at NVIDIA for producing high-quality reasoning data, including STEM and tool-calling workflows used to scale Nemotron models.\n\nBy the end of this session, you will gain the skills to speed up data experimentation and drive innovation in your own AI projects.\n \nPrerequisite(s):\n\n\nBasic Python and Jupyter notebooks\n\n\nTraining or fine-tuning LLMs (conceptually)\n\n\nUsing datasets for supervised fine-tuning and evaluation (classification, generation, or instruction-following tasks)\n\n\nOptional: prior exposure to NVIDIA NeMo, Hugging Face datasets/models, or other LLM fine-tuning stacks.",
@@ -22788,7 +22788,7 @@
   {
     "session_id": "DLIT81776",
     "title": "Adding Safety and Perception to Industrial Robots",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn to implement functional safety for robots using an \"outside-in\" approach. You will gain deep insight into building collaborative, AI-powered factory environments where vision systems and robotics converge to deliver operational intelligence and safety.\nWe will connect industrial robots to factory-wide sensor infrastructure using NVIDIA Metropolis to build intelligent systems dedicated to robot safety. Through practical exercises, you will create a video analytics AI agent that extends a robot's real-time perception. \n\nThis agent will enable critical safety features, such as automatic speed adjustments (slowing down or speeding up) and risk mitigation, essential for safe co-bot environments. This lab showcases how NVIDIA Halos for Outside-In Safety Agents, powered by NVIDIA Metropolis technology, enable an outside-in approach to achieving advanced functional safety.\n \nPrerequisite(s):\n\n\nIntermediate experience with Python, including packages, virtual environments, and scripting\n\n\nFamiliarity with computer vision concepts, object detection, and AI inference pipelines\n\n\nExperience with robotics workflows and sensor integration\n\n\nKnowledge of data streaming, real-time analytics, and message-passing architectures",
@@ -23045,7 +23045,7 @@
   {
     "session_id": "DLIT82292",
     "title": "Teach AI to Code in Every Language With NVIDIA NeMo",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "\"Teaching AI to Code in Every Language with NVIDIA NeMo\" is a hands-on training lab for machine learning practitioners, data scientists, and developers who want to build state-of-the-art coding language models on NVIDIA's platform. Participants will learn how to use NVIDIA NeMo and NVIDIA GPU-accelerated infrastructure to train multilingual LLMs for code, from dataset preparation and cleaning to large-scale distributed training and optimization. The session will cover key challenges of multilingual code modeling, such as balancing languages, handling noisy repositories, and designing evaluation strategies that reflect real-world developer workflows. Attendees will implement practical techniques for scaling training across large compute environments, apply best practices for performance tuning, and explore how these models can power developer assistants, code review tools, and enterprise codebase management solutions. By the end of the lab, participants will have a clear roadmap to experiment with, train, and deploy advanced multilingual coding LLMs using NVIDIA's end-to-end ecosystem.",
@@ -23147,7 +23147,7 @@
   {
     "session_id": "DLIT82405",
     "title": "Inspecting Multimodal Data with Nemotron and Gemma 3",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This workshop introduces a multi-agent approach to solving complex, visual-heavy enterprise tasks. You will learn to use Google Gemma 3 as an agentic orchestrator to plan tasks, call tools, and leverage Nemotron for high-fidelity visual reasoning.",
@@ -23579,7 +23579,7 @@
   {
     "session_id": "QA81637",
     "title": "PMPP Edition 5 Unveiled: Ask Dr. Wen Mei and the CUDA Team Your Questions",
-    "session_type": "Q&A With NVIDIA Experts",
+    "session_type": "Connect With the Experts, Q&A With NVIDIA Experts",
     "format": "In-Person",
     "recording": "No",
     "abstract": "Join Dr. Wen-Mei Hwu and NVIDIA experts for a live Q&A exploring key updates in the CUDA ecosystem since the last edition of his book Programming Massively Parallel Processors (PMPP). This session offers a rare opportunity to engage directly with Wen-Mei and his team of CUDA engineers, who will answer technical questions, share new features introduced in PMPP Edition 5, and discuss emerging topics under consideration for the sixth edition.\n\nImportant:Q&A with NVIDIA Experts are live, interactive sessions where attendees can ask questions directly to a panel of NVIDIA experts in a group setting. The experts address one question at a time for everyone in the room, so each answer is shared with all participants. This format is designed to deliver broadly relevant insights, turning every question into a chance for collective learning.",
@@ -24717,7 +24717,7 @@
   {
     "session_id": "DLIT81485",
     "title": "Hands-On With Earth-2: Building Local and National Weather Resilience With AI",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "We explore the life cycle of AI-based high-resolution regional weather forecasting applications, which are used by businesses and governments to achieve independent local weather and climate prediction capabilities at high accuracy and unprecedented speed. We'll start by creating a custom high-resolution model, guiding you through preparing a training dataset, training a downscaling diffusion model with NVIDIA PhysicsNeMo, and packaging it for real-time use. We then use NVIDIA Earth2Studio to integrate our custom model with a global AI-based weather forecasting model, such as FourCastNet 3, to build a full regional forecasting workflow, enabling sharper and more actionable local forecasts. We'll then discuss leveraging custom weather observations to improve the accuracy of the predictions, and deploying the workflow in operations so it can be productized as an inference service.\n\nPrerequisite(s):\n\nPrevious DLI: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-31+V1\nBasic Python and Deep learning experience.",
@@ -24755,7 +24755,7 @@
   {
     "session_id": "DLIT81757",
     "title": "Advance World Simulation With 3D Gaussian Splatting for Large-Scale Environment Reconstruction",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn how to reconstruct a large scene for robotics testing using NVIDIA Omniverse NuRec Gaussian-based reconstruction technologies to perform multi-GPU training, object segmentation, and extraction. This lab will walk through core concepts with a step-by-step workflow for data capture, reconstruction, and object level-integration for robotics simulation in NVIDIA Isaac Lab.\n \nPrerequisite(s):\n\nOmniverse NuRec, Isaac Sim / Lab",
@@ -24781,7 +24781,7 @@
   {
     "session_id": "DLIT81808",
     "title": "Train and Deploy Contact-Rich Robot Manipulation Skills With Isaac Lab and Isaac ROS",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn how to develop contact‐rich manipulation policies in Isaac Lab, and deploy them using NVIDIA Isaac ROS. In this hands‐on lab, you will walk through a gear-assembly workflow that uses Isaac Lab to train an insertion policy, and then deploy it in ROS 2, together with perception models (segmentation and 3D pose estimation) and cuMotion for GPU‐accelerated planning. You'll see how to configure an Isaac for Manipulation workflow that begins with a simulated UR robot and depth cameras for training the policy, and then tune to achieve robust, repeatable sim‐to‐real performance on contact‐rich tasks.\n \nPrerequisite(s):\n\nBasic understanding of ROS (Robot Operating System).\nIntermediate experience with Python, including working with packages, virtual environments, and basic scripting.\nFamiliarity with 3D content concepts such as meshes, materials, transforms, and scene hierarchies from tools like Blender, Maya, or similar DCC applications.\nUnderstand command-line usage for running scripts and managing project files.\nHave familiarity with robotics or simulation workflows (for example, using simulation tools or working with physics-enabled assets).",
@@ -24814,7 +24814,7 @@
   {
     "session_id": "DLIT81837",
     "title": "How to use NVIDIA Warp to Build GPU-Accelerated Computational Physics Simulations",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Discover how NVIDIA Warp enables the next generation of GPU-accelerated physics, geometry processing, and differentiable programming. This training lab introduces Warp's core capabilities and modules, then moves into a hands-on notebook where participants build a high-performance physics solver entirely in Python. This is demonstrated through a practical computational fluid dynamics example based on a 2-D Navier-Stokes formulation. You'll leave with an understanding of what Warp is designed for, how its core building blocks work, and how it can be used alongside deep learning frameworks like PyTorch and JAX in modern computational engineering workflows.",
@@ -24851,7 +24851,7 @@
   {
     "session_id": "DLIT82150",
     "title": "Accelerate Video Frame Extraction and Labeling",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "Learn how to reduce the cost associated with frame extraction for computer vision post-processing using free and publicly-accessible American Sign Language data.  Use a novel, open-source framework and contribute to the world's largest dataset.\n \nPrerequisite(s):\n\nHave GitHub Account\nUnderstand Python and Poetry\nHave AWS Command Line Interface Configured (for S3 Operations)",
@@ -24887,7 +24887,7 @@
   {
     "session_id": "DLIT82311",
     "title": "Train and Test End-to-End Autonomous Vehicles with Alpamayo",
-    "session_type": "Training Lab $",
+    "session_type": "Training Lab",
     "format": "In-Person",
     "recording": "Yes",
     "abstract": "This workshop will help you get started with the Alpamayo suite of models, frameworks, and data for building reasoning-based autonomous vehicles. Learn how to run neural reconstructions on the AlpaSim simulator with the NVIDIA Physical AI Open Datasets and connect it to the Alpamayo 1 end-to-end stack. By the end of the session, you'll have hands-on experience running neural simulations and will be more familiar working with end‐to‐end stacks.",
@@ -31512,5 +31512,1442 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82462/"
+  },
+  {
+    "session_id": "CWES82499",
+    "title": "Claws: How to Build Safe and Secure Long Running Agents",
+    "session_type": "Connect With the Experts",
+    "format": "In-Person",
+    "recording": "No",
+    "abstract": "Running today’s self-evolving AI agents is fundamentally insecure. Agents such as OpenClaw operate with real system access but lack a robust, infrastructure-level security model. Tool-level restrictions can be bypassed when agents discover alternate execution paths, and container or prompt-based guardrails are insufficient for long-running systems. In this session, experts will discuss infrastructure-level security and runtime platforms for deploying autonomous agents more securely by default.\n\nImportant: Connect With the Experts sessions are interactive sessions that give you a unique opportunity to meet, in either a group or one-on-one setting, with the minds behind NVIDIA’s products and research to get your questions answered. Attendees can meet with experts on a first-come, first-served basis.",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Code / Software Generation",
+    "technical_level": "Technical - Intermediate",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "NeMo, DGX Spark, Nemotron",
+    "key_takeaways": [
+      "Understand why long-running agents introduce new security risks beyond traditional model deployments.",
+      "Learn the core design principles for safe agent systems, including permissions, isolation, and controlled execution.",
+      "Recognize common failure modes, such as tool bypass and unintended system access, and how to counteract such failure modes.",
+      "Explore practical approaches to sandboxing, access control, and runtime enforcement.",
+      "Gain insight into monitoring, auditing, and governing agents operating across extended, multi-step workflows."
+    ],
+    "speakers": [
+      {
+        "name": "Alex Watson",
+        "title": "Sr. Director",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Nader Khalil",
+        "title": "Director of Developer Technology",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Carter Abdallah",
+        "title": "Sr. Developer Technology Engineer",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82499/"
+  },
+  {
+    "session_id": "CWES82516",
+    "title": "Ask the NVCC Experts: CUDA Compiler Language, Performance, and Tuning",
+    "session_type": "Connect With the Experts",
+    "format": "In-Person",
+    "recording": "No",
+    "abstract": "Join us for an interactive Connect with Experts session focused on the NVCC CUDA Compiler Toolchain—the core engine behind CUDA C++ language support, compiler functionality, and performance optimization on NVIDIA platforms.\n\nNVCC compiler experts will be available to discuss topics including CUDA language features, compilation workflows, optimization strategies, and performance tuning considerations across different workloads and architectures. Bring real-world questions, challenges, or areas of curiosity: from understanding compilation decisions and generated code to navigating advanced optimization and debugging scenarios.",
+    "industry": "All Industries",
+    "topic": "Developer Tools & Techniques - Programming Languages / Compilers",
+    "technical_level": "Technical - Beginner",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "CUDA",
+    "key_takeaways": [
+      "Learn how compiler decisions impact performance, and what to consider when authoring and tuning CUDA applications.",
+      "Gain a clearer understanding of the NVCC CUDA compiler toolchain including language support, core functionality, and compilation flow.",
+      "Get direct insights from CUDA and NVCC experts on common developer questions, challenges, and real‑world scenarios.",
+      "Explore best practices for working with CUDA language features, diagnostics, and optimization techniques."
+    ],
+    "speakers": [
+      {
+        "name": "Vatsa Santhanam",
+        "title": "Sr. Director, Compiler Software",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Nikhil Gupta",
+        "title": "Engineering Manager",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Anshu Das Gupta",
+        "title": "Sr. Director, Engineering",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Howard Chen (SW-GPU)",
+        "title": "Compiler Engineering Manager",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Jerry Zheng",
+        "title": "Director, Systems Software",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Mike Murphy",
+        "title": "Senior Compiler Engineer",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82516/"
+  },
+  {
+    "session_id": "CWES82483",
+    "title": "Optimize Deep Learning Kernels on NVIDIA GPUs With FlashInfer and cuDNN",
+    "session_type": "Connect With the Experts",
+    "format": "In-Person",
+    "recording": "No",
+    "abstract": "Modern AI workloads live or die by the performance of a handful of critical GPU kernels. In this Connect With the Experts session, there are no slides—just open, in-depth discussions with NVIDIA engineers about FlashInfer, cuDNN, and the optimized kernels that power today’s models. Bring your hardest performance questions, unusual model shapes, and kernel-level challenges to talk through how choices around attention, Tensor operations, memory access patterns, fusion, and precision affect behavior on current GPU architectures. The conversation will center on your real-world scenarios: what limits you’re hitting, what you’ve already tried, and which directions are most promising to explore next. You’ll walk away with concrete ideas and heuristics you can apply later with your own tools and workflows, plus pointers to resources for going deeper.\n\nImportant: Connect With the Experts sessions are interactive sessions that give you a unique opportunity to meet, in either a group or one-on-one setting, with the minds behind NVIDIA’s products and research to get your questions answered. Attendees can meet with experts on a first-come, first-served basis.",
+    "industry": "All Industries",
+    "topic": "Developer Tools & Techniques - Performance Optimization",
+    "technical_level": "Technical - Intermediate",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "CUDA, cuDNN",
+    "key_takeaways": [
+      "Understand how FlashInfer and cuDNN optimize critical deep learning kernels.",
+      "Diagnose GPU performance bottlenecks using attention, Tensor, and memory insights.",
+      "Design kernel fusion and precision strategies for demanding model architectures."
+    ],
+    "speakers": [
+      {
+        "name": "Rajas Mhaskar",
+        "title": "Sr. Systems Software Engineer",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Yang Xu",
+        "title": "DL Software Engineering Manager",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Brian Ryu",
+        "title": "Sr. Systems Software Engineer",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Alex Yang",
+        "title": "",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Anerudhan Gopal",
+        "title": "Sr. Systems Software Engineer",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Mingyang Wang",
+        "title": "",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Joe Halabi",
+        "title": "Senior Systems Software Engineer",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Zihao Ye",
+        "title": "",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Vedaanta Agarwalla",
+        "title": "Senior Systems Software Engineer",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Yanqin Zhai",
+        "title": "Senior Systems Software Engineer",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Yunzhe Qiu",
+        "title": "Software Engineer",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82483/"
+  },
+  {
+    "session_id": "S82491",
+    "title": "Empowering Human Creativity: A Discussion With Paramount Skydance’s Dane Glasgow",
+    "session_type": "Fireside Chat",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "Whether it was the transition from black-and-white to color or from linear to streaming, the entertainment industry is well-versed in innovation, transformation, and disruption. As content produced by AI models becomes more widespread, media companies face a unique set of issues as the industry works to protect its intellectual property and maintain the trust of its creatives and audiences. In a fireside chat with Paramount’s Chief Product Officer Dane Glasgow, we will hear how he and his company leverage new and emerging technologies in support of their employees and the creative community, while taking definitive measures to protect its IP and storytelling.",
+    "industry": "Media & Entertainment",
+    "topic": "Content Creation / Rendering - Media Streaming / Data Streaming",
+    "technical_level": "General Interest",
+    "intended_audience": "Business Executive",
+    "nvidia_technology": "CUDA, Blackwell",
+    "key_takeaways": [
+      "Understand how Hollywood executives and leaders in the creative economy view AI and its applications.",
+      "Learn about the implications AI has on issues related to intellectual property, identity, and trust in media.",
+      "Hear how major publicly traded companies are creating long-term value by upgrading their tech stacks and implementing other available technologies."
+    ],
+    "speakers": [
+      {
+        "name": "Dane Glasgow",
+        "title": "CPO",
+        "company": "Paramount, a Skydance Corporation"
+      },
+      {
+        "name": "Richard Kerris",
+        "title": "VP and General Manager",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82491/"
+  },
+  {
+    "session_id": "S82438",
+    "title": "Accelerating Scientific Discovery Through Global Innovation",
+    "session_type": "Fireside Chat",
+    "format": "Both",
+    "recording": "Yes",
+    "abstract": "Join Undersecretary Dario Gil for a forward-looking update on the Genesis Mission—a bold initiative redefining how science, technology, and global collaboration drive scientific discovery. This session will showcase early successes of NVIDIA’s long-standing collaborations with the U.S. Department of Energy and ongoing work with leading research centers such as the Argonne, Los Alamos, and Oak Ridge national laboratories. Discover how these collaborations are advancing breakthroughs across energy, quantum technology, and materials science—and learn how developers, researchers, and business leaders alike can help shape the next frontier of scientific innovation.",
+    "industry": "HPC / Scientific Computing",
+    "topic": "Simulation / Modeling / Design - Supercomputing",
+    "technical_level": "Business / Executive",
+    "intended_audience": "Research: Non-Academic",
+    "nvidia_technology": "CUDA",
+    "key_takeaways": [
+      "Understand the Genesis Mission’s vision, goals, and milestones for global scientific collaboration with industry partners.",
+      "Explore real-world success stories demonstrating the mission’s impact on research and innovation.",
+      "Learn where Genesis is focusing its research efforts—energy, quantum computing, and materials science—and how to engage in these initiatives."
+    ],
+    "speakers": [
+      {
+        "name": "Dario Gil",
+        "title": "Undersecretary for Science",
+        "company": "U.S. Department of Energy"
+      },
+      {
+        "name": "Ian Buck",
+        "title": "VP Hyperscale and HPC Computing",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82438/"
+  },
+  {
+    "session_id": "SE82376",
+    "title": "Live Agent Gauntlet",
+    "session_type": "Hackathon",
+    "format": "In-Person",
+    "recording": "No",
+    "abstract": "Put your AI agent to the test in a competitive, benchmark-driven challenge. In this esports-style hackathon, teams are given the challenge in advance and have dedicated time to build and optimize their agents before the event.\n\nOn the day of the competition, teams will load their agents live and evaluate performance head-to-head on standardized benchmarks. Results will be tracked in real time on a public leaderboard, showcasing the strongest approaches and optimizations.",
+    "industry": "",
+    "topic": "",
+    "technical_level": "General Interest",
+    "intended_audience": "Student: Undergraduate",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-se82376/"
+  },
+  {
+    "session_id": "SE82375",
+    "title": "Vibe Hack: Rapid Prototyping, From Idea to Reality",
+    "session_type": "Hackathon",
+    "format": "In-Person",
+    "recording": "No",
+    "abstract": "Experience the power of \"Vibe Coding\"—where momentum drives creation. In this accessible three-hour session, we are removing complex roadmaps to focus on rapid ideation and execution. Whether you are a business leader, a student, or a seasoned developer, you will use NVIDIA cutting-edge AI models to turn concepts into working applications in real time. Collaborate with others, meet community members, and learn from others by building together. All teams will compete for the main prizes, with a special bounty category dedicated to best use of NVIDIA Nemotron models.\n\nAll entries are eligible to be featured in a Developer Showcase.",
+    "industry": "All Industries",
+    "topic": "",
+    "technical_level": "Technical - Intermediate",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "Nemotron",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-se82375/"
+  },
+  {
+    "session_id": "S82553",
+    "title": "Safety in the OpenClaw Era",
+    "session_type": "Panel",
+    "format": "Both",
+    "recording": "Yes",
+    "abstract": "AI has crossed a threshold. Autonomous agents like OpenClaw, no longer just assist but hold credentials, persist context across sessions, spawn subagents, and execute continuously against production systems. That's a fundamentally different threat model than anything enterprise security was built to handle. The attack surface is real. Every prompt injection is a potential credential leak. Every third-party skill is an unreviewed binary. Every major enterprise platform is becoming an agent platform, and the governance infrastructure to match that reality doesn't exist at scale yet.\nThis panel brings together security and AI leaders to ask the hard questions: what does a real security model for autonomous agents look like? \nThe agents are ready. The infrastructure to trust them is what we're here to discuss.",
+    "industry": "Public Sector and Sovereign AI",
+    "topic": "Agentic AI / Generative AI - Code / Software Generation",
+    "technical_level": "Business / Executive",
+    "intended_audience": "Business Executive",
+    "nvidia_technology": "NeMo, Nemotron",
+    "key_takeaways": [
+      "How AI is shifting from copilots that assist to autonomous agents that act, learn, and adapt independently.",
+      "How autonomous systems can run continuously across cloud and local environments, managing end-to-end workflows.",
+      "What OpenClaw and similar platforms reveal about deploying autonomous agents safely and at scale.",
+      "What new security, governance, and observability models are needed to oversee self-directed systems.",
+      "How the rise of the “agentic operating layer” is transforming human–AI collaboration into continuous partnership."
+    ],
+    "speakers": [
+      {
+        "name": "Elia Zaitsev",
+        "title": "Global CTO",
+        "company": "CrowdStrike"
+      },
+      {
+        "name": "Ali Golshan",
+        "title": "Sr. Director",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Amit Zavery",
+        "title": "President, CPO",
+        "company": "ServiceNow"
+      },
+      {
+        "name": "Francis deSouza",
+        "title": "Chief Operating Officer and President, Security Products",
+        "company": "Google Cloud"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82553/"
+  },
+  {
+    "session_id": "S82461",
+    "title": "Science at the Speed of Light: The Genesis Mission Across DoE Labs",
+    "session_type": "Panel",
+    "format": "Both",
+    "recording": "Yes",
+    "abstract": "Panelists will discuss the key areas of the Genesis Mission and how the private-public partnership is working, including such key areas as energy, quantum, and open models.",
+    "industry": "HPC / Scientific Computing",
+    "topic": "Simulation / Modeling / Design - Supercomputing",
+    "technical_level": "Technical - Advanced",
+    "intended_audience": "Business Executive",
+    "nvidia_technology": "BlueField DPU, CUDA, Omniverse, PhysicsNeMo, cuQuantum, BioNeMo, Clara Holoscan, cuOPT, NeMo, NVLink / NVSwitch, CUDA Quantum, NVIDIA NIM, Blackwell, NVIDIA AI Enterprise, CUDA-Q, NVIDIA Run:ai, Nemotron",
+    "key_takeaways": [
+      "Genesis Mission Goals...and how we measure success for the nation",
+      "Progress in the Energy Space...and what it means for powering AI",
+      "Quantum Work at the U.S. Department of Energy (DoE)... and the next frontier of computing",
+      "Open Models...and what is needed",
+      "Genesis goals for the next 12 months"
+    ],
+    "speakers": [
+      {
+        "name": "Brian Spears",
+        "title": "Principal Investigator",
+        "company": "Lawrence Livermore National Laboratory"
+      },
+      {
+        "name": "Rick Stevens",
+        "title": "Associate Laboratory Director, Computing, Environment and Life Sciences, and Professor of Computer Science",
+        "company": "Argonne National Laboratory and University of Chicago"
+      },
+      {
+        "name": "Chris Ritter",
+        "title": "Division Director of Scientific Computing and AI",
+        "company": "Idaho National Laboratory"
+      },
+      {
+        "name": "John Josephakis",
+        "title": "Global VP HPC/Supercomputing",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Gina Tourasi",
+        "title": "Associate Laboratory Director",
+        "company": "Oak Ridge National Laboratory"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82461/"
+  },
+  {
+    "session_id": "S82300",
+    "title": "Physical AI in Enterprises: What’s Real, What Scales, What’s Next (Presented by Deloitte)",
+    "session_type": "Panel",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "Top leaders from Siemens and Volkswagen come together to explore how physical AI, Siemens’ industrial digitalization portfolio, and digital twins built on OpenUSD and NVIDIA Omniverse libraries are redefining the future of automated virtual commissioning. This executive conversation highlights how physics-accurate digital twins, real-time interoperability, and closed-loop automation are enabling faster engineering cycles, higher production quality, and more resilient manufacturing operations. \n\nThe panel will examine how combining Siemens’ end-to-end automation and life-cycle platforms with real-time simulation, powered by NVIDIA libraries and accelerated AI infrastructure, creates a unified environment where design, controls, and operations continuously learn from each other. Together, Siemens and Volkswagen will share strategic insights on how these technologies are accelerating the shift from simulation to scalable, AI-driven production systems across global manufacturing networks.",
+    "industry": "All Industries",
+    "topic": "Robotics - Robotics Simulation",
+    "technical_level": "Business / Executive",
+    "intended_audience": "Business Executive",
+    "nvidia_technology": "",
+    "key_takeaways": [
+      "Tuesday, March 17  |  4:00 p.m. - 4:40 p.m. PDT",
+      "SJCC 230C (L2)",
+      "Explore More Great Sessions",
+      "Connect with the Experts",
+      "In-Person",
+      "A Deep Dive Into Omniverse Libraries for OpenUSD and Physical AI Development [CWES81740]",
+      "Tue, Mar 17 | 2:00 p.m. PDT",
+      "Brian Harrison | NVIDIA",
+      "Stephanie Rubenstein | NVIDIA",
+      "Join this interactive Q&A session to get direct, actionable advice from NVIDIA's core engineering teams on overcoming the critical developer friction points in building large-scale, physically accurate digital twins for robotics, autonomous vehicles, and manufacturing. This is your unique opportunity to discuss your specific use cases and technical challenges directly with the experts who develop and maintain the core Omniverse libraries and technologies for world simulation, including OpenUSD, PhysX, RTX, and more. Important: Connect With the Experts sessions are interactive sessions that give you a unique opportunity to meet, in either a group or one-on-one setting, with the minds behind NVIDIA’s products and research to get your questions answered. Attendees can meet with experts on a first-come, first-served basis."
+    ],
+    "speakers": [
+      {
+        "name": "Nitin Mittal",
+        "title": "Global AI Leader, Principal",
+        "company": "Deloitte"
+      },
+      {
+        "name": "Jochen Fichtner",
+        "title": "CIO",
+        "company": "CIO Volkswagen de Mexico"
+      },
+      {
+        "name": "Mark Hindsbo",
+        "title": "Head of Operations Software, Siemens Digital Industries",
+        "company": "Siemens"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82300/"
+  },
+  {
+    "session_id": "S82480",
+    "title": "Open Models: Where We Are and Where We’re Headed",
+    "session_type": "Panel",
+    "format": "Both",
+    "recording": "Yes",
+    "abstract": "Doors open at 11:30 a.m. Session begins at 12:30 p.m.\n\nOne of the most important shifts in AI over the past year has been the rapid advancement of open frontier models. Open innovation is accelerating progress across every company and every industry, making it clear that AI will proliferate everywhere. \n\n NVIDIA founder and CEO Jensen Huang hosts industry leaders for a candid discussion on the state of the art in open frontier models and what comes next.",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Code / Software Generation",
+    "technical_level": "General Interest",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "Nemotron",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Harrison Chase",
+        "title": "Co-Founder and CEO",
+        "company": "LangChain"
+      },
+      {
+        "name": "Jensen Huang",
+        "title": "Founder and CEO",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Michael Truell",
+        "title": "CEO and Co-Founder",
+        "company": "Cursor"
+      },
+      {
+        "name": "Misha Laskin",
+        "title": "Co-founder and CEO",
+        "company": "Reflection AI"
+      },
+      {
+        "name": "Aravind Srinivas",
+        "title": "CEO & Co-founder",
+        "company": "Perplexity"
+      },
+      {
+        "name": "Mira Murati",
+        "title": "Founder and CEO",
+        "company": "Thinking Machines Lab"
+      },
+      {
+        "name": "Arthur Mensch",
+        "title": "Co-Founder and CEO",
+        "company": "Mistral"
+      },
+      {
+        "name": "Daniel Nadler",
+        "title": "CEO",
+        "company": "OpenEvidence"
+      },
+      {
+        "name": "Hanna Hajishirzi",
+        "title": "Professor, Sr. Director NLP",
+        "company": "AI2"
+      },
+      {
+        "name": "Anjney Midha",
+        "title": "Founder",
+        "company": "Founder, AMP PBC"
+      },
+      {
+        "name": "Robin Rombach",
+        "title": "Co-Founder and CEO",
+        "company": "Black Forest Labs"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82480/"
+  },
+  {
+    "session_id": "S82476",
+    "title": "GTC Live 2026 Keynote Pregame",
+    "session_type": "Pregame",
+    "format": "Both",
+    "recording": "Yes",
+    "abstract": "Catch the excitement of the keynote pregame.  Be there for the live conversations between the hosts and industry leader panelists as they examine accelerated computing beyond AI, NVIDIA’s role as a full-stack infrastructure company, and the five-layer foundation behind one of the largest infrastructures build-outs in history — and the ecosystem required to deliver it worldwide.",
+    "industry": "All Industries",
+    "topic": "Developer Tools & Techniques - AI Platforms",
+    "technical_level": "General Interest",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "Blackwell",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Tiffany Janzen",
+        "title": "Software Developer and Founder",
+        "company": "TiffinTech"
+      },
+      {
+        "name": "Sarah Guo",
+        "title": "Founder and Managing Partner",
+        "company": "Conviction"
+      },
+      {
+        "name": "Gavin Baker",
+        "title": "Managing Partner & Chief Investment Officer",
+        "company": "Atreides Management, LP"
+      },
+      {
+        "name": "Alfred Lin",
+        "title": "Partner",
+        "company": "Sequoia Capital"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82476/"
+  },
+  {
+    "session_id": "S82486",
+    "title": "从 M2 到 M2.5：以更小的 (Mini) 参数释放最大的 (Max) 普惠智能",
+    "session_type": "Talk",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "本次分享将系统介绍 MiniMax M2 系列如何在仅 10B 激活参数规模下，实现 SOTA 级别的 coding 与 agentic co-work 性能。我们将深入解析在训练资源受限条件下的模型架构取舍、agentic 数据与环境的大规模扩展方法，以及如何基于 NVIDIA 软硬件全栈能力实现高效训练、强化学习与高吞吐推理落地。",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Code / Software Generation",
+    "technical_level": "General Interest",
+    "intended_audience": "Research: Academic",
+    "nvidia_technology": "CUDA, cuDNN",
+    "key_takeaways": [
+      "架构取舍：在真实任务约束下选择 Full Attention 的工程逻辑。我们将解析为何在复杂推理与 coding 任务中坚持采用 full attention 而非 linear attention，以及如何在 NVIDIA GPU 加速与高效算子优化支持下控制训练与推理成本，实现性能与效率的平衡。",
+      "Agentic 数据与环境扩展：从单任务能力到系统能力提升。介绍如何构建大规模、多样化的 agentic 交互环境与工具链数据，通过环境扩展驱动模型在真实下游复杂任务中的泛化能力提升。",
+      "原生大规模 Agent 强化学习框架 Forge。分享MiniMax M2系列模型的原生 agent 强化学习框架 Forge，如何结合 Megatron-LM 分布式并行训练体系，以及 NVIDIA 的 GPU 集群与系统级优化能力，实现白盒与黑盒 agent 的大规模强化学习训练，在稳定性、吞吐与资源效率之间取得工程级平衡。"
+    ],
+    "speakers": [
+      {
+        "name": "鹏宇 赵",
+        "title": "通用模型负责人",
+        "company": "MiniMax"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82486/"
+  },
+  {
+    "session_id": "S82400",
+    "title": "UK AI Minister: AI Growth Zones and the UK’s AI Opportunities Action Plan",
+    "session_type": "Talk",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "Join this fireside chat with Kanishka Narayan, MP and U.K. AI Minister, and Bea Longworth, Director of Government Relations, EMEA to examine how the U.K. Government is reshaping the country's global competitiveness in AI through massive infrastructure investment and innovative policy frameworks. You will leave with a clear understanding of the U.K. government's roadmap for AI leadership and how countries can unlock new economic value for enterprises, governments, scientists, and citizens around the world.",
+    "industry": "Public Sector and Sovereign AI",
+    "topic": "Data Center / Cloud - Infrastructure",
+    "technical_level": "General Interest",
+    "intended_audience": "Research: Non-Academic",
+    "nvidia_technology": "Cloud / Data Center GPU, Hopper, Blackwell",
+    "key_takeaways": [
+      "Unlock Infrastructure ROI: Discover how the U.K.’s \"Growth Zones\" model is fast-tracking data center construction and grid connectivity to solve the energy bottleneck for enterprise AI scaling.",
+      "Build Sovereign Capability: Understand the strategic shift from \"adopting\" to \"making\" AI, and how the Sovereign AI Unit’s investment roadmap creates a blueprint for national and corporate competitive advantage.",
+      "Drive Public-Private Value: See real-world examples of how targeted government investment is de-risking private R&D, creating a multiplier effect that accelerates economic impact for global organizations."
+    ],
+    "speakers": [
+      {
+        "name": "Bea Longworth",
+        "title": "Director of Government Relations EMEA",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Kanishka Narayan",
+        "title": "Parliamentary Under-Secretary of State",
+        "company": "UK Department for Science, Innovation and Technology"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82400/"
+  },
+  {
+    "session_id": "S82492",
+    "title": "Scale Marketing Content Automation With 3D Digital Twin and Generative AI",
+    "session_type": "Talk",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "As brands scale personalized campaigns across channels and regions, traditional production models break down. This session explores how teams automate content creation with 3D digital twins and generative AI—transforming physical products into reusable systems that power high-volume pipelines.\n\nLearn how automated workflows generate packshots, composite imagery, and product configurations at scale, replacing manual photoshoots with cloud-native, production-ready content pipelines.",
+    "industry": "Media & Entertainment",
+    "topic": "Content Creation / Rendering - Image / Photo Editing",
+    "technical_level": "Technical - Intermediate",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "Cloud / Data Center GPU, Omniverse Replicator, RTX Remix, NVIDIA AI Enterprise",
+    "key_takeaways": [
+      "Automating Content Production with Digital Twins: Learn how 3D digital twins become reusable systems that drive automated generation of marketing imagery across formats, regions, and campaigns.",
+      "Simulated Content Pipelines at Scale: See how 3D digital twins can replace manual photoshoots with scalable, automated content generation.",
+      "From Creative Assets to Operational Systems: Understand how Adobe’s content platform operationalizes digital twins across the marketing life cycle—powering production, activation, and performance measurement with automation and governance."
+    ],
+    "speakers": [
+      {
+        "name": "Guido Quaroni",
+        "title": "Sr. Director of Product and Engineering, 3D & Immersive Division",
+        "company": "Adobe"
+      },
+      {
+        "name": "Varun Parmar",
+        "title": "GM of GenStudio and Firefly Enterprise",
+        "company": "Adobe"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82492/"
+  },
+  {
+    "session_id": "S81596",
+    "title": "Real-Time Generative Video Re-Styling for Gaming in the Next-Generation Datacenter",
+    "session_type": "Talk",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "Decart’s Lucy Restyle is a World Transformation Model that reimagines any video, game, or camera feed into a new digital world in real time. We will dive into how Decart and NVIDIA optimized Lucy Restyle inference for low-latency, cost-efficient cloud deployment on NVIDIA B40 GPUs through GeForce NOW (GFN). Finally, we’ll demonstrate how to harness Lucy Restyle to Lucy Restyle completely restyle titles via the ultimate modding platform: RTX Remix.",
+    "industry": "Gaming",
+    "topic": "Agentic AI / Generative AI - Video Generation",
+    "technical_level": "Technical - Advanced",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "Cloud / Data Center GPU, RTX GPU, RTX Remix, Blackwell",
+    "key_takeaways": [
+      "Learn how the latest generative models can transform video, with fine grain control over the output style & look.",
+      "Discover how GPU experts at Decart and NVIDIA optimized the Lucy Restyle model to run in the cloud on GDN datacenters, precision optimized for performance and ultra-low latency.",
+      "Learn how GDN SDK integration enabled Lucy Restyle to stream from the cloud to reach a range of consumer devices.",
+      "See how Video to Video models can be plumbed into a game rendering pipeline for real-time frame buffer modification."
+    ],
+    "speakers": [
+      {
+        "name": "Ethan Petersen",
+        "title": "Member of Technical Staff",
+        "company": "Decart"
+      },
+      {
+        "name": "Bhavani Gopalakrishna Rao",
+        "title": "Director of Engineering,",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Alex Dunn",
+        "title": "Director of Engineering at NVIDIA Lightspeed Studios,",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81596/"
+  },
+  {
+    "session_id": "S81849",
+    "title": "How NVIDIA Tapped Its Unstructured Data for AI Insights",
+    "session_type": "Talk",
+    "format": "Both",
+    "recording": "Yes",
+    "abstract": "Enterprises sit on a treasure trove of knowledge, the biproduct of years of digital operations, locked away in silos. In this session, NVIDIA IT, along with ecosystem partners, will walk through the architectural patterns, governance models, and “vendor lab” environment NVIDIA created to unlock the value of this data for AI developers and agents.",
+    "industry": "All Industries",
+    "topic": "MLOps - DataOps",
+    "technical_level": "Technical - Intermediate",
+    "intended_audience": "Dev / IT Operations",
+    "nvidia_technology": "Cloud / Data Center GPU, RTX GPU, LaunchPad, Multi-Instance GPU (MIG), NeMo, NVIDIA NIM, Blackwell, NVIDIA AI Enterprise, Blueprint",
+    "key_takeaways": [
+      "Design patterns for overcoming data silos, including dedicated “vendor lab” environments to onboard and test agents safely",
+      "How to use eval-driven workflows to compare, select, and tune agents to minimize risk while maximizing return on investment",
+      "Practical guidance for defining access controls and data governance so ML engineers can move quickly",
+      "Lessons learned on what actually drives agent adoption (hint: performance and alignment to user needs, not hype)"
+    ],
+    "speakers": [
+      {
+        "name": "Rama Akkiraju",
+        "title": "VP, AI for IT",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Steve Kearns",
+        "title": "GM Search Solutions",
+        "company": "Elastic"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81849/"
+  },
+  {
+    "session_id": "S82474",
+    "title": "Continuous Inference Benchmarking of the AI Frontier",
+    "session_type": "Talk",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "As large language model architectures evolve, traditional peak performance metrics are becoming less predictive of real-world efficiency. Effective inference benchmarking now requires a multidimensional approach that balances raw throughput against energy consumption, cost-per-token, and the critical \"interactivity\" thresholds required for user-facing applications.\n\nThis session introduces InferenceX, SemiAnalysis’ open-source benchmark suite designed to navigate this complexity by sweeping the latest software optimizations across leading AI accelerators. It moves beyond static datasheets to examine nightly, reproducible results that reveal how frontier models perform under variable production workloads. Learn how the InferenceX benchmarks are designed, how to run them, and how to interpret the results to make informed decisions.",
+    "industry": "All Industries",
+    "topic": "Developer Tools & Techniques - AI Inference",
+    "technical_level": "Technical - Advanced",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "Blackwell",
+    "key_takeaways": [
+      "Learn how InferenceXv2 extends the original InferenceMAX benchmark with new metrics, workflows, and real-world use cases you can apply immediately.",
+      "Discover how to balance throughput, power efficiency, and cost-per-token to benchmark AI performance that actually matters in production.",
+      "Explore how interactivity thresholds shape real-world latency and user experience—and how to measure them effectively.",
+      "Learn how to compare software optimizations across top AI accelerators in your own environment.",
+      "Gain the skills to interpret nightly, reproducible benchmark data and make smarter hardware and deployment decisions based on real production behavior."
+    ],
+    "speakers": [
+      {
+        "name": "Cameron Quilici",
+        "title": "Member of Technical Staff",
+        "company": "SemiAnalysis"
+      },
+      {
+        "name": "Dylan Patel",
+        "title": "Founder",
+        "company": "SemiAnalysis"
+      },
+      {
+        "name": "Kimbo Chen",
+        "title": "Member of Technical Staff",
+        "company": "SemiAnalysis"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82474/"
+  },
+  {
+    "session_id": "S82477",
+    "title": "Co-Engineering Grace CPU Platforms for Hyperscale",
+    "session_type": "Talk",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "Meta operates one of the world’s largest and most diverse computing fleets, spanning AI training and inference, web services, ranking, caching, analytics, and video processing. In this technical session, leaders from Meta and NVIDIA share how they co-engineer NVIDIA Grace CPU–based platforms end‑to‑end to meet the performance, efficiency, and scale demands of hyperscale fleets. You’ll see how joint work across silicon, platform design, and infrastructure integration improves performance per watt, rack density, and overall fleet efficiency, and how these platforms enable the next generation of hyperscale infrastructure for AI and large‑scale services.",
+    "industry": "Cloud Services",
+    "topic": "Data Center / Cloud - Infrastructure",
+    "technical_level": "Technical - Intermediate",
+    "intended_audience": "Dev / IT Operations",
+    "nvidia_technology": "Cloud / Data Center GPU, Grace CPU, MGX, NSight Compute",
+    "key_takeaways": [
+      "Understand why hardware–software co‑design is critical for large‑scale, production deployments.",
+      "Learn concrete optimization strategies to deliver world‑class performance and efficiency across diverse AI and cloud workloads.",
+      "See how end‑to‑end co‑engineering from Meta and NVIDIA—from silicon to data center integration—is shaping the next generation of data center compute for AI, cloud services, and large‑scale distributed systems."
+    ],
+    "speakers": [
+      {
+        "name": "Shobhit Kanaujia",
+        "title": "AI and Systems Co-Design",
+        "company": "Meta"
+      },
+      {
+        "name": "Abhishek Dhanotia",
+        "title": "Software Engineer",
+        "company": "Meta"
+      },
+      {
+        "name": "Ian Finder",
+        "title": "Head of Product, Data Center CPUs",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82477/"
+  },
+  {
+    "session_id": "S82484",
+    "title": "Computing on the Road: Scaling the Waymo Driver for the Real World",
+    "session_type": "Talk",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "Autonomous ride-hailing is increasingly a daily reality for more people with Waymo. As the most mature manifestation of AI in the physical world, Waymo’s path has been defined by 200 million miles and over 20 million trips completed without a human specialist present. Drawing on this unparalleled scale of experience, we will explore Waymo’s approach to developing its own custom hardware, the vital role AI compute plays in enabling it, and how this integrated foundation makes our demonstrably safe AI architecture possible.",
+    "industry": "Automotive / Transportation",
+    "topic": "Edge Computing - Autonomous Machines",
+    "technical_level": "General Interest",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Daniel Rosenband",
+        "title": "Compute Lead",
+        "company": "Waymo"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82484/"
+  },
+  {
+    "session_id": "S82412",
+    "title": "Transforming how Vehicles are Designed, Bought, and Serviced With Agentic AI (Presented by AWS)",
+    "session_type": "Talk",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "AWS and Cox Automotive, powered by NVIDIA, demonstrate how AI agents are transforming vehicle operations from experimental tools into foundational business infrastructure. Cox Automotive built an agentic workflow in just four days using proprietary data and multi-agent orchestration to automate vehicle inspections, ensure accurate billing, and deliver consistent recommendations. By deploying real-time, collaborative AI agents, they transformed a manual, technician-driven process into a production-ready solution—reducing turnaround time from two days to under 30 minutes while boosting satisfaction for both customers and technicians.\n\nThis session showcases how AWS and NVIDIA enable rapid deployment of intelligent automation that delivers measurable business outcomes: faster cycle times, improved accuracy, and enhanced customer experience. AWS is built for industry.",
+    "industry": "Manufacturing",
+    "topic": "Robotics - Robotics Compute",
+    "technical_level": "Business / Executive",
+    "intended_audience": "Business Executive",
+    "nvidia_technology": "Isaac, Omniverse",
+    "key_takeaways": [
+      "AI agents are moving from small experiments to core business infrastructure for vehicle operations.",
+      "Cox Automotive quickly built an agentic workflow in four days by combining its proprietary data with multi-agent orchestration.",
+      "The AI agents now automate vehicle inspections, enforce accurate billing, and standardize recommendations that were previously manual.",
+      "Real-time, collaborative AI agents replaced a technician-driven process with a production-ready solution.",
+      "Turnaround time dropped from two days to under 30 minutes, improving satisfaction for both customers and technicians."
+    ],
+    "speakers": [
+      {
+        "name": "Chris Dillon",
+        "title": "Vice President, Infrastructure and Operations",
+        "company": "Cox Automotive"
+      },
+      {
+        "name": "Ozgur Tohumcu",
+        "title": "GM, Automotive and Manufacturing",
+        "company": "Amazon Web Services"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82412/"
+  },
+  {
+    "session_id": "S82445",
+    "title": "From Benchmark Silos to an Interoperable AI Evaluation Ecosystem",
+    "session_type": "Talk",
+    "format": "Both",
+    "recording": "Yes",
+    "abstract": "As agent benchmarks multiply, the AI research community is paying a growing integration tax, with each new benchmark requiring custom infrastructure and tooling. This session introduces Common Unified Benchmark Environments (CUBE), a universal benchmarking protocol built on MCP and Gym that defines shared APIs for tasks, benchmarks, packages, and registries. We explore CUBE’s design and show how it integrates with existing evaluation workflows, including early reference integrations validated in collaboration with NVIDIA using NeMo Gym and NeMo Evaluator. Learn how to adopt CUBE, integrate it into your own tooling, and contribute to a more interoperable and scalable benchmarking ecosystem.",
+    "industry": "All Industries",
+    "topic": "Developer Tools & Techniques - AI Platforms",
+    "technical_level": "Technical - Intermediate",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "NeMo",
+    "key_takeaways": [
+      "Understand why fragmented agent benchmarks create significant integration and maintenance overhead.",
+      "Learn the core design principles behind CUBE, and how its unified APIs standardize evaluation workflows.",
+      "Explore how CUBE integrates with existing agent frameworks and evaluation tools.",
+      "Apply practical steps to adopt interoperable benchmarks in your own research or development environment.",
+      "Contribute to a shared benchmarking ecosystem that scales with the pace of agentic AI innovation."
+    ],
+    "speakers": [
+      {
+        "name": "Alexandre Lacoste",
+        "title": "Sr. Staff Fundamental Researcher",
+        "company": "ServiceNow AI Research"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82445/"
+  },
+  {
+    "session_id": "S82795",
+    "title": "Build-a-Claw Event",
+    "session_type": "Talk",
+    "format": "In-Person",
+    "recording": "No",
+    "abstract": "Stop by NVIDIA’s build-a-claw event in the GTC Park running all week to customize and deploy a proactive, always-on AI assistant.\nWith support from NVIDIA experts, GTC attendees can quickly have an AI agent at their fingertips. Whether technical or just curious, participants will name an agent, define its personality and grant it access to the tools it needs. Think of it as the personal assistant you’ve always wanted, reachable via your preferred messaged app. \nTo run the custom agent, bring your own NVIDIA DGX Spark. Or buy one at the Gear Store (SJCC street level) or MicroCenter pop-up (GTC Park).\nTo run the custom agent, use cloud compute provided onsite, or harness local accelerated computing by bringing your NVIDIA DGX Spark or GeForce RTX laptop, with no personal data on the device. NVIDIA hardware — including DGX Spark and Jetson modules — will also be available to buy on site at Gear Store (SJCC street level) and Micro Center (pop-up at GTC Park).\nHelpful material to review before you arrive:\nInstall & Demo Guide | Notice & Disclaimers\nBrev Launchable\n\nHours of operation:\nMonday: 8:00 am - 5:00 pm PT (except during keynote)\nTuesday: 8:00 am - 5:00 pm PT\nWednesday: 8:00 am - 5:00 pm PT\nThursday: 8:00 am - 5:00 pm PT\nLocation: GTC Park",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Retrieval-Augmented Generation (RAG)",
+    "technical_level": "General Interest",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82795/"
+  },
+  {
+    "session_id": "EX82436",
+    "title": "The Next Era of Surgery: AI-Driven Innovation in the Operating Room",
+    "session_type": "Theater Talk",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "Explore how Barco’s newest AI-based surgical products, powered by NVIDIA AI infrastructure and the NVIDIA Holoscan platform, transform the operating room into a software-defined space. You will discover how generative AI improves surgical precision and patient safety, and simplifies the clinical workflow. Combined with NVIDIA edge computing solutions, we can run real-time AI models that act as a surgical copilot.",
+    "industry": "Healthcare & Life Sciences",
+    "topic": "Edge Computing - Medical Devices",
+    "technical_level": "Technical - Beginner",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "Clara Holoscan, IGX, Blackwell",
+    "key_takeaways": [
+      "Explore how generative AI enables hands-free control of surgical displays, allowing clinicians to manage data without breaking the sterile field.",
+      "Transition to a software-defined operating room by running multiple AI applications simultaneously.",
+      "Boost surgical performance with real-time clinical guidance and edge compute built directly into the surgical workflow."
+    ],
+    "speakers": [
+      {
+        "name": "Stephanie Dupont",
+        "title": "VP of Product Management",
+        "company": "Barco"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82436/"
+  },
+  {
+    "session_id": "DLIT82488",
+    "title": "Always-On Autonomous AI Agents: Exploring the OpenClaw Abstraction",
+    "session_type": "Training Lab",
+    "format": "In-Person",
+    "recording": "Yes",
+    "abstract": "As agents evolve from basic conversational interfaces to personal complex task navigators, the primary challenge shifts from writing context strategies to designing robust systems. This hands-on workshop explores the engineering needed to manage persistent agent state, secure tool execution, and complex workflow creation in a low-code, high-capacity context. \n\nUsing OpenClaw, a popular open-source agent gateway, we illustrate how a single daemon can manage sessions across multiple applications, maintain long-term interpretable memory, and safely execute tools in a virtual user-centric environment. We emphasize low-code abstractions and out-of-the-box capabilities while maintaining enough rigor to motivate effective and secure best practices. You'll be able to expand on these ideas and improve your agents' capabilities as new innovations arrive and the field continues to evolve.",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Text Generation",
+    "technical_level": "Technical - Beginner",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "NVIDIA NIM, DGX Spark, Nemotron",
+    "key_takeaways": [
+      "An understanding of the separation between the Gateway (the control plane) and the Agent (the reasoning loop), and why this decoupling is essential for multi-channel resilience",
+      "The use of OpenClaw’s \"File-system-as-Context\" pattern to define agent personas and enable autonomous action planning",
+      "An intuition for OpenClaw’s Heartbeat mechanism and its use in live workspace monitoring and coordination",
+      "Enough knowledge to implement robust skill specifications, human-in-the-loop gates, and observability patterns for high-risk (like sending emails) and autonomous low-risk actions (like reading docs)",
+      "A rationale for component capabilities and costs to propose feasible agentic setups for personal, multi-user, and enterprise deployments"
+    ],
+    "speakers": [
+      {
+        "name": "Kevin Lee",
+        "title": "Sr. Content Developer, DLI",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Vadim Kudlay",
+        "title": "Sr. Content Developer, DLI",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82488/"
+  },
+  {
+    "session_id": "WP81821",
+    "title": "Watch Party: Physical AI for Healthcare Robotics—Part 1: Simulation-First Design and Accelerated Development",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nWei Yan, Solution Architect, NVIDIA\nHolly Ye, Account Manager, NVIDIA\nJoin Part 1 of a two-part curated session on how simulation-first design is changing the way healthcare robots are built. You’ll see how teams are using NVIDIA Physical AI—spanning world foundation models, physics-based simulation, synthetic data, and real-time sensor-to-action deployment—to move faster with less risk. This session focuses on how simulation and digital twins are being used in practice to speed up development, test decisions earlier, and optimize systems long before they reach the operating room\n\nHow Simulation-First Design Accelerates Healthcare Robotic Development: Learn how teams use digital twins, physics-based environments, and generative simulation to rapidly design, test, and refine robotic systems before they touch the real world.\nHow World Foundation Models and Synthetic Data Expand Capability and Coverage: See how specialized foundation models and SDG pipelines create rich scenario diversity, improve training efficiency, and strengthen early-stage algorithm performance.\nHow Developers are Building Next-Generation Devices With NVIDIA Physical AI: Hear from industry leaders using NVIDIA’s simulation and modeling technologies to optimize planning, validate concepts, and shorten product development cycles.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Md. Mostofa Ali Patwary",
+        "title": "",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81821/"
+  },
+  {
+    "session_id": "WP82146",
+    "title": "Watch Party: Artist to Audience: The Developer Platform for Real-Time AI in Media",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nMaggie Jiang, Regional Industry Sales Lead, NVIDIA\nIn this session, we’ll show how real-time AI is becoming the new fabric of modern media—connecting artist workflows to studio pipelines to distribution at global scale. You’ll learn the reference architecture behind an AI-native media stack: accelerated compute, low-latency networking, and developer-ready SDKs and APIs that let teams build, integrate, and ship AI into real production systems. We’ll walk through practical examples across creation, live production, enhancement, understanding, and delivery—focusing on what it takes to move from demos to deployed workflows, with measurable gains in speed, quality, and cost.\n\nLearn how AI-powered tools and generative agents are transforming media production workflows, enabling faster, more creative, and cost-effective content creation across multiple formats.\nDiscover how AI-driven recommendation systems and dynamic content optimization are enhancing audience engagement and discoverability across platforms.\nGain insights into how AI enables more targeted ads, microtransactions, and tailored subscription services, driving more efficient and sustainable revenue streams.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Richard Kerris",
+        "title": "VP and General Manager",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp82146/"
+  },
+  {
+    "session_id": "WP81706",
+    "title": "Watch Party: Evaluation-Driven Development: Best Practices for Building Reliable Agents",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nYipeng Li, Developer Community Manager, NVIDIA\nBuilding agents is easy; reliably improving them is hard. As workflows shift to complex long-horizon tasks, traditional testing fails. How do you debug and improve non-deterministic behavior?\n\nThis session presents a framework for evaluation-driven development. We move beyond “vibe eval” to disciplined engineering covering ablations, unit tests, trajectory evaluation, and LLM-as-judge patterns. Using a case study of achieving No. 1 on a Deep Research leaderboard, we demonstrate how to build pipelines that catch hallucinations and regressions while preventing overfitting. You'll leave with a workflow for implementing evaluation methods that take agents from prototype to scalable deployment using a suite of tooling enabled by NVIDIA NeMo and open NVIDIA Nemotron models for advanced reasoning.\n\nBuilding agents is easy; reliably improving them is hard—especially for long-horizon, non-deterministic tasks where traditional testing fails. This session introduces a disciplined framework for evaluation-driven development, moving beyond “vibe eval” to structured methods like ablations, unit tests, trajectory evaluation, and LLM-as-judge patterns.\nUsing a case study of achieving No. 1 on a Deep Research leaderboard, we demonstrate pipelines that catch hallucinations and regressions while preventing overfitting. Learn how to implement evaluation workflows that scale agents from prototype to production.\nThe workflow leverages NVIDIA NeMo Evaluator for reproducible benchmarking, NeMo Guardrails for safety, NeMo Agent Toolkit for orchestration, and NVIDIA Nemotron models for advanced reasoning. We’ll show how these tools integrate to enable robust, scalable agent development.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Retrieval-Augmented Generation (RAG)",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "David Austin",
+        "title": "Sr. Data Scientist",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Adel El Hallak",
+        "title": "Vice President, Software Product Management",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81706/"
+  },
+  {
+    "session_id": "WP81645",
+    "title": "Watch Party: From Concept to Production: Humanoid Robotics at Scale",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nLex Yang, Solution Architect, NVIDIA\nJeff Li, Solution Architect, NVIDIA\nHumanoid robots are evolving from prototypes to production-ready systems, powered by breakthroughs in reasoning AI, large-scale simulation, and real-time edge computing. But to get there, the industry must bridge the gap between digital intelligence and physical reality. Hear from luminaries at the world’s leading robotics companies on the future of physical AI, and what it will take to unlock truly capable humanoids.\n\nHow leading teams are training and deploying humanoid robots today, from data collection and simulation to real-world rollout\nWhat technical stack is emerging for physical AI—covering foundation models, world models, and control systems—and how it generalizes across different robot platforms\nWhere the most promising real-world use cases, business opportunities, and open research problems lie for humanoids over the next three to five years\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Amit Goel",
+        "title": "Head of Robotics and Edge Computing Ecosystem",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Ashok Elluswamy",
+        "title": "VP, AI Software",
+        "company": "Tesla"
+      },
+      {
+        "name": "Arnaud Robert",
+        "title": "CEO",
+        "company": "Hexagon Robotics"
+      },
+      {
+        "name": "Pras Velagapudi",
+        "title": "CTO",
+        "company": "Agility"
+      },
+      {
+        "name": "Deepak Pathak",
+        "title": "CEO and Co-Founder",
+        "company": "Skild AI"
+      },
+      {
+        "name": "Chelsea Finn",
+        "title": "Assistant Professor at Stanford University",
+        "company": "Co-Founder at Physical Intelligence"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81645/"
+  },
+  {
+    "session_id": "WP81859",
+    "title": "Watch Party: CUDA: New Features and Beyond",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nKen He, Developer Community Manager, NVIDIA\nThe CUDA platform is the foundation of the GPU computing ecosystem. Every application and framework that uses the GPU does so through CUDA's libraries, compilers, runtimes and language—which means CUDA is growing as fast as its ecosystem is evolving. Presented by one of the architects of CUDA, at this engineering-focused talk you will learn about all that's new and what's coming next for both CUDA and GPU computing as a whole.\n\nWhat's new in CUDA\nCUDA's roadmap: what's coming in 2026\nA deep dive into the technical details of CUDA's latest features\nA look into the future of GPU computing\nPointers to many other CUDA talks at GTC 2026\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Stephen Jones",
+        "title": "",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81859/"
+  },
+  {
+    "session_id": "WP81479",
+    "title": "Watch Party: Physical AI for the Real World: A Vision From NVIDIA Robotics Research",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nSharron Liu, Solution Architect, NVIDIA\nBilly Wang, Solution Architect, NVIDIA\nOne of the hardest problems in physical AI is transforming robots from task-specific machines to general-purpose, intelligent collaborators. NVIDIA Research is pioneering a unified AI- and simulation-driven approach to solve this challenge, working from theoretical advances all the way to high-performance deployment. Join this session to learn about research breakthroughs in sim-to-real, real-world learning, model architecture, and model training, as well as key milestones on the path to generalist embodied intelligence for real-world applications. Gain perspectives about where robotics is headed, what technical hurdles remain, and how the next wave of research innovation could unlock entirely new markets.\n\nThe future of robotics is a collaborative ecosystem where general-purpose humanoids and specialized traditional robots will coexist, driven by a shift from modular to end-to-end AI systems.\nScaling these intelligent robots depends on closing the \"\"sim-to-real\"\" gap until simulated training data becomes virtually indistinguishable from real-world data.\nThis advancement in physical AI will move robots from controlled settings into our daily lives, opening entirely new markets and applications.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "All Industries",
+    "topic": "Simulation / Modeling / Design - Synthetic Data Generation",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Ming-Yu Liu",
+        "title": "VP Generative AI Research",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81479/"
+  },
+  {
+    "session_id": "WP82329",
+    "title": "Watch Party: Transforming Retail Commerce and Supply Chain Operations With AI",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nMaggie Jiang, Regional Industry Sales Lead, NVIDIA\nRansiki Zhang, Solution Architect, NVIDIA\nRetail and consumer packaged goods (CPG) are uniquely positioned to use AI to drive revenue growth and margin expansion. Leading retailers Walmart, Shopify, Amazon, and Lowe’s are partnering with NVIDIA to deploy AI at enterprise scale. \n\nNVIDIA’s vice president and general manager of retail will share how retailers can build an end-to-end, CEO-sponsored AI strategy and infrastructure that avoids siloed initiatives and delivers measurable return on investment. We'll cover how agentic AI and physical AI are transforming supply chains and store operations through simulation, robotics, and computer vision, while Agentic Commerce, AI Blueprints, and data science libraries unlock incremental ecommerce and retail media revenue. \n\nLearn best practices for deploying AI at scale with interoperability across any cloud and ownership of models trained on proprietary retail data. \n\nHow to build an end-to-end AI strategy and infrastructure to ensure AI initiatives drive measurable ROI\nUnderstand the importance of IP ownership of models trained with your proprietary data, and how to reduce inference cost.\nHow to deploy AI at scale across the entire enterprise\nHow to be in the driver seat with Agentic Commerce\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Azita Martin",
+        "title": "VP and General Manager, Retail and CPG",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp82329/"
+  },
+  {
+    "session_id": "WP81433",
+    "title": "Watch Party: cuTile Programming",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nKen He, Developer Community Manager, NVIDIA\nExpress your algorithm; cuTile and Tile IR will figure out the threads, data movement, and Tensor cores.\n\nIn this talk, we'll present cuTile, NVIDIA's new block-based programming abstraction, and Tile IR, the compiler stack that it is built with. We'll explore examples in C++ and Python from a variety of domains, including inference of a mixture-of-experts large language model and a sparse conjugate gradient solver.\n\nCUDA tile programming divides inputs into local arrays that are processed concurrently by groups of threads. Users write sequential array-centric code, and the framework handles parallelization, synchronization, and data movement behind the scenes. Architecture-specific details are abstracted away—you express your algorithm once in a high-level way, and the system lowers it to the right implementation for any NVIDIA GPU architecture.\n\nLearn the fundamental concepts of the CUDA tile programming model.\nUnderstand the differences between tile and SIMT programming, and when each paradigm should be used.\nGain insight into the performance of cuTile and Tile IR and how to tune it.\nSee how tile programming provides portability across NVIDIA GPU architectures.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "Developer Tools & Techniques - Programming Languages / Compilers",
+    "technical_level": "",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "CUDA",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Bryce Lelbach",
+        "title": "Principal Architect",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Yossi Bar",
+        "title": "CEO and Founder",
+        "company": "LEM Surgical"
+      },
+      {
+        "name": "Filippo Filicori",
+        "title": "System Chief of Surgical Innovation",
+        "company": "Northwell Health"
+      },
+      {
+        "name": "Axel Krieger",
+        "title": "Associate Professor",
+        "company": "Johns Hopkins"
+      },
+      {
+        "name": "David Noonan",
+        "title": "Chief Technology Officer",
+        "company": "Moon Surgical"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81433/"
+  },
+  {
+    "session_id": "WPP81488",
+    "title": "Private Watch Party: An Introduction to Robot Simulation",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nSomnath Jona,Solution Architect,NVIDIA\nPhysical AI is transforming how robots interact with the world. Building these advanced systems requires three computers: compute for training, advanced simulation for validation, and efficient edge deployment. With a simulation-first approach, robots can train across millions of scenarios, generalize faster, and adapt to real-world complexity. \n \n In this technical deep-dive session, learn core robotics simulation workflows, from building virtual environments to configuring robots, sensors, and physics, using NVIDIA Isaac Sim and Isaac Lab, built with NVIDIA Omniverse libraries. You'll also explore how to generate and leverage synthetic data with NVIDIA Cosmos world foundation models to train and validate robot perception and control policies before deploying them in the real world.\n\n\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wpp81488/"
+  },
+  {
+    "session_id": "WPP81628",
+    "title": "Private Watch Party: MLOps 101: Platforms and Processes for Building AI",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nCuong Vu, Enterprise Business Manager, NVIDIA\n As AI adoption accelerates across every industry, teams are discovering that model quality alone is not quite enough to deliver real value. Scalable and reliable AI systems depend on robust MLOps that streamline the entire life cycle, from data to deployment. At the same time, the field is undergoing a major transformation driven by agentic AI, advanced reasoning, multi-modality, and new patterns for large-scale, disaggregated inference. \n\nThis session introduces the foundational patterns of MLOps while also exploring how these new capabilities reshape AI design and operational strategy. We'll examine several use cases to break down the process and ideal platform for MLOps in this new era. Whether you're launching your first AI initiative or modernizing your infrastructure, this session provides the technical blueprint and best practices you need to operationalize AI at scale. /p>\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wpp81628/"
+  },
+  {
+    "session_id": "WPP81718",
+    "title": "Private Watch Party: NVIDIA Agentic AI solutions for Healthcare & Finance",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nAjeet Singh,Docker Community Leader,NVIDIA\nIn this session, we'll dive into designing an agentic system to support financial analysis and advisory. Inspired by NVIDIA AI-Q Research Assistant blueprint, and leveraging NVIDIA's multi-modal retrieval-augmented generation (RAG) pipeline, our system not only provides a tool that can take financial analysis—one of the core tasks in finance—to the next level by supporting internal experts, but also makes an important step toward building a sovereign agentic architecture.\n\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wpp81718/"
+  },
+  {
+    "session_id": "WP81573a",
+    "title": "Watch Party: Building the Future of Manufacturing",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nAlan Zhang, AI Enterprise BD, NVIDIA\nThe manufacturing industry is entering a new era, driven by AI, robotics, and simulation. Join distinguished leaders from the semiconductor and electronics, industrial and process manufacturing, and robotics industries as they share their pioneering use cases and how these technologies enable them to innovate, reimagine production systems, and transform the design and operation of advanced manufacturing and warehouse facilities.\n\nDiscover how manufacturing leaders are applying AI, robotics, and simulation to accelerate innovation and efficiency.\nLearn how these technologies are reshaping the design, planning, and operation of next-generation manufacturing facilities.\nExplore pioneering real-world use cases that demonstrate the power of intelligent automation and industrial digitalization in driving innovation and resilience.\nUnderstand the critical role of AI infrastructure in enabling smarter and more sustainable manufacturing.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Rev Lebaredian",
+        "title": "VP of Omniverse and Simulation Technology",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Zhaopeng Chen",
+        "title": "CEO and Founder",
+        "company": "Agile Robots"
+      },
+      {
+        "name": "Rainer Brehm",
+        "title": "COO of Automation Business and CTO of Digital Industries",
+        "company": "Siemens"
+      },
+      {
+        "name": "Marc Segura",
+        "title": "President",
+        "company": "ABB Robotics"
+      },
+      {
+        "name": "Roslyn Stuart",
+        "title": "VP of Synergy Creation",
+        "company": "Hitachi Digital"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81573a/"
+  },
+  {
+    "session_id": "WP81667a",
+    "title": "Watch Party: How Open World Models are Powering the Next Breakthroughs in Physical AI",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nQuan Tran Minh, Developer Relations, NVIDIA\n Generating the photorealistic data and robust reasoning capabilities needed for machines to understand real-world complexity remains one of the biggest bottlenecks in physical AI. NVIDIA Cosmos world foundation models are at the core of AI models and agents that can perceive, understand, and adapt real-world like never before. Learn how developers can use Cosmos open models and tools to accelerate training, customize pipelines, and deploy faster across robotics, autonomous vehicles, and vision AI agents. This session will also explore how the latest updates for Cosmos advance physics-aware learning, unlock powerful simulation-to-real capabilities, and empower developers to build the next generation of intelligent, adaptive AI systems. . /p>\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Video Generation",
+    "technical_level": "",
+    "intended_audience": "Developer / Engineer",
+    "nvidia_technology": "Cosmos",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Ming-Yu Liu",
+        "title": "VP Generative AI Research",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81667a/"
+  },
+  {
+    "session_id": "WP81667b",
+    "title": "Watch Party: How Open World Models are Powering the Next Breakthroughs in Physical AI",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nChanran Kim, Senior Developer Relations Manager, NVIDIA\n Generating the photorealistic data and robust reasoning capabilities needed for machines to understand real-world complexity remains one of the biggest bottlenecks in physical AI.\n\nNVIDIA Cosmos world foundation models are at the core of AI models and agents that can perceive, understand, and adapt real-world like never before. Learn how developers can use Cosmos open models and tools to accelerate training, customize pipelines, and deploy faster across robotics, autonomous vehicles, and vision AI agents. This session will also explore how the latest updates for Cosmos advance physics-aware learning, unlock powerful simulation-to-real capabilities, and empower developers to build the next generation of intelligent, adaptive AI systems./p>\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Video Generation",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "Cosmos",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Ming-Yu Liu",
+        "title": "VP Generative AI Research",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81667b/"
+  },
+  {
+    "session_id": "WP81667d",
+    "title": "Watch Party: How Open World Models are Powering the Next Breakthroughs in Physical AI",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nTara Tao, Senior Developer Relationship Manager, NVIDIA\nGenerating the photorealistic data and robust reasoning capabilities needed for machines to understand real-world complexity remains one of the biggest bottlenecks in physical AI.\n\nNVIDIA Cosmos world foundation models are at the core of AI models and agents that can perceive, understand, and adapt real-world like never before. Learn how developers can use Cosmos open models and tools to accelerate training, customize pipelines, and deploy faster across robotics, autonomous vehicles, and vision AI agents. This session will also explore how the latest updates for Cosmos advance physics-aware learning, unlock powerful simulation-to-real capabilities, and empower developers to build the next generation of intelligent, adaptive AI systems.\n\nLearn how video foundation models are evolving as Ming-Yu, VP of generative AI research, provides an in-depth look at cutting-edge visual multi-modal research.\nLearn how robotics, autonomous vehicle, and humanoid downstream model training can benefit from world foundation models.\nExplore open tools for video processing and tokenization to optimize physical AI workflows.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Ming-Yu Liu",
+        "title": "VP Generative AI Research",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81667d/"
+  },
+  {
+    "session_id": "WP81719a",
+    "title": "Watch Party: Nemotron Unpacked: Build, Fine-Tune, and Deploy NVIDIA's Open Models",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nChanran Kim, Senior Developer Relations Manager, NVIDIA\n The manufacturing industry is entering a new era, driven by AI, robotics, and simulation. Join distinguished leaders from the semiconductor and electronics, industrial and process manufacturing, and robotics industries as they share their pioneering use cases and how these technologies enable them to innovate, reimagine production systems, and transform the design and operation of advanced manufacturing and warehouse facilities./p>\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "All Industries",
+    "topic": "Agentic AI / Generative AI - Text Generation",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "NeMo",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Bryan Catanzaro",
+        "title": "VP, Applied Deep Learning Research",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81719a/"
+  },
+  {
+    "session_id": "WP81719b",
+    "title": "Watch Party: Nemotron Unpacked: Build, Fine-Tune, and Deploy NVIDIA's Open Models",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nYipeng Li, Developer Community Manager, NVIDIA\nHear from two of NVIDIA’s leading researchers the story of NVIDIA Nemotron—an open-source ecosystem for the full AI life cycle. NVIDIA Nemotron is a collection of multi-modal and reasoning models, datasets, and training techniques designed to leverage NVIDIA’s experience in accelerated computing for each step of your AI journey. \n\nLearn why NVIDIA, primarily known as a hardware company, invested in a world-class family of multi-modal reasoning models.\nUnderstand the components of Nemotron and how you can use Nemotron tools with other models.\nHear about key uses Nemotron can be used to tackle with enterprise-grade accuracy: advanced reasoning, coding, visual understanding, agentic tasks, safety, and information retrieval.\nLearn how NVIDIA Nemotron uses cutting-edge model architectures to speed inference performance while balancing leading accuracy to provide a model that is state of the art and practical to use.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "Agentic AI / Generative AI - Text Generation",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "NeMo",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Bryan Catanzaro",
+        "title": "VP, Applied Deep Learning Research",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81719b/"
+  },
+  {
+    "session_id": "WP81836a",
+    "title": "Watch Party: Visual AI Agents for Real-Time Video Understanding",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nZhou Yang, Senior Developer Relations Manager, NVIDIA\nThe next generation of visual AI agents starts with NVIDIA Blueprint for video search and summarization (VSS), which enables the creation of interactive analytical agents that reason through massive amounts of video, assess physical processes, and provide decision-making insights to streamline operations. The blueprint combines powerful vision language models (VLMs), advanced search capabilities with large language models, and Cosmos Reason VLM into a full suite of software for building,\n\nWe've made it easier to customize and deploy at the edge, on-premises, or in the cloud. Be the first to hear about the new features of VSS to accelerate your AI agent development.\n\nLearn how VLMs, LLM-powered search, and Cosmos Reason are integrated into a cohesive agent pipeline.\nBe the first to learn about the latest capabilities to NVIDIA Blueprint for video search and summarization.\nDiscover strategies for customizing, deploying, and iterating on VSS-based AI agents across edge, on-premises, and cloud environments.\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "All Industries",
+    "topic": "Computer Vision / Video Analytics - Video Analytics",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Adam Ryason",
+        "title": "Product Manager, NVIDIA AI Blueprint for Video Search and Summarization (VSS)",
+        "company": "NIVIDIA"
+      },
+      {
+        "name": "Roopa Prabhu",
+        "title": "Sr. Director of Engineering",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81836a/"
+  },
+  {
+    "session_id": "WP81911a",
+    "title": "Watch Party: Inside the NVIDIA Inference Platform and Ecosystem",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nUnnikrishnan AR,Inception - Regional Lead,NVIDIA\nAjay Kumar Kuruba, Solution Architect,NVIDIA\nManasi Kuruba, Solution Architect,NVIDIA\nA deeper dive into key announcements from the keynote with a focus on enabling technologies, predicted effects, and opportunities across industries.\n\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "HPC / Scientific Computing",
+    "topic": "Simulation / Modeling / Design - Supercomputing",
+    "technical_level": "Business / Executive",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Ian Buck",
+        "title": "VP Hyperscale and HPC Computing",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81911a/"
+  },
+  {
+    "session_id": "WP82017a",
+    "title": "Watch Party: Accelerating Industrial Engineering: From Product Design to Manufacturing in the AI Supercomputing Era",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "GTC Watch Party 是由 NVIDIA 本地专家主持，以中文讲解，带领参与者同步观看某一精选演讲并解读和实时答疑的会议形式。这是一个互动式的会议，我们鼓励您在聊天区参与讨论，提出见解或问题。但请注意，原始演讲者可能不会出席本会议。\n会议主持人：\nLex Yang, Solution Architect, NVIDIA\nJeff Li, Solution Architect, NVIDIA\nAccelerated computing and AI supercomputing are redefining industrial engineering, spanning computational engineering (CAE) to semiconductor design and manufacturing. Together, these fields drive how the world conceives, simulates, and builds everything from advanced machinery to next-generation chips increasingly in the digital world before physical production begins. In this address, NVIDIA’s Tim Costa, general manager for Industrial and Computational Engineering, will show how CUDA-accelerated platforms, AI physics, DGX and cloud-scale AI infrastructure, and NVIDIA Omniverse are reshaping workflows across computer-aided engineering and semiconductor design and manufacturing. He will demonstrate how customers use GPU-accelerated solvers, AI physics models, and agentic AI to cut turnaround, broaden design exploration, and boost yield and reliability, revealing a unified accelerated-computing blueprint spanning classical, AI, and emerging quantum acceleration.\n\nAccelerated computing and AI supercomputing are turning industrial engineering workflows into end‑to‑end digital, simulation‑first pipelines, where products are designed, validated, and optimized before they reach the factory.​​\nNVIDIA’s CUDA platforms, DGX and cloud-scale infrastructure, and Omniverse enable GPU-accelerated solvers, physics-ML models, and agentic AI to dramatically cut turnaround time, expand design-space exploration, and improve yield and reliability across industrial engineering.​​\n\n\n在会议开始时间前 15 分钟，登录状态下，下方会出现一个【Join Watch Party Now】的链接。点击该链接，可以在您的电脑上或从您的网络浏览器中启动 Microsoft Teams 参加会议。",
+    "industry": "",
+    "topic": "Simulation / Modeling / Design - CAE",
+    "technical_level": "Business / Executive",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [
+      {
+        "name": "Timothy Costa",
+        "title": "General Manager (GM) for Industrial and Computational Engineering",
+        "company": "NVIDIA"
+      }
+    ],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp82017a/"
+  },
+  {
+    "session_id": "WPP81702a",
+    "title": "Best Practices for Building Agentic AI with Open Source Models",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nSomnath Jona,Solution Architect,NVIDIA\nOpen models have evolved from experimental alternatives to production-grade building blocks for agentic AI and enterprise applications. But deciding when to use open source models, and choosing and customizing them requires a clear framework. \n\nIn this session, we'll walk through a practical decision framework for deploying open models at scale from picking the right model size for your agentic tasks to the software and practices for customizing, evaluating, and deploying them. We'll bring it to life with two case studies: how CodeRabbit runs open-source models in production, and how NVIDIA’s chip design team turned early failures into a repeatable flywheel: using a decision framework to pick use cases, then fine-tuning open-source models for the patterns that stuck. Whether you're building agentic AI, internal copilots, or cost-sensitive services, this talk will give you the framework and tools to ship with confidence.\n\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wpp81702a/"
+  },
+  {
+    "session_id": "WPP81702b",
+    "title": "Best Practices for Building Agentic AI with Open Source Models",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nSomnath Jona,Solution Architect,NVIDIA\nOpen models have evolved from experimental alternatives to production-grade building blocks for agentic AI and enterprise applications. But deciding when to use open source models, and choosing and customizing them requires a clear framework. \n\nIn this session, we'll walk through a practical decision framework for deploying open models at scale from picking the right model size for your agentic tasks to the software and practices for customizing, evaluating, and deploying them. We'll bring it to life with two case studies: how CodeRabbit runs open-source models in production, and how NVIDIA’s chip design team turned early failures into a repeatable flywheel: using a decision framework to pick use cases, then fine-tuning open-source models for the patterns that stuck. Whether you're building agentic AI, internal copilots, or cost-sensitive services, this talk will give you the framework and tools to ship with confidence.\n\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wpp81702b/"
+  },
+  {
+    "session_id": "WPP81702c",
+    "title": "Best Practices for Building Agentic AI with Open Source Models",
+    "session_type": "Watch Party",
+    "format": "Virtual",
+    "recording": "Yes",
+    "abstract": "A GTC Session Watch Party is a replay of an original GTC talk hosted by our NVIDIA Team. This is an interactive session and we encourage you to join the discussion with any comments or questions. Please note that the original speakers of the talk listed below may not be in attendance.\nHosted by:\nSomnath Jona,Solution Architect,NVIDIA\nOpen models have evolved from experimental alternatives to production-grade building blocks for agentic AI and enterprise applications. But deciding when to use open source models, and choosing and customizing them requires a clear framework. \n\nIn this session, we'll walk through a practical decision framework for deploying open models at scale from picking the right model size for your agentic tasks to the software and practices for customizing, evaluating, and deploying them. We'll bring it to life with two case studies: how CodeRabbit runs open-source models in production, and how NVIDIA’s chip design team turned early failures into a repeatable flywheel: using a decision framework to pick use cases, then fine-tuning open-source models for the patterns that stuck. Whether you're building agentic AI, internal copilots, or cost-sensitive services, this talk will give you the framework and tools to ship with confidence.\n\n A “Join Watch Party Now” link will appear below, 15 minutes before the session start time. Click on the link to launch Microsoft Teams on your computer or from your web browser.",
+    "industry": "",
+    "topic": "",
+    "technical_level": "",
+    "intended_audience": "",
+    "nvidia_technology": "",
+    "key_takeaways": [],
+    "speakers": [],
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wpp81702c/"
   }
 ]
