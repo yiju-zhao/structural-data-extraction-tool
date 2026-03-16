@@ -189,7 +189,7 @@ docs/
 */node_modules
 
 output/
-scripts/
+#scripts/
 
 *.skill
 .claude/
