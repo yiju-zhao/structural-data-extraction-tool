@@ -148,15 +148,25 @@ def discover_themes() -> list[str]:
     return themes
 
 
+def reset_to_sessions_page():
+    """Navigate to a clean sessions page — guaranteed to clear all filter state."""
+    run(f'agent-browser open "{SESSIONS_URL}"', 90)
+    time.sleep(4)
+    dismiss_cookie()
+    time.sleep(1)
+
+
 def scrape_theme(theme: str) -> list[str]:
-    """Activate a theme filter, collect all session IDs, then deactivate. Returns list of IDs."""
+    """Activate a theme filter on the already-open sessions page, collect all IDs.
+    Caller must ensure the page is on a clean SESSIONS_URL before calling.
+    """
     print(f"\n  [{theme}]")
     seen: set = set()
 
-    # Activate filter
+    # Activate filter via label click on the warm SPA page
     escaped_theme = theme.replace('"', '\\"').replace("'", "\\'")
     js(f'document.querySelector(\'label[for="keytheme-desktop-{escaped_theme}"]\')?.click()')
-    time.sleep(2)
+    time.sleep(3)
 
     # Collect IDs on main filtered page
     main_ids = collect_with_load_more(seen)
@@ -173,7 +183,7 @@ def scrape_theme(theme: str) -> list[str]:
         n_btns = 0
     print(f"    See All buttons: {n_btns}")
 
-    # For each slot's "See All"
+    # For each slot's "See All" — browser back returns to the SPA filtered state
     for idx in range(n_btns):
         run(
             f'agent-browser eval "Array.from(document.querySelectorAll(\'button\')).filter(b=>b.textContent.trim()===\'See All\')[{idx}]?.click()"',
@@ -188,12 +198,6 @@ def scrape_theme(theme: str) -> list[str]:
         run("agent-browser back", 30)
         time.sleep(2)
         dismiss_cookie()
-
-    # Deactivate filter (click label again only if still checked)
-    is_checked = js(f'document.querySelector(\'input#keytheme-desktop-{escaped_theme}\')?.checked')
-    if is_checked == "true":
-        js(f'document.querySelector(\'label[for="keytheme-desktop-{escaped_theme}"]\')?.click()')
-        time.sleep(2)
 
     all_ids = list(seen)
     print(f"    TOTAL for [{theme}]: {len(all_ids)} sessions")
@@ -215,11 +219,15 @@ def main():
         return
 
     # Step 2: Scrape each theme (with resume support)
-    for theme in themes:
+    # The browser stays open the whole time — reset_to_sessions_page() before each
+    # theme guarantees a clean filter state without the SPA cold-start penalty.
+    for i, theme in enumerate(themes):
         if theme in completed:
             print(f"  [{theme}] already done ({len(completed[theme])} IDs), skipping")
             continue
 
+        # Always reset to the clean sessions page before each theme
+        reset_to_sessions_page()
         ids = scrape_theme(theme)
         completed[theme] = ids
         progress["completed"] = completed

@@ -49,8 +49,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82167/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -79,10 +78,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81492/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -136,10 +132,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81645/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -169,12 +162,8 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81667/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Claws & Long Running Agents",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -210,13 +199,8 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81789/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Claws & Long Running Agents",
-      "High Performance Inference and Training",
-      "Open Models",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Open Models"
     ]
   },
   {
@@ -251,8 +235,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81612/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -374,9 +356,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81844/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -406,10 +386,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81598/",
     "key_themes": [
       "Claws & Long Running Agents",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -438,8 +415,9 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81713/",
     "key_themes": [
+      "AI for Good",
+      "AI for Science",
       "Claws & Long Running Agents",
-      "High Performance Inference and Training",
       "Physical AI and Robotics",
       "Quantum Computing and HPC",
       "Startup Spotlight"
@@ -471,12 +449,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dliw82209/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -512,8 +485,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dliw82265/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -1464,10 +1436,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81484/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -1497,14 +1466,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81800/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -1538,10 +1500,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81879/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -1581,9 +1540,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81936/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -1668,12 +1625,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82085/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -1846,12 +1798,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81561/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -1887,8 +1834,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81564/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -1953,12 +1898,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81715/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -2050,10 +1990,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81779/",
     "key_themes": [
       "Claws & Long Running Agents",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -2082,8 +2019,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81804/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -2113,9 +2049,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81806/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -2165,9 +2099,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81843/",
     "key_themes": [
-      "High Performance Inference and Training",
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
       "Startup Spotlight"
     ]
   },
@@ -2202,12 +2134,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81847/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -2238,8 +2165,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81859/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -2267,10 +2193,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82017/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -2442,9 +2365,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82329/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -2712,14 +2633,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81508/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -2767,7 +2681,10 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81554/",
-    "key_themes": []
+    "key_themes": [
+      "Open Models",
+      "Startup Spotlight"
+    ]
   },
   {
     "session_id": "S81557",
@@ -2801,9 +2718,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81557/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -2965,10 +2880,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81639/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -3003,9 +2915,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81656/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -3039,12 +2949,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81673/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -3074,11 +2979,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81708/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -3109,9 +3010,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81725/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -3147,12 +3046,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81731/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -3220,10 +3114,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81774/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -3253,8 +3144,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81813/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -3285,10 +3174,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81842/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -3356,12 +3242,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82042/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -3440,7 +3321,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82182/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "High Performance Inference and Training"
     ]
   },
@@ -3648,8 +3528,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82448/",
     "key_themes": [
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -3679,12 +3558,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82009/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -3805,10 +3679,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81542/",
     "key_themes": [
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI for Science"
     ]
   },
   {
@@ -3843,9 +3714,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81569/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -3890,9 +3759,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81578/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -3964,10 +3831,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81735/",
     "key_themes": [
       "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -4013,9 +3876,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81751/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -4071,13 +3932,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81786/",
     "key_themes": [
       "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -4150,12 +4005,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81856/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -4191,8 +4041,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81894/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -4270,9 +4119,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81957/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -4301,12 +4148,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82084/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -4406,12 +4248,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82186/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -4545,9 +4382,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82356/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -4755,12 +4590,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82170/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -6031,11 +5861,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81814/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -6071,9 +5897,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81816/",
     "key_themes": [
-      "High Performance Inference and Training",
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
       "Startup Spotlight"
     ]
   },
@@ -6145,12 +5969,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82184/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -6249,8 +6068,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81491/",
     "key_themes": [
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -6314,12 +6132,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81584/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -6348,8 +6161,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81590/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -6560,10 +6372,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81630/",
     "key_themes": [
       "Claws & Long Running Agents",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -6623,10 +6432,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81649/",
     "key_themes": [
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI for Science"
     ]
   },
   {
@@ -6716,12 +6522,8 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81719/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "High Performance Inference and Training",
-      "Open Models",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Open Models"
     ]
   },
   {
@@ -6761,9 +6563,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81737/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -6797,12 +6597,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81793/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -6831,10 +6626,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81833/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -7006,12 +6798,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82241/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -7221,8 +7008,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81653/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -7267,10 +7053,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81674/",
     "key_themes": [
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI for Science"
     ]
   },
   {
@@ -7352,12 +7135,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81788/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -7386,10 +7164,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81803/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -7434,12 +7209,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81809/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -7469,8 +7239,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81825/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -7506,14 +7274,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81834/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -7547,10 +7308,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81836/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -7596,8 +7354,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81912/",
     "key_themes": [
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -7631,9 +7388,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81958/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -7673,9 +7428,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82001/",
     "key_themes": [
-      "High Performance Inference and Training",
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
       "Startup Spotlight"
     ]
   },
@@ -7705,9 +7458,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82006/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -7813,9 +7564,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82113/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -7844,12 +7593,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82132/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -7880,12 +7624,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82231/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -8083,12 +7822,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81447/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -8171,10 +7905,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81547/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -8224,10 +7955,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81573/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -8296,8 +8024,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81686/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -8328,7 +8055,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81695/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "High Performance Inference and Training"
     ]
   },
@@ -8406,10 +8132,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81743/",
     "key_themes": [
       "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -8444,8 +8167,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81744/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -8512,12 +8233,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81848/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -8551,9 +8267,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81862/",
     "key_themes": [
-      "High Performance Inference and Training",
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
       "Startup Spotlight"
     ]
   },
@@ -8819,12 +8533,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82262/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -8890,9 +8599,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81452/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -9033,9 +8740,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81472/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -9074,10 +8779,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81479/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -9257,10 +8959,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81647/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -9340,7 +9039,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81679/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "DLIT81697",
@@ -9373,9 +9074,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81697/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -9417,12 +9116,8 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81702/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Claws & Long Running Agents",
-      "Open Models",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Open Models"
     ]
   },
   {
@@ -9456,12 +9151,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81750/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -9495,12 +9185,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81796/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -9696,12 +9381,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82129/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -9730,9 +9410,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82146/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -9788,12 +9466,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82216/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -9899,8 +9572,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82236/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -10115,11 +9787,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82257/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -10243,9 +9911,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81568/",
     "key_themes": [
       "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -10294,10 +9960,8 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81740/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Open Models",
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -10380,10 +10044,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81501/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -10510,10 +10171,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81657/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "High Performance Inference and Training"
     ]
   },
@@ -10543,9 +10201,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81694/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -10590,10 +10246,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81714/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI for Science"
     ]
   },
   {
@@ -10762,8 +10415,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81761/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -10883,11 +10535,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81828/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -10937,7 +10585,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81830/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Startup Spotlight"
     ]
   },
@@ -11036,12 +10683,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81951/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -11103,10 +10745,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82026/",
     "key_themes": [
       "High Performance Inference and Training",
-      "Open Models",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Open Models"
     ]
   },
   {
@@ -11135,8 +10774,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82043/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -11551,8 +11189,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81558/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -11656,8 +11293,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81682/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -11695,7 +11331,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81689/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "S81730",
@@ -11788,7 +11426,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81754/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "S81767",
@@ -11822,11 +11462,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81767/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -11913,7 +11549,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81777/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Startup Spotlight"
     ]
   },
@@ -11964,9 +11599,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81790/",
     "key_themes": [
       "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI for Science"
     ]
   },
   {
@@ -12000,9 +11633,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81801/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -12036,8 +11667,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81805/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -12074,13 +11704,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81851/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -12119,8 +11743,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81948/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -12297,11 +11920,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82041/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -12431,10 +12050,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82078/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -12465,8 +12081,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82147/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -12498,9 +12112,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82185/",
     "key_themes": [
       "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI for Science"
     ]
   },
   {
@@ -12648,11 +12260,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82309/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -12739,7 +12347,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81490/",
     "key_themes": [
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
       "Startup Spotlight"
     ]
   },
@@ -12774,9 +12381,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81512/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -12909,9 +12514,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81669/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -12961,13 +12564,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81671/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -13002,8 +12599,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81710/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -13059,8 +12655,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81724/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -13100,10 +12695,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81755/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -13129,8 +12721,8 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81770/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "CUDA, Libraries and Developer Tools",
+      "High Performance Inference and Training"
     ]
   },
   {
@@ -13187,12 +12779,8 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81791/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Claws & Long Running Agents",
-      "Open Models",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Open Models"
     ]
   },
   {
@@ -13252,7 +12840,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81832/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Startup Spotlight"
     ]
   },
@@ -13282,10 +12869,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81864/",
     "key_themes": [
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI for Good"
     ]
   },
   {
@@ -13334,8 +12918,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81874/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -13437,7 +13020,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81934/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "CWES82007",
@@ -13490,10 +13075,8 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82007/",
     "key_themes": [
-      "Open Models",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "High Performance Inference and Training",
+      "Open Models"
     ]
   },
   {
@@ -13523,7 +13106,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82154/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "High Performance Inference and Training"
     ]
   },
@@ -13560,8 +13142,7 @@
     "key_themes": [
       "AI for Good",
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -13680,8 +13261,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82191/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -13878,11 +13458,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82275/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -15321,9 +14897,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81698/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -15357,9 +14931,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81798/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -15421,7 +14993,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81945/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "DLIT82008",
@@ -15455,11 +15029,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82008/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -15545,11 +15115,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81475/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -15650,8 +15216,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81528/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -15817,9 +15381,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81675/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -15870,7 +15432,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81684/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
+      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -15922,10 +15484,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81685/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Startup Spotlight"
     ]
   },
@@ -15961,9 +15519,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81706/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -16048,10 +15604,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81802/",
     "key_themes": [
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI for Science"
     ]
   },
   {
@@ -16081,8 +15634,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81811/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -16162,12 +15714,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82010/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -16405,9 +15952,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82298/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -16639,8 +16184,9 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81535/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI for Science",
+      "Agentic AI and Reasoning AI",
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -16700,12 +16246,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81458/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -16808,9 +16349,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81570/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -16958,8 +16497,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81652/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -17085,9 +16623,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81707/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -17126,9 +16662,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81726/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -17169,9 +16703,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81738/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -17249,8 +16781,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81765/",
     "key_themes": [
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -17311,9 +16842,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81871/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -17477,7 +17006,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82033/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "S82035",
@@ -17505,8 +17036,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82035/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -17558,9 +17088,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82168/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -17622,9 +17150,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82197/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -17673,10 +17199,8 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82214/",
     "key_themes": [
-      "Open Models",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "High Performance Inference and Training",
+      "Open Models"
     ]
   },
   {
@@ -17884,11 +17408,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81473/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -17967,7 +17487,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81540/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "S81611",
@@ -18025,9 +17547,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81611/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -18078,10 +17598,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81629/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -18116,10 +17633,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81643/",
     "key_themes": [
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI for Good"
     ]
   },
   {
@@ -18153,9 +17667,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81734/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -18184,8 +17696,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81778/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -18219,10 +17730,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81785/",
     "key_themes": [
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI for Good"
     ]
   },
   {
@@ -18259,10 +17767,8 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81852/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "High Performance Inference and Training"
     ]
   },
   {
@@ -18296,9 +17802,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81885/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -18379,9 +17883,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81953/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -18471,7 +17973,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82225/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Startup Spotlight"
     ]
   },
@@ -18553,11 +18054,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82238/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -18611,7 +18108,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82261/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "S82277",
@@ -18672,9 +18171,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82359/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -18818,8 +18315,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81592/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -18854,9 +18350,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81644/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -18891,9 +18385,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81650/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -18922,11 +18414,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82181/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -18955,8 +18443,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82308/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -19027,12 +18514,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81655/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -19151,9 +18633,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81556/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -19354,11 +18834,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81701/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -19395,8 +18870,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81704/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -19425,8 +18899,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81722/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -19461,10 +18934,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81748/",
     "key_themes": [
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI for Science"
     ]
   },
   {
@@ -19502,7 +18972,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81762/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "S81780",
@@ -19566,13 +19038,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81835/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
-      "Open Models",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Open Models"
     ]
   },
   {
@@ -19601,10 +19067,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81838/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -19638,12 +19101,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81841/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -19720,10 +19178,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82019/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI for Good"
     ]
   },
   {
@@ -19786,11 +19241,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82133/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -19845,14 +19296,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82142/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -19970,12 +19414,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82187/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -20121,8 +19560,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82391/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -20153,11 +19591,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex81989/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -20241,8 +19675,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81591/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -20326,7 +19759,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81555/",
-    "key_themes": []
+    "key_themes": [
+      "CUDA, Libraries and Developer Tools"
+    ]
   },
   {
     "session_id": "S81525",
@@ -20375,9 +19810,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81525/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -20411,10 +19844,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81537/",
     "key_themes": [
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI for Good"
     ]
   },
   {
@@ -20442,7 +19872,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81579/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "S81618",
@@ -20540,12 +19972,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81691/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -20580,9 +20007,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81699/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -20655,9 +20080,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81745/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -20749,9 +20172,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81819/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -20872,11 +20293,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82002/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -20944,12 +20361,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82020/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -20983,12 +20395,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82038/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -21058,7 +20465,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82062/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Claws & Long Running Agents"
     ]
   },
@@ -21115,12 +20521,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82081/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -21189,9 +20590,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82144/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -21252,8 +20651,8 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82295/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Claws & Long Running Agents",
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -21392,11 +20791,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82083/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -21469,9 +20864,9 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81759/",
     "key_themes": [
-      "Claws & Long Running Agents",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "AI Factories and Scaling Infrastructure",
+      "AI for Good",
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -21565,7 +20960,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81621/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Startup Spotlight"
     ]
   },
@@ -21664,8 +21058,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81696/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -21828,10 +21221,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81781/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -21861,9 +21251,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81792/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -21960,11 +21348,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81817/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -22050,8 +21434,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82016/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -22167,8 +21550,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82224/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -22204,9 +21585,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82237/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -22300,10 +21679,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82264/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -22403,8 +21779,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82381/",
     "key_themes": [
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -22436,10 +21811,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82047/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "Startup Spotlight"
     ]
   },
@@ -22471,11 +21842,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82049/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -23427,9 +22794,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81700/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -23469,7 +22834,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82021/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "DLIT82143",
@@ -23506,7 +22873,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82143/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "DLIT82183",
@@ -23535,12 +22904,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82183/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -23604,8 +22968,9 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81733/",
     "key_themes": [
+      "AI for Science",
+      "Claws & Long Running Agents",
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
       "Startup Spotlight"
     ]
   },
@@ -23701,7 +23066,10 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81506/",
-    "key_themes": []
+    "key_themes": [
+      "AI Factories and Scaling Infrastructure",
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "S81488",
@@ -23734,9 +23102,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81488/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -23770,9 +23136,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81531/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -23817,12 +23181,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81551/",
     "key_themes": [
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI for Good"
     ]
   },
   {
@@ -23977,9 +23336,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81666/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -24013,10 +23370,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81729/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -24280,13 +23634,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82232/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -24402,8 +23750,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82432/",
     "key_themes": [
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -24501,7 +23848,10 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81461/",
-    "key_themes": []
+    "key_themes": [
+      "AI Factories and Scaling Infrastructure",
+      "CUDA, Libraries and Developer Tools"
+    ]
   },
   {
     "session_id": "S81422",
@@ -24529,13 +23879,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81422/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -24589,12 +23933,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81474/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -24623,8 +23962,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81545/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -24663,12 +24001,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81548/",
     "key_themes": [
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI for Good"
     ]
   },
   {
@@ -24708,7 +24041,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81567/",
-    "key_themes": []
+    "key_themes": [
+      "High Performance Inference and Training"
+    ]
   },
   {
     "session_id": "DLIT81572",
@@ -24746,9 +24081,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81572/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -24816,13 +24149,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81638/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -24872,9 +24199,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81664/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -24909,9 +24233,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81776/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -24946,13 +24268,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81782/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -25017,7 +24333,9 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82022/",
-    "key_themes": []
+    "key_themes": [
+      "Physical AI and Robotics"
+    ]
   },
   {
     "session_id": "S82034",
@@ -25155,11 +24473,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82166/",
     "key_themes": [
       "AI for Good",
-      "AI for Science",
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -25196,9 +24510,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82292/",
     "key_themes": [
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
@@ -25459,7 +24771,11 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81524/",
-    "key_themes": []
+    "key_themes": [
+      "Claws & Long Running Agents",
+      "Open Models",
+      "Physical AI and Robotics"
+    ]
   },
   {
     "session_id": "S81518",
@@ -25493,7 +24809,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81518/",
     "key_themes": [
       "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents"
+      "High Performance Inference and Training"
     ]
   },
   {
@@ -25562,12 +24878,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81566/",
     "key_themes": [
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI for Good"
     ]
   },
   {
@@ -25602,9 +24913,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81581/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -25663,9 +24972,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81600/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -25710,7 +25017,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81613/",
     "key_themes": [
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
       "Startup Spotlight"
     ]
   },
@@ -25791,8 +25097,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-qa81637/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -25842,7 +25147,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81821/",
     "key_themes": [
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
       "Startup Spotlight"
     ]
   },
@@ -25916,8 +25220,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81868/",
     "key_themes": [
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -26023,8 +25326,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82158/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -26309,11 +25611,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81465/",
     "key_themes": [
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI for Science"
     ]
   },
   {
@@ -26437,12 +25735,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81634/",
     "key_themes": [
       "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -26497,9 +25790,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81670/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -26528,9 +25819,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81772/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -26574,9 +25863,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81822/",
     "key_themes": [
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -26957,7 +26244,9 @@
     "key_takeaways": [],
     "speakers": [],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-c82415/",
-    "key_themes": []
+    "key_themes": [
+      "Quantum Computing and HPC"
+    ]
   },
   {
     "session_id": "DLIT81485",
@@ -26997,11 +26286,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81485/",
     "key_themes": [
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "AI for Good"
     ]
   },
   {
@@ -27102,10 +26387,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81837/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -27145,13 +26427,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82150/",
     "key_themes": [
       "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -27242,11 +26518,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82343/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -27372,9 +26644,10 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81795/",
     "key_themes": [
+      "AI for Good",
+      "High Performance Inference and Training",
       "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Quantum Computing and HPC"
     ]
   },
   {
@@ -27442,10 +26715,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81478/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -27485,7 +26755,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81693/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
       "High Performance Inference and Training"
     ]
   },
@@ -27516,8 +26785,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81709/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -27571,8 +26839,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-qa81741/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -27728,13 +26995,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81471/",
     "key_themes": [
-      "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "AI Factories and Scaling Infrastructure"
     ]
   },
   {
@@ -27769,8 +27030,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81614/",
     "key_themes": [
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "CUDA, Libraries and Developer Tools"
     ]
   },
   {
@@ -34008,10 +33268,7 @@
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82462/",
     "key_themes": [
-      "High Performance Inference and Training",
-      "Physical AI and Robotics",
-      "Quantum Computing and HPC",
-      "Startup Spotlight"
+      "Physical AI and Robotics"
     ]
   },
   {
@@ -34051,10 +33308,7 @@
       }
     ],
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82499/",
-    "key_themes": [
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
-    ]
+    "key_themes": []
   },
   {
     "session_id": "CWES82516",
@@ -34328,9 +33582,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82553/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "Claws & Long Running Agents",
-      "High Performance Inference and Training"
+      "Claws & Long Running Agents"
     ]
   },
   {
@@ -34668,8 +33920,6 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81596/",
     "key_themes": [
       "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training",
       "Startup Spotlight"
     ]
   },
@@ -34706,11 +33956,7 @@
     "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81849/",
     "key_themes": [
       "AI Factories and Scaling Infrastructure",
-      "AI for Good",
-      "AI for Science",
-      "Agentic AI and Reasoning AI",
-      "CUDA, Libraries and Developer Tools",
-      "High Performance Inference and Training"
+      "Agentic AI and Reasoning AI"
     ]
   },
   {
