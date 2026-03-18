@@ -1,0 +1,667 @@
+[
+  {
+    "session_id": "P81085",
+    "json_title": "Quantum-Inspired Kolmogorov-Arnold Networks for Scalable and Efficient LLMs",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81085/"
+  },
+  {
+    "session_id": "S82284",
+    "json_title": "ROLL:集成 NVIDIA Megatron、高效易用的大规模 LLM 强化学习框架 An Efficient and User-Friendly Large-Scale RL Framework Integrating Megatron",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82284/"
+  },
+  {
+    "session_id": "S82321",
+    "json_title": "SeamlessFlow:NVIDIA GPU 集群上基于 Megatron-Core 的 Trainer-Agent 隔离与标签调度无空泡强化学习框架",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82321/"
+  },
+  {
+    "session_id": "DLIT81698",
+    "json_title": "Scalable Environment Setup and Policy Evaluation in Simulation with Isaac Lab Arena and GR00T",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81698/"
+  },
+  {
+    "session_id": "S82188",
+    "json_title": "从物理近似到物理真实:基于真实物理参数的 Physical AI 合成数据基础设施",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82188/"
+  },
+  {
+    "session_id": "S81990",
+    "json_title": "智能融合:下一代端到端架构演进",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81990/"
+  },
+  {
+    "session_id": "S82354",
+    "json_title": "基于 NVIDIA AI Enterprise 全栈赋能:\"AI Factory\" 重塑智造新标杆",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82354/"
+  },
+  {
+    "session_id": "S82151",
+    "json_title": "Deploy Lambda's Bare Metal Cloud with NVIDIA Vera Rubin NVL72 & GB300 NVL72 (Presented by Lambda)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82151/"
+  },
+  {
+    "session_id": "P81053",
+    "json_title": "Dual Engines of Thought: A Dual-Engine Architecture With Breadth-Depth Coordination for Open-Ended Reasoning in LLMs",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81053/"
+  },
+  {
+    "session_id": "EX82340",
+    "json_title": "Scale Engineering Innovation With AI-Enhanced and Accelerated Computing (Presented by Synopsys)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82340/"
+  },
+  {
+    "session_id": "S82202",
+    "json_title": "端到端用于自动驾驶的强化认知(Reinforced Cognitive)框架",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82202/"
+  },
+  {
+    "session_id": "EX82068",
+    "json_title": "Unlock AI Performance: Three Ways CXL-Powered KV Cache Improves Inference Efficiency (Presented by Penguin Solutions)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82068/"
+  },
+  {
+    "session_id": "S82234",
+    "json_title": "Scale Inference Using Open Models: How Nebius Token Factory Delivers Control and Efficiency (Presented by Nebius)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82234/"
+  },
+  {
+    "session_id": "S82437",
+    "json_title": "NVIDIA Vera: Reimagining CPUs for Agents, Reasoning, and What's Next",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82437/"
+  },
+  {
+    "session_id": "S81656",
+    "json_title": "Optimizing the Shopping Experience at Amazon Ads With NVIDIA Dynamo",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81656/"
+  },
+  {
+    "session_id": "S81898",
+    "json_title": "Europe's AI Launchpad: Unlock Startup Growth Through Sovereign AI Infrastructure",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81898/"
+  },
+  {
+    "session_id": "EX82315",
+    "json_title": "No One Will Use Your AI Agents if They Don't Feel Human (Presented by ElevenLabs)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82315/"
+  },
+  {
+    "session_id": "S81835",
+    "json_title": "Build Trust and Discovery Through Open‐Source AI in Research",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81835/"
+  },
+  {
+    "session_id": "S82088",
+    "json_title": "A New Standard for Unified Power and Infrastructure Design With OpenUSD (Presented by Schneider Electric)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82088/"
+  },
+  {
+    "session_id": "P81262",
+    "json_title": "Rapid VSOP Animation Generation via Vision‐Language Models and Trajectory Prediction",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81262/"
+  },
+  {
+    "session_id": "EX82327",
+    "json_title": "Infosys Topaz Fabric With its Agentic Capabilities (Presented by Infosys)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82327/"
+  },
+  {
+    "session_id": "S81528",
+    "json_title": "Code with Context: Build an Agentic IDE that Truly Understands Your Codebase",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81528/"
+  },
+  {
+    "session_id": "S81533",
+    "json_title": "Massive Parallelization of Subgraph Isomorphism for Scalable Quantum Compilation and Faster Graph Analytics",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81533/"
+  },
+  {
+    "session_id": "S82429",
+    "json_title": "Deploy an AI Concierge for Every Customer at Global Scale",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82429/"
+  },
+  {
+    "session_id": "S81900",
+    "json_title": "AI 重塑影视产业:打造基于 NVIDIA 全栈的 AI 算力池,生成式 AI工作流与 OpenUSD 资产平台",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81900/"
+  },
+  {
+    "session_id": "S81858",
+    "json_title": "基于具身智能加速即时物流机器人研发:从大语言动作模型训练到数字孪生验证",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81858/"
+  },
+  {
+    "session_id": "S82023",
+    "json_title": "Building America's AI-Native 6G: Architecture, Timelines, and Ecosystem Innovations",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82023/"
+  },
+  {
+    "session_id": "S81470",
+    "json_title": "Accelerate Native Sparse Attention Kernels on Blackwell by CUTLASS Python",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81470/"
+  },
+  {
+    "session_id": "S81985",
+    "json_title": "Business Jet Customization Accelerated with an Enhanced Rendering Workflow",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81985/"
+  },
+  {
+    "session_id": "S81825",
+    "json_title": "From Prompt to Pull Request: Engineering Coding Agents into Your Stack",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81825/"
+  },
+  {
+    "session_id": "S82003",
+    "json_title": "Telecom Special Address: The AI Grid-Intelligently Connecting AI Infrastructure",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82003/"
+  },
+  {
+    "session_id": "S81935",
+    "json_title": "从视觉还原到物理交互: 物理可驱动3D 资产生成技术 Beyond Visuals: A Physics-Informed Generative Method for Articulated 3D Assets",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81935/"
+  },
+  {
+    "session_id": "P81110",
+    "json_title": "Interactive 2D-3D Visualization Interface for Digital Pathology",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81110/"
+  },
+  {
+    "session_id": "CWES81843",
+    "json_title": "The Developer's Roadmap to Physical AI: Bridging Digital Models and Real-World Systems",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81843/"
+  },
+  {
+    "session_id": "S81844",
+    "json_title": "The Future of Industrial Edge",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81844/"
+  },
+  {
+    "session_id": "S81821",
+    "json_title": "Physical AI for Healthcare Robotics-Part 1: Simulation-First Design and Accelerated Development",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81821/"
+  },
+  {
+    "session_id": "P81096",
+    "json_title": "BrainRAD: Dementia Diagnosis and Prognosis Prediction With Retrieval-Assisted Vision-Language Framework",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81096/"
+  },
+  {
+    "session_id": "S81827",
+    "json_title": "NVIDIA NeMo を活用した半導体領域知識を組み込む小規模 LLM のファインチューニング",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81827/"
+  },
+  {
+    "session_id": "WP82017",
+    "json_title": "Watch Party: 加速工業工程:AI 超級運算時代的產品設計與製造",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp82017/"
+  },
+  {
+    "session_id": "S81680",
+    "json_title": "From Grace to Vera: NVIDIA's next data center CPU",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81680/"
+  },
+  {
+    "session_id": "S81794",
+    "json_title": "Drive Down Costs: Enhanced Tokenomics and Smart Routing for High-Scale Enterprise AI",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81794/"
+  },
+  {
+    "session_id": "S81590",
+    "json_title": "Lower the Barriers: How New Tools Unlock GPU Acceleration for Everyone",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81590/"
+  },
+  {
+    "session_id": "S81978",
+    "json_title": "MindVLA-o1:开启全能范式--下一代统一视觉-语言-动作自动驾驶大模型探索",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81978/"
+  },
+  {
+    "session_id": "S81652",
+    "json_title": "Scaling Laws in Biology: Why Bigger Models Alone Aren't Enough",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81652/"
+  },
+  {
+    "session_id": "S81737",
+    "json_title": "Game Agent Models: Pick and Perfect the Right AI Models for Your Game",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81737/"
+  },
+  {
+    "session_id": "S81944",
+    "json_title": "AI 与工业的融合:探索工业具身智能新路径",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81944/"
+  },
+  {
+    "session_id": "WP81708",
+    "json_title": "Watch Party: NVIDIA 101: From Chips to Software-How NVIDIA's AI Platform Enables the AI Revolution",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81708/"
+  },
+  {
+    "session_id": "S81822",
+    "json_title": "Physical AI for Healthcare Robotics-Part 2: Closing the Sim-to-Real Gap and Real-World Deployment",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81822/"
+  },
+  {
+    "session_id": "S81961",
+    "json_title": "高速公路数字化转型--基于云边协同的 VLM 大模型行业长尾场景落地",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81961/"
+  },
+  {
+    "session_id": "S81530",
+    "json_title": "Developing the First Generative AI Model of Global Financial Markets",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81530/"
+  },
+  {
+    "session_id": "DLIT81699",
+    "json_title": "Building and Testing Multi‐Robot Scenarios with Isaac Sim and ROS 2",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81699/"
+  },
+  {
+    "session_id": "S81911",
+    "json_title": "Inside the NVIDIA Inference Platform and Ecosystem",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81911/"
+  },
+  {
+    "session_id": "S81765",
+    "json_title": "Activate Always-On AI Security, From Cloud to Edge",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81765/"
+  },
+  {
+    "session_id": "S81748",
+    "json_title": "The AI-XR Co-Scientist Lab: How Stanford's LabOS is Accelerating Advanced Science With XR",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81748/"
+  },
+  {
+    "session_id": "P81343",
+    "json_title": "NetMind: Telecom Agentic AI Assistant Toward Level-4 Autonomous Networks",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81343/"
+  },
+  {
+    "session_id": "S81824",
+    "json_title": "Pushing the Boundaries of CAE and EDA With NVIDIA cuDSS, the CUDA Direct Sparse Solver",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81824/"
+  },
+  {
+    "session_id": "DLIT82259",
+    "json_title": "Scalable and Resilient Training with Megatron-Bridge and NeMo",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit82259/"
+  },
+  {
+    "session_id": "S81846",
+    "json_title": "洞察 2026 中国 AI 市场 - AI 智能体和物理 AI 浪潮下的创业风口",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81846/"
+  },
+  {
+    "session_id": "S81870",
+    "json_title": "Scaling DuckDB Beyond Its Limits: GPU-Accelerated Analytics With Sirius",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81870/"
+  },
+  {
+    "session_id": "S82127",
+    "json_title": "工业级具身智能,正在从概念走向现实",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82127/"
+  },
+  {
+    "session_id": "S81940",
+    "json_title": "Qwen3-Omni:驱动下一代智能座舱的全模态交互引擎",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81940/"
+  },
+  {
+    "session_id": "S81851",
+    "json_title": "The Builder's Toolkit: Scaling Enterprise AI Factories",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81851/"
+  },
+  {
+    "session_id": "S81492",
+    "json_title": "Disney's Robotic Characters: From the Screen to Reality via Physical AI",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81492/"
+  },
+  {
+    "session_id": "S81708",
+    "json_title": "NVIDIA 101: From Chips to Software-How NVIDIA's AI Platform Enables the AI Revolution",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81708/"
+  },
+  {
+    "session_id": "P81231",
+    "json_title": "Efficient On-Policy Distillation for Transferring Reasoning Capabilities via Parallel and Sparse Training",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81231/"
+  },
+  {
+    "session_id": "S82282",
+    "json_title": "PAI 集成 NVIDIA Physical AI:驱动数据合成、模型训练测评一体化 PAI Integrates NVIDIA Physical AI: Power E2E SDG, Model Training & Evaluation",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82282/"
+  },
+  {
+    "session_id": "S81823",
+    "json_title": "利用 NVIDIA Cosmos VSS 构建智慧交通(ITS)违章检测系统",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81823/"
+  },
+  {
+    "session_id": "EX82305",
+    "json_title": "AI No Longer Benefits From High-Capacity SSDs-It Requires Them (Presented by Solidigm)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82305/"
+  },
+  {
+    "session_id": "DLIT81609",
+    "json_title": "Build End-to-End Medical AI Workflows With NVIDIA Clara Open Models",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-dlit81609/"
+  },
+  {
+    "session_id": "S81695",
+    "json_title": "Racing to the Top: How We Scaled Kimi K2",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81695/"
+  },
+  {
+    "session_id": "S82271",
+    "json_title": "Driving Factory Autonomy With Digital Twins: Hyundai's Virtual Commissioning Journey",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82271/"
+  },
+  {
+    "session_id": "S82076",
+    "json_title": "Architect for AI Breakthroughs: Co-Design Memory + Storage for What's Now and Next (Presented by Samsung Semiconductor)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82076/"
+  },
+  {
+    "session_id": "S81712",
+    "json_title": "複雑ドキュメント向けソブリンAI:日本の先端事例から学ぶ",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81712/"
+  },
+  {
+    "session_id": "P81042",
+    "json_title": "LESS: Large Language Model Enhanced Semi-Supervised Learning for Speech Foundational Models Using In-the-Wild Data",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81042/"
+  },
+  {
+    "session_id": "S81826",
+    "json_title": "Unlock Efficiency for Financial Agents With Scalable Data Curation",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81826/"
+  },
+  {
+    "session_id": "S81860",
+    "json_title": "从 Isaac Gym 迁移到 Isaac Lab,及未来技术演进",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81860/"
+  },
+  {
+    "session_id": "S81834",
+    "json_title": "Shaping the Future of Semiconductor Manufacturing With AI",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81834/"
+  },
+  {
+    "session_id": "S82395",
+    "json_title": "The Sovereign Model Maker's LLM Journey",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82395/"
+  },
+  {
+    "session_id": "S82358",
+    "json_title": "以 WAM 为核心构建全域 AI 2.0,AI+车技术实践分享",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82358/"
+  },
+  {
+    "session_id": "S81975",
+    "json_title": "AIBOX + AIOS:构建生成式 AI 在智能汽车的端侧落地新范式",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81975/"
+  },
+  {
+    "session_id": "CWES81586",
+    "json_title": "Connect With the Experts on the Technology Behind DGX Cloud",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81586/"
+  },
+  {
+    "session_id": "S82389",
+    "json_title": "OCI AI Infrastructure: Industry-Leading Scale, Performance, and Reliability (Presented by Oracle)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82389/"
+  },
+  {
+    "session_id": "S81625",
+    "json_title": "Build Purpose-Built AI Security With DOCA",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81625/"
+  },
+  {
+    "session_id": "S81613",
+    "json_title": "An Introduction to Newton Physics Engine for Robotics",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81613/"
+  },
+  {
+    "session_id": "S81943",
+    "json_title": "利用 NVIDIA Dynamo Router 的 LongCat-Flash 高效推理案例研究:面向智能体时代的模型-系统协同设计",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81943/"
+  },
+  {
+    "session_id": "S82368",
+    "json_title": "Transform Enterprise Infrastructure and Unlock Efficient Multi-Workload Performance With the Latest Blackwell Platform",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82368/"
+  },
+  {
+    "session_id": "S82316",
+    "json_title": "Inside Pixar's RenderMan: XPU Technology and Storytelling on Toy Story 5 (Presented by Dell)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82316/"
+  },
+  {
+    "session_id": "S82317",
+    "json_title": "How to Build an AI Cloud: From Site Selection to GPU Clusters (Presented by IREN)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82317/"
+  },
+  {
+    "session_id": "EX82364",
+    "json_title": "Life Sciences: Scale Multi‐Agent for Accelerated Clinical Operation Systems With NVIDIA and AWS (Presented by Cognizant)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82364/"
+  },
+  {
+    "session_id": "EX82058",
+    "json_title": "Robotics in the Wild: What's Real, What's Not, and What's Coming Next (Presented by HCLTech)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82058/"
+  },
+  {
+    "session_id": "S81636",
+    "json_title": "Building Shopify's Commerce Foundation Models",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81636/"
+  },
+  {
+    "session_id": "S82416",
+    "json_title": "Architects of the Accelerated Age: How CUDA Builders Changed the World (and How You're Next)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82416/"
+  },
+  {
+    "session_id": "S81970",
+    "json_title": "DiT 视频模型推理加速新方案:兼顾精度与效率的平衡之道",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81970/"
+  },
+  {
+    "session_id": "S81847",
+    "json_title": "A Playbook - Operating Cloud AI Factories at Scale",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81847/"
+  },
+  {
+    "session_id": "S81979",
+    "json_title": "基于扩散模型的具身智能:从统一理论到 GPU 加速的机器人策略 Diffusion-Driven Embodied AI: From Unified Theory to GPU-Accelerated Robot Policies",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81979/"
+  },
+  {
+    "session_id": "S81984",
+    "json_title": "基于 NVIDIA HPC 打造端到端生成式推荐 OneRec 训练:面向工业级推荐大模型的\"超算引擎\"",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81984/"
+  },
+  {
+    "session_id": "CWES82516",
+    "json_title": "Ask the NVCC Experts: CUDA Compiler Language, Performance, and Tuning",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82516/"
+  },
+  {
+    "session_id": "S81558",
+    "json_title": "Post-Training Nemotron With RL: Multi‐Environment Training for Reasoning and Tool-Using Agents",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81558/"
+  },
+  {
+    "session_id": "CWES81955",
+    "json_title": "NVIDIA 101: From Chips to Software-How NVIDIA's AI Platform Enables the AI Revolution",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes81955/"
+  },
+  {
+    "session_id": "S81743",
+    "json_title": "The Digital Surgeon: How Generative AI and Simulation are Redefining Performance and Safety in Robotic Surgery",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81743/"
+  },
+  {
+    "session_id": "S81770",
+    "json_title": "Accelerating Quantum Chemistry on GPUs-Latest Advances",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81770/"
+  },
+  {
+    "session_id": "P81147",
+    "json_title": "Qwen3-Swallow: Continual Pre-Training of Japanese-English Thinking LLMs With Megatron-LM",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81147/"
+  },
+  {
+    "session_id": "S81994",
+    "json_title": "Model Builders at the Frontier of EMEA's Open and Sovereign AI Movement",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81994/"
+  },
+  {
+    "session_id": "S82452",
+    "json_title": "Operationalizing AI at Scale: NVIDIA's End‐to‐End Journey to an Enterprise AI Factory",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82452/"
+  },
+  {
+    "session_id": "EX82253",
+    "json_title": "Supercharging Postgres for Agentic Analytics with NVIDIA RAPIDS and Apache Iceberg (Presented by EDB)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82253/"
+  },
+  {
+    "session_id": "S82294",
+    "json_title": "Magic Attention: A Composable, State-of-the-Art Framework for Exploring Warp Specialization on Blackwell",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82294/"
+  },
+  {
+    "session_id": "P81118",
+    "json_title": "GreenMind: A LLM for Complex Reasoning - Chain-of-Thought Data and Self-Correction Cycles on NVIDIA NEMO",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81118/"
+  },
+  {
+    "session_id": "S82131",
+    "json_title": "端到端模型部署:从 L2 到 L4 - Thor 如何加速 L4 技术栈与 Robotaxi 规模化落地",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82131/"
+  },
+  {
+    "session_id": "WP81561",
+    "json_title": "Watch Party: 擴展規模與跨域:千兆級 AI 系統的網路創新",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81561/"
+  },
+  {
+    "session_id": "S81619",
+    "json_title": "机器人仿真实战:从资产到真机部署的全流程讲解",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81619/"
+  },
+  {
+    "session_id": "S81772",
+    "json_title": "Don't Leave Tensors on the Table: Programming and Optimizing Tensor Cores",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81772/"
+  },
+  {
+    "session_id": "EX81989",
+    "json_title": "Building the Next Frontier for the World's Largest Sovereign AI Factories (Presented by Yotta)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex81989/"
+  },
+  {
+    "session_id": "S82390",
+    "json_title": "Redefining AI Performance: NVIDIA Blackwell on OCI Accelerated Infrastructure (Presented by Oracle)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82390/"
+  },
+  {
+    "session_id": "S81972",
+    "json_title": "インタラクティブCFD最前線:Omniverseで体験するデジタルツインと都市シミュレーション",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81972/"
+  },
+  {
+    "session_id": "S82312",
+    "json_title": "基于多模态数据湖的新一代人工智能应用:NVIDIA 工具链落地实践的深度洞察",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82312/"
+  },
+  {
+    "session_id": "P81139",
+    "json_title": "Multilingual Benchmarking and Evaluation of Safety Guardrails in Low-Resource Languages ",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81139/"
+  },
+  {
+    "session_id": "P81092",
+    "json_title": "Polar Deep Learning on GPUs: Drone-Satellite Multispectral Fusion for Vegetation Mapping",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81092/"
+  },
+  {
+    "session_id": "QA81637",
+    "json_title": "PMPP Edition 5 Unveiled: Ask Dr. Wen Mei and the CUDA Team Your Questions",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-qa81637/"
+  },
+  {
+    "session_id": "S82129",
+    "json_title": "Engineering AI for Reality: From Readiness to Runtime (Presented by IBM)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82129/"
+  },
+  {
+    "session_id": "S82027",
+    "json_title": "从云端到本地,重塑座舱AI",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82027/"
+  },
+  {
+    "session_id": "S81981",
+    "json_title": "十载相伴,NVIDIA 赋能创业公司在 AI 时代加速前行",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81981/"
+  },
+  {
+    "session_id": "S82277",
+    "json_title": "Australia's Radical Shift in AI Infrastructure: Project Southgate (Presented by Firmus Technologies)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82277/"
+  },
+  {
+    "session_id": "S82399",
+    "json_title": "Design and Operate AI Factories at Hyperscale (Presented by Microsoft)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82399/"
+  },
+  {
+    "session_id": "EX82328",
+    "json_title": "Liquid Cooling Readiness for Vera-Rubin Reference Architecures (Presented by nVent)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82328/"
+  },
+  {
+    "session_id": "S81864",
+    "json_title": "Advancing Road Safety for Roadway Users With Caltrans",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81864/"
+  },
+  {
+    "session_id": "EX82388",
+    "json_title": "AI‐RAN in Action: GPU‐Accelerated Performance Gains From the NVIDIA-Nokia Partnership (Presented by Nokia)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-ex82388/"
+  },
+  {
+    "session_id": "S82322",
+    "json_title": "规模化架构:大语言模型持续学习的探索与实践 Architectures of Scale: Navigate the Continual Learning in Large Language Models",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82322/"
+  },
+  {
+    "session_id": "WP81911",
+    "json_title": "Watch Party: 創新引擎:加速運算如何重塑全球產業",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-wp81911/"
+  },
+  {
+    "session_id": "S82492",
+    "json_title": "Scale Marketing Content Automation With 3D Digital Twin and Generative AI",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82492/"
+  },
+  {
+    "session_id": "S82233",
+    "json_title": "Solving the \"Three Computer\" Problem: Building the Cloud Infrastructure for Physical AI (Presented by Nebius)",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82233/"
+  },
+  {
+    "session_id": "P81055",
+    "json_title": "Accelerate Topological Property Simulation of SSH-Hubbard Model via DMET-VQE With CUDA-Q",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-p81055/"
+  },
+  {
+    "session_id": "S81478",
+    "json_title": "How to Build End‐to‐End Physical AI Systems for Humanoid Robots",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81478/"
+  },
+  {
+    "session_id": "S81726",
+    "json_title": "Puma's Smart Stores: Agents and Digital Humans Redefine Customer Interaction",
+    "url": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81726/"
+  }
+]
