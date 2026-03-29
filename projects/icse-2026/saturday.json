@@ -1,0 +1,442 @@
+[
+  {
+    "title": "ICSE 2026 Registration",
+    "data_event_modal": "a62ed4cb-6f92-4dd2-b8e5-45a8b06dd033"
+  },
+  {
+    "title": "TBA",
+    "data_event_modal": "9741b219-f02d-4a47-964b-4f5842c9379b"
+  },
+  {
+    "title": "Introduction of the Guide to the Software Engineering Body of Knowledge and Certification Program",
+    "data_event_modal": "4ada394e-c469-43da-957f-8b67dabfbf21"
+  },
+  {
+    "title": "Introduction of Research Software & SWEBOK",
+    "data_event_modal": "c964cddf-6bf7-4861-93db-82927e4490ad"
+  },
+  {
+    "title": "Keynote (TBD)",
+    "data_event_modal": "a7f129e4-7fc3-4d7c-9d77-e3bcc55170a4"
+  },
+  {
+    "title": "Opening & Welcome",
+    "data_event_modal": "c25a1334-7432-4367-8d69-d2b1553d5cd3"
+  },
+  {
+    "title": "Enhancing Automated Video Game Regression Testing through Behavior-Driven Development and Imitation Learning",
+    "data_event_modal": "adaaf616-d3a6-4b2e-8a5e-9c73e5b7e2ee"
+  },
+  {
+    "title": "Identifying Video Game Debugging Bottlenecks: An Industry Perspective",
+    "data_event_modal": "6c7fd415-75cb-4f07-b272-0aa9c5ee2b73"
+  },
+  {
+    "title": "Software Architecture Sherlock: An Educational Game for Software Architecture Exploration and Problem-solving",
+    "data_event_modal": "02a00cca-8772-446a-88a2-c7cb15c24318"
+  },
+  {
+    "title": "Using Hypothesis Engineering to Manage Architectural Uncertainties in Unity DOTS Game Development: A Case Study",
+    "data_event_modal": "9a071bfe-919a-4080-977f-cd5053571ee6"
+  },
+  {
+    "title": "CG-WFC: A Hybrid Cyclic-Graph & WFC Method for Designer-Guided and Replayable Procedural Content Generation",
+    "data_event_modal": "58eca046-76da-4be3-b2ab-755d76fc791c"
+  },
+  {
+    "title": "Characterizing Open-Source Video Games from a Software Engineering Perspective",
+    "data_event_modal": "3f37be38-2311-4eef-9489-087524ddc030"
+  },
+  {
+    "title": "Welcome & Introductions",
+    "data_event_modal": "08ad8532-d77b-47c3-b80d-9154e4ceb419"
+  },
+  {
+    "title": "Does JetBrains Dream of HAX? Human-AI Experience in the IDE, Today and Tomorrow",
+    "data_event_modal": "618fd424-5cd0-4ec2-baee-5f966a8242e3"
+  },
+  {
+    "title": "Forecasting Developer Environments with GenAI: A Research Perspective",
+    "data_event_modal": "3fa0b15f-75f8-4300-a954-8ff7954a362f"
+  },
+  {
+    "title": "Optimizing an IDE for an Evolving Language Ecosystem",
+    "data_event_modal": "8684b66a-2a08-4e2d-85d1-38c41ae0432a"
+  },
+  {
+    "title": "STATIC 2026 Introduction",
+    "data_event_modal": "5cd7c3b3-c8fe-4a7d-8fc5-4364adb61bab"
+  },
+  {
+    "title": "Keynote",
+    "data_event_modal": "40114b0e-53a5-4c32-9f68-615516fa2d96"
+  },
+  {
+    "title": "Welcome to LArc 2026",
+    "data_event_modal": "d7944ac6-cbac-4b36-909e-e105a6595369"
+  },
+  {
+    "title": "Model-Driven Engineering for Intelligent Low-Code PlatformsKeynote",
+    "data_event_modal": "9943f7a0-5df6-45fd-b2dc-cea7a6e369cd"
+  },
+  {
+    "title": "Workshop Opening",
+    "data_event_modal": "0f9e0e74-db6e-4e42-bd76-e7702a0b0b20"
+  },
+  {
+    "title": "Towards a Cognitive-Support Tool for Threat Hunters",
+    "data_event_modal": "63060351-dcb5-4dcf-9ee4-505042aa35fe"
+  },
+  {
+    "title": "Reflections and Factors in Applying Threat Modelling Tools for Cybersecurity Certification in Critical Infrastructure",
+    "data_event_modal": "46932d2c-8012-4d3b-b595-c68216d3013b"
+  },
+  {
+    "title": "An Overview of Cyber Security Funding for Open Source Software",
+    "data_event_modal": "419d4a82-4933-4312-afdc-2f8574285552"
+  },
+  {
+    "title": "LLM-Assisted AHP for Explainable Cyber Range Evaluation",
+    "data_event_modal": "7ec5f304-214e-4cf4-923d-7c32a43b0c4c"
+  },
+  {
+    "title": "Behind the Quantum Curtain: A practical comparison between SVM and QSVM in OT Anomaly Detection",
+    "data_event_modal": "9b8eb724-759d-4633-8cd7-f8d36652c342"
+  },
+  {
+    "title": "all together : picture",
+    "data_event_modal": "9b1b8cb4-9195-4756-b2b6-46a855bd72c9"
+  },
+  {
+    "title": "Break",
+    "data_event_modal": "acccb6db-1f24-4b6d-b93b-6587478b185c"
+  },
+  {
+    "title": "Cross-Organizational Data Governance for Industrial Digital Twins Using Blockchain and IPFS",
+    "data_event_modal": "41f09c1a-f1b2-4163-8940-0cf3a1c15def"
+  },
+  {
+    "title": "Enabling Digital Twins in Built Environments with Object-Oriented Models",
+    "data_event_modal": "1b24b262-fbb5-466c-9327-14321b4de4e7"
+  },
+  {
+    "title": "End-to-End Building Model Generation and Validation with CITYdata and MetamEnTh",
+    "data_event_modal": "af4d623c-0ef6-41f0-a904-8bb2c30e92d5"
+  },
+  {
+    "title": "Preliminary Usability Experimentation of a Pattern-Driven Middleware for IoT Data Processing in Research Environments",
+    "data_event_modal": "7acb33f2-295f-4ae8-8eb8-dff440a93477"
+  },
+  {
+    "title": "From Robotic to IoT Systems: Exploring the Reuse of a Robotic Orchestration DSL in the IoT domain",
+    "data_event_modal": "aadc92ab-ec4c-46eb-8842-79d97f3b5e91"
+  },
+  {
+    "title": "A Semantic-Web Oriented Competency Model for Engineering Programs",
+    "data_event_modal": "5a028409-e714-45e8-a08f-ab9c0fd594e2"
+  },
+  {
+    "title": "Talk: SWEBOK Knowledge Areas in the Software Track of a Senior Design Capstone Course",
+    "data_event_modal": "ecd12de7-befb-4871-a8b2-ddc681656f79"
+  },
+  {
+    "title": "Beyond Code: How Futuristic Thinking Shapes the Software Engineer of Tomorrow",
+    "data_event_modal": "675a3374-841d-461e-9af7-f0a049d2ea8f"
+  },
+  {
+    "title": "Talk: Software engineering role archetypes: mapping knowledge, skills, and competencies across frameworks",
+    "data_event_modal": "b32882d4-16e4-4a8e-bdda-b1040eb7085b"
+  },
+  {
+    "title": "Discussion 1 (TBD)",
+    "data_event_modal": "7e48d8b6-efbc-47bc-a1e4-5eb74545df8d"
+  },
+  {
+    "title": "From Code to Play: Engineering the Art of Games",
+    "data_event_modal": "f5517641-7c25-47b8-aef5-c605466300a5"
+  },
+  {
+    "title": "MigMate: A VS Code Extension for LLM-based Library Migration of Python Projects",
+    "data_event_modal": "d22a8dc2-33ff-47b9-b442-9d9558f6e447"
+  },
+  {
+    "title": "Protecting Private Code in IDE Autocomplete using Differential Privacy",
+    "data_event_modal": "78528b8f-91d8-41bd-a087-fc20489f15ee"
+  },
+  {
+    "title": "Control Models for In-IDE Code Completion",
+    "data_event_modal": "62a12729-2c33-4fe5-b29b-e773ae5682aa"
+  },
+  {
+    "title": "From Detection to Prevention: Explaining Security-Critical Code to Avoid Vulnerabilities",
+    "data_event_modal": "86cd8e82-a64e-4769-9eb1-a494c7681895"
+  },
+  {
+    "title": "Detecting UX smells in Visual Studio Code using LLMs",
+    "data_event_modal": "9fe42c18-e5a9-4cf5-8c28-1fecbfc24398"
+  },
+  {
+    "title": "SmartDoc: A Context-Aware Agentic Method Comment Generation Plugin",
+    "data_event_modal": "2dbd4506-5981-4631-858a-c15b28b065ce"
+  },
+  {
+    "title": "Revisiting Halstead's Metrics through Abstract Syntax Trees in C",
+    "data_event_modal": "0ddfe7c9-dd33-4614-b6ea-2427e3e3c3f6"
+  },
+  {
+    "title": "FP-Predictor - False Positive Prediction for Static Analysis Reports",
+    "data_event_modal": "19a54abe-bfa0-4697-b031-f832e4cf6eb5"
+  },
+  {
+    "title": "Unifying Executable (Process-) Models inside the WAVE PlatformFull Paper",
+    "data_event_modal": "d1e54e54-3ec6-449f-b416-77726834bcf0"
+  },
+  {
+    "title": "AI-Assisted Modeling: DSL-Driven AI InteractionsFull Paper",
+    "data_event_modal": "18d1f822-99c3-4da0-be10-27eb2c8e6aac"
+  },
+  {
+    "title": "Towards Multimodal Entity Linking for LLM-based Metamodel GenerationShort Paper",
+    "data_event_modal": "db276965-57cf-48d1-af71-f1ea67e41b21"
+  },
+  {
+    "title": "Flipped Q&A with Authors",
+    "data_event_modal": "0ff2c723-3fe7-4ff0-8ea5-981fdf83f17d"
+  },
+  {
+    "title": "MCP-Scanner: Detecting Security Risks in Model Context Protocol Systems",
+    "data_event_modal": "97f0c01d-7f7f-49df-827c-69f1372b6b04"
+  },
+  {
+    "title": "Real-Time Anomaly Detection in Web Server Logs Using Machine Learning and Apache Kafka",
+    "data_event_modal": "c1f723d6-6f06-4069-b4f8-bade502e0185"
+  },
+  {
+    "title": "A Comprehensive Framework to Secure CBTC Communications",
+    "data_event_modal": "df94299d-f3ed-4850-9402-73fec0282e4b"
+  },
+  {
+    "title": "A Transfer Learning Approach to Unveil the Role of Windows Common Configuration Enumerations in IEC 62443 Compliance",
+    "data_event_modal": "14ebe7f3-3f5f-41ee-9646-085107a00094"
+  },
+  {
+    "title": "Main panel discussions",
+    "data_event_modal": "6df82bfe-8688-4bc3-a02d-0d8aa495f39d"
+  },
+  {
+    "title": "Workshop Closure",
+    "data_event_modal": "1bc63634-5b5c-45d0-9d79-3e757a3e28f7"
+  },
+  {
+    "title": "Lunch",
+    "data_event_modal": "4dc4f414-da5c-40e2-bc73-c38efaf6ba1b"
+  },
+  {
+    "title": "ObsAct: a Programming Model for Opportunistic IoT Applications using the Mobile-Hub",
+    "data_event_modal": "4d45f9f8-c341-40f0-bb1f-7a7b093f2c08"
+  },
+  {
+    "title": "Foundations for Multi-Logic Modelling and Supervision of Cyber-Physical IoT Agents",
+    "data_event_modal": "7f3e55ec-9585-4b2c-a63e-310c7fe900ae"
+  },
+  {
+    "title": "Towards Holistic IoT Systems Profiling: Integrating Energy Consumption with Performance Metrics using SPECTRA",
+    "data_event_modal": "c7ac6fa9-6375-4da5-b6e2-43ac8bd24ec9"
+  },
+  {
+    "title": "The Energy Consumption Graph: A Model-Driven Architecture for IIoT-based Industrial Energy Auditing",
+    "data_event_modal": "47e419ff-9112-4175-8723-809257c3b13f"
+  },
+  {
+    "title": "BLISS: A Visual Modeling Notation for Engineering Energy-Harvesting IoT Systems",
+    "data_event_modal": "1100e631-ab3f-4a13-bee7-d14084c2b030"
+  },
+  {
+    "title": "What makes decommissioning of legacy IT systems so hard?",
+    "data_event_modal": "4769238f-6c54-40d9-8897-531b04db10a8"
+  },
+  {
+    "title": "Proposed LLM-Supported Harmonization of Security, Quality, and Measurement-Related Terminologies within SWEBOK",
+    "data_event_modal": "194ffcab-b82b-41f7-9027-08f046c8f107"
+  },
+  {
+    "title": "Talk: Positioning Quantum Software Engineering within the Software Engineering Body of Knowledge",
+    "data_event_modal": "fef9f90f-0794-41da-915d-9fea9f1c2d0e"
+  },
+  {
+    "title": "Discussion 2 (TBD)",
+    "data_event_modal": "30760f9f-a3de-4b65-b448-cc4aea8897b7"
+  },
+  {
+    "title": "Evaluating the Effect of Generative AI Content in Common Game Development Software Architectures",
+    "data_event_modal": "05adbaae-64cd-4f90-a402-b025838a54d7"
+  },
+  {
+    "title": "Creativity Beyond Functionality: An Observational Study of Easter Eggs in Video Games",
+    "data_event_modal": "badf2a61-c96d-4ab7-94bf-20e2f6e46b27"
+  },
+  {
+    "title": "Exploiting Jump Point Search for Dealing with Sokoban Problems",
+    "data_event_modal": "999da6db-1035-43cd-a4be-34aa29a349a4"
+  },
+  {
+    "title": "Multilingual Game Dialogue Translation using Large Language Models: A Performance Survey",
+    "data_event_modal": "5d76144d-17d1-42c8-a086-b7567ca9c85d"
+  },
+  {
+    "title": "Using Digital Games for Simulating Self-Adaptive Systems: A Case Study of Drone Missions in Minecraft",
+    "data_event_modal": "13c69300-c43b-4b5a-90fa-e009aa8a75ad"
+  },
+  {
+    "title": "Serious Game Mechanisms for Cognitive Distortion Assessment: Analyzing the Effects of Game Environment and Control",
+    "data_event_modal": "cb5e8bfa-5c2c-4488-8c9c-1b9553e42be5"
+  },
+  {
+    "title": "Keynote #2: TBA",
+    "data_event_modal": "17a65b4f-0b75-46a4-8ffb-347fd11654dd"
+  },
+  {
+    "title": "It's Alive! What a Live Object Environment Changes in Software Engineering Practice",
+    "data_event_modal": "886fb3ac-be4d-4cd2-b87e-230222913af7"
+  },
+  {
+    "title": "Proto-ML: An IDE for ML Solution Prototyping",
+    "data_event_modal": "e1887a66-9d53-4723-86b7-352c16c12aa0"
+  },
+  {
+    "title": "In-IDE Toolkit for Developers of AI-Based Features",
+    "data_event_modal": "2668a8d1-483a-4347-9750-c414452250a7"
+  },
+  {
+    "title": "How Context-Sensitive Static Analysis Led to the Best Smart Contract Decompiler",
+    "data_event_modal": "20015055-4825-4b56-b709-d959dcd2af9b"
+  },
+  {
+    "title": "Domain Specific Language for Service-oriented Aerospace EnvironmentsFull Paper",
+    "data_event_modal": "b85ea6df-2054-413e-a82e-9ac3fe7df17f"
+  },
+  {
+    "title": "Verification-Centered Low-Code for Autonomous Robots: A Contract-Based Reference Architecture ApproachFull Paper",
+    "data_event_modal": "db14ba5d-27fd-4da7-8d03-645e80ccf0aa"
+  },
+  {
+    "title": "Integrating Machine Learning into Additive Manufacturing through Service-Oriented and Low-Code ArchitecturesShort Paper",
+    "data_event_modal": "1cfffe80-1fdd-4d73-aa9a-814646d081fd"
+  },
+  {
+    "title": "Flipped Q&A with Authors",
+    "data_event_modal": "0ff2c723-3fe7-4ff0-8ea5-981fdf83f17d"
+  },
+  {
+    "title": "SVM Opening",
+    "data_event_modal": "8a90efaf-2cbe-4529-970f-1f6e568dfe5e"
+  },
+  {
+    "title": "An Automated Approach to Generate Attack Graphs with a Case Study on Siemens PCS7 Blueprint",
+    "data_event_modal": "f49b254c-f31e-4dd5-af7c-8ee108bc6dea"
+  },
+  {
+    "title": "Bridging Code Property Graphs and Language Models for Program Analysis",
+    "data_event_modal": "eed6fb84-a869-4b8a-aa2e-a0cdd506d2fc"
+  },
+  {
+    "title": "Evaluating Cryptographic API Misuse Detectors for Go",
+    "data_event_modal": "d89166d6-5ec4-41d1-b407-1c5565b0d023"
+  },
+  {
+    "title": "Discussion on SVM4AI and AI4SVM",
+    "data_event_modal": "a1f7867e-84cd-43c7-818a-87a4cb071c04"
+  },
+  {
+    "title": "Group Photo",
+    "data_event_modal": "ea96008d-9f57-49f8-a543-072984ef8e57"
+  },
+  {
+    "title": "Break",
+    "data_event_modal": "acccb6db-1f24-4b6d-b93b-6587478b185c"
+  },
+  {
+    "title": "Bootstrapping IoT Provisioning with PoMA",
+    "data_event_modal": "3a984eb9-375f-4a0d-a4b0-cef96c25e20f"
+  },
+  {
+    "title": "A Hybrid AHP-TOPSIS Approach for Selecting Message Brokers in IoT Applications",
+    "data_event_modal": "0e9763ff-7c6c-4a35-a872-09b0fed725db"
+  },
+  {
+    "title": "When Code Meets Things: The FLOSS Side of IoT Systems",
+    "data_event_modal": "1f2ade8d-a76e-4a99-a0be-84137a854fe6"
+  },
+  {
+    "title": "Towards moving target defense for IoT malware detection",
+    "data_event_modal": "6d1bd510-b6f6-45ee-9465-a1b147e584f1"
+  },
+  {
+    "title": "Reverse Engineering and Control-Aware Security Analysis of the ArduPilot UAV Framework",
+    "data_event_modal": "a536e7c0-aa79-4693-a3d7-91705c49569f"
+  },
+  {
+    "title": "A Visual Block Programming Environment for Home Assistant: A Progress Report",
+    "data_event_modal": "3496221d-d5f9-45b3-b898-494e0f2ffa64"
+  },
+  {
+    "title": "Talk: On Embedding Sustainability in Software Engineering Curriculum",
+    "data_event_modal": "0af4251e-1667-4174-a89b-488a519a91df"
+  },
+  {
+    "title": "Talk: SWEBOK Sustainability Talking Points",
+    "data_event_modal": "7bd28f6d-1cf3-4c0e-ae69-4e449f7fda59"
+  },
+  {
+    "title": "Discussion 3 (TBD)",
+    "data_event_modal": "8d7a1038-e7d7-4f6c-b7e7-cfc427bf1913"
+  },
+  {
+    "title": "Closing remarks",
+    "data_event_modal": "7ef159b7-ac28-4f1d-b3e1-0ec062012142"
+  },
+  {
+    "title": "From Game Engine to Ecosystem: Unreal as a Large-Scale Software Engineering Platform",
+    "data_event_modal": "c35828a5-3f67-447e-a3fb-81f0d7102986"
+  },
+  {
+    "title": "Are we there, yet? Top Challenges on the Road Ahead for Games and Software Engineering",
+    "data_event_modal": "1d287f26-9fea-46dd-b2b1-87a648e8ef56"
+  },
+  {
+    "title": "Closing",
+    "data_event_modal": "e184202c-f0ae-45db-a4da-1594e57886f3"
+  },
+  {
+    "title": "Round Table Discussions: TBA",
+    "data_event_modal": "213812d0-38d0-4b53-b8f8-b23f498ed4b0"
+  },
+  {
+    "title": "Conclusion & Goodbye",
+    "data_event_modal": "0ac6eea9-b217-49eb-8e42-f64bb336f665"
+  },
+  {
+    "title": "What's Next on Low-Code Development?",
+    "data_event_modal": "24e3bb29-727a-42ca-8153-b8876e674189"
+  },
+  {
+    "title": "LArc 2026 Closing",
+    "data_event_modal": "857b957d-de98-4724-8216-47256f882a6e"
+  },
+  {
+    "title": "LLMs in Code Vulnerability Analysis: A Proof of Concept",
+    "data_event_modal": "57c6675c-4b69-4d46-a177-0379dab47f95"
+  },
+  {
+    "title": "Q&AEval: Benchmarking Secure Coding Ability of LLMs on Real-World Tasks",
+    "data_event_modal": "c510da86-70dc-4a4e-bb5e-f92fe9ce2ac0"
+  },
+  {
+    "title": "Process-based Indicators of Vulnerability Re-Introducing Code Changes: An Exploratory Case Study",
+    "data_event_modal": "ac61e8bd-9fec-48e7-a07d-565621c0e798"
+  },
+  {
+    "title": "SVM Closure",
+    "data_event_modal": "f4eab955-f9e1-404e-a753-3ba370b093e6"
+  }
+]

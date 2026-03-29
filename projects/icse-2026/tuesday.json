@@ -1,0 +1,1502 @@
+[
+  {
+    "title": "Quiet Room",
+    "data_event_modal": "d1572999-edb6-49b1-bda5-92c167fff4b5"
+  },
+  {
+    "title": "ICSE 2026 Registration",
+    "data_event_modal": "a62ed4cb-6f92-4dd2-b8e5-45a8b06dd033"
+  },
+  {
+    "title": "TOSEM paper presentation: Li Ge",
+    "data_event_modal": "5e10c0c3-6ff2-4e95-81cb-236e5f26a7cc"
+  },
+  {
+    "title": "TOSEM Award paper - Mike Papadakis",
+    "data_event_modal": "b3a39ea3-3964-4c63-9490-b7451933f9f6"
+  },
+  {
+    "title": "Award Presentation 2",
+    "data_event_modal": "39fbed9b-9b0d-47be-a024-d45f7a29e48e"
+  },
+  {
+    "title": "Award Presentation 3",
+    "data_event_modal": "978f9e4a-6c4a-4cff-a884-a3d7c6ca01ec"
+  },
+  {
+    "title": "Opening by chairs",
+    "data_event_modal": "3e6e0b94-146a-4715-a04f-fd20b1281880"
+  },
+  {
+    "title": "The Road to True Software Modernization with Autonomous Agents",
+    "data_event_modal": "463b8e69-cc5e-4745-a789-9dbe0845c81a"
+  },
+  {
+    "title": "JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)",
+    "data_event_modal": "2b5f3b7c-b74b-4577-9cdf-6ae6f704d036"
+  },
+  {
+    "title": "Opening",
+    "data_event_modal": "8e9a408c-3c33-4b9e-a61f-c05409938586"
+  },
+  {
+    "title": "Keynote 1",
+    "data_event_modal": "3e4b91b8-6a2d-4612-bed3-17125128c494"
+  },
+  {
+    "title": "Generative AI in GUI development: trends, tools, and prospects",
+    "data_event_modal": "7adfddb8-37f6-42c3-acb8-dc9bc32505ea"
+  },
+  {
+    "title": "Towards Human-in-the-loop User Interface Adaptation with Reinforcement Learning",
+    "data_event_modal": "acc38ffb-f4d0-49a0-8cb1-e1eea478512a"
+  },
+  {
+    "title": "Tutorial: How (not) to Analyze Software Engineering Experiments: From Anti-Patterns to Solutions",
+    "data_event_modal": "b4f1fa85-f166-4ab0-baf2-a368c44bb797"
+  },
+  {
+    "title": "Opening of the Doctoral Symposium",
+    "data_event_modal": "4388e7f2-10cc-4664-99dd-5cef485a39a9"
+  },
+  {
+    "title": "Keynote: Igor Steinmacher",
+    "data_event_modal": "95dd8f93-9f77-48ca-902d-c899fefa8e94"
+  },
+  {
+    "title": "Panel 1 - Writing productivity: writing proposals, papers",
+    "data_event_modal": "41aa0b4b-21e8-4f0b-a529-8e64ea2f6e1d"
+  },
+  {
+    "title": "AgenticTyper: Automated Typing of Legacy Software Projects Using Agentic AI",
+    "data_event_modal": "35426a71-3f5d-4119-bbad-1bcffaecddfd"
+  },
+  {
+    "title": "ARISE: Real-Time Multi-Modal AI for Senior Wellness on Edge Devices",
+    "data_event_modal": "f5237b08-d551-4a51-911f-f39dbbc768ba"
+  },
+  {
+    "title": "Behavior-Driven Development Meets LLMs: Do We Need Them, and Do They Work?",
+    "data_event_modal": "4eda683e-9895-404b-a614-1ffa0d334e45"
+  },
+  {
+    "title": "Bug Relevant Test Generation for Better Fault Localization",
+    "data_event_modal": "414c1e10-49a9-412e-b6e6-da348ccaf6a2"
+  },
+  {
+    "title": "Early Forecasting of Developer Inactivity in Open Source Projects",
+    "data_event_modal": "16bf677e-fca7-454b-936b-09262b9250c1"
+  },
+  {
+    "title": "Engineering MLOps for Adversarial Edge Networks in Agricultural Deployments",
+    "data_event_modal": "354736c8-3b4b-47ab-a777-f9d5d067b75c"
+  },
+  {
+    "title": "Evaluating LLMs Code Reasoning Under Real-World Context",
+    "data_event_modal": "1cb16647-221a-4970-a511-b02be6e42695"
+  },
+  {
+    "title": "FastMCC: Multiple-hypotheses Code Completion with Natural Language Phrases as Alternative Suggestions",
+    "data_event_modal": "6474454f-3318-458e-811b-c7a5aaa9d779"
+  },
+  {
+    "title": "Hierarchical Metamorphic Test Oracles for Agent Evaluation",
+    "data_event_modal": "ce573fb8-8adc-483d-af4c-5acddd70f244"
+  },
+  {
+    "title": "Investigating How Governance Shapes the Health of Open Source Software Projects",
+    "data_event_modal": "8af24536-24a5-4201-a7df-861a4bd5c6dd"
+  },
+  {
+    "title": "PAGENT: Learning to Patch Software Engineering Issue Fixing Agents",
+    "data_event_modal": "44f124cf-e2f1-480c-95c8-75243fc54983"
+  },
+  {
+    "title": "Power Relationships Effects on Social Sustainability Goals in Software Ecosystems",
+    "data_event_modal": "4e0048d8-1907-4634-98fd-7fc0a22cc733"
+  },
+  {
+    "title": "Teaching Requirements Engineers for AI Systems: An Applied Pedagogical Approach",
+    "data_event_modal": "0b1edc88-3d4b-4edc-9fd5-e59ad0e56b39"
+  },
+  {
+    "title": "Test Smell Refactoring with Agentic LLMs: An Empirical Study of Gemini-2.5-Pro",
+    "data_event_modal": "591ca37e-99c5-4913-bc3e-4408879f1a06"
+  },
+  {
+    "title": "T-Wise Sample Comparison with Binary Decision Diagrams",
+    "data_event_modal": "bf910ff6-9d6a-4418-bc80-54c97c0cb10c"
+  },
+  {
+    "title": "Welcome, Effective Menteeing, Meet your fellow students",
+    "data_event_modal": "5f3ae286-f49a-4cd0-b961-b4c34acef1e7"
+  },
+  {
+    "title": "Child Care",
+    "data_event_modal": "785f066f-c24a-49c9-b023-38c233ed4112"
+  },
+  {
+    "title": "Openning",
+    "data_event_modal": "9a4a04f0-b5b1-49bf-a226-2225f14a748f"
+  },
+  {
+    "title": "Welcome and Introduction to SERS 2026",
+    "data_event_modal": "9d5a2395-ecbd-42be-9624-536e2f91f694"
+  },
+  {
+    "title": "Software Engineering and Research Software: Introduction and Collaboration Guidelines",
+    "data_event_modal": "21e34e11-c8aa-4ecc-bbc1-cc5da70bcc45"
+  },
+  {
+    "title": "SWEBOK & Research Software",
+    "data_event_modal": "93221c0c-d0fd-40f1-84c7-ac90c0e97127"
+  },
+  {
+    "title": "Understanding the Impact of Research Software Engineers on Scientific Software Development: A Mixed-Methods Study",
+    "data_event_modal": "1d303da0-deb7-457e-92de-66a047197950"
+  },
+  {
+    "title": "Evaluating ML Methods for Classifying RSE Personas on GitHub",
+    "data_event_modal": "9433af20-8c4d-4e4a-b28e-be62d2c79335"
+  },
+  {
+    "title": "The Shared Language of Crowds: A Crowd sourced Approach to Mapping Research Software Engineering and Software Engineering Research Terminology",
+    "data_event_modal": "ad0e2d78-b07d-4e37-94c7-63572d7fd7ce"
+  },
+  {
+    "title": "Day Opening",
+    "data_event_modal": "b5af3cba-ff9b-48ec-a829-303dbff366ef"
+  },
+  {
+    "title": "Vision 2: The State of Data Mining, Benchmarks, Double Blind Trials, and Software Engineering Systems in Industry",
+    "data_event_modal": "6c3adedd-999f-45f7-b41e-447b11da9626"
+  },
+  {
+    "title": "From Hallucinations to Helpful Agents: Advancing Trustworthy Automation in Code Review",
+    "data_event_modal": "229cd76b-4950-4d24-b34b-07e9f365232d"
+  },
+  {
+    "title": "Behavioral Code Analysis in the Wake of Agentic AI",
+    "data_event_modal": "1f8f326a-2ef0-43bd-be33-376af9484232"
+  },
+  {
+    "title": "Bridging the Socio-Emotional Gap: The Functional Dimension of Human-AI Collaboration for Software Engineering",
+    "data_event_modal": "ef7f5452-e37f-4a19-b0e6-543f0c9f0e7d"
+  },
+  {
+    "title": "Hope or Hype? Understanding Vibe Coding through Software Practitioner Discussions",
+    "data_event_modal": "74706d1f-a2b8-471f-80de-44a367fd0c59"
+  },
+  {
+    "title": "Operationalizing AI Ethics in the Public Sector: A Cross-Context Replication in Brazil",
+    "data_event_modal": "7dea82d6-cac3-45ad-9034-b8fc0fc9e811"
+  },
+  {
+    "title": "Energy Consumption of Dataframe Libraries for End-to-End Deep Learning Pipelines - A Comparative Analysis",
+    "data_event_modal": "102b7633-706d-4dad-bded-a306fa584daa"
+  },
+  {
+    "title": "On the Relation Between Technical and Environmental Sustainability - A Systematic Literature Review",
+    "data_event_modal": "1f2d9223-79de-4030-8671-dccb2c904bd4"
+  },
+  {
+    "title": "Not All local LLMs Are Equal: A Benchmark of Energy and Performance",
+    "data_event_modal": "35401001-ea90-43eb-997f-4bd3aeccaccf"
+  },
+  {
+    "title": "Learning to Be Green: A Reinforcement Learning Agent for Sustainable Microservice Allocation in Cloud Computing",
+    "data_event_modal": "3acf0063-1ad3-4009-9e88-e72fa6fc0089"
+  },
+  {
+    "title": "Integrating Green Software Practices into Scrum: A Catalog of Measures and Systemic Challenges",
+    "data_event_modal": "4136a12b-6370-4234-b6aa-079418c18ad8"
+  },
+  {
+    "title": "Integration of Green Coding into Management Frameworks - An Integration Outlook",
+    "data_event_modal": "7401dc68-fc08-445e-a9a7-02fad19bb6a0"
+  },
+  {
+    "title": "CHAINS - Collaborative Hub for Advancing Innovative and Sustainable Software Supply Chains",
+    "data_event_modal": "7ddeed23-2cdb-4a4b-8048-1c5c572ac0eb"
+  },
+  {
+    "title": "Exploring the Use of Generative AI for Sustainable Software Requirements Elicitation",
+    "data_event_modal": "7fba1332-0ed9-4b62-b234-48c1c1b2e9ff"
+  },
+  {
+    "title": "Injecting Sustainability in Software Architecture: A Rapid Review",
+    "data_event_modal": "8b5b9ad9-e596-4810-b715-dbf17982ebe8"
+  },
+  {
+    "title": "Towards a Taxonomy of Sustainability Requirements for Software Design",
+    "data_event_modal": "9933a50e-d1e3-48e1-9260-554ca2e65cba"
+  },
+  {
+    "title": "An Empirical Study of Energy Efficiency Monitoring for Complex Container-Based Systems",
+    "data_event_modal": "b31b5ec9-14fe-4882-a247-8da4d0923695"
+  },
+  {
+    "title": "The Impacts of Artificial Intelligence throughout the Software Development Life-cycle on Sustainability: A Mixed-method Study",
+    "data_event_modal": "b45be9d9-c18a-41a3-a605-920cb1b54f47"
+  },
+  {
+    "title": "Transpiling with LLMs for Energy Efficiency",
+    "data_event_modal": "b8df9bbe-3eba-4c0c-8c83-52bced00ab6a"
+  },
+  {
+    "title": "Making Sustainability Visible in Agile Practices: A Vision for Team-Level Design Decision-Making",
+    "data_event_modal": "e31de7e5-466d-4893-b9dd-99be7f4c5361"
+  },
+  {
+    "title": "A Study on the Energy Efficiency of an Autonomous Rover",
+    "data_event_modal": "8cfbe46a-9307-4bc7-997c-f9215d917e51"
+  },
+  {
+    "title": "Opening",
+    "data_event_modal": "2fc506f0-e274-4f52-a812-57e00d78e0bb"
+  },
+  {
+    "title": "Keynote: AI in SE: The Era of Coding Agents",
+    "data_event_modal": "c7523b66-ba6e-4317-a28c-394d3d7264f1"
+  },
+  {
+    "title": "Keynote by Robert Feldt (TBD)",
+    "data_event_modal": "63d4191c-22e6-4e77-a916-c4b227809f84"
+  },
+  {
+    "title": "Toward Agentic Software Engineering Beyond Code: Framing Vision, Values, and Vocabulary",
+    "data_event_modal": "d3b31552-6cbb-43fb-a236-5446e56b47d1"
+  },
+  {
+    "title": "Using Copilot Agent Mode to Automate Library Migration: A Quantitative Assessment",
+    "data_event_modal": "c9b38f55-fb10-4161-b950-fe6235e84ab1"
+  },
+  {
+    "title": "A Catalogue of Evaluation Metrics for LLM-Based Multi-Agent Frameworks in Software Engineering",
+    "data_event_modal": "a35824c0-3e55-4fdf-9c2d-2117b24942ff"
+  },
+  {
+    "title": "From Business Meetings to Requirement Artifacts: An Agentic AI Approach with MARARE",
+    "data_event_modal": "1551bfd3-5c12-4050-ac28-411a9e1e0bed"
+  },
+  {
+    "title": "AgenticAKM : Enroute to Agentic Architecture Knowledge Management",
+    "data_event_modal": "baeab464-1fd8-402c-9166-6a1b2caec03b"
+  },
+  {
+    "title": "Agents - The Missing Piece in the Cognitive Cloud Continuum",
+    "data_event_modal": "0bb28d0c-a405-438c-a54a-cdb0eae45a17"
+  },
+  {
+    "title": "Toward Author-Guided Review: An Agentic Architecture for Reflective Code Review",
+    "data_event_modal": "fa74f2f1-86c6-4e56-8dfa-40506a5dac1b"
+  },
+  {
+    "title": "CPEMH: An Agentic Framework for Prompt-Driven Behavior Evaluation and Assurance in Foundation-Model Systems for Mental Health Screening",
+    "data_event_modal": "5312a48f-ac86-4ef1-94cd-8bdd9ff6e4f5"
+  },
+  {
+    "title": "GeoAIAgent-Agentic workflow for automated geospatial data management",
+    "data_event_modal": "943544b6-feb4-4e43-9723-e78e6f2992b4"
+  },
+  {
+    "title": "Meta-RAG on Large Codebases Using Code Summarization",
+    "data_event_modal": "cbec245e-5f0e-4818-857d-0abce672a9fb"
+  },
+  {
+    "title": "Decoding the Configuration of AI Coding Agents: Insights from Claude Code Projects",
+    "data_event_modal": "825a6cd0-1853-4abf-bdcf-c3f37c2b764f"
+  },
+  {
+    "title": "Three keynotes",
+    "data_event_modal": "6545b1b6-9714-4049-b667-2c554afd2e78"
+  },
+  {
+    "title": "Break",
+    "data_event_modal": "acccb6db-1f24-4b6d-b93b-6587478b185c"
+  },
+  {
+    "title": "Fixing Less by Preventing More: Semantic Checklists for Robust Code Translation",
+    "data_event_modal": "b3582cd4-5cf9-494f-8960-8c4edd43e447"
+  },
+  {
+    "title": "Executable but Not Reproducible? An Empirical Study of Code Clone Detection Tools",
+    "data_event_modal": "4878bc3a-2348-4c2c-b2dc-f72971022027"
+  },
+  {
+    "title": "ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain",
+    "data_event_modal": "980880a4-7edd-4c67-ad3f-bc53251142a4"
+  },
+  {
+    "title": "Practitioners' Experiences and Expectations about Software Sustainability in Industry: A Semi-Structured Interview Study",
+    "data_event_modal": "af7292fc-b5ba-4ff9-83cd-bb595308ec2d"
+  },
+  {
+    "title": "Compartmentalization-Aware Automated Program Repair",
+    "data_event_modal": "3eec7f59-8304-4143-a165-d4af081b35fc"
+  },
+  {
+    "title": "Code Comprehension Beyond Best Practices: Exploring the Developer Cognitive Spectrum",
+    "data_event_modal": "2aec6a34-dead-411c-aebe-fcb2b385cad0"
+  },
+  {
+    "title": "Search-Based Evolutionary Data Pruning for Class-Level Code Summarization",
+    "data_event_modal": "864636da-c475-43dd-b395-94d5b7e747da"
+  },
+  {
+    "title": "Are We Building on Unreliable Ground? A Case Study on Unresolvable Pairs in Learning-based Code Repair",
+    "data_event_modal": "8fff30c0-a3fc-474a-ad83-eed601e6c605"
+  },
+  {
+    "title": "Operationalizing Research Software for Supply Chain Security",
+    "data_event_modal": "795c2620-b278-4ef0-9750-0735e93ff30d"
+  },
+  {
+    "title": "Static and Semantic Program Slicing for Quantum Programs",
+    "data_event_modal": "28546154-0d7f-42d8-8af8-29dbaa11df72"
+  },
+  {
+    "title": "ScannerTrap: Benchmarking the Robustness of Web Vulnerability Scanners in Complex Application Environments",
+    "data_event_modal": "6102a01c-1ae9-4ebb-918a-2b44a4f0ecf7"
+  },
+  {
+    "title": "Panel Discussion: Repair, Evolution, Comprehension, and Security",
+    "data_event_modal": "40933a3c-2c21-4ed4-900a-6479da3e123c"
+  },
+  {
+    "title": "Selection of award presentations",
+    "data_event_modal": "c0b5f73d-d975-4077-b085-ed0b45f32c00"
+  },
+  {
+    "title": "Alvin Cheung Keynote Title",
+    "data_event_modal": "1660aba6-8138-409b-9fd1-c6c40fd01bde"
+  },
+  {
+    "title": "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents",
+    "data_event_modal": "7b954226-a5d4-427b-920f-8215abf4e8ef"
+  },
+  {
+    "title": "CNnotator: LLM-Guided Memory Safety Annotation Synthesis",
+    "data_event_modal": "4893b065-6f2f-4ef1-b826-bbc93fad06cc"
+  },
+  {
+    "title": "UX Requirements Engineering for COSE Platforms: A Cultural Perspective",
+    "data_event_modal": "f243a1e8-5f84-4b3f-b4b4-792478c669a8"
+  },
+  {
+    "title": "Evolving Validation Sessions with Technology Probe Technique to Support the Engineering of Modern Software Systems",
+    "data_event_modal": "e212bd7f-5910-415e-9223-638835d69c11"
+  },
+  {
+    "title": "Designing an Accessible Blockly: An Extension-Based Accessibility Framework (EAF) for Structured Navigation and Editing",
+    "data_event_modal": "eb37a050-727b-4d5a-a894-70cba01e70e8"
+  },
+  {
+    "title": "Virtual Avatars for Accessible Consumer Services: A Rapid Review of Design Patterns and Challenges",
+    "data_event_modal": "239ee05b-01c2-44d7-8f06-8c270e6c62be"
+  },
+  {
+    "title": "Co-design of an Accessible Avatar for Deaf Users: A Participatory Methodology in Practice",
+    "data_event_modal": "42b4f82a-60aa-4e27-9a22-3ac0aa04fd07"
+  },
+  {
+    "title": "Advancing Language Models for Code-related Tasks",
+    "data_event_modal": "6c77b705-15a6-4138-9622-5fad0c99ea77"
+  },
+  {
+    "title": "An Empirical Perspective on the Lifecycle and Quality Attributes of AI Artifacts",
+    "data_event_modal": "67680044-081d-4925-b8b2-3cf6dbf4a733"
+  },
+  {
+    "title": "Plan4code: Planning Code Changes with Chain-of-Thought and Ontologies",
+    "data_event_modal": "ec3a366b-68cc-4ceb-95ee-ece5cc317fa7"
+  },
+  {
+    "title": "Toward Intelligent Feedback Systems in Programming Education: AI Tutors, Large Language Models, and Future Directions",
+    "data_event_modal": "65e0d34a-1170-417e-95bc-e79b5ce84515"
+  },
+  {
+    "title": "Trustworthiness of Continuous Integration Practices",
+    "data_event_modal": "72f34cf1-b36a-417e-960b-47bbd2669335"
+  },
+  {
+    "title": "Panel 2 - Working with students: teaching and curriculum development, recruiting for research, mentoring",
+    "data_event_modal": "27d19874-685b-4303-8453-38669171faf6"
+  },
+  {
+    "title": "Keynote from Dr Marieli Wessel",
+    "data_event_modal": "ac265fd2-5de5-4bec-9d05-16ccf9733edc"
+  },
+  {
+    "title": "RuberDuckBench: A Benchmark for AI Coding Assistants",
+    "data_event_modal": "bcaddf8f-556b-4f0e-a212-3aa06bf46a00"
+  },
+  {
+    "title": "A Benchmark for Language Models in Real-World System Building",
+    "data_event_modal": "4a7b2abc-c140-48b1-9486-6f975c1a8182"
+  },
+  {
+    "title": "Continuous Benchmark Generation for Evaluating Enterprise-scale LLM Agents",
+    "data_event_modal": "89db5687-7775-4d2f-8062-69693ba19da0"
+  },
+  {
+    "title": "Benchmarking LLM Commit Message Generation through a Developer-centric Pairwise Preference Framework",
+    "data_event_modal": "5c59d2db-8b5e-42b3-b67f-e4c0c7ed004c"
+  },
+  {
+    "title": "Dynamic Agent Generation for Self-Adaptive Root Cause AnalysisFULL",
+    "data_event_modal": "d22ab4da-8142-4b41-872e-0ed8caa6e06f"
+  },
+  {
+    "title": "Verify, Augment, Improve: Self-Adaptation Repair via Automated Knowledge Augmentation from MistakesFULL",
+    "data_event_modal": "14095c7e-e269-492d-929f-d5a10cbce5f0"
+  },
+  {
+    "title": "Artifact of Dynamic Agent Generation for Self-Adaptive Root Cause AnalysisARTIFACT",
+    "data_event_modal": "0d32fcab-a730-4ab7-a4bc-c22437237c9a"
+  },
+  {
+    "title": "Leveraging Low-Parameter LLMs for Self-Healing in Kubernetes-Based Container OrchestrationFULL",
+    "data_event_modal": "8daa09fc-a9e6-4ec0-9055-b51bd9958d38"
+  },
+  {
+    "title": "Reasoning About Hidden Hybrid Assumptions in Assured Temporal MissionsFULL",
+    "data_event_modal": "9cf12678-2169-4c9e-a4c5-cccaad138ca7"
+  },
+  {
+    "title": "CALM: A Self-Adaptive Orchestration Approach for QoS-Aware Routing in Small Language Model based SystemsFULL",
+    "data_event_modal": "2cd627d6-b1f1-49d6-b2ec-13d57125a9a4"
+  },
+  {
+    "title": "Building Better Research Software (Are you sure?): Why Technical Refactoring Does Not Lead To Software Quality",
+    "data_event_modal": "e165fa52-ca16-4068-b50a-e40a6c054323"
+  },
+  {
+    "title": "Metamorphic Testing of Research Software with GeoMetaMorph",
+    "data_event_modal": "2084cdcc-1461-4f66-b896-bf3fd30577ad"
+  },
+  {
+    "title": "Testing Research Software using International Standards and Practices",
+    "data_event_modal": "15da3ad7-cf73-4acd-847f-dd883a26f99d"
+  },
+  {
+    "title": "WiRCA: Categorizing Research Software Code Based on Its Purpose",
+    "data_event_modal": "55f7cb9c-08a5-4e23-9911-9a639d429b0f"
+  },
+  {
+    "title": "Evolving Research Software: an Experience Report",
+    "data_event_modal": "9a322816-9451-440e-8593-e38af47ca5af"
+  },
+  {
+    "title": "Managing Reproducibility Debt in Scientific Software: A Practical Framework",
+    "data_event_modal": "98305375-29cc-4013-b83e-9c97d4439adf"
+  },
+  {
+    "title": "Enhancing Understandability and Transparency of Research Software: Tracing Research to Code",
+    "data_event_modal": "d366ce97-d962-475a-af24-5412148f537d"
+  },
+  {
+    "title": "Application of Technology Readiness Level to Research Software",
+    "data_event_modal": "2ccaf295-05f6-4b29-9a3c-77968fa44518"
+  },
+  {
+    "title": "Source Code Hotspots: A Diagnostic Method for Quality Issues",
+    "data_event_modal": "722ac7b7-93de-4997-8d08-f3e91292e4fd"
+  },
+  {
+    "title": "Evolving Kubernetes: A Technical Debt Perspective",
+    "data_event_modal": "23efadb5-5a57-41f2-9706-0708e51e2242"
+  },
+  {
+    "title": "How do third-party Python libraries use type annotations?",
+    "data_event_modal": "8bf275b5-650d-49b7-a847-6ed74a3af348"
+  },
+  {
+    "title": "Coordination at Scale in Large Distributed Development: The Case of Kubernetes",
+    "data_event_modal": "c1097032-e9b5-4ed7-89bb-c7001fd40967"
+  },
+  {
+    "title": "Combining Example-Based and Rule-Based Program Transformations to Resolve Build Conflicts",
+    "data_event_modal": "54dd07d8-1ef5-402d-89d3-29f470841b02"
+  },
+  {
+    "title": "Mining Quantum Software Patterns in Open-Source Projects",
+    "data_event_modal": "a3bfe767-f53b-4ab6-9937-2b0d33fcd49d"
+  },
+  {
+    "title": "Analyzing Dependency Distribution Changes Arising from Code Smell Interactions",
+    "data_event_modal": "7f68ab9b-946c-463d-9caa-1fd3e4e0bcb1"
+  },
+  {
+    "title": "The Value of Effective Pull Request Description",
+    "data_event_modal": "8b644b8f-b9c7-46af-80d6-3434d01de5a8"
+  },
+  {
+    "title": "Secret Leak Detection in Software Issue Reports using LLMs: A Comprehensive Evaluation",
+    "data_event_modal": "b39c0c96-af2a-4a54-80b1-2b8fca60fa2a"
+  },
+  {
+    "title": "Awards",
+    "data_event_modal": "80fdea36-fc05-4338-bff8-987ecf39ea95"
+  },
+  {
+    "title": "The Gap Between Ethical Discourse and Organizational Practice in the Responsible Development, Deploy, and Use of AI Systems: An Exploratory Study",
+    "data_event_modal": "ad737fcb-2033-456e-8853-bde6f8d1437a"
+  },
+  {
+    "title": "Role and Identity Work of Software Engineering Professionals in the Generative AI Era",
+    "data_event_modal": "3c77da5d-058a-435e-9506-eee527b6a755"
+  },
+  {
+    "title": "Accountability in Code Review: The Role of Intrinsic Drivers and the Impact of LLMs",
+    "data_event_modal": "feb63e9d-6223-45c4-b09d-9b282bda8635"
+  },
+  {
+    "title": "DECS (Chairs: Kelly Blincoe and Monalessa Barcellos)",
+    "data_event_modal": "a095b47f-e491-4f3e-ae6b-cf943beb47e5"
+  },
+  {
+    "title": "Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects",
+    "data_event_modal": "21fd990c-bfbb-453b-8694-c4ca43c002b8"
+  },
+  {
+    "title": "LLM-Based Detection of Tangled Code Changes for Higher-Quality Method-Level Bug Datasets",
+    "data_event_modal": "fb2ca4af-23d0-4d62-9eba-cd74e5417262"
+  },
+  {
+    "title": "Adversarial Bug Reports as a Security Risk in Language Model-Based Automated Program Repair",
+    "data_event_modal": "1833635a-87bd-4a93-8088-471a449d0274"
+  },
+  {
+    "title": "Investigating Autonomous Agent Contributions in the Wild: Activity Patterns and Code Change over Time",
+    "data_event_modal": "90dd82f7-2e42-4871-9fed-2e30332832fa"
+  },
+  {
+    "title": "Evaluating the Use of LLMs for Automated DOM-Level Resolution of Web Performance Issues",
+    "data_event_modal": "2ea334a6-d5da-4437-a1ca-782e54e6cbf2"
+  },
+  {
+    "title": "Are Coding Agents Generating Over-Mocked Tests? An Empirical Study",
+    "data_event_modal": "56fa60a3-ba7e-4bd6-8143-efd6d0da9eba"
+  },
+  {
+    "title": "Consistent or Sensitive? Automated Code Revision Tools Against Semantics-Preserving Perturbations",
+    "data_event_modal": "d000f858-4a13-4feb-ac32-07c33be09e35"
+  },
+  {
+    "title": "Beyond the Prompt: An Empirical Study of Cursor Rules",
+    "data_event_modal": "d46578a7-3485-4f9b-a269-1b06942917e0"
+  },
+  {
+    "title": "Bridging Design and Implementation: A Study of Multi-Agent LLM Architectures for Automated Front-End Generation",
+    "data_event_modal": "92d16603-ee91-4510-8a9c-0810510a727d"
+  },
+  {
+    "title": "Understanding and Detecting Platform-Specific Violations in Android Auto Apps",
+    "data_event_modal": "19347b13-ff34-4f74-ae1c-1bee42f48803"
+  },
+  {
+    "title": "A Unified Benchmark for Out-of-Distribution Detection for Autonomous Driving Systems",
+    "data_event_modal": "9e9194ec-1010-4ba6-a9af-229ba416f95b"
+  },
+  {
+    "title": "HYDRA: A Hybrid Heuristic-Guided Deep Representation Architecture for Predicting Latent Zero-Day Vulnerabilities in Patched Functions",
+    "data_event_modal": "d0519757-f1b6-4ecd-b760-54875aff8f27"
+  },
+  {
+    "title": "The Impact of External Libraries on Software Energy Efficiency and Sustainability",
+    "data_event_modal": "1d3390ee-f1d8-4d91-83d6-6915a8403ed1"
+  },
+  {
+    "title": "Integrating API Energy Profiling into Developer Workflows: The VerdeFlow Prototype",
+    "data_event_modal": "4131dd7c-48d1-4f8b-b3cb-2f2cba6de740"
+  },
+  {
+    "title": "Operationalizing Sustainability through Non-Functional Requirements: A Domain-Oriented Model for Biomedical Software",
+    "data_event_modal": "442bccaa-9192-4aa1-bcf1-e081a6c1cca7"
+  },
+  {
+    "title": "Can We Measure What We Ignore? Rethinking the Individual Dimension of Software Sustainability in Digital Health",
+    "data_event_modal": "624f9d41-fcfc-413f-9a81-0cd6f3b0e68a"
+  },
+  {
+    "title": "METRION: A Framework for Accurate Software Energy Measurement",
+    "data_event_modal": "7ef98cb6-ca12-431b-9c29-783f76ca7fe7"
+  },
+  {
+    "title": "Beyond Energy Consumption: Accurate Emission Factors for Production Sites",
+    "data_event_modal": "92e42174-a9ac-4ba8-b86a-bd198535f770"
+  },
+  {
+    "title": "Bridging the gap between industry and academia: sustainability in LLM-assisted software engineering",
+    "data_event_modal": "9dc6abba-68ce-44b2-bd8a-d394bec03b17"
+  },
+  {
+    "title": "Graphical Interface Model for Empowering Web Application Users to Make Sustainable Choices: a Technology Acceptance Study",
+    "data_event_modal": "e7fc7a71-61fc-4607-a62a-52246c3638d0"
+  },
+  {
+    "title": "Software Library Energy Meter (SLEM) : An Automated Energy Measurement Tool for Software Libraries",
+    "data_event_modal": "24164ab0-0891-4d66-800a-87196d2e703d"
+  },
+  {
+    "title": "Keynote: Towards Self-Evolving Software Intelligence",
+    "data_event_modal": "05b2adbe-96cc-4420-bf16-0ec930b1c9dc"
+  },
+  {
+    "title": "ContReAct: A Feedback-Based Architecture for Continuous Agentic Operation",
+    "data_event_modal": "bb667810-ff01-41ac-a5d8-4ecd212854a6"
+  },
+  {
+    "title": "AgentFixer: From Failure Detection to Fix Recommendations in Agentic Systems",
+    "data_event_modal": "b7a3fa44-910f-4f19-a03e-5b865a90e128"
+  },
+  {
+    "title": "TALM: Dynamic Tree-Structured Multi-Agent Framework with Long-Term Memory for Scalable Code Generation",
+    "data_event_modal": "b2209c24-548d-4ac1-84bd-cc0485e89214"
+  },
+  {
+    "title": "LLM-X: A Scalable Negotiation-Oriented Exchange for Communication Among Personal LLM Agents",
+    "data_event_modal": "7fbb2ede-dab7-4d85-b4d6-6ac9688fbd58"
+  },
+  {
+    "title": "From Stateless Code Generation to Living Ontologies: Business Autonomous Entities in Action",
+    "data_event_modal": "7130ba4d-b161-49d0-bb16-3cdfe60aa4d6"
+  },
+  {
+    "title": "AVATAR-AGENT: A Multi-Agent System for Expressive 3D Avatar Generation",
+    "data_event_modal": "6783d5dd-6e6f-44cd-9be9-7fa798276f48"
+  },
+  {
+    "title": "Session 2 Joint Q&A",
+    "data_event_modal": "a3ee5064-80fc-4cbd-9283-3c7881d463c6"
+  },
+  {
+    "title": "Achieving Productivity Gains with AI-based IDE features: A Journey at Google",
+    "data_event_modal": "a54cca29-a77d-4c39-9c96-36a33e8fee85"
+  },
+  {
+    "title": "Usage, Effects and Requirements for AI Coding Assistants in the Enterprise: An Empirical Study",
+    "data_event_modal": "8c4fa425-83fb-405d-b8eb-5a4df6e73685"
+  },
+  {
+    "title": "Code Roulette: How Prompt Variability Affects LLM Code Generation",
+    "data_event_modal": "8d88c208-923c-4f0e-889d-dffa297bb67f"
+  },
+  {
+    "title": "English or Chinese? Investigating the Impact of Prompt Language on Large Language Models for Code Summarization",
+    "data_event_modal": "8fe34891-fef6-4578-85e9-9eebec79b03a"
+  },
+  {
+    "title": "Evaluating LLMs-Driven Java Code Refactoring from a Developer's Perspective",
+    "data_event_modal": "b446b982-9f29-4791-acef-8ed1262cbbb2"
+  },
+  {
+    "title": "The Hidden DNA of LLM-Generated JavaScript: Structural Patterns Enable High-Accuracy Authorship Attribution",
+    "data_event_modal": "25e0fc4c-e2a2-42cf-949d-c67312d10b55"
+  },
+  {
+    "title": "Lunch",
+    "data_event_modal": "4dc4f414-da5c-40e2-bc73-c38efaf6ba1b"
+  },
+  {
+    "title": "Is Architecting Still a Human Activity?",
+    "data_event_modal": "c7c0d0c4-d780-48a3-903e-9ab6a5d93515"
+  },
+  {
+    "title": "FormIDEAble: Safe and Socially-aware Autonomous Systems",
+    "data_event_modal": "06fce9cb-91f6-418d-96b5-c85eb424910d"
+  },
+  {
+    "title": "The Runtime Dimension of Ethics in Self-Adaptive Systems",
+    "data_event_modal": "a1327d87-7ac5-46b2-bed7-1ed94faf91c5"
+  },
+  {
+    "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Proposal",
+    "data_event_modal": "0af20612-a1ac-457d-bafa-81c9c00cc904"
+  },
+  {
+    "title": "Bridging AI Ethics and Requirements Engineering in Healthcare: Triangulating Evidence from Literature, Experts, and Online Communities",
+    "data_event_modal": "0ae18d85-023a-4bf7-bbd9-d22acfff8351"
+  },
+  {
+    "title": "Future of Agile: A Multiple-Case Study of AI-Native Software Development",
+    "data_event_modal": "1ecd1025-cafc-4af2-847a-923f9270afb7"
+  },
+  {
+    "title": "Weaponizing the Commons: A Taxonomy and Detection Framework of Abuse on GitHub",
+    "data_event_modal": "60753dec-e968-4e76-8d25-25ca7781b120"
+  },
+  {
+    "title": "Do Socially Close Developers Clone More? Tracing the Link Between Collaboration and Duplication",
+    "data_event_modal": "16d5b79b-e269-4f68-ae3b-8d45078fd57c"
+  },
+  {
+    "title": "OpenART: Manuscript-Driven Support for Promoting Executability of Software Engineering Artifacts",
+    "data_event_modal": "02c618f2-d17a-40f4-a8cf-128794420ebf"
+  },
+  {
+    "title": "From Generic to Personalized: Exploring Persona-Aware Code Review Explanations",
+    "data_event_modal": "0ffae7e0-6c7d-4447-aad0-78daa5a4bc87"
+  },
+  {
+    "title": "From Copy-Paste to Correct: Governing the Transfer of Software Practices",
+    "data_event_modal": "6a8c1704-390a-453c-97c0-07847645e495"
+  },
+  {
+    "title": "Panel Discussion: Human and Social Factors",
+    "data_event_modal": "ee2399b5-ab98-4b14-8381-c84420f62877"
+  },
+  {
+    "title": "Selection of the award presentations",
+    "data_event_modal": "62278d79-94dd-4096-bca1-90756065061e"
+  },
+  {
+    "title": "Beyond Code Completion: Harnessing LLMs for Complex Code Migrations in an Enterprise Setting at Google",
+    "data_event_modal": "1fc24bc9-b10c-43a8-8ad3-5c5733977f55"
+  },
+  {
+    "title": "Model-Driven Legacy System Modernization at Scale",
+    "data_event_modal": "baadc83f-59b7-4515-a707-2ac562dc8869"
+  },
+  {
+    "title": "SafeTrans: LLM-assisted Transpilation from C to Rust",
+    "data_event_modal": "06086129-ebc6-41b7-8920-6dfed460830b"
+  },
+  {
+    "title": "Keynote 2",
+    "data_event_modal": "87a1b02b-46fa-4afb-bf8a-0502b781b6f7"
+  },
+  {
+    "title": "PrivAuto: Practical Insights of On-Device Privacy-Preserving Agentic Systems for Mobile GUI Automation",
+    "data_event_modal": "cfd670e2-9cfa-42f3-9277-bdea59d86356"
+  },
+  {
+    "title": "Bias Beneath the Tone: Empirical Characterisation of Tone Bias in LLM-Driven UX Systems",
+    "data_event_modal": "53cfe91b-553f-4db9-bf0a-232406d8373b"
+  },
+  {
+    "title": "Tutorial: Beyond A/B Testing - Orthogonal and Experimental Designs",
+    "data_event_modal": "981682ba-7f5c-4f52-a9d6-77eef5dbd8e3"
+  },
+  {
+    "title": "A Methodological Framework for Intelligent Vulnerability Management in Microservice Architectures",
+    "data_event_modal": "5fc743e4-5007-426e-8d88-b0d3580d9b70"
+  },
+  {
+    "title": "Power Relationships Effects on Social Sustainability Goals in Software Ecosystems",
+    "data_event_modal": "53e6a53e-4b83-45b5-b567-de65d97d5125"
+  },
+  {
+    "title": "SE4AI: Structured AI/ML Enabled Software Development Process",
+    "data_event_modal": "5bcb85ab-67f5-4bc9-84cd-e82a8d0e7570"
+  },
+  {
+    "title": "Transformative Impact of Agentic AI on Software Project Management",
+    "data_event_modal": "719bf816-e3bd-40f0-b341-934cfa58a116"
+  },
+  {
+    "title": "Panel 3 - Research funding, industry-academia collaborations",
+    "data_event_modal": "ea8e7a5d-c3e3-4d49-94be-3aa8ff864f86"
+  },
+  {
+    "title": "Mentoring Pods",
+    "data_event_modal": "cb1513fb-218a-48d0-b74a-c41e48800ad8"
+  },
+  {
+    "title": "Towards Improving in-IDE Code Completion for Driver Development",
+    "data_event_modal": "c4bd29c7-b02c-46a1-9d4f-5b16ecb78721"
+  },
+  {
+    "title": "Multi-task Code LLMs: Data Mix or Model Merge?",
+    "data_event_modal": "ff3132b0-f726-4b8d-a5f3-05f749bbe73a"
+  },
+  {
+    "title": "Code vs Serialized AST Inputs for LLM-Based Code Summarization: An Empirical Study",
+    "data_event_modal": "311cdad4-88a9-434a-b6a5-d13427f42044"
+  },
+  {
+    "title": "Learning Functional Equivalence via Supervised Contrastive Code-Problem Alignment",
+    "data_event_modal": "aad77d15-8390-4a2b-8293-17c6a556bf72"
+  },
+  {
+    "title": "LLM-Driven SQL Remediation: Towards Safe and Explainable Code for Automated Schema Refactoring",
+    "data_event_modal": "d9226520-c0be-4e1e-841c-d6857223fdf2"
+  },
+  {
+    "title": "Using Context-Role-Oriented Programming for Swarms to Alleviate the Micro-Macro ProblemFULL",
+    "data_event_modal": "3159e252-fb9e-4b83-bc76-5214d671c661"
+  },
+  {
+    "title": "Maneuver Sequence Coverage of Scenarios for Autonomous Driving SystemFULL",
+    "data_event_modal": "dc5f135d-9cae-4229-8a7e-4a989eb7048e"
+  },
+  {
+    "title": "Formally Guaranteed Control Adaptation for ODD-Resilient Autonomous SystemsSHORT",
+    "data_event_modal": "d24144a9-fea5-4b9b-a9cd-467c28ea54eb"
+  },
+  {
+    "title": "EvoDriver: Novelty-Search Driven Evolution of Behavioral Test Suites for Autonomous VehiclesFULL",
+    "data_event_modal": "94868677-f747-4c73-b0ca-6a4018056db7"
+  },
+  {
+    "title": "Towards Assured Mission Adaptation of Multi-Robot SystemsSHORT",
+    "data_event_modal": "c21486e9-9d17-4af4-9b4a-032ab3e224a1"
+  },
+  {
+    "title": "Automated Planning for Task-Based Cyber-Physical Systems under Multiple Sources of UncertaintyJOURNAL FIRST",
+    "data_event_modal": "4d6fefa0-b6f1-483a-ad6b-f21a1b23eafc"
+  },
+  {
+    "title": "Ubi-AAL: A Self-Adaptive Ubiquitous Computing System Problem Exemplar in Ambient Assisted LivingARTIFACT",
+    "data_event_modal": "f28c8d62-3e5c-4423-8774-a2016c7672b4"
+  },
+  {
+    "title": "Challenge: What Does Context Mean for Research Software?",
+    "data_event_modal": "68a206de-dfa3-4166-a20f-e9261174a907"
+  },
+  {
+    "title": "Transforming legacy Research Software into Free Software: Early impressions from Participant Observation",
+    "data_event_modal": "afab1256-91d6-49d0-8bbd-9234abf58d7d"
+  },
+  {
+    "title": "Debian: A sustainable ecosystem for the distribution and use of Research Software",
+    "data_event_modal": "4fc94cca-623a-4fa0-9e58-9f8929de09fa"
+  },
+  {
+    "title": "Adding Workflow to a Workbench for Digital Geosystems for a more agile Research Software Engineering approach",
+    "data_event_modal": "91208da1-d5a1-4c36-a96f-56725f8322e0"
+  },
+  {
+    "title": "Finding RSEs: Challenges in Recruiting Research Software Engineers for Research",
+    "data_event_modal": "5c0ae093-5387-47a4-a6c2-a8f4e75f2fd9"
+  },
+  {
+    "title": "Software Engineering for Renewable Energy Research - Towards a Research Agenda",
+    "data_event_modal": "f6a66f81-d884-4331-8f98-29b47992b941"
+  },
+  {
+    "title": "Automated Ontology Construction: An AI Framework for Research Software Engineering",
+    "data_event_modal": "8a6ad631-fb48-485e-b637-b06427e104c9"
+  },
+  {
+    "title": "Introduction to Breakout Groups",
+    "data_event_modal": "50cd03b8-7181-4b4b-97ec-f4384028fc25"
+  },
+  {
+    "title": "How are MLOps Frameworks Used in Open Source Projects? An Empirical Characterization",
+    "data_event_modal": "39698b69-9fa9-4aad-89c6-64f5423c982b"
+  },
+  {
+    "title": "Do We Agree on What an \"Audit\" Is? Toward Standardized Smart Contract Audit Reporting",
+    "data_event_modal": "c7ce79af-2e0f-4beb-a403-93727f6749ce"
+  },
+  {
+    "title": "AFGNN: API Misuse Detection using Graph Neural Networks and Clustering",
+    "data_event_modal": "09d95324-5909-481d-bff8-680da02dd68c"
+  },
+  {
+    "title": "An Empirical Analysis of Cross-OS Portability Issues in Python Projects",
+    "data_event_modal": "5c288995-a11a-4e72-9612-ac6732dce92f"
+  },
+  {
+    "title": "Learning Compiler Fuzzing Mutators from Historical Bugs",
+    "data_event_modal": "f6fa514f-d62e-4009-a0bd-cd3c97abfe86"
+  },
+  {
+    "title": "Mining Challenge Finalists",
+    "data_event_modal": "b71785cd-0bdb-4430-85cb-120d61f49ec9"
+  },
+  {
+    "title": "Building an Open AIBOM Standard in the Wild",
+    "data_event_modal": "75085bab-e410-4feb-aacd-7801a0bd3f80"
+  },
+  {
+    "title": "Smart Paste: How Developer Behavior Shaped the Training of an LLM",
+    "data_event_modal": "bde0d172-94d3-4d22-b5d5-9785cec7241e"
+  },
+  {
+    "title": "Human Dimensions: The Blind Spot in Software Engineering",
+    "data_event_modal": "623ead86-6998-4bc1-9cf5-76fea9f0585b"
+  },
+  {
+    "title": "When IoT Meets Reality: Human Constraints in Field Deployment",
+    "data_event_modal": "5bb0b39f-0859-46c8-802c-8948be3dab35"
+  },
+  {
+    "title": "How Academic Researchers Navigate Immediate, Near Future, and Moonshot Work in Industry",
+    "data_event_modal": "b51885ff-ddbf-4838-a4c3-89f1c3c79f2f"
+  },
+  {
+    "title": "Voices of Industry Q&A (day 2)",
+    "data_event_modal": "5ef59bb5-edb3-4efc-b7cb-a9e7f3064249"
+  },
+  {
+    "title": "From Customer Proximity to Enterprise Goals: How Agile Teams Perceive and Articulate Value",
+    "data_event_modal": "7326395b-24ee-4388-9513-b7be9957a884"
+  },
+  {
+    "title": "Industry Insights on UX-Agile Process Integration: Challenges, Benefits, and Potential Solutions",
+    "data_event_modal": "b7220619-1572-4ec4-858b-8d3b3f728fa7"
+  },
+  {
+    "title": "Emotion Recognition in Agile Software Meetings: A Comparative Study of ML, DL, and Text-based LLM Approaches",
+    "data_event_modal": "ac479c34-d2e8-48b3-9058-1293343b8ec3"
+  },
+  {
+    "title": "Regression Testing in Remote and Hybrid Software Teams: An Exploratory Study of Processes, Tools, and Practices",
+    "data_event_modal": "270aee48-bda2-41d6-9fa9-6a060830fa7e"
+  },
+  {
+    "title": "Analyzing GitHub Issues and Pull Requests in nf-core Pipelines: Insights into nf-core Pipeline Repositories",
+    "data_event_modal": "b2911318-da71-4101-9ad5-d4dcc7c77bf8"
+  },
+  {
+    "title": "Modeling Sampling Workflows for Code Repositories",
+    "data_event_modal": "b317a7bf-c549-42ed-b8dc-0c9d90fac831"
+  },
+  {
+    "title": "Quantifying Competitive Relationships Among Open-Source Software Projects",
+    "data_event_modal": "6f8ea1fa-a0ba-429d-8d25-bc080096b138"
+  },
+  {
+    "title": "Role of CI Adoption in Mobile App Success: An Empirical Study of Open-Source Android Projects",
+    "data_event_modal": "135c995f-10ac-41f7-a818-575351b89863"
+  },
+  {
+    "title": "ML in a Box: Analyzing Containerization Practices in Open Source ML Projects",
+    "data_event_modal": "cecb4506-eefc-4897-b09c-3721ce7b0ed9"
+  },
+  {
+    "title": "An Empirical Study of Policy as Code: Adoption, Purpose, and Maintenance",
+    "data_event_modal": "bc15538d-65e6-4bed-9c78-b793176bfa82"
+  },
+  {
+    "title": "Tracing Stereotypes in Pre-trained Transformers: From Biased Neurons to Fairer Models",
+    "data_event_modal": "76c591dc-09bc-4107-b0aa-3bf20cbd5be9"
+  },
+  {
+    "title": "Can Data Mining Help to Survive the Annual Compiler Upgrade?",
+    "data_event_modal": "de5243d1-3184-4e5d-832f-2045dd7efb10"
+  },
+  {
+    "title": "Underutilization in Research GPU Clusters: SE Challenges",
+    "data_event_modal": "012aded6-107b-4f5b-b950-3e63a7204ebc"
+  },
+  {
+    "title": "L-SCALE: Locality-Sensitive Coverage for Automata LEarning",
+    "data_event_modal": "277d02aa-6825-4322-81ca-50e9663cbc74"
+  },
+  {
+    "title": "APITestGenie: Generating Web API Tests from Requirements and API Specifications with LLMs",
+    "data_event_modal": "43114571-8f24-4d71-9ade-9a1812dd29a9"
+  },
+  {
+    "title": "Software Testing Education in the LLM Era: Insights and Emerging Theory",
+    "data_event_modal": "961a345d-9b27-4b9a-8aeb-5aff8504ed3b"
+  },
+  {
+    "title": "Keynote: On the Evaluation of AI Coding Agents",
+    "data_event_modal": "49bd9a11-f4ea-476d-9b51-9264c45efc06"
+  },
+  {
+    "title": "Beyond Task Completion: An Assessment Framework for Evaluating Agentic AI Systems",
+    "data_event_modal": "259001ab-2423-46da-9cb0-c00d91a1afa5"
+  },
+  {
+    "title": "PerfBench: Can Agents Resolve Real-World Performance Bugs?",
+    "data_event_modal": "5cb0c74b-ee1f-4a7f-a956-be9971bbe9e0"
+  },
+  {
+    "title": "SWEnergy: An Empirical Study on Energy Efficiency in Agentic Issue Resolution Frameworks with SLMs",
+    "data_event_modal": "b4bc4846-99d8-482d-ba12-e9685ea4bc5a"
+  },
+  {
+    "title": "Context Matters: Evaluating MCP-Based Context-Aware AI - A Case Study of Email Communications in Nonprofit Organizations",
+    "data_event_modal": "52d9573b-2dae-4d05-97a2-4b06750fff4d"
+  },
+  {
+    "title": "Toward Agentic Software Project Management: A Vision and Roadmap",
+    "data_event_modal": "ea24e8e8-125a-4635-8608-94609b7b9e7f"
+  },
+  {
+    "title": "Not All Problems Are Nails, Not All Tools Should Be Hammers: A Position Paper on Agent Usage in Software Engineering Tasks",
+    "data_event_modal": "54c85474-6e18-4fb5-ab50-3aff36cf18e4"
+  },
+  {
+    "title": "Session 3 Joint Q&A",
+    "data_event_modal": "930981fb-1f9b-4de2-a582-2fbefad835ee"
+  },
+  {
+    "title": "An Automated Methodology for Generating Labeled Datasets of Semantic Errors in Code",
+    "data_event_modal": "bd56cd24-1740-4f0a-b7af-a098fb3df456"
+  },
+  {
+    "title": "Statistical Independence Aware Caching for LLM Workflows",
+    "data_event_modal": "4eb08876-05a9-4598-b740-feee30d0e29c"
+  },
+  {
+    "title": "An Empirical Study of C to Rust Translation using Local Large-Language Models",
+    "data_event_modal": "42213c3d-eaed-4eb4-be8f-3d61531ac685"
+  },
+  {
+    "title": "LLM-Powered On-Demand Test Suites in Self-Graded Student Programming Assignments",
+    "data_event_modal": "e9272857-d33a-4ece-a0de-a516fb980f5e"
+  },
+  {
+    "title": "A Spec-Driven Workflow for AI-Assisted Domain-Driven Development: Insights from Practice",
+    "data_event_modal": "08215168-669a-4dda-b731-2ea3e90a9348"
+  },
+  {
+    "title": "Award presentation 4",
+    "data_event_modal": "68e6fa92-de76-4d5b-99d3-d62ee029fca4"
+  },
+  {
+    "title": "Award presentation 5",
+    "data_event_modal": "45b50fe5-6467-4ae5-aec6-108014ecfab0"
+  },
+  {
+    "title": "Award presentation 6",
+    "data_event_modal": "1f11db8b-7719-47cc-874f-1ec95488b017"
+  },
+  {
+    "title": "Award presentation 7",
+    "data_event_modal": "912e6d22-e0d4-40d8-a216-efade178cbd7"
+  },
+  {
+    "title": "Final Remarks",
+    "data_event_modal": "829846a0-59ac-4cf7-a519-a0e4b4279355"
+  },
+  {
+    "title": "When Many-Shot Prompting Fails: An Empirical Study of LLM Code Translation",
+    "data_event_modal": "b1e8abe6-0582-4acb-8183-b3863d656770"
+  },
+  {
+    "title": "Automated Refactoring of Code Smells in React.js Applications",
+    "data_event_modal": "c129fbbd-49d9-4e99-94dd-14bb7086bd67"
+  },
+  {
+    "title": "Workshop closing and socializing",
+    "data_event_modal": "a3bc8e13-6775-4c48-994d-e11aa337a9e8"
+  },
+  {
+    "title": "Metaverse and blockchain based 3D-2D interfaces for improving agile teams communication",
+    "data_event_modal": "5eaf327c-7822-4c6c-943d-8d5f4c5bf89c"
+  },
+  {
+    "title": "Immersion Without Instability: A Digital Twin Approach to Solve Imbalance Issues in Virtual Reality",
+    "data_event_modal": "d1913717-1dc7-4e99-afad-c4dac85c8119"
+  },
+  {
+    "title": "Closing",
+    "data_event_modal": "007636cc-2197-41ef-9cd7-e8887a794a75"
+  },
+  {
+    "title": "Industry Research Panel",
+    "data_event_modal": "1b254437-44c6-48be-ab19-405bbf18970c"
+  },
+  {
+    "title": "Panel 4 - Work-life balance, promoting your work and networking within your community",
+    "data_event_modal": "b096c780-b0f7-4631-91b9-d8ef8dc09115"
+  },
+  {
+    "title": "Panel Discussion with Q&A",
+    "data_event_modal": "0203c4f3-74ae-45f6-b825-e075c5bd95fe"
+  },
+  {
+    "title": "Do LLMs Dream of Energy-Efficient Code?",
+    "data_event_modal": "85fbddb6-8b70-4ce0-826f-afcb2f0647ff"
+  },
+  {
+    "title": "An Initial Exploration of Contrastive Prompt Tuning to Generate Energy-Efficient Code",
+    "data_event_modal": "0f03f651-42c5-430a-9960-5bd3a4b841c6"
+  },
+  {
+    "title": "TritonForge: Profiling-Guided Framework for Automated Triton Kernel Optimization",
+    "data_event_modal": "e16e6401-c16e-49ff-bbd1-88a8a99da79e"
+  },
+  {
+    "title": "CP-Agent: Agentic Constraint Programming",
+    "data_event_modal": "b458f746-93e6-4cd1-8e5c-29802fce2ef4"
+  },
+  {
+    "title": "Software Self-Extension with SelfEvolve: an Agentic Architecture for Runtime Code GenerationSHORT",
+    "data_event_modal": "7541c0c7-d981-4ce5-8c4e-e77225e463ad"
+  },
+  {
+    "title": "Grammar-Constrained Refinement of Safety Operational Rules Using Language in the Loop: What Could Go WrongSHORT",
+    "data_event_modal": "fa009e33-df90-4530-b9f7-96ed282df7c4"
+  },
+  {
+    "title": "POLARIS: Is Multi-Agentic Reasoning the Next Wave in Engineering Self-Adaptive Systems?SHORT",
+    "data_event_modal": "527b77c0-6cfc-4f4a-b495-13532ecb3bba"
+  },
+  {
+    "title": "Collaboration in Breakout Groups",
+    "data_event_modal": "4d89499f-5abb-448e-afcf-ddbd7ad5571f"
+  },
+  {
+    "title": "Plenary Discussion: Next Steps in Software Engineering and Research Software",
+    "data_event_modal": "4f109782-8a47-426d-b41d-ff3afc0a0779"
+  },
+  {
+    "title": "Closing Remarks",
+    "data_event_modal": "f1cce677-34b3-460d-b64d-65ff09086fee"
+  },
+  {
+    "title": "\"I like using GenAI as a tool, but with the feeling that I'm better than it\": Exploring How Students Negotiate Computing Identity in the Age of GenAI",
+    "data_event_modal": "734bbdd7-150d-4409-b05d-1f934b0dd571"
+  },
+  {
+    "title": "Fast and Fleeting: Evaluating ChatGPT's Impact on Students' Computational Thinking Skills",
+    "data_event_modal": "47148736-2eaa-43ba-913b-49d4a575e1d0"
+  },
+  {
+    "title": "Why Do We Code? A Theory on Motivations and Challenges in Software Engineering from Education to Practice",
+    "data_event_modal": "869dc87e-32b2-4fcc-8ac7-d9a7505e7d53"
+  },
+  {
+    "title": "Empathy in Software Engineering Education: Evidence, Practices, and Opportunities",
+    "data_event_modal": "98185320-926c-48d1-b176-3570ca7d8cab"
+  },
+  {
+    "title": "Designing Tools to Enhance Best Practices in Research Software Engineering",
+    "data_event_modal": "2654b3d2-8e9d-4c3c-b631-29be0ed4fec6"
+  },
+  {
+    "title": "Human-Centered Quantum Software Engineering: A Research Agenda",
+    "data_event_modal": "afcae72c-2666-4624-a566-810e4a5db334"
+  },
+  {
+    "title": "Closing",
+    "data_event_modal": "9f59e70f-56a9-4b61-b38b-702fd174788a"
+  },
+  {
+    "title": "Vision: TBA",
+    "data_event_modal": "fe5632d7-f9c6-4cd8-b3fc-7da1c896899e"
+  },
+  {
+    "title": "FCA Award Winner",
+    "data_event_modal": "1b1ed804-b9ba-47f8-8d5b-a862bef91274"
+  },
+  {
+    "title": "MIP 2016 Presentation",
+    "data_event_modal": "2fcb712a-482d-4cf7-8388-79bb53d6c86a"
+  },
+  {
+    "title": "Closing Remarks",
+    "data_event_modal": "fb90994a-6a4b-4a2f-b3e0-f2c75c8a8774"
+  },
+  {
+    "title": "Invitation to MSR 2027",
+    "data_event_modal": "f488463d-b768-45cd-873e-511c6f91cd8a"
+  },
+  {
+    "title": "ACT: Automated CPS Testing for Open-Source Robotic Platforms",
+    "data_event_modal": "77cbd378-3cc1-4a36-afc2-b7576b9f38c4"
+  },
+  {
+    "title": "From Logs to Lessons: An Exploration of LLM-based Log Summarization for Debugging Automotive Software",
+    "data_event_modal": "9bbcd2ea-0ee4-4744-9780-9a840fb1034c"
+  },
+  {
+    "title": "Separating Valid from Invalid Inputs for a Digital Aircraft Design Tool",
+    "data_event_modal": "df35ed43-99cf-4879-bddf-03753dabd33a"
+  },
+  {
+    "title": "Keynote: Lessons from the Frontlines: Deploying AI Agents in the Real World",
+    "data_event_modal": "9502277b-a105-442b-9314-3fa7d091c542"
+  },
+  {
+    "title": "Building LLM-Based Voice Agents for Requirements Elicitation: An Experience Report on Early Prototypes",
+    "data_event_modal": "94e9cbd9-5436-4b83-b4ce-05b15081ba44"
+  },
+  {
+    "title": "An Agentic System for LLM-Driven Public Transportation Analytics: A Practical Application and Case Study in Salvador-Brazil",
+    "data_event_modal": "94eed040-7a39-44ce-af6c-521557809942"
+  },
+  {
+    "title": "AI in Insurance: Adaptive Questionnaires for Improved Risk Profiling",
+    "data_event_modal": "8f9aa886-d711-47ca-99a4-2d981058cdec"
+  },
+  {
+    "title": "Progressive Gated Co-Teaching for Weakly Supervised Deepfake Detection",
+    "data_event_modal": "5de103da-bda4-4bf0-b2e7-a2693ce51132"
+  },
+  {
+    "title": "Session 4 Joint Q&A",
+    "data_event_modal": "cffdd4a8-fc30-41f7-bc85-319f508956d4"
+  },
+  {
+    "title": "Panel Discussion",
+    "data_event_modal": "adb1cc34-fc98-4dcc-98a6-869a78814b29"
+  },
+  {
+    "title": "Closing",
+    "data_event_modal": "3b91d120-1c45-43e1-ac51-09169efab937"
+  },
+  {
+    "title": "MAsFL: Data-Secure, Efficient and Accurate Fault Localization with Multi-Agent Small Language Models",
+    "data_event_modal": "5971a1d5-c61d-4ed2-aae3-1c935f766437"
+  },
+  {
+    "title": "Natural Language Summarization Enables Multi-Repository Bug Localization by LLMs in Microservice Architectures",
+    "data_event_modal": "355d3f35-843c-4fae-94e7-6e27c5c07cb4"
+  },
+  {
+    "title": "SecRepoBench: Benchmarking Code Agents for Secure Code Completion in Real-World Repositories",
+    "data_event_modal": "ffad4e85-587c-467d-a1f3-c508f4c048a7"
+  },
+  {
+    "title": "Diverse LLMs vs. Vulnerabilities: Who Detects and Fixes Them Better?",
+    "data_event_modal": "ae2c4c2b-bf4a-494c-8f52-b5178c47de72"
+  },
+  {
+    "title": "RAG Against the Machine: Zero-Shot Software Vulnerabilities Classification using LLMs",
+    "data_event_modal": "ecdb32b8-8323-4f64-9f41-6a193eaf5b9a"
+  },
+  {
+    "title": "Towards LLM-guided Semantic Validation of Autonomous Driving Safety Policies",
+    "data_event_modal": "058e54ec-4916-4216-9d71-c467be8c40d5"
+  },
+  {
+    "title": "ContextPilot: Code Context Engineering with Memory-Augmented Exploration Agents",
+    "data_event_modal": "8d14a902-a40f-4a3b-b810-908f7fe91d45"
+  },
+  {
+    "title": "Rebuilding AI from the Small: The Path Toward Democratized Intelligence",
+    "data_event_modal": "54890744-2080-44d0-8fe2-32558d1f39eb"
+  },
+  {
+    "title": "Trustworthy Resolution of Requirement Conflicts at Runtime",
+    "data_event_modal": "41c9f5d3-5d41-4db5-bb4c-ba8d70a71aa8"
+  },
+  {
+    "title": "Evolving Artificial Ecosystems: Towards the Infusion of Multi-Agent Systems with Inclusive Inheritance",
+    "data_event_modal": "9e39a884-2135-40e5-adcc-170a6c1c143b"
+  },
+  {
+    "title": "Towards Behavior-Space Testing of Critical ML-Enabled Systems",
+    "data_event_modal": "e077b881-6c6e-471b-9330-c642a51c6471"
+  },
+  {
+    "title": "System Comprehension and Source Code Manipulation in eXtended Reality",
+    "data_event_modal": "763ff4cb-bc1e-4baa-afb5-c0f5c36d7195"
+  },
+  {
+    "title": "SE4AI: Structured AI/ML Enabled Software Development Process",
+    "data_event_modal": "7c876f82-38bb-4164-8bd3-8d1ded482eec"
+  },
+  {
+    "title": "Advancing Language Models for Code-related Tasks",
+    "data_event_modal": "e3614c66-af0b-487a-a63c-f1542b40c5bd"
+  },
+  {
+    "title": "Utilizing LLMs for Industrial Process Automation",
+    "data_event_modal": "033fa60e-3218-45c5-aeaa-4559bd8c2708"
+  },
+  {
+    "title": "The Dynamics of Knowledge Concentration in Long-lived Collaborative Software Codebases",
+    "data_event_modal": "0c1d06d5-38c6-4a62-8e21-fcc776ac21e9"
+  },
+  {
+    "title": "Green AI by Default: Energy Reduction Techniques for LLMs in SE",
+    "data_event_modal": "4ef3803d-a167-45ce-87e8-aa94976a28c9"
+  },
+  {
+    "title": "Toward a Multi-Agent System for Reliable Mocking of Static Methods and Continuous Integration",
+    "data_event_modal": "24d09b56-5156-4caa-a96a-c18919dfccbf"
+  },
+  {
+    "title": "Preventing Failures of Smart Human-Centric Ecosystems",
+    "data_event_modal": "812ae9a3-b837-4442-8aec-f2c8021f5da2"
+  },
+  {
+    "title": "Challenging Agile: Empirical method's tailoring validation at large-scale",
+    "data_event_modal": "c574edfe-a354-444f-99c1-e0c8a4c6a6a3"
+  },
+  {
+    "title": "Toward Intelligent, Reliable, and Secure Automation of CI/CD Workflows",
+    "data_event_modal": "d80c57af-c50d-4263-839e-d80863a27296"
+  },
+  {
+    "title": "An Empirical Perspective on the Lifecycle and Quality Attributes of AI Artifacts",
+    "data_event_modal": "45b04e95-c502-458c-b4f1-8937daeb5ce1"
+  },
+  {
+    "title": "Toward Intelligent Feedback Systems in Programming Education: AI Tutors, Large Language Models, and Future Directions",
+    "data_event_modal": "8c5a518c-ad5f-45d9-b270-31bad58f1212"
+  },
+  {
+    "title": "Architecture Conformance Checking for Microservice-based Systems",
+    "data_event_modal": "2d159b05-ceba-4171-9695-f718482c7c19"
+  },
+  {
+    "title": "Shifting the Maintenance Burden: Towards Data-Driven Dependency Management",
+    "data_event_modal": "6b69399a-a998-4040-aed4-3069c22a194e"
+  },
+  {
+    "title": "Toward Self-Adaptive and Decentralized Intelligent Software Systems: A Federated Learning Perspective",
+    "data_event_modal": "ceabedcb-e9b0-4d27-a0c3-62c8253ed5e7"
+  },
+  {
+    "title": "Reinforcement Learning from Testing Targets for Effective SLM Test Generation",
+    "data_event_modal": "796b6205-2b8d-4c17-b85f-7f824895325b"
+  },
+  {
+    "title": "Plan4code: Planning Code Changes with Chain-of-Thought and Ontologies",
+    "data_event_modal": "836f1212-76b6-49f2-950e-00d8d81cf915"
+  },
+  {
+    "title": "Information Flow-Based Quantification of Timing-Based Software Systems",
+    "data_event_modal": "87b89ffe-26e1-47a3-ba19-a1aac48f5055"
+  },
+  {
+    "title": "Trustworthiness of Continuous Integration Practices",
+    "data_event_modal": "365b822b-3632-4430-933c-473f4f81cd96"
+  },
+  {
+    "title": "Towards a Software Supply Chain Security Barometer: A Model to Assess and Guide Community Efforts",
+    "data_event_modal": "f915c293-e1a8-41ce-9a07-0cfdb1443a39"
+  },
+  {
+    "title": "Mapping and Mitigating Bottlenecks in the Linux Kernel Development Model",
+    "data_event_modal": "56fa8da5-fb6a-4ac5-ac57-7a0d60f7d72f"
+  },
+  {
+    "title": "Transformative Impact of Agentic AI on Software Project Management",
+    "data_event_modal": "2fa5e37d-b35b-4135-b4ea-ed9cdec3a711"
+  },
+  {
+    "title": "Studying and Automating Issue Resolution for Software Quality",
+    "data_event_modal": "f5b492ef-a196-4e3d-842d-ef5ddea4246c"
+  },
+  {
+    "title": "SoS Governance in Smart Cities: A Tertiary Review Highlighting Research Gaps in the Global South",
+    "data_event_modal": "7e5449e3-3306-4ae2-83e3-4e8f45b3b8f8"
+  },
+  {
+    "title": "Human-Centered AI for Software Engineering",
+    "data_event_modal": "2e7d5909-1da5-4550-8b06-28d6df10e2d5"
+  },
+  {
+    "title": "Towards Systematic Treatment of Community-Driven Variability",
+    "data_event_modal": "e9504f67-58ea-491d-a74f-d4ab42c0cf68"
+  },
+  {
+    "title": "A Multi-Modal Robotic Framework for Physical GUI Interaction Testing",
+    "data_event_modal": "489bacc3-04ef-4c08-9740-84840aff55cf"
+  },
+  {
+    "title": "Execution-Aware Code Documentation through Semantic Data Differences",
+    "data_event_modal": "1969a03c-193a-4b80-a9f3-5e67b374b37b"
+  },
+  {
+    "title": "A Methodological Framework for Intelligent Vulnerability Management in Microservice Architectures",
+    "data_event_modal": "3c8a1198-ba44-474c-bb5a-9f528d36d02a"
+  },
+  {
+    "title": "Next Level: a maturity model in construction for the evolution of software teams based on performance indicators",
+    "data_event_modal": "7a4338cf-9b0f-4dac-8f32-39ce37211b80"
+  },
+  {
+    "title": "Power Relationships Effects on Social Sustainability Goals in Software Ecosystems",
+    "data_event_modal": "f0b6fd75-8b9d-4aea-9ba9-27b9d7f103fa"
+  },
+  {
+    "title": "From Collaboration to Team Effectiveness: The Role of Emergent States in Distributed and Dynamic Software Teams",
+    "data_event_modal": "401957fd-2e7f-4a60-8e25-3efc996f9754"
+  },
+  {
+    "title": "Data-driven Test Generation for Fuzzing AI Compiler",
+    "data_event_modal": "34d59cdc-1116-447c-92c9-b73be383e463"
+  },
+  {
+    "title": "Testing Programs Expecting Highly Constrained Inputs",
+    "data_event_modal": "edc83e48-bc98-40ca-9a66-874e9d73e7b4"
+  },
+  {
+    "title": "Multi-Level Testing of Conversational AI Systems",
+    "data_event_modal": "85a641a8-4f3f-437e-8008-024d0e2ada81"
+  },
+  {
+    "title": "An Incident Management Approach Based on Site Reliability Engineering Practices to Support Governance in Proprietary Software Ecosystems",
+    "data_event_modal": "6e5ef864-85bf-4b48-94f6-818e77ae9a5a"
+  },
+  {
+    "title": "Interpretable AI with MLIR (IAM):A Unified Framework for Neural Network Transparency",
+    "data_event_modal": "fbe12e7b-6008-433b-97ab-92383d390bd7"
+  },
+  {
+    "title": "Towards Task-Agnostic Evaluation Framework for LLM-Embedded Applications",
+    "data_event_modal": "37b5d194-82c1-49d7-8815-1b5751a93bff"
+  },
+  {
+    "title": "Tailoring Software Engineering Generative AI Agents to Company Standards and Developers' Preferences",
+    "data_event_modal": "3e4af3ea-b364-4784-84ca-005f826a1a99"
+  },
+  {
+    "title": "Comprehensibility-guided Automated Code Refactoring",
+    "data_event_modal": "cfb9eaff-dbca-43f9-ba34-e03d737a8a3e"
+  },
+  {
+    "title": "Detection of Optimization-introduced Bugs in C Compilers",
+    "data_event_modal": "b86696a3-d48f-49f1-963d-4133f967d50f"
+  },
+  {
+    "title": "Intellectual Property Protection in Model-Based Development - The Deltachain Approach",
+    "data_event_modal": "ccccf636-493c-487e-8df4-21da7d2ff197"
+  },
+  {
+    "title": "Comprehensive and Realistic Evaluation on the Code Reasoning Capability of LLMs",
+    "data_event_modal": "aef083c1-978a-411d-a69c-a0e6d16a827d"
+  },
+  {
+    "title": "A Strategy-based Framework for Exploratory Playtesting in Open-World Games",
+    "data_event_modal": "ab7082fd-cca6-44ed-acf9-3569355bbecf"
+  },
+  {
+    "title": "Human-Centric Integration of Large Language Models into Software Engineering Tasks",
+    "data_event_modal": "9860097b-36c0-4c97-9f2c-5091837129dc"
+  },
+  {
+    "title": "Towards Cognitive-Agent-Driven Prompt Optimization for Automated Program Repair",
+    "data_event_modal": "03b7ae14-dd3a-4ae1-aff1-31e566835f0d"
+  },
+  {
+    "title": "Intelligent Approach for Fostering Research Collaborations between Academia and Industry",
+    "data_event_modal": "59b464fa-e86c-467e-a9b1-bf93f2f2a778"
+  },
+  {
+    "title": "Automating Code-Change Rationale Generation to Support Software Maintenance Tasks",
+    "data_event_modal": "b0583f71-a37f-405a-aa3d-4df424032c4b"
+  },
+  {
+    "title": "Toward an ISO-Based Epistemic Capability Framework for Specializing LLMs Through Knowledge and Reasoning Integration for Software Artifact Generation",
+    "data_event_modal": "891920a4-6f3e-47db-92e7-84d8a9d4979e"
+  },
+  {
+    "title": "Large Language Models for Code Refactoring",
+    "data_event_modal": "bcaf964b-ab89-4acb-9500-e0fb335c4902"
+  },
+  {
+    "title": "An Empirical Study on Maintenance and Evolution Processes of Embedded Software",
+    "data_event_modal": "feeadb91-ad38-46b8-af29-f64482081785"
+  },
+  {
+    "title": "Closing and Awards",
+    "data_event_modal": "5aa1b6fc-f242-4b2d-a518-baed20487ea2"
+  },
+  {
+    "title": "ICSE 2027 Steering Committee Meeting",
+    "data_event_modal": "638e03cb-4f3d-4f31-a469-d60f74d50061"
+  },
+  {
+    "title": "ICSE Reception",
+    "data_event_modal": "4fd4ae60-b5f4-476c-a4f0-f73910d2ed24"
+  },
+  {
+    "title": "ICSE Newcomer Reception",
+    "data_event_modal": "28e2d370-cca7-4aaa-ba59-39dce3625a5f"
+  }
+]
