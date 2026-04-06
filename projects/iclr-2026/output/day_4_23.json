@@ -1,0 +1,463 @@
+[
+  {
+    "title": "Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling",
+    "url": "https://iclr.cc/virtual/2026/oral/10007766",
+    "session_type": "Oral"
+  },
+  {
+    "title": "T3: Reducing Belief Deviation in Reinforcement Learning for Active Reasoning",
+    "url": "https://iclr.cc/virtual/2026/oral/10007173",
+    "session_type": "Oral"
+  },
+  {
+    "title": "MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent",
+    "url": "https://iclr.cc/virtual/2026/oral/10007826",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Verifying Chain-of-Thought Reasoning via its Computational Graph",
+    "url": "https://iclr.cc/virtual/2026/oral/10010814",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Revela: Dense Retriever Learning via Language Modeling",
+    "url": "https://iclr.cc/virtual/2026/oral/10008351",
+    "session_type": "Oral"
+  },
+  {
+    "title": "RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format",
+    "url": "https://iclr.cc/virtual/2026/oral/10009682",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+    "url": "https://iclr.cc/virtual/2026/oral/10011023",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Improving Diffusion Models for Class-imbalanced Training Data via Capacity Manipulation",
+    "url": "https://iclr.cc/virtual/2026/oral/10006729",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Let Features Decide Their Own Solvers: Hybrid Feature Caching for Diffusion Transformers",
+    "url": "https://iclr.cc/virtual/2026/oral/10009222",
+    "session_type": "Oral"
+  },
+  {
+    "title": "DiffusionNFT: Online Diffusion Reinforcement with Forward Process",
+    "url": "https://iclr.cc/virtual/2026/oral/10009150",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs)",
+    "url": "https://iclr.cc/virtual/2026/oral/10011204",
+    "session_type": "Oral"
+  },
+  {
+    "title": "GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10006825",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Neon: Negative Extrapolation From Self-Training Improves Image Generation",
+    "url": "https://iclr.cc/virtual/2026/oral/10007747",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Mastering Sparse CUDA Generation through Pretrained Models and Deep Reinforcement Learning",
+    "url": "https://iclr.cc/virtual/2026/oral/10009121",
+    "session_type": "Oral"
+  },
+  {
+    "title": "RefineStat: Efficient Exploration for Probabilistic Program Synthesis",
+    "url": "https://iclr.cc/virtual/2026/oral/10009426",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Huxley-G\\\"odel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+    "url": "https://iclr.cc/virtual/2026/oral/10009360",
+    "session_type": "Oral"
+  },
+  {
+    "title": "TileLang: Bridge Programmability and Performance in Modern Neural Kernels",
+    "url": "https://iclr.cc/virtual/2026/oral/10010187",
+    "session_type": "Oral"
+  },
+  {
+    "title": "TabStruct: Measuring Structural Fidelity of Tabular Data",
+    "url": "https://iclr.cc/virtual/2026/oral/10008975",
+    "session_type": "Oral"
+  },
+  {
+    "title": "One for Two: A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype",
+    "url": "https://iclr.cc/virtual/2026/oral/10009910",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering",
+    "url": "https://iclr.cc/virtual/2026/oral/10011087",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference",
+    "url": "https://iclr.cc/virtual/2026/oral/10009928",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Multi-Domain Transferable Graph Gluing for Building Graph Foundation Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10010538",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Modality-free Graph In-context Alignment",
+    "url": "https://iclr.cc/virtual/2026/oral/10008532",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Learning with Dual-level Noisy Correspondence for Multi-modal Entity Alignment",
+    "url": "https://iclr.cc/virtual/2026/oral/10007523",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Exchangeability of GNN Representations  with Applications to Graph Retrieval",
+    "url": "https://iclr.cc/virtual/2026/oral/10010392",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Information Shapes Koopman Representation",
+    "url": "https://iclr.cc/virtual/2026/oral/10009364",
+    "session_type": "Oral"
+  },
+  {
+    "title": "On The Surprising Effectiveness of a Single Global Merging in Decentralized Learning",
+    "url": "https://iclr.cc/virtual/2026/oral/10006417",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Similarity-aware Non-Convex Federated Optimization",
+    "url": "https://iclr.cc/virtual/2026/oral/10010558",
+    "session_type": "Oral"
+  },
+  {
+    "title": "On the Wasserstein Geodesic Principal Component Analysis of probability measures",
+    "url": "https://iclr.cc/virtual/2026/oral/10009795",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data",
+    "url": "https://iclr.cc/virtual/2026/oral/10011018",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Hyperparameter Trajectory Inference with Conditional Lagrangian Optimal Transport",
+    "url": "https://iclr.cc/virtual/2026/oral/10009713",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Gaussian certified unlearning in high dimensions: A hypothesis testing approach",
+    "url": "https://iclr.cc/virtual/2026/oral/10011956",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10007870",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Invisible Safety Threat: Malicious Finetuning for LLM via Steganography",
+    "url": "https://iclr.cc/virtual/2026/oral/10011364",
+    "session_type": "Oral"
+  },
+  {
+    "title": "The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology",
+    "url": "https://iclr.cc/virtual/2026/oral/10006847",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Watch your steps: Dormant Adversarial Behaviors that Activate upon LLM Finetuning",
+    "url": "https://iclr.cc/virtual/2026/oral/10006542",
+    "session_type": "Oral"
+  },
+  {
+    "title": "LLM Fingerprinting via Semantically Conditioned Watermarks",
+    "url": "https://iclr.cc/virtual/2026/oral/10007014",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Steering the Herd: A Framework for LLM-based Control of Social Learning",
+    "url": "https://iclr.cc/virtual/2026/oral/10009461",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Every Language Model Has a Forgery-Resistant Signature",
+    "url": "https://iclr.cc/virtual/2026/oral/10006818",
+    "session_type": "Oral"
+  },
+  {
+    "title": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+    "url": "https://iclr.cc/virtual/2026/oral/10010192",
+    "session_type": "Oral"
+  },
+  {
+    "title": "EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning",
+    "url": "https://iclr.cc/virtual/2026/oral/10006717",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Token-Importance Guided Direct Preference Optimization",
+    "url": "https://iclr.cc/virtual/2026/oral/10008516",
+    "session_type": "Oral"
+  },
+  {
+    "title": "P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling",
+    "url": "https://iclr.cc/virtual/2026/oral/10008050",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Reasoning without Training: Your Base Model is Smarter Than You Think",
+    "url": "https://iclr.cc/virtual/2026/oral/10009094",
+    "session_type": "Oral"
+  },
+  {
+    "title": "LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts",
+    "url": "https://iclr.cc/virtual/2026/oral/10007440",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Q-RAG: Long Context Multi‐Step Retrieval via Value‐Based Embedder Training",
+    "url": "https://iclr.cc/virtual/2026/oral/10009945",
+    "session_type": "Oral"
+  },
+  {
+    "title": "High-dimensional Analysis of Synthetic Data Selection",
+    "url": "https://iclr.cc/virtual/2026/oral/10008921",
+    "session_type": "Oral"
+  },
+  {
+    "title": "How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Interpretability",
+    "url": "https://iclr.cc/virtual/2026/oral/10011067",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10008134",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Intrinsic Entropy of Context Length Scaling in LLMs",
+    "url": "https://iclr.cc/virtual/2026/oral/10006783",
+    "session_type": "Oral"
+  },
+  {
+    "title": "From Markov to Laplace: How Mamba In-Context Learns Markov Chains",
+    "url": "https://iclr.cc/virtual/2026/oral/10007752",
+    "session_type": "Oral"
+  },
+  {
+    "title": "The Coverage Principle: How Pre-Training Enables Post-Training",
+    "url": "https://iclr.cc/virtual/2026/oral/10011030",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Quantitative Bounds for Length Generalization in Transformers",
+    "url": "https://iclr.cc/virtual/2026/oral/10009321",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment",
+    "url": "https://iclr.cc/virtual/2026/oral/10010749",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning",
+    "url": "https://iclr.cc/virtual/2026/oral/10011454",
+    "session_type": "Oral"
+  },
+  {
+    "title": "On the Generalization Capacities of MLLMs for Spatial Intelligence",
+    "url": "https://iclr.cc/virtual/2026/oral/10010798",
+    "session_type": "Oral"
+  },
+  {
+    "title": "DepthLM: Metric Depth from Vision Language Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10009768",
+    "session_type": "Oral"
+  },
+  {
+    "title": "FlashVID: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging",
+    "url": "https://iclr.cc/virtual/2026/oral/10010431",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Multimodal Aligned Semantic Knowledge for Unpaired Image-text Matching",
+    "url": "https://iclr.cc/virtual/2026/oral/10008444",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction-Reasoning Synergy",
+    "url": "https://iclr.cc/virtual/2026/oral/10007724",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts",
+    "url": "https://iclr.cc/virtual/2026/oral/10009701",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Is it Thinking or Cheating?  Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+    "url": "https://iclr.cc/virtual/2026/oral/10010464",
+    "session_type": "Oral"
+  },
+  {
+    "title": "LLMs Get Lost In Multi-Turn Conversation",
+    "url": "https://iclr.cc/virtual/2026/oral/10009147",
+    "session_type": "Oral"
+  },
+  {
+    "title": "How Reliable is Language Model Micro-Benchmarking?",
+    "url": "https://iclr.cc/virtual/2026/oral/10008506",
+    "session_type": "Oral"
+  },
+  {
+    "title": "AdAEM: An Adaptively and Automated Extensible Evaluation Method of LLMs' Value Difference",
+    "url": "https://iclr.cc/virtual/2026/oral/10007250",
+    "session_type": "Oral"
+  },
+  {
+    "title": "What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data",
+    "url": "https://iclr.cc/virtual/2026/oral/10007082",
+    "session_type": "Oral"
+  },
+  {
+    "title": "EigenBench: A Comparative Behavioral Measure of Value Alignment",
+    "url": "https://iclr.cc/virtual/2026/oral/10008206",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Generative Human Geometry Distribution",
+    "url": "https://iclr.cc/virtual/2026/oral/10008865",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+    "url": "https://iclr.cc/virtual/2026/oral/10006532",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator",
+    "url": "https://iclr.cc/virtual/2026/oral/10007803",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Monocular Normal Estimation via Shading Sequence Estimation",
+    "url": "https://iclr.cc/virtual/2026/oral/10008437",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Radiometrically Consistent Gaussian Surfels for Inverse Rendering",
+    "url": "https://iclr.cc/virtual/2026/oral/10007691",
+    "session_type": "Oral"
+  },
+  {
+    "title": "True Self-Supervised Novel View Synthesis is Transferable",
+    "url": "https://iclr.cc/virtual/2026/oral/10008715",
+    "session_type": "Oral"
+  },
+  {
+    "title": "cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning",
+    "url": "https://iclr.cc/virtual/2026/oral/10006760",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning",
+    "url": "https://iclr.cc/virtual/2026/oral/10008641",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Probabilistic Kernel Function for Fast Angle Testing",
+    "url": "https://iclr.cc/virtual/2026/oral/10007498",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Differentially Private Domain Discovery",
+    "url": "https://iclr.cc/virtual/2026/oral/10006582",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Causal Structure Learning in Hawkes Processes with Complex Latent Confounder Networks",
+    "url": "https://iclr.cc/virtual/2026/oral/10007608",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Temporal Sparse Autoencoders: Leveraging the Sequential Nature of Language for Interpretability",
+    "url": "https://iclr.cc/virtual/2026/oral/10008574",
+    "session_type": "Oral"
+  },
+  {
+    "title": "A Representer Theorem for Hawkes Processes via Penalized Least Squares Minimization",
+    "url": "https://iclr.cc/virtual/2026/oral/10008158",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Cross-Domain Lossy Compression via Rate- and Classification-Constrained Optimal Transport",
+    "url": "https://iclr.cc/virtual/2026/oral/10007574",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Invited Talk 1",
+    "url": "https://iclr.cc/virtual/2026/invited-talk/10020588",
+    "session_type": "Invited Talk",
+    "speakers": "Maja Mataric"
+  },
+  {
+    "title": "AI compensation and negotiation",
+    "url": "https://iclr.cc/virtual/2026/social/10020549",
+    "session_type": "Social"
+  },
+  {
+    "title": "Ant Group: Scaling Hybrid Linear Attention Architecture to Trillion-Scale",
+    "url": "https://iclr.cc/virtual/2026/expo-talk-panel/10020572",
+    "session_type": "Expo Talk Panel"
+  },
+  {
+    "title": "Amazon Expo: AGI Lab, Amazon Nova",
+    "url": "https://iclr.cc/virtual/2026/expo-talk-panel/10020571",
+    "session_type": "Expo Talk Panel"
+  },
+  {
+    "title": "Digital Real Estate Social",
+    "url": "https://iclr.cc/virtual/2026/social/10020551",
+    "session_type": "Social"
+  },
+  {
+    "title": "Building Physical AI at Scale: Data, Infrastructure, and Evaluation for the Real World",
+    "url": "https://iclr.cc/virtual/2026/social/10020570",
+    "session_type": "Social"
+  },
+  {
+    "title": "Digital Olfaction Social",
+    "url": "https://iclr.cc/virtual/2026/social/10020552",
+    "session_type": "Social"
+  },
+  {
+    "title": "Google: Towards 3D Foundational Robotics Models",
+    "url": "https://iclr.cc/virtual/2026/expo-talk-panel/10020573",
+    "session_type": "Expo Talk Panel"
+  },
+  {
+    "title": "Huawei: openJiuwen:Precise, Simple, Efficient, Engineering Production-Ready AI Agents Platform",
+    "url": "https://iclr.cc/virtual/2026/expo-talk-panel/10020574",
+    "session_type": "Expo Talk Panel"
+  },
+  {
+    "title": "Video AI for Real-World Systems Social",
+    "url": "https://iclr.cc/virtual/2026/social/10020569",
+    "session_type": "Social"
+  },
+  {
+    "title": "Digital Real Estate Social",
+    "url": "https://iclr.cc/virtual/2026/social/10020550",
+    "session_type": "Social"
+  }
+]

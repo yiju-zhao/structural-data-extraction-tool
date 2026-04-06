@@ -188,8 +188,8 @@ docs/
 
 */node_modules
 
-output/
-#scripts/
+# output/
+# scripts/
 
 *.skill
 .claude/*

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "The 2nd Workshop on Foundation Models for Science: Real-World Impact and Science-First Design",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000801",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "4th ICLR Workshop on Machine Learning for Remote Sensing",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000803",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Principled Design for Trustworthy AI:  Interpretability, Robustness, and Safety Across Modalities",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000808",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Agentic AI in the Wild: From Hallucinations to Reliable Autonomy",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000810",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "ReALM-GEN: Real-World Constrained and Preference-Aligned Flow- and Diffusion-based Generative Models",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000793",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems (MemAgents)",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000792",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Latent & Implicit Thinking - Going Beyond CoT Reasoning",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000773",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Learning Meaningful Representations of Life (LMRL) Workshop @ ICLR 2026",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000790",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "The 3rd Workshop on Test-Time Updates (TTU)",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000776",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Machine Learning for Genomics Explorations (MLGenX)",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000787",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Workshop on Multi-Agent Learning and Its Opportunities in the Era of Generative AI",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000784",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "The First Workshop on Efficient Spatial Reasoning",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000811",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "The 2nd Workshop on Advances in Financial AI Workshop: Towards Agentic and Responsible Systems",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000788",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Representational Alignment",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000807",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Integrating Generative and Experimental Platforms for Biomolecular Design",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000794",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Generative AI in Genomics (Gen^2): Barriers and Frontiers",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000791",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Workshop on Scaling Post-training for LLMs (SPOT)",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000802",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "I Can't Believe It's Not Better: Where Large Language Models need to improve",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000772",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Deep Generative Model in Machine Learning:  Theory, Principle and Efficacy (2nd Workshop)",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000780",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "2nd Workshop on World Models: Understanding, Modelling and Scaling",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000799",
+    "session_type": "Workshop"
+  }
+]

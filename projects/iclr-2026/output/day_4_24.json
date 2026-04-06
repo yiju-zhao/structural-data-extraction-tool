@@ -1,0 +1,422 @@
+[
+  {
+    "title": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+    "url": "https://iclr.cc/virtual/2026/oral/10006584",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People",
+    "url": "https://iclr.cc/virtual/2026/oral/10010680",
+    "session_type": "Oral"
+  },
+  {
+    "title": "In-The-Flow Agentic System Optimization for Effective Planning and Tool Use",
+    "url": "https://iclr.cc/virtual/2026/oral/10009932",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Gaia2: Benchmarking LLM Agents on Dynamic and  Asynchronous Environments",
+    "url": "https://iclr.cc/virtual/2026/oral/10011092",
+    "session_type": "Oral"
+  },
+  {
+    "title": "AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL",
+    "url": "https://iclr.cc/virtual/2026/oral/10008786",
+    "session_type": "Oral"
+  },
+  {
+    "title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+    "url": "https://iclr.cc/virtual/2026/oral/10009494",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Speculative Actions: A Lossless Framework for Faster AI Agents",
+    "url": "https://iclr.cc/virtual/2026/oral/10009727",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation",
+    "url": "https://iclr.cc/virtual/2026/oral/10008096",
+    "session_type": "Oral"
+  },
+  {
+    "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer",
+    "url": "https://iclr.cc/virtual/2026/oral/10007521",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Partition Generative Modeling: Masked Modeling Without Masks",
+    "url": "https://iclr.cc/virtual/2026/oral/10006830",
+    "session_type": "Oral"
+  },
+  {
+    "title": "NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale",
+    "url": "https://iclr.cc/virtual/2026/oral/10009845",
+    "session_type": "Oral"
+  },
+  {
+    "title": "TTSDS2: Resources and Benchmark for Evaluating Human-Quality Text to Speech Systems",
+    "url": "https://iclr.cc/virtual/2026/oral/10006909",
+    "session_type": "Oral"
+  },
+  {
+    "title": "VibeVoice: Expressive Podcast Generation with Next-Token Diffusion",
+    "url": "https://iclr.cc/virtual/2026/oral/10010574",
+    "session_type": "Oral"
+  },
+  {
+    "title": "UALM: Unified Audio Language Model for Understanding, Generation and Reasoning",
+    "url": "https://iclr.cc/virtual/2026/oral/10009279",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation",
+    "url": "https://iclr.cc/virtual/2026/oral/10011116",
+    "session_type": "Oral"
+  },
+  {
+    "title": "WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training",
+    "url": "https://iclr.cc/virtual/2026/oral/10010370",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Optimal Sparsity of Mixture-of-Experts Language Models for Reasoning Tasks",
+    "url": "https://iclr.cc/virtual/2026/oral/10008991",
+    "session_type": "Oral"
+  },
+  {
+    "title": "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining",
+    "url": "https://iclr.cc/virtual/2026/oral/10009352",
+    "session_type": "Oral"
+  },
+  {
+    "title": "In-Place Test-Time Training",
+    "url": "https://iclr.cc/virtual/2026/oral/10008405",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Softmax Transformers are Turing-Complete",
+    "url": "https://iclr.cc/virtual/2026/oral/10010579",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Pre-training under infinite compute",
+    "url": "https://iclr.cc/virtual/2026/oral/10008474",
+    "session_type": "Oral"
+  },
+  {
+    "title": "MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Models for Embodied Task Planning",
+    "url": "https://iclr.cc/virtual/2026/oral/10011624",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Generative Universal Verifier as Multimodal Meta-Reasoner",
+    "url": "https://iclr.cc/virtual/2026/oral/10010787",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Visual Planning: Let's Think Only with Images",
+    "url": "https://iclr.cc/virtual/2026/oral/10006696",
+    "session_type": "Oral"
+  },
+  {
+    "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
+    "url": "https://iclr.cc/virtual/2026/oral/10010224",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences",
+    "url": "https://iclr.cc/virtual/2026/oral/10011137",
+    "session_type": "Oral"
+  },
+  {
+    "title": "The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm",
+    "url": "https://iclr.cc/virtual/2026/oral/10006554",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Temporal superposition and feature geometry of RNNs under memory demands",
+    "url": "https://iclr.cc/virtual/2026/oral/10011280",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Scaling Laws and Spectra of Shallow Neural Networks in the Feature Learning Regime",
+    "url": "https://iclr.cc/virtual/2026/oral/10009625",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Efficient Resource-Constrained Training of Vision Transformers via Subspace Optimization",
+    "url": "https://iclr.cc/virtual/2026/oral/10011897",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention",
+    "url": "https://iclr.cc/virtual/2026/oral/10011904",
+    "session_type": "Oral"
+  },
+  {
+    "title": "HATSolver: Learning Gröbner Bases with Hierarchical Attention Transformers",
+    "url": "https://iclr.cc/virtual/2026/oral/10011492",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction",
+    "url": "https://iclr.cc/virtual/2026/oral/10006689",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Exploring Synthesizable Chemical Space with Iterative Pathway Refinements",
+    "url": "https://iclr.cc/virtual/2026/oral/10008707",
+    "session_type": "Oral"
+  },
+  {
+    "title": "mCLM: A Modular Chemical Language Model that Generates Functional and Makeable Molecules",
+    "url": "https://iclr.cc/virtual/2026/oral/10007185",
+    "session_type": "Oral"
+  },
+  {
+    "title": "It's All Just Vectorization: einx, a Universal Notation for Tensor Operations",
+    "url": "https://iclr.cc/virtual/2026/oral/10009550",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Exploratory Causal Inference in SAEnce",
+    "url": "https://iclr.cc/virtual/2026/oral/10009920",
+    "session_type": "Oral"
+  },
+  {
+    "title": "ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10009981",
+    "session_type": "Oral"
+  },
+  {
+    "title": "MrRoPE: Mixed-radix Rotary Position Embedding",
+    "url": "https://iclr.cc/virtual/2026/oral/10011845",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+    "url": "https://iclr.cc/virtual/2026/oral/10009913",
+    "session_type": "Oral"
+  },
+  {
+    "title": "FlashRNN: Unlocking Parallel Training of Nonlinear RNNs for Large Language Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10007564",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+    "url": "https://iclr.cc/virtual/2026/oral/10010353",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Energy-Based Transformers are Scalable Learners and Thinkers",
+    "url": "https://iclr.cc/virtual/2026/oral/10008833",
+    "session_type": "Oral"
+  },
+  {
+    "title": "WoW!: World Models in a Closed-Loop World",
+    "url": "https://iclr.cc/virtual/2026/oral/10006575",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling",
+    "url": "https://iclr.cc/virtual/2026/oral/10007677",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Exploratory Diffusion Model for Unsupervised Reinforcement Learning",
+    "url": "https://iclr.cc/virtual/2026/oral/10007832",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Mean Flow Policy with Instantaneous Velocity Constraint for One-step Action Generation",
+    "url": "https://iclr.cc/virtual/2026/oral/10007589",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Rodrigues Network for Learning Robot Actions",
+    "url": "https://iclr.cc/virtual/2026/oral/10010292",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Pareto-Conditioned Diffusion Models for Offline Multi-Objective Optimization",
+    "url": "https://iclr.cc/virtual/2026/oral/10009442",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Compositional Diffusion with Guided search for Long-Horizon Planning",
+    "url": "https://iclr.cc/virtual/2026/oral/10008639",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
+    "url": "https://iclr.cc/virtual/2026/oral/10007312",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Hallucination Begins Where Saliency Drops",
+    "url": "https://iclr.cc/virtual/2026/oral/10007035",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs",
+    "url": "https://iclr.cc/virtual/2026/oral/10008760",
+    "session_type": "Oral"
+  },
+  {
+    "title": "MetaEmbed: Scaling Multimodal Retrieval at Test-Time with Flexible Late Interaction",
+    "url": "https://iclr.cc/virtual/2026/oral/10006563",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Seeing Through the Brain: New Insights from Decoding Visual Stimuli with fMRI",
+    "url": "https://iclr.cc/virtual/2026/oral/10011228",
+    "session_type": "Oral"
+  },
+  {
+    "title": "WAVE: Learning Unified & Versatile Audio-Visual Embeddings with Multimodal LLM",
+    "url": "https://iclr.cc/virtual/2026/oral/10009926",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Visual symbolic mechanisms: Emergent symbol processing in Vision Language Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10011644",
+    "session_type": "Oral"
+  },
+  {
+    "title": "SWINGARENA: Adversarial Programming Arena for Long-context GitHub Issue Solving",
+    "url": "https://iclr.cc/virtual/2026/oral/10008861",
+    "session_type": "Oral"
+  },
+  {
+    "title": "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions",
+    "url": "https://iclr.cc/virtual/2026/oral/10007487",
+    "session_type": "Oral"
+  },
+  {
+    "title": "EditBench: Evaluating LLM Abilities to Perform Real-World Instructed Code Edits",
+    "url": "https://iclr.cc/virtual/2026/oral/10010553",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Agent Data Protocol",
+    "url": "https://iclr.cc/virtual/2026/oral/10006994",
+    "session_type": "Oral"
+  },
+  {
+    "title": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite",
+    "url": "https://iclr.cc/virtual/2026/oral/10009972",
+    "session_type": "Oral"
+  },
+  {
+    "title": "MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science",
+    "url": "https://iclr.cc/virtual/2026/oral/10007895",
+    "session_type": "Oral"
+  },
+  {
+    "title": "OpenThoughts: Data Recipes for Reasoning Models",
+    "url": "https://iclr.cc/virtual/2026/oral/10011247",
+    "session_type": "Oral"
+  },
+  {
+    "title": "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization",
+    "url": "https://iclr.cc/virtual/2026/oral/10011292",
+    "session_type": "Oral"
+  },
+  {
+    "title": "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents",
+    "url": "https://iclr.cc/virtual/2026/oral/10010053",
+    "session_type": "Oral"
+  },
+  {
+    "title": "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training",
+    "url": "https://iclr.cc/virtual/2026/oral/10011886",
+    "session_type": "Oral"
+  },
+  {
+    "title": "NL-to-SQL systems",
+    "url": "https://iclr.cc/virtual/2026/social/10020554",
+    "session_type": "Social"
+  },
+  {
+    "title": "NLP and AI Researchers Affinity Social",
+    "url": "https://iclr.cc/virtual/2026/social/10020555",
+    "session_type": "Social"
+  },
+  {
+    "title": "Women in Machine Learning (WiML) Social @ ICLR",
+    "url": "https://iclr.cc/virtual/2026/social/10020557",
+    "session_type": "Social"
+  },
+  {
+    "title": "Nubank: From LLMs to Financial Inclusion: Efficient LLM Training and Scaling AI Agents for 131 Million Lives",
+    "url": "https://iclr.cc/virtual/2026/expo-talk-panel/10020576",
+    "session_type": "Expo Talk Panel"
+  },
+  {
+    "title": "Amazon: SOP Bench: Complex Industrial SOPs for Evaluating LLM Agents",
+    "url": "https://iclr.cc/virtual/2026/expo-talk-panel/10020575",
+    "session_type": "Expo Talk Panel"
+  },
+  {
+    "title": "Verification Practices Across the ML Research Lifecycle",
+    "url": "https://iclr.cc/virtual/2026/social/10020558",
+    "session_type": "Social"
+  },
+  {
+    "title": "Negotiating in AI: How to Get What You're Worth",
+    "url": "https://iclr.cc/virtual/2026/social/10020553",
+    "session_type": "Social"
+  },
+  {
+    "title": "What is the Role of World Models in Decision-Making?",
+    "url": "https://iclr.cc/virtual/2026/social/10020556",
+    "session_type": "Social"
+  },
+  {
+    "title": "Scale AI: New Frontier of AI: Eval, RL, and What's Next",
+    "url": "https://iclr.cc/virtual/2026/expo-talk-panel/10020578",
+    "session_type": "Expo Talk Panel"
+  },
+  {
+    "title": "Turing: A Framework for Evaluating Agents on Stateful, Multi-Step Real-World Workflows",
+    "url": "https://iclr.cc/virtual/2026/expo-talk-panel/10020577",
+    "session_type": "Expo Talk Panel"
+  },
+  {
+    "title": "World Models and Beyond: Bridging Video, Simulation, and Robotic Intelligence",
+    "url": "https://iclr.cc/virtual/2026/social/10020564",
+    "session_type": "Social"
+  },
+  {
+    "title": "X-informed AI",
+    "url": "https://iclr.cc/virtual/2026/social/10020559",
+    "session_type": "Social"
+  },
+  {
+    "title": "AI for Science Social",
+    "url": "https://iclr.cc/virtual/2026/social/10020561",
+    "session_type": "Social"
+  },
+  {
+    "title": "LLM's for Metascience Social",
+    "url": "https://iclr.cc/virtual/2026/social/10020562",
+    "session_type": "Social"
+  },
+  {
+    "title": "Evaluating LLMs Holistically in a World Where Benchmarks Leak",
+    "url": "https://iclr.cc/virtual/2026/social/10020563",
+    "session_type": "Social"
+  },
+  {
+    "title": "Cooperative AI Foundation",
+    "url": "https://iclr.cc/virtual/2026/social/10020565",
+    "session_type": "Social"
+  },
+  {
+    "title": "Queer in AI Social",
+    "url": "https://iclr.cc/virtual/2026/social/10020560",
+    "session_type": "Social"
+  }
+]

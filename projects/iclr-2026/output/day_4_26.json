@@ -1,0 +1,102 @@
+[
+  {
+    "title": "AI for Mechanism Design and Strategic Decision Making (AIMS)",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000779",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "3rd Workshop on Navigating and Addressing Data Problems For Foundation Models (DATA-FM)",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000798",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Catch, Adapt, and Operate: Monitoring ML Models Under Drift",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000806",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Lifelong Agents: Learning, Aligning, Evolving",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000805",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "AI for Peace",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000804",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Post-AGI Science and Society Workshop",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000800",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Workshop on Logical Reasoning of Large Language Models",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000797",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "ICLR 2026 Workshop on Multimodal Intelligence: Next Token Prediction and Beyond",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000795",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "From Human Cognition to AI Reasoning: Models, Methods, and Applications",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000789",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Algorithmic Fairness Across Alignment Procedures and Agentic Systems",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000786",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "New Frontiers in Associative Memories",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000782",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "AI&PDE: ICLR 2026 Workshop on AI and Partial Differential Equations",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000777",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Unifying Concept Representation Learning",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000775",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "VerifAI-2: The Second Workshop on AI Verification in the Wild",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000774",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "AI4MAT-ICLR-2026: ICLR 2026 Workshop on AI for Accelerated Materials Design",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000778",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Agents in the Wild: Safety, Security, and Beyond",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000781",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Geometry-grounded Representation Learning and Generative Modeling",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000809",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "Scientific Methods for Understanding Deep Learning (Sci4DL)",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000783",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "ICLR 2026 Workshop on AI with Recursive Self-Improvement",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000796",
+    "session_type": "Workshop"
+  },
+  {
+    "title": "1st ICLR Workshop on Time Series in the Age of Large Models",
+    "url": "https://iclr.cc/virtual/2026/workshop/10000785",
+    "session_type": "Workshop"
+  }
+]
