@@ -1,0 +1,1928 @@
+{
+  "venue": "ICLR",
+  "year": 2026,
+  "sessions": [
+    {
+      "title": "Invited Talk 1",
+      "type": "Invited Talk",
+      "date": "2026-04-23",
+      "startTime": "05:00",
+      "endTime": "06:00",
+      "speaker": [
+        "Maja Mataric"
+      ],
+      "abstract": "Prof. Matarić's research is focused on creating machines that help people help themselves to do their own work and reach their potential. She is a pioneer of the field of socially assistive robotics, which focuses on developing personalized human-robot interaction methods for behavior change aimed at health, wellness, rehabilitation, training and education. The work is inspired by the dual goals of 1) gaining novel insights into human behavior and cognition through human-machine interaction and 2) developing AI systems capable of providing personalized support and assistance to empower users. Her Interaction Lab focuses on socially assistive systems capable of aiding people through social interaction rather than through physical contact. The research involves intelligent human-robot interaction (HRI) and human-machine interaction more generally, using multi-modal behavioral data-driven learning in complex, dynamic, and uncertain real-world environments such as schools, rehabilitation centers, hospitals, and homes by integrating on-line perception, representation, and interaction with people. To address the inherently multidisciplinary challenges of this research, her Lab's work work draws on theories, models, and collaborations from neuroscience, cognitive science, behavioral science, social science, health sciences, and education. Prof. Matarić's earlier research focused on synthesis and analysis of adaptive group behavior for distributed multi-robot control and learning, and humanoid control and learning from interaction, imitation and demonstration.\nIntroduced by Aleksandra Faust",
+      "sessionUrl": "https://iclr.cc/virtual/2026/invited-talk/10020588",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "AI compensation and negotiation",
+      "type": "Social",
+      "date": "2026-04-23",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Nicole Bannon"
+      ],
+      "abstract": "As AI reshapes industries, compensation is changing faster than researchers can track.  New labs, startups, and top companies are competing for talent with vastly different pay structures, currencies, and cultural norms.  Yet most researchers are never formally taught how to understand their worth or navigate these systems.  The result is an uneven landscape where brilliant minds often make life-changing decisions without the information they need.\n\nThe session begins with a concise, data-driven talk on current AI compensation and negotiation trends, grounded in real stories and case studies.  From there, a fireside chat and open Q&A invite candid, experience-driven insights from researchers who have navigated these conversations firsthand.\n\nKey Takeaways for attendees:\n* How to evaluate compensation (salary, equity, bonuses) across industry roles such as\nResearch/Applied/Data Scientists, Research/Machine Learning/Software Engineers, and more\n* How to compare global opportunities and account for regional differences in pay structures\n* How to identify leverage points and negotiate effectively at different career stages and levels\n* How to respond to pushback and recognize red vs. green flags in job offers\n* How to negotiate the deadline, and avoid having an offer rescinded\n* How to advocate for yourself without counteroffers and amidst having fears",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020549",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Ant Group: Scaling Hybrid Linear Attention Architecture to Trillion-Scale",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-23",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "abstract": "In this talk, we present our experience in scaling hybrid linear attention architectures to trillion-scale, through two models from the Ling Team: Ling-2.5-1T and Ring-2.5-1T. These models integrate linear attention with selected softmax attention layers to support efficient long-context training while preserving strong reasoning and representation capability. We share key algorithm-system co-design insights that make trillion-scale hybrid attention practical, including stability techniques for large-scale linear attention training and efficient distributed training for ultra-long sequences.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020572",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Amazon Expo: AGI Lab, Amazon Nova",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-23",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "abstract": "We are excited to present Amazon Nova, a groundbreaking portfolio of AI offerings that deliver frontier intelligence and industry-leading price performance. Nova is built on advanced AI technologies originally developed for Amazon's internal applications, such as Alexa+, Amazon Ads, and AWS Marketplace, and is now available to AWS customers. Amazon Nova includes Nova models, fast and cost-effective foundation models for text and multimodal needs; Nova Forge, a new service to build your own frontier models; and Nova Act, a new service to build agents that automate browser-based UI workflows powered by a custom Nova 2 Lite model. These models and services have built-in controls for the safe and responsible use of AI, delivering robust protections, content filters, and policy-aligned behaviors to meet compliance requirements. During our demo, a product engineer and researcher will showcase the product and the science behind it. We will demonstrate how Nova models can be customized to deliver responses that reflect industry expertise, powering interactive chat interfaces, Retrieval-Augmented Generation (RAG) systems, agentic applications, video analysis, and UI workflow automation solutions. We will also highlight the multimodal capabilities of Nova, which accept text, image, or video inputs to generate text output, and the creative content generation models that accept text and image inputs to generate image or video output. Amazon Nova has been adopted by tens of thousands of customers across industries, delivering measurable impact with cost savings and gains in productivity, automation, and quality with real-world deployments. We believe that Nova will be a valuable addition to the ICLR conference and look forward to sharing our insights and experiences with you.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020571",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Digital Real Estate Social",
+      "type": "Social",
+      "date": "2026-04-23",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Baoyuan Wang",
+        "Andy Martin"
+      ],
+      "abstract": "Real estate is one of the most financially significant and emotionally complex decisions people make - yet digital experiences have historically optimized for information retrieval (i.e., home search) rather than intelligent and personalized guidance. In this talk, I'll share how we are evolving from high-IQ systems that answer questions to agentic systems that demonstrate AQ (Agentic Quotient) and EQ (Emotional Intelligence). By combining deep, panoptic understanding of homes and users with advanced reasoning, planning, and tool use, we are building AI copilots that don't just respond passively  - they guide, anticipate, and act proactively. I'll discuss the key technical challenges, and how we operationalize agentic AI in production, architect for trust in high-stakes decisions, and design experiences that transform the home journey from fragmented search into confident, personalized progression.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020551",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Building Physical AI at Scale: Data, Infrastructure, and Evaluation for the Real World",
+      "type": "Social",
+      "date": "2026-04-23",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Nikolay Malkin"
+      ],
+      "abstract": "Physical AI - robots, autonomous vehicles, and embodied agents - is approaching a genuine inflection point. Foundation models for real-world interaction are becoming viable, hardware costs are dropping, and developer interest is surging. Yet most teams building in this space are still stitching together their development stack from incompatible pieces, and it is slowing them down. The core bottlenecks are well understood but rarely addressed together. Real-world robotic behavior cannot be learned from synthetic data alone - collecting, annotating, and validating diverse physical-world data at scale is a full operational discipline. Training multimodal vision-language-action models demands infrastructure purpose-built for the task. And evaluating whether a model actually works in the physical world requires benchmarking approaches that go far beyond standard leaderboards. This social will bring together researchers and practitioners to examine all three problems in parallel. Short talks from speakers with hands-on experience in physical AI development will cover the state of real-world data pipelines, what purpose-built infrastructure for physical AI actually looks like, and how the community is approaching evaluation for embodied systems. An open discussion will follow, focused on where the biggest unsolved problems lie and how the research community can contribute.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020570",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Digital Olfaction Social",
+      "type": "Social",
+      "date": "2026-04-23",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Shuchen Liu"
+      ],
+      "abstract": "This discussion booth explores the emerging intersection of machine learning and smell technology, also known as digital olfaction. The space is designed for researchers, students, builders, and curious attendees interested in how AI can be used to detect, classify, generate, and interpret scent-related data. Topics may include electronic noses, olfactory sensing, multimodal AI, applications in healthcare, food quality, environmental monitoring, fragrance, and human-computer interaction. The goal is to create an open and interdisciplinary conversation around both the technical challenges and the creative opportunities in this fast-growing field. Whether you work directly on ML models for chemical signal analysis or are simply interested in the future of smell interfaces and sensory intelligence, this booth offers a place to exchange ideas, share projects, discuss collaborations, and connect with others working at the frontier of AI and olfaction.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020552",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Google: Towards 3D Foundational Robotics Models",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-23",
+      "startTime": "08:45",
+      "endTime": "09:45",
+      "abstract": "Our results show that hybrid linear attention enables efficient scaling, strong reasoning, and robust long-context capability, providing a practical path toward next-generation trillion-scale foundation models.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020573",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Huawei: openJiuwen:Precise, Simple, Efficient, Engineering Production-Ready AI Agents Platform",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-23",
+      "startTime": "08:45",
+      "endTime": "09:45",
+      "abstract": "openJiuwen is an open-source Agent framework and platform aimed at helping users build precise, simple, efficient, and engineering production-ready AI Agents. This presentation will cover two topics related to openJiuwen. First, we will introduce the key features and design philosophy of openJiuwen, including agent self-evolution, context compression and offloading, and the agent controller. Second, we will introduce an agent application developed based on openJiuwen: JiuwenClaw, an AI assistant that supports self-evolving capabilities and intelligent task management.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020574",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Oral Session 1A",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "09:30",
+      "endTime": "10:40",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011978",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling",
+        "T3: Reducing Belief Deviation in Reinforcement Learning for Active Reasoning",
+        "MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent",
+        "Verifying Chain-of-Thought Reasoning via its Computational Graph",
+        "Revela: Dense Retriever Learning via Language Modeling",
+        "RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format"
+      ]
+    },
+    {
+      "title": "Oral Session 1B",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011979",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+        "Improving Diffusion Models for Class-imbalanced Training Data via Capacity Manipulation",
+        "Let Features Decide Their Own Solvers: Hybrid Feature Caching for Diffusion Transformers",
+        "DiffusionNFT: Online Diffusion Reinforcement with Forward Process",
+        "Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs)",
+        "GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models",
+        "Neon: Negative Extrapolation From Self-Training Improves Image Generation"
+      ]
+    },
+    {
+      "title": "Oral Session 1C",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "09:30",
+      "endTime": "10:28",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011980",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Mastering Sparse CUDA Generation through Pretrained Models and Deep Reinforcement Learning",
+        "RefineStat: Efficient Exploration for Probabilistic Program Synthesis",
+        "Huxley-G\\\"odel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+        "TileLang: Bridge Programmability and Performance in Modern Neural Kernels",
+        "TabStruct: Measuring Structural Fidelity of Tabular Data"
+      ]
+    },
+    {
+      "title": "Oral Session 1D",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011981",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "One for Two: A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype",
+        "Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering",
+        "Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference",
+        "Multi-Domain Transferable Graph Gluing for Building Graph Foundation Models",
+        "Modality-free Graph In-context Alignment",
+        "Learning with Dual-level Noisy Correspondence for Multi-modal Entity Alignment",
+        "Exchangeability of GNN Representations  with Applications to Graph Retrieval"
+      ]
+    },
+    {
+      "title": "Oral Session 1E",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011982",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Information Shapes Koopman Representation",
+        "On The Surprising Effectiveness of a Single Global Merging in Decentralized Learning",
+        "Similarity-aware Non-Convex Federated Optimization",
+        "On the Wasserstein Geodesic Principal Component Analysis of probability measures",
+        "Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data",
+        "Hyperparameter Trajectory Inference with Conditional Lagrangian Optimal Transport",
+        "Gaussian certified unlearning in high dimensions: A hypothesis testing approach"
+      ]
+    },
+    {
+      "title": "Oral Session 1F",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011983",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models",
+        "Invisible Safety Threat: Malicious Finetuning for LLM via Steganography",
+        "The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology",
+        "Watch your steps: Dormant Adversarial Behaviors that Activate upon LLM Finetuning",
+        "LLM Fingerprinting via Semantically Conditioned Watermarks",
+        "Steering the Herd: A Framework for LLM-based Control of Social Learning",
+        "Every Language Model Has a Forgery-Resistant Signature"
+      ]
+    },
+    {
+      "title": "Video AI for Real-World Systems Social",
+      "type": "Social",
+      "date": "2026-04-23",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Varun Krishnan",
+        "Akshay Gopalkrishnan"
+      ],
+      "abstract": "Join us for an evening hosted by a team building video AI systems for real-world deployment, bringing together researchers, engineers, and builders working at the frontier of video AI. This is a relaxed, conversation-first gathering connecting people across robotics, self-driving, and embodied AI.\n\nWe'll focus on a new shift in how video is used in real-world AI: moving beyond static labeling toward systems that can search, reason over, and validate events directly from raw footage. Discussions will explore approaches that combine vision-language models, motion understanding, and multi-stage validation to turn large-scale video into something you can actually act on.\n\nNo formal talks, just high-signal conversations with people actively building and deploying these systems.\n\nThe goal is to go beyond surface-level ideas and get into what it actually takes to make Physical AI work reliably in the real world. If you are working on autonomy, VLMs, or production AI systems, this is a chance to exchange ideas and shape what comes next.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020569",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Digital Real Estate Social",
+      "type": "Social",
+      "date": "2026-04-23",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Baoyuan Wang",
+        "Andy Martin"
+      ],
+      "abstract": "Real estate is one of the most financially significant and emotionally complex decisions people make - yet digital experiences have historically optimized for information retrieval (i.e., home search) rather than intelligent and personalized guidance. In this talk, I'll share how we are evolving from high-IQ systems that answer questions to agentic systems that demonstrate AQ (Agentic Quotient) and EQ (Emotional Intelligence). By combining deep, panoptic understanding of homes and users with advanced reasoning, planning, and tool use, we are building AI copilots that don't just respond passively  - they guide, anticipate, and act proactively. I'll discuss the key technical challenges, and how we operationalize agentic AI in production, architect for trust in high-stakes decisions, and design experiences that transform the home journey from fragmented search into confident, personalized progression.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020550",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Oral Session 2A",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011984",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+        "EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning",
+        "Token-Importance Guided Direct Preference Optimization",
+        "P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling",
+        "Reasoning without Training: Your Base Model is Smarter Than You Think",
+        "LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts",
+        "Q-RAG: Long Context Multi‐Step Retrieval via Value‐Based Embedder Training"
+      ]
+    },
+    {
+      "title": "Oral Session 2B",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011985",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "High-dimensional Analysis of Synthetic Data Selection",
+        "How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Interpretability",
+        "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+        "Intrinsic Entropy of Context Length Scaling in LLMs",
+        "From Markov to Laplace: How Mamba In-Context Learns Markov Chains",
+        "The Coverage Principle: How Pre-Training Enables Post-Training",
+        "Quantitative Bounds for Length Generalization in Transformers"
+      ]
+    },
+    {
+      "title": "Oral Session 2C",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011986",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment",
+        "Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning",
+        "On the Generalization Capacities of MLLMs for Spatial Intelligence",
+        "DepthLM: Metric Depth from Vision Language Models",
+        "FlashVID: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging",
+        "Multimodal Aligned Semantic Knowledge for Unpaired Image-text Matching",
+        "Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction-Reasoning Synergy"
+      ]
+    },
+    {
+      "title": "Oral Session 2D",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011987",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts",
+        "Is it Thinking or Cheating?  Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+        "LLMs Get Lost In Multi-Turn Conversation",
+        "How Reliable is Language Model Micro-Benchmarking?",
+        "AdAEM: An Adaptively and Automated Extensible Evaluation Method of LLMs' Value Difference",
+        "What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data",
+        "EigenBench: A Comparative Behavioral Measure of Value Alignment"
+      ]
+    },
+    {
+      "title": "Oral Session 2E",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011988",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Generative Human Geometry Distribution",
+        "Depth Anything 3: Recovering the Visual Space from Any Views",
+        "Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator",
+        "Monocular Normal Estimation via Shading Sequence Estimation",
+        "Radiometrically Consistent Gaussian Surfels for Inverse Rendering",
+        "True Self-Supervised Novel View Synthesis is Transferable",
+        "cadrille: Multi-modal CAD Reconstruction with Reinforcement Learning"
+      ]
+    },
+    {
+      "title": "Oral Session 2F",
+      "type": "Oral",
+      "date": "2026-04-23",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011989",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning",
+        "Probabilistic Kernel Function for Fast Angle Testing",
+        "Differentially Private Domain Discovery",
+        "Causal Structure Learning in Hawkes Processes with Complex Latent Confounder Networks",
+        "Temporal Sparse Autoencoders: Leveraging the Sequential Nature of Language for Interpretability",
+        "A Representer Theorem for Hawkes Processes via Penalized Least Squares Minimization",
+        "Cross-Domain Lossy Compression via Rate- and Classification-Constrained Optimal Transport"
+      ]
+    },
+    {
+      "title": "NL-to-SQL systems",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Divyalakshmi Giritharan"
+      ],
+      "abstract": "Large language models are increasingly used to translate natural language into SQL. But how reliable are they in real-world settings? \n\nIn this session, we present a focused evaluation framework for measuring NL-to-SQL performance, including execution correctness, robustness, and query efficiency under varying levels of database context. We'll discuss how structured QA and validation approaches can help move LLM systems from benchmark success to production reliability. \n\nWe invite researchers and practitioners working on NL-to-SQL systems, LLM evaluation, and database applications to participate in the discussion and share perspectives from real-world deployments.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020554",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "NLP and AI Researchers Affinity Social",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Peiqi Sui",
+        "Myra Cheng"
+      ],
+      "abstract": "This affinity group is for NLP and AI researchers with a prior background or interest in the humanities. As AI research becomes increasingly interdisciplinary - drawing from theories and methods from outside of computer science - it is important to engage with what the humanities have to offer in terms of theories and methods to study language, culture, narrative, subjectivity, mind, emotion, etc. Disciplines like literary and cultural studies, media studies, philosophy, and history have a great deal to offer in terms of studying, building and improving language systems. Topics of interest include (but are not limited to): co intelligence and co-creative systems, narrative understanding, cultural analytics, literary NLP, AI literacy, AI ethics, culture and cognition, etc.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020555",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Women in Machine Learning (WiML) Social @ ICLR",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "08:00",
+      "endTime": "11:00",
+      "speaker": [
+        "Laya Rafiee Sevyeri",
+        "Giulia Clerici"
+      ],
+      "abstract": "The Women in Machine Learning (WiML) initiative, founded in 2006, was created to connect and support the relatively small but growing community of researchers in ML who identify as women or nonbinary. Over the years, WiML events at conferences such as NeurIPS, ICML, ICLR, and other conferences have highlighted cutting-edge research, fostered mentorship, and created space for meaningful technical exchange.\nFor ICLR, we propose a WiML Social that keeps WiML's core mission while emphasising interaction and networking. The event will feature a panel discussion, facilitated roundtables, and structured networking activities designed to spark in-depth conversations and future collaborations. Building on the success of the highly interactive WiML formats at ICLR in the past, we will include small-group discussions, allowing participants to engage directly on open research questions and career paths.\nThe goals remain the same: to celebrate the work of researchers who identify as women or nonbinary, to create opportunities for junior and senior participants to connect, and to strengthen community ties within the broader ICLR ecosystem.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020557",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Nubank: From LLMs to Financial Inclusion: Efficient LLM Training and Scaling AI Agents for 131 Million Lives",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-24",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "abstract": "SOP-Bench serves as a research enabler for systematically investigating agent architectures, model capabilities, and deployment considerations across diverse procedural tasks. In this talk, we discuss the challenges of real world SOPs and a framework on evaluating them.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020576",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Amazon: SOP Bench: Complex Industrial SOPs for Evaluating LLM Agents",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-24",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "abstract": "LLM-based agents struggle to execute complex, multi-step Standard Operating Procedures (SOPs) that are fundamental to industrial automation. Existing benchmarks fail to capture the procedural complexity and tool orchestration demands of real-world workflows. We introduce SOP-Bench, a benchmark of 2,000+ tasks from human expert-authored SOPs across 12 business domains (healthcare, logistics, finance, content moderation, etc.). Using a human-AI collaborative framework, experts crafted authentic SOPs while AI generated artifacts (tools, APIs, datasets), all human-validated, yielding realistic tasks with executable interfaces and ground-truth outputs.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020575",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Verification Practices Across the ML Research Lifecycle",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Autumn Toney",
+        "Ryan Wails"
+      ],
+      "abstract": "As AI agents increasingly operate in shared environments - negotiating, transacting, and making joint decisions - questions of coordination and cooperation become inseparable from questions of system design. How do we incentivize cooperation among autonomous agents when no single party controls the system? What coordination protocols, commitment devices, and oversight mechanisms work in distributed settings? How do we prevent collusion and ensure robustness as agent networks scale? This social is hosted by Cooperative AI Foundation and The Institute for Decentralized AI as a gathering for researchers working on multi-agent systems, mechanism design, AI safety, distributed systems, and related areas who are interested in how cooperative and decentralized approaches to AI intersect and inform each other. Drinks will be provided.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020558",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Negotiating in AI: How to Get What You're Worth",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Sameer Siddiqi",
+        "Tristan Tao"
+      ],
+      "abstract": "Let's be honest, nobody teaches researchers how to negotiate in grad school. They spend years mastering ML, publishing papers, and building models, and then suddenly they're staring at an offer letter with no idea if it's good or how to push back.\n\nThat's exactly why we're hosting this social.\n\nRora has been in the trenches with researchers since 2017, we've worked with 1,000+ people navigating offers from top AI labs, startups, and big tech, and have helped negotiate over $1 billion in total compensation. We've seen it all, and we want to share what actually works.\nCome hang out, grab a drink, and ask the questions you've been too afraid to ask your recruiter. \n\nWhether you're mid-process, just starting to explore, or already have an offer in hand, there's something here for you. No slides, no fluff - just real talk from people who've been doing this for a while.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020553",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "What is the Role of World Models in Decision-Making?",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Théo Vincent",
+        "Joe Watson"
+      ],
+      "abstract": "World models have recently gained popularity thanks to impressive results and the availability of data. However, no consensus has been reached on how they should help improve decision-making. This social aims to foster discussions around the role of world models in decision-making. \n\nWorld models are used in many ways. Some approaches use world models as synthetic data generators. Others leverage them at test time to reason or evaluate policies. Video models, in addition to an inverse dynamics model, can be used to infer actions. Discussing those choices appears to be essential to assess their role in decision-making. \n\nWhen data is scarce, some methods only learn a world model to improve representation learning and rely on model-free methods for decision-making to avoid hallucinations. We believe it is fruitful to discuss the scenarios for which world models can be trusted.\n\nThe exchanges can focus on discussing in which situations world models have an edge over algorithms that do not directly learn the transition dynamics. It is also not yet clear whether world models are more relevant at certain levels of hierarchy.\n\nFinally, discussing why world models can enable better generalization can provide an answer to the question asked in this social.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020556",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Scale AI: New Frontier of AI: Eval, RL, and What's Next",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-24",
+      "startTime": "08:45",
+      "endTime": "09:45",
+      "abstract": "As large language models (LLMs) evolve from short-burst chatbots into long-horizon autonomous agents, progress is increasingly bottlenecked by verification asymmetry: rapid gains in domains with cheap correctness signals (e.g., math and code) contrast sharply with limited progress in tasks with weak or delayed verification, such as research planning and strategic decision-making. This talk argues that evaluation and reinforcement learning (RL) beyond easily verifiable domains are the next critical frontier for AI capability. We present results from three new evaluation frameworks. Humanity's Last Exam (HLE) shows that frontier models are frequently wrong and overconfident at the human-expert level. The Remote Labor Index (RLI) demonstrates that current agents automate only ~2.5% of real, paid freelance work. Visual ToolBench reveals that 70-80% of multimodal agent failures stem from visual perception rather than reasoning. To close these gaps, we introduce Rubrics as Rewards (RaR) within a Group Relative Policy Optimization (GRPO) framework. We show that Dynamic Rubrics, which adaptively elicit evaluation criteria by contrasting model outputs during training, outperform static human-written rubrics and reduce reward hacking in the high-reward regime. These findings motivate a shift from static benchmarks to high-fidelity RL environments, such as Scale Gymnasium, that train agents through interaction rather than imitation.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020578",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Turing: A Framework for Evaluating Agents on Stateful, Multi-Step Real-World Workflows",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-24",
+      "startTime": "08:45",
+      "endTime": "09:45",
+      "abstract": "Agent benchmarks are evolving from static prediction tasks to multi-step tasks requiring tool use, yet most evaluations remain short-horizon, loosely coupled, and state-agnostic. These settings fail to capture the properties that determine reliability in real workflows: persistent state, dense relational structure, role-based access control, and policy-constrained execution. This talk introduces an evaluation framework built on three components: workflow-grounded task definitions, scenario construction derived from operational traces, and a stateful execution environment with persistent databases and verifiable outcomes. Agents are evaluated across tasks that require multi-step planning over interconnected subsystems, exposing failure modes that simply don't appear in short-horizon benchmarks. Scoring combines automated outcome verification with rubrics that assess domain reasoning quality, including constraint prioritization and decision-making under ambiguity. We show that performance degrades predictably with increasing horizon length and constraint density. The primary bottleneck for frontier models is strategic planning under constraint, not tool invocation accuracy. Structural failures surface reliably through outcome checks, while subtler breakdowns in judgment require reasoning-quality assessment. These results suggest that deployable autonomy requires evaluation frameworks that integrate realistic workflows, operational constraints, stateful simulation, and scoring that captures both outcome correctness and the quality of domain-grounded reasoning. This session outlines the design principles, empirical findings, and open research challenges that define this next generation of agent evaluation.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020577",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Oral Session 3A",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011990",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+        "Shoot First, Ask Questions Later? Building Rational Agents that Explore and Act Like People",
+        "In-The-Flow Agentic System Optimization for Effective Planning and Tool Use",
+        "Gaia2: Benchmarking LLM Agents on Dynamic and  Asynchronous Environments",
+        "AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL",
+        "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+        "Speculative Actions: A Lossless Framework for Faster AI Agents"
+      ]
+    },
+    {
+      "title": "Oral Session 3B",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011991",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation",
+        "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer",
+        "Partition Generative Modeling: Masked Modeling Without Masks",
+        "NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale",
+        "TTSDS2: Resources and Benchmark for Evaluating Human-Quality Text to Speech Systems",
+        "VibeVoice: Expressive Podcast Generation with Next-Token Diffusion",
+        "UALM: Unified Audio Language Model for Understanding, Generation and Reasoning"
+      ]
+    },
+    {
+      "title": "Oral Session 3C",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011992",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation",
+        "WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training",
+        "Optimal Sparsity of Mixture-of-Experts Language Models for Reasoning Tasks",
+        "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining",
+        "In-Place Test-Time Training",
+        "Softmax Transformers are Turing-Complete",
+        "Pre-training under infinite compute"
+      ]
+    },
+    {
+      "title": "Oral Session 3D",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "09:30",
+      "endTime": "10:28",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011993",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Models for Embodied Task Planning",
+        "Generative Universal Verifier as Multimodal Meta-Reasoner",
+        "Visual Planning: Let's Think Only with Images",
+        "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
+        "Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences"
+      ]
+    },
+    {
+      "title": "Oral Session 3E",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "09:30",
+      "endTime": "10:40",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011994",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm",
+        "Temporal superposition and feature geometry of RNNs under memory demands",
+        "Scaling Laws and Spectra of Shallow Neural Networks in the Feature Learning Regime",
+        "Efficient Resource-Constrained Training of Vision Transformers via Subspace Optimization",
+        "Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention",
+        "HATSolver: Learning Gröbner Bases with Hierarchical Attention Transformers"
+      ]
+    },
+    {
+      "title": "Oral Session 3F",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "09:30",
+      "endTime": "10:28",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011995",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction",
+        "Exploring Synthesizable Chemical Space with Iterative Pathway Refinements",
+        "mCLM: A Modular Chemical Language Model that Generates Functional and Makeable Molecules",
+        "It's All Just Vectorization: einx, a Universal Notation for Tensor Operations",
+        "Exploratory Causal Inference in SAEnce"
+      ]
+    },
+    {
+      "title": "World Models and Beyond: Bridging Video, Simulation, and Robotic Intelligence",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Anya Singh",
+        "Jiahang He"
+      ],
+      "abstract": "World models have emerged as a unifying thread across video generation, model-based reinforcement learning, and robotic planning - yet the communities working on these problems often don't overlap at conferences. This Social brings together researchers working on learned simulators, video prediction, world models for decision-making, and sim-to-real transfer for an informal, discussion-first session.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020564",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "X-informed AI",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Sangyoon Bae",
+        "Mamta Saini"
+      ],
+      "abstract": "Scientific ML is more than applying ML to science - it's about letting domain structure shape the model itself. In this social, we bring together researchers working across domains (neuroscience, PDEs, physics simulations, and beyond) to discuss: What is the urgent 'X' in your X-informed AI? How do you identify the right inductive bias? How do we build a community that supports this? Come share how your domain shapes your models.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020559",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "AI for Science Social",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Indra Priyadarsini S",
+        "N. M. Anoop Krishnan"
+      ],
+      "abstract": "AI for Science is rapidly emerging as a key area where machine learning can accelerate discovery in domains such as materials science, biology, physics, and mathematics. Progress in this space increasingly depends on collaboration between machine learning researchers and domain scientists, as well as open ecosystems of data, models, and tools. This socials aims to create an informal space at ICLR for researchers interested in AI for Science and open collaboration to connect, exchange ideas, and build new collaborations.\n\nThe socials will bring together participants from several ICLR workshops related to AI for Science, including AI4Mat, FM4Science, AI&PDE, and Sci4DL, and foster interaction across these communities. The session will focus on practical challenges and opportunities in building open scientific ecosystems, including open datasets and benchmarks, open-source tools and foundation models for science, cross-disciplinary collaboration, and community-driven initiatives.\n\nThe format will emphasize interaction and networking with brief opening remarks, structured speed networking, themed small-group discussions, and a short open panel conversation where participants can share insights and identify opportunities for collaboration. The social will also provide a welcoming environment for students and early-career researchers to engage with both academic and industry researchers working on AI-driven scientific discovery",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020561",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "LLM's for Metascience Social",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Autumn Toney",
+        "Ryan Wails"
+      ],
+      "abstract": "More simply put: LLMs for Metascience. This social is focused on facilitating conversations from industry, academia, and government about how we are all using AI to understand the current landscape of AI research.  What's coming at us the fastest? What are the problems we've effectively \"solved\" ? Where can existing methods be applied to support progress in overlooked areas? \n\nThis is meant to be a relaxed, discussion-driven space. We're excited for a cross-sector exchange where people can share tools, workflows, rough ideas, and open questions, as well as the challenges of using AI systems to reason about science itself. Input from those who conduct, fund, and review research will be especially valuable in shaping a more complete picture of the different components in the AI research landscape.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020562",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Evaluating LLMs Holistically in a World Where Benchmarks Leak",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Renaud de la Gueronniere",
+        "Alexander Borodetskiy"
+      ],
+      "abstract": "Benchmark contamination is no longer a theoretical concern. As frontier models are trained on open-web data, public test sets are routinely absorbed into pre-training corpora - and beyond passive contamination, labs are known to actively optimize against known benchmarks and selectively report favorable results. When a model claims state-of-the-art on a public leaderboard, it is increasingly unclear whether that reflects genuine generalization or familiarity with the test.\nPrivate-only benchmarks - never released publicly, evaluated under controlled conditions, and continuously refreshed - offer a structural solution. If a model cannot train against a benchmark it has never seen, contamination becomes impossible by design. Built across capability families rather than isolated skills, such benchmarks can also surface cross-domain failure modes that narrow public evaluations miss entirely.\nThis social will examine what private, holistic evaluation infrastructure could look like in practice, with short talks from practitioners followed by open discussion on what it would take for the community to coalesce around shared private evaluation standards.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020563",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Cooperative AI Foundation",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Cecilia Tilli",
+        "Samuele Marro"
+      ],
+      "abstract": "As AI agents increasingly operate in shared environments - negotiating, transacting, and making joint decisions - questions of coordination and cooperation become inseparable from questions of system design. How do we incentivize cooperation among autonomous agents when no single party controls the system? What coordination protocols, commitment devices, and oversight mechanisms work in distributed settings? How do we prevent collusion and ensure robustness as agent networks scale?\n\nThis social is hosted by Cooperative AI Foundation and The Institute for Decentralized AI as  a gathering for researchers working on multi-agent systems, mechanism design, AI safety, distributed systems, and related areas who are interested in how cooperative and decentralized approaches to AI intersect and inform each other. Drinks will be provided.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020565",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Queer in AI Social",
+      "type": "Social",
+      "date": "2026-04-24",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "speaker": [
+        "Nikolay Malkin"
+      ],
+      "abstract": "This social is an informal community gathering organised by Queer in AI to foster connection, visibility, and mutual support among LGBTQ+ researchers and allies in AI/ML. The event provides a welcoming space for queer scientists, students, and practitioners to meet, share experiences, and build professional and personal networks within the broader research community.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020560",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Oral Session 4A",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "14:15",
+      "endTime": "15:25",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011996",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models",
+        "MrRoPE: Mixed-radix Rotary Position Embedding",
+        "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+        "FlashRNN: Unlocking Parallel Training of Nonlinear RNNs for Large Language Models",
+        "Mamba-3: Improved Sequence Modeling using State Space Principles",
+        "Energy-Based Transformers are Scalable Learners and Thinkers"
+      ]
+    },
+    {
+      "title": "Oral Session 4B",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011997",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "WoW!: World Models in a Closed-Loop World",
+        "Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling",
+        "Exploratory Diffusion Model for Unsupervised Reinforcement Learning",
+        "Mean Flow Policy with Instantaneous Velocity Constraint for One-step Action Generation",
+        "Rodrigues Network for Learning Robot Actions",
+        "Pareto-Conditioned Diffusion Models for Offline Multi-Objective Optimization",
+        "Compositional Diffusion with Guided search for Long-Horizon Planning"
+      ]
+    },
+    {
+      "title": "Oral Session 4C",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011998",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
+        "Hallucination Begins Where Saliency Drops",
+        "Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs",
+        "MetaEmbed: Scaling Multimodal Retrieval at Test-Time with Flexible Late Interaction",
+        "Seeing Through the Brain: New Insights from Decoding Visual Stimuli with fMRI",
+        "WAVE: Learning Unified & Versatile Audio-Visual Embeddings with Multimodal LLM",
+        "Visual symbolic mechanisms: Emergent symbol processing in Vision Language Models"
+      ]
+    },
+    {
+      "title": "Oral Session 4D",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "14:15",
+      "endTime": "15:25",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10011999",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "SWINGARENA: Adversarial Programming Arena for Long-context GitHub Issue Solving",
+        "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions",
+        "EditBench: Evaluating LLM Abilities to Perform Real-World Instructed Code Edits",
+        "Agent Data Protocol",
+        "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite",
+        "MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science"
+      ]
+    },
+    {
+      "title": "Oral Session 4E",
+      "type": "Oral",
+      "date": "2026-04-24",
+      "startTime": "14:15",
+      "endTime": "15:01",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012000",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "OpenThoughts: Data Recipes for Reasoning Models",
+        "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization",
+        "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents",
+        "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training"
+      ]
+    },
+    {
+      "title": "Apple: ParaRNN: Unlocking Parallel Training of Nonlinear RNNs for Large Language Models",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-25",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "abstract": "Recurrent Neural Networks (RNNs) laid the foundation for sequence modeling, but their intrinsic sequential nature restricts parallel computation, creating a fundamental barrier to scaling. This has led to the dominance of parallelizable architectures like Transformers and, more recently, State Space Models (SSMs). While SSMs achieve efficient parallelization through structured linear recurrences, this linearity constraint limits their expressive power and precludes modeling complex, nonlinear sequence-wise dependencies. To address this, we present ParaRNN, a framework that breaks the sequence-parallelization barrier for nonlinear RNNs. Building on prior work, we cast the sequence of nonlinear recurrence relationships as a single system of equations, which we solve in parallel using Newton's iterations combined with custom parallel reductions. Our implementation achieves speedups of up to 665x over naive sequential application, allowing training nonlinear RNNs at unprecedented scales. To showcase this, we apply ParaRNN to adaptations of LSTM and GRU architectures, successfully training models of 7B parameters that attain perplexity comparable to similarly-sized Transformers and Mamba2 architectures. To accelerate research in efficient sequence modeling, we release the ParaRNN codebase as an open-source framework for automatic training-parallelization of nonlinear RNNs, enabling researchers and practitioners to explore new nonlinear RNN models at scale.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020580",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Digital Olfaction Social",
+      "type": "Social",
+      "date": "2026-04-25",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Shuchen Liu"
+      ],
+      "abstract": "This discussion booth explores the emerging intersection of machine learning and smell technology, also known as digital olfaction. The space is designed for researchers, students, builders, and curious attendees interested in how AI can be used to detect, classify, generate, and interpret scent-related data. Topics may include electronic noses, olfactory sensing, multimodal AI, applications in healthcare, food quality, environmental monitoring, fragrance, and human-computer interaction. The goal is to create an open and interdisciplinary conversation around both the technical challenges and the creative opportunities in this fast-growing field. Whether you work directly on ML models for chemical signal analysis or are simply interested in the future of smell interfaces and sensory intelligence, this booth offers a place to exchange ideas, share projects, discuss collaborations, and connect with others working at the frontier of AI and olfaction.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020568",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "AI compensation and negotiation",
+      "type": "Social",
+      "date": "2026-04-25",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Nicole Bannon"
+      ],
+      "abstract": "As AI reshapes industries, compensation is changing faster than researchers can track.  New labs, startups, and top companies are competing for talent with vastly different pay structures, currencies, and cultural norms.  Yet most researchers are never formally taught how to understand their worth or navigate these systems.  The result is an uneven landscape where brilliant minds often make life-changing decisions without the information they need.\n\nThe session begins with a concise, data-driven talk on current AI compensation and negotiation trends, grounded in real stories and case studies.  From there, a fireside chat and open Q&A invite candid, experience-driven insights from researchers who have navigated these conversations firsthand.\n\nKey Takeaways for attendees:\n* How to evaluate compensation (salary, equity, bonuses) across industry roles such as\nResearch/Applied/Data Scientists, Research/Machine Learning/Software Engineers, and more\n* How to compare global opportunities and account for regional differences in pay structures\n* How to identify leverage points and negotiate effectively at different career stages and levels\n* How to respond to pushback and recognize red vs. green flags in job offers\n* How to negotiate the deadline, and avoid having an offer rescinded\n* How to advocate for yourself without counteroffers and amidst having fears",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020566",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "NL-to-SQL systems",
+      "type": "Social",
+      "date": "2026-04-25",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "speaker": [
+        "Divyalakshmi Giritharan"
+      ],
+      "abstract": "Large language models are increasingly used to translate natural language into SQL. But how reliable are they in real-world settings? In this session, We present a focused evaluation framework for measuring NL-to-SQL performance, including execution correctness, robustness, and query efficiency under varying levels of database context. We'll discuss how structured QA and validation approaches can help move LLM systems from benchmark success to production reliability. We invite researchers and practitioners working on NL-to-SQL systems, LLM evaluation, and database applications to participate in the discussion and share perspectives from real-world deployments.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/social/10020567",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Jump Trading: Domain-Adapted Agents for Quantitative Research at Scale",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-25",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "abstract": "Jump Trading processes terabytes of market data daily, searching for predictive signals across thousands of instruments worldwide. Under tight latency constraints, our pipeline spans raw order book events, NLP signal integration, model training, and live execution. The nature of financial data, from irregularity and non-stationarity to microstructure noise, poses unique challenges and opens new directions in HPC, reinforcement learning, AI, and agent research. In this talk, we describe quantitative research workflows applying foundation models and multi-agent systems to market data. We present results from fine-tuning large language models on textual input to produce live trading signals, and from multi-agent systems that combine a broad range of unstructured sources into forecasts consumed by human traders and automated strategies alike. We also discuss hallucination risk management, strict point-in-time correctness, and the evaluation methodology we apply to ensure rigor and reliability in production.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020579",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Shopify: SimGym: Traffic-Calibrated AI Shoppers for Offline A/B Testing at Shopify",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-25",
+      "startTime": "08:45",
+      "endTime": "09:45",
+      "abstract": "A/B testing is the gold standard for evaluating e-commerce UI changes, yet it is expensive or infeasible for many merchants. At Shopify we have built SimGym, a scalable system for rapid offline A/B testing using merchant-specific AI shoppers that operate the browser as a human would. SimGym leverages per-merchant storefront logs from real shoppers to build the AI shoppers and runs these on both control and treatment storefronts to decide which alternative is better. We validate SimGym against real Add-to-Cart lift from historical UI changes on Shopify shops. Even without alignment post training, SimGym accurately predicts the direction and relative magnitude of the treatment effect, reducing experiment iteration time from weeks to under an hour and enabling rapid screening without exposing real buyers.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020581",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Prolific: Your Models Are Outgrowing Your Evaluations: Lessons from Building Evaluation Infrastructure for Frontier AI",
+      "type": "Expo Talk Panel",
+      "date": "2026-04-25",
+      "startTime": "08:45",
+      "endTime": "09:45",
+      "abstract": "The capabilities of frontier AI systems are advancing faster than the methods used to evaluate them. Benchmark saturation, unrepresentative preference data, and safety evaluations that fail to reflect real deployment conditions have created a widening gap between measured performance and real-world impact. Closing this gap requires treating evaluation not as an afterthought to model development, but as a first-class infrastructure problem. One that demands scientific rigor in data collection design, representative and verified human populations, and evaluation paradigms that go beyond static benchmarks. In this talk, we present Prolific's approach to building evaluation methodology and infrastructure for frontier AI. Prolific supports over 200,000 verified participants across 45 countries and has underpinned the data and methodology of more than 30,000 publications. We describe how we build on this foundation to develop evaluations that serve the needs of leading AI labs and research institutions: from demographically stratified preference studies and adversarial red-teaming to domain expert evaluation and alignment data collection. We share what we have learned from designing evaluations that capture realistic scenarios and surface failures that matter. We ground this in two case studies from our own research presented at ICLR 2026. \"Unpacking Human Preference for LLMs: Demographically Aware Evaluation with the HUMAINE Framework\" reveals how aggregate leaderboards conceal systematic preference disagreement across populations and how evaluation dimensions like trust and safety demand different methodological approaches than standard open-ended comparison. The \"Missing Red Line: How Commercial Pressure Erodes AI Safety Boundaries\" is an adversarial audit showing that even mild commercial objectives embedded in system prompts can override model safety training, even in scenarios with life-threatening consequences.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/expo-talk-panel/10020582",
+      "sessionFormat": "BOTH",
+      "hasRecording": true
+    },
+    {
+      "title": "Oral Session 5A",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012002",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Diffusion Language Model Knows the Answer Before It Decodes",
+        "On the Reasoning Abilities of Masked Diffusion Language Models",
+        "Planner Aware Path Learning in Diffusion Language Models Training",
+        "Global Resolution: Optimal Multi-Draft Speculative Sampling via Convex Optimization",
+        "Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding",
+        "p-less Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding",
+        "Latent Speech-Text Transformer"
+      ]
+    },
+    {
+      "title": "Oral Session 5B",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012003",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
+        "Instilling an Active Mind in Avatars via Cognitive Simulation",
+        "FlashWorld: High-quality 3D Scene Generation within Seconds",
+        "MotionStream: Real-Time Video Generation with Interactive Motion Controls",
+        "EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning",
+        "PhyWorldBench: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models",
+        "TRACE: Your Diffusion Model is Secretly an Instance Edge Detector"
+      ]
+    },
+    {
+      "title": "Oral Session 5C",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012004",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Semi-Supervised Preference Optimization with Limited Feedback",
+        "TROLL: Trust Regions Improve Reinforcement Learning for Large Language Models",
+        "Multiplayer Nash Preference Optimization",
+        "The Art of Scaling Reinforcement Learning Compute for LLMs",
+        "To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models",
+        "SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety",
+        "Why DPO is a Misspecified Estimator and How to Fix It"
+      ]
+    },
+    {
+      "title": "Oral Session 5D",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012005",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective",
+        "Characterizing the Discrete Geometry of ReLU Networks",
+        "InfoNCE Induces Gaussian Distribution",
+        "Navigating the Latent Space Dynamics of Neural Models",
+        "Overparametrization bends the landscape: BBP transitions at initialization in simple Neural Networks",
+        "Addressing divergent representations from causal interventions on neural networks",
+        "FIRE: Frobenius-Isometry Reinitialization for Balancing the Stability-Plasticity Tradeoff"
+      ]
+    },
+    {
+      "title": "Oral Session 5E",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "09:30",
+      "endTime": "10:52",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012006",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Uncover Underlying Correspondence for Robust Multi-view Clustering",
+        "WAFT: Warping-Alone Field Transforms for Optical Flow",
+        "InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression",
+        "DTO-KD: Dynamic Trade-off Optimization for Effective Knowledge Distillation",
+        "AnyUp: Universal Feature Upsampling",
+        "Generating metamers of human scene understanding",
+        "Plug-and-Play Compositionality for Boosting Continual Learning with Foundation Models"
+      ]
+    },
+    {
+      "title": "Oral Session 5F",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "09:30",
+      "endTime": "10:28",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012007",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "BioX-Bridge: Model Bridging for Unsupervised Cross-Modal Knowledge Transfer across Biosignals",
+        "A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration",
+        "CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data",
+        "Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series",
+        "From movement to cognitive maps: recurrent neural networks reveal how locomotor development shapes hippocampal spatial coding"
+      ]
+    },
+    {
+      "title": "Oral Session 6A",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "14:15",
+      "endTime": "15:25",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012008",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "TD-JEPA: Latent-predictive Representations for Zero-Shot Reinforcement Learning",
+        "Online Learning and Equilibrium Computation with Ranking Feedback",
+        "Non-Asymptotic Analysis of (Sticky) Track-and-Stop",
+        "Conformal Robustness Control: A New Strategy for Robust Decision",
+        "Optimistic Task Inference for Behavior Foundation Models",
+        "Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search"
+      ]
+    },
+    {
+      "title": "Oral Session 6B",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "14:15",
+      "endTime": "15:25",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012009",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "SAFETY-GUIDED FLOW (SGF): A UNIFIED FRAMEWORK FOR NEGATIVE GUIDANCE IN SAFE GENERATION",
+        "The Spacetime of Diffusion Models: An Information Geometry Perspective",
+        "PetaGAIL++: Utility Optimized Private Trajectory Generation with Imitation Learning",
+        "Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching",
+        "Spherical Watermark: Encryption-Free, Lossless Watermarking for Diffusion Models",
+        "Latent Fourier Transform"
+      ]
+    },
+    {
+      "title": "Oral Session 6C",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "14:15",
+      "endTime": "15:37",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012010",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Task-free Adaptive Meta Black-box Optimization",
+        "Differentiable Model Predictive Control on the GPU",
+        "Triple-BERT: Do We Really Need MARL for Order Dispatch on Ride-Sharing Platforms?",
+        "Pinet: Optimizing hard-constrained neural networks with orthogonal projection layers",
+        "Learning to Segment for Vehicle Routing Problems",
+        "Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces",
+        "AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms"
+      ]
+    },
+    {
+      "title": "Oral Session 6D",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "14:15",
+      "endTime": "15:13",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012011",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Train-before-Test Harmonizes Language Model Rankings",
+        "LLM DNA: Tracing Model Evolution via Functional Representations",
+        "Hubble: a Model Suite to Advance the Study of LLM Memorization",
+        "Mixture-of-Experts Can Surpass Dense LLMs Under Strictly Equal Resource",
+        "Premise Selection for a Lean Hammer"
+      ]
+    },
+    {
+      "title": "Oral Session 6E",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "14:15",
+      "endTime": "15:25",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012012",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "Reliable Weak-to-Strong Monitoring of LLM Agents",
+        "CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale",
+        "OpenApps: Simulating Environment Variations to Measure UI Agent Reliability",
+        "RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments",
+        "CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering",
+        "WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality"
+      ]
+    },
+    {
+      "title": "Oral Session 6F",
+      "type": "Oral",
+      "date": "2026-04-25",
+      "startTime": "14:15",
+      "endTime": "15:25",
+      "sessionUrl": "https://iclr.cc/virtual/2026/session/10012013",
+      "sessionFormat": "BOTH",
+      "hasRecording": true,
+      "publicationTitles": [
+        "RealBench: A Benchmark for Complex Physical Systems with Real-World Data",
+        "Quotient-Space Diffusion Model",
+        "DCFold: Efficient Protein Structure Generation with Single Forward Pass",
+        "Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute",
+        "FALCON: Few-step Accurate Likelihoods for Continuous Flows",
+        "Fast training of accurate physics-informed neural networks without gradient descent"
+      ]
+    },
+    {
+      "title": "AI for Mechanism Design and Strategic Decision Making (AIMS)",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Xiaotie Deng",
+        "Jian Xu",
+        "Fabrizio Silvestri",
+        "Alireza Fallah",
+        "Yurong Chen",
+        "Brian Zhang",
+        "Haoran Sun"
+      ],
+      "abstract": "The rapid advancement of artificial intelligence, particularly in machine learning and foundation models, is creating a new synergy with the classical fields of Mechanism Design (MD) and Strategic Decision Making (SDM). This workshop aims to catalyze interdisciplinary research at this intersection, exploring how modern AI methods can redefine, extend, and automate core problems in MD and SDM. We will bring together researchers from machine learning, economics, and computer science to investigate this symbiotic relationship, focusing on topics such as novel AI applications for MD &amp; SDM and theoretical models for AI-driven methods. This workshop will highlight not only cutting-edge research but also impactful real-world applications and case studies from industry. Overall, our goal is to provide a premier platform for disseminating novel ideas, fostering collaboration across communities, and charting the future of intelligent economic systems.",
+      "sessionUrl": "https://alimama-tech.github.io/aims-2026/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Catch, Adapt, and Operate: Monitoring ML Models Under Drift",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Sepidehsadat Hosseini",
+        "Motasem Alfarra",
+        "Chung-Chi Chen",
+        "Elham Dolatabadi",
+        "Bo Li",
+        "Murat Sensoy",
+        "Dequan Wang",
+        "Teresa Yeo"
+      ],
+      "abstract": "Machine learning systems are increasingly deployed in high-stakes domains such as healthcare, finance, robotics, and autonomous systems, where data distributions evolve continuously. Without robust monitoring and timely adaptation, even high-performing models can degrade silently, compromising reliability, safety, and fairness. Continuous monitoring is therefore an absolute necessity. While there has been rapid progress in drift detection, test-time and continual adaptation, and the deployment of ML systems at scale, these topics are often studied separately. The Catch, Adapt, and Operate workshop brings them together around three themes: sensing drift through statistical and representation-based monitoring, responding through adaptive and self-supervised updates, and operating at scale in production pipelines. By connecting theory, systems, and real-world practice, the workshop aims to build a shared foundation for reliable, fair, and continuously adaptive machine learning under real-world drift.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000806",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Lifelong Agents: Learning, Aligning, Evolving",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Cheng Qian",
+        "Emre Can Acikgoz",
+        "Hongru WANG",
+        "Zhenfei Yin",
+        "Manling Li",
+        "Yun-Nung Chen",
+        "Jiahao Qiu",
+        "Guanhua Chen",
+        "Caiming Xiong",
+        "Mengdi Wang"
+      ],
+      "abstract": "Artificial intelligence has reached a pivotal stage: while current agentic systems excel in static benchmarks, they struggle to adapt to dynamic, real-world environments. This workshop introduces the concept of lifelong agents, AI systems that continuously learn, align, and evolve across their operational lifespan. Such agents must integrate continual learning, long-term alignment with human values, and self-improvement under resource constraints to remain robust, trustworthy, and sustainable. By uniting research from reinforcement learning, large language models, alignment, embodied AI and more, the workshop seeks to establish shared principles, frameworks, and evaluation methods for creating AI that grows intelligently and responsibly over time.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000805",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "AI for Peace",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Noa Garcia",
+        "Leonardo Impett",
+        "Yannis Kalantidis",
+        "Matt Mahmoudi",
+        "Evangelos Kazakos",
+        "Sonia Fereidooni"
+      ],
+      "abstract": "In this workshop, we aim to address the critically under-discussed issue of AI's dual-use nature, focusing on how machine learning technologies are being adapted for military purposes, potentially without the researchers' knowledge or consent. While attending to the heightened risks associated with particular areas and systems of research, we will also be collectively thinking through what it looks like to engage productively in research and development activities that considers ethics and international law at its core.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000804",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Post-AGI Science and Society Workshop",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Donato Crisostomi",
+        "Andrea Santilli",
+        "Pratyusha Sharma",
+        "Valentina Pyatkin",
+        "Zorah Lähner",
+        "Emanuele Rodolà"
+      ],
+      "abstract": "Artificial General Intelligence (AGI) has long seemed distant, but rapid advances in large-scale learning, autonomous reasoning, and open-ended discovery make its emergence increasingly plausible. The Post-AGI Science and Society Workshop asks what comes next. If AGI becomes ubiquitous, reliable, and affordable, how will it reshape scientific inquiry, the economy of knowledge, and human society? Will humans remain central to discovery or become curators and interpreters of machine-generated insights? The workshop brings together researchers from machine learning, philosophy of science, and policy to explore human-AI scientific coexistence. Topics include automated hypothesis generation, causal reasoning in AGI, collaborative discovery, epistemic alignment between humans and machines, and socio-economic shifts driven by pervasive intelligence. Through keynotes, talks, and a panel, we will examine how science and our understanding of knowledge might evolve in a post-AGI world.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000800",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Workshop on Logical Reasoning of Large Language Models",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Haoxuan Li",
+        "Fenrong Liu",
+        "Michael Witbrock",
+        "Arman Cohan",
+        "Peter Clark",
+        "Johan van Benthem",
+        "Zhouchen Lin"
+      ],
+      "abstract": "Large language models (LLMs) have achieved remarkable breakthroughs in natural language understanding and generation, but their logical reasoning capabilities remain a significant bottleneck. Logical reasoning is crucial for tasks requiring precise deduction, induction, or abduction, such as medical diagnosis, legal reasoning, and scientific hypothesis verification. However, LLMs often fail to handle complex logical problems with multiple premises and constraints, and they frequently produce self-contradictory responses across different questions. These limitations not only restrict the reliability of LLMs in complex problem-solving but also hinder their real-world applications. In response to these emerging needs, we propose the workshop on Logical Reasoning of LLMs. This workshop will explore the challenges and opportunities for improving deduction, induction, and abduction capabilities of LLMs, implementing symbolic representation and reasoning via LLMs, avoiding logical contradictions across responses to multiple related questions, enhancing LLM reasoning by leveraging external logical solvers, and benchmarking LLM logical reasoning and consistencies. As LLMs continue to expand their role in AI research and applications, this workshop will serve as a platform to discuss and refine the methods for advancing logical reasoning within LLMs.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000797",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "ICLR 2026 Workshop on Multimodal Intelligence: Next Token Prediction and Beyond",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Ivona Najdenkoska",
+        "Mohammad Mahdi Derakhshani",
+        "Marzieh Fadaee",
+        "Kai Han",
+        "Saining Xie",
+        "Yuki Asano",
+        "Cees G Snoek"
+      ],
+      "abstract": "Foundation models have transformed multimodal intelligence, enabling open-ended reasoning, dialogue, and generation across vision, language, and audio. A growing body of work now frames this progress under the unifying paradigm of next-X prediction, where X may denote tokens, frames, or scales across discrete or continuous spaces. Discrete autoregressive models, such as Chameleon, extend next-token prediction beyond text, while continuous formulations like VAR, MAR, TransFusion, BAGEL, and Fluid capture next-frame or next-scale dynamics in latent space. Meanwhile, predictive encoders-exemplified by V-JEPA 2-eschew token emission to forecast future representations, focusing on salient, structured aspects of perception and behavior. Complementary to both, discrete diffusion models such as Diffusion-LM, LLaDA, and LaViDa redefine generation as iterative denoising, offering parallelism and improved global consistency. This workshop provides a timely venue to connect these emerging paradigms-next-token generation, predictive encoding, and diffusion-based modeling-and to explore how they can be integrated into unified multimodal systems. Key questions include: Which learning paradigm scales most effectively? How do they differ in representation quality, efficiency, and controllability? And can hybrid models combine their strengths? By bringing together researchers from these diverse communities, the workshop aims to chart a coherent roadmap for the next generation of multimodal foundation models-beyond token prediction alone.\n\nShow more",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000795",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "From Human Cognition to AI Reasoning: Models, Methods, and Applications",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Julie Shah",
+        "Sarath Sreedharan",
+        "Silvia Tulli",
+        "Pulkit Verma"
+      ],
+      "abstract": "The workshop will explore how explicit models of human knowledge, cognitive capabilities, and mental states can be integrated into AI reasoning processes. We will examine approaches that combine neural and symbolic methods inspired by human cognition, incorporate human causal reasoning patterns, and leverage human teaching signals to create more interpretable and aligned AI systems. More details at https://bit.ly/hcair26",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000789",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Algorithmic Fairness Across Alignment Procedures and Agentic Systems",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Zeyu Tang",
+        "Prakhar Ganesh",
+        "Awa Dieng",
+        "Miriam Rateike",
+        "Jamelle Watson-Daniels",
+        "Golnoosh Farnadi",
+        "Jessica Schrouff",
+        "Sanmi Koyejo"
+      ],
+      "abstract": "AI has transitioned from predictive models to interactive, autonomous agents capable of reasoning, planning, and executing complex goals. As the systems increasingly influence social, economic, and scientific decisions, they determine whose interests are represented and whose opportunities are constrained. Ensuring fairness, therefore, is no longer an ethical preference but a practical imperative. As the fairness challenges are fundamentally transformed by advanced AI systems, traditional algorithmic fairness frameworks developed primarily for prediction and/or prediction-based decision-making no longer suffice. This workshop, Algorithmic Fairness Across Alignment Procedures and Agentic Systems (AFAA), emerges at this pivotal moment as a timely forum for rethinking fairness in AI alignment processes and agentic system development. By examining fairness across alignment procedures and agentic systems, this workshop creates a crucial platform for bridging the gap between rapid technical advances in model capabilities and the equally important advances needed in frameworks of algorithmic fairness to govern these powerful systems.",
+      "sessionUrl": "https://www.afciworkshop.org/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "1st ICLR Workshop on Time Series in the Age of Large Models",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Arjun Ashok",
+        "Abdul Fatir Ansari",
+        "Elizabeth Fons",
+        "Xiyuan Zhang",
+        "Chenghao Liu",
+        "Mononito Goswami",
+        "Xinyu Li",
+        "Yichen Zhou"
+      ],
+      "abstract": "Summary: This workshop will delve into aspects of time series prediction and analysis in the age of large models. This workshop builds upon our successful track record of fostering community engagement around large models for time series. Our inaugural NeurIPS 2024 workshop demonstrated strong community interest, attracting 99 submissions and over 500 participants (~1000 registered interest via Whova). Submissions spanned the full spectrum of the field-from building time series foundation models and leveraging pre-trained models from other modalities, to real-world applications and deployment experiences. The rich discussions at NeurIPS 2024 revealed both significant opportunities and fundamental limitations in current approaches, directly informing the research questions we aim to address in this iteration. Building on this momentum, we also organized the successful ICML 2025 Workshop on Foundation Models for Structured Data, which broadened our perspective by connecting time series researchers with the tabular data community. Focus and Innovation: For ICLR 2026, we are strategically refocusing to dive deeper into outstanding research questions that emerged from our previous workshops - particularly around agents, interpretability, and context-informed predictions. This iteration features an evolved organizing team and fresh speaker lineup, reflecting the field's rapid development. The nascent nature of large time series models makes this workshop particularly timely for ICLR 2026, as the community continues to establish foundational principles and explore novel applications in this emerging domain. Organizer Expertise: The organizers bring extensive research experience and proven leadership in the time series foundation models domain, with diverse backgrounds from industry and academia. Collectively, we have led advances on 3 key dimensions: foundational model development- creating some of the first time series foundation models including Lag-Llama, Chronos, Moment, Moirai, and TimesFM, advanced applications- establishing initial frameworks for reasoning and agents in time series through MLZero and TimeSeriesGym, and rigorous evaluation and benchmarking using tools such as Context-is-Key, GIFT-Eval, TimeSeriesExam, and fev-bench. Beyond research contributions, our team has demonstrated success in organizing impactful workshops at premier venues, including the NeurIPS 2024 workshop on Time Series in the Age of Large Models, AAAI'24 Spring Symposium on Clinical Foundation Models, ICAIF'24 Foundation Models for Time Series: Exploring New Frontiers, and ICML'25 Workshop on Foundation Models for Structured Data. This combination of deep technical expertise and proven workshop leadership positions us to facilitate meaningful discussions and foster collaboration in this rapidly evolving field.\n\nShow more",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000785",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "New Frontiers in Associative Memories",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Krishna Balasubramanian",
+        "Rogerio Feris",
+        "Benjamin Hoover",
+        "Julia Kempe",
+        "Hilde Kuehne",
+        "Zhaoyang Shi"
+      ],
+      "abstract": "The primary focus of this workshop is to strengthen the analytical foundations of associative memory while exploring its emerging role in the design of agentic AI systems. By bringing together researchers from optimization and deep learning, statistical physics, neuroscience and machine learning systems, the workshop aims to catalyze cross-disciplinary exchange, identify open problems, and foster collaboration toward advancing the theoretical and practical frontiers of associative memory. A central goal is to build a cohesive community at the intersection of these fields, one that unites rigorous mathematical foundations with scalable architectures and applications where associative memories serve as the core drivers of reasoning, adaptation, and intelligent behavior.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000782",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "AI&PDE: ICLR 2026 Workshop on AI and Partial Differential Equations",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Eduardo Soares",
+        "Daniel Yukimura",
+        "Nara Bobko",
+        "Arthur Bizzi",
+        "Siddhartha Mishra",
+        "Elisa Serioli",
+        "Ana Muller"
+      ],
+      "abstract": "Partial Differential Equations (PDEs) are foundational to modeling complex phenomena across the natural sciences and engineering, from fluid dynamics and quantum systems to climate modeling and materials science. Despite their ubiquity, solving PDEs remains computationally intensive, especially in high-dimensional, multi-physics, and uncertain regimes. Recent advances in machine learning-such as neural operators, physics-informed networks, and foundation models-offer transformative potential to accelerate and generalize PDE solutions. However, realizing this promise requires addressing critical challenges in representation, stability, generalization, and benchmarking. The AI&amp;PDE-ICLR-2026 workshop will convene researchers from machine learning, applied mathematics, physics, and engineering to explore the future of AI-driven PDE modeling. We aim to (1) define the roadmap toward foundation models for PDEs, (2) investigate next-generation representations and architectures, and (3) foster a globally inclusive community. The program will feature invited talks, contributed papers, and themed tracks, including a full papers track for mature research and a tiny papers track for emerging ideas. By bridging disciplines and promoting open benchmarks and datasets, AI&PDE-ICLR-2026 will catalyze progress toward scalable, general-purpose AI solvers for PDEs.",
+      "sessionUrl": "https://sites.google.com/impatech.edu.br/ai-pde",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Unifying Concept Representation Learning",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Amit Dhurandhar",
+        "Amir-Hossein Karimi",
+        "Sara Magliacane",
+        "Stefano Teso",
+        "Efthymia Tsamoura",
+        "Zhe Zeng"
+      ],
+      "abstract": "Several areas at the forefront of AI research are currently witnessing a convergence of interests around the problem of learning high-quality concepts from data. Concepts have become a central topic of study in neuro-symbolic integration (NeSy). NeSy approaches integrate perception - usually implemented by a neural backbone - and symbolic reasoning by employing concepts to glue together these two steps: the latter relies on the concepts detected by the former to produce suitable outputs [1-5]. Concepts are also used in Explainable AI (XAI) by recent post-hoc explainers [6-9] and self-explainable architectures [10-13] as a building block for constructing high-level justifications of model behavior. Compared to, e.g., saliency maps, these can portray a more abstract and understandable picture of the machine's reasoning process, potentially improving understandability, interactivity, and trustworthiness [14-17], to the point that concepts have been called the lingua franca of human-AI interaction [18]. Both areas hinge on learned concepts being \"high-quality\". Causal Representation Learning (CRL) aims to identify latent causal variables and causal relations from high-dimensional observations, e.g., images or text, with theoretical guarantees [25]. As such, CRL is a generalization of disentangled representation learning, when the latent variables are dependent on each other, e.g., due to causal relations. CRL has been increasingly popular, with a plethora of methods and theoretical results [26-36]. The potential of leveraging CRL to learn more robust and leak-proof concept is an emerging area of research with a growing number of approaches [24, 37-40], but many open questions remain. In particular, what properties high-quality concepts should satisfy is unclear, and - despite studying the same underlying object - research in these areas is proceeding on mostly independent tracks, with minimal knowledge transfer. Efforts at adapting ideas and techniques are limited at best, meaning that approaches in one area completely ignore insights from the others. As a result, the central issue of how to properly learn and evaluate concepts is largely unanswered. This workshop brings together researchers from NeSy, XAI and CRL and from both industry and academia, who are interested in learning robust, semantically meaningful concepts. By facilitating informal discussion between experts and newcomers alike, it aims to tie together these currently independent strands of research and promote cross-fertilization.\n\nShow more",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000775",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "VerifAI-2: The Second Workshop on AI Verification in the Wild",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Celine Lee",
+        "Ameesh Shah",
+        "Theo X. Olausson",
+        "Sean Welleck",
+        "Armando Solar-Lezama",
+        "Tao Yu"
+      ],
+      "abstract": "This workshop series explores the intersection of scale-driven generative artificial intelligence (AI) and the correctness-focused principles of verification. In its first rendition at ICLR 2025, it focused in particular on how generative AI can address the scaling challenges faced by formal analysis tools such as theorem provers, satisfiability solvers, and execution monitoring. The special theme of VerifAI@ICLR'25 was thus Large Language Models (LLMs) for Code Generation, an undeniably active area of research across both industry and academia, which has benefited greatly from (and improved) formal analysis tools such as static analyzers. Now, in light of the recent emphasis on large-scale post-training through reinforcement learning (RL), we are excited to continue uniting the interests of industry and academia with a new special theme: Building verifiable tasks and environments for RL.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000774",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "3rd Workshop on Navigating and Addressing Data Problems For Foundation Models (DATA-FM)",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Zheng Xu",
+        "Ruoxi Jia",
+        "Martin Jaggi",
+        "Mónica Ribero",
+        "Pratyush Maini",
+        "Jiachen (Tianhao) Wang",
+        "Luxi He",
+        "Yuzheng Hu"
+      ],
+      "abstract": "The past year has witnessed remarkable advances in foundation models (FMs): new post-training paradigms such as reinforcement learning with verifiable rewards (RLVR) that strengthen reasoning, increasingly multimodal and agentic systems, and renewed attention to benchmark design and evaluation. Each of these advances depends on distinct data innovations: verifiable reward signals and reasoning traces for RLVR; aligned cross-modal corpora and interaction logs for multimodality and agency; and leak-resistant, representative test sets for evaluation. Taken together, these dependencies underscore the continuing centrality of data as a design variable at the forefront of FM research. Meanwhile, longstanding challenges in data collection, curation, and synthesis remain unresolved, while concerns surrounding copyright, privacy, and fairness have only intensified. Building on the success of the first two DATA-FM workshops at ICLR 2024 and 2025, the third edition will revisit these persistent issues while highlighting emerging ones at the frontiers of post-training, multimodality, and evaluation. By convening researchers and practitioners across diverse research communities, DATA-FM seeks to advance understanding of data's evolving role in FMs and foster innovative solutions shaping the next generation of models and applications.",
+      "sessionUrl": "https://data-fm-iclr2026.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "AI4MAT-ICLR-2026: ICLR 2026 Workshop on AI for Accelerated Materials Design",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Santiago Miret",
+        "Defne Circi",
+        "N. M. Anoop Krishnan",
+        "Emily Jin",
+        "Mohamad Moosavi",
+        "Stefano Martiniani"
+      ],
+      "abstract": "AI4Mat-ICLR-2026 explores the automated discovery of advanced materials through three interconnected pillars: 1. AI-Guided Design; 2. Automated Synthesis; 3. Automated Characterization. By bringing together leading researchers at the intersection of machine learning and materials science, the workshop fosters discussion of cutting-edge advances while building a cohesive, multidisciplinary community tackling some of the field's most pressing challenges. To that end AI4Mat-ICLR-2026's program highlights two leading topics to foster scientific dialogue in relevant subject areas, each featuring carefully curated invited speakers: 1. Reinforcement Learning & Beyond: The Role of Feedback in AI for Materials Science; 2. Cross-Modal, Unified Materials Representations - From Structure to Properties to Performance. In addition to invited talks and technical discussions, AI4Mat-ICLR-2026 continues its commitment to community development through established initiatives, including a Tiny Papers track for early-stage work, travel grants to support broad and inclusive researcher participation, and a dedicated journal venue for high-quality submissions.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000778",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Agents in the Wild: Safety, Security, and Beyond",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Dawn Song",
+        "Chenguang Wang",
+        "Nicholas Crispino",
+        "Ruoxi Jia",
+        "Kyle Montgomery",
+        "Yujin Potter",
+        "Vincent Siu",
+        "ZHUN WANG"
+      ],
+      "abstract": "AI agents are rapidly being deployed in critical real-world applications, yet their unique safety and security challenges remain underexplored. Unlike standard safety or security settings, agents act autonomously and make irreversible real-world decisions. This creates novel vulnerabilities and fundamental safety challenges for agents in real-world deployments. Our workshop provides the first dedicated venue for addressing the safety, security, and trustworthiness of agents in the wild. We bring together interdisciplinary researchers and practitioners to establish foundational theories and methods for safe agent deployment, identify critical open problems, and chart research directions for trustworthy agentic AI systems.",
+      "sessionUrl": "https://agentwild-workshop.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Geometry-grounded Representation Learning and Generative Modeling",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Alison Pouplin",
+        "Sharvaree Vadgama",
+        "Sékou-Oumar Kaba",
+        "Manuel Lecha",
+        "Jakub Tomczak",
+        "Robin Walters",
+        "Stefanie Jegelka",
+        "Erik Bekkers"
+      ],
+      "abstract": "Real-world data often originates from physical systems that are governed by geometric and physical laws. Yet, most machine learning methods treat this data as abstract vectors, ignoring the underlying structure that could improve both performance and interpretability. Geometry provides powerful guiding principles, from group equivariance to non-Euclidean metrics, that can preserve the symmetries or the structure inherent in data. We believe those geometric tools are well-suited, and perhaps essential, for representation learning and generative modeling. We propose GRaM, a workshop centered on the principle of grounding in geometry, which we define as: An approach is geometrically grounded if it respects the geometric structure of the problem domain and supports geometric reasoning. This year, we aim to explore the relevance of geometric methods, particularly in the context of large models, focusing on the theme of scale and simplicity. We seek to understand when geometric grounding remains necessary, how to effectively scale geometric approaches, and when geometric constraints can be relaxed in favor of simpler alternatives.",
+      "sessionUrl": "https://gram-workshop.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Scientific Methods for Understanding Deep Learning (Sci4DL)",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Zahra Kadkhodaie",
+        "Florentin Guth",
+        "Sanae Lotfi",
+        "Davis Brown",
+        "Antonio Sclocchi",
+        "Sharvaree Vadgama",
+        "James Simon",
+        "Eero Simoncelli"
+      ],
+      "abstract": "While deep learning continues to achieve impressive results on an ever-growing range of tasks, our understanding of the principles underlying these successes remains largely limited. This problem is usually tackled from a mathematical point of view, aiming to prove rigorous theorems about optimization or generalization errors of standard algorithms, but so far they have been limited to overly-simplified settings. The main goal of this workshop is to promote a complementary approach that is centered on the use of the scientific method, which forms hypotheses and designs controlled experiments to test them. More specifically, it focuses on empirical analyses of deep networks that can validate or falsify existing theories and assumptions, or answer questions about the success or failure of these models. This approach has been largely underexplored, but has great potential to further our understanding of deep learning and to lead to significant progress in both theory and practice. The secondary goal of this workshop is to build a community of researchers, currently scattered in several subfields, around the common goal of understanding deep learning through a scientific lens.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000783",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "ICLR 2026 Workshop on AI with Recursive Self-Improvement",
+      "type": "Workshop",
+      "date": "2026-04-26",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Mingchen Zhuge",
+        "AILING ZENG",
+        "Deyao Zhu",
+        "Rong Zou",
+        "Yan Hu",
+        "Sherry Yang",
+        "Vikas Chandra",
+        "Jürgen Schmidhuber"
+      ],
+      "abstract": "Recursive self-improvement (RSI) is moving from thought experiments to deployed AI systems. LLM agents now rewrite their own codebases or prompts, scientific discovery pipelines schedule continual fine-tuning, and robotics stacks patch controllers from streaming telemetry, even improving product-level code. The ICLR 2026 Workshop on AI with Recursive Self-Improvement brings together researchers to discuss a simple question with big consequences: how do we build the algorithmic foundations for powerful and reliable self-improving AI systems? As loops that update weights, rewrite prompts, or adapt controllers move from labs into production, we will surface the methods that work - how to design, evaluate, and govern these loops without hand-waving. This workshop examines algorithms for self-improvement across experience learning, synthetic data pipelines, multimodal agentic systems, weak-to-strong generalization, and inference-time scaling, and will discuss and refine methods for recursive self-improvement. In short, we care about loops that actually get better - and can show it. To give the workshop a clear spine, we organize contributions around five lenses: change targets inside the system, temporal regime of adaptation, mechanisms and drivers, operating contexts, and evidence of improvement. This framing synthesizes recent perspectives on self-evolving agents while grounding them in practical, auditable deployment settings. We are paradigm-agnostic: we welcome work on foundation models, agent frameworks, robots, learning algorithms and optimizers, control and program synthesis, as well as data and infrastructure systems and evaluation tooling that enable recursive self-improvement.\n\nShow more",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000796",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "2nd Workshop on World Models: Understanding, Modelling and Scaling",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Mengyue Yang",
+        "Xidong Feng",
+        "Nick Hansen",
+        "Francesco Faccio",
+        "Dima Damen"
+      ],
+      "abstract": "The second ICLR Workshop on World Models explores scalable frameworks that unify generative modeling, sequential decision-making, multimodal learning, and causal reasoning. As world models mature from conceptual prototypes into system-level infrastructures for intelligence, this edition focuses on three core themes: (i) understanding and knowledge extraction of the world, (ii) large-scale training and rigorous evaluation, and (iii) cross-modal and control-centric scaling across language, vision, and action. Building on the success of the 2025 inaugural workshop with over 1,500 participants, the 2026 edition introduces systems-level discussions, robotics case studies, and failure-mode post-mortems emphasizing reproducibility, safety, and robustness. The workshop will culminate in a synthesis article summarizing insights from both editions-tracing the evolution of world model research, consolidating key lessons, and outlining future directions toward scalable, grounded, and causally coherent intelligence.",
+      "sessionUrl": "https://sites.google.com/view/iclr-2026-workshop-world-model/home",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "ReALM-GEN: Real-World Constrained and Preference-Aligned Flow- and Diffusion-based Generative Models",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Paris Giampouras",
+        "Morteza Mardani",
+        "Yingzhen Li",
+        "Giannis Daras",
+        "Johann Wenckstern",
+        "Charlotte Bunne",
+        "Johann Wenckstern"
+      ],
+      "abstract": "Diffusion and flow-based generative models power today's breakthroughs in Generative AI, showing impressive results in generating various types of data ranging from images and video to protein molecules and text. However, making them \\emph{respect real-world constraints} and \\emph{align with users' preferences} at post-training phase or at inference time, is still an unsolved challenge. ReALM- GEN at ICLR 2026 will bring together a diverse community of researchers spanning theoretical foundations of ML and generative models, vision, language, robotics, and scientific applications of AI, to explore bold ideas and practical tools for {\\it adapting and/or steering pretrained flow- and diffusion-based models} toward real-world constraint satisfaction and alignment with user preferences.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000793",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "The First Workshop on Efficient Spatial Reasoning",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Haozheng Luo",
+        "Yijiang Li",
+        "Zhenyu Pan",
+        "Ruiyang Qin",
+        "Weiyang Liu",
+        "Zhijian Liu",
+        "Manling Li",
+        "Nuno Vasconcelos"
+      ],
+      "abstract": "Spatial reasoning-the ability to understand, represent, and manipulate spatial relationships among objects, agents, and environments-has been profoundly advanced by large foundation models, enabling breakthroughs in 3D reconstruction, scene understanding, and vision-language reasoning. However, current models often rely on massive parameter scales or test-time extensions, introducing significant inefficiencies during training and inference. They also struggle with multi-step reasoning and the nuanced comprehension of complex spatial relations, where unreliable reasoning paths undermine both efficiency and accuracy. To address these challenges, we propose a workshop that unites researchers and practitioners from academia and industry to advance efficient spatial reasoning-approaches that improve generalization and robustness while remaining computationally practical. Topics include symbolic-neural integration, geometric deep learning, scalable reasoning architectures, and evaluation frameworks. Through invited talks and discussions, the workshop will examine efficiency-accuracy trade-offs, cross-modal reasoning, and real-world robustness, fostering collaboration across AI, cognitive science, and applied domains.",
+      "sessionUrl": "https://sites.google.com/ucsd.edu/efficient-spatial-reasoning/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Agentic AI in the Wild: From Hallucinations to Reliable Autonomy",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Grigorios Chrysos",
+        "Yixuan Li",
+        "Etsuko Ishii",
+        "Xuefeng Du",
+        "Katia Sycara"
+      ],
+      "abstract": "When we delegate tasks to AI agents-can we count on them to get it right? Agentic AI systems are increasingly stepping beyond static generation tasks into autonomous decision-making: scheduling meetings, booking travel, managing workflows, and assisting in scientific research. In these contexts, reliability is not just important-it is essential. Yet today's foundation models remain prone to a critical failure mode: hallucination, where outputs are factually incorrect, semantically implausible, or detached from reality. While hallucinations are concerning in any generative system, these challenges are amplified in agentic settings, where models execute sequences of decisions without continuous human oversight.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000810",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Principled Design for Trustworthy AI:  Interpretability, Robustness, and Safety Across Modalities",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Tsui-Wei (Lily) Weng",
+        "Nghia Hoang",
+        "Tengfei Ma",
+        "Jake Snell",
+        "francesco croce",
+        "Chandan Singh",
+        "Subarna Tripathi",
+        "Lam Nguyen"
+      ],
+      "abstract": "Modern AI systems, particularly large language models, vision-language models, and deep vision networks, are increasingly deployed in high-stakes settings such as healthcare, autonomous driving, and legal decisions. Yet, their lack of transparency, fragility to distributional shifts between train/test environments, and representation misalignment in emerging tasks and data/feature modalities raise serious concerns about their trustworthiness. This workshop focuses on developing trustworthy AI systems by principled design: models that are interpretable, robust, and aligned across the full lifecycle - from training and evaluation to inference-time behavior and deployment. We aim to unify efforts across modalities (language, vision, audio, and time series) and across technical areas spanning interpretability, robustness, uncertainty, safety, and policy. Our goal is to create a workshop platform for cross-disciplinary discussion and idea exchange across key dimensions of trustworthiness in modern AI systems. These include interpretability & mechanistic transparency, uncertainty quantification & risk assessment for safe operation, adversarial & distributional robustness, and representation & safety alignment across diverse tasks & modalities. By bringing together these efforts under a cohesive design paradigm, the workshop seeks to advance forward-looking solutions and foster community building around shared technical & societal challenges in building trustworthy AI systems. This workshop differs from the recent prior workshop efforts (e.g ICML'24 TiFA, NeurIPS'24 Interpretable AI, IJCAI'24 Trustworthy AI) in its unique focus on building Trustworthy AI systems by design and its broad coverage of the full machine learning lifecycle across both single- and multi-modal settings. Topics of interest include 6 pillars: (1) Interpretable and Intervenable Models: concept bottlenecks and modular architectures, neuron tracing and causal influence methods, mechanistic interpretability and concept-based reasoning, interpretability for control and real-time intervention; (2) Inference-Time Safety and Monitoring: reasoning trace auditing in LLMs and VLMs, inference-time safeguards and safety mechanisms, chain-of-thought consistency and hallucination detection, real-time monitoring and failure intervention mechanisms; (3) Multimodal Trust Challenges: grounding failures and cross-modal misalignment, safety in vision-language and deep vision systems, cross-modal alignment and robust multimodal reasoning, trust and uncertainty in video, audio, and time-series models; (4) Robustness and Threat Models: adversarial attacks and defenses, robustness to distributional, conceptual, and cascading shifts, formal verification methods and safety guarantees, robustness under streaming, online, or low-resource conditions; (5) Trust Evaluation and Responsible Deployment: human-AI trust calibration, confidence estimation, and uncertainty quantification, metrics for interpretability, alignment, and robustness, transparent, reproducible, and accountable deployment pipelines, safety alignment in fine-tuning, instruction-tuning, and retrieval-augmented systems. (6) Safety and Trustworthiness in LLM Agents: Autonomous tool use and agentic behavior in LLMs, Safety and failures in planning and action execution, emergent behaviors in multi-agent interactions, intervention and control in agent loops, alignment of long-horizon goals with user intent, auditing and debugging LLM agents in real-world deployment.\n\nShow more",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000808",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "4th ICLR Workshop on Machine Learning for Remote Sensing",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Esther Rolf",
+        "Bianca Zadrozny",
+        "Hannah Kerner",
+        "Marc Rußwurm",
+        "Evan Shelhamer",
+        "Gabriel Tseng",
+        "Ronny Hänsch",
+        "Hamed Alemohammad"
+      ],
+      "abstract": "Machine Learning for Remote Sensing (ML4RS) has rapidly evolved into a vibrant research area. Remote sensing provides the ML community with an unparalleled source of multimodal, spatiotemporal data-challenging algorithms to learn from vast, heterogeneous, and dynamically changing observations of our planet. Building on the success of ML4RS workshops at ICLR 2023-2025, the 4th ICLR Workshop on Machine Learning for Remote Sensing will focus on bridging the persistent gap between publication and practice. Our theme, \"ML4RS: From Publication to Practice,\" aims to connect research innovations with their real-world deployment. This year's workshop introduces two new elements: an interactive tutorials track and an opportunity for research track papers to be published in journal proceedings. Alongside invited provocations and debates on \"Foundation Models in ML4RS: Are We There Yet?\", our program highlights contributions across key challenges in the field-including data efficiency, interpretability, benchmarking, and global versus local model design. Building on ML4RS's tradition of highlighting speakers and challenges related to the ICLR host location, ML4RS 2026 emphasizes local engagement with Brazil's dynamic remote sensing and ML communities while continuing to cultivate a diverse, international ecosystem of researchers, practitioners, and end-users. By bridging methodological innovation and practical application, ML4RS 2026 aims to advance the scientific and societal impact of machine learning for Earth observation.\n\nShow more",
+      "sessionUrl": "https://ml-for-rs.github.io/iclr2026/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "The 2nd Workshop on Foundation Models for Science: Real-World Impact and Science-First Design",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Wuyang Chen",
+        "Yongji Wang",
+        "N. Benjamin Erichson",
+        "Laurence Perreault-Levasseur",
+        "Bo Li",
+        "Damian Borth",
+        "Swarat Chaudhuri"
+      ],
+      "abstract": "Scientific foundation models should be built for science, not for generic AI tastes or leaderboard prestige. This workshop centers problem-driven design: models that measurably advance real scientific inquiries, e.g., forecasting extreme climate events, accelerating materials discovery, understanding biological mechanisms, co-developed with domain experts and validated against field data, experiments, and downstream impact. We argue that foundation models for science must be built differently from language and vision. Scientific data are physical, causal, spatiotemporal, and often scarce or biased; objectives must reflect mechanistic fidelity, not just predictive accuracy. This calls for scientific priors and constraints, robust uncertainty quantification (UQ), and architectures that natively handle multi-modality (e.g., grids, meshes, spectra, time series, point clouds, text, images, code). It also demands tight integration with classical scientific tools (simulators, PDE solvers, optimization and inference engines, and HPC workflows) to yield hybrid systems that are faster, more accurate, and more trustworthy. We will highlight opportunities and hard problems unique to science: enforcing conservation laws and symmetries; learning across vast spatial and temporal scales; representing extreme events and tipping points; calibrating and validating UQ; and developing evaluation protocols that reward mechanistic insight and actionable reliability. The goal is a roadmap for building, training, and deploying scientific foundation models that accelerate discovery while respecting the structure of the natural world.\n\nShow more",
+      "sessionUrl": "https://fm-science.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Integrating Generative and Experimental Platforms for Biomolecular Design",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Chenghao Liu",
+        "Jarrid Rector-Brooks",
+        "Soojung Yang",
+        "Sidney Lisanza",
+        "Jacob Gershon",
+        "Lauren Hong",
+        "Pranam Chatterjee",
+        "Yoshua Bengio"
+      ],
+      "abstract": "Biomolecular design, through artificial engineering of proteins, ligands, nucleic acids, and cells, holds immense promise in addressing pressing medical, industrial, and environmental challenges. While generative machine learning has shown significant potential in this area, a disconnect exists with experimental biology: many ML research efforts prioritize static benchmark performance, potentially sidelining impactful biological applications. This workshop seeks to bridge this gap by bringing computationalists and experimentalists together, catalyzing a deeper interdisciplinary discourse. Together, we will explore the strengths and challenges of generative ML in biology, experimental integration of generative ML, and biological problems ready for ML. To attract high-quality and diverse research, we partnered with Nature Biotechnology for a special collection, and we created dedicated tracks for in-silico ML research and hybrid ML-experimental biology research. Our lineup features emerging leaders as speakers and renowned scientists as panelists, encapsulating a spectrum from high-throughput experimentation and computational biology to generative ML. To catalyze new collaborations, we will host a seed-grant competition for pairs of experimentalists and computationalists proposing fresh joint projects. To connect dry and wet lab practice, a wet-lab challenge sponsored by Adaptyv Bio will empirically evaluate protein design models. With a diverse organizing team and backed by industry sponsors, we dedicate the workshop to pushing the boundaries of ML's role in biology. This will be the third edition of this workshop following the previous versions of it we organized at ICLR 2024 and 2025.\n\nShow more",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000794",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems (MemAgents)",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Yunpu Ma",
+        "Ercong Nie",
+        "Keshuang Li",
+        "Wenyue Hua",
+        "Karolina Stanczak",
+        "Zhenguang Cai",
+        "Matthew E Taylor",
+        "Hinrich Schuetze"
+      ],
+      "abstract": "Agentic systems are already being deployed in high-stakes settings such as robotics, autonomous web interaction, and software maintenance, and their capabilities ultimately hinge on memory. While LLM memorization typically refers to static, in-weights retention of training data or recent context, agent memory is online, interaction-driven, and under the agent's control. Agentic systems must operate over extended horizons, learn from interaction, and adapt as goals and contexts shift. The limiting factor is increasingly not raw model capability but memory: how agents encode, retain, retrieve, and consolidate experience into useful knowledge for future decisions. Consistent with this view, recent commentary has argued that reinforcement learning can finally generalize when supplied with strong priors and explicit reasoning; however, current evaluations often underplay sequential accumulation of experience, where memory becomes decisive. In this context, we propose a workshop devoted to the memory layer for LLM-based agentic systems. Our premise is that long-lived, safe, and useful agents require a princi- pled memory substrate that supports single-shot learning of instances, context-aware retrieval, and consolidation into generalizable knowledge. This workshop aims to advance the design of the memory layer for agentic systems and to convene interdisciplinary researchers across reinforcement learning, memory research, large language models, agentic systems, and neuroscience, with an organizing team that spans these communities.\n\nShow more",
+      "sessionUrl": "https://sites.google.com/view/memagent-iclr26/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Generative AI in Genomics (Gen^2): Barriers and Frontiers",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Pinar Demetci",
+        "Maria Skoularidou",
+        "Dongshunyi Li",
+        "Renzo Soatto",
+        "Valentin De Bortoli",
+        "Tamara Broderick",
+        "Max Welling",
+        "Arnaud Doucet",
+        "Renzo Soatto"
+      ],
+      "abstract": "Generative AI (GenAI) is transforming biology, with breakthrough applications like directed evolution in protein science. The parallel ambition to engineer cellular and tissue states in genomics is now a major frontier, yet progress is hampered by domain-specific roadblocks. Our workshop is designed to bridge this gap between GenAI's promise and its practical applications towards this goal. With recent large-scale data initiatives launched to support GenAI models creating an inflection point for the field, timing is ideal. Through a field-grounding keynote by a genomics expert, invited talks by GenAI practitioners, contributed presentations, and a moderated debate, we will bring together experts and early-career scientists from machine learning and experimental genomics to collaboratively define a roadmap for progress. Our program will target core, interconnected challenges across the development pipeline: from data generation priorities and model design for genomic hierarchies to biologically-grounded evaluation frameworks and interpretability. By defining promising research directions and critical evaluations, our ultimate goal is to catalyze a new generation of models for tangible biological impact.",
+      "sessionUrl": "https://genai-in-genomics.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Learning Meaningful Representations of Life (LMRL) Workshop @ ICLR 2026",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Kristina Ulicna",
+        "Rebecca Boiarsky",
+        "Till Richter",
+        "Soo-Jeong Kim",
+        "Lazar Atanackovic",
+        "Jason Hartford",
+        "Romain Lopez",
+        "Thouis Jones"
+      ],
+      "abstract": "Learning Meaningful Representation Learning (LMRL) Workshop 2026 aims to identify the key bottlenecks in the development of virtual cells. Virtual cells are an in silico representation of a cell's behaviour and dynamics in both health and disease, with immense implications for research, diagnostics and therapeutic development. Building towards such a system begins with learning meaningful representations within individual modalities, which form the foundations for scaling the complex heterogeneous biological signals into a coherent model of a cell, and combining them into integrative models that capture biology's complexity. LMRL 2026 highlights emerging directions for overcoming these challenges by focusing on four core ingredients - causality in biological systems, generative modelling, interpretable representations, and leveraging virtual cells for real-world impact. This workshop aims to catalyse the advances in how we learn meaningful representations by bringing together the AIxBio community around a shared scientific roadmap.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000790",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Machine Learning for Genomics Explorations (MLGenX)",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Ehsan Hajiramezanali",
+        "Wei Qiu",
+        "Arman Hasanzadeh",
+        "Tommaso Biancalani",
+        "Mihaela van der Schaar",
+        "Fabian Theis",
+        "Aviv Regev"
+      ],
+      "abstract": "Despite rapid advances in data-driven biology, our limited understanding of the biological mechanisms underlying diseases continues to hinder therapeutic innovation. While genomics and multi-omics platforms have generated vast datasets, translating these into actionable biological insights remains an open challenge. At the same time, the emergence of foundation models and AI agents capable of reasoning, planning, and hypothesis generation offers a unique opportunity to reimagine how we approach discovery in biology. The 3rd MLGenX workshop aims to bring together the machine learning, genomics, and biology communities to explore this new frontier. This year's theme, \"From Reasoning to Experimentation: Closing the Loop Between AI Agents and the Biological Lab,\" focuses on adaptive, interpretable, and experiment-aware AI systems that learn from feedback and drive biological insight. By fostering interdisciplinary collaboration, benchmark sharing, and open discussion, MLGenX 2026 aims to chart the path toward lab-in-the-loop science and accelerate innovation in biology and drug discovery.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000787",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Deep Generative Model in Machine Learning:  Theory, Principle and Efficacy (2nd Workshop)",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Andi Han",
+        "Valentin De Bortoli",
+        "Mingyuan Bai",
+        "Sara Fridovich-Keil",
+        "Wei Huang",
+        "Taiji Suzuki",
+        "Qing Qu",
+        "Kenji Fukumizu"
+      ],
+      "abstract": "The 2nd Deep Generative Models in Machine Learning: Theories, Principles, and Efficacy (DeLTa 2026) workshop aims to bridge the gap between theory and practice in modern generative modeling. Deep Generative Models (DGMs)-including VAEs, GANs, flows, autoregressive, and diffusion models-have transformed AI research, yet fundamental theoretical and algorithmic challenges persist. DeLTa 2026 will bring together experts across statistics, optimization, and deep learning to address two central questions: (1) How can we develop unified theoretical frameworks to understand and design advanced generative models? and (2) How can we improve their efficiency, reliability, and transferability in real-world applications? This year's workshop expands its scope to include emerging frontiers such as flow matching, stochastic control, discrete and low-dimensional diffusion models, post-training theory, and large language diffusion models. By fostering dialogue between theoretical and applied communities, DeLTa 2026 seeks to establish principled foundations that guide scalable, interpretable, and safe generative modeling. The workshop will feature invited talks, contributed papers, and a dedicated short-paper track to encourage participation from early-career and underrepresented researchers. Building on the success of DeLTa 2025, we anticipate over 400 participants and vibrant interdisciplinary engagement at ICLR 2026.\n\nShow more",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000780",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Workshop on Scaling Post-training for LLMs (SPOT)",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Devvrit Khatri",
+        "Rishabh Tiwari",
+        "Lovish Madaan",
+        "Sewon Min",
+        "Gagan Jain",
+        "Nan Rosemary Ke",
+        "Kurt Keutzer",
+        "Prateek Jain"
+      ],
+      "abstract": "Post-training, encompassing techniques like Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL), is no longer a mere final step for task-specific adaptation. It is evolving into a compute-intensive phase in its own right, crucial for unlocking the full potential of foundational models and optimizing for critical downstream behaviors. Yet, the science of post-training, at scale, remains in its infancy. This workshop is motivated by the urgent need to establish rigorous and scalable methodologies, design choices, and approaches for post-training. While today's design choices in pre-training are made with a core focus on their ability to scale, a similar scaling laws mindset for post-training is largely absent. Our goal is to catalyze a systematic understanding of how post-training scales-across algorithms, data regimes, infrastructure, and objectives-and to identify the open questions that must be addressed to turn post-training into a science of its own. This workshop aims to bring together diverse perspectives from academic and industrial researchers and practitioners, to share practical experiences, and to outline a clear research direction toward building a principled science of post-training at scale.",
+      "sessionUrl": "https://spoticlr.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "I Can't Believe It's Not Better: Where Large Language Models need to improve",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Arno Blaas",
+        "Priya DCosta",
+        "Fan Feng",
+        "Zhaoying Pan",
+        "Nikolai Rozanov",
+        "Jennifer Williams",
+        "Yubin Xie",
+        "Rui Yang"
+      ],
+      "abstract": "Large language models (LLMs) have advanced rapidly, yet these advances have also highlighted gaps, such as hallucination, brittle reasoning, alignment failures, and hard efficiency/scaling constraints, especially in safety-critical settings. Ideally, evidence of such limitations would immediately lead to improvements to address these gaps, but compute constraints and unfruitful approaches often stall iteration; meanwhile, publication norms still prioritize positive results over informative null or negative findings. This workshop creates a venue for negative results on LLMs including: (i) rigorous studies that demonstrate and analyze limitations (e.g., leak-resistant reasoning probes, alignment stress tests, failure audits in critical applications), and (ii) attempts on well-established ideas that did not deliver expected gains, with analyses that identify failure modes, boundary conditions, and lessons learned. We welcome diagnostics, replications, counterfactual evaluations, and ablations that separate genuine capability from shortcut learning and clarify when methods break, why they break, and how to fix them. By aggregating evidence of negative results and actionable takeaways, the workshop aims to convert setbacks into robust principles and practices for building more reliable LLMs.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000772",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "The 2nd Workshop on Advances in Financial AI Workshop: Towards Agentic and Responsible Systems",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Nazanin Mehrasa",
+        "Ioana Boier",
+        "CHANYEOL CHOI",
+        "Yongjae Lee",
+        "Salwa Alamir",
+        "Simon Lucey"
+      ],
+      "abstract": "The financial domain is undergoing rapid transformation driven by advances in artificial intelligence. Building on last year's \"Advances in Financial AI: Opportunities, Innovations, and Responsible AI\" workshop, this second edition will focus particularly on the emergence of agentic systems in finance (autonomous or semi-autonomous agents, decision-making systems, multi-agent interactions), and the imperative of responsibility (ethics, fairness, accountability, transparency, robustness, regulation). This workshop aims to bring together researchers, practitioners, and policymakers to explore both the opportunities and risks of agentic financial AI systems, to share recent innovations, and to work towards foundations and best practices that ensure such systems are safe, trustworthy, and socially aligned.",
+      "sessionUrl": "https://iclr.cc/virtual/2026/workshop/10000788",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Latent & Implicit Thinking - Going Beyond CoT Reasoning",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Xinyi Wang",
+        "Nikunj Saunshi",
+        "Rui-Jie Zhu",
+        "Liu Yang",
+        "Yuntian Deng",
+        "Nishanth Dikkala",
+        "JIAHENG LIU",
+        "Zhiyuan Li"
+      ],
+      "abstract": "Recent advances in AI have revealed that explicit Chain-of-Thought (CoT) reasoning-where models verbalize intermediate reasoning steps-while powerful, is not the only or most efficient form of reasoning. The emerging paradigm of latent and implicit thinking explores how models can reason within their hidden representations or parameter space, using continuous latent states, recurrent or looped architectures, and non-autoregressive formulations such as diffusion or search-based models. This workshop, Latent & Implicit Thinking: Going Beyond CoT Reasoning (LIT), aims to unify these growing research efforts across difference areas. It will feature discussions on latent-space reasoning tokens, looped and recurrent architectures, latent generative paradigms, and theoretical insights on the nature of latent reasoning depth and efficiency. By bringing together experts from academia and industry, LIT will provide a forum for deep technical exchange and cross-disciplinary collaboration, fostering a new shared framework for understanding and enhancing reasoning in the latent space of neural networks.",
+      "sessionUrl": "https://latent-implicit-thinking.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "The 3rd Workshop on Test-Time Updates (TTU)",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Evan Shelhamer",
+        "francesco croce",
+        "Teresa Yeo",
+        "Shuaicheng Niu",
+        "Behzad Bozorgtabar",
+        "Xiaoxiao Li"
+      ],
+      "abstract": "The common paradigm of deep learning distinguishes the training stage, where model parameters are learnt on massive datasets, and deployment, during which the frozen models are tested on unseen data. In case the test-time data distribution changes, or the model needs to satisfy new requirements, a new training round is needed. Test-time updates (TTU), including test-time adaptation (TTA), post-training editing, in-context learning, and online continual learning, offer a complementary path to re-training: adapt when and where data shift occurs. Test-time updates are relevant across model size: they can be used to edit the knowledge in large foundation models for which re-training has prohibitive costs, as well as to adapt models on edge devices. Moreover, test-time adaption finds applications on a variety of tasks, from vision to natural language tasks or time series analysis, each presenting its specific challenges and methods. Finally, the goals of test-time approaches are multiple, spanning robustness, customization, and computational efficiency. In this workshop we want to bring together these different facets of test-time updates, connecting researchers focusing on topics typically treated as independent problems. We believe that this will offer a unique opportunity for cross-area collaborations. Sharing domain-specific challenges and solutions will bridge diverse communities, providing beneficial contamination. In fact, we will welcome works on methods, theory, systems, and evaluations for TTU/TTA across modalities (vision, language, audio, etc.), scales (from edge to cloud), and openness (open/closed models, black-/white-box scenarios). We will highlight principled objectives, safe/robust updates, practical parameterizations (inputs, features, adapters, heads), and cost-aware/green practices that respect latency, energy, and monetary budgets.\n\nShow more",
+      "sessionUrl": "https://ttu-iclr2026.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Workshop on Multi-Agent Learning and Its Opportunities in the Era of Generative AI",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Jianhong Wang",
+        "Caroline Wang",
+        "Feng Chen",
+        "Arrasy Rahman",
+        "Felipe Leno da Silva",
+        "Rupali Bhati",
+        "Bo Liu",
+        "Mustafa Mert Çelikok"
+      ],
+      "abstract": "The rapid emergence of generative AI has revitalized interest in multi-agent learning as a foundation for building systems that can reason, coordinate, and adapt across diverse environments. This workshop seeks to explore the growing convergence between multi-agent learning and generative AI, emphasizing their mutual potential to advance both theoretical understanding and practical capability. We focus on three interrelated fronts where this integration is most visible: (1) LLM-based multi-agent systems, where large language models interact, cooperate, or compete in structured settings; (2) real-world distributed system control, where multi-agent learning offers scalable and data-driven coordination strategies for complex real-world systems such as smart cities; and (3) human-AI interaction, where generative AI enables richer modelling of human preferences, values, and behaviours, supporting more human-aligned multi-agent systems. By bringing together researchers from machine learning, game theory, cognitive science, and human-computer interaction, this workshop aims to bridge methodological insights and emerging applications, fostering a shared agenda for the age of multi-agent generative AI systems.",
+      "sessionUrl": "https://iclr26-mal-gai.github.io/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    },
+    {
+      "title": "Representational Alignment",
+      "type": "Workshop",
+      "date": "2026-04-27",
+      "startTime": "05:00",
+      "endTime": "13:00",
+      "speaker": [
+        "Badr AlKhamissi",
+        "Brian Cheung",
+        "Dota Tianai Dong",
+        "Stephanie Fu",
+        "Erin Grant",
+        "Kushin Mukherjee",
+        "Ilia Sucholutsky",
+        "SIDDHARTH SURESH"
+      ],
+      "abstract": "Representational alignment among artificial and biological neural systems continues to be a rapidly growing research area across machine learning, neuroscience, and cognitive science communities; we counted 688 papers submitted to ICLR 2026 on this set of interdisciplinary topics, up from 443 papers submitted to ICLR 2025, and 303 to ICLR 2024, representing an average 51% yearly increase. The Re-Align Workshop at ICLR 2026 facilitates interdisciplinary discussion among these communities, highlights unexpected findings from last year's hackathon, and pushes beyond the foundational questions of alignment addressed in the previous workshops to focus on two novel and critical interdisciplinary applications of representational alignment: enabling neural control via representational alignment and evaluating the downstream behaviors enabled by representational alignment.",
+      "sessionUrl": "https://representational-alignment.github.io/2026/",
+      "sessionFormat": "BOTH",
+      "hasRecording": false
+    }
+  ]
+}
