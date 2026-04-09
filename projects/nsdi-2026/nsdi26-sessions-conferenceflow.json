@@ -1,23 +1,73 @@
 [
   {
-    "title": "Keynote Address",
+    "title": "Title TBA",
     "date": "2026-05-04",
     "start": "09:00",
     "end": "10:00",
     "session_type": "Keynote",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
-    "format": "In-Person",
-    "key_themes": [
-      "Title TBA"
-    ]
+    "topic": "Keynote Address",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation",
+    "format": "In-Person"
   },
   {
-    "title": "All Your Networks Are Belong to ML",
+    "title": "UNUM: A New Framework for Network Control",
     "date": "2026-05-04",
     "start": "10:30",
     "end": "12:10",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "All Your Networks Are Belong to ML",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/chen-jiayi",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Dave Maltz",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "BURST: Seeking High-Performance, Interoperability and Scalability in Soft-RDMA",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "All Your Networks Are Belong to ML",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/shen",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Dave Maltz",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "PolicyCache: Intra-flow Learning in Congestion Control",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "All Your Networks Are Belong to ML",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/tian",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Dave Maltz",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "All Your Networks Are Belong to ML",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang",
     "format": "In-Person",
     "speakers": [
       {
@@ -27,20 +77,88 @@
       }
     ],
     "key_themes": [
-      "UNUM: A New Framework for Network Control",
-      "BURST: Seeking High-Performance, Interoperability and Scalability in Soft-RDMA",
-      "PolicyCache: Intra-flow Learning in Congestion Control",
-      "FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference",
-      "SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling"
+      "All Your Networks Are Belong to ML"
     ]
   },
   {
-    "title": "The Care and Feeding of Networked Systems",
+    "title": "SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling",
     "date": "2026-05-04",
     "start": "10:30",
     "end": "12:10",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "All Your Networks Are Belong to ML",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/skiadopoulos",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Dave Maltz",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ],
+    "key_themes": [
+      "All Your Networks Are Belong to ML"
+    ]
+  },
+  {
+    "title": "Towards Performance Robustness for Microservices",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "The Care and Feeding of Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/saxena",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Daehyeok Kim",
+        "title": "Session Chair",
+        "company": "The University of Texas at Austin"
+      }
+    ]
+  },
+  {
+    "title": "Pilot Execution: Simulating Failure Recovery In Situ for Production Distributed Systems",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "The Care and Feeding of Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/li-zhenyu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Daehyeok Kim",
+        "title": "Session Chair",
+        "company": "The University of Texas at Austin"
+      }
+    ]
+  },
+  {
+    "title": "BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "The Care and Feeding of Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/guo-fengqian",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Daehyeok Kim",
+        "title": "Session Chair",
+        "company": "The University of Texas at Austin"
+      }
+    ]
+  },
+  {
+    "title": "Observability Is Eating Your Cores: Fine-Grained Analysis of Microservice Metrics with IPU-Hosted Sketches",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "The Care and Feeding of Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/cornacchia",
     "format": "In-Person",
     "speakers": [
       {
@@ -50,20 +168,88 @@
       }
     ],
     "key_themes": [
-      "Towards Performance Robustness for Microservices",
-      "Pilot Execution: Simulating Failure Recovery In Situ for Production Distributed Systems",
-      "BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication",
-      "Observability Is Eating Your Cores: Fine-Grained Analysis of Microservice Metrics with IPU-Hosted Sketches",
-      "MirrorNet: High-fidelity and Scalable Network Emulation for Software-defined WAN"
+      "The Care and Feeding of Networked Systems"
     ]
   },
   {
-    "title": "Mobile and Embedded Systems",
+    "title": "MirrorNet: High-fidelity and Scalable Network Emulation for Software-defined WAN",
     "date": "2026-05-04",
     "start": "10:30",
     "end": "12:10",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "The Care and Feeding of Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/miao",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Daehyeok Kim",
+        "title": "Session Chair",
+        "company": "The University of Texas at Austin"
+      }
+    ],
+    "key_themes": [
+      "The Care and Feeding of Networked Systems"
+    ]
+  },
+  {
+    "title": "Efficient and Resilient Sensor Data Delivery through Knowledge-Driven Communication",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "Mobile and Embedded Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/chen-xingyu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lili Qiu",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ]
+  },
+  {
+    "title": "KeepON: Supporting Deterministic Traffic on Standard NICs",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "Mobile and Embedded Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xue-chuanyu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lili Qiu",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ]
+  },
+  {
+    "title": "RASC: Enhancing Observability & Programmability in Smart Spaces",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "Mobile and Embedded Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/karanika",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lili Qiu",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ]
+  },
+  {
+    "title": "Decoding RSSI Compression in RFID: Dynamic RCS Modeling and Tag-Intrinsic Power Metrics for Reliable Backscatter Networks",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "Mobile and Embedded Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-jia",
     "format": "In-Person",
     "speakers": [
       {
@@ -73,20 +259,71 @@
       }
     ],
     "key_themes": [
-      "Efficient and Resilient Sensor Data Delivery through Knowledge-Driven Communication",
-      "KeepON: Supporting Deterministic Traffic on Standard NICs",
-      "RASC: Enhancing Observability & Programmability in Smart Spaces",
-      "Decoding RSSI Compression in RFID: Dynamic RCS Modeling and Tag-Intrinsic Power Metrics for Reliable Backscatter Networks",
-      "BBC: Enabling BLE to Support Bluetooth Classic"
+      "Mobile and Embedded Systems"
     ]
   },
   {
-    "title": "Overfitting the Internet",
+    "title": "BBC: Enabling BLE to Support Bluetooth Classic",
+    "date": "2026-05-04",
+    "start": "10:30",
+    "end": "12:10",
+    "session_type": "Paper Session",
+    "topic": "Mobile and Embedded Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/cho",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lili Qiu",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ],
+    "key_themes": [
+      "Mobile and Embedded Systems"
+    ]
+  },
+  {
+    "title": "SpliDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate",
     "date": "2026-05-04",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Overfitting the Internet",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/parvez",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Rachee Singh",
+        "title": "Session Chair",
+        "company": "Cornell University"
+      }
+    ]
+  },
+  {
+    "title": "Morphe: High-Fidelity Generative Video Streaming with Vision Foundation Model",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Overfitting the Internet",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/gong",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Rachee Singh",
+        "title": "Session Chair",
+        "company": "Cornell University"
+      }
+    ]
+  },
+  {
+    "title": "DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Overfitting the Internet",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-yuhan",
     "format": "In-Person",
     "speakers": [
       {
@@ -96,19 +333,88 @@
       }
     ],
     "key_themes": [
-      "SpliDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate",
-      "Morphe: High-Fidelity Generative Video Streaming with Vision Foundation Model",
-      "DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants",
-      "Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication"
+      "Overfitting the Internet"
     ]
   },
   {
-    "title": "Cloudy with a Chance of Tenants",
+    "title": "Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication",
     "date": "2026-05-04",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Overfitting the Internet",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/bhardwaj",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Rachee Singh",
+        "title": "Session Chair",
+        "company": "Cornell University"
+      }
+    ],
+    "key_themes": [
+      "Overfitting the Internet"
+    ]
+  },
+  {
+    "title": "HybridMesh: A Hardware-Software Hybrid Approach for Accelerating Service Mesh Ingress",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Cloudy with a Chance of Tenants",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/you",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Seojin Park",
+        "title": "Session Chair",
+        "company": "University of Southern California"
+      }
+    ]
+  },
+  {
+    "title": "Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-Cluster LLM Training at Scale",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Cloudy with a Chance of Tenants",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/li-shengwei",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Seojin Park",
+        "title": "Session Chair",
+        "company": "University of Southern California"
+      }
+    ]
+  },
+  {
+    "title": "Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Cloudy with a Chance of Tenants",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/heo",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Seojin Park",
+        "title": "Session Chair",
+        "company": "University of Southern California"
+      }
+    ]
+  },
+  {
+    "title": "HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Cloudy with a Chance of Tenants",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/lou",
     "format": "In-Person",
     "speakers": [
       {
@@ -118,19 +424,17 @@
       }
     ],
     "key_themes": [
-      "HybridMesh: A Hardware-Software Hybrid Approach for Accelerating Service Mesh Ingress",
-      "Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-Cluster LLM Training at Scale",
-      "Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming",
-      "HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds"
+      "Cloudy with a Chance of Tenants"
     ]
   },
   {
-    "title": "Storage Systems and Architecture",
+    "title": "FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline",
     "date": "2026-05-04",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Storage Systems and Architecture",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xu",
     "format": "In-Person",
     "speakers": [
       {
@@ -140,19 +444,136 @@
       }
     ],
     "key_themes": [
-      "FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline",
-      "DistVS: Large-scale Vector Search with Compute-Memory Disaggregation",
-      "Lemonshark: Asynchronous DAG-BFT with Early Finality",
-      "CacheCatalyst: Enhancing Web Caching for the Latency-Constrained Internet"
+      "Storage Systems and Architecture"
     ]
   },
   {
-    "title": "Clouds with Benefits",
+    "title": "DistVS: Large-scale Vector Search with Compute-Memory Disaggregation",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Storage Systems and Architecture",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/yin",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Raja Sambasivan",
+        "title": "Session Chair",
+        "company": "Tufts University"
+      }
+    ]
+  },
+  {
+    "title": "Lemonshark: Asynchronous DAG-BFT with Early Finality",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Storage Systems and Architecture",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/hu-michael",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Raja Sambasivan",
+        "title": "Session Chair",
+        "company": "Tufts University"
+      }
+    ]
+  },
+  {
+    "title": "CacheCatalyst: Enhancing Web Caching for the Latency-Constrained Internet",
+    "date": "2026-05-04",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Storage Systems and Architecture",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/hosseini",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Raja Sambasivan",
+        "title": "Session Chair",
+        "company": "Tufts University"
+      }
+    ]
+  },
+  {
+    "title": "ZooRoute: Enhancing Cloud-Scale Network Reliability via Candidate Path Provisioning and Overlay Proactive Rerouting",
     "date": "2026-05-04",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Clouds with Benefits",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/sun",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Maria Apostolaki",
+        "title": "Session Chair",
+        "company": "Princeton University"
+      }
+    ]
+  },
+  {
+    "title": "Remote TCP Connection Offload and Applications",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Clouds with Benefits",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/li-shuo",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Maria Apostolaki",
+        "title": "Session Chair",
+        "company": "Princeton University"
+      }
+    ]
+  },
+  {
+    "title": "Mako: Readily Deployable Congestion Control Achieving O(1)-Step Convergence",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Clouds with Benefits",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-zhaochen",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Maria Apostolaki",
+        "title": "Session Chair",
+        "company": "Princeton University"
+      }
+    ]
+  },
+  {
+    "title": "Bifrost: Alibaba's Next-Generation VPC Network with High-Performance Multipath Reliable Transport",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Clouds with Benefits",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/fan",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Maria Apostolaki",
+        "title": "Session Chair",
+        "company": "Princeton University"
+      }
+    ]
+  },
+  {
+    "title": "Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Clouds with Benefits",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan",
     "format": "In-Person",
     "speakers": [
       {
@@ -162,20 +583,17 @@
       }
     ],
     "key_themes": [
-      "ZooRoute: Enhancing Cloud-Scale Network Reliability via Candidate Path Provisioning and Overlay Proactive Rerouting",
-      "Remote TCP Connection Offload and Applications",
-      "Mako: Readily Deployable Congestion Control Achieving O(1)-Step Convergence",
-      "Bifrost: Alibaba's Next-Generation VPC Network with High-Performance Multipath Reliable Transport",
-      "Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training"
+      "Clouds with Benefits"
     ]
   },
   {
-    "title": "Managing Complexity at Scale",
+    "title": "R-TCP: A Framework to Optimize TCP Performance Over Rate-Limiting Networks",
     "date": "2026-05-04",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Managing Complexity at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhu",
     "format": "In-Person",
     "speakers": [
       {
@@ -185,20 +603,88 @@
       }
     ],
     "key_themes": [
-      "R-TCP: A Framework to Optimize TCP Performance Over Rate-Limiting Networks",
-      "Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications",
-      "CrossCheck: Input Validation for WAN Control Systems",
-      "Detecting and Diagnosing Errors in Serving Archived Web Pages",
-      "Skyline: A Cloud Centric Internet Monitoring Engine"
+      "Managing Complexity at Scale"
     ]
   },
   {
-    "title": "Trust but Verify",
+    "title": "Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications",
     "date": "2026-05-04",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Managing Complexity at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xie",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Qizhe Cai",
+        "title": "Session Chair",
+        "company": "University of Virginia and Enfabrica"
+      }
+    ],
+    "key_themes": [
+      "Managing Complexity at Scale"
+    ]
+  },
+  {
+    "title": "CrossCheck: Input Validation for WAN Control Systems",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Managing Complexity at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/krentsel",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Qizhe Cai",
+        "title": "Session Chair",
+        "company": "University of Virginia and Enfabrica"
+      }
+    ]
+  },
+  {
+    "title": "Detecting and Diagnosing Errors in Serving Archived Web Pages",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Managing Complexity at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhu-jingyuan",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Qizhe Cai",
+        "title": "Session Chair",
+        "company": "University of Virginia and Enfabrica"
+      }
+    ]
+  },
+  {
+    "title": "Skyline: A Cloud Centric Internet Monitoring Engine",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Managing Complexity at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/guo-shixian",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Qizhe Cai",
+        "title": "Session Chair",
+        "company": "University of Virginia and Enfabrica"
+      }
+    ]
+  },
+  {
+    "title": "Feedback-guided Adaptive Testing of Distributed Systems Designs",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Trust but Verify",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/li",
     "format": "In-Person",
     "speakers": [
       {
@@ -208,20 +694,136 @@
       }
     ],
     "key_themes": [
-      "Feedback-guided Adaptive Testing of Distributed Systems Designs",
-      "From Intention to Practice: Towards Systematic Validation of NIDS Rule Enforcement",
-      "Count-Based Abstractions for Performance Verification of Contention Points",
-      "Iceberg: Automated Verification of DNS Authoritative Engines via Just-in-Time Summarization",
-      "Eywa: Automating Model-Based Testing Using LLMs"
+      "Trust but Verify"
     ]
   },
   {
-    "title": "Learning at Line Rate",
+    "title": "From Intention to Practice: Towards Systematic Validation of NIDS Rule Enforcement",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Trust but Verify",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-huan",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ryan Beckett",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "Count-Based Abstractions for Performance Verification of Contention Points",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Trust but Verify",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/seyhani",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ryan Beckett",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "Iceberg: Automated Verification of DNS Authoritative Engines via Just-in-Time Summarization",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Trust but Verify",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xiang-iceberg",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ryan Beckett",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "Eywa: Automating Model-Based Testing Using LLMs",
+    "date": "2026-05-04",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Trust but Verify",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/mondal",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ryan Beckett",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "Making Logic a First-Class Citizen in Generative ML for Networking",
     "date": "2026-05-05",
     "start": "09:00",
     "end": "10:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Learning at Line Rate",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/he",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kevin Hsieh",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "JITServe: SLO-aware LLM Serving with Imprecise Request Information",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Learning at Line Rate",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-wei",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kevin Hsieh",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "Flexes: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Learning at Line Rate",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/gao-wei",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kevin Hsieh",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ]
+  },
+  {
+    "title": "FENIX: Enabling In-Network DNN Inference with FPGA-Enhanced Programmable Switches",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Learning at Line Rate",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/gao",
     "format": "In-Person",
     "speakers": [
       {
@@ -231,19 +833,17 @@
       }
     ],
     "key_themes": [
-      "Making Logic a First-Class Citizen in Generative ML for Networking",
-      "JITServe: SLO-aware LLM Serving with Imprecise Request Information",
-      "Flexes: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching",
-      "FENIX: Enabling In-Network DNN Inference with FPGA-Enhanced Programmable Switches"
+      "Learning at Line Rate"
     ]
   },
   {
-    "title": "Measuring at Scale",
+    "title": "DDoS Detection at the Scale of One Hundred Tbps",
     "date": "2026-05-05",
     "start": "09:00",
     "end": "10:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Measuring at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xiao",
     "format": "In-Person",
     "speakers": [
       {
@@ -251,21 +851,67 @@
         "title": "Session Chair",
         "company": "University of Washington"
       }
-    ],
-    "key_themes": [
-      "DDoS Detection at the Scale of One Hundred Tbps",
-      "SketchPipe: Toward Accurate Sketch-Based Network Measurement on Multi-Pipeline Switches with Splitless Sketch Placement",
-      "MORP4: A Dynamic Network Telescope",
-      "BayWatch: Practical Internet-Scale Topology Monitoring with Dynamic Bayesian Estimation"
     ]
   },
   {
-    "title": "From Silicon to Networked Systems",
+    "title": "SketchPipe: Toward Accurate Sketch-Based Network Measurement on Multi-Pipeline Switches with Splitless Sketch Placement",
     "date": "2026-05-05",
     "start": "09:00",
     "end": "10:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Measuring at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/chen-xiang",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kurtis Heimerl",
+        "title": "Session Chair",
+        "company": "University of Washington"
+      }
+    ]
+  },
+  {
+    "title": "MORP4: A Dynamic Network Telescope",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Measuring at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xygkou",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kurtis Heimerl",
+        "title": "Session Chair",
+        "company": "University of Washington"
+      }
+    ]
+  },
+  {
+    "title": "BayWatch: Practical Internet-Scale Topology Monitoring with Dynamic Bayesian Estimation",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Measuring at Scale",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/guan-zhongxu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kurtis Heimerl",
+        "title": "Session Chair",
+        "company": "University of Washington"
+      }
+    ]
+  },
+  {
+    "title": "SyncWise: Error-Aware Time Synchronization for Reconfigurable Data Center Networks",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "From Silicon to Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/lei-syncwise",
     "format": "In-Person",
     "speakers": [
       {
@@ -273,21 +919,67 @@
         "title": "Session Chair",
         "company": "The Hong Kong University of Science and Technology"
       }
-    ],
-    "key_themes": [
-      "SyncWise: Error-Aware Time Synchronization for Reconfigurable Data Center Networks",
-      "Building A CSFQ-Inspired Transport for Switched CXL Memory Pooling",
-      "Agora: An Open Research Framework for Optical Data Center Networks",
-      "PlanB: Efficient Software IPv6 Lookup with Linearized B+-Tree"
     ]
   },
   {
-    "title": "Smart Pipes, Smarter Learning",
+    "title": "Building A CSFQ-Inspired Transport for Switched CXL Memory Pooling",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "From Silicon to Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/guo-zerui",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kai Chen",
+        "title": "Session Chair",
+        "company": "The Hong Kong University of Science and Technology"
+      }
+    ]
+  },
+  {
+    "title": "Agora: An Open Research Framework for Optical Data Center Networks",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "From Silicon to Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/lei-optical",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kai Chen",
+        "title": "Session Chair",
+        "company": "The Hong Kong University of Science and Technology"
+      }
+    ]
+  },
+  {
+    "title": "PlanB: Efficient Software IPv6 Lookup with Linearized B+-Tree",
+    "date": "2026-05-05",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "From Silicon to Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-zhihao",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kai Chen",
+        "title": "Session Chair",
+        "company": "The Hong Kong University of Science and Technology"
+      }
+    ]
+  },
+  {
+    "title": "Flare: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale",
     "date": "2026-05-05",
     "start": "10:50",
     "end": "12:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Smart Pipes, Smarter Learning",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/cui",
     "format": "In-Person",
     "speakers": [
       {
@@ -295,22 +987,135 @@
         "title": "Session Chair",
         "company": "Purdue University"
       }
-    ],
-    "key_themes": [
-      "Flare: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale",
-      "TurboTest: Learning When Less is Enough through Early Termination of Internet Speed Tests",
-      "Defeating Slow-and-Low Threats via Diffusion Model-Based Generative Inference",
-      "SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading",
-      "Duonet: Learning the Duality-Based Topology-Agnostic Update Operator for Lightweight Traffic Engineering in Changing Topologies"
     ]
   },
   {
-    "title": "Debugging Distributed Systems",
+    "title": "TurboTest: Learning When Less is Enough through Early Termination of Internet Speed Tests",
     "date": "2026-05-05",
     "start": "10:50",
     "end": "12:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Smart Pipes, Smarter Learning",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/manda",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Xiaoqi Chen",
+        "title": "Session Chair",
+        "company": "Purdue University"
+      }
+    ]
+  },
+  {
+    "title": "Defeating Slow-and-Low Threats via Diffusion Model-Based Generative Inference",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Smart Pipes, Smarter Learning",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/mirnajafizadeh",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Xiaoqi Chen",
+        "title": "Session Chair",
+        "company": "Purdue University"
+      }
+    ]
+  },
+  {
+    "title": "SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Smart Pipes, Smarter Learning",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/li-xingyi",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Xiaoqi Chen",
+        "title": "Session Chair",
+        "company": "Purdue University"
+      }
+    ]
+  },
+  {
+    "title": "Duonet: Learning the Duality-Based Topology-Agnostic Update Operator for Lightweight Traffic Engineering in Changing Topologies",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Smart Pipes, Smarter Learning",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-ximeng",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Xiaoqi Chen",
+        "title": "Session Chair",
+        "company": "Purdue University"
+      }
+    ]
+  },
+  {
+    "title": "EROICA: Online Performance Troubleshooting for Large-scale Model Training in Production",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Debugging Distributed Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/guan-yu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Chang Lou",
+        "title": "Session Chair",
+        "company": "University of Virginia"
+      }
+    ]
+  },
+  {
+    "title": "Supercharging Packet-Level Network Simulation of Large Model Training via Memoization and Fast-Forwarding",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Debugging Distributed Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/long",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Chang Lou",
+        "title": "Session Chair",
+        "company": "University of Virginia"
+      }
+    ]
+  },
+  {
+    "title": "Iris: Expressive Traffic Analysis for the Modern Internet",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Debugging Distributed Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/rossman",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Chang Lou",
+        "title": "Session Chair",
+        "company": "University of Virginia"
+      }
+    ]
+  },
+  {
+    "title": "Who Watches the Watchers? On the Reliability of Softwarizing Cloud Application Management",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Debugging Distributed Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/gu",
     "format": "In-Person",
     "speakers": [
       {
@@ -320,20 +1125,105 @@
       }
     ],
     "key_themes": [
-      "EROICA: Online Performance Troubleshooting for Large-scale Model Training in Production",
-      "Supercharging Packet-Level Network Simulation of Large Model Training via Memoization and Fast-Forwarding",
-      "Iris: Expressive Traffic Analysis for the Modern Internet",
-      "Who Watches the Watchers? On the Reliability of Softwarizing Cloud Application Management",
-      "From Source to Solution: Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely"
+      "Debugging Distributed Systems"
     ]
   },
   {
-    "title": "Scalable Storage Systems",
+    "title": "From Source to Solution: Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely",
     "date": "2026-05-05",
     "start": "10:50",
     "end": "12:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Debugging Distributed Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-jing",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Chang Lou",
+        "title": "Session Chair",
+        "company": "University of Virginia"
+      }
+    ],
+    "key_themes": [
+      "Debugging Distributed Systems"
+    ]
+  },
+  {
+    "title": "PD3: Prefetching Data with DPUs for Disaggregated Memory",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Scalable Storage Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/sankhe",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zili Meng",
+        "title": "Session Chair",
+        "company": "The Hong Kong University of Science and Technology"
+      }
+    ]
+  },
+  {
+    "title": "UpFuzz: Detecting Data Format Incompatibility Bugs During Distributed Storage System Upgrade",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Scalable Storage Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/han",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zili Meng",
+        "title": "Session Chair",
+        "company": "The Hong Kong University of Science and Technology"
+      }
+    ]
+  },
+  {
+    "title": "Libra: Flexible Request Partitioning and Scheduling for Serving Unbalanced and Dynamic LLM Workloads",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Scalable Storage Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/ruan-libra",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zili Meng",
+        "title": "Session Chair",
+        "company": "The Hong Kong University of Science and Technology"
+      }
+    ]
+  },
+  {
+    "title": "Come Hell or Still Water: Alleviating Tail Latency in Cloud Block Store (Operational Systems Track)",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Scalable Storage Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/hu-chaolei",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zili Meng",
+        "title": "Session Chair",
+        "company": "The Hong Kong University of Science and Technology"
+      }
+    ]
+  },
+  {
+    "title": "Wallet: Confidential Serverless Computing",
+    "date": "2026-05-05",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Scalable Storage Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/sabanic",
     "format": "In-Person",
     "speakers": [
       {
@@ -343,20 +1233,68 @@
       }
     ],
     "key_themes": [
-      "PD3: Prefetching Data with DPUs for Disaggregated Memory",
-      "UpFuzz: Detecting Data Format Incompatibility Bugs During Distributed Storage System Upgrade",
-      "Libra: Flexible Request Partitioning and Scheduling for Serving Unbalanced and Dynamic LLM Workloads",
-      "Come Hell or Still Water: Alleviating Tail Latency in Cloud Block Store (Operational Systems Track)",
-      "Wallet: Confidential Serverless Computing"
+      "Scalable Storage Systems"
     ]
   },
   {
-    "title": "Living Large in Shared Clouds",
+    "title": "Acadia: Scalable Low-Cost CXL Memory Pooling",
     "date": "2026-05-05",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Living Large in Shared Clouds",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhong",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Venkat Arun",
+        "title": "Session Chair",
+        "company": "The University of Texas at Austin"
+      }
+    ]
+  },
+  {
+    "title": "FluidRL: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Living Large in Shared Clouds",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-yongji",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Venkat Arun",
+        "title": "Session Chair",
+        "company": "The University of Texas at Austin"
+      }
+    ]
+  },
+  {
+    "title": "KUBEDIRECT: Unleashing the Full Power of the Cluster Manager for Serverless Computing",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Living Large in Shared Clouds",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/qi",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Venkat Arun",
+        "title": "Session Chair",
+        "company": "The University of Texas at Austin"
+      }
+    ]
+  },
+  {
+    "title": "FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Living Large in Shared Clouds",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/oliaro",
     "format": "In-Person",
     "speakers": [
       {
@@ -366,19 +1304,68 @@
       }
     ],
     "key_themes": [
-      "Acadia: Scalable Low-Cost CXL Memory Pooling",
-      "FluidRL: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs",
-      "KUBEDIRECT: Unleashing the Full Power of the Cluster Manager for Serverless Computing",
-      "FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees"
+      "Living Large in Shared Clouds"
     ]
   },
   {
-    "title": "Reliability Through Verification",
+    "title": "Express Lane to Efficiency and Reliability: Multi-Dimensional Control in Meta's Express Backbone Network",
     "date": "2026-05-05",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Reliability Through Verification",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/iqbal",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hongqiang Liu",
+        "title": "Session Chair",
+        "company": "Uber"
+      }
+    ]
+  },
+  {
+    "title": "Checkpoint Lite, Recover Right: Efficient Fault Tolerant Training of Mixture-of-Experts Models Using Sparse Checkpoints",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Reliability Through Verification",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/gandhi",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hongqiang Liu",
+        "title": "Session Chair",
+        "company": "Uber"
+      }
+    ]
+  },
+  {
+    "title": "MAE: More Adaptive Video Encoder for Consistent Low Latency in High-Quality Real-Time Communication",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Reliability Through Verification",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/meng",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hongqiang Liu",
+        "title": "Session Chair",
+        "company": "Uber"
+      }
+    ]
+  },
+  {
+    "title": "In Link We Trust: BFT at the Speed of CFT using Switches",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Reliability Through Verification",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zeno",
     "format": "In-Person",
     "speakers": [
       {
@@ -388,19 +1375,17 @@
       }
     ],
     "key_themes": [
-      "Express Lane to Efficiency and Reliability: Multi-Dimensional Control in Meta's Express Backbone Network",
-      "Checkpoint Lite, Recover Right: Efficient Fault Tolerant Training of Mixture-of-Experts Models Using Sparse Checkpoints",
-      "MAE: More Adaptive Video Encoder for Consistent Low Latency in High-Quality Real-Time Communication",
-      "In Link We Trust: BFT at the Speed of CFT using Switches"
+      "Reliability Through Verification"
     ]
   },
   {
-    "title": "Virtualization Meets the Network",
+    "title": "Controlling Arbitrary Internet Queues with Titrate",
     "date": "2026-05-05",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Virtualization Meets the Network",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-titrate",
     "format": "In-Person",
     "speakers": [
       {
@@ -410,19 +1395,139 @@
       }
     ],
     "key_themes": [
-      "Controlling Arbitrary Internet Queues with Titrate",
-      "Managing Congestion Control Heterogeneity on the Internet with Approximate Performance Isolation",
-      "The GOODPUT System: A Machine Learning-Driven Optimization Framework for Dynamic Spectrum Control in Heterogeneous WLANs",
-      "CStar Gateway: Augmenting Public Cloud Infrastructure for Heterogeneous Network Function Virtualization"
+      "Virtualization Meets the Network"
     ]
   },
   {
-    "title": "Clouds, Carefully Engineered",
+    "title": "Managing Congestion Control Heterogeneity on the Internet with Approximate Performance Isolation",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Virtualization Meets the Network",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/mishra",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Maria Apostolaki",
+        "title": "Session Chair",
+        "company": "Princeton University"
+      }
+    ],
+    "key_themes": [
+      "Virtualization Meets the Network"
+    ]
+  },
+  {
+    "title": "The GOODPUT System: A Machine Learning-Driven Optimization Framework for Dynamic Spectrum Control in Heterogeneous WLANs",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Virtualization Meets the Network",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-yu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Maria Apostolaki",
+        "title": "Session Chair",
+        "company": "Princeton University"
+      }
+    ]
+  },
+  {
+    "title": "CStar Gateway: Augmenting Public Cloud Infrastructure for Heterogeneous Network Function Virtualization",
+    "date": "2026-05-05",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Virtualization Meets the Network",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/li-haonan",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Maria Apostolaki",
+        "title": "Session Chair",
+        "company": "Princeton University"
+      }
+    ]
+  },
+  {
+    "title": "DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint",
     "date": "2026-05-05",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Clouds, Carefully Engineered",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhu-ruidong",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Session Char: Seojin Park",
+        "title": "Session Chair",
+        "company": "University of Southern California"
+      }
+    ]
+  },
+  {
+    "title": "MuxTune: Efficient Multi-Task LLM Fine-Tuning in Multi-Tenant Datacenters via Spatial-Temporal Backbone Multiplexing",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Clouds, Carefully Engineered",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xue-chunyu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Session Char: Seojin Park",
+        "title": "Session Chair",
+        "company": "University of Southern California"
+      }
+    ]
+  },
+  {
+    "title": "CCC: Re-Architecting Delay-based Congestion Control in Datacenter Networks",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Clouds, Carefully Engineered",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/jiang",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Session Char: Seojin Park",
+        "title": "Session Chair",
+        "company": "University of Southern California"
+      }
+    ]
+  },
+  {
+    "title": "Starfish: A Topology-Routing Co-Design for Small-Scale Data Centers",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Clouds, Carefully Engineered",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-starfish",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Session Char: Seojin Park",
+        "title": "Session Chair",
+        "company": "University of Southern California"
+      }
+    ]
+  },
+  {
+    "title": "HEDGE: Traffic Engineering with Probabilistic Link Capacities",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Clouds, Carefully Engineered",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/devraj",
     "format": "In-Person",
     "speakers": [
       {
@@ -432,20 +1537,17 @@
       }
     ],
     "key_themes": [
-      "DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint",
-      "MuxTune: Efficient Multi-Task LLM Fine-Tuning in Multi-Tenant Datacenters via Spatial-Temporal Backbone Multiplexing",
-      "CCC: Re-Architecting Delay-based Congestion Control in Datacenter Networks",
-      "Starfish: A Topology-Routing Co-Design for Small-Scale Data Centers",
-      "HEDGE: Traffic Engineering with Probabilistic Link Capacities"
+      "Clouds, Carefully Engineered"
     ]
   },
   {
-    "title": "When Systems Run Themselves",
+    "title": "CascadeNet: Generating Network Traffic with High-Fidelity Temporal Patterns",
     "date": "2026-05-05",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "When Systems Run Themselves",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/lu-runwei",
     "format": "In-Person",
     "speakers": [
       {
@@ -455,20 +1557,88 @@
       }
     ],
     "key_themes": [
-      "CascadeNet: Generating Network Traffic with High-Fidelity Temporal Patterns",
-      "Diagnosing and Repairing Distributed Routing Configurations Using Selective Symbolic Simulation",
-      "A Composable Emulation Framework for Whitebox Switches",
-      "Harp: Improving VPC Network Availability via Efficient Failure Detection and Rerouting in Tencent Cloud",
-      "Themis: Detecting Distributed Concurrency Bugs through RPC-Driven Race-Directed Test Generation and Fuzzing"
+      "When Systems Run Themselves"
     ]
   },
   {
-    "title": "From Fiber to Radio",
+    "title": "Diagnosing and Repairing Distributed Routing Configurations Using Selective Symbolic Simulation",
     "date": "2026-05-05",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "When Systems Run Themselves",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/yang",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Muhammad Shahbaz",
+        "title": "Session Chair",
+        "company": "University of Michigan"
+      }
+    ],
+    "key_themes": [
+      "When Systems Run Themselves"
+    ]
+  },
+  {
+    "title": "A Composable Emulation Framework for Whitebox Switches",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "When Systems Run Themselves",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/miao-whitebox",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Muhammad Shahbaz",
+        "title": "Session Chair",
+        "company": "University of Michigan"
+      }
+    ]
+  },
+  {
+    "title": "Harp: Improving VPC Network Availability via Efficient Failure Detection and Rerouting in Tencent Cloud",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "When Systems Run Themselves",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/hu-jiayu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Muhammad Shahbaz",
+        "title": "Session Chair",
+        "company": "University of Michigan"
+      }
+    ]
+  },
+  {
+    "title": "Themis: Detecting Distributed Concurrency Bugs through RPC-Driven Race-Directed Test Generation and Fuzzing",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "When Systems Run Themselves",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/cao",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Muhammad Shahbaz",
+        "title": "Session Chair",
+        "company": "University of Michigan"
+      }
+    ]
+  },
+  {
+    "title": "Bridging Storage and Execution: A Semantic Virtual Bus for On-Demand Application Streaming",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "From Fiber to Radio",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/lu-jun",
     "format": "In-Person",
     "speakers": [
       {
@@ -478,20 +1648,94 @@
       }
     ],
     "key_themes": [
-      "Bridging Storage and Execution: A Semantic Virtual Bus for On-Demand Application Streaming",
-      "QCON: Seamless QoE-Aware 5G Streaming via Multi-Connectivity",
-      "Law: Towards Consistent Low Latency in 802.11 Home Networks",
-      "Enabling SLO-Aware 5G Multi-Access Edge Computing with SMEC",
-      "Learning to Tune Optical WANs: A Field Deployment of Noise Models in Optical Networks"
+      "From Fiber to Radio"
     ]
   },
   {
-    "title": "When ML Meets Its Network",
+    "title": "QCON: Seamless QoE-Aware 5G Streaming via Multi-Connectivity",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "From Fiber to Radio",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/lee",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lili Qiu",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ],
+    "key_themes": [
+      "From Fiber to Radio"
+    ]
+  },
+  {
+    "title": "Law: Towards Consistent Low Latency in 802.11 Home Networks",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "From Fiber to Radio",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/shen-yibin",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lili Qiu",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ],
+    "key_themes": [
+      "From Fiber to Radio"
+    ]
+  },
+  {
+    "title": "Enabling SLO-Aware 5G Multi-Access Edge Computing with SMEC",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "From Fiber to Radio",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-xiao",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lili Qiu",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ]
+  },
+  {
+    "title": "Learning to Tune Optical WANs: A Field Deployment of Noise Models in Optical Networks",
+    "date": "2026-05-05",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "From Fiber to Radio",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/kataria",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lili Qiu",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ],
+    "key_themes": [
+      "From Fiber to Radio"
+    ]
+  },
+  {
+    "title": "Enabling AI Network Cross-Layer Design and Operations with Arcadia: A Simulation Platform at Scale",
     "date": "2026-05-06",
     "start": "09:00",
     "end": "10:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "When ML Meets Its Network",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-zhaodong",
     "format": "In-Person",
     "speakers": [
       {
@@ -499,21 +1743,101 @@
         "title": "Session Chair",
         "company": "University of Illinois at Urbana-Champaign"
       }
-    ],
-    "key_themes": [
-      "Enabling AI Network Cross-Layer Design and Operations with Arcadia: A Simulation Platform at Scale",
-      "GPUSynth: Maximizing Code Reuse in Simulation-Based Machine Learning System Performance Estimation",
-      "PrvTel: Lightweight Models for Private and Accurate Telemetry Data Retention",
-      "Seshat: Workload Characterization and Generation of Large Language Model Serving in Production"
     ]
   },
   {
-    "title": "Networked Resources, Virtualized",
+    "title": "GPUSynth: Maximizing Code Reuse in Simulation-Based Machine Learning System Performance Estimation",
     "date": "2026-05-06",
     "start": "09:00",
     "end": "10:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "When ML Meets Its Network",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/qin",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Francis Yan",
+        "title": "Session Chair",
+        "company": "University of Illinois at Urbana-Champaign"
+      }
+    ]
+  },
+  {
+    "title": "PrvTel: Lightweight Models for Private and Accurate Telemetry Data Retention",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "When ML Meets Its Network",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-yajie",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Francis Yan",
+        "title": "Session Chair",
+        "company": "University of Illinois at Urbana-Champaign"
+      }
+    ]
+  },
+  {
+    "title": "Seshat: Workload Characterization and Generation of Large Language Model Serving in Production",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "When ML Meets Its Network",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Francis Yan",
+        "title": "Session Chair",
+        "company": "University of Illinois at Urbana-Champaign"
+      }
+    ]
+  },
+  {
+    "title": "REAL: Emulating Control Plane at Simulator's Cost",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Networked Resources, Virtualized",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xia",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Anu Mercian",
+        "title": "Session Chair",
+        "company": "Google"
+      }
+    ]
+  },
+  {
+    "title": "ZOC: Elastic and Cost-Efficient Virtual SmartNIC Architecture for Cloud Physical Machines",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Networked Resources, Virtualized",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/guan-naixuan",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Anu Mercian",
+        "title": "Session Chair",
+        "company": "Google"
+      }
+    ]
+  },
+  {
+    "title": "SLATE: Service Layer Traffic Engineering",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Networked Resources, Virtualized",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/lim",
     "format": "In-Person",
     "speakers": [
       {
@@ -523,19 +1847,37 @@
       }
     ],
     "key_themes": [
-      "REAL: Emulating Control Plane at Simulator's Cost",
-      "ZOC: Elastic and Cost-Efficient Virtual SmartNIC Architecture for Cloud Physical Machines",
-      "SLATE: Service Layer Traffic Engineering",
-      "A Fast Solver-Free Algorithm for Traffic Engineering in Large-Scale Data Center Network"
+      "Networked Resources, Virtualized"
     ]
   },
   {
-    "title": "Hardware, Mobility, and Systems",
+    "title": "A Fast Solver-Free Algorithm for Traffic Engineering in Large-Scale Data Center Network",
     "date": "2026-05-06",
     "start": "09:00",
     "end": "10:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Networked Resources, Virtualized",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/mao",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Anu Mercian",
+        "title": "Session Chair",
+        "company": "Google"
+      }
+    ],
+    "key_themes": [
+      "Networked Resources, Virtualized"
+    ]
+  },
+  {
+    "title": "AVA: Towards Agentic Video Analytics with Vision Language Models",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Hardware, Mobility, and Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/yan",
     "format": "In-Person",
     "speakers": [
       {
@@ -545,19 +1887,139 @@
       }
     ],
     "key_themes": [
-      "AVA: Towards Agentic Video Analytics with Vision Language Models",
-      "Remembrall: Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs",
-      "Themis: Scheduling-Aware Buffer Management for HBM-Based Hybrid Buffers",
-      "SmartNIC-Enabled Live Migration for Storage-Optimized VMs with PYROCUMULUS"
+      "Hardware, Mobility, and Systems"
     ]
   },
   {
-    "title": "Neurons Meet Routers",
+    "title": "Remembrall: Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Hardware, Mobility, and Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/ramanujam",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yuanchao Shu",
+        "title": "Session Chair",
+        "company": "Zhejiang University"
+      }
+    ],
+    "key_themes": [
+      "Hardware, Mobility, and Systems"
+    ]
+  },
+  {
+    "title": "Themis: Scheduling-Aware Buffer Management for HBM-Based Hybrid Buffers",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Hardware, Mobility, and Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-zhiyu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yuanchao Shu",
+        "title": "Session Chair",
+        "company": "Zhejiang University"
+      }
+    ]
+  },
+  {
+    "title": "SmartNIC-Enabled Live Migration for Storage-Optimized VMs with PYROCUMULUS",
+    "date": "2026-05-06",
+    "start": "09:00",
+    "end": "10:20",
+    "session_type": "Paper Session",
+    "topic": "Hardware, Mobility, and Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhao-jiechen",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yuanchao Shu",
+        "title": "Session Chair",
+        "company": "Zhejiang University"
+      }
+    ]
+  },
+  {
+    "title": "Uber's Failover Architecture: Reconciling Reliability and Efficiency in Hyperscale Microservice Infrastructure",
     "date": "2026-05-06",
     "start": "10:50",
     "end": "12:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Neurons Meet Routers",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/bansal",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hong Xu",
+        "title": "Session Chair",
+        "company": "The Chinese University of Hong Kong"
+      }
+    ]
+  },
+  {
+    "title": "SYMPHONY: Improving Memory Management for LLM Inference Workloads",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Neurons Meet Routers",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/agarwal",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hong Xu",
+        "title": "Session Chair",
+        "company": "The Chinese University of Hong Kong"
+      }
+    ]
+  },
+  {
+    "title": "Defending against Traffic Analysis Attacks with Flexible In-Network Obfuscation",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Neurons Meet Routers",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/xie-guorui",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hong Xu",
+        "title": "Session Chair",
+        "company": "The Chinese University of Hong Kong"
+      }
+    ]
+  },
+  {
+    "title": "ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Neurons Meet Routers",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hong Xu",
+        "title": "Session Chair",
+        "company": "The Chinese University of Hong Kong"
+      }
+    ]
+  },
+  {
+    "title": "Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Neurons Meet Routers",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/cai",
     "format": "In-Person",
     "speakers": [
       {
@@ -567,20 +2029,68 @@
       }
     ],
     "key_themes": [
-      "Uber's Failover Architecture: Reconciling Reliability and Efficiency in Hyperscale Microservice Infrastructure",
-      "SYMPHONY: Improving Memory Management for LLM Inference Workloads",
-      "Defending against Traffic Analysis Attacks with Flexible In-Network Obfuscation",
-      "ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics",
-      "Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era"
+      "Neurons Meet Routers"
     ]
   },
   {
-    "title": "Self-Managing Networks",
+    "title": "PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving",
     "date": "2026-05-06",
     "start": "10:50",
     "end": "12:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Self-Managing Networks",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/fang",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Arpit Gupta, University of California",
+        "title": "Session Chair",
+        "company": "Santa Barbara"
+      }
+    ]
+  },
+  {
+    "title": "MoCE: A Mixture-of-Context Aware Experts Framework for Troubleshooting Internet-Scale Services",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Self-Managing Networks",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/harsh",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Arpit Gupta, University of California",
+        "title": "Session Chair",
+        "company": "Santa Barbara"
+      }
+    ]
+  },
+  {
+    "title": "MetaEase: Heuristic Analysis from Source Code via Symbolic-Guided Optimization",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Self-Managing Networks",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/karimi",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Arpit Gupta, University of California",
+        "title": "Session Chair",
+        "company": "Santa Barbara"
+      }
+    ]
+  },
+  {
+    "title": "CCEval: Accurately and Confidently Evaluating Performance Metrics of Congestion Control Algorithms for Datacenter Networks",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Self-Managing Networks",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-tianfeng",
     "format": "In-Person",
     "speakers": [
       {
@@ -590,20 +2100,37 @@
       }
     ],
     "key_themes": [
-      "PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving",
-      "MoCE: A Mixture-of-Context Aware Experts Framework for Troubleshooting Internet-Scale Services",
-      "MetaEase: Heuristic Analysis from Source Code via Symbolic-Guided Optimization",
-      "CCEval: Accurately and Confidently Evaluating Performance Metrics of Congestion Control Algorithms for Datacenter Networks",
-      "Predict, Prune, Play: Efficient Video Playback Optimization Under Device Diversity and Drift"
+      "Self-Managing Networks"
     ]
   },
   {
-    "title": "Security in Networked Systems",
+    "title": "Predict, Prune, Play: Efficient Video Playback Optimization Under Device Diversity and Drift",
     "date": "2026-05-06",
     "start": "10:50",
     "end": "12:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Self-Managing Networks",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/sharma",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Arpit Gupta, University of California",
+        "title": "Session Chair",
+        "company": "Santa Barbara"
+      }
+    ],
+    "key_themes": [
+      "Self-Managing Networks"
+    ]
+  },
+  {
+    "title": "Over-Threshold Multiparty Private Set Intersection for Collaborative Network Intrusion Detection",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Security in Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/arpaci",
     "format": "In-Person",
     "speakers": [
       {
@@ -613,20 +2140,85 @@
       }
     ],
     "key_themes": [
-      "Over-Threshold Multiparty Private Set Intersection for Collaborative Network Intrusion Detection",
-      "Secure Vickrey Auctions for Online Advertising",
-      "EZ-SAVE: Evaluation of Easy-to-Deploy Source Address Validation Policies",
-      "cc-pipe: Breaking Systemic Bottlenecks in RPKI Data Supply Chain with Concurrent and Conflict-Free Pipelines",
-      "A Systematic Threat Analysis and Practical Attacks of Automated Frequency Coordination Systems"
+      "Security in Networked Systems"
     ]
   },
   {
-    "title": "Designing Robust Networked Systems",
+    "title": "Secure Vickrey Auctions for Online Advertising",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Security in Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/bhatnagar",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Vasiliki Kalavri",
+        "title": "Session Chair",
+        "company": "Boston University"
+      }
+    ]
+  },
+  {
+    "title": "EZ-SAVE: Evaluation of Easy-to-Deploy Source Address Validation Policies",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Security in Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/scaglione",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Vasiliki Kalavri",
+        "title": "Session Chair",
+        "company": "Boston University"
+      }
+    ]
+  },
+  {
+    "title": "cc-pipe: Breaking Systemic Bottlenecks in RPKI Data Supply Chain with Concurrent and Conflict-Free Pipelines",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Security in Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/yu",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Vasiliki Kalavri",
+        "title": "Session Chair",
+        "company": "Boston University"
+      }
+    ]
+  },
+  {
+    "title": "A Systematic Threat Analysis and Practical Attacks of Automated Frequency Coordination Systems",
+    "date": "2026-05-06",
+    "start": "10:50",
+    "end": "12:30",
+    "session_type": "Paper Session",
+    "topic": "Security in Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/dong",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Vasiliki Kalavri",
+        "title": "Session Chair",
+        "company": "Boston University"
+      }
+    ]
+  },
+  {
+    "title": "Mortise: Auto-tuning Congestion Control to Optimize QoE via Network-Aware Parameter Optimization",
     "date": "2026-05-06",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Designing Robust Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/shen-yixin",
     "format": "In-Person",
     "speakers": [
       {
@@ -636,19 +2228,77 @@
       }
     ],
     "key_themes": [
-      "Mortise: Auto-tuning Congestion Control to Optimize QoE via Network-Aware Parameter Optimization",
-      "Harvesting Spare CPU Resources in Container Systems",
-      "Fractal: Fault-Tolerant Shell-Script Distribution",
-      "eXpressSFU: Toward Super-Scalable Video Conferencing with SmartNICs"
+      "Designing Robust Networked Systems"
     ]
   },
   {
-    "title": "Hot Data, Cold Data",
+    "title": "Harvesting Spare CPU Resources in Container Systems",
     "date": "2026-05-06",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Designing Robust Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/hall",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Behnaz Arzani",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ],
+    "key_themes": [
+      "Designing Robust Networked Systems"
+    ]
+  },
+  {
+    "title": "Fractal: Fault-Tolerant Shell-Script Distribution",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Designing Robust Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/huang",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Behnaz Arzani",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ],
+    "key_themes": [
+      "Designing Robust Networked Systems"
+    ]
+  },
+  {
+    "title": "eXpressSFU: Toward Super-Scalable Video Conferencing with SmartNICs",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Designing Robust Networked Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/tran",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Behnaz Arzani",
+        "title": "Session Chair",
+        "company": "Microsoft"
+      }
+    ],
+    "key_themes": [
+      "Designing Robust Networked Systems"
+    ]
+  },
+  {
+    "title": "ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Hot Data, Cold Data",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-zirui",
     "format": "In-Person",
     "speakers": [
       {
@@ -658,19 +2308,68 @@
       }
     ],
     "key_themes": [
-      "ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression",
-      "Latency-Aware Caching with Delayed Hits: From Bursty Traffic to Pipeline Architectures",
-      "Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching",
-      "Unleashing the Potential of Datacenter SSDs by Taming Performance Variability"
+      "Hot Data, Cold Data"
     ]
   },
   {
-    "title": "Virtualization Revisited",
+    "title": "Latency-Aware Caching with Delayed Hits: From Bursty Traffic to Pipeline Architectures",
     "date": "2026-05-06",
     "start": "14:00",
     "end": "15:20",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Hot Data, Cold Data",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/keren",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Qizhen Zhang",
+        "title": "Session Chair",
+        "company": "University of Toronto"
+      }
+    ]
+  },
+  {
+    "title": "Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Hot Data, Cold Data",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/ruan-cortex",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Qizhen Zhang",
+        "title": "Session Chair",
+        "company": "University of Toronto"
+      }
+    ]
+  },
+  {
+    "title": "Unleashing the Potential of Datacenter SSDs by Taming Performance Variability",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Hot Data, Cold Data",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/chaudhry",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Qizhen Zhang",
+        "title": "Session Chair",
+        "company": "University of Toronto"
+      }
+    ]
+  },
+  {
+    "title": "Agentix: An Efficient Serving Engine for LLM Agents as General Programs",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Virtualization Revisited",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/luo",
     "format": "In-Person",
     "speakers": [
       {
@@ -680,19 +2379,71 @@
       }
     ],
     "key_themes": [
-      "Agentix: An Efficient Serving Engine for LLM Agents as General Programs",
-      "Queue-Mem: Energy-Efficient Hardware Storage for Advanced Network Function Acceleration",
-      "Hierarchical Integration of WebAssembly in Serverless for Efficiency and Interoperability",
-      "Mitigating CPU Frontend for Complex Data Plane Applications"
+      "Virtualization Revisited"
     ]
   },
   {
-    "title": "Cloud Systems, Shared and Scalable",
+    "title": "Queue-Mem: Energy-Efficient Hardware Storage for Advanced Network Function Acceleration",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Virtualization Revisited",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/scazzariello",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Rodrigo Fonseca",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ],
+    "key_themes": [
+      "Virtualization Revisited"
+    ]
+  },
+  {
+    "title": "Hierarchical Integration of WebAssembly in Serverless for Efficiency and Interoperability",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Virtualization Revisited",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/baqershahi",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Rodrigo Fonseca",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ]
+  },
+  {
+    "title": "Mitigating CPU Frontend for Complex Data Plane Applications",
+    "date": "2026-05-06",
+    "start": "14:00",
+    "end": "15:20",
+    "session_type": "Paper Session",
+    "topic": "Virtualization Revisited",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/dang",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Rodrigo Fonseca",
+        "title": "Session Chair",
+        "company": "Microsoft Research"
+      }
+    ]
+  },
+  {
+    "title": "FAST: An Efficient Scheduler for All-to-All GPU Communication",
     "date": "2026-05-06",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Cloud Systems, Shared and Scalable",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/lei-yiran",
     "format": "In-Person",
     "speakers": [
       {
@@ -700,22 +2451,118 @@
         "title": "Session Chair",
         "company": "Georgia Institute of Technology"
       }
-    ],
-    "key_themes": [
-      "FAST: An Efficient Scheduler for All-to-All GPU Communication",
-      "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters",
-      "Medley: Optimizing Midgress Bandwidth for Commercial Live Streaming CDNs",
-      "Offloading Cloud Network Services at Production Scale with SONiC DASH SmartSwitch",
-      "AnyPro: Preference-Preserving Anycast Optimization based on Strategic AS-Path Prepending"
     ]
   },
   {
-    "title": "Distributed Data Systems",
+    "title": "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters",
     "date": "2026-05-06",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Cloud Systems, Shared and Scalable",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/hei",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ahmed Saeed",
+        "title": "Session Chair",
+        "company": "Georgia Institute of Technology"
+      }
+    ]
+  },
+  {
+    "title": "Medley: Optimizing Midgress Bandwidth for Commercial Live Streaming CDNs",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Cloud Systems, Shared and Scalable",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-haiping",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ahmed Saeed",
+        "title": "Session Chair",
+        "company": "Georgia Institute of Technology"
+      }
+    ]
+  },
+  {
+    "title": "Offloading Cloud Network Services at Production Scale with SONiC DASH SmartSwitch",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Cloud Systems, Shared and Scalable",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-shaofeng",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ahmed Saeed",
+        "title": "Session Chair",
+        "company": "Georgia Institute of Technology"
+      }
+    ]
+  },
+  {
+    "title": "AnyPro: Preference-Preserving Anycast Optimization based on Strategic AS-Path Prepending",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Cloud Systems, Shared and Scalable",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-minyuan",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ahmed Saeed",
+        "title": "Session Chair",
+        "company": "Georgia Institute of Technology"
+      }
+    ]
+  },
+  {
+    "title": "HCDN: Coordinated Stream Scheduling for Cost-Effective Live Video Delivery",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Distributed Data Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-liying",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zahaib Akhtar",
+        "title": "Session Chair",
+        "company": "Amazon and North Carolina State University"
+      }
+    ]
+  },
+  {
+    "title": "XLL: Cross-Layer Logging for Data Deduplication in Consensus-Based Storage",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Distributed Data Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/shawger",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zahaib Akhtar",
+        "title": "Session Chair",
+        "company": "Amazon and North Carolina State University"
+      }
+    ]
+  },
+  {
+    "title": "HyperEdge: An Edge CDN Infrastructure for Cost Efficient Video Streaming",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Distributed Data Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wei",
     "format": "In-Person",
     "speakers": [
       {
@@ -725,20 +2572,71 @@
       }
     ],
     "key_themes": [
-      "HCDN: Coordinated Stream Scheduling for Cost-Effective Live Video Delivery",
-      "XLL: Cross-Layer Logging for Data Deduplication in Consensus-Based Storage",
-      "HyperEdge: An Edge CDN Infrastructure for Cost Efficient Video Streaming",
-      "Co-Designing Traffic Control with NVMe-oF for Disaggregated Storage: A Comparative Study of Switched and Switchless SAN Architectures",
-      "Cost-effective and Reliable Global Internet Peering with Programmable Switches"
+      "Distributed Data Systems"
     ]
   },
   {
-    "title": "Sandboxes, Containers, and Beyond",
+    "title": "Co-Designing Traffic Control with NVMe-oF for Disaggregated Storage: A Comparative Study of Switched and Switchless SAN Architectures",
     "date": "2026-05-06",
     "start": "15:50",
     "end": "17:30",
     "session_type": "Paper Session",
-    "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+    "topic": "Distributed Data Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-chendong",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zahaib Akhtar",
+        "title": "Session Chair",
+        "company": "Amazon and North Carolina State University"
+      }
+    ],
+    "key_themes": [
+      "Distributed Data Systems"
+    ]
+  },
+  {
+    "title": "Cost-effective and Reliable Global Internet Peering with Programmable Switches",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Distributed Data Systems",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/miao-peering",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zahaib Akhtar",
+        "title": "Session Chair",
+        "company": "Amazon and North Carolina State University"
+      }
+    ]
+  },
+  {
+    "title": "KRAKENGUARD: Towards Fine-Grained eBPF Isolation",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Sandboxes, Containers, and Beyond",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/patel",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Eric Eide",
+        "title": "Session Chair",
+        "company": "University of Utah"
+      }
+    ]
+  },
+  {
+    "title": "OneSidedMW: Managing Disaggregated Memory Efficiently, Flexibly, and Securely with RNIC Offloading",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Sandboxes, Containers, and Beyond",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-zixuan",
     "format": "In-Person",
     "speakers": [
       {
@@ -748,11 +2646,67 @@
       }
     ],
     "key_themes": [
-      "KRAKENGUARD: Towards Fine-Grained eBPF Isolation",
-      "OneSidedMW: Managing Disaggregated Memory Efficiently, Flexibly, and Securely with RNIC Offloading",
-      "Syntra: Synthesizing Cross-Layer Controllers for Low-Latency Video Streaming",
-      "Net-P4ct: Enhanced WAN Bandwidth Fair Sharing Using P4 Programmable Switches",
-      "FRCC: Towards Provably Fair and Robust Congestion Control"
+      "Sandboxes, Containers, and Beyond"
+    ]
+  },
+  {
+    "title": "Syntra: Synthesizing Cross-Layer Controllers for Low-Latency Video Streaming",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Sandboxes, Containers, and Beyond",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/pan",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Eric Eide",
+        "title": "Session Chair",
+        "company": "University of Utah"
+      }
+    ],
+    "key_themes": [
+      "Sandboxes, Containers, and Beyond"
+    ]
+  },
+  {
+    "title": "Net-P4ct: Enhanced WAN Bandwidth Fair Sharing Using P4 Programmable Switches",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Sandboxes, Containers, and Beyond",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/chen",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Eric Eide",
+        "title": "Session Chair",
+        "company": "University of Utah"
+      }
+    ],
+    "key_themes": [
+      "Sandboxes, Containers, and Beyond"
+    ]
+  },
+  {
+    "title": "FRCC: Towards Provably Fair and Robust Congestion Control",
+    "date": "2026-05-06",
+    "start": "15:50",
+    "end": "17:30",
+    "session_type": "Paper Session",
+    "topic": "Sandboxes, Containers, and Beyond",
+    "url": "https://www.usenix.org/conference/nsdi26/presentation/agarwal-anup",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Eric Eide",
+        "title": "Session Chair",
+        "company": "University of Utah"
+      }
+    ],
+    "key_themes": [
+      "Sandboxes, Containers, and Beyond"
     ]
   }
 ]
