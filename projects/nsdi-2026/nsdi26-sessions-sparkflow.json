@@ -3,7 +3,7 @@
   "year": 2026,
   "sessions": [
     {
-      "title": "Title TBA",
+      "title": "Keynote Address",
       "type": "Keynote",
       "date": "2026-05-04",
       "startTime": "09:00",
@@ -14,12 +14,13 @@
       "topic": [
         "Keynote Address"
       ],
-      "publicationTitles": [
-        "Title TBA"
+      "speaker": [
+        "Amin Vahdat, Google"
       ],
       "affiliation": [
         "Google"
-      ]
+      ],
+      "abstract": "Amin Vahdat is a Fellow and Chief Technologist for AI Infrastructure at Google, where his team is responsible for delivering industry-leading infrastructure which spans custom silicon, data centers, network, and supply chain and operations. This infrastructure serves Alphabet, Google and the world, and Artificial Intelligence technologies that empower ML developers and solve customers' most pressing business challenges. In the past, he was Vice President and General Manager for Google's compute, storage, and network hardware and software infrastructure. Until 2019, he was the Technical Lead and Vice President for the Networking organization at Google. Before joining Google, Amin was the Science Applications International Corporation (SAIC) Professor of Computer Science and Engineering at UC San Diego (UCSD). He received his doctorate from the University of California Berkeley in computer science, and is a Fellow of the Association for Computing Machinery (ACM). Amin has been recognized with a number of awards, including the National Science Foundation (NSF) CAREER award, the UC Berkeley Distinguished EECS Alumni Award, the Alfred P. Sloan Fellowship, the Association for Computing Machinery's SIGCOMM Networking Systems Award, and the Duke University David and Janet Vaughn Teaching Award. Amin was awarded the SIGCOMM lifetime achievement award for his contributions to data center and wide area networks. He was inducted into the National Academy of Engineering in 2023 for his contributions to the design and implementation of datacenter and planet-scale networks that power cloud computer systems."
     },
     {
       "title": "UNUM: A New Framework for Network Control",
