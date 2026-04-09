@@ -15,7 +15,7 @@
         "Keynote Address"
       ],
       "speaker": [
-        "Amin Vahdat, Google"
+        "Amin Vahdat"
       ],
       "affiliation": [
         "Google"
@@ -35,7 +35,13 @@
         "All Your Networks Are Belong to ML"
       ],
       "speaker": [
-        "Dave Maltz, Microsoft"
+        "Jiayi Chen",
+        "Nihal Sharma",
+        "Debajit Chakraborty",
+        "Saurabh Agarwal",
+        "Jeffrey Zhou",
+        "Aditya Akella",
+        "Sanjay Shakkottai"
       ],
       "publicationTitles": [
         "UNUM: A New Framework for Network Control"
@@ -59,13 +65,29 @@
         "All Your Networks Are Belong to ML"
       ],
       "speaker": [
-        "Dave Maltz, Microsoft"
+        "Huijun Shen",
+        "Zelong Yue",
+        "Jian Yang",
+        "Zhuo Jiang",
+        "Lang An",
+        "Yulin Chen",
+        "Yong Zhang",
+        "Luochangqi Ding",
+        "Xiaolong Zhong",
+        "Zhihong Wang",
+        "Jie Ding",
+        "Hongyu Wu",
+        "Jianxi Ye",
+        "Xijin Yin",
+        "Xingyu Zhang",
+        "Xingyu Guo",
+        "Guo Chen"
       ],
       "publicationTitles": [
         "BURST: Seeking High-Performance, Interoperability and Scalability in Soft-RDMA"
       ],
       "affiliation": [
-        "ByteDance Inc",
+        "ByteDance Inc.",
         "Hunan University"
       ]
     },
@@ -82,13 +104,25 @@
         "All Your Networks Are Belong to ML"
       ],
       "speaker": [
-        "Dave Maltz, Microsoft"
+        "Han Tian",
+        "Han Wang",
+        "Wenbo Li",
+        "Xudong Liao",
+        "Decang Sun",
+        "Wenxue Li",
+        "Donghui Chen",
+        "Bin Huan",
+        "Senbo Fu",
+        "Junxue Zhang",
+        "Dian Shen",
+        "Kai Chen"
       ],
       "publicationTitles": [
         "PolicyCache: Intra-flow Learning in Congestion Control"
       ],
       "affiliation": [
         "Hong Kong University of Science and Technology",
+        "Huawei Technologies Co., Ltd.",
         "Southeast University",
         "University of Science and Technology of China"
       ]
@@ -106,13 +140,21 @@
         "All Your Networks Are Belong to ML"
       ],
       "speaker": [
-        "Dave Maltz, Microsoft"
+        "Bingyang Wu",
+        "Yinmin Zhong",
+        "Zili Zhang",
+        "Shengyu Liu",
+        "Fangyue Liu",
+        "Yuanhang Sun",
+        "Gang Huang",
+        "Xuanzhe Liu",
+        "Xin Jin"
       ],
       "publicationTitles": [
         "FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference"
       ],
       "affiliation": [
-        "Peking University"
+        "School of Computer Science, Peking University"
       ],
       "abstract": "Large language models (LLMs) power a new generation of interactive AI applications exemplified by ChatGPT. The interactive nature of these applications demands low latency for LLM inference. Existing LLM serving systems use run-tocompletion processing for inference jobs, which suffers from head-of-line blocking and long latency.  We present FastServe, a distributed LLM serving system which exploits the autoregressive pattern of LLM inference to enable preemption at the granularity of each output token. FastServe uses preemptive scheduling to minimize latency with a novel skip-join Multi-Level Feedback Queue scheduler. Based on the new semi information-agnostic setting of LLM inference, the scheduler leverages the input length information to assign an appropriate initial queue for each arrival job to join. Queues with higher priority than the one the job joins are skipped to reduce demotions. We design an efficient GPU memory management mechanism that proactively offloads and uploads intermediate state between GPU memory and host memory for LLM inference. Evaluation shows that compared to the state-of-the-art solution vLLM, FastServe improves the throughput by up to 6.1×."
     },
@@ -129,7 +171,12 @@
         "All Your Networks Are Belong to ML"
       ],
       "speaker": [
-        "Dave Maltz, Microsoft"
+        "Athinagoras Skiadopoulos",
+        "Mark Zhao",
+        "Swapnil Gandhi",
+        "Thomas Norrie",
+        "Shrijeet Mukherjee",
+        "Christos Kozyrakis"
       ],
       "publicationTitles": [
         "SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling"
@@ -156,7 +203,13 @@
         "The Care and Feeding of Networked Systems"
       ],
       "speaker": [
-        "Daehyeok Kim, The University of Texas at Austin"
+        "Divyanshu Saxena",
+        "Gaurav Vipat",
+        "Jiaxin Lin",
+        "Jingbo Wang",
+        "Isil Dillig",
+        "Sanjay Shakkottai",
+        "Aditya Akella"
       ],
       "publicationTitles": [
         "Towards Performance Robustness for Microservices"
@@ -180,7 +233,9 @@
         "The Care and Feeding of Networked Systems"
       ],
       "speaker": [
-        "Daehyeok Kim, The University of Texas at Austin"
+        "Zhenyu Li",
+        "Angting Cai",
+        "Chang Lou"
       ],
       "publicationTitles": [
         "Pilot Execution: Simulating Failure Recovery In Situ for Production Distributed Systems"
@@ -203,7 +258,16 @@
         "The Care and Feeding of Networked Systems"
       ],
       "speaker": [
-        "Daehyeok Kim, The University of Texas at Austin"
+        "Fengqian Guo",
+        "Yuhan Zhou",
+        "Longwei Jiang",
+        "Congcong Miao",
+        "Yuxin Liu",
+        "Chenren Xu",
+        "Hancheng Lu",
+        "Chang Wen Chen",
+        "Yaxiong Xie",
+        "Honghao Liu"
       ],
       "publicationTitles": [
         "BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication"
@@ -230,7 +294,10 @@
         "The Care and Feeding of Networked Systems"
       ],
       "speaker": [
-        "Daehyeok Kim, The University of Texas at Austin"
+        "Alessandro Cornacchia",
+        "Theophilus A. Benson",
+        "Muhammad Bilal",
+        "Marco Canini"
       ],
       "publicationTitles": [
         "Observability Is Eating Your Cores: Fine-Grained Analysis of Microservice Metrics with IPU-Hosted Sketches"
@@ -254,7 +321,17 @@
         "The Care and Feeding of Networked Systems"
       ],
       "speaker": [
-        "Daehyeok Kim, The University of Texas at Austin"
+        "Congcong Miao",
+        "Yuejie Wang",
+        "Jianming Wang",
+        "Xuefeng Ji",
+        "Guozhi Shan",
+        "Sirui Li",
+        "Pan Fang",
+        "Yanke Zhang",
+        "Jialin Li",
+        "Xianneng Zou",
+        "Guyue Liu"
       ],
       "publicationTitles": [
         "MirrorNet: High-fidelity and Scalable Network Emulation for Software-defined WAN"
@@ -279,7 +356,12 @@
         "Mobile and Embedded Systems"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Xingyu Chen",
+        "Zihao Feng",
+        "Wuqiong Zhao",
+        "Jianrong Ding",
+        "Ke Sun",
+        "Xinyu Zhang"
       ],
       "publicationTitles": [
         "Efficient and Resilient Sensor Data Delivery through Knowledge-Driven Communication"
@@ -304,7 +386,10 @@
         "Mobile and Embedded Systems"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Chuanyu Xue",
+        "Tianyu Zhang",
+        "Andrew Loveless",
+        "Song Han"
       ],
       "publicationTitles": [
         "KeepON: Supporting Deterministic Traffic on Standard NICs"
@@ -328,7 +413,11 @@
         "Mobile and Embedded Systems"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Anna Karanika",
+        "Kai-Siang Wang",
+        "Han-Ting Liang",
+        "Shalni Sundram",
+        "Indranil Gupta"
       ],
       "publicationTitles": [
         "RASC: Enhancing Observability & Programmability in Smart Spaces"
@@ -350,7 +439,15 @@
         "Mobile and Embedded Systems"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Jia Liu",
+        "Yifei Ma",
+        "Xingyu Chen",
+        "Haipeng Dai",
+        "He Huang",
+        "Zihao Lin",
+        "Wei Zheng",
+        "Junzhao Du",
+        "Guihai Chen"
       ],
       "publicationTitles": [
         "Decoding RSSI Compression in RFID: Dynamic RCS Modeling and Tag-Intrinsic Power Metrics for Reliable Backscatter Networks"
@@ -375,7 +472,8 @@
         "Mobile and Embedded Systems"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Hsun-Wei Cho",
+        "Kang G. Shin"
       ],
       "publicationTitles": [
         "BBC: Enabling BLE to Support Bluetooth Classic"
@@ -398,12 +496,19 @@
         "Overfitting the Internet"
       ],
       "speaker": [
-        "Rachee Singh, Cornell University"
+        "Murayyiam Parvez",
+        "Annus Zulfiqar",
+        "Roman Beltiukov",
+        "Shir Landau Feibish",
+        "Walter Willinger",
+        "Arpit Gupta",
+        "Muhammad Shahbaz"
       ],
       "publicationTitles": [
         "SpliDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate"
       ],
       "affiliation": [
+        "NIKSUN, Inc.",
         "Purdue University",
         "UCSB",
         "University of Haifa",
@@ -423,15 +528,22 @@
         "Overfitting the Internet"
       ],
       "speaker": [
-        "Rachee Singh, Cornell University"
+        "Tianyi Gong",
+        "Zijian Cao",
+        "Zixing Zhang",
+        "Jiangkai Wu",
+        "Xinggong Zhang",
+        "Shuguang Cui",
+        "Fangxin Wang"
       ],
       "publicationTitles": [
         "Morphe: High-Fidelity Generative Video Streaming with Vision Foundation Model"
       ],
       "affiliation": [
-        "China",
+        "Chinese University of Hong Kong, Shenzhen, China",
         "Peking University",
-        "Shenzhen"
+        "The Chinese University of Hong Kong, Shenzhen",
+        "The Chinese University of Hongkong, Shenzhen"
       ]
     },
     {
@@ -447,7 +559,18 @@
         "Overfitting the Internet"
       ],
       "speaker": [
-        "Rachee Singh, Cornell University"
+        "Yuhan Liu",
+        "Yuyang Huang",
+        "Jiayi Yao",
+        "Shaoting Feng",
+        "Zhuohan Gu",
+        "Kuntai Du",
+        "Hanchen Li",
+        "Yihua Cheng",
+        "Junchen Jiang",
+        "Shan Lu",
+        "Madan Musuvathi",
+        "Esha Choukse"
       ],
       "publicationTitles": [
         "DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants"
@@ -471,7 +594,11 @@
         "Overfitting the Internet"
       ],
       "speaker": [
-        "Rachee Singh, Cornell University"
+        "Ankit Bhardwaj",
+        "Weiyang Wang",
+        "Jeremy Carin",
+        "Adam Belay",
+        "Manya Ghobadi"
       ],
       "publicationTitles": [
         "Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication"
@@ -495,7 +622,11 @@
         "Cloudy with a Chance of Tenants"
       ],
       "speaker": [
-        "Seojin Park, University of Southern California"
+        "Myoungsung You",
+        "Jaehyun Nam",
+        "Minjae Seo",
+        "Taejune Park",
+        "Seungwon Shin"
       ],
       "publicationTitles": [
         "HybridMesh: A Hardware-Software Hybrid Approach for Accelerating Service Mesh Ingress"
@@ -521,7 +652,19 @@
         "Cloudy with a Chance of Tenants"
       ],
       "speaker": [
-        "Seojin Park, University of Southern California"
+        "Shengwei Li",
+        "Qiaoling Chen",
+        "Zhiquan Lai",
+        "Penglong Jiao",
+        "Wenwen Qu",
+        "Kun Cai",
+        "Jiaxing Li",
+        "Peng Sun",
+        "Xingcheng Zhang",
+        "Xiaoge Deng",
+        "Kai Lu",
+        "Dongsheng Li",
+        "Tianwei Zhang"
       ],
       "publicationTitles": [
         "Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-Cluster LLM Training at Scale"
@@ -546,7 +689,10 @@
         "Cloudy with a Chance of Tenants"
       ],
       "speaker": [
-        "Seojin Park, University of Southern California"
+        "Jin Heo",
+        "Vic Wang",
+        "Ketan Bhardwaj",
+        "Ada Gavrilovska"
       ],
       "publicationTitles": [
         "Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming"
@@ -569,14 +715,21 @@
         "Cloudy with a Chance of Tenants"
       ],
       "speaker": [
-        "Seojin Park, University of Southern California"
+        "Chiheng Lou",
+        "Sheng Qi",
+        "Chao Jin",
+        "Dapeng Nie",
+        "Haoran Yang",
+        "Yu Ding",
+        "Xuanzhe Liu",
+        "Xin Jin"
       ],
       "publicationTitles": [
         "HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds"
       ],
       "affiliation": [
         "Alibaba Group",
-        "Peking University"
+        "School of Computer Science, Peking University"
       ],
       "abstract": "With the proliferation of large language model (LLM) variants, developers are turning to serverless computing for cost-efficient LLM deployment. However, public cloud providers often struggle to provide performance guarantees for serverless LLM serving due to significant cold start latency caused by substantial model sizes and complex runtime dependencies. To address this problem, we present HydraServe, a serverless LLM serving system designed to minimize cold start latency in public clouds. HydraServe proactively distributes models across servers to quickly fetch them, and overlaps cold-start stages within workers to reduce startup latency. Additionally, HydraServe strategically places workers across GPUs to avoid network contention among cold-start instances. To minimize resource consumption during cold starts, HydraServe further introduces pipeline consolidation that can merge groups of workers into individual serving endpoints. Our comprehensive evaluations under diverse settings demonstrate that HydraServe reduces the cold start latency by 1.7×-4.7× and improves service level objective attainment by 1.43×-1.74× compared to baselines."
     },
@@ -593,7 +746,19 @@
         "Storage Systems and Architecture"
       ],
       "speaker": [
-        "Raja Sambasivan, Tufts University"
+        "Jingwei Xu",
+        "Junbin Kang",
+        "Mingkai Dong",
+        "Mingyu Liu",
+        "Lu Zhang",
+        "Shaohong Guo",
+        "Ziyan Qiu",
+        "Mingzhen You",
+        "Ziyi Tian",
+        "Anqi Yu",
+        "Tianhong Ding",
+        "Xinwei Hu",
+        "Haibo Chen"
       ],
       "publicationTitles": [
         "FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline"
@@ -618,7 +783,16 @@
         "Storage Systems and Architecture"
       ],
       "speaker": [
-        "Raja Sambasivan, Tufts University"
+        "Peiqi Yin",
+        "Xiao Yan",
+        "Shiyuan Deng",
+        "Hui Li",
+        "Yifan Zhu",
+        "Xiangyu Zhi",
+        "Jingqi Mao",
+        "Ran Xu",
+        "Wenliang Zhang",
+        "James Cheng"
       ],
       "publicationTitles": [
         "DistVS: Large-scale Vector Search with Compute-Memory Disaggregation"
@@ -642,7 +816,11 @@
         "Storage Systems and Architecture"
       ],
       "speaker": [
-        "Raja Sambasivan, Tufts University"
+        "Michael Yiqing Hu",
+        "Hong Yao Alvin Yan",
+        "Yihan Yang",
+        "Xiang Liu",
+        "Jialin Li"
       ],
       "publicationTitles": [
         "Lemonshark: Asynchronous DAG-BFT with Early Finality"
@@ -664,14 +842,18 @@
         "Storage Systems and Architecture"
       ],
       "speaker": [
-        "Raja Sambasivan, Tufts University"
+        "Mohammad Hosseini",
+        "Sina Darabi",
+        "Hannaneh B. Pasandi",
+        "Patrick Eugster",
+        "Mahmood Choopani"
       ],
       "publicationTitles": [
         "CacheCatalyst: Enhancing Web Caching for the Latency-Constrained Internet"
       ],
       "affiliation": [
-        "Berkeley",
         "Shahid Beheshti University",
+        "University of California, Berkeley",
         "Università della Svizzera italiana",
         "Università della Svizzera italiana (USI)"
       ]
@@ -689,7 +871,28 @@
         "Clouds with Benefits"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Xiaoqing Sun",
+        "Xing Li",
+        "Xionglie Wei",
+        "Tian Pan",
+        "Ju Zhang",
+        "Bowen Yang",
+        "Yi Wang",
+        "Ye Yang",
+        "Yu Qi",
+        "Le Yu",
+        "Chenhao Jia",
+        "Zhanlong Zhang",
+        "Xinyu Chen",
+        "Xiaobo Xue",
+        "Jianyuan Lu",
+        "Shize Zhang",
+        "Enge Song",
+        "Yang Song",
+        "Rong Wen",
+        "Biao Lyu",
+        "Yang Xu",
+        "Shunmin Zhu"
       ],
       "publicationTitles": [
         "ZooRoute: Enhancing Cloud-Scale Network Reliability via Candidate Path Provisioning and Overlay Proactive Rerouting"
@@ -716,7 +919,10 @@
         "Clouds with Benefits"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Shuo Li",
+        "Steven Chien",
+        "Tianyi Gao",
+        "Michio Honda"
       ],
       "publicationTitles": [
         "Remote TCP Connection Offload and Applications"
@@ -738,7 +944,20 @@
         "Clouds with Benefits"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Zhaochen Zhang",
+        "Feiyang Xue",
+        "Rui Ning",
+        "Keqiang He",
+        "Gianni Antichi",
+        "Jiaqi Gao",
+        "Zhimeng Yin",
+        "Kexin Liu",
+        "Rui Li",
+        "Zhengqi Cui",
+        "Zhehao Lin",
+        "Peirui Cao",
+        "Guihai Chen",
+        "Chen Tian"
       ],
       "publicationTitles": [
         "Mako: Readily Deployable Congestion Control Achieving O(1)-Step Convergence"
@@ -764,7 +983,34 @@
         "Clouds with Benefits"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Zihao Fan",
+        "Xing Li",
+        "Ye Yang",
+        "Bo Jiang",
+        "Bowen Yang",
+        "Yilong Lv",
+        "Yuke Hong",
+        "Yinian Zhou",
+        "Junnan Cai",
+        "Jiayue Xu",
+        "Yunrui Hu",
+        "Zhao Gao",
+        "Ke Sun",
+        "Yimin Liu",
+        "Xiangdong Zhang",
+        "Enge Song",
+        "Jianyuan Lu",
+        "Xiaoqing Sun",
+        "Shize Zhang",
+        "Haonan Li",
+        "Mingxin Li",
+        "Changgang Zheng",
+        "Song Yang",
+        "Jun Liang",
+        "Biao Lyu",
+        "Rong Wen",
+        "Zhigang Zong",
+        "Shunmin Zhu"
       ],
       "publicationTitles": [
         "Bifrost: Alibaba's Next-Generation VPC Network with High-Performance Multipath Reliable Transport"
@@ -790,7 +1036,17 @@
         "Clouds with Benefits"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Tianyuan Wu",
+        "Lunxi Cao",
+        "Hanfeng Lu",
+        "Xiaoxiao Jiang",
+        "Yinghao Yu",
+        "Siran Yang",
+        "Guodong Yang",
+        "Jiamang Wang",
+        "Lin Qu",
+        "Liping Zhang",
+        "Wei Wang"
       ],
       "publicationTitles": [
         "Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training"
@@ -814,7 +1070,10 @@
         "Managing Complexity at Scale"
       ],
       "speaker": [
-        "Qizhe Cai, University of Virginia and Enfabrica"
+        "Shengtong Zhu",
+        "Yan Liu",
+        "Lingfeng Guo",
+        "Jack Yiu Bun Lee"
       ],
       "publicationTitles": [
         "R-TCP: A Framework to Optimize TCP Performance Over Rate-Limiting Networks"
@@ -838,7 +1097,12 @@
         "Managing Complexity at Scale"
       ],
       "speaker": [
-        "Qizhe Cai, University of Virginia and Enfabrica"
+        "Yizheng Xie",
+        "Di Jin",
+        "Oğuzhan Çölkesen",
+        "Vasiliki Kalavri",
+        "John Liagouris",
+        "Nikos Vasilakis"
       ],
       "publicationTitles": [
         "Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications"
@@ -862,7 +1126,13 @@
         "Managing Complexity at Scale"
       ],
       "speaker": [
-        "Qizhe Cai, University of Virginia and Enfabrica"
+        "Alexander Krentsel",
+        "Rishabh Iyer",
+        "Isaac Keslassy",
+        "Sylvia Ratnasamy",
+        "Bharath Modhipalli",
+        "Anees Shaikh",
+        "Rob Shakir"
       ],
       "publicationTitles": [
         "CrossCheck: Input Validation for WAN Control Systems"
@@ -887,7 +1157,9 @@
         "Managing Complexity at Scale"
       ],
       "speaker": [
-        "Qizhe Cai, University of Virginia and Enfabrica"
+        "Jingyuan Zhu",
+        "Huanchen Sun",
+        "Harsha V. Madhyastha"
       ],
       "publicationTitles": [
         "Detecting and Diagnosing Errors in Serving Archived Web Pages"
@@ -910,7 +1182,31 @@
         "Managing Complexity at Scale"
       ],
       "speaker": [
-        "Qizhe Cai, University of Virginia and Enfabrica"
+        "Shixian Guo",
+        "Ziqian Liu",
+        "Yangyang Bai",
+        "Yuan Chen",
+        "Kefei Liu",
+        "Qi Zhang",
+        "Songlin Liu",
+        "Yang Lv",
+        "Jianwei Hu",
+        "Gen Li",
+        "Zhenyang Zhong",
+        "SiSi Wen",
+        "Yongbin Dong",
+        "Feng Luo",
+        "Anjian Chen",
+        "Rui Han",
+        "Jiale Feng",
+        "Lingpei Meng",
+        "Siwan Chen",
+        "Hang Li",
+        "Shuai Xu",
+        "Juntao Zhong",
+        "Chaoran Hu",
+        "Yibo Huang",
+        "Yiming Qiu"
       ],
       "publicationTitles": [
         "Skyline: A Cloud Centric Internet Monitoring Engine"
@@ -934,7 +1230,9 @@
         "Trust but Verify"
       ],
       "speaker": [
-        "Ryan Beckett, Microsoft"
+        "Ao Li",
+        "Ankush Desai",
+        "Rohan Padhye"
       ],
       "publicationTitles": [
         "Feedback-guided Adaptive Testing of Distributed Systems Designs"
@@ -958,7 +1256,14 @@
         "Trust but Verify"
       ],
       "speaker": [
-        "Ryan Beckett, Microsoft"
+        "Huan Liu",
+        "Haoyu Chen",
+        "Biang Xu",
+        "Jingyao Zhou",
+        "Bin Yuan",
+        "Qiankun Zhang",
+        "Deqing Zou",
+        "Hai Jin"
       ],
       "publicationTitles": [
         "From Intention to Practice: Towards Systematic Validation of NIDS Rule Enforcement"
@@ -981,7 +1286,10 @@
         "Trust but Verify"
       ],
       "speaker": [
-        "Ryan Beckett, Microsoft"
+        "Amir Seyhani",
+        "Aarti Gupta",
+        "David Walker",
+        "Mina Tahmasbi Arashloo"
       ],
       "publicationTitles": [
         "Count-Based Abstractions for Performance Verification of Contention Points"
@@ -1004,7 +1312,10 @@
         "Trust but Verify"
       ],
       "speaker": [
-        "Ryan Beckett, Microsoft"
+        "Yuxing Xiang",
+        "Rilin Huang",
+        "Naiqian Zheng",
+        "Xin Jin"
       ],
       "publicationTitles": [
         "Iceberg: Automated Verification of DNS Authoritative Engines via Just-in-Time Summarization"
@@ -1026,7 +1337,12 @@
         "Trust but Verify"
       ],
       "speaker": [
-        "Ryan Beckett, Microsoft"
+        "Rajdeep Mondal",
+        "Rathin Singha",
+        "Todd Millstein",
+        "George Varghese",
+        "Ryan Beckett",
+        "Siva Kesava Reddy Kakarla"
       ],
       "publicationTitles": [
         "Eywa: Automating Model-Based Testing Using LLMs"
@@ -1049,7 +1365,9 @@
         "Learning at Line Rate"
       ],
       "speaker": [
-        "Kevin Hsieh, Microsoft"
+        "Hongyu Hè",
+        "Minhao Jin",
+        "Maria Apostolaki"
       ],
       "publicationTitles": [
         "Making Logic a First-Class Citizen in Generative ML for Networking"
@@ -1071,7 +1389,14 @@
         "Learning at Line Rate"
       ],
       "speaker": [
-        "Kevin Hsieh, Microsoft"
+        "Wei Zhang",
+        "Zhiyu Wu",
+        "Yi Mu",
+        "Rui Ning",
+        "Banruo Liu",
+        "Nikhil Sarda",
+        "Myungjin Lee",
+        "Fan Lai"
       ],
       "publicationTitles": [
         "JITServe: SLO-aware LLM Serving with Imprecise Request Information"
@@ -1081,7 +1406,7 @@
         "Google Labs",
         "Nanjing University",
         "University of Illinois Urbana-Champaign",
-        "Urbana-Champaign"
+        "University of Illinois, Urbana-Champaign"
       ]
     },
     {
@@ -1097,7 +1422,20 @@
         "Learning at Line Rate"
       ],
       "speaker": [
-        "Kevin Hsieh, Microsoft"
+        "Wei Gao",
+        "Yuheng Zhao",
+        "Dakai An",
+        "Tianyuan Wu",
+        "Lunxi Cao",
+        "Shaopan Xiong",
+        "Ju Huang",
+        "Weixun Wang",
+        "Siran Yang",
+        "Wenbo Su",
+        "Jiamang Wang",
+        "Lin Qu",
+        "Bo Zheng",
+        "Wei Wang"
       ],
       "publicationTitles": [
         "Flexes: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching"
@@ -1121,7 +1459,13 @@
         "Learning at Line Rate"
       ],
       "speaker": [
-        "Kevin Hsieh, Microsoft"
+        "Xiangyu Gao",
+        "Tong Li",
+        "Yinchao Zhang",
+        "Ziqiang Wang",
+        "Xiangsheng Zeng",
+        "Su Yao",
+        "Ke Xu"
       ],
       "publicationTitles": [
         "FENIX: Enabling In-Network DNN Inference with FPGA-Enhanced Programmable Switches"
@@ -1149,15 +1493,27 @@
         "Measuring at Scale"
       ],
       "speaker": [
-        "Kurtis Heimerl, University of Washington"
+        "Yunming Xiao",
+        "Xijun Luo",
+        "Youliang Jiang",
+        "Aike Wang",
+        "Hu Chen",
+        "Zhibin Zhou",
+        "Heng Yu",
+        "Jiahao Cao",
+        "Yong Jiang",
+        "Jilong Wang",
+        "Mingwei Xu",
+        "Yan Chen",
+        "Congcong Miao"
       ],
       "publicationTitles": [
         "DDoS Detection at the Scale of One Hundred Tbps"
       ],
       "affiliation": [
         "Northwestern University",
-        "Shenzhen and Tencent",
         "Tencent",
+        "The Chinese University of Hong Kong, Shenzhen and Tencent",
         "Tsinghua Shenzhen International Graduate School",
         "Tsinghua University"
       ]
@@ -1175,7 +1531,19 @@
         "Measuring at Scale"
       ],
       "speaker": [
-        "Kurtis Heimerl, University of Washington"
+        "Xiang Chen",
+        "Longlong Zhu",
+        "Linying Zheng",
+        "Hongyang Du",
+        "Dong Zhang",
+        "Jianshan Zhang",
+        "Xuan Liu",
+        "Qun Huang",
+        "Dusit Niyato",
+        "Haifeng Zhou",
+        "Chunming Wu",
+        "Hongyan Liu",
+        "Kui Ren"
       ],
       "publicationTitles": [
         "SketchPipe: Toward Accurate Sketch-Based Network Measurement on Multi-Pipeline Switches with Splitless Sketch Placement"
@@ -1203,7 +1571,15 @@
         "Measuring at Scale"
       ],
       "speaker": [
-        "Kurtis Heimerl, University of Washington"
+        "Iliana Maria Xygkou",
+        "Jithin K. Sojan",
+        "Dhruv Rauthan",
+        "Feng Zhu",
+        "Thomas Holterbach",
+        "Shane Alcock",
+        "Brian Flanagan",
+        "Ahmed Saeed",
+        "Alberto Dainotti"
       ],
       "publicationTitles": [
         "MORP4: A Dynamic Network Telescope"
@@ -1228,13 +1604,22 @@
         "Measuring at Scale"
       ],
       "speaker": [
-        "Kurtis Heimerl, University of Washington"
+        "Zhongxu Guan",
+        "Shuai Wang",
+        "Li Chen",
+        "zhaoteng yan",
+        "Jiaye Lin",
+        "Dan Li",
+        "Yong Jiang",
+        "Yingxin Wang",
+        "Ziqian Liu"
       ],
       "publicationTitles": [
         "BayWatch: Practical Internet-Scale Topology Monitoring with Dynamic Bayesian Estimation"
       ],
       "affiliation": [
         "China Telecom",
+        "China Telecom Cybersecurity Technology Co.,Ltd.",
         "Tsinghua Shenzhen International Graduate School",
         "Tsinghua University",
         "Zhongguancun Laboratory"
@@ -1253,7 +1638,11 @@
         "From Silicon to Networked Systems"
       ],
       "speaker": [
-        "Kai Chen, The Hong Kong University of Science and Technology"
+        "Yiming Lei",
+        "Jialong Li",
+        "Zhengqing Liu",
+        "Raj Joshi",
+        "Yiting Xia"
       ],
       "publicationTitles": [
         "SyncWise: Error-Aware Time Synchronization for Reconfigurable Data Center Networks"
@@ -1278,7 +1667,9 @@
         "From Silicon to Networked Systems"
       ],
       "speaker": [
-        "Kai Chen, The Hong Kong University of Science and Technology"
+        "Zerui Guo",
+        "Emily Shriver",
+        "Ming Liu"
       ],
       "publicationTitles": [
         "Building A CSFQ-Inspired Transport for Switched CXL Memory Pooling"
@@ -1301,7 +1692,14 @@
         "From Silicon to Networked Systems"
       ],
       "speaker": [
-        "Kai Chen, The Hong Kong University of Science and Technology"
+        "Yiming Lei",
+        "Federico De Marchi",
+        "Jialong Li",
+        "Raj Joshi",
+        "Shu-Ting Wang",
+        "Xiaoqi Chen",
+        "Balakrishnan Chandrasekaran",
+        "Yiting Xia"
       ],
       "publicationTitles": [
         "Agora: An Open Research Framework for Optical Data Center Networks"
@@ -1328,7 +1726,13 @@
         "From Silicon to Networked Systems"
       ],
       "speaker": [
-        "Kai Chen, The Hong Kong University of Science and Technology"
+        "Zhihao Zhang",
+        "Lanzheng Liu",
+        "Chen Chen",
+        "Huiba Li",
+        "Jiwu Shu",
+        "Windsor Hsu",
+        "Yiming Zhang"
       ],
       "publicationTitles": [
         "PlanB: Efficient Software IPv6 Lookup with Linearized B+-Tree"
@@ -1353,7 +1757,15 @@
         "Smart Pipes, Smarter Learning"
       ],
       "speaker": [
-        "Xiaoqi Chen, Purdue University"
+        "Weihao Cui",
+        "Ji Zhang",
+        "Han Zhao",
+        "Chao Liu",
+        "Jian Sha",
+        "Quan Chen",
+        "Bo Sang",
+        "Bingsheng He",
+        "Minyi Guo"
       ],
       "publicationTitles": [
         "Flare: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale"
@@ -1378,7 +1790,15 @@
         "Smart Pipes, Smarter Learning"
       ],
       "speaker": [
-        "Xiaoqi Chen, Purdue University"
+        "Haarika Manda",
+        "Manshi Sagar",
+        "Yogesh",
+        "Kartikay Singh",
+        "Xintong Zhao",
+        "Tarun Mangla",
+        "Phillipa Gill",
+        "Elizabeth Belding",
+        "Arpit Gupta"
       ],
       "publicationTitles": [
         "TurboTest: Learning When Less is Enough through Early Termination of Internet Speed Tests"
@@ -1386,9 +1806,9 @@
       "affiliation": [
         "Google",
         "IIT Delhi",
-        "Santa Barbara",
         "UC Santa Barbara",
-        "UCSB"
+        "UCSB",
+        "University of California, Santa Barbara"
       ]
     },
     {
@@ -1404,7 +1824,10 @@
         "Smart Pipes, Smarter Learning"
       ],
       "speaker": [
-        "Xiaoqi Chen, Purdue University"
+        "Seyed Mohammad Mehdi Mirnajafizadeh",
+        "Prashant Khanduri",
+        "DaeHun Nyang",
+        "Rhongho Jang"
       ],
       "publicationTitles": [
         "Defeating Slow-and-Low Threats via Diffusion Model-Based Generative Inference"
@@ -1427,7 +1850,22 @@
         "Smart Pipes, Smarter Learning"
       ],
       "speaker": [
-        "Xiaoqi Chen, Purdue University"
+        "Xingyi Li",
+        "Yadong Liu",
+        "Xiaojie Huang",
+        "Yiran Zhang",
+        "Shuai Wang",
+        "Shangguang Wang",
+        "Zhehao Lin",
+        "Yinben Xia",
+        "Chang Yu",
+        "Qihang Liu",
+        "Xuan Zhang",
+        "Hao Lu",
+        "Xiang Li",
+        "Zekun He",
+        "Yachen Wang",
+        "Xianneng Zou"
       ],
       "publicationTitles": [
         "SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading"
@@ -1452,7 +1890,12 @@
         "Smart Pipes, Smarter Learning"
       ],
       "speaker": [
-        "Xiaoqi Chen, Purdue University"
+        "Ximeng Liu",
+        "ZhuoRan Liu",
+        "Yingming Mao",
+        "Yatao Li",
+        "Shizhen Zhao",
+        "Xinbing Wang"
       ],
       "publicationTitles": [
         "Duonet: Learning the Duality-Based Topology-Agnostic Update Operator for Lightweight Traffic Engineering in Changing Topologies"
@@ -1476,7 +1919,19 @@
         "Debugging Distributed Systems"
       ],
       "speaker": [
-        "Chang Lou, University of Virginia"
+        "Yu Guan",
+        "Zhiyu Yin",
+        "Haoyu Chen",
+        "Sheng Cheng",
+        "Chaojie Yang",
+        "Kun Qian",
+        "Tianyin Xu",
+        "Pengcheng Zhang",
+        "Yang Zhang",
+        "Hanyu Zhao",
+        "Yong Li",
+        "Dennis Cai",
+        "Ennan Zhai"
       ],
       "publicationTitles": [
         "EROICA: Online Performance Troubleshooting for Large-scale Model Training in Production"
@@ -1499,13 +1954,23 @@
         "Debugging Distributed Systems"
       ],
       "speaker": [
-        "Chang Lou, University of Virginia"
+        "Fei Long",
+        "Kaihui Gao",
+        "Li Chen",
+        "Dan Li",
+        "Yiwei Zhang",
+        "Fei Gui",
+        "Yitao Xing",
+        "Wenjia Wei",
+        "Bingyang Liu"
       ],
       "publicationTitles": [
         "Supercharging Packet-Level Network Simulation of Large Model Training via Memoization and Fast-Forwarding"
       ],
       "affiliation": [
+        "Huawei Technologies Co., Ltd.",
         "Tsinghua University",
+        "Tsinghua University; Beijing University of Posts and Telecommunications",
         "Zhongguancun Laboratory"
       ]
     },
@@ -1522,7 +1987,10 @@
         "Debugging Distributed Systems"
       ],
       "speaker": [
-        "Chang Lou, University of Virginia"
+        "Thea Rossman",
+        "Diana Qing",
+        "Gerry Wan",
+        "Zakir Durumeric"
       ],
       "publicationTitles": [
         "Iris: Expressive Traffic Analysis for the Modern Internet"
@@ -1545,7 +2013,16 @@
         "Debugging Distributed Systems"
       ],
       "speaker": [
-        "Chang Lou, University of Virginia"
+        "Jiawei Tyler Gu",
+        "Zhen Tang",
+        "Yiming Su",
+        "Bogdan Alexandru Stoica",
+        "Xudong Sun",
+        "William X. Zheng",
+        "Yue Zhang",
+        "Akond Rahman",
+        "Chen Wang",
+        "Tianyin Xu"
       ],
       "publicationTitles": [
         "Who Watches the Watchers? On the Reliability of Softwarizing Cloud Application Management"
@@ -1570,13 +2047,19 @@
         "Debugging Distributed Systems"
       ],
       "speaker": [
-        "Chang Lou, University of Virginia"
+        "Jing Wang",
+        "Xiao Kong",
+        "Yunzhe Ni",
+        "Nian Wen",
+        "Jiaxing Zhang",
+        "Congcong Miao",
+        "Honghao Liu"
       ],
       "publicationTitles": [
         "From Source to Solution: Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely"
       ],
       "affiliation": [
-        "Tencent Inc"
+        "Tencent Inc."
       ],
       "abstract": "Cloud gaming requires all video frames to be delivered before a stringent delay deadline to ensure seamless gaming experience. However, meeting this requirement is challenging due to packet losses, which greatly magnifies the frame delay. Various FEC-based loss recovery schemes were recently proposed to address the packet loss issue. However, the source of such packet losses remains unrevealed. Our production measurement results from Tencent START cloud gaming platform have shown that 66.5% of packet losses are caused by network infrastructure's preferences against UDP and network congestion. Moreover, off-the-shelf video streaming systems like WebRTC could not detect retransmission loss efficiently. These issues completely nullified the performance gain of loss recovery schemes. To address this, we design and implement LADR, which combines loss avoidance, detection, and recovery to tackle packet losses. LADR incorporates the loss-based and delay-based congestion control algorithms and adopts RACK-TLP for loss avoidance and detection. Furthermore, LADR adopts an opportunistic FEC scheme to perform loss recovery. LADR has been rolled out at Tencent START cloud gaming platform, a large-scale cloud gaming provider, for one year. Production measurement results show that LADR only suffers from 0.049% packet loss rate (-59.8% vs. existing solutions) and delivers 99.87% of video frames within 100 milliseconds."
     },
@@ -1593,7 +2076,13 @@
         "Scalable Storage Systems"
       ],
       "speaker": [
-        "Zili Meng, The Hong Kong University of Science and Technology"
+        "Sidharth Sankhe",
+        "Felix Zhang",
+        "Umayrah Chonee",
+        "Sherman Lim",
+        "Jason Hu",
+        "Jialin Li",
+        "Qizhen Zhang"
       ],
       "publicationTitles": [
         "PD3: Prefetching Data with DPUs for Disaggregated Memory"
@@ -1616,7 +2105,14 @@
         "Scalable Storage Systems"
       ],
       "speaker": [
-        "Zili Meng, The Hong Kong University of Science and Technology"
+        "Ke Han",
+        "Sruthi P C",
+        "Yayu Wang",
+        "Yaoxu Song",
+        "Bishal Basak Papan",
+        "Junwen Yang",
+        "Pedro Fonseca",
+        "Yongle Zhang"
       ],
       "publicationTitles": [
         "UpFuzz: Detecting Data Format Incompatibility Bugs During Distributed Storage System Upgrade"
@@ -1640,7 +2136,13 @@
         "Scalable Storage Systems"
       ],
       "speaker": [
-        "Zili Meng, The Hong Kong University of Science and Technology"
+        "Chaoyi Ruan",
+        "Yinhe Chen",
+        "Dongqi Tian",
+        "Yandong Shi",
+        "Yongji Wu",
+        "Jialin Li",
+        "Cheng Li"
       ],
       "publicationTitles": [
         "Libra: Flexible Request Partitioning and Scheduling for Serving Unbalanced and Dynamic LLM Workloads"
@@ -1665,7 +2167,16 @@
         "Scalable Storage Systems"
       ],
       "speaker": [
-        "Zili Meng, The Hong Kong University of Science and Technology"
+        "Chaolei Hu",
+        "Kun Qian",
+        "Erci Xu",
+        "Yifan Shen",
+        "Haoran Zhang",
+        "Xue Li",
+        "Yuesheng Gu",
+        "Lingjun Zhu",
+        "Fengyuan Ren",
+        "Ennan Zhai"
       ],
       "publicationTitles": [
         "Come Hell or Still Water: Alleviating Tail Latency in Cloud Block Store (Operational Systems Track)"
@@ -1688,7 +2199,13 @@
         "Scalable Storage Systems"
       ],
       "speaker": [
-        "Zili Meng, The Hong Kong University of Science and Technology"
+        "Patrick Sabanic",
+        "Masanori Misono",
+        "Teofil Bodea",
+        "Julian Pritzi",
+        "Michael Hackl",
+        "Dimitrios Stavrakakis",
+        "Pramod Bhatotia"
       ],
       "publicationTitles": [
         "Wallet: Confidential Serverless Computing"
@@ -1711,7 +2228,13 @@
         "Living Large in Shared Clouds"
       ],
       "speaker": [
-        "Venkat Arun, The University of Texas at Austin"
+        "Daniel S. Berger",
+        "Yuhong Zhong",
+        "Fiodar Kazhamiaka",
+        "Pantea Zardoshti",
+        "Shuwei Teng",
+        "Mark Hill",
+        "Rodrigo Fonseca"
       ],
       "publicationTitles": [
         "Acadia: Scalable Low-Cost CXL Memory Pooling"
@@ -1736,7 +2259,14 @@
         "Living Large in Shared Clouds"
       ],
       "speaker": [
-        "Venkat Arun, The University of Texas at Austin"
+        "Yongji Wu",
+        "Xueshen Liu",
+        "Haizhong Zheng",
+        "Juncheng Gu",
+        "Beidi Chen",
+        "Z. Morley Mao",
+        "Arvind Krishnamurthy",
+        "Ion Stoica"
       ],
       "publicationTitles": [
         "FluidRL: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs"
@@ -1762,7 +2292,10 @@
         "Living Large in Shared Clouds"
       ],
       "speaker": [
-        "Venkat Arun, The University of Texas at Austin"
+        "Sheng Qi",
+        "Zhiquan Zhang",
+        "Xuanzhe Liu",
+        "Xin Jin"
       ],
       "publicationTitles": [
         "KUBEDIRECT: Unleashing the Full Power of the Cluster Manager for Serverless Computing"
@@ -1784,7 +2317,18 @@
         "Living Large in Shared Clouds"
       ],
       "speaker": [
-        "Venkat Arun, The University of Texas at Austin"
+        "Gabriele Oliaro",
+        "Xupeng Miao",
+        "Xinhao Cheng",
+        "Vineeth Kada",
+        "Mengdi Wu",
+        "Ruohan Gao",
+        "Yingyi Huang",
+        "Remi Delacourt",
+        "April Yang",
+        "Yingcheng Wang",
+        "Colin Unger",
+        "Zhihao Jia"
       ],
       "publicationTitles": [
         "FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees"
@@ -1812,7 +2356,18 @@
         "Reliability Through Verification"
       ],
       "speaker": [
-        "Hongqiang Liu, Uber"
+        "Faisal Iqbal",
+        "Vitaly Neganov",
+        "Brian Chang",
+        "Rong Rong",
+        "Yuanjun Yao",
+        "Marek Denis",
+        "Qin Zhang",
+        "Alexandru Manea",
+        "Anton Marchenko",
+        "Ulas Kozat",
+        "Aditya Akella",
+        "Ying Zhang"
       ],
       "publicationTitles": [
         "Express Lane to Efficiency and Reliability: Multi-Dimensional Control in Meta's Express Backbone Network"
@@ -1835,12 +2390,14 @@
         "Reliability Through Verification"
       ],
       "speaker": [
-        "Hongqiang Liu, Uber"
+        "Swapnil Gandhi",
+        "Christos Kozyrakis"
       ],
       "publicationTitles": [
         "Checkpoint Lite, Recover Right: Efficient Fault Tolerant Training of Mixture-of-Experts Models Using Sparse Checkpoints"
       ],
       "affiliation": [
+        "Stanford University",
         "Stanford University and NVIDIA"
       ]
     },
@@ -1857,7 +2414,11 @@
         "Reliability Through Verification"
       ],
       "speaker": [
-        "Hongqiang Liu, Uber"
+        "Hua Meng",
+        "Yufan Zhuang",
+        "Yasna Noushirvani",
+        "Xiangjie Huang",
+        "Zili Meng"
       ],
       "publicationTitles": [
         "MAE: More Adaptive Video Encoder for Consistent Low Latency in High-Quality Real-Time Communication"
@@ -1879,7 +2440,9 @@
         "Reliability Through Verification"
       ],
       "speaker": [
-        "Hongqiang Liu, Uber"
+        "Lior Zeno",
+        "Naama Ben-David",
+        "Mark Silberstein"
       ],
       "publicationTitles": [
         "In Link We Trust: BFT at the Speed of CFT using Switches"
@@ -1902,7 +2465,10 @@
         "Virtualization Meets the Network"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Anchengcheng Zhou",
+        "Joshua Lau",
+        "P. Brighten Godfrey",
+        "Maria Apostolaki"
       ],
       "publicationTitles": [
         "Controlling Arbitrary Internet Queues with Titrate"
@@ -1926,7 +2492,12 @@
         "Virtualization Meets the Network"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Ayush Mishra",
+        "Archit Bhatnagar",
+        "Yixuan Zhang",
+        "Ben Leong",
+        "Ya Gao",
+        "Raj Joshi"
       ],
       "publicationTitles": [
         "Managing Congestion Control Heterogeneity on the Internet with Approximate Performance Isolation"
@@ -1954,7 +2525,8 @@
         "Virtualization Meets the Network"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Yu Wang",
+        "Robert Dick"
       ],
       "publicationTitles": [
         "The GOODPUT System: A Machine Learning-Driven Optimization Framework for Dynamic Spectrum Control in Heterogeneous WLANs"
@@ -1976,7 +2548,32 @@
         "Virtualization Meets the Network"
       ],
       "speaker": [
-        "Maria Apostolaki, Princeton University"
+        "Haonan Li",
+        "Tian Pan",
+        "Jin Ke",
+        "Baohai Hu",
+        "Changgang Zheng",
+        "Enge Song",
+        "Zhi Xu",
+        "Ye Yang",
+        "Bowen Yang",
+        "Donglin Lai",
+        "Yisong Qiao",
+        "Bengbeng Xue",
+        "Jianyuan Lu",
+        "Xiaoqing Sun",
+        "Shize Zhang",
+        "Zihao Fan",
+        "Mingxin Li",
+        "Song Yang",
+        "Jun Liang",
+        "Xionglie Wei",
+        "Biao Lyu",
+        "Rong Wen",
+        "Zhigang Zong",
+        "Jiao Zhang",
+        "Tao Huang",
+        "Shunmin Zhu"
       ],
       "publicationTitles": [
         "CStar Gateway: Augmenting Public Cloud Infrastructure for Heterogeneous Network Function Virtualization"
@@ -2002,7 +2599,12 @@
         "Clouds, Carefully Engineered"
       ],
       "speaker": [
-        "Session Char: Seojin Park, University of Southern California"
+        "Ruidong Zhu",
+        "Mingcong Han",
+        "Yinmin Zhong",
+        "Wencong Xiao",
+        "Xuanzhe Liu",
+        "Xin Jin"
       ],
       "publicationTitles": [
         "DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint"
@@ -2025,7 +2627,13 @@
         "Clouds, Carefully Engineered"
       ],
       "speaker": [
-        "Session Char: Seojin Park, University of Southern California"
+        "Chunyu Xue",
+        "Yi Pan",
+        "Weihao Cui",
+        "Quan Chen",
+        "Shulai Zhang",
+        "Bingsheng He",
+        "Minyi Guo"
       ],
       "publicationTitles": [
         "MuxTune: Efficient Multi-Task LLM Fine-Tuning in Multi-Tenant Datacenters via Spatial-Temporal Backbone Multiplexing"
@@ -2048,15 +2656,23 @@
         "Clouds, Carefully Engineered"
       ],
       "speaker": [
-        "Session Char: Seojin Park, University of Southern California"
+        "Wanchun Jiang",
+        "Haoyang Li",
+        "Kai Wang",
+        "Yujie Hu",
+        "Xiao Han",
+        "Danfeng Shan",
+        "Fengyuan Ren",
+        "Jiawei Huang",
+        "Jianxin Wang"
       ],
       "publicationTitles": [
         "CCC: Re-Architecting Delay-based Congestion Control in Datacenter Networks"
       ],
       "affiliation": [
-        "China",
-        "Tsinghua University",
-        "Xi'an Jiaotong University"
+        "Department of Computer Science and Technology, Tsinghua University",
+        "School of Computer Science and Engineering, Central South University, China",
+        "School of Computer Science and Technology, Xi'an Jiaotong University"
       ]
     },
     {
@@ -2072,16 +2688,20 @@
         "Clouds, Carefully Engineered"
       ],
       "speaker": [
-        "Session Char: Seojin Park, University of Southern California"
+        "Anchengcheng Zhou",
+        "Vipul Harsh",
+        "Sangeetha Abdu Jyothi",
+        "Maria Apostolaki",
+        "Brighten Godfrey"
       ],
       "publicationTitles": [
         "Starfish: A Topology-Routing Co-Design for Small-Scale Data Centers"
       ],
       "affiliation": [
         "Conviva",
-        "Irvine",
         "Princeton University",
-        "UIUC"
+        "UIUC",
+        "University of California, Irvine"
       ]
     },
     {
@@ -2097,7 +2717,11 @@
         "Clouds, Carefully Engineered"
       ],
       "speaker": [
-        "Session Char: Seojin Park, University of Southern California"
+        "Arjun Devraj",
+        "Bill Owens",
+        "Umesh Krishnaswamy",
+        "Ying Zhang",
+        "Rachee Singh"
       ],
       "publicationTitles": [
         "HEDGE: Traffic Engineering with Probabilistic Link Capacities"
@@ -2123,7 +2747,16 @@
         "When Systems Run Themselves"
       ],
       "speaker": [
-        "Muhammad Shahbaz, University of Michigan"
+        "Runwei Lu",
+        "Yanran Deng",
+        "Ruixuan Li",
+        "Jinting Liu",
+        "Yuejie Wang",
+        "Xinyu Li",
+        "Deming Xu",
+        "Han Tian",
+        "Kai Chen",
+        "Guyue Liu"
       ],
       "publicationTitles": [
         "CascadeNet: Generating Network Traffic with High-Fidelity Temporal Patterns"
@@ -2150,7 +2783,18 @@
         "When Systems Run Themselves"
       ],
       "speaker": [
-        "Muhammad Shahbaz, University of Michigan"
+        "Rulan Yang",
+        "Gao Han",
+        "Hanyang Shao",
+        "Xiaoqiang Zheng",
+        "Xing Fang",
+        "Ziyi Wang",
+        "Lizhao You",
+        "Ruiting Zhou",
+        "Linghe Kong",
+        "Ennan Zhai",
+        "Qiao Xiang",
+        "Jiwu Shu"
       ],
       "publicationTitles": [
         "Diagnosing and Repairing Distributed Routing Configurations Using Selective Symbolic Simulation"
@@ -2176,7 +2820,18 @@
         "When Systems Run Themselves"
       ],
       "speaker": [
-        "Muhammad Shahbaz, University of Michigan"
+        "Congcong Miao",
+        "Xianneng Zou",
+        "Chuwen Zhang",
+        "Shiping Yang",
+        "Qihang Liu",
+        "Zhijie Yan",
+        "Yanke Zhang",
+        "Yong Jiang",
+        "Qiao Xiang",
+        "Xin Jin",
+        "Zili Meng",
+        "Ang Chen"
       ],
       "publicationTitles": [
         "A Composable Emulation Framework for Whitebox Switches"
@@ -2204,7 +2859,12 @@
         "When Systems Run Themselves"
       ],
       "speaker": [
-        "Muhammad Shahbaz, University of Michigan"
+        "Jiayu Hu",
+        "Feng Jin",
+        "Xianping Zhou",
+        "Kai Zhang",
+        "Zhen Shen",
+        "Yongkang Luo"
       ],
       "publicationTitles": [
         "Harp: Improving VPC Network Availability via Efficient Failure Detection and Rerouting in Tencent Cloud"
@@ -2227,7 +2887,10 @@
         "When Systems Run Themselves"
       ],
       "speaker": [
-        "Muhammad Shahbaz, University of Michigan"
+        "Hongchen Cao",
+        "Jingzhu He",
+        "Ting Dai",
+        "Guoliang Jin"
       ],
       "publicationTitles": [
         "Themis: Detecting Distributed Concurrency Bugs through RPC-Driven Race-Directed Test Generation and Fuzzing"
@@ -2251,7 +2914,10 @@
         "From Fiber to Radio"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Jun Lu",
+        "Jialin Li",
+        "Yaoxue Zhang",
+        "Ju Ren"
       ],
       "publicationTitles": [
         "Bridging Storage and Execution: A Semantic Virtual Bus for On-Demand Application Streaming"
@@ -2276,7 +2942,15 @@
         "From Fiber to Radio"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Goodsol Lee",
+        "Junhong Min",
+        "Seyeon Kim",
+        "Juheon Yi",
+        "Kwang Taik Kim",
+        "Mung Chiang",
+        "Sangtae Ha",
+        "Kyunghan Lee",
+        "Saewoong Bahk"
       ],
       "publicationTitles": [
         "QCON: Seamless QoE-Aware 5G Streaming via Multi-Connectivity"
@@ -2302,7 +2976,8 @@
         "From Fiber to Radio"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Yibin Shen",
+        "Zili Meng"
       ],
       "publicationTitles": [
         "Law: Towards Consistent Low Latency in 802.11 Home Networks"
@@ -2325,7 +3000,8 @@
         "From Fiber to Radio"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Xiao Zhang",
+        "Daehyeok Kim"
       ],
       "publicationTitles": [
         "Enabling SLO-Aware 5G Multi-Access Edge Computing with SMEC"
@@ -2347,7 +3023,11 @@
         "From Fiber to Radio"
       ],
       "speaker": [
-        "Lili Qiu, Microsoft Research"
+        "Bhaskar Kataria",
+        "Howard Hua",
+        "Andrea D Amico",
+        "Bill Owens",
+        "Rachee Singh"
       ],
       "publicationTitles": [
         "Learning to Tune Optical WANs: A Field Deployment of Noise Models in Optical Networks"
@@ -2372,13 +3052,29 @@
         "When ML Meets Its Network"
       ],
       "speaker": [
-        "Francis Yan, University of Illinois at Urbana-Champaign"
+        "Zhaodong Wang",
+        "Satyajeet Singh Ahuja",
+        "Xu Zhang",
+        "Yuhui Zhang",
+        "Max Noormohammadpour",
+        "Gregory R. Steinbrecher",
+        "Thomas Fuller",
+        "Xin Liu",
+        "Kevin Quirk",
+        "Mikel Jimenez Fernandez",
+        "Abhinav Triguna",
+        "Yan Cai",
+        "Steve Politis",
+        "Petr Lapukhov",
+        "Naader Hasani",
+        "Ying Zhang"
       ],
       "publicationTitles": [
         "Enabling AI Network Cross-Layer Design and Operations with Arcadia: A Simulation Platform at Scale"
       ],
       "affiliation": [
         "Meta",
+        "Meta Platforms, Inc",
         "Nvidia"
       ]
     },
@@ -2395,7 +3091,17 @@
         "When ML Meets Its Network"
       ],
       "speaker": [
-        "Francis Yan, University of Illinois at Urbana-Champaign"
+        "Jianxing Qin",
+        "Jingrong Chen",
+        "Xinhao Kong",
+        "Yongji Wu",
+        "Tianjun Yuan",
+        "Liang Luo",
+        "Zhaodong Wang",
+        "Ying Zhang",
+        "Tingjun Chen",
+        "Alvin R. Lebeck",
+        "Danyang Zhuo"
       ],
       "publicationTitles": [
         "GPUSynth: Maximizing Code Reuse in Simulation-Based Machine Learning System Performance Estimation"
@@ -2420,14 +3126,20 @@
         "When ML Meets Its Network"
       ],
       "speaker": [
-        "Francis Yan, University of Illinois at Urbana-Champaign"
+        "Yajie Zhou",
+        "Fuheng Zhao",
+        "Eric Wang",
+        "Ayse Coskun",
+        "Divyakant Agrawal",
+        "Amr El Abbadi",
+        "Zaoxing Liu"
       ],
       "publicationTitles": [
         "PrvTel: Lightweight Models for Private and Accurate Telemetry Data Retention"
       ],
       "affiliation": [
         "Boston University",
-        "Santa Barbara",
+        "University of California, Santa Barbara",
         "University of Maryland"
       ]
     },
@@ -2444,7 +3156,14 @@
         "When ML Meets Its Network"
       ],
       "speaker": [
-        "Francis Yan, University of Illinois at Urbana-Champaign"
+        "Yuxing Xiang",
+        "Xue Li",
+        "Kun Qian",
+        "Yan Zhang",
+        "Wenyuan Yu",
+        "Ennan Zhai",
+        "Xin Jin",
+        "Jingren Zhou"
       ],
       "publicationTitles": [
         "Seshat: Workload Characterization and Generation of Large Language Model Serving in Production"
@@ -2467,7 +3186,14 @@
         "Networked Resources, Virtualized"
       ],
       "speaker": [
-        "Anu Mercian, Google"
+        "Ze Xia",
+        "Hao Li",
+        "Jinyu Fu",
+        "Xin Wan",
+        "Yihan Dang",
+        "Danfeng Shan",
+        "Li Chen",
+        "Peng Zhang"
       ],
       "publicationTitles": [
         "REAL: Emulating Control Plane at Simulator's Cost"
@@ -2490,7 +3216,19 @@
         "Networked Resources, Virtualized"
       ],
       "speaker": [
-        "Anu Mercian, Google"
+        "Naixuan Guan",
+        "Xiaokang Hu",
+        "Yisheng Xie",
+        "Xishi Qiu",
+        "Chaojie Liu",
+        "Yuchao Cao",
+        "Banghao Ying",
+        "Dianchen Tian",
+        "Yu Zhou",
+        "Yangzeyu Zhang",
+        "Hujun Ge",
+        "Yibin Shen",
+        "Jiesheng Wu"
       ],
       "publicationTitles": [
         "ZOC: Elastic and Cost-Efficient Virtual SmartNIC Architecture for Cloud Physical Machines"
@@ -2512,7 +3250,10 @@
         "Networked Resources, Virtualized"
       ],
       "speaker": [
-        "Anu Mercian, Google"
+        "Gangmuk Lim",
+        "Aditya Prerepa",
+        "Brighten Godfrey",
+        "Radhika Mittal"
       ],
       "publicationTitles": [
         "SLATE: Service Layer Traffic Engineering"
@@ -2536,7 +3277,12 @@
         "Networked Resources, Virtualized"
       ],
       "speaker": [
-        "Anu Mercian, Google"
+        "Yingming Mao",
+        "Qiaozhu Zhai",
+        "Ximeng Liu",
+        "Zhen Yao",
+        "Xia Zhu",
+        "Yuzhou Zhou"
       ],
       "publicationTitles": [
         "A Fast Solver-Free Algorithm for Traffic Engineering in Large-Scale Data Center Network"
@@ -2562,7 +3308,14 @@
         "Hardware, Mobility, and Systems"
       ],
       "speaker": [
-        "Yuanchao Shu, Zhejiang University"
+        "Yuxuan Yan",
+        "Shiqi Jiang",
+        "Ting Cao",
+        "Yifan Yang",
+        "Qianqian Yang",
+        "Yuanchao Shu",
+        "Yuqing Yang",
+        "Lili Qiu"
       ],
       "publicationTitles": [
         "AVA: Towards Agentic Video Analytics with Vision Language Models"
@@ -2587,7 +3340,10 @@
         "Hardware, Mobility, and Systems"
       ],
       "speaker": [
-        "Yuanchao Shu, Zhejiang University"
+        "Murali Ramanujam",
+        "Yinwei Dai",
+        "Kyle Jamieson",
+        "Ravi Netravali"
       ],
       "publicationTitles": [
         "Remembrall: Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs"
@@ -2610,7 +3366,16 @@
         "Hardware, Mobility, and Systems"
       ],
       "speaker": [
-        "Yuanchao Shu, Zhejiang University"
+        "Zhiyu Zhang",
+        "Minkun Xue",
+        "Kan Yu",
+        "Ruyi Yao",
+        "Shili Chen",
+        "Hao Mei",
+        "Zixuan Chen",
+        "Weiyi Chen",
+        "Yibo Fan",
+        "Yang Xu"
       ],
       "publicationTitles": [
         "Themis: Scheduling-Aware Buffer Management for HBM-Based Hybrid Buffers"
@@ -2633,7 +3398,15 @@
         "Hardware, Mobility, and Systems"
       ],
       "speaker": [
-        "Yuanchao Shu, Zhejiang University"
+        "Jiechen Zhao",
+        "Ran Shu",
+        "Lei Qu",
+        "Ziyue Yang",
+        "Rui Ma",
+        "Derek Chiou",
+        "Natalie Enright Jerger",
+        "Peng Cheng",
+        "Yongqiang Xiong"
       ],
       "publicationTitles": [
         "SmartNIC-Enabled Live Migration for Storage-Optimized VMs with PYROCUMULUS"
@@ -2658,7 +3431,29 @@
         "Neurons Meet Routers"
       ],
       "speaker": [
-        "Hong Xu, The Chinese University of Hong Kong"
+        "Mayank Bansal",
+        "Milind Chabbi",
+        "Kenneth Bøgh",
+        "Srikanth Prodduturi",
+        "Kevin Xu",
+        "Amit Kumar",
+        "David Bell",
+        "Ranjib Dey",
+        "Yufei Ren",
+        "Sachin Sharma",
+        "Juan Marcano",
+        "Shriniket Kale",
+        "Subhav Pradhan",
+        "Ivan Beschastnikh",
+        "Miguel Covarrubias",
+        "Chien-Chih Liao",
+        "Sandeep Koushik Sheshadri",
+        "Wen Luo",
+        "Kai Song",
+        "Ashish Samant",
+        "Sahil Rihan",
+        "Nimish Sheth",
+        "Uday Kiran Medisetty"
       ],
       "publicationTitles": [
         "Uber's Failover Architecture: Reconciling Reliability and Efficiency in Hyperscale Microservice Infrastructure"
@@ -2681,7 +3476,11 @@
         "Neurons Meet Routers"
       ],
       "speaker": [
-        "Hong Xu, The Chinese University of Hong Kong"
+        "Saurabh Agarwal",
+        "Bodun Hu",
+        "Anyong Mao",
+        "Aditya Akella",
+        "Shivaram Venkataraman"
       ],
       "publicationTitles": [
         "SYMPHONY: Improving Memory Management for LLM Inference Workloads"
@@ -2707,7 +3506,16 @@
         "Neurons Meet Routers"
       ],
       "speaker": [
-        "Hong Xu, The Chinese University of Hong Kong"
+        "Guorui Xie",
+        "Qing Li",
+        "Zhenning Shi",
+        "Gianni Antichi",
+        "Yijia Zhu",
+        "Kejun Li",
+        "Changxing Weng",
+        "Sebastiano Miano",
+        "Yong Jiang",
+        "Mingwei Xu"
       ],
       "publicationTitles": [
         "Defending against Traffic Analysis Attacks with Flexible In-Network Obfuscation"
@@ -2735,7 +3543,13 @@
         "Neurons Meet Routers"
       ],
       "speaker": [
-        "Hong Xu, The Chinese University of Hong Kong"
+        "Liangyu Zhao",
+        "Saeed Maleki",
+        "Yuanhong Wang",
+        "Zezhou Wang",
+        "Ziyue Yang",
+        "Hossein Pourreza",
+        "Arvind Krishnamurthy"
       ],
       "publicationTitles": [
         "ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics"
@@ -2761,7 +3575,15 @@
         "Neurons Meet Routers"
       ],
       "speaker": [
-        "Hong Xu, The Chinese University of Hong Kong"
+        "Yan Cai",
+        "Jialong Li",
+        "Kutalmis Akpinar",
+        "Tianxiang Li",
+        "Hany Morsy",
+        "Jason Wilson",
+        "Sunil Khaunte",
+        "Yiting Xia",
+        "Ying Zhang"
       ],
       "publicationTitles": [
         "Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era"
@@ -2785,14 +3607,20 @@
         "Self-Managing Networks"
       ],
       "speaker": [
-        "Arpit Gupta, University of California, Santa Barbara"
+        "Fei Fang",
+        "Yifan Hua",
+        "Shengze Wang",
+        "Ruilin Zhou",
+        "Yi Liu",
+        "Chen Qian",
+        "Xiaoxue Zhang"
       ],
       "publicationTitles": [
         "PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving"
       ],
       "affiliation": [
-        "Reno",
-        "Santa Cruz"
+        "University of California, Santa Cruz",
+        "University of Nevada, Reno"
       ]
     },
     {
@@ -2808,7 +3636,13 @@
         "Self-Managing Networks"
       ],
       "speaker": [
-        "Arpit Gupta, University of California, Santa Barbara"
+        "Vipul Harsh",
+        "Sayan Sinha",
+        "Harshavardhan Kamarthi",
+        "Henry Milner",
+        "B. Aditya Prakash",
+        "Vyas Sekar",
+        "Hui Zhang"
       ],
       "publicationTitles": [
         "MoCE: A Mixture-of-Context Aware Experts Framework for Troubleshooting Internet-Scale Services"
@@ -2833,7 +3667,13 @@
         "Self-Managing Networks"
       ],
       "speaker": [
-        "Arpit Gupta, University of California, Santa Barbara"
+        "Pantea Karimi",
+        "Siva Kesava Reddy Kakarla",
+        "Pooria Namyar",
+        "Santiago Segarra",
+        "Ryan Beckett",
+        "Mohammad Alizadeh",
+        "Behnaz Arzani"
       ],
       "publicationTitles": [
         "MetaEase: Heuristic Analysis from Source Code via Symbolic-Guided Optimization"
@@ -2858,13 +3698,23 @@
         "Self-Managing Networks"
       ],
       "speaker": [
-        "Arpit Gupta, University of California, Santa Barbara"
+        "Tianfeng Liu",
+        "Kaihui Gao",
+        "Li Chen",
+        "Dan Li",
+        "Jin Guang",
+        "Xinyun Chen",
+        "Vincent Liu",
+        "Zhiyong Chen",
+        "Yiwei Zhang",
+        "Ni Jin",
+        "Ran Zhang"
       ],
       "publicationTitles": [
         "CCEval: Accurately and Confidently Evaluating Performance Metrics of Congestion Control Algorithms for Datacenter Networks"
       ],
       "affiliation": [
-        "Shenzhen",
+        "The Chinese University of Hong Kong, Shenzhen",
         "Tsinghua University",
         "University of Pennsylvania",
         "Zhongguancun Laboratory",
@@ -2885,7 +3735,11 @@
         "Self-Managing Networks"
       ],
       "speaker": [
-        "Arpit Gupta, University of California, Santa Barbara"
+        "Harsha Sharma",
+        "Pouya Hamadanian",
+        "Arash Nasr-Esfahany",
+        "Zahaib Akhtar",
+        "Mohammad Alizadeh"
       ],
       "publicationTitles": [
         "Predict, Prune, Play: Efficient Video Playback Optimization Under Device Diversity and Drift"
@@ -2910,7 +3764,9 @@
         "Security in Networked Systems"
       ],
       "speaker": [
-        "Vasiliki Kalavri, Boston University"
+        "Onur Eren Arpaci",
+        "Raouf Boutaba",
+        "Florian Kerschbaum"
       ],
       "publicationTitles": [
         "Over-Threshold Multiparty Private Set Intersection for Collaborative Network Intrusion Detection"
@@ -2933,13 +3789,16 @@
         "Security in Networked Systems"
       ],
       "speaker": [
-        "Vasiliki Kalavri, Boston University"
+        "Archit Bhatnagar",
+        "Yunming Xiao",
+        "Ang Chen",
+        "Amrita Roy Chowdhury"
       ],
       "publicationTitles": [
         "Secure Vickrey Auctions for Online Advertising"
       ],
       "affiliation": [
-        "Shenzhen",
+        "The Chinese University of Hong Kong, Shenzhen",
         "University of Michigan"
       ]
     },
@@ -2956,14 +3815,21 @@
         "Security in Networked Systems"
       ],
       "speaker": [
-        "Vasiliki Kalavri, Boston University"
+        "Nicholas Scaglione",
+        "Justin Furuness",
+        "Yossi Gilad",
+        "Hemi Leibowitz",
+        "Cameron Morris",
+        "Bing Wang",
+        "Amir Herzberg",
+        "Kotikalapudi Sriram"
       ],
       "publicationTitles": [
         "EZ-SAVE: Evaluation of Easy-to-Deploy Source Address Validation Policies"
       ],
       "affiliation": [
+        "Faculty of Computer Science, The College of Management Academic Studies, Rishon LeZion, Israel",
         "Hebrew University of Jerusalem",
-        "Israel",
         "NIST",
         "University of Connecticut"
       ]
@@ -2981,14 +3847,18 @@
         "Security in Networked Systems"
       ],
       "speaker": [
-        "Vasiliki Kalavri, Boston University"
+        "ChenHui Yu",
+        "Yanbiao Li",
+        "Hui Zou",
+        "Yuxuan Chen",
+        "Shiyi Liu",
+        "Gaogang Xie"
       ],
       "publicationTitles": [
         "cc-pipe: Breaking Systemic Bottlenecks in RPKI Data Supply Chain with Concurrent and Conflict-Free Pipelines"
       ],
       "affiliation": [
-        "CNIC CAS",
-        "China"
+        "CNIC CAS; UCAS, China"
       ]
     },
     {
@@ -3004,7 +3874,10 @@
         "Security in Networked Systems"
       ],
       "speaker": [
-        "Vasiliki Kalavri, Boston University"
+        "Yilu Dong",
+        "Tianchang Yang",
+        "Arupjyoti Bhuyan",
+        "Syed Rafiul Hussain"
       ],
       "publicationTitles": [
         "A Systematic Threat Analysis and Practical Attacks of Automated Frequency Coordination Systems"
@@ -3027,17 +3900,25 @@
         "Designing Robust Networked Systems"
       ],
       "speaker": [
-        "Behnaz Arzani, Microsoft"
+        "Yixin Shen",
+        "Ruihua Chen",
+        "Bo Wang",
+        "Jing Chen",
+        "Haochen Zhang",
+        "Minhu Wang",
+        "Yan Liu",
+        "Mingwei Xu",
+        "Zili Meng"
       ],
       "publicationTitles": [
         "Mortise: Auto-tuning Congestion Control to Optimize QoE via Network-Aware Parameter Optimization"
       ],
       "affiliation": [
-        "Bytedance Inc",
         "Bytedance Inc.",
         "Hong Kong University of Science and Technology",
         "Tsinghua University",
-        "Tsinghua University and Zhongguancun Laboratory"
+        "Tsinghua University and Zhongguancun Laboratory",
+        "Tsinghua University, Bytedance Inc., and Zhongguancun Laboratory"
       ],
       "abstract": "Congestion control algorithms (CCAs) critically shape the tradeoff among throughput, latency, and loss, directly impacting user Quality of Experience (QoE).However, most existing CCAs use static, heuristically chosen parameter settings that fail to adapt to dynamic network states, resulting in suboptimal QoE. Our key observation is that the optimal CCA parameter configuration depends on real-time network states.To bridge this gap, we propose Mortise, a real-time, network-aware adaptation framework that dynamically tunes rule-based CCA parameters to maximize QoE. To address the challenges in modeling the complex parameter-QoE relationship, Mortise introduces a QoS tradeoff proxy to decompose parameter optimization into two steps: it first infers the application's preferred QoS tradeoff from real-time QoE gradients and then derives the corresponding parameter settings via control-theoretic analysis.Implemented atop TCP and evaluated in both emulated and production environments, Mortise outperforms state-of-the-art solutions, enhancing the QoE of file downloading service by up to 73% and QoE of video streaming service by up to 167% in real-world scenarios, with minimal deployment overhead."
     },
@@ -3054,7 +3935,11 @@
         "Designing Robust Networked Systems"
       ],
       "speaker": [
-        "Behnaz Arzani, Microsoft"
+        "Adam Hall",
+        "Anirudh Sarma",
+        "Esha Choukse",
+        "Umakishore Ramachandran",
+        "Sameh Elnikety"
       ],
       "publicationTitles": [
         "Harvesting Spare CPU Resources in Container Systems"
@@ -3079,14 +3964,18 @@
         "Designing Robust Networked Systems"
       ],
       "speaker": [
-        "Behnaz Arzani, Microsoft"
+        "Zhicheng Huang",
+        "Ramiz Dundar",
+        "Yizheng Xie",
+        "Konstantinos Kallas",
+        "Nikos Vasilakis"
       ],
       "publicationTitles": [
         "Fractal: Fault-Tolerant Shell-Script Distribution"
       ],
       "affiliation": [
         "Brown University",
-        "Los Angeles"
+        "University of California, Los Angeles"
       ],
       "abstract": "This paper presents FRACTAL, a new system that offers fault tolerant distributed shell script execution for unmodified scripts. FRACTAL first distinguishes recoverable regions from side-effectful ones, and augments them with additional runtime support aimed at fault recovery. It employs precise dependency and progress tracking at the subgraph level to offer sound and efficient fault recovery. It minimizes the number of upstream regions that are re-executed during recovery and ensures exactly-once semantics upon recovery for downstream regions. Evaluation on 4- and 30-node clusters indicates average fault-free speedups of (1) >9.6x over Bash, a single-node shell-interpreter baseline, (2) >5.5x over Hadoop Streaming, a MapReduce system that supports language-agnostic third-party components, and (3) 17% over DiSh, a state-of-the-art fault-intolerant shell-script distribution system-all while recovering 7.8-16.4x faster than Hadoop Streaming in cases of faults."
     },
@@ -3103,7 +3992,13 @@
         "Designing Robust Networked Systems"
       ],
       "speaker": [
-        "Behnaz Arzani, Microsoft"
+        "Tuan Tran",
+        "S. M. H. Hosseini",
+        "Seyeon Kim",
+        "Kyunghan Lee",
+        "Nam Bui",
+        "Dirk Grunwald",
+        "Sangtae Ha"
       ],
       "publicationTitles": [
         "eXpressSFU: Toward Super-Scalable Video Conferencing with SmartNICs"
@@ -3129,7 +4024,11 @@
         "Hot Data, Cold Data"
       ],
       "speaker": [
-        "Qizhen Zhang, University of Toronto"
+        "Zirui Wang",
+        "Tingfeng Lan",
+        "Zhaoyuan Su",
+        "Juncheng Yang",
+        "Yue Cheng"
       ],
       "publicationTitles": [
         "ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression"
@@ -3153,7 +4052,9 @@
         "Hot Data, Cold Data"
       ],
       "speaker": [
-        "Qizhen Zhang, University of Toronto"
+        "Nadav Keren",
+        "Gil Einziger",
+        "Gabriel Scalosub"
       ],
       "publicationTitles": [
         "Latency-Aware Caching with Delayed Hits: From Bursty Traffic to Pipeline Architectures"
@@ -3175,13 +4076,19 @@
         "Hot Data, Cold Data"
       ],
       "speaker": [
-        "Qizhen Zhang, University of Toronto"
+        "Chaoyi Ruan",
+        "Chao Bi",
+        "Kaiwen Zheng",
+        "Ziji Shi",
+        "Xinyi Wan",
+        "Jialin Li"
       ],
       "publicationTitles": [
         "Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching"
       ],
       "affiliation": [
         "National University of Singapore",
+        "Sea AI Lab, National University of Singapore",
         "University of Science and Technology of China",
         "University of Toronto"
       ]
@@ -3199,7 +4106,10 @@
         "Hot Data, Cold Data"
       ],
       "speaker": [
-        "Qizhen Zhang, University of Toronto"
+        "Gohar Irfan Chaudhry",
+        "Ankit Bhardwaj",
+        "Zhenyuan (Zain) Ruan",
+        "Adam Belay"
       ],
       "publicationTitles": [
         "Unleashing the Potential of Datacenter SSDs by Taming Performance Variability"
@@ -3221,15 +4131,26 @@
         "Virtualization Revisited"
       ],
       "speaker": [
-        "Rodrigo Fonseca, Microsoft Research"
+        "Michael Luo",
+        "Xiaoxiang Shi",
+        "Colin Cai",
+        "Tianjun Zhang",
+        "Justin Wong",
+        "Yichuan Wang",
+        "Chi Wang",
+        "Yanping Huang",
+        "Zhifeng Chen",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
       ],
       "publicationTitles": [
         "Agentix: An Efficient Serving Engine for LLM Agents as General Programs"
       ],
       "affiliation": [
-        "Berkeley",
         "Google DeepMind",
-        "Shanghai Jiao Tong University"
+        "Shanghai Jiao Tong University",
+        "University of California, Berkeley",
+        "University of California, Berkeley, and Google DeepMind"
       ],
       "abstract": "Large language model (LLM) applications are evolving beyond simple chatbots into dynamic, general-purpose agentic programs, which scale LLM calls and output tokens to help AI agents reason, explore, and solve complex tasks. However, existing LLM serving systems ignore dependencies between programs and calls, missing significant opportunities for optimization. Our analysis reveals that programs submitted to LLM serving engines experience long cumulative wait times, primarily due to head-of-line blocking at both the individual LLM request and the program. To address this, we introduce Agentix, an LLM serving system that treats programs as first-class citizens to minimize their end-to-end latencies. Agentix intercepts LLM calls submitted by programs, enriching schedulers with program-level context. We propose two scheduling algorithms-for single-threaded and distributed programs-that preempt and prioritize LLM calls based on their programs' previously completed calls. Our evaluation demonstrates that across diverse LLMs and agentic workloads, Agentix improves throughput of programs by 4-15× at the same latency compared to state-of-the-art systems, such as vLLM."
     },
@@ -3246,7 +4167,11 @@
         "Virtualization Revisited"
       ],
       "speaker": [
-        "Rodrigo Fonseca, Microsoft Research"
+        "Mariano Scazzariello",
+        "Tommaso Caiazzi",
+        "Hamid Ghasemirahni",
+        "Dejan Kostić",
+        "Marco Chiesa"
       ],
       "publicationTitles": [
         "Queue-Mem: Energy-Efficient Hardware Storage for Advanced Network Function Acceleration"
@@ -3271,7 +4196,11 @@
         "Virtualization Revisited"
       ],
       "speaker": [
-        "Rodrigo Fonseca, Microsoft Research"
+        "MohammadAmin Baqershahi",
+        "Changyuan Lin",
+        "Visal Saosuo",
+        "Paul Chen",
+        "Mohammad Shahrad"
       ],
       "publicationTitles": [
         "Hierarchical Integration of WebAssembly in Serverless for Efficiency and Interoperability"
@@ -3294,7 +4223,11 @@
         "Virtualization Revisited"
       ],
       "speaker": [
-        "Rodrigo Fonseca, Microsoft Research"
+        "Yihan Dang",
+        "Hao Li",
+        "Ze Xia",
+        "Jiajun Luan",
+        "Peng Zhang"
       ],
       "publicationTitles": [
         "Mitigating CPU Frontend for Complex Data Plane Applications"
@@ -3316,7 +4249,18 @@
         "Cloud Systems, Shared and Scalable"
       ],
       "speaker": [
-        "Ahmed Saeed, Georgia Institute of Technology"
+        "Yiran Lei",
+        "Dongjoo Lee",
+        "Liangyu Zhao",
+        "Daniar Kurniawan",
+        "Chanmyeong Kim",
+        "Heetaek Jeong",
+        "Changsu Kim",
+        "Hyeonseong Choi",
+        "Liangcheng Yu",
+        "Arvind Krishnamurthy",
+        "Justine Sherry",
+        "Eriko Nurvitadhi"
       ],
       "publicationTitles": [
         "FAST: An Efficient Scheduler for All-to-All GPU Communication"
@@ -3324,7 +4268,7 @@
       "affiliation": [
         "Carnegie Mellon University",
         "MangoBoost & Seoul National University",
-        "MangoBoost Inc",
+        "MangoBoost Inc.",
         "University of Pennsylvania",
         "University of Washington"
       ]
@@ -3342,15 +4286,24 @@
         "Cloud Systems, Shared and Scalable"
       ],
       "speaker": [
-        "Ahmed Saeed, Georgia Institute of Technology"
+        "Chenyang Hei",
+        "Fuliang Li",
+        "Jiayi Li",
+        "Jiamin Cao",
+        "Chengxi Gao",
+        "Xiuzhu Sha",
+        "Tongrui Liu",
+        "Dengke Zhang",
+        "Ennan Zhai",
+        "Xingwei Wang"
       ],
       "publicationTitles": [
         "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters"
       ],
       "affiliation": [
         "Alibaba Cloud",
-        "Chinese Academy of Sciences",
-        "Northeastern University"
+        "Northeastern University",
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences"
       ]
     },
     {
@@ -3366,7 +4319,22 @@
         "Cloud Systems, Shared and Scalable"
       ],
       "speaker": [
-        "Ahmed Saeed, Georgia Institute of Technology"
+        "Haiping Wang",
+        "Wanxin Shi",
+        "Sandesh Dhawaskar Sathyanarayana",
+        "Shu Shi",
+        "Feng Qian",
+        "Yinghao Yang",
+        "La Zuo",
+        "Hebin Yu",
+        "Ruixiao Zhang",
+        "Ruoshi Sun",
+        "Yajie Peng",
+        "Xiaofei Pang",
+        "Ruili Fang",
+        "Zhenpeng Zhu",
+        "Weiqi Chen",
+        "Yang Xu"
       ],
       "publicationTitles": [
         "Medley: Optimizing Midgress Bandwidth for Commercial Live Streaming CDNs"
@@ -3375,7 +4343,8 @@
         "ByteDance",
         "Bytedance",
         "Fudan University",
-        "Fudan University and ByteDance"
+        "Fudan University and ByteDance",
+        "Fudan University, ByteDance"
       ]
     },
     {
@@ -3391,7 +4360,43 @@
         "Cloud Systems, Shared and Scalable"
       ],
       "speaker": [
-        "Ahmed Saeed, Georgia Institute of Technology"
+        "Shaofeng Wu",
+        "Zhixiong Niu",
+        "Riff Jiang",
+        "Lawrence Lee",
+        "Junhua Zhai",
+        "Ze Gan",
+        "Vasundhara Volam",
+        "Prabhat Aravind",
+        "Prince Sunny",
+        "Prince George",
+        "Qi Luo",
+        "Evan Langlais",
+        "Soumya Tiwari",
+        "Venkat Satish Katta",
+        "Weixi Chen",
+        "Rishiraj Hazarika",
+        "Sachin Jain",
+        "Deven Jagasia",
+        "Michal Zygmunt",
+        "Avijit Gupta",
+        "Neeraj Motwani",
+        "Pranjal Shrivastava",
+        "Qiang Su",
+        "Anil Reddy Pannala",
+        "Kristina Moore",
+        "James Grantham",
+        "Anupam Pandey",
+        "Xin Liu",
+        "Guohan Lu",
+        "Gerald De Grace",
+        "Rishabh Tewari",
+        "Lihua Yuan",
+        "Erica Lan",
+        "Deepak Bansal",
+        "Dave Maltz",
+        "Yongqiang Xiong",
+        "Hong Xu"
       ],
       "publicationTitles": [
         "Offloading Cloud Network Services at Production Scale with SONiC DASH SmartSwitch"
@@ -3416,16 +4421,29 @@
         "Cloud Systems, Shared and Scalable"
       ],
       "speaker": [
-        "Ahmed Saeed, Georgia Institute of Technology"
+        "Minyuan Zhou",
+        "Yuning Chen",
+        "Yifei Xu",
+        "Jiaqi Zheng",
+        "Guihai Chen",
+        "Wanchun Dou",
+        "Pan Hu",
+        "Yongping Tang",
+        "Wendong Yin",
+        "Jie Lin",
+        "Qingyan Yu",
+        "Yuanchao Su",
+        "Songwu Lu",
+        "Wan Du"
       ],
       "publicationTitles": [
         "AnyPro: Preference-Preserving Anycast Optimization based on Strategic AS-Path Prepending"
       ],
       "affiliation": [
         "Alibaba Group",
-        "Los Angeles",
-        "Merced",
-        "Nanjing University"
+        "Nanjing University",
+        "University of California, Los Angeles",
+        "University of California, Merced"
       ]
     },
     {
@@ -3441,7 +4459,21 @@
         "Distributed Data Systems"
       ],
       "speaker": [
-        "Zahaib Akhtar, Amazon and North Carolina State University"
+        "Liying Wang",
+        "Jing Liu",
+        "Yuhan Zhou",
+        "Chengke Wang",
+        "Mingming Lu",
+        "Qingyue Li",
+        "Song Geng",
+        "Linsen Wang",
+        "Kaida Hu",
+        "Haoyuan Huang",
+        "Shimao Tian",
+        "Ri Lu",
+        "Mingfei Hao",
+        "Chenren Xu",
+        "Shu Shi"
       ],
       "publicationTitles": [
         "HCDN: Coordinated Stream Scheduling for Cost-Effective Live Video Delivery"
@@ -3464,7 +4496,10 @@
         "Distributed Data Systems"
       ],
       "speaker": [
-        "Zahaib Akhtar, Amazon and North Carolina State University"
+        "John Shawger",
+        "Arnav Jhingran",
+        "Andrea Arpaci-Dusseau",
+        "Remzi Arpaci-Dusseau"
       ],
       "publicationTitles": [
         "XLL: Cross-Layer Logging for Data Deduplication in Consensus-Based Storage"
@@ -3487,13 +4522,21 @@
         "Distributed Data Systems"
       ],
       "speaker": [
-        "Zahaib Akhtar, Amazon and North Carolina State University"
+        "Dehui Wei",
+        "Jiao Zhang",
+        "Haozhe Li",
+        "Rui Han",
+        "Zhichen Xue",
+        "Yajie Peng",
+        "Xiaofei Pang",
+        "Yan Ma",
+        "Jialin Li"
       ],
       "publicationTitles": [
         "HyperEdge: An Edge CDN Infrastructure for Cost Efficient Video Streaming"
       ],
       "affiliation": [
-        "Beijing University of Posts and Telecommunications",
+        "Beijing University of Posts and Telecommunications, and Purple Mountain Laboratories",
         "ByteDance",
         "National University of Singapore"
       ],
@@ -3512,7 +4555,9 @@
         "Distributed Data Systems"
       ],
       "speaker": [
-        "Zahaib Akhtar, Amazon and North Carolina State University"
+        "Chendong Wang",
+        "Joontaek Oh",
+        "Ming Liu"
       ],
       "publicationTitles": [
         "Co-Designing Traffic Control with NVMe-oF for Disaggregated Storage: A Comparative Study of Switched and Switchless SAN Architectures"
@@ -3535,18 +4580,31 @@
         "Distributed Data Systems"
       ],
       "speaker": [
-        "Zahaib Akhtar, Amazon and North Carolina State University"
+        "Congcong Miao",
+        "Zhiyi Yao",
+        "Jianchao Lv",
+        "Jinglin Wang",
+        "Shihan Lin",
+        "Xinyi Zhang",
+        "Yunming Xiao",
+        "Wei Guo",
+        "Jiwu Bu",
+        "Yachen Wang",
+        "Xianneng Zou",
+        "Yong Jiang",
+        "Marco Canini",
+        "Gaogang Xie"
       ],
       "publicationTitles": [
         "Cost-effective and Reliable Global Internet Peering with Programmable Switches"
       ],
       "affiliation": [
-        "China",
-        "Chinese Academy of Sciences",
+        "CNIC CAS, China",
+        "Computer Network Information Center, Chinese Academy of Sciences",
         "Fudan University",
         "KAUST",
-        "Shenzhen",
         "Tencent",
+        "The Chinese University of Hong Kong, Shenzhen",
         "Tsinghua Shenzhen International Graduate School",
         "University of Michigan"
       ]
@@ -3564,7 +4622,10 @@
         "Sandboxes, Containers, and Beyond"
       ],
       "speaker": [
-        "Eric Eide, University of Utah"
+        "Jainil Patel",
+        "Lucas Graeff Buhl-Nielsen",
+        "Adrien Ghosn",
+        "Marios Kogias"
       ],
       "publicationTitles": [
         "KRAKENGUARD: Towards Fine-Grained eBPF Isolation"
@@ -3588,7 +4649,10 @@
         "Sandboxes, Containers, and Beyond"
       ],
       "speaker": [
-        "Eric Eide, University of Utah"
+        "Zixuan Wang",
+        "Jinyu Gu",
+        "Xingda Wei",
+        "Yubin Xia"
       ],
       "publicationTitles": [
         "OneSidedMW: Managing Disaggregated Memory Efficiently, Flexibly, and Securely with RNIC Offloading"
@@ -3611,7 +4675,10 @@
         "Sandboxes, Containers, and Beyond"
       ],
       "speaker": [
-        "Eric Eide, University of Utah"
+        "Jia Pan",
+        "Anup Agarwal",
+        "Işıl Dillig",
+        "Venkat Arun"
       ],
       "publicationTitles": [
         "Syntra: Synthesizing Cross-Layer Controllers for Low-Latency Video Streaming"
@@ -3635,7 +4702,26 @@
         "Sandboxes, Containers, and Beyond"
       ],
       "speaker": [
-        "Eric Eide, University of Utah"
+        "Haoran Chen",
+        "Mingwei Cui",
+        "Yihan Zou",
+        "Yihang Miao",
+        "Suhan Jiang",
+        "Damu Ding",
+        "Lirong Lai",
+        "Ming Gao",
+        "Rui Jiang",
+        "Shengyuan He",
+        "Anjian Chen",
+        "Jiaming Shi",
+        "Junjie Wan",
+        "Yandong Duan",
+        "Ruomin Fang",
+        "Hongyu Wu",
+        "Yongping Tang",
+        "Qiao Kang",
+        "Guangrui Wu",
+        "Xiyun Xu"
       ],
       "publicationTitles": [
         "Net-P4ct: Enhanced WAN Bandwidth Fair Sharing Using P4 Programmable Switches"
@@ -3660,7 +4746,9 @@
         "Sandboxes, Containers, and Beyond"
       ],
       "speaker": [
-        "Eric Eide, University of Utah"
+        "Anup Agarwal",
+        "Venkat Arun",
+        "Srinivasan Seshan"
       ],
       "publicationTitles": [
         "FRCC: Towards Provably Fair and Robust Congestion Control"

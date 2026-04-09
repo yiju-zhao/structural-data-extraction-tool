@@ -32,9 +32,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Dave Maltz",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Jiayi Chen",
+        "company": "The University of Texas at Austin"
+      },
+      {
+        "name": "Nihal Sharma",
+        "company": "Capital One"
+      },
+      {
+        "name": "Debajit Chakraborty",
+        "company": "The University of Texas at Austin"
+      },
+      {
+        "name": "Saurabh Agarwal",
+        "company": "The University of Texas at Austin"
+      },
+      {
+        "name": "Jeffrey Zhou",
+        "company": "The University of Texas at Austin"
+      },
+      {
+        "name": "Aditya Akella",
+        "company": "UT Austin"
+      },
+      {
+        "name": "Sanjay Shakkottai",
+        "company": "The University of Texas at Austin"
       }
     ]
   },
@@ -49,9 +72,72 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Dave Maltz",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Huijun Shen",
+        "company": "Hunan University"
+      },
+      {
+        "name": "Zelong Yue",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Jian Yang",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Zhuo Jiang",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Lang An",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Yulin Chen",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Yong Zhang",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Luochangqi Ding",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Xiaolong Zhong",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Zhihong Wang",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Jie Ding",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Hongyu Wu",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Jianxi Ye",
+        "company": "ByteDance Inc."
+      },
+      {
+        "name": "Xijin Yin",
+        "company": "Hunan University"
+      },
+      {
+        "name": "Xingyu Zhang",
+        "company": "Hunan University"
+      },
+      {
+        "name": "Xingyu Guo",
+        "company": "Hunan University"
+      },
+      {
+        "name": "Guo Chen",
+        "company": "Hunan University"
       }
     ]
   },
@@ -66,9 +152,52 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Dave Maltz",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Han Tian",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Han Wang",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Wenbo Li",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Xudong Liao",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Decang Sun",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Wenxue Li",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Donghui Chen",
+        "company": "Huawei Technologies Co., Ltd."
+      },
+      {
+        "name": "Bin Huan",
+        "company": "Huawei Technologies Co., Ltd."
+      },
+      {
+        "name": "Senbo Fu",
+        "company": "Huawei Technologies Co., Ltd."
+      },
+      {
+        "name": "Junxue Zhang",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Dian Shen",
+        "company": "Southeast University"
+      },
+      {
+        "name": "Kai Chen",
+        "company": "Hong Kong University of Science and Technology"
       }
     ]
   },
@@ -83,13 +212,41 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Dave Maltz",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Bingyang Wu",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Yinmin Zhong",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Zili Zhang",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Shengyu Liu",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Fangyue Liu",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Yuanhang Sun",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Gang Huang",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Xuanzhe Liu",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Xin Jin",
+        "company": "School of Computer Science, Peking University"
       }
-    ],
-    "key_themes": [
-      "All Your Networks Are Belong to ML"
     ]
   },
   {
@@ -103,13 +260,29 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Dave Maltz",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Athinagoras Skiadopoulos",
+        "company": "Stanford University"
+      },
+      {
+        "name": "Mark Zhao",
+        "company": "University of Colorado Boulder"
+      },
+      {
+        "name": "Swapnil Gandhi",
+        "company": "Stanford University and NVIDIA"
+      },
+      {
+        "name": "Thomas Norrie",
+        "company": "OpenAI"
+      },
+      {
+        "name": "Shrijeet Mukherjee",
+        "company": "NVIDIA"
+      },
+      {
+        "name": "Christos Kozyrakis",
+        "company": "Stanford University and NVIDIA"
       }
-    ],
-    "key_themes": [
-      "All Your Networks Are Belong to ML"
     ]
   },
   {
@@ -123,9 +296,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Daehyeok Kim",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Divyanshu Saxena",
+        "company": "UT Austin"
+      },
+      {
+        "name": "Gaurav Vipat",
+        "company": "UT Austin"
+      },
+      {
+        "name": "Jiaxin Lin",
+        "company": "Cornell University"
+      },
+      {
+        "name": "Jingbo Wang",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Isil Dillig",
+        "company": "UT Austin"
+      },
+      {
+        "name": "Sanjay Shakkottai",
+        "company": "UT Austin"
+      },
+      {
+        "name": "Aditya Akella",
+        "company": "UT Austin"
       }
     ]
   },
@@ -140,9 +336,16 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Daehyeok Kim",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Zhenyu Li",
+        "company": "University of Virginia"
+      },
+      {
+        "name": "Angting Cai",
+        "company": "University of California San Diego"
+      },
+      {
+        "name": "Chang Lou",
+        "company": "University of Virginia"
       }
     ]
   },
@@ -157,9 +360,44 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Daehyeok Kim",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Fengqian Guo",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Yuhan Zhou",
+        "company": "Peking University"
+      },
+      {
+        "name": "Longwei Jiang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Congcong Miao",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yuxin Liu",
+        "company": "University at Buffalo"
+      },
+      {
+        "name": "Chenren Xu",
+        "company": "Peking University"
+      },
+      {
+        "name": "Hancheng Lu",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Chang Wen Chen",
+        "company": "Hong Kong Polytechnic University"
+      },
+      {
+        "name": "Yaxiong Xie",
+        "company": "University at Buffalo SUNY"
+      },
+      {
+        "name": "Honghao Liu",
+        "company": "Tencent"
       }
     ]
   },
@@ -174,13 +412,21 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Daehyeok Kim",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Alessandro Cornacchia",
+        "company": "King Abdullah University of Science and Technology"
+      },
+      {
+        "name": "Theophilus A. Benson",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Muhammad Bilal",
+        "company": "King Abdullah University of Science and Technology"
+      },
+      {
+        "name": "Marco Canini",
+        "company": "King Abdullah University of Science and Technology"
       }
-    ],
-    "key_themes": [
-      "The Care and Feeding of Networked Systems"
     ]
   },
   {
@@ -194,13 +440,49 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Daehyeok Kim",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Congcong Miao",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yuejie Wang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Jianming Wang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Xuefeng Ji",
+        "company": "Tencent"
+      },
+      {
+        "name": "Guozhi Shan",
+        "company": "Tencent"
+      },
+      {
+        "name": "Sirui Li",
+        "company": "Tencent"
+      },
+      {
+        "name": "Pan Fang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yanke Zhang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Jialin Li",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Xianneng Zou",
+        "company": "Tencent"
+      },
+      {
+        "name": "Guyue Liu",
+        "company": "Peking University"
       }
-    ],
-    "key_themes": [
-      "The Care and Feeding of Networked Systems"
     ]
   },
   {
@@ -214,9 +496,28 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Xingyu Chen",
+        "company": "University of California San Diego"
+      },
+      {
+        "name": "Zihao Feng",
+        "company": "University of Southern California"
+      },
+      {
+        "name": "Wuqiong Zhao",
+        "company": "University of California San Diego"
+      },
+      {
+        "name": "Jianrong Ding",
+        "company": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Ke Sun",
+        "company": "University of Michigan Ann Arbor"
+      },
+      {
+        "name": "Xinyu Zhang",
+        "company": "University of California San Diego"
       }
     ]
   },
@@ -231,9 +532,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Chuanyu Xue",
+        "company": "University of Connecticut"
+      },
+      {
+        "name": "Tianyu Zhang",
+        "company": "University of Iowa"
+      },
+      {
+        "name": "Andrew Loveless",
+        "company": "NASA Johnson Space Center"
+      },
+      {
+        "name": "Song Han",
+        "company": "University of Connecticut"
       }
     ]
   },
@@ -248,9 +560,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Anna Karanika",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Kai-Siang Wang",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Han-Ting Liang",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Shalni Sundram",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Indranil Gupta",
+        "company": "University of Illinois Urbana-Champaign"
       }
     ]
   },
@@ -265,13 +592,41 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Jia Liu",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Yifei Ma",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Xingyu Chen",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Haipeng Dai",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "He Huang",
+        "company": "Soochow University"
+      },
+      {
+        "name": "Zihao Lin",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Wei Zheng",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Junzhao Du",
+        "company": "Xidian University"
+      },
+      {
+        "name": "Guihai Chen",
+        "company": "Nanjing University"
       }
-    ],
-    "key_themes": [
-      "Mobile and Embedded Systems"
     ]
   },
   {
@@ -285,13 +640,13 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Hsun-Wei Cho",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Kang G. Shin",
+        "company": "University of Michigan"
       }
-    ],
-    "key_themes": [
-      "Mobile and Embedded Systems"
     ]
   },
   {
@@ -305,9 +660,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Rachee Singh",
-        "title": "Session Chair",
-        "company": "Cornell University"
+        "name": "Murayyiam Parvez",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Annus Zulfiqar",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Roman Beltiukov",
+        "company": "UCSB"
+      },
+      {
+        "name": "Shir Landau Feibish",
+        "company": "University of Haifa"
+      },
+      {
+        "name": "Walter Willinger",
+        "company": "NIKSUN, Inc."
+      },
+      {
+        "name": "Arpit Gupta",
+        "company": "UCSB"
+      },
+      {
+        "name": "Muhammad Shahbaz",
+        "company": "University of Michigan"
       }
     ]
   },
@@ -322,9 +700,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Rachee Singh",
-        "title": "Session Chair",
-        "company": "Cornell University"
+        "name": "Tianyi Gong",
+        "company": "The Chinese University of Hongkong, Shenzhen"
+      },
+      {
+        "name": "Zijian Cao",
+        "company": "The Chinese University of Hongkong, Shenzhen"
+      },
+      {
+        "name": "Zixing Zhang",
+        "company": "The Chinese University of Hongkong, Shenzhen"
+      },
+      {
+        "name": "Jiangkai Wu",
+        "company": "Peking University"
+      },
+      {
+        "name": "Xinggong Zhang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Shuguang Cui",
+        "company": "Chinese University of Hong Kong, Shenzhen, China"
+      },
+      {
+        "name": "Fangxin Wang",
+        "company": "The Chinese University of Hong Kong, Shenzhen"
       }
     ]
   },
@@ -339,13 +740,53 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Rachee Singh",
-        "title": "Session Chair",
-        "company": "Cornell University"
+        "name": "Yuhan Liu",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Yuyang Huang",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Jiayi Yao",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Shaoting Feng",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Zhuohan Gu",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Kuntai Du",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Hanchen Li",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Yihua Cheng",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Junchen Jiang",
+        "company": "University of Chicago"
+      },
+      {
+        "name": "Shan Lu",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Madan Musuvathi",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Esha Choukse",
+        "company": "Microsoft"
       }
-    ],
-    "key_themes": [
-      "Overfitting the Internet"
     ]
   },
   {
@@ -359,13 +800,25 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Rachee Singh",
-        "title": "Session Chair",
-        "company": "Cornell University"
+        "name": "Ankit Bhardwaj",
+        "company": "Tufts University"
+      },
+      {
+        "name": "Weiyang Wang",
+        "company": "Massachusetts Institute of Technology"
+      },
+      {
+        "name": "Jeremy Carin",
+        "company": "Massachusetts Institute of Technology"
+      },
+      {
+        "name": "Adam Belay",
+        "company": "Massachusetts Institute of Technology"
+      },
+      {
+        "name": "Manya Ghobadi",
+        "company": "Massachusetts Institute of Technology"
       }
-    ],
-    "key_themes": [
-      "Overfitting the Internet"
     ]
   },
   {
@@ -379,9 +832,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Myoungsung You",
+        "company": "University of Seoul"
+      },
+      {
+        "name": "Jaehyun Nam",
+        "company": "Dankook University"
+      },
+      {
+        "name": "Minjae Seo",
+        "company": "ETRI"
+      },
+      {
+        "name": "Taejune Park",
+        "company": "Chonnam National University"
+      },
+      {
+        "name": "Seungwon Shin",
+        "company": "KAIST"
       }
     ]
   },
@@ -396,9 +864,56 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Shengwei Li",
+        "company": "National University of Defense Technology"
+      },
+      {
+        "name": "Qiaoling Chen",
+        "company": "Nanyang Technology University"
+      },
+      {
+        "name": "Zhiquan Lai",
+        "company": "National University of Defense Technology"
+      },
+      {
+        "name": "Penglong Jiao",
+        "company": "Shanghai Artificial Intelligence Laboratory"
+      },
+      {
+        "name": "Wenwen Qu",
+        "company": "Shanghai Artificial Intelligence Laboratory"
+      },
+      {
+        "name": "Kun Cai",
+        "company": "Shanghai Artificial Intelligence Laboratory"
+      },
+      {
+        "name": "Jiaxing Li",
+        "company": "Shanghai Artificial Intelligence Laboratory"
+      },
+      {
+        "name": "Peng Sun",
+        "company": "Shanghai Artificial Intelligence Laboratory"
+      },
+      {
+        "name": "Xingcheng Zhang",
+        "company": "Shanghai Artificial Intelligence Laboratory"
+      },
+      {
+        "name": "Xiaoge Deng",
+        "company": "National University of Defense Technology"
+      },
+      {
+        "name": "Kai Lu",
+        "company": "National University of Defense Technology"
+      },
+      {
+        "name": "Dongsheng Li",
+        "company": "National University of Defense Technology"
+      },
+      {
+        "name": "Tianwei Zhang",
+        "company": "Nanyang Technological University"
       }
     ]
   },
@@ -413,9 +928,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Jin Heo",
+        "company": "Dolby Laboratories"
+      },
+      {
+        "name": "Vic Wang",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Ketan Bhardwaj",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Ada Gavrilovska",
+        "company": "Georgia Institute of Technology"
       }
     ]
   },
@@ -430,13 +956,37 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Chiheng Lou",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Sheng Qi",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Chao Jin",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Dapeng Nie",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Haoran Yang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Yu Ding",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Xuanzhe Liu",
+        "company": "School of Computer Science, Peking University"
+      },
+      {
+        "name": "Xin Jin",
+        "company": "School of Computer Science, Peking University"
       }
-    ],
-    "key_themes": [
-      "Cloudy with a Chance of Tenants"
     ]
   },
   {
@@ -450,13 +1000,57 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Raja Sambasivan",
-        "title": "Session Chair",
-        "company": "Tufts University"
+        "name": "Jingwei Xu",
+        "company": "Shanghai Jiao Tong University and Huawei Technologies"
+      },
+      {
+        "name": "Junbin Kang",
+        "company": "Huawei Technologies"
+      },
+      {
+        "name": "Mingkai Dong",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Mingyu Liu",
+        "company": "Huawei Technologies"
+      },
+      {
+        "name": "Lu Zhang",
+        "company": "Huawei Technologies"
+      },
+      {
+        "name": "Shaohong Guo",
+        "company": "Huawei Technologies"
+      },
+      {
+        "name": "Ziyan Qiu",
+        "company": "Huawei Technologies"
+      },
+      {
+        "name": "Mingzhen You",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Ziyi Tian",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Anqi Yu",
+        "company": "Huawei Technologies"
+      },
+      {
+        "name": "Tianhong Ding",
+        "company": "Huawei Technologies"
+      },
+      {
+        "name": "Xinwei Hu",
+        "company": "Huawei Technologies"
+      },
+      {
+        "name": "Haibo Chen",
+        "company": "Shanghai Jiao Tong University and Huawei Technologies"
       }
-    ],
-    "key_themes": [
-      "Storage Systems and Architecture"
     ]
   },
   {
@@ -470,9 +1064,44 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Raja Sambasivan",
-        "title": "Session Chair",
-        "company": "Tufts University"
+        "name": "Peiqi Yin",
+        "company": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Xiao Yan",
+        "company": "Wuhan University"
+      },
+      {
+        "name": "Shiyuan Deng",
+        "company": "Huawei Cloud"
+      },
+      {
+        "name": "Hui Li",
+        "company": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Yifan Zhu",
+        "company": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Xiangyu Zhi",
+        "company": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Jingqi Mao",
+        "company": "Huawei Cloud"
+      },
+      {
+        "name": "Ran Xu",
+        "company": "Huawei Cloud"
+      },
+      {
+        "name": "Wenliang Zhang",
+        "company": "Huawei Cloud"
+      },
+      {
+        "name": "James Cheng",
+        "company": "The Chinese University of Hong Kong"
       }
     ]
   },
@@ -487,9 +1116,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Raja Sambasivan",
-        "title": "Session Chair",
-        "company": "Tufts University"
+        "name": "Michael Yiqing Hu",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Hong Yao Alvin Yan",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Yihan Yang",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Xiang Liu",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Jialin Li",
+        "company": "National University of Singapore"
       }
     ]
   },
@@ -504,9 +1148,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Raja Sambasivan",
-        "title": "Session Chair",
-        "company": "Tufts University"
+        "name": "Mohammad Hosseini",
+        "company": "Shahid Beheshti University"
+      },
+      {
+        "name": "Sina Darabi",
+        "company": "Università della Svizzera italiana (USI)"
+      },
+      {
+        "name": "Hannaneh B. Pasandi",
+        "company": "University of California, Berkeley"
+      },
+      {
+        "name": "Patrick Eugster",
+        "company": "Università della Svizzera italiana"
+      },
+      {
+        "name": "Mahmood Choopani",
+        "company": "Shahid Beheshti University"
       }
     ]
   },
@@ -521,9 +1180,92 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Maria Apostolaki",
-        "title": "Session Chair",
-        "company": "Princeton University"
+        "name": "Xiaoqing Sun",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Xing Li",
+        "company": "Zhejiang University and Alibaba Cloud"
+      },
+      {
+        "name": "Xionglie Wei",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Tian Pan",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Ju Zhang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Bowen Yang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yi Wang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Ye Yang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yu Qi",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Le Yu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Chenhao Jia",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Zhanlong Zhang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Xinyu Chen",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Xiaobo Xue",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Jianyuan Lu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Shize Zhang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Enge Song",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yang Song",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Rong Wen",
+        "company": "Fudan University and Alibaba Cloud"
+      },
+      {
+        "name": "Biao Lyu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yang Xu",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Shunmin Zhu",
+        "company": "Hangzhou Feitian Cloud and Alibaba Cloud"
       }
     ]
   },
@@ -538,9 +1280,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Maria Apostolaki",
-        "title": "Session Chair",
-        "company": "Princeton University"
+        "name": "Shuo Li",
+        "company": "University of Edinburgh"
+      },
+      {
+        "name": "Steven Chien",
+        "company": "University of Edinburgh"
+      },
+      {
+        "name": "Tianyi Gao",
+        "company": "University of Edinburgh"
+      },
+      {
+        "name": "Michio Honda",
+        "company": "University of Edinburgh"
       }
     ]
   },
@@ -555,9 +1308,60 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Maria Apostolaki",
-        "title": "Session Chair",
-        "company": "Princeton University"
+        "name": "Zhaochen Zhang",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Feiyang Xue",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Rui Ning",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Keqiang He",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Gianni Antichi",
+        "company": "Politecnico di Milano & Queen Mary University of London"
+      },
+      {
+        "name": "Jiaqi Gao",
+        "company": "unaffiliated"
+      },
+      {
+        "name": "Zhimeng Yin",
+        "company": "City University of Hong Kong"
+      },
+      {
+        "name": "Kexin Liu",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Rui Li",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Zhengqi Cui",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Zhehao Lin",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Peirui Cao",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Guihai Chen",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Chen Tian",
+        "company": "Nanjing University"
       }
     ]
   },
@@ -572,9 +1376,116 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Maria Apostolaki",
-        "title": "Session Chair",
-        "company": "Princeton University"
+        "name": "Zihao Fan",
+        "company": "Shanghai Jiao Tong University and Alibaba Cloud"
+      },
+      {
+        "name": "Xing Li",
+        "company": "Zhejiang University and Alibaba Cloud"
+      },
+      {
+        "name": "Ye Yang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Bo Jiang",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Bowen Yang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yilong Lv",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yuke Hong",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yinian Zhou",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Junnan Cai",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Jiayue Xu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yunrui Hu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Zhao Gao",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Ke Sun",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yimin Liu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Xiangdong Zhang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Enge Song",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Jianyuan Lu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Xiaoqing Sun",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Shize Zhang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Haonan Li",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Mingxin Li",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Changgang Zheng",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Song Yang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Jun Liang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Biao Lyu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Rong Wen",
+        "company": "Fudan University and Alibaba Cloud"
+      },
+      {
+        "name": "Zhigang Zong",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Shunmin Zhu",
+        "company": "Alibaba Cloud"
       }
     ]
   },
@@ -589,13 +1500,49 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Maria Apostolaki",
-        "title": "Session Chair",
-        "company": "Princeton University"
+        "name": "Tianyuan Wu",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Lunxi Cao",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Hanfeng Lu",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Xiaoxiao Jiang",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Yinghao Yu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Siran Yang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Guodong Yang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Jiamang Wang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Lin Qu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Liping Zhang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Wei Wang",
+        "company": "Hong Kong University of Science and Technology"
       }
-    ],
-    "key_themes": [
-      "Clouds with Benefits"
     ]
   },
   {
@@ -609,13 +1556,21 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhe Cai",
-        "title": "Session Chair",
-        "company": "University of Virginia and Enfabrica"
+        "name": "Shengtong Zhu",
+        "company": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Yan Liu",
+        "company": "Independent Researcher"
+      },
+      {
+        "name": "Lingfeng Guo",
+        "company": "Independent Researcher"
+      },
+      {
+        "name": "Jack Yiu Bun Lee",
+        "company": "The Chinese University of Hong Kong"
       }
-    ],
-    "key_themes": [
-      "Managing Complexity at Scale"
     ]
   },
   {
@@ -629,13 +1584,29 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhe Cai",
-        "title": "Session Chair",
-        "company": "University of Virginia and Enfabrica"
+        "name": "Yizheng Xie",
+        "company": "Brown University"
+      },
+      {
+        "name": "Di Jin",
+        "company": "Brown University"
+      },
+      {
+        "name": "Oğuzhan Çölkesen",
+        "company": "Brown University"
+      },
+      {
+        "name": "Vasiliki Kalavri",
+        "company": "Boston University"
+      },
+      {
+        "name": "John Liagouris",
+        "company": "Boston University"
+      },
+      {
+        "name": "Nikos Vasilakis",
+        "company": "Brown University"
       }
-    ],
-    "key_themes": [
-      "Managing Complexity at Scale"
     ]
   },
   {
@@ -649,9 +1620,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhe Cai",
-        "title": "Session Chair",
-        "company": "University of Virginia and Enfabrica"
+        "name": "Alexander Krentsel",
+        "company": "UC Berkeley / Google"
+      },
+      {
+        "name": "Rishabh Iyer",
+        "company": "UC Berkeley"
+      },
+      {
+        "name": "Isaac Keslassy",
+        "company": "Technion / UC Berkeley"
+      },
+      {
+        "name": "Sylvia Ratnasamy",
+        "company": "UC Berkeley / Google"
+      },
+      {
+        "name": "Bharath Modhipalli",
+        "company": "Google"
+      },
+      {
+        "name": "Anees Shaikh",
+        "company": "Google"
+      },
+      {
+        "name": "Rob Shakir",
+        "company": "Google"
       }
     ]
   },
@@ -666,9 +1660,16 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhe Cai",
-        "title": "Session Chair",
-        "company": "University of Virginia and Enfabrica"
+        "name": "Jingyuan Zhu",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Huanchen Sun",
+        "company": "University of Southern California"
+      },
+      {
+        "name": "Harsha V. Madhyastha",
+        "company": "University of Southern California"
       }
     ]
   },
@@ -683,9 +1684,104 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhe Cai",
-        "title": "Session Chair",
-        "company": "University of Virginia and Enfabrica"
+        "name": "Shixian Guo",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Ziqian Liu",
+        "company": "The University of Hong Kong"
+      },
+      {
+        "name": "Yangyang Bai",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yuan Chen",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Kefei Liu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Qi Zhang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Songlin Liu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yang Lv",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Jianwei Hu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Gen Li",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Zhenyang Zhong",
+        "company": "ByteDance"
+      },
+      {
+        "name": "SiSi Wen",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yongbin Dong",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Feng Luo",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Anjian Chen",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Rui Han",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Jiale Feng",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Lingpei Meng",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Siwan Chen",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Hang Li",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Shuai Xu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Juntao Zhong",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Chaoran Hu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yibo Huang",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Yiming Qiu",
+        "company": "The University of Hong Kong"
       }
     ]
   },
@@ -700,13 +1796,17 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ryan Beckett",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Ao Li",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Ankush Desai",
+        "company": "Amazon Web Services"
+      },
+      {
+        "name": "Rohan Padhye",
+        "company": "Carnegie Mellon University"
       }
-    ],
-    "key_themes": [
-      "Trust but Verify"
     ]
   },
   {
@@ -720,9 +1820,36 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ryan Beckett",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Huan Liu",
+        "company": "Huazhong University of Science and Technology"
+      },
+      {
+        "name": "Haoyu Chen",
+        "company": "Zhejiang Lab"
+      },
+      {
+        "name": "Biang Xu",
+        "company": "Huazhong University of Science and Technology"
+      },
+      {
+        "name": "Jingyao Zhou",
+        "company": "Huazhong University of Science and Technology"
+      },
+      {
+        "name": "Bin Yuan",
+        "company": "Huazhong University of Science and Technology"
+      },
+      {
+        "name": "Qiankun Zhang",
+        "company": "Huazhong University of Science and Technology"
+      },
+      {
+        "name": "Deqing Zou",
+        "company": "Huazhong University of Science and Technology"
+      },
+      {
+        "name": "Hai Jin",
+        "company": "Huazhong University of Science and Technology"
       }
     ]
   },
@@ -737,9 +1864,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ryan Beckett",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Amir Seyhani",
+        "company": "University of Waterloo"
+      },
+      {
+        "name": "Aarti Gupta",
+        "company": "Princeton University"
+      },
+      {
+        "name": "David Walker",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Mina Tahmasbi Arashloo",
+        "company": "University of Waterloo"
       }
     ]
   },
@@ -754,9 +1892,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ryan Beckett",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Yuxing Xiang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Rilin Huang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Naiqian Zheng",
+        "company": "Peking University"
+      },
+      {
+        "name": "Xin Jin",
+        "company": "Peking University"
       }
     ]
   },
@@ -771,9 +1920,28 @@
     "format": "In-Person",
     "speakers": [
       {
+        "name": "Rajdeep Mondal",
+        "company": "UCLA"
+      },
+      {
+        "name": "Rathin Singha",
+        "company": "UCLA"
+      },
+      {
+        "name": "Todd Millstein",
+        "company": "UCLA"
+      },
+      {
+        "name": "George Varghese",
+        "company": "UCLA"
+      },
+      {
         "name": "Ryan Beckett",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Siva Kesava Reddy Kakarla",
+        "company": "Microsoft Research"
       }
     ]
   },
@@ -788,9 +1956,16 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kevin Hsieh",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Hongyu Hè",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Minhao Jin",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Maria Apostolaki",
+        "company": "Princeton University"
       }
     ]
   },
@@ -805,9 +1980,36 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kevin Hsieh",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Wei Zhang",
+        "company": "University of Illinois, Urbana-Champaign"
+      },
+      {
+        "name": "Zhiyu Wu",
+        "company": "University of Illinois, Urbana-Champaign"
+      },
+      {
+        "name": "Yi Mu",
+        "company": "University of Illinois, Urbana-Champaign"
+      },
+      {
+        "name": "Rui Ning",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Banruo Liu",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Nikhil Sarda",
+        "company": "Google Labs"
+      },
+      {
+        "name": "Myungjin Lee",
+        "company": "Cisco Research"
+      },
+      {
+        "name": "Fan Lai",
+        "company": "University of Illinois Urbana-Champaign"
       }
     ]
   },
@@ -822,9 +2024,60 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kevin Hsieh",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Wei Gao",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Yuheng Zhao",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Dakai An",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Tianyuan Wu",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Lunxi Cao",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Shaopan Xiong",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Ju Huang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Weixun Wang",
+        "company": "Taobao"
+      },
+      {
+        "name": "Siran Yang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Wenbo Su",
+        "company": "Taobao"
+      },
+      {
+        "name": "Jiamang Wang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Lin Qu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Bo Zheng",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Wei Wang",
+        "company": "Hong Kong University of Science and Technology"
       }
     ]
   },
@@ -839,13 +2092,33 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kevin Hsieh",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Xiangyu Gao",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Tong Li",
+        "company": "Renmin University of China"
+      },
+      {
+        "name": "Yinchao Zhang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Ziqiang Wang",
+        "company": "Southeast University and Tsinghua University"
+      },
+      {
+        "name": "Xiangsheng Zeng",
+        "company": "Huazhong University of Science and Technology"
+      },
+      {
+        "name": "Su Yao",
+        "company": "Tsinghua University and BNRist"
+      },
+      {
+        "name": "Ke Xu",
+        "company": "Tsinghua University and Zhongguancun Laboratory"
       }
-    ],
-    "key_themes": [
-      "Learning at Line Rate"
     ]
   },
   {
@@ -859,9 +2132,56 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kurtis Heimerl",
-        "title": "Session Chair",
-        "company": "University of Washington"
+        "name": "Yunming Xiao",
+        "company": "The Chinese University of Hong Kong, Shenzhen and Tencent"
+      },
+      {
+        "name": "Xijun Luo",
+        "company": "Tencent"
+      },
+      {
+        "name": "Youliang Jiang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Aike Wang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Hu Chen",
+        "company": "Tencent"
+      },
+      {
+        "name": "Zhibin Zhou",
+        "company": "Tencent"
+      },
+      {
+        "name": "Heng Yu",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Jiahao Cao",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Yong Jiang",
+        "company": "Tsinghua Shenzhen International Graduate School"
+      },
+      {
+        "name": "Jilong Wang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Mingwei Xu",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Yan Chen",
+        "company": "Northwestern University"
+      },
+      {
+        "name": "Congcong Miao",
+        "company": "Tencent"
       }
     ]
   },
@@ -876,9 +2196,56 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kurtis Heimerl",
-        "title": "Session Chair",
-        "company": "University of Washington"
+        "name": "Xiang Chen",
+        "company": "Zhejiang University"
+      },
+      {
+        "name": "Longlong Zhu",
+        "company": "Zhejiang University"
+      },
+      {
+        "name": "Linying Zheng",
+        "company": "Zhejiang University"
+      },
+      {
+        "name": "Hongyang Du",
+        "company": "The University of Hong Kong"
+      },
+      {
+        "name": "Dong Zhang",
+        "company": "Fuzhou University"
+      },
+      {
+        "name": "Jianshan Zhang",
+        "company": "Minjiang University"
+      },
+      {
+        "name": "Xuan Liu",
+        "company": "Yangzhou University"
+      },
+      {
+        "name": "Qun Huang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Dusit Niyato",
+        "company": "Nanyang Technological University"
+      },
+      {
+        "name": "Haifeng Zhou",
+        "company": "Zhejiang University"
+      },
+      {
+        "name": "Chunming Wu",
+        "company": "Zhejiang University"
+      },
+      {
+        "name": "Hongyan Liu",
+        "company": "Fuzhou University"
+      },
+      {
+        "name": "Kui Ren",
+        "company": "Zhejiang University"
       }
     ]
   },
@@ -893,9 +2260,40 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kurtis Heimerl",
-        "title": "Session Chair",
-        "company": "University of Washington"
+        "name": "Iliana Maria Xygkou",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Jithin K. Sojan",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Dhruv Rauthan",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Feng Zhu",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Thomas Holterbach",
+        "company": "University of Strasbourg"
+      },
+      {
+        "name": "Shane Alcock",
+        "company": "Alcock Network Intelligence Ltd"
+      },
+      {
+        "name": "Brian Flanagan",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Ahmed Saeed",
+        "company": "Georgia Tech"
+      },
+      {
+        "name": "Alberto Dainotti",
+        "company": "Georgia Tech"
       }
     ]
   },
@@ -910,9 +2308,40 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kurtis Heimerl",
-        "title": "Session Chair",
-        "company": "University of Washington"
+        "name": "Zhongxu Guan",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Shuai Wang",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "Li Chen",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "zhaoteng yan",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "Jiaye Lin",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Dan Li",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Yong Jiang",
+        "company": "Tsinghua Shenzhen International Graduate School"
+      },
+      {
+        "name": "Yingxin Wang",
+        "company": "China Telecom Cybersecurity Technology Co.,Ltd."
+      },
+      {
+        "name": "Ziqian Liu",
+        "company": "China Telecom"
       }
     ]
   },
@@ -927,9 +2356,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kai Chen",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Yiming Lei",
+        "company": "Max Planck Institute for Informatics"
+      },
+      {
+        "name": "Jialong Li",
+        "company": "Shenzhen University of Advanced Technology"
+      },
+      {
+        "name": "Zhengqing Liu",
+        "company": "Imperial College London"
+      },
+      {
+        "name": "Raj Joshi",
+        "company": "Harvard University"
+      },
+      {
+        "name": "Yiting Xia",
+        "company": "Max Planck Institute for Informatics"
       }
     ]
   },
@@ -944,9 +2388,16 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kai Chen",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Zerui Guo",
+        "company": "University of Wisconsin-Madison"
+      },
+      {
+        "name": "Emily Shriver",
+        "company": "unaffiliated"
+      },
+      {
+        "name": "Ming Liu",
+        "company": "University of Wisconsin-Madison"
       }
     ]
   },
@@ -961,9 +2412,36 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kai Chen",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Yiming Lei",
+        "company": "Max Planck Institute for Informatics"
+      },
+      {
+        "name": "Federico De Marchi",
+        "company": "Max Planck Institute for Informatics"
+      },
+      {
+        "name": "Jialong Li",
+        "company": "Shenzhen University of Advanced Technology"
+      },
+      {
+        "name": "Raj Joshi",
+        "company": "Harvard University"
+      },
+      {
+        "name": "Shu-Ting Wang",
+        "company": "UC San Diego"
+      },
+      {
+        "name": "Xiaoqi Chen",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Balakrishnan Chandrasekaran",
+        "company": "Vrije Universiteit Amsterdam"
+      },
+      {
+        "name": "Yiting Xia",
+        "company": "Max Planck Institute for Informatics"
       }
     ]
   },
@@ -978,9 +2456,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Kai Chen",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Zhihao Zhang",
+        "company": "XMU & Alibaba Cloud"
+      },
+      {
+        "name": "Lanzheng Liu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Chen Chen",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Huiba Li",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Jiwu Shu",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Windsor Hsu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yiming Zhang",
+        "company": "Shanghai Jiao Tong University"
       }
     ]
   },
@@ -995,9 +2496,40 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Xiaoqi Chen",
-        "title": "Session Chair",
-        "company": "Purdue University"
+        "name": "Weihao Cui",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Ji Zhang",
+        "company": "Ant Group"
+      },
+      {
+        "name": "Han Zhao",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Chao Liu",
+        "company": "Ant Group"
+      },
+      {
+        "name": "Jian Sha",
+        "company": "Ant Group"
+      },
+      {
+        "name": "Quan Chen",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Bo Sang",
+        "company": "Antgroup US"
+      },
+      {
+        "name": "Bingsheng He",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Minyi Guo",
+        "company": "Shanghai Jiao Tong University"
       }
     ]
   },
@@ -1012,9 +2544,40 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Xiaoqi Chen",
-        "title": "Session Chair",
-        "company": "Purdue University"
+        "name": "Haarika Manda",
+        "company": "University of California, Santa Barbara"
+      },
+      {
+        "name": "Manshi Sagar",
+        "company": "IIT Delhi"
+      },
+      {
+        "name": "Yogesh",
+        "company": "IIT Delhi"
+      },
+      {
+        "name": "Kartikay Singh",
+        "company": "IIT Delhi"
+      },
+      {
+        "name": "Xintong Zhao",
+        "company": "University of California, Santa Barbara"
+      },
+      {
+        "name": "Tarun Mangla",
+        "company": "IIT Delhi"
+      },
+      {
+        "name": "Phillipa Gill",
+        "company": "Google"
+      },
+      {
+        "name": "Elizabeth Belding",
+        "company": "UC Santa Barbara"
+      },
+      {
+        "name": "Arpit Gupta",
+        "company": "UCSB"
       }
     ]
   },
@@ -1029,9 +2592,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Xiaoqi Chen",
-        "title": "Session Chair",
-        "company": "Purdue University"
+        "name": "Seyed Mohammad Mehdi Mirnajafizadeh",
+        "company": "Wayne State University"
+      },
+      {
+        "name": "Prashant Khanduri",
+        "company": "Wayne State University"
+      },
+      {
+        "name": "DaeHun Nyang",
+        "company": "Ewha Womans University"
+      },
+      {
+        "name": "Rhongho Jang",
+        "company": "Wayne State University"
       }
     ]
   },
@@ -1046,9 +2620,68 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Xiaoqi Chen",
-        "title": "Session Chair",
-        "company": "Purdue University"
+        "name": "Xingyi Li",
+        "company": "State Key Laboratory of Networking and Switching Technology"
+      },
+      {
+        "name": "Yadong Liu",
+        "company": "Tencent"
+      },
+      {
+        "name": "Xiaojie Huang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yiran Zhang",
+        "company": "State Key Laboratory of Networking and Switching Technology"
+      },
+      {
+        "name": "Shuai Wang",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "Shangguang Wang",
+        "company": "State Key Laboratory of Networking and Switching Technology"
+      },
+      {
+        "name": "Zhehao Lin",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yinben Xia",
+        "company": "Tencent"
+      },
+      {
+        "name": "Chang Yu",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Qihang Liu",
+        "company": "Tencent"
+      },
+      {
+        "name": "Xuan Zhang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Hao Lu",
+        "company": "Tencent"
+      },
+      {
+        "name": "Xiang Li",
+        "company": "Tencent"
+      },
+      {
+        "name": "Zekun He",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yachen Wang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Xianneng Zou",
+        "company": "Tencent"
       }
     ]
   },
@@ -1063,9 +2696,28 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Xiaoqi Chen",
-        "title": "Session Chair",
-        "company": "Purdue University"
+        "name": "Ximeng Liu",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "ZhuoRan Liu",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Yingming Mao",
+        "company": "Xi'an Jiao Tong University"
+      },
+      {
+        "name": "Yatao Li",
+        "company": "Zhongguancun Academy & Zhonguancun Institute of Artificial Intelligence"
+      },
+      {
+        "name": "Shizhen Zhao",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Xinbing Wang",
+        "company": "Shanghai Jiao Tong University"
       }
     ]
   },
@@ -1080,9 +2732,56 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Chang Lou",
-        "title": "Session Chair",
-        "company": "University of Virginia"
+        "name": "Yu Guan",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Zhiyu Yin",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Haoyu Chen",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Sheng Cheng",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Chaojie Yang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Kun Qian",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Tianyin Xu",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Pengcheng Zhang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Yang Zhang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Hanyu Zhao",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Yong Li",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Dennis Cai",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Ennan Zhai",
+        "company": "Alibaba Group"
       }
     ]
   },
@@ -1097,9 +2796,40 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Chang Lou",
-        "title": "Session Chair",
-        "company": "University of Virginia"
+        "name": "Fei Long",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Kaihui Gao",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "Li Chen",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "Dan Li",
+        "company": "Tsinghua University; Beijing University of Posts and Telecommunications"
+      },
+      {
+        "name": "Yiwei Zhang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Fei Gui",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Yitao Xing",
+        "company": "Huawei Technologies Co., Ltd."
+      },
+      {
+        "name": "Wenjia Wei",
+        "company": "Huawei Technologies Co., Ltd."
+      },
+      {
+        "name": "Bingyang Liu",
+        "company": "Huawei Technologies Co., Ltd."
       }
     ]
   },
@@ -1114,9 +2844,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Chang Lou",
-        "title": "Session Chair",
-        "company": "University of Virginia"
+        "name": "Thea Rossman",
+        "company": "Stanford University"
+      },
+      {
+        "name": "Diana Qing",
+        "company": "Stanford University"
+      },
+      {
+        "name": "Gerry Wan",
+        "company": "Google + Stanford University"
+      },
+      {
+        "name": "Zakir Durumeric",
+        "company": "Stanford University"
       }
     ]
   },
@@ -1131,13 +2872,45 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Chang Lou",
-        "title": "Session Chair",
-        "company": "University of Virginia"
+        "name": "Jiawei Tyler Gu",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Zhen Tang",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Yiming Su",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Bogdan Alexandru Stoica",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Xudong Sun",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "William X. Zheng",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Yue Zhang",
+        "company": "Auburn University"
+      },
+      {
+        "name": "Akond Rahman",
+        "company": "Auburn University"
+      },
+      {
+        "name": "Chen Wang",
+        "company": "IBM Research"
+      },
+      {
+        "name": "Tianyin Xu",
+        "company": "University of Illinois Urbana-Champaign"
       }
-    ],
-    "key_themes": [
-      "Debugging Distributed Systems"
     ]
   },
   {
@@ -1151,13 +2924,33 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Chang Lou",
-        "title": "Session Chair",
-        "company": "University of Virginia"
+        "name": "Jing Wang",
+        "company": "Tencent Inc."
+      },
+      {
+        "name": "Xiao Kong",
+        "company": "Tencent Inc."
+      },
+      {
+        "name": "Yunzhe Ni",
+        "company": "Tencent Inc."
+      },
+      {
+        "name": "Nian Wen",
+        "company": "Tencent Inc."
+      },
+      {
+        "name": "Jiaxing Zhang",
+        "company": "Tencent Inc."
+      },
+      {
+        "name": "Congcong Miao",
+        "company": "Tencent Inc."
+      },
+      {
+        "name": "Honghao Liu",
+        "company": "Tencent Inc."
       }
-    ],
-    "key_themes": [
-      "Debugging Distributed Systems"
     ]
   },
   {
@@ -1171,9 +2964,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zili Meng",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Sidharth Sankhe",
+        "company": "University of Toronto"
+      },
+      {
+        "name": "Felix Zhang",
+        "company": "University of Toronto"
+      },
+      {
+        "name": "Umayrah Chonee",
+        "company": "University of Toronto"
+      },
+      {
+        "name": "Sherman Lim",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Jason Hu",
+        "company": "University of Toronto"
+      },
+      {
+        "name": "Jialin Li",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Qizhen Zhang",
+        "company": "University of Toronto"
       }
     ]
   },
@@ -1188,9 +3004,36 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zili Meng",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Ke Han",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Sruthi P C",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Yayu Wang",
+        "company": "The University of British Columbia"
+      },
+      {
+        "name": "Yaoxu Song",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Bishal Basak Papan",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Junwen Yang",
+        "company": "Meta"
+      },
+      {
+        "name": "Pedro Fonseca",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Yongle Zhang",
+        "company": "Purdue University"
       }
     ]
   },
@@ -1205,9 +3048,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zili Meng",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Chaoyi Ruan",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Yinhe Chen",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Dongqi Tian",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Yandong Shi",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Yongji Wu",
+        "company": "UC Berkeley"
+      },
+      {
+        "name": "Jialin Li",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Cheng Li",
+        "company": "The University of Science and Technology of China"
       }
     ]
   },
@@ -1222,9 +3088,44 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zili Meng",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Chaolei Hu",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Kun Qian",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Erci Xu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yifan Shen",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Haoran Zhang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Xue Li",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Yuesheng Gu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Lingjun Zhu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Fengyuan Ren",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Ennan Zhai",
+        "company": "Alibaba Cloud"
       }
     ]
   },
@@ -1239,13 +3140,33 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zili Meng",
-        "title": "Session Chair",
-        "company": "The Hong Kong University of Science and Technology"
+        "name": "Patrick Sabanic",
+        "company": "Technical University of Munich"
+      },
+      {
+        "name": "Masanori Misono",
+        "company": "Technical University of Munich"
+      },
+      {
+        "name": "Teofil Bodea",
+        "company": "Technical University of Munich"
+      },
+      {
+        "name": "Julian Pritzi",
+        "company": "Technical University of Munich"
+      },
+      {
+        "name": "Michael Hackl",
+        "company": "Technical University of Munich"
+      },
+      {
+        "name": "Dimitrios Stavrakakis",
+        "company": "Technical University of Munich"
+      },
+      {
+        "name": "Pramod Bhatotia",
+        "company": "Technical University of Munich"
       }
-    ],
-    "key_themes": [
-      "Scalable Storage Systems"
     ]
   },
   {
@@ -1259,9 +3180,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Venkat Arun",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Daniel S. Berger",
+        "company": "Microsoft Azure and University of Washington"
+      },
+      {
+        "name": "Yuhong Zhong",
+        "company": "Columbia University"
+      },
+      {
+        "name": "Fiodar Kazhamiaka",
+        "company": "Microsoft Azure"
+      },
+      {
+        "name": "Pantea Zardoshti",
+        "company": "Microsoft Azure"
+      },
+      {
+        "name": "Shuwei Teng",
+        "company": "Microsoft Azure"
+      },
+      {
+        "name": "Mark Hill",
+        "company": "University of Wisconsin-Madison"
+      },
+      {
+        "name": "Rodrigo Fonseca",
+        "company": "Microsoft Azure"
       }
     ]
   },
@@ -1276,9 +3220,36 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Venkat Arun",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Yongji Wu",
+        "company": "UC Berkeley"
+      },
+      {
+        "name": "Xueshen Liu",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Haizhong Zheng",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Juncheng Gu",
+        "company": "Google"
+      },
+      {
+        "name": "Beidi Chen",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Z. Morley Mao",
+        "company": "Google"
+      },
+      {
+        "name": "Arvind Krishnamurthy",
+        "company": "Google/Univ. of Washington"
+      },
+      {
+        "name": "Ion Stoica",
+        "company": "UC Berkeley"
       }
     ]
   },
@@ -1293,9 +3264,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Venkat Arun",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Sheng Qi",
+        "company": "Peking University"
+      },
+      {
+        "name": "Zhiquan Zhang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Xuanzhe Liu",
+        "company": "Peking University"
+      },
+      {
+        "name": "Xin Jin",
+        "company": "Peking University"
       }
     ]
   },
@@ -1310,13 +3292,53 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Venkat Arun",
-        "title": "Session Chair",
-        "company": "The University of Texas at Austin"
+        "name": "Gabriele Oliaro",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Xupeng Miao",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Xinhao Cheng",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Vineeth Kada",
+        "company": "Anthropic PBC"
+      },
+      {
+        "name": "Mengdi Wu",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Ruohan Gao",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Yingyi Huang",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Remi Delacourt",
+        "company": "Mistral AI"
+      },
+      {
+        "name": "April Yang",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Yingcheng Wang",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Colin Unger",
+        "company": "Stanford University"
+      },
+      {
+        "name": "Zhihao Jia",
+        "company": "Carnegie Mellon University and Amazon Web Services"
       }
-    ],
-    "key_themes": [
-      "Living Large in Shared Clouds"
     ]
   },
   {
@@ -1330,9 +3352,52 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hongqiang Liu",
-        "title": "Session Chair",
-        "company": "Uber"
+        "name": "Faisal Iqbal",
+        "company": "Meta"
+      },
+      {
+        "name": "Vitaly Neganov",
+        "company": "Meta"
+      },
+      {
+        "name": "Brian Chang",
+        "company": "Meta"
+      },
+      {
+        "name": "Rong Rong",
+        "company": "Meta"
+      },
+      {
+        "name": "Yuanjun Yao",
+        "company": "Meta"
+      },
+      {
+        "name": "Marek Denis",
+        "company": "Meta"
+      },
+      {
+        "name": "Qin Zhang",
+        "company": "Meta"
+      },
+      {
+        "name": "Alexandru Manea",
+        "company": "Meta"
+      },
+      {
+        "name": "Anton Marchenko",
+        "company": "Meta"
+      },
+      {
+        "name": "Ulas Kozat",
+        "company": "Meta"
+      },
+      {
+        "name": "Aditya Akella",
+        "company": "UT Austin"
+      },
+      {
+        "name": "Ying Zhang",
+        "company": "Meta"
       }
     ]
   },
@@ -1347,9 +3412,12 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hongqiang Liu",
-        "title": "Session Chair",
-        "company": "Uber"
+        "name": "Swapnil Gandhi",
+        "company": "Stanford University"
+      },
+      {
+        "name": "Christos Kozyrakis",
+        "company": "Stanford University and NVIDIA"
       }
     ]
   },
@@ -1364,9 +3432,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hongqiang Liu",
-        "title": "Session Chair",
-        "company": "Uber"
+        "name": "Hua Meng",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Yufan Zhuang",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Yasna Noushirvani",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Xiangjie Huang",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Zili Meng",
+        "company": "Hong Kong University of Science and Technology"
       }
     ]
   },
@@ -1381,13 +3464,17 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hongqiang Liu",
-        "title": "Session Chair",
-        "company": "Uber"
+        "name": "Lior Zeno",
+        "company": "Technion - Israel Institute of Technology"
+      },
+      {
+        "name": "Naama Ben-David",
+        "company": "Technion - Israel Institute of Technology"
+      },
+      {
+        "name": "Mark Silberstein",
+        "company": "Technion - Israel Institute of Technology"
       }
-    ],
-    "key_themes": [
-      "Reliability Through Verification"
     ]
   },
   {
@@ -1401,13 +3488,21 @@
     "format": "In-Person",
     "speakers": [
       {
+        "name": "Anchengcheng Zhou",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Joshua Lau",
+        "company": "Princeton University"
+      },
+      {
+        "name": "P. Brighten Godfrey",
+        "company": "University of Illinois Urbana-Champaign and Broadcom"
+      },
+      {
         "name": "Maria Apostolaki",
-        "title": "Session Chair",
         "company": "Princeton University"
       }
-    ],
-    "key_themes": [
-      "Virtualization Meets the Network"
     ]
   },
   {
@@ -1421,13 +3516,29 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Maria Apostolaki",
-        "title": "Session Chair",
-        "company": "Princeton University"
+        "name": "Ayush Mishra",
+        "company": "ETH Zurich"
+      },
+      {
+        "name": "Archit Bhatnagar",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Yixuan Zhang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Ben Leong",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Ya Gao",
+        "company": "Wuxi Institute of Technology"
+      },
+      {
+        "name": "Raj Joshi",
+        "company": "Harvard University"
       }
-    ],
-    "key_themes": [
-      "Virtualization Meets the Network"
     ]
   },
   {
@@ -1441,9 +3552,12 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Maria Apostolaki",
-        "title": "Session Chair",
-        "company": "Princeton University"
+        "name": "Yu Wang",
+        "company": "University of Michigan - Ann Arbor"
+      },
+      {
+        "name": "Robert Dick",
+        "company": "University of Michigan - Ann Arbor"
       }
     ]
   },
@@ -1458,9 +3572,108 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Maria Apostolaki",
-        "title": "Session Chair",
-        "company": "Princeton University"
+        "name": "Haonan Li",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Tian Pan",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Jin Ke",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Baohai Hu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Changgang Zheng",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Enge Song",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Zhi Xu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Ye Yang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Bowen Yang",
+        "company": "Alibaba"
+      },
+      {
+        "name": "Donglin Lai",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Yisong Qiao",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Bengbeng Xue",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Jianyuan Lu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Xiaoqing Sun",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Shize Zhang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Zihao Fan",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Mingxin Li",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Song Yang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Jun Liang",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Xionglie Wei",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Biao Lyu",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Rong Wen",
+        "company": "Fudan University and Alibaba Cloud"
+      },
+      {
+        "name": "Zhigang Zong",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Jiao Zhang",
+        "company": "Purple Mountain Laboratories"
+      },
+      {
+        "name": "Tao Huang",
+        "company": "Purple Mountain Laboratories"
+      },
+      {
+        "name": "Shunmin Zhu",
+        "company": "Alibaba Group"
       }
     ]
   },
@@ -1475,9 +3688,28 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Session Char: Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Ruidong Zhu",
+        "company": "Peking University"
+      },
+      {
+        "name": "Mingcong Han",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yinmin Zhong",
+        "company": "Peking University"
+      },
+      {
+        "name": "Wencong Xiao",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Xuanzhe Liu",
+        "company": "Peking University"
+      },
+      {
+        "name": "Xin Jin",
+        "company": "Peking University"
       }
     ]
   },
@@ -1492,9 +3724,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Session Char: Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Chunyu Xue",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Yi Pan",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Weihao Cui",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Quan Chen",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Shulai Zhang",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Bingsheng He",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Minyi Guo",
+        "company": "Shanghai Jiao Tong University"
       }
     ]
   },
@@ -1509,9 +3764,40 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Session Char: Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Wanchun Jiang",
+        "company": "School of Computer Science and Engineering, Central South University, China"
+      },
+      {
+        "name": "Haoyang Li",
+        "company": "School of Computer Science and Engineering, Central South University, China"
+      },
+      {
+        "name": "Kai Wang",
+        "company": "School of Computer Science and Engineering, Central South University, China"
+      },
+      {
+        "name": "Yujie Hu",
+        "company": "School of Computer Science and Engineering, Central South University, China"
+      },
+      {
+        "name": "Xiao Han",
+        "company": "School of Computer Science and Engineering, Central South University, China"
+      },
+      {
+        "name": "Danfeng Shan",
+        "company": "School of Computer Science and Technology, Xi'an Jiaotong University"
+      },
+      {
+        "name": "Fengyuan Ren",
+        "company": "Department of Computer Science and Technology, Tsinghua University"
+      },
+      {
+        "name": "Jiawei Huang",
+        "company": "School of Computer Science and Engineering, Central South University, China"
+      },
+      {
+        "name": "Jianxin Wang",
+        "company": "School of Computer Science and Engineering, Central South University, China"
       }
     ]
   },
@@ -1526,9 +3812,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Session Char: Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Anchengcheng Zhou",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Vipul Harsh",
+        "company": "Conviva"
+      },
+      {
+        "name": "Sangeetha Abdu Jyothi",
+        "company": "University of California, Irvine"
+      },
+      {
+        "name": "Maria Apostolaki",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Brighten Godfrey",
+        "company": "UIUC"
       }
     ]
   },
@@ -1543,13 +3844,25 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Session Char: Seojin Park",
-        "title": "Session Chair",
-        "company": "University of Southern California"
+        "name": "Arjun Devraj",
+        "company": "Cornell University"
+      },
+      {
+        "name": "Bill Owens",
+        "company": "NYSERNet"
+      },
+      {
+        "name": "Umesh Krishnaswamy",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Ying Zhang",
+        "company": "Meta"
+      },
+      {
+        "name": "Rachee Singh",
+        "company": "Cornell University"
       }
-    ],
-    "key_themes": [
-      "Clouds, Carefully Engineered"
     ]
   },
   {
@@ -1563,13 +3876,45 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Muhammad Shahbaz",
-        "title": "Session Chair",
-        "company": "University of Michigan"
+        "name": "Runwei Lu",
+        "company": "New York University Shanghai"
+      },
+      {
+        "name": "Yanran Deng",
+        "company": "New York University Shanghai"
+      },
+      {
+        "name": "Ruixuan Li",
+        "company": "New York University Shanghai"
+      },
+      {
+        "name": "Jinting Liu",
+        "company": "New York University Shanghai"
+      },
+      {
+        "name": "Yuejie Wang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Xinyu Li",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Deming Xu",
+        "company": "New York University Shanghai"
+      },
+      {
+        "name": "Han Tian",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Kai Chen",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Guyue Liu",
+        "company": "Peking University"
       }
-    ],
-    "key_themes": [
-      "When Systems Run Themselves"
     ]
   },
   {
@@ -1583,13 +3928,53 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Muhammad Shahbaz",
-        "title": "Session Chair",
-        "company": "University of Michigan"
+        "name": "Rulan Yang",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Gao Han",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Hanyang Shao",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Xiaoqiang Zheng",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Xing Fang",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Ziyi Wang",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Lizhao You",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Ruiting Zhou",
+        "company": "Southeast University"
+      },
+      {
+        "name": "Linghe Kong",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Ennan Zhai",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Qiao Xiang",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Jiwu Shu",
+        "company": "Xiamen University"
       }
-    ],
-    "key_themes": [
-      "When Systems Run Themselves"
     ]
   },
   {
@@ -1603,8 +3988,51 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Muhammad Shahbaz",
-        "title": "Session Chair",
+        "name": "Congcong Miao",
+        "company": "Tencent"
+      },
+      {
+        "name": "Xianneng Zou",
+        "company": "Tencent"
+      },
+      {
+        "name": "Chuwen Zhang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Shiping Yang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Qihang Liu",
+        "company": "Tencent"
+      },
+      {
+        "name": "Zhijie Yan",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yanke Zhang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yong Jiang",
+        "company": "Tsinghua Shenzhen International Graduate School"
+      },
+      {
+        "name": "Qiao Xiang",
+        "company": "Xiamen University"
+      },
+      {
+        "name": "Xin Jin",
+        "company": "Peking University"
+      },
+      {
+        "name": "Zili Meng",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Ang Chen",
         "company": "University of Michigan"
       }
     ]
@@ -1620,9 +4048,28 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Muhammad Shahbaz",
-        "title": "Session Chair",
-        "company": "University of Michigan"
+        "name": "Jiayu Hu",
+        "company": "Tencent"
+      },
+      {
+        "name": "Feng Jin",
+        "company": "Tencent"
+      },
+      {
+        "name": "Xianping Zhou",
+        "company": "Tencent"
+      },
+      {
+        "name": "Kai Zhang",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Zhen Shen",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yongkang Luo",
+        "company": "Tencent"
       }
     ]
   },
@@ -1637,9 +4084,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Muhammad Shahbaz",
-        "title": "Session Chair",
-        "company": "University of Michigan"
+        "name": "Hongchen Cao",
+        "company": "ShanghaiTech University"
+      },
+      {
+        "name": "Jingzhu He",
+        "company": "ShanghaiTech University"
+      },
+      {
+        "name": "Ting Dai",
+        "company": "InsightFinder AI"
+      },
+      {
+        "name": "Guoliang Jin",
+        "company": "North Carolina State University"
       }
     ]
   },
@@ -1654,13 +4112,21 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Jun Lu",
+        "company": "Central South University"
+      },
+      {
+        "name": "Jialin Li",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Yaoxue Zhang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Ju Ren",
+        "company": "Tsinghua University"
       }
-    ],
-    "key_themes": [
-      "From Fiber to Radio"
     ]
   },
   {
@@ -1674,13 +4140,41 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Goodsol Lee",
+        "company": "Seoul National University"
+      },
+      {
+        "name": "Junhong Min",
+        "company": "University of Colorado Boulder"
+      },
+      {
+        "name": "Seyeon Kim",
+        "company": "Korea University"
+      },
+      {
+        "name": "Juheon Yi",
+        "company": "Seoul National University"
+      },
+      {
+        "name": "Kwang Taik Kim",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Mung Chiang",
+        "company": "Purdue University"
+      },
+      {
+        "name": "Sangtae Ha",
+        "company": "University of Colorado Boulder"
+      },
+      {
+        "name": "Kyunghan Lee",
+        "company": "Seoul National University"
+      },
+      {
+        "name": "Saewoong Bahk",
+        "company": "Seoul National University"
       }
-    ],
-    "key_themes": [
-      "From Fiber to Radio"
     ]
   },
   {
@@ -1694,13 +4188,13 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Yibin Shen",
+        "company": "Hong Kong University of Science and Technology"
+      },
+      {
+        "name": "Zili Meng",
+        "company": "Hong Kong University of Science and Technology"
       }
-    ],
-    "key_themes": [
-      "From Fiber to Radio"
     ]
   },
   {
@@ -1714,9 +4208,12 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Xiao Zhang",
+        "company": "University of Texas at Austin"
+      },
+      {
+        "name": "Daehyeok Kim",
+        "company": "University of Texas at Austin"
       }
     ]
   },
@@ -1731,13 +4228,25 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Lili Qiu",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Bhaskar Kataria",
+        "company": "Cornell University"
+      },
+      {
+        "name": "Howard Hua",
+        "company": "Cornell University"
+      },
+      {
+        "name": "Andrea D Amico",
+        "company": "NEC Labs"
+      },
+      {
+        "name": "Bill Owens",
+        "company": "NYSERNet"
+      },
+      {
+        "name": "Rachee Singh",
+        "company": "Cornell University"
       }
-    ],
-    "key_themes": [
-      "From Fiber to Radio"
     ]
   },
   {
@@ -1751,9 +4260,68 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Francis Yan",
-        "title": "Session Chair",
-        "company": "University of Illinois at Urbana-Champaign"
+        "name": "Zhaodong Wang",
+        "company": "Meta"
+      },
+      {
+        "name": "Satyajeet Singh Ahuja",
+        "company": "Meta Platforms, Inc"
+      },
+      {
+        "name": "Xu Zhang",
+        "company": "Meta Platforms, Inc"
+      },
+      {
+        "name": "Yuhui Zhang",
+        "company": "Meta Platforms, Inc"
+      },
+      {
+        "name": "Max Noormohammadpour",
+        "company": "Meta Platforms, Inc"
+      },
+      {
+        "name": "Gregory R. Steinbrecher",
+        "company": "Meta"
+      },
+      {
+        "name": "Thomas Fuller",
+        "company": "Meta"
+      },
+      {
+        "name": "Xin Liu",
+        "company": "Meta Platforms, Inc"
+      },
+      {
+        "name": "Kevin Quirk",
+        "company": "Meta"
+      },
+      {
+        "name": "Mikel Jimenez Fernandez",
+        "company": "Meta Platforms, Inc"
+      },
+      {
+        "name": "Abhinav Triguna",
+        "company": "Meta Platforms, Inc"
+      },
+      {
+        "name": "Yan Cai",
+        "company": "Meta"
+      },
+      {
+        "name": "Steve Politis",
+        "company": "Meta"
+      },
+      {
+        "name": "Petr Lapukhov",
+        "company": "Nvidia"
+      },
+      {
+        "name": "Naader Hasani",
+        "company": "Nvidia"
+      },
+      {
+        "name": "Ying Zhang",
+        "company": "Meta"
       }
     ]
   },
@@ -1768,9 +4336,48 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Francis Yan",
-        "title": "Session Chair",
-        "company": "University of Illinois at Urbana-Champaign"
+        "name": "Jianxing Qin",
+        "company": "Duke University"
+      },
+      {
+        "name": "Jingrong Chen",
+        "company": "Duke University"
+      },
+      {
+        "name": "Xinhao Kong",
+        "company": "Duke University"
+      },
+      {
+        "name": "Yongji Wu",
+        "company": "UC Berkeley"
+      },
+      {
+        "name": "Tianjun Yuan",
+        "company": "Duke University"
+      },
+      {
+        "name": "Liang Luo",
+        "company": "Meta AI"
+      },
+      {
+        "name": "Zhaodong Wang",
+        "company": "Meta"
+      },
+      {
+        "name": "Ying Zhang",
+        "company": "Meta"
+      },
+      {
+        "name": "Tingjun Chen",
+        "company": "Duke University"
+      },
+      {
+        "name": "Alvin R. Lebeck",
+        "company": "Duke University"
+      },
+      {
+        "name": "Danyang Zhuo",
+        "company": "Duke University"
       }
     ]
   },
@@ -1785,9 +4392,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Francis Yan",
-        "title": "Session Chair",
-        "company": "University of Illinois at Urbana-Champaign"
+        "name": "Yajie Zhou",
+        "company": "University of Maryland"
+      },
+      {
+        "name": "Fuheng Zhao",
+        "company": "University of California, Santa Barbara"
+      },
+      {
+        "name": "Eric Wang",
+        "company": "University of Maryland"
+      },
+      {
+        "name": "Ayse Coskun",
+        "company": "Boston University"
+      },
+      {
+        "name": "Divyakant Agrawal",
+        "company": "University of California, Santa Barbara"
+      },
+      {
+        "name": "Amr El Abbadi",
+        "company": "University of California, Santa Barbara"
+      },
+      {
+        "name": "Zaoxing Liu",
+        "company": "University of Maryland"
       }
     ]
   },
@@ -1802,9 +4432,36 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Francis Yan",
-        "title": "Session Chair",
-        "company": "University of Illinois at Urbana-Champaign"
+        "name": "Yuxing Xiang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Xue Li",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Kun Qian",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Yan Zhang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Wenyuan Yu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Ennan Zhai",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Xin Jin",
+        "company": "Peking University"
+      },
+      {
+        "name": "Jingren Zhou",
+        "company": "Alibaba Group"
       }
     ]
   },
@@ -1819,9 +4476,36 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Anu Mercian",
-        "title": "Session Chair",
-        "company": "Google"
+        "name": "Ze Xia",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Hao Li",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Jinyu Fu",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Xin Wan",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Yihan Dang",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Danfeng Shan",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Li Chen",
+        "company": "Zhongguancun Lab"
+      },
+      {
+        "name": "Peng Zhang",
+        "company": "Xi'an Jiaotong University"
       }
     ]
   },
@@ -1836,9 +4520,56 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Anu Mercian",
-        "title": "Session Chair",
-        "company": "Google"
+        "name": "Naixuan Guan",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Xiaokang Hu",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Yisheng Xie",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Xishi Qiu",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Chaojie Liu",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Yuchao Cao",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Banghao Ying",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Dianchen Tian",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Yu Zhou",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Yangzeyu Zhang",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Hujun Ge",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Yibin Shen",
+        "company": "Alibaba Cloud Computing"
+      },
+      {
+        "name": "Jiesheng Wu",
+        "company": "Alibaba Cloud Computing"
       }
     ]
   },
@@ -1853,13 +4584,21 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Anu Mercian",
-        "title": "Session Chair",
-        "company": "Google"
+        "name": "Gangmuk Lim",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Aditya Prerepa",
+        "company": "University of Illinois Urbana-Champaign and xAI"
+      },
+      {
+        "name": "Brighten Godfrey",
+        "company": "University of Illinois Urbana-Champaign"
+      },
+      {
+        "name": "Radhika Mittal",
+        "company": "University of Illinois Urbana-Champaign"
       }
-    ],
-    "key_themes": [
-      "Networked Resources, Virtualized"
     ]
   },
   {
@@ -1873,13 +4612,29 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Anu Mercian",
-        "title": "Session Chair",
-        "company": "Google"
+        "name": "Yingming Mao",
+        "company": "Xi'an Jiaotong University and Shanghai Innovation Institute"
+      },
+      {
+        "name": "Qiaozhu Zhai",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Ximeng Liu",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Zhen Yao",
+        "company": "Huawei"
+      },
+      {
+        "name": "Xia Zhu",
+        "company": "Huawei"
+      },
+      {
+        "name": "Yuzhou Zhou",
+        "company": "Xi'an Jiaotong University"
       }
-    ],
-    "key_themes": [
-      "Networked Resources, Virtualized"
     ]
   },
   {
@@ -1893,13 +4648,37 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Yuanchao Shu",
-        "title": "Session Chair",
+        "name": "Yuxuan Yan",
         "company": "Zhejiang University"
+      },
+      {
+        "name": "Shiqi Jiang",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Ting Cao",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Yifan Yang",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Qianqian Yang",
+        "company": "Zhejiang University"
+      },
+      {
+        "name": "Yuanchao Shu",
+        "company": "Zhejiang University"
+      },
+      {
+        "name": "Yuqing Yang",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Lili Qiu",
+        "company": "Microsoft Research"
       }
-    ],
-    "key_themes": [
-      "Hardware, Mobility, and Systems"
     ]
   },
   {
@@ -1913,13 +4692,21 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Yuanchao Shu",
-        "title": "Session Chair",
-        "company": "Zhejiang University"
+        "name": "Murali Ramanujam",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Yinwei Dai",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Kyle Jamieson",
+        "company": "Princeton University"
+      },
+      {
+        "name": "Ravi Netravali",
+        "company": "Princeton University"
       }
-    ],
-    "key_themes": [
-      "Hardware, Mobility, and Systems"
     ]
   },
   {
@@ -1933,9 +4720,44 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Yuanchao Shu",
-        "title": "Session Chair",
-        "company": "Zhejiang University"
+        "name": "Zhiyu Zhang",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Minkun Xue",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Kan Yu",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Ruyi Yao",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Shili Chen",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Hao Mei",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Zixuan Chen",
+        "company": "China Telecom"
+      },
+      {
+        "name": "Weiyi Chen",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Yibo Fan",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Yang Xu",
+        "company": "Fudan University"
       }
     ]
   },
@@ -1950,9 +4772,40 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Yuanchao Shu",
-        "title": "Session Chair",
-        "company": "Zhejiang University"
+        "name": "Jiechen Zhao",
+        "company": "University of Toronto/Microsoft Research Asia"
+      },
+      {
+        "name": "Ran Shu",
+        "company": "Microsoft Research Asia"
+      },
+      {
+        "name": "Lei Qu",
+        "company": "Microsoft Research Asia"
+      },
+      {
+        "name": "Ziyue Yang",
+        "company": "Microsoft Research Asia"
+      },
+      {
+        "name": "Rui Ma",
+        "company": "Microsoft Research Asia"
+      },
+      {
+        "name": "Derek Chiou",
+        "company": "UT Austin/Microsoft"
+      },
+      {
+        "name": "Natalie Enright Jerger",
+        "company": "University of Toronto"
+      },
+      {
+        "name": "Peng Cheng",
+        "company": "Microsoft Research Asia"
+      },
+      {
+        "name": "Yongqiang Xiong",
+        "company": "Microsoft Research Asia"
       }
     ]
   },
@@ -1967,9 +4820,96 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hong Xu",
-        "title": "Session Chair",
-        "company": "The Chinese University of Hong Kong"
+        "name": "Mayank Bansal",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Milind Chabbi",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Kenneth Bøgh",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Srikanth Prodduturi",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Kevin Xu",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Amit Kumar",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "David Bell",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Ranjib Dey",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Yufei Ren",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Sachin Sharma",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Juan Marcano",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Shriniket Kale",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Subhav Pradhan",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Ivan Beschastnikh",
+        "company": "University of British Columbia"
+      },
+      {
+        "name": "Miguel Covarrubias",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Chien-Chih Liao",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Sandeep Koushik Sheshadri",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Wen Luo",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Kai Song",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Ashish Samant",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Sahil Rihan",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Nimish Sheth",
+        "company": "Uber Technologies"
+      },
+      {
+        "name": "Uday Kiran Medisetty",
+        "company": "Uber Technologies"
       }
     ]
   },
@@ -1984,9 +4924,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hong Xu",
-        "title": "Session Chair",
-        "company": "The Chinese University of Hong Kong"
+        "name": "Saurabh Agarwal",
+        "company": "The University of Texas at Austin"
+      },
+      {
+        "name": "Bodun Hu",
+        "company": "University of Texas at Austin"
+      },
+      {
+        "name": "Anyong Mao",
+        "company": "UW-Madison"
+      },
+      {
+        "name": "Aditya Akella",
+        "company": "UT Austin"
+      },
+      {
+        "name": "Shivaram Venkataraman",
+        "company": "University of Wisconsin-Madison"
       }
     ]
   },
@@ -2001,9 +4956,44 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hong Xu",
-        "title": "Session Chair",
-        "company": "The Chinese University of Hong Kong"
+        "name": "Guorui Xie",
+        "company": "Pengcheng Laboratory"
+      },
+      {
+        "name": "Qing Li",
+        "company": "Pengcheng Laboratory"
+      },
+      {
+        "name": "Zhenning Shi",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Gianni Antichi",
+        "company": "Politecnico di Milano and Queen Mary University of London"
+      },
+      {
+        "name": "Yijia Zhu",
+        "company": "Xidian University"
+      },
+      {
+        "name": "Kejun Li",
+        "company": "Pengcheng Laboratory"
+      },
+      {
+        "name": "Changxing Weng",
+        "company": "Pengcheng Laboratory"
+      },
+      {
+        "name": "Sebastiano Miano",
+        "company": "Politecnico di Milano"
+      },
+      {
+        "name": "Yong Jiang",
+        "company": "Tsinghua Shenzhen International Graduate School"
+      },
+      {
+        "name": "Mingwei Xu",
+        "company": "Tsinghua University and Zhongguancun Laboratory"
       }
     ]
   },
@@ -2018,9 +5008,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hong Xu",
-        "title": "Session Chair",
-        "company": "The Chinese University of Hong Kong"
+        "name": "Liangyu Zhao",
+        "company": "University of Washington"
+      },
+      {
+        "name": "Saeed Maleki",
+        "company": "unaffiliated"
+      },
+      {
+        "name": "Yuanhong Wang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Zezhou Wang",
+        "company": "University of Washington"
+      },
+      {
+        "name": "Ziyue Yang",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Hossein Pourreza",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Arvind Krishnamurthy",
+        "company": "University of Washington"
       }
     ]
   },
@@ -2035,13 +5048,41 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Hong Xu",
-        "title": "Session Chair",
-        "company": "The Chinese University of Hong Kong"
+        "name": "Yan Cai",
+        "company": "Meta"
+      },
+      {
+        "name": "Jialong Li",
+        "company": "Max Planck Institute for Informatics"
+      },
+      {
+        "name": "Kutalmis Akpinar",
+        "company": "Meta"
+      },
+      {
+        "name": "Tianxiang Li",
+        "company": "Meta"
+      },
+      {
+        "name": "Hany Morsy",
+        "company": "Meta"
+      },
+      {
+        "name": "Jason Wilson",
+        "company": "Meta"
+      },
+      {
+        "name": "Sunil Khaunte",
+        "company": "Meta"
+      },
+      {
+        "name": "Yiting Xia",
+        "company": "Max Planck Institute for Informatics"
+      },
+      {
+        "name": "Ying Zhang",
+        "company": "Meta"
       }
-    ],
-    "key_themes": [
-      "Neurons Meet Routers"
     ]
   },
   {
@@ -2055,9 +5096,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Arpit Gupta, University of California",
-        "title": "Session Chair",
-        "company": "Santa Barbara"
+        "name": "Fei Fang",
+        "company": "University of California, Santa Cruz"
+      },
+      {
+        "name": "Yifan Hua",
+        "company": "University of California, Santa Cruz"
+      },
+      {
+        "name": "Shengze Wang",
+        "company": "University of California, Santa Cruz"
+      },
+      {
+        "name": "Ruilin Zhou",
+        "company": "University of California, Santa Cruz"
+      },
+      {
+        "name": "Yi Liu",
+        "company": "University of California, Santa Cruz"
+      },
+      {
+        "name": "Chen Qian",
+        "company": "University of California, Santa Cruz"
+      },
+      {
+        "name": "Xiaoxue Zhang",
+        "company": "University of Nevada, Reno"
       }
     ]
   },
@@ -2072,9 +5136,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Arpit Gupta, University of California",
-        "title": "Session Chair",
-        "company": "Santa Barbara"
+        "name": "Vipul Harsh",
+        "company": "Conviva"
+      },
+      {
+        "name": "Sayan Sinha",
+        "company": "Georgia Tech/Conviva"
+      },
+      {
+        "name": "Harshavardhan Kamarthi",
+        "company": "Georgia Tech"
+      },
+      {
+        "name": "Henry Milner",
+        "company": "Conviva"
+      },
+      {
+        "name": "B. Aditya Prakash",
+        "company": "Georgia Tech/Conviva"
+      },
+      {
+        "name": "Vyas Sekar",
+        "company": "CMU/Conviva"
+      },
+      {
+        "name": "Hui Zhang",
+        "company": "CMU/Conviva"
       }
     ]
   },
@@ -2089,9 +5176,32 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Arpit Gupta, University of California",
-        "title": "Session Chair",
-        "company": "Santa Barbara"
+        "name": "Pantea Karimi",
+        "company": "MIT CSAIL"
+      },
+      {
+        "name": "Siva Kesava Reddy Kakarla",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Pooria Namyar",
+        "company": "University of Southern California"
+      },
+      {
+        "name": "Santiago Segarra",
+        "company": "Rice University"
+      },
+      {
+        "name": "Ryan Beckett",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Mohammad Alizadeh",
+        "company": "MIT CSAIL"
+      },
+      {
+        "name": "Behnaz Arzani",
+        "company": "Microsoft Research"
       }
     ]
   },
@@ -2106,13 +5216,49 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Arpit Gupta, University of California",
-        "title": "Session Chair",
-        "company": "Santa Barbara"
+        "name": "Tianfeng Liu",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "Kaihui Gao",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "Li Chen",
+        "company": "Zhongguancun Laboratory"
+      },
+      {
+        "name": "Dan Li",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Jin Guang",
+        "company": "The Chinese University of Hong Kong, Shenzhen"
+      },
+      {
+        "name": "Xinyun Chen",
+        "company": "The Chinese University of Hong Kong, Shenzhen"
+      },
+      {
+        "name": "Vincent Liu",
+        "company": "University of Pennsylvania"
+      },
+      {
+        "name": "Zhiyong Chen",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Yiwei Zhang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Ni Jin",
+        "company": "Zhongguancun Laboratory and Beijing University of Posts and Telecommunications"
+      },
+      {
+        "name": "Ran Zhang",
+        "company": "Zhongguancun Laboratory"
       }
-    ],
-    "key_themes": [
-      "Self-Managing Networks"
     ]
   },
   {
@@ -2126,13 +5272,25 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Arpit Gupta, University of California",
-        "title": "Session Chair",
-        "company": "Santa Barbara"
+        "name": "Harsha Sharma",
+        "company": "Massachusetts Institute of Technology and Amazon"
+      },
+      {
+        "name": "Pouya Hamadanian",
+        "company": "Massachusetts Institute of Technology"
+      },
+      {
+        "name": "Arash Nasr-Esfahany",
+        "company": "Massachusetts Institute of Technology"
+      },
+      {
+        "name": "Zahaib Akhtar",
+        "company": "Amazon and North Carolina State University"
+      },
+      {
+        "name": "Mohammad Alizadeh",
+        "company": "Massachusetts Institute of Technology"
       }
-    ],
-    "key_themes": [
-      "Self-Managing Networks"
     ]
   },
   {
@@ -2146,13 +5304,17 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Vasiliki Kalavri",
-        "title": "Session Chair",
-        "company": "Boston University"
+        "name": "Onur Eren Arpaci",
+        "company": "University of Waterloo"
+      },
+      {
+        "name": "Raouf Boutaba",
+        "company": "University of Waterloo"
+      },
+      {
+        "name": "Florian Kerschbaum",
+        "company": "University of Waterloo"
       }
-    ],
-    "key_themes": [
-      "Security in Networked Systems"
     ]
   },
   {
@@ -2166,9 +5328,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Vasiliki Kalavri",
-        "title": "Session Chair",
-        "company": "Boston University"
+        "name": "Archit Bhatnagar",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Yunming Xiao",
+        "company": "The Chinese University of Hong Kong, Shenzhen"
+      },
+      {
+        "name": "Ang Chen",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Amrita Roy Chowdhury",
+        "company": "University of Michigan"
       }
     ]
   },
@@ -2183,9 +5356,36 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Vasiliki Kalavri",
-        "title": "Session Chair",
-        "company": "Boston University"
+        "name": "Nicholas Scaglione",
+        "company": "University of Connecticut"
+      },
+      {
+        "name": "Justin Furuness",
+        "company": "University of Connecticut"
+      },
+      {
+        "name": "Yossi Gilad",
+        "company": "Hebrew University of Jerusalem"
+      },
+      {
+        "name": "Hemi Leibowitz",
+        "company": "Faculty of Computer Science, The College of Management Academic Studies, Rishon LeZion, Israel"
+      },
+      {
+        "name": "Cameron Morris",
+        "company": "University of Connecticut"
+      },
+      {
+        "name": "Bing Wang",
+        "company": "University of Connecticut"
+      },
+      {
+        "name": "Amir Herzberg",
+        "company": "University of Connecticut"
+      },
+      {
+        "name": "Kotikalapudi Sriram",
+        "company": "NIST"
       }
     ]
   },
@@ -2200,9 +5400,28 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Vasiliki Kalavri",
-        "title": "Session Chair",
-        "company": "Boston University"
+        "name": "ChenHui Yu",
+        "company": "CNIC CAS; UCAS, China"
+      },
+      {
+        "name": "Yanbiao Li",
+        "company": "CNIC CAS; UCAS, China"
+      },
+      {
+        "name": "Hui Zou",
+        "company": "CNIC CAS; UCAS, China"
+      },
+      {
+        "name": "Yuxuan Chen",
+        "company": "CNIC CAS; UCAS, China"
+      },
+      {
+        "name": "Shiyi Liu",
+        "company": "CNIC CAS; UCAS, China"
+      },
+      {
+        "name": "Gaogang Xie",
+        "company": "CNIC CAS; UCAS, China"
       }
     ]
   },
@@ -2217,9 +5436,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Vasiliki Kalavri",
-        "title": "Session Chair",
-        "company": "Boston University"
+        "name": "Yilu Dong",
+        "company": "The Pennsylvania State University"
+      },
+      {
+        "name": "Tianchang Yang",
+        "company": "The Pennsylvania State University"
+      },
+      {
+        "name": "Arupjyoti Bhuyan",
+        "company": "Idaho National Laboratories"
+      },
+      {
+        "name": "Syed Rafiul Hussain",
+        "company": "The Pennsylvania State University"
       }
     ]
   },
@@ -2234,13 +5464,41 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Behnaz Arzani",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Yixin Shen",
+        "company": "Tsinghua University, Bytedance Inc., and Zhongguancun Laboratory"
+      },
+      {
+        "name": "Ruihua Chen",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Bo Wang",
+        "company": "Tsinghua University and Zhongguancun Laboratory"
+      },
+      {
+        "name": "Jing Chen",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Haochen Zhang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Minhu Wang",
+        "company": "Tsinghua University"
+      },
+      {
+        "name": "Yan Liu",
+        "company": "Bytedance Inc."
+      },
+      {
+        "name": "Mingwei Xu",
+        "company": "Tsinghua University and Zhongguancun Laboratory"
+      },
+      {
+        "name": "Zili Meng",
+        "company": "Hong Kong University of Science and Technology"
       }
-    ],
-    "key_themes": [
-      "Designing Robust Networked Systems"
     ]
   },
   {
@@ -2254,13 +5512,25 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Behnaz Arzani",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Adam Hall",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Anirudh Sarma",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Esha Choukse",
+        "company": "Microsoft Azure Research"
+      },
+      {
+        "name": "Umakishore Ramachandran",
+        "company": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Sameh Elnikety",
+        "company": "Microsoft Research"
       }
-    ],
-    "key_themes": [
-      "Designing Robust Networked Systems"
     ]
   },
   {
@@ -2274,13 +5544,25 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Behnaz Arzani",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Zhicheng Huang",
+        "company": "Brown University"
+      },
+      {
+        "name": "Ramiz Dundar",
+        "company": "Brown University"
+      },
+      {
+        "name": "Yizheng Xie",
+        "company": "Brown University"
+      },
+      {
+        "name": "Konstantinos Kallas",
+        "company": "University of California, Los Angeles"
+      },
+      {
+        "name": "Nikos Vasilakis",
+        "company": "Brown University"
       }
-    ],
-    "key_themes": [
-      "Designing Robust Networked Systems"
     ]
   },
   {
@@ -2294,13 +5576,33 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Behnaz Arzani",
-        "title": "Session Chair",
-        "company": "Microsoft"
+        "name": "Tuan Tran",
+        "company": "University of Colorado Boulder"
+      },
+      {
+        "name": "S. M. H. Hosseini",
+        "company": "University of Colorado Boulder"
+      },
+      {
+        "name": "Seyeon Kim",
+        "company": "Korea University"
+      },
+      {
+        "name": "Kyunghan Lee",
+        "company": "Seoul National University"
+      },
+      {
+        "name": "Nam Bui",
+        "company": "University of Colorado Denver"
+      },
+      {
+        "name": "Dirk Grunwald",
+        "company": "University of Colorado Boulder"
+      },
+      {
+        "name": "Sangtae Ha",
+        "company": "University of Colorado Boulder"
       }
-    ],
-    "key_themes": [
-      "Designing Robust Networked Systems"
     ]
   },
   {
@@ -2314,13 +5616,25 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhen Zhang",
-        "title": "Session Chair",
-        "company": "University of Toronto"
+        "name": "Zirui Wang",
+        "company": "University of Virginia"
+      },
+      {
+        "name": "Tingfeng Lan",
+        "company": "University of Virginia"
+      },
+      {
+        "name": "Zhaoyuan Su",
+        "company": "University of Virginia"
+      },
+      {
+        "name": "Juncheng Yang",
+        "company": "Harvard University"
+      },
+      {
+        "name": "Yue Cheng",
+        "company": "University of Virginia"
       }
-    ],
-    "key_themes": [
-      "Hot Data, Cold Data"
     ]
   },
   {
@@ -2334,9 +5648,16 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhen Zhang",
-        "title": "Session Chair",
-        "company": "University of Toronto"
+        "name": "Nadav Keren",
+        "company": "Ben Gurion University of The Negev"
+      },
+      {
+        "name": "Gil Einziger",
+        "company": "Ben Gurion University of The Negev"
+      },
+      {
+        "name": "Gabriel Scalosub",
+        "company": "Ben Gurion University of The Negev"
       }
     ]
   },
@@ -2351,9 +5672,28 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhen Zhang",
-        "title": "Session Chair",
+        "name": "Chaoyi Ruan",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Chao Bi",
+        "company": "University of Science and Technology of China"
+      },
+      {
+        "name": "Kaiwen Zheng",
         "company": "University of Toronto"
+      },
+      {
+        "name": "Ziji Shi",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Xinyi Wan",
+        "company": "Sea AI Lab, National University of Singapore"
+      },
+      {
+        "name": "Jialin Li",
+        "company": "National University of Singapore"
       }
     ]
   },
@@ -2368,9 +5708,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Qizhen Zhang",
-        "title": "Session Chair",
-        "company": "University of Toronto"
+        "name": "Gohar Irfan Chaudhry",
+        "company": "MIT CSAIL"
+      },
+      {
+        "name": "Ankit Bhardwaj",
+        "company": "MIT CSAIL"
+      },
+      {
+        "name": "Zhenyuan (Zain) Ruan",
+        "company": "MIT CSAIL"
+      },
+      {
+        "name": "Adam Belay",
+        "company": "MIT CSAIL"
       }
     ]
   },
@@ -2385,13 +5736,49 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Rodrigo Fonseca",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Michael Luo",
+        "company": "University of California, Berkeley, and Google DeepMind"
+      },
+      {
+        "name": "Xiaoxiang Shi",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Colin Cai",
+        "company": "University of California, Berkeley"
+      },
+      {
+        "name": "Tianjun Zhang",
+        "company": "University of California, Berkeley"
+      },
+      {
+        "name": "Justin Wong",
+        "company": "University of California, Berkeley"
+      },
+      {
+        "name": "Yichuan Wang",
+        "company": "University of California, Berkeley"
+      },
+      {
+        "name": "Chi Wang",
+        "company": "Google DeepMind"
+      },
+      {
+        "name": "Yanping Huang",
+        "company": "Google DeepMind"
+      },
+      {
+        "name": "Zhifeng Chen",
+        "company": "Google DeepMind"
+      },
+      {
+        "name": "Joseph E. Gonzalez",
+        "company": "University of California, Berkeley"
+      },
+      {
+        "name": "Ion Stoica",
+        "company": "University of California, Berkeley"
       }
-    ],
-    "key_themes": [
-      "Virtualization Revisited"
     ]
   },
   {
@@ -2405,13 +5792,25 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Rodrigo Fonseca",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Mariano Scazzariello",
+        "company": "RISE Research Institutes of Sweden"
+      },
+      {
+        "name": "Tommaso Caiazzi",
+        "company": "Roma Tre University"
+      },
+      {
+        "name": "Hamid Ghasemirahni",
+        "company": "KTH Royal Institute of Technology"
+      },
+      {
+        "name": "Dejan Kostić",
+        "company": "KTH Royal Institute of Technology"
+      },
+      {
+        "name": "Marco Chiesa",
+        "company": "KTH Royal Institute of Technology"
       }
-    ],
-    "key_themes": [
-      "Virtualization Revisited"
     ]
   },
   {
@@ -2425,9 +5824,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Rodrigo Fonseca",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "MohammadAmin Baqershahi",
+        "company": "University of British Columbia"
+      },
+      {
+        "name": "Changyuan Lin",
+        "company": "University of British Columbia"
+      },
+      {
+        "name": "Visal Saosuo",
+        "company": "University of British Columbia"
+      },
+      {
+        "name": "Paul Chen",
+        "company": "Huawei"
+      },
+      {
+        "name": "Mohammad Shahrad",
+        "company": "University of British Columbia"
       }
     ]
   },
@@ -2442,9 +5856,24 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Rodrigo Fonseca",
-        "title": "Session Chair",
-        "company": "Microsoft Research"
+        "name": "Yihan Dang",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Hao Li",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Ze Xia",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Jiajun Luan",
+        "company": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Peng Zhang",
+        "company": "Xi'an Jiaotong University"
       }
     ]
   },
@@ -2459,9 +5888,52 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ahmed Saeed",
-        "title": "Session Chair",
-        "company": "Georgia Institute of Technology"
+        "name": "Yiran Lei",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Dongjoo Lee",
+        "company": "MangoBoost Inc."
+      },
+      {
+        "name": "Liangyu Zhao",
+        "company": "University of Washington"
+      },
+      {
+        "name": "Daniar Kurniawan",
+        "company": "MangoBoost Inc."
+      },
+      {
+        "name": "Chanmyeong Kim",
+        "company": "MangoBoost & Seoul National University"
+      },
+      {
+        "name": "Heetaek Jeong",
+        "company": "MangoBoost Inc."
+      },
+      {
+        "name": "Changsu Kim",
+        "company": "MangoBoost Inc."
+      },
+      {
+        "name": "Hyeonseong Choi",
+        "company": "MangoBoost Inc."
+      },
+      {
+        "name": "Liangcheng Yu",
+        "company": "University of Pennsylvania"
+      },
+      {
+        "name": "Arvind Krishnamurthy",
+        "company": "University of Washington"
+      },
+      {
+        "name": "Justine Sherry",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Eriko Nurvitadhi",
+        "company": "MangoBoost Inc."
       }
     ]
   },
@@ -2476,9 +5948,44 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ahmed Saeed",
-        "title": "Session Chair",
-        "company": "Georgia Institute of Technology"
+        "name": "Chenyang Hei",
+        "company": "Northeastern University"
+      },
+      {
+        "name": "Fuliang Li",
+        "company": "Northeastern University"
+      },
+      {
+        "name": "Jiayi Li",
+        "company": "Northeastern University"
+      },
+      {
+        "name": "Jiamin Cao",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Chengxi Gao",
+        "company": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences"
+      },
+      {
+        "name": "Xiuzhu Sha",
+        "company": "Northeastern University"
+      },
+      {
+        "name": "Tongrui Liu",
+        "company": "Northeastern University"
+      },
+      {
+        "name": "Dengke Zhang",
+        "company": "Northeastern University"
+      },
+      {
+        "name": "Ennan Zhai",
+        "company": "Alibaba Cloud"
+      },
+      {
+        "name": "Xingwei Wang",
+        "company": "Northeastern University"
       }
     ]
   },
@@ -2493,9 +6000,68 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ahmed Saeed",
-        "title": "Session Chair",
-        "company": "Georgia Institute of Technology"
+        "name": "Haiping Wang",
+        "company": "Fudan University and ByteDance"
+      },
+      {
+        "name": "Wanxin Shi",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Sandesh Dhawaskar Sathyanarayana",
+        "company": "Bytedance"
+      },
+      {
+        "name": "Shu Shi",
+        "company": "Bytedance"
+      },
+      {
+        "name": "Feng Qian",
+        "company": "Bytedance"
+      },
+      {
+        "name": "Yinghao Yang",
+        "company": "Fudan University, ByteDance"
+      },
+      {
+        "name": "La Zuo",
+        "company": "Fudan University, ByteDance"
+      },
+      {
+        "name": "Hebin Yu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Ruixiao Zhang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Ruoshi Sun",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Yajie Peng",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Xiaofei Pang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Ruili Fang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Zhenpeng Zhu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Weiqi Chen",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yang Xu",
+        "company": "Fudan University"
       }
     ]
   },
@@ -2510,9 +6076,152 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ahmed Saeed",
-        "title": "Session Chair",
-        "company": "Georgia Institute of Technology"
+        "name": "Shaofeng Wu",
+        "company": "CUHK and Microsoft Research"
+      },
+      {
+        "name": "Zhixiong Niu",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Riff Jiang",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Lawrence Lee",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Junhua Zhai",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Ze Gan",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Vasundhara Volam",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Prabhat Aravind",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Prince Sunny",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Prince George",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Qi Luo",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Evan Langlais",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Soumya Tiwari",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Venkat Satish Katta",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Weixi Chen",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Rishiraj Hazarika",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Sachin Jain",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Deven Jagasia",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Michal Zygmunt",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Avijit Gupta",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Neeraj Motwani",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Pranjal Shrivastava",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Qiang Su",
+        "company": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Anil Reddy Pannala",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Kristina Moore",
+        "company": "Microsoft"
+      },
+      {
+        "name": "James Grantham",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Anupam Pandey",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Xin Liu",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Guohan Lu",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Gerald De Grace",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Rishabh Tewari",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Lihua Yuan",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Erica Lan",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Deepak Bansal",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Dave Maltz",
+        "company": "Microsoft"
+      },
+      {
+        "name": "Yongqiang Xiong",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Hong Xu",
+        "company": "The Chinese University of Hong Kong"
       }
     ]
   },
@@ -2527,9 +6236,60 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Ahmed Saeed",
-        "title": "Session Chair",
-        "company": "Georgia Institute of Technology"
+        "name": "Minyuan Zhou",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Yuning Chen",
+        "company": "University of California, Merced"
+      },
+      {
+        "name": "Yifei Xu",
+        "company": "University of California, Los Angeles"
+      },
+      {
+        "name": "Jiaqi Zheng",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Guihai Chen",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Wanchun Dou",
+        "company": "Nanjing University"
+      },
+      {
+        "name": "Pan Hu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Yongping Tang",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Wendong Yin",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Jie Lin",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Qingyan Yu",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Yuanchao Su",
+        "company": "Alibaba Group"
+      },
+      {
+        "name": "Songwu Lu",
+        "company": "University of California, Los Angeles"
+      },
+      {
+        "name": "Wan Du",
+        "company": "University of California, Merced"
       }
     ]
   },
@@ -2544,9 +6304,64 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zahaib Akhtar",
-        "title": "Session Chair",
-        "company": "Amazon and North Carolina State University"
+        "name": "Liying Wang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Jing Liu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yuhan Zhou",
+        "company": "Peking University"
+      },
+      {
+        "name": "Chengke Wang",
+        "company": "Peking University"
+      },
+      {
+        "name": "Mingming Lu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Qingyue Li",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Song Geng",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Linsen Wang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Kaida Hu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Haoyuan Huang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Shimao Tian",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Ri Lu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Mingfei Hao",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Chenren Xu",
+        "company": "Peking University"
+      },
+      {
+        "name": "Shu Shi",
+        "company": "ByteDance"
       }
     ]
   },
@@ -2561,9 +6376,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zahaib Akhtar",
-        "title": "Session Chair",
-        "company": "Amazon and North Carolina State University"
+        "name": "John Shawger",
+        "company": "University of Wisconsin - Madison"
+      },
+      {
+        "name": "Arnav Jhingran",
+        "company": "University of Wisconsin - Madison"
+      },
+      {
+        "name": "Andrea Arpaci-Dusseau",
+        "company": "University of Wisconsin-Madison"
+      },
+      {
+        "name": "Remzi Arpaci-Dusseau",
+        "company": "University of Wisconsin-Madison"
       }
     ]
   },
@@ -2578,13 +6404,41 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zahaib Akhtar",
-        "title": "Session Chair",
-        "company": "Amazon and North Carolina State University"
+        "name": "Dehui Wei",
+        "company": "National University of Singapore"
+      },
+      {
+        "name": "Jiao Zhang",
+        "company": "Beijing University of Posts and Telecommunications, and Purple Mountain Laboratories"
+      },
+      {
+        "name": "Haozhe Li",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Rui Han",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Zhichen Xue",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yajie Peng",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Xiaofei Pang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yan Ma",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Jialin Li",
+        "company": "National University of Singapore"
       }
-    ],
-    "key_themes": [
-      "Distributed Data Systems"
     ]
   },
   {
@@ -2598,13 +6452,17 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zahaib Akhtar",
-        "title": "Session Chair",
-        "company": "Amazon and North Carolina State University"
+        "name": "Chendong Wang",
+        "company": "University of Wisconsin-Madison"
+      },
+      {
+        "name": "Joontaek Oh",
+        "company": "University of Wisconsin-Madison"
+      },
+      {
+        "name": "Ming Liu",
+        "company": "University of Wisconsin-Madison"
       }
-    ],
-    "key_themes": [
-      "Distributed Data Systems"
     ]
   },
   {
@@ -2618,9 +6476,60 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Zahaib Akhtar",
-        "title": "Session Chair",
-        "company": "Amazon and North Carolina State University"
+        "name": "Congcong Miao",
+        "company": "Tencent"
+      },
+      {
+        "name": "Zhiyi Yao",
+        "company": "Fudan University"
+      },
+      {
+        "name": "Jianchao Lv",
+        "company": "Tencent"
+      },
+      {
+        "name": "Jinglin Wang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Shihan Lin",
+        "company": "University of Michigan"
+      },
+      {
+        "name": "Xinyi Zhang",
+        "company": "Computer Network Information Center, Chinese Academy of Sciences"
+      },
+      {
+        "name": "Yunming Xiao",
+        "company": "The Chinese University of Hong Kong, Shenzhen"
+      },
+      {
+        "name": "Wei Guo",
+        "company": "Tencent"
+      },
+      {
+        "name": "Jiwu Bu",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yachen Wang",
+        "company": "Tencent"
+      },
+      {
+        "name": "Xianneng Zou",
+        "company": "Tencent"
+      },
+      {
+        "name": "Yong Jiang",
+        "company": "Tsinghua Shenzhen International Graduate School"
+      },
+      {
+        "name": "Marco Canini",
+        "company": "KAUST"
+      },
+      {
+        "name": "Gaogang Xie",
+        "company": "CNIC CAS, China"
       }
     ]
   },
@@ -2635,9 +6544,20 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Eric Eide",
-        "title": "Session Chair",
-        "company": "University of Utah"
+        "name": "Jainil Patel",
+        "company": "Indian Institute of Technology Roorkee"
+      },
+      {
+        "name": "Lucas Graeff Buhl-Nielsen",
+        "company": "Imperial College London"
+      },
+      {
+        "name": "Adrien Ghosn",
+        "company": "Microsoft Research"
+      },
+      {
+        "name": "Marios Kogias",
+        "company": "Imperial College London"
       }
     ]
   },
@@ -2652,13 +6572,21 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Eric Eide",
-        "title": "Session Chair",
-        "company": "University of Utah"
+        "name": "Zixuan Wang",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Jinyu Gu",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Xingda Wei",
+        "company": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Yubin Xia",
+        "company": "Shanghai Jiao Tong University"
       }
-    ],
-    "key_themes": [
-      "Sandboxes, Containers, and Beyond"
     ]
   },
   {
@@ -2672,13 +6600,21 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Eric Eide",
-        "title": "Session Chair",
-        "company": "University of Utah"
+        "name": "Jia Pan",
+        "company": "The University of Texas at Austin"
+      },
+      {
+        "name": "Anup Agarwal",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Işıl Dillig",
+        "company": "The University of Texas at Austin"
+      },
+      {
+        "name": "Venkat Arun",
+        "company": "The University of Texas at Austin"
       }
-    ],
-    "key_themes": [
-      "Sandboxes, Containers, and Beyond"
     ]
   },
   {
@@ -2692,13 +6628,85 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Eric Eide",
-        "title": "Session Chair",
-        "company": "University of Utah"
+        "name": "Haoran Chen",
+        "company": "Bytedance"
+      },
+      {
+        "name": "Mingwei Cui",
+        "company": "Bytedance"
+      },
+      {
+        "name": "Yihan Zou",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yihang Miao",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Suhan Jiang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Damu Ding",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Lirong Lai",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Ming Gao",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Rui Jiang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Shengyuan He",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Anjian Chen",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Jiaming Shi",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Junjie Wan",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yandong Duan",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Ruomin Fang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Hongyu Wu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Yongping Tang",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Qiao Kang",
+        "company": "unaffiliated"
+      },
+      {
+        "name": "Guangrui Wu",
+        "company": "ByteDance"
+      },
+      {
+        "name": "Xiyun Xu",
+        "company": "ByteDance"
       }
-    ],
-    "key_themes": [
-      "Sandboxes, Containers, and Beyond"
     ]
   },
   {
@@ -2712,13 +6720,17 @@
     "format": "In-Person",
     "speakers": [
       {
-        "name": "Eric Eide",
-        "title": "Session Chair",
-        "company": "University of Utah"
+        "name": "Anup Agarwal",
+        "company": "Carnegie Mellon University"
+      },
+      {
+        "name": "Venkat Arun",
+        "company": "University of Texas at Austin"
+      },
+      {
+        "name": "Srinivasan Seshan",
+        "company": "Carnegie Mellon University"
       }
-    ],
-    "key_themes": [
-      "Sandboxes, Containers, and Beyond"
     ]
   }
 ]
