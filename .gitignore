@@ -194,9 +194,6 @@ docs/
 *.skill
 .claude/*
 !.claude/skills/
-.claude/skills/*
-!.claude/skills/web-data-extractor/
-!.claude/skills/web-data-extractor/**
 .venv-lotus/
 
 .session_index/
