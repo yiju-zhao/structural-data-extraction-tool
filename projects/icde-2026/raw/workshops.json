@@ -1,0 +1,320 @@
+{
+  "venue": "ICDE",
+  "year": 2026,
+  "source_url": "https://icde2026.github.io/workshops.html",
+  "workshops": [
+    {
+      "number": "1",
+      "sequence": 1,
+      "title": "HardBD&Active'26 (New Hardware for Data Systems)",
+      "organizers": [
+        {
+          "name": "Shimin Chen",
+          "affiliation": "Chinese Academy of Sciences, China"
+        },
+        {
+          "name": "Mohammad Sadoghi",
+          "affiliation": "UC Davis, USA"
+        },
+        {
+          "name": "Qizhen Zhang",
+          "affiliation": "U. Toronto, Canada"
+        }
+      ],
+      "duration": "Full",
+      "date": "2026-05-04",
+      "day_label": "Workshops (Monday, May 4, 2026)",
+      "url": "https://hardbd-active.github.io/2026/index.html",
+      "page_title": "HardBD & Active'26",
+      "overview": "HardBD & Active'26 will be a one-day workshop co-located with ICDE'26. The aim of this workshop is to bring together researchers, practitioners, system administrators, and others interested to share their perspectives on exploiting new hardware technologies for data-intensive systems, and to discuss and identify future directions and challenges in this area. The workshop aims at providing a forum for academia and industry to exchange ideas through research and position papers.",
+      "overview_source": "custom:ws_1"
+    },
+    {
+      "number": "2",
+      "sequence": 2,
+      "title": "Data science for equality, inclusion and well-being challenges (DS4EIW 2026)",
+      "organizers": [
+        {
+          "name": "Genoveva Vargas-Solar",
+          "affiliation": "CNRS, France"
+        },
+        {
+          "name": "Tania Cerquitelli",
+          "affiliation": "Politecnico di Torino, Italy"
+        },
+        {
+          "name": "Salvatore Greco",
+          "affiliation": "Politecnico di Torino, Italy"
+        },
+        {
+          "name": "Moreno Laquatra",
+          "affiliation": "Kore Uni. of Enna, Italy"
+        }
+      ],
+      "duration": "Full",
+      "date": "2026-05-04",
+      "day_label": "Workshops (Monday, May 4, 2026)",
+      "url": "https://ds4eiw.github.io/2026/index.html",
+      "page_title": "DS4EIW 2026 - Data Science for Equality, Inclusion and Well-being",
+      "overview": "DS4EIW is a workshop to promote and share research and innovation on data science solutions with the final challenge to study, promote, and guarantee equality, inclusion, and well-being, significantly impacting society. This is an essential subject of debate in engineering and sociology, also involving governments, private and public companies, activists, and the press because discrimination and biases have to be avoided, stereotypes have to be removed, and well-being opportunities have to be designed and promoted. The workshop will be held in person in conjunction with the IEEE International Conference on Data Engineering (ICDE) 2026 conference in Montréal, Canada , on May 4, 2026 and will be a great opportunity to share experiences and results with the international community. The workshop will allow researchers and practitioners from various research areas -- data mining, machine learning, digital ethics, applied statistics, sociology, psychology, journalism, linguistics -- to share their experiences on studying, designing, and developing cutting-edge methodologies addressing societal challenges and derive policies, strategies, and solutions to support the government bodies to derive guidelines to create more inclusive, innovative and reflective societies. The methodological approach should consider any aspect of the diversity in a community (e.g., gender, special needs, age, ethnic and religious origin) to collect, study, and analyze data with the final aim at, effectively supporting policymakers in the decision process to promote and guarantee equality, inclusion, and well-being.",
+      "overview_source": "generic_heading"
+    },
+    {
+      "number": "3",
+      "sequence": 3,
+      "title": "Sustainable Data Systems Meet Data Science (DSDS 2026)",
+      "organizers": [
+        {
+          "name": "Natalie Enright Jerger",
+          "affiliation": "U. Toronto, Canada"
+        },
+        {
+          "name": "Bettina Kemme",
+          "affiliation": "McGill, Canada"
+        },
+        {
+          "name": "Essam Mansour",
+          "affiliation": "Concordia, Canada"
+        }
+      ],
+      "duration": "Full",
+      "date": "2026-05-04",
+      "day_label": "Workshops (Monday, May 4, 2026)",
+      "url": "https://sites.google.com/view/dsds26",
+      "page_title": "DSDS '26",
+      "overview": "The fourth edition of the Data Systems meet Data Science (DSDS) workshop, organized by the CREATE SustainSys: Sutainable Data Systems for Data Science p r ogram , will be held as part of the ICDE 2026 Conference in Montreal, Canada. The workshop series brings together the research community that works at the intersection of data/software systems, software engineering, and Data Science/AI/ML , either by building the next generation Data Science platforms or by using AI/ML techniques to improve systems. The workshop is co-organized by: Bettina Kemme , Essam Mansour , Hans-Arno Jacobsen , Natalie Enright Jerger , Oana Balmau , Semih Salihoğlu",
+      "overview_source": "generic_heading"
+    },
+    {
+      "number": "-",
+      "sequence": 4,
+      "title": "Tamer Özsu Celebration Workshop",
+      "organizers": [],
+      "duration": "Full",
+      "date": "2026-05-04",
+      "day_label": "Workshops (Monday, May 4, 2026)",
+      "url": null
+    },
+    {
+      "number": "4",
+      "sequence": 5,
+      "title": "LLM+Vector Data: Agentic RAG Edition",
+      "organizers": [
+        {
+          "name": "Arijit Khan",
+          "affiliation": "Bowling Green State University, USA"
+        },
+        {
+          "name": "Yuyu Luo",
+          "affiliation": "HKUST, Hong Kong"
+        },
+        {
+          "name": "M. Tamer Ozsu",
+          "affiliation": "UWaterloo, Canada"
+        },
+        {
+          "name": "Danrui Qi",
+          "affiliation": "SFU, Canada"
+        },
+        {
+          "name": "Jiannan Wang",
+          "affiliation": "Tsinghua Uni., China"
+        }
+      ],
+      "duration": "Full",
+      "date": "2026-05-04",
+      "day_label": "Workshops (Monday, May 4, 2026)",
+      "url": "https://llmvdb2.github.io/",
+      "page_title": "LLM + Vector Data @ ICDE 2026",
+      "overview": "Large Language Models (LLMs) have transformed natural language processing with versatile generative capabilities that streamline AI workflows-from data cleaning and augmentation to function calling and inference. Yet current LLM pipelines still suffer from hallucinations, limited complex reasoning, and outdated or domain-specific knowledge gaps. This workshop explores two complementary solutions. First, vector databases enable retrieval-augmented generation by grounding outputs in semantically indexed external data, reducing factual errors. Second, AI agent frameworks orchestrate multi-step task decomposition, specialized tool invocation, and uncertainty monitoring to prevent incoherent responses. We aim to explore unified prototypes integrating these components and call for evaluating their performance on benchmark query-processing and data-analysis tasks.",
+      "overview_source": "custom:ws_5"
+    },
+    {
+      "number": "5",
+      "sequence": 6,
+      "title": "Trends and Challenges in Industrial Data Systems Research(IDSR)",
+      "organizers": [
+        {
+          "name": "Minos Garofalakis",
+          "affiliation": "ATHENA Research Center & TU Crete, Greece"
+        },
+        {
+          "name": "Guoliang Li",
+          "affiliation": "Tsinghua University, China"
+        },
+        {
+          "name": "Holger Pirk",
+          "affiliation": "Imperial College London,UK"
+        },
+        {
+          "name": "Kai Zeng",
+          "affiliation": "Huawei, China"
+        }
+      ],
+      "duration": "Full",
+      "date": "2026-05-04",
+      "day_label": "Workshops (Monday, May 4, 2026)",
+      "url": null
+    },
+    {
+      "number": "6",
+      "sequence": 7,
+      "title": "Beyond SQL: AI for Complex Data Management",
+      "organizers": [
+        {
+          "name": "Oktie Hassanzadeh",
+          "affiliation": "IBM Research, US"
+        },
+        {
+          "name": "Liane Vogel",
+          "affiliation": "TU Darmstadt, Germany"
+        },
+        {
+          "name": "Kavitha Srinivas",
+          "affiliation": "IBM Research, US"
+        },
+        {
+          "name": "Sola Shirai",
+          "affiliation": "IBM Research, US"
+        },
+        {
+          "name": "Liana Patel",
+          "affiliation": "Stanford University, US"
+        }
+      ],
+      "duration": "Half",
+      "date": "2026-05-04",
+      "day_label": "Workshops (Monday, May 4, 2026)",
+      "url": "https://beyond-sql.github.io/",
+      "page_title": "Beyond SQL Workshop 2026 - AI for Complex Data Management",
+      "overview": "There has been a tremendous amount of work in the space of converting natural language to SQL queries. While this work is very valuable to business users, enterprise data management has many complex uses of SQL that are less actively covered by current work. Examples are querying structured and unstructured data, knowledge graphs, property graphs, performing extract load transform workloads, remediating complex SQL queries as application demands change, etc. As AI is increasingly used to transform simpler querying workloads, there is an opportunity to apply them in these other aspects of data management. We aim to bring together researchers exploring these diverse topics together to promote cross-fertilization and sharing of techniques that may transfer well from one domain to the other.",
+      "overview_source": "generic_heading"
+    },
+    {
+      "number": "1",
+      "sequence": 8,
+      "title": "HTAPSys: Workshop on Hybrid Transactional/Analytical Processing Systems",
+      "organizers": [
+        {
+          "name": "Tianzheng Wang",
+          "affiliation": "SFU, Canada"
+        },
+        {
+          "name": "Xun Xue",
+          "affiliation": "Huawei, Canada"
+        }
+      ],
+      "duration": "Full",
+      "date": "2026-05-08",
+      "day_label": "Workshops (Friday, May 8, 2026)",
+      "url": "https://sfu-dis.github.io/htapsys/",
+      "page_title": "HTAPSys 2026",
+      "overview": "The HTAPSys workshop aims to bring together researchers, practitioners as well as students in the area of hybrid analytical and transactional processing (HTAP) systems to exchange their ideas, share the latest results and identify future directions in this area. All aspects of HTAP systems are of interest, including but not limited to (1) data organization (relational and beyond), (2) data transformation and synchronization (e.g., ETL and conversions between row vs. columnar or hybrid data formats), (3) HTAP system architecture (e.g., single unified vs. distributed and replicated separate stores), (4) optimization and scheduling of hybrid analytical and transactional workloads, (5) interoperability between specialized systems and data formats, (6) query interfaces and usability of HTAP systems and (7) verification, evaluation and benchmarking of HTAP systems. We welcome both regular research papers and visionary position papers.",
+      "overview_source": "generic_heading"
+    },
+    {
+      "number": "2",
+      "sequence": 9,
+      "title": "Knowledge and Data Engineering Meets Large Language Models: Challenges and Opportunities",
+      "organizers": [
+        {
+          "name": "Jianzhong Qi",
+          "affiliation": "The University of Melbourne"
+        },
+        {
+          "name": "Wenqi Fan",
+          "affiliation": "The Hong Kong Polytechnic University, Hong Kong"
+        },
+        {
+          "name": "Qing Li",
+          "affiliation": "The Hong Kong Polytechnic University, Hong Kong"
+        },
+        {
+          "name": "Jilin Hu",
+          "affiliation": "East China Normal University, China"
+        }
+      ],
+      "duration": "Half",
+      "date": "2026-05-08",
+      "day_label": "Workshops (Friday, May 8, 2026)",
+      "url": "https://kde-meets-llm.github.io/KDExLLM-ICDE2026/",
+      "page_title": "KDExLLM Workshop 2026",
+      "overview": "This workshop on the synergy between Large Language Models (LLMs) and Knowledge and Data Engineering is a pioneering event at top-tier conferences. It brings together experts to share recent challenges and opportunities, aiming to inspire future research. With oral presentations and poster sessions, the workshop will provide a platform for researchers from natural language processing, knowledge engineering, and database management to discuss ideas, review past work, and explore new directions. The focus is on the synergy between LLMs and knowledge and data engineering from two aspects. The first explores how LLMs empower knowledge base and database management tasks, such as data cleansing, relation inference, and query processing. The second examines how knowledge bases and database systems enhance LLMs, through retrieval-augmented generation, multi-modal data management, and more. By including participants from academia and industry, the workshop aims to connect practical applications with research, encouraging collaboration that will shape the future of intelligent knowledge base and database systems.",
+      "overview_source": "generic_heading"
+    },
+    {
+      "number": "3",
+      "sequence": 10,
+      "title": "Databases and Machine Learning (DBML)",
+      "organizers": [
+        {
+          "name": "Fatemeh Nargesian",
+          "affiliation": "URochester, USA"
+        },
+        {
+          "name": "Guillaume Lachaud",
+          "affiliation": "Ecole Polytechnique, France"
+        }
+      ],
+      "duration": "Half",
+      "date": "2026-05-08",
+      "day_label": "Workshops (Friday, May 8, 2026)",
+      "url": "https://dataintelligencecrew.github.io/dbml26/",
+      "page_title": "DBML 2026",
+      "overview": "DBML 2026 Workshop, held in conjunction with ICDE 2026 in Montréal, Canada, explores the growing synergy between databases and machine learning. Advances in data management techniques have become essential for building robust, scalable ML systems. Applications range from data preparation and cleaning to feature engineering and managing the ML lifecycle. The recent rise of LLMs and RAG has only intensified demand for high-performance data infrastructure. Modern AI systems increasingly rely on vector databases and scalable model serving. Multimodal AI adds further requirements for storing and querying images, audio, and video. In the opposite direction, ML techniques are now incorporated as core components of database systems: query optimization, indexing, storage layout, and self-tuning. Long-standing challenges like cardinality estimation, operator and plan selection, and resource management - traditionally handled via human knowledge or heuristics - increasingly benefit from learned models. DBML 2026 brings together researchers and practitioners working at this intersection. We welcome work combining DB and ML strengths, ranging from foundational techniques and system design to practical applications and real-world deployments, including ML for scientific and data-intensive domains.",
+      "overview_source": "generic_heading"
+    },
+    {
+      "number": "4",
+      "sequence": 11,
+      "title": "Data-Driven Smart Cities",
+      "organizers": [
+        {
+          "name": "Ekaterina Gilman",
+          "affiliation": "U. of Oulu, Finland"
+        },
+        {
+          "name": "Xiang Su",
+          "affiliation": "U of Helsinki, Finland"
+        },
+        {
+          "name": "Francesca Bugiotti",
+          "affiliation": "U. Paris, France"
+        }
+      ],
+      "duration": "Full",
+      "date": "2026-05-08",
+      "day_label": "Workshops (Friday, May 8, 2026)",
+      "url": "https://dasc2026.wordpress.com/",
+      "page_title": "The 7th International Workshop on Data-Driven Smart Cities (DASC2026) - Montréal, Canada - May 8th, 2026",
+      "overview": "DASC 2026 workshop is held on May 8th within the 42nd IEEE International Conference on Data Engineering (ICDE 2026), 4-8 May 2026. DASC 2026 aims to gather people interested in the data aspects within the smart city context. Cities play a crucial role as the engines of the economy and centres of connectivity, knowledge, and services [1]. Based on the estimation from the United Nations, 66% of the world's population will live in urban areas by 2050 [2]. Therefore, being the centres of growth and innovation, cities need to take responsibility for environment protection and citizens' living comfort. In recent years, with the growing interest to Internet of Things (IoT), cities are getting equipped with ICT technologies to improve their efficiency and quality of life of their inhabitants, therefore transforming themselves into Smart cities [3]. There are different perspectives on the development of Smart cities. Some focus on integrating ICT into urban environments and on performing complex analytics, modelling, and optimization for cross-sector collaboration and better operational decisions; others on sustainability, wealth and comfort support and needs of people and community [4]. However, for all these cases, data is the key ingredient and enabler for the vision and realization of Smart cities [5]. Therefore, there is a strong need to share the expertise to use the data in intelligent and efficient way to produce viable long-living solutions. This workshop on Data-driven Smart Cities (DASC 2026) aims to gather professionals from municipalities, industry, and academia focusing on different aspects of Smart city. The purpose of the session is to discuss the latest scientific results and practical use cases, identify the opportunities and challenges of novel best methods and practices on data-driven Smart cities.",
+      "overview_source": "generic_heading"
+    },
+    {
+      "number": "5",
+      "sequence": 12,
+      "title": "GraphAI for Future Intelligent Systems",
+      "organizers": [
+        {
+          "name": "Wissem Inoubli",
+          "affiliation": "CRIL- CNRS & Univ. Artois, France"
+        },
+        {
+          "name": "Haithem Mezni",
+          "affiliation": "Taibah University, KSA, Saudi Arabia"
+        },
+        {
+          "name": "Sabeur Aridhi",
+          "affiliation": "LORIA (Inria - CNRS), University of Lorraine, France"
+        }
+      ],
+      "duration": "Full",
+      "date": "2026-05-08",
+      "day_label": "Workshops (Friday, May 8, 2026)",
+      "url": "https://agai-research.github.io/graphai4fis/",
+      "page_title": "GAI4FIS@ICDE'26 - Graph AI for Future Intelligent Systems",
+      "overview": "The Workshop on Graph AI for Future Intelligent Systems (GAI4FIS) serves as a premier forum for advancing research at the intersection of graph-based artificial intelligence and next-generation intelligent systems. As modern intelligent systems, spanning cloud-native platforms, IoT ecosystems, and autonomous networks evolve to become increasingly complex, dynamic, and interconnected, they demand advanced intelligence capabilities for managing dependencies, optimizing workflows, and enabling robust, context-aware decision-making. Graph AI, encompassing graph neural networks, graph transformers, knowledge graph reasoning, and neuro-symbolic models, has emerged as a transformative force driving innovation in the design and operation of future intelligent systems. Beyond revolutionary developments such as Graph Foundation Models, self-supervised learning, and the integration of Large Language Models (LLMs) with knowledge graph reasoning, GAI4FIS Workshop expands its focus to explore how these innovations can be operationalized in real-world intelligent service ecosystems. Graph AI is rapidly becoming a cornerstone technology in critical sectors such as healthcare, transportation, energy, and smart living, where understanding complex relationships, dynamic interactions, and making trustworthy real-time decisions is essential. The GAI4FIS Workshop seeks to spotlight innovative research that addresses challenges in scalability, trustworthiness, explainability, and seamless integration into intelligent and service-oriented environments.",
+      "overview_source": "generic_heading"
+    }
+  ]
+}

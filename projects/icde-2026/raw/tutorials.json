@@ -1,0 +1,160 @@
+{
+  "venue": "ICDE",
+  "year": 2026,
+  "source_url": "https://icde2026.github.io/tutorials.html",
+  "tutorials": [
+    {
+      "number": "1",
+      "title": "Evolution of LSM-Tree Key-Value Stores: A Tutorial on State-of-the-Art and Future Directions",
+      "organizers": [
+        {
+          "name": "Yina Lv",
+          "affiliation": "Xiamen University, China"
+        },
+        {
+          "name": "Qiao Li",
+          "affiliation": "MBZUAI, UAE"
+        },
+        {
+          "name": "Quanqing Xu",
+          "affiliation": "OceanBase, Ant Group, China"
+        },
+        {
+          "name": "Chun Jason Xue",
+          "affiliation": "MBZUAI, UAE"
+        }
+      ],
+      "duration": "1.5 Hours"
+    },
+    {
+      "number": "2",
+      "title": "Large Language Models for Spatial Analysis Queries",
+      "organizers": [
+        {
+          "name": "Mohamed Hemdan",
+          "affiliation": "University of Minnesota, Minnesota, USA"
+        },
+        {
+          "name": "Youssef Hussein",
+          "affiliation": "University of Minnesota, Minnesota, USA) Mohamed F. Mokbel (University of Minnesota, Minnesota, USA"
+        },
+        {
+          "name": "Mohamed F. Mokbel",
+          "affiliation": "University of Minnesota, Minnesota, USA"
+        }
+      ],
+      "duration": "1.5 Hours"
+    },
+    {
+      "number": "3",
+      "title": "Data Discovery in Data Lakes: Operations, Indexes, Systems",
+      "organizers": [
+        {
+          "name": "Ziawasch Abedjan",
+          "affiliation": "TU Berlin & BIFOLD Berlin, Germany"
+        },
+        {
+          "name": "Mahdi Esmailoghli",
+          "affiliation": "Humboldt-Universitat zu Berlin, Berlin, Germany"
+        },
+        {
+          "name": "Sainyam Galhotra",
+          "affiliation": "Cornell University, Ithaca, NY, USA"
+        }
+      ],
+      "duration": "3 Hours"
+    },
+    {
+      "number": "4",
+      "title": "The Virtuous Cycle: AI-Powered Vector Search and Vector Search-Augmented AI",
+      "organizers": [
+        {
+          "name": "Jiuqi Wei",
+          "affiliation": "Oceanbase, Ant Group, Beijing, China"
+        },
+        {
+          "name": "Quanqing Xu",
+          "affiliation": "Oceanbase, Ant Group, Hangzhou, China"
+        },
+        {
+          "name": "Chuanhui Yang",
+          "affiliation": "Oceanbase, Ant Group, Beijing, China"
+        }
+      ],
+      "duration": "1.5 Hours"
+    },
+    {
+      "number": "5",
+      "title": "Query Rewrite in the Learning Age: From Rules to ML-Based and LLM-Driven Techniques",
+      "organizers": [
+        {
+          "name": "Shengchen Liu",
+          "affiliation": "University of Ottawa, Ottawa, ON, Canada"
+        },
+        {
+          "name": "Verena Kantere",
+          "affiliation": "University of Ottawa, Ottawa, ON, Canada"
+        },
+        {
+          "name": "Nicholas Ostan",
+          "affiliation": "IBM Canada Ltd., Toronto, ON, Canada"
+        },
+        {
+          "name": "Farhana Haider",
+          "affiliation": "IBM Canada Ltd., Toronto, ON, Canada"
+        },
+        {
+          "name": "Calisto Zuzarte",
+          "affiliation": "IBM Canada Ltd., Toronto, ON, Canada"
+        }
+      ],
+      "duration": "1.5 Hours"
+    },
+    {
+      "number": "6",
+      "title": "Data-Centric Foundations of Agentic AI",
+      "organizers": [
+        {
+          "name": "Yuxin Jin",
+          "affiliation": "University of Technology Sydney, Sydney, Australia"
+        },
+        {
+          "name": "Ying Zhang",
+          "affiliation": "Zhejiang Gongshang University, Hangzhou, China"
+        },
+        {
+          "name": "Hanchen Wang",
+          "affiliation": "University of Technology Sydney, Sydney, Australia"
+        },
+        {
+          "name": "Wenjie Zhang",
+          "affiliation": "University of New South Wales, Sydney, Australia"
+        }
+      ],
+      "duration": "1.5 Hours"
+    },
+    {
+      "number": "7",
+      "title": "Model Slicing: A Data Engineering Perspective",
+      "organizers": [
+        {
+          "name": "Parke Godfrey",
+          "affiliation": "York University, Toronto, ON, Canada"
+        },
+        {
+          "name": "Lukasz Golab",
+          "affiliation": "University of Waterloo, Waterloo, ON, Canada"
+        },
+        {
+          "name": "Divesh Srivastava",
+          "affiliation": "AT&T Chief Data Office, Bedminster, NJ, USA"
+        },
+        {
+          "name": "Jarek Szlichta",
+          "affiliation": "York University, Toronto, ON, Canada"
+        }
+      ],
+      "duration": "1.5 Hours"
+    }
+  ]
+}
