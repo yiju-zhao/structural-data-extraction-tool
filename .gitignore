@@ -191,11 +191,6 @@ docs/
 # output/
 # scripts/
 
-*.skill
-.claude/*
-!.claude/skills/
-.venv-lotus/
-
 .session_index/
 
 # GTC extraction runtime files
