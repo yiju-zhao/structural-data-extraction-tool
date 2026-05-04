@@ -1,0 +1,6380 @@
+[
+  {
+    "title": "Beyond Model Serving: Cross-Stack Co-Design for Agentic Systems",
+    "date": "2026-05-18",
+    "start": "08:45",
+    "end": "09:05",
+    "session_type": "Invited Talk",
+    "topic": "Beyond Model Serving: Cross-Stack Co-Design for Agentic Systems",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/3650",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Esha Choukse"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Beyond Model Serving: Cross-Stack Co-Design for Agentic Systems"
+    ]
+  },
+  {
+    "title": "LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference",
+    "date": "2026-05-18",
+    "start": "09:05",
+    "end": "09:20",
+    "session_type": "Invited Talk",
+    "topic": "LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/3646",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yuhan Liu"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference"
+    ]
+  },
+  {
+    "title": "Eliciting Language Model Behaviors with Investigator Agents",
+    "date": "2026-05-18",
+    "start": "09:20",
+    "end": "09:40",
+    "session_type": "Invited Talk",
+    "topic": "Eliciting Language Model Behaviors with Investigator Agents",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/3645",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lisa Li"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Eliciting Language Model Behaviors with Investigator Agents"
+    ]
+  },
+  {
+    "title": "Invited Talk - Roger Wang",
+    "date": "2026-05-18",
+    "start": "09:40",
+    "end": "10:00",
+    "session_type": "Invited Talk",
+    "topic": "Invited Talk - Roger Wang",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/10000",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Roger Wang"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Invited Talk - Roger Wang"
+    ]
+  },
+  {
+    "title": "Sponsor Lightning Talks 1",
+    "date": "2026-05-18",
+    "start": "10:30",
+    "end": "11:30",
+    "session_type": "Session",
+    "topic": "Sponsor Lightning Talks 1",
+    "url": "https://mlsys.org/virtual/2026/session/3648",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Sponsor Lightning Talks 1"
+    ]
+  },
+  {
+    "title": "Sponsor Lightning Talks 2",
+    "date": "2026-05-18",
+    "start": "14:00",
+    "end": "15:00",
+    "session_type": "Session",
+    "topic": "Sponsor Lightning Talks 2",
+    "url": "https://mlsys.org/virtual/2026/session/3652",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Sponsor Lightning Talks 2"
+    ]
+  },
+  {
+    "title": "When AI Starts Writing Systems Code",
+    "date": "2026-05-18",
+    "start": "15:30",
+    "end": "16:30",
+    "session_type": "Keynote",
+    "topic": "When AI Starts Writing Systems Code",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/3655",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Mark Saroufim"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "When AI Starts Writing Systems Code"
+    ]
+  },
+  {
+    "title": "YPS Poster Session & YPS Reception",
+    "date": "2026-05-18",
+    "start": "16:30",
+    "end": "18:30",
+    "session_type": "Session",
+    "topic": "YPS Poster Session & YPS Reception",
+    "url": "https://mlsys.org/virtual/2026/session/3656",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Evergreen Ballroom",
+    "key_themes": [
+      "YPS Poster Session & YPS Reception"
+    ]
+  },
+  {
+    "title": "Best Paper Session",
+    "date": "2026-05-19",
+    "start": "08:45",
+    "end": "10:00",
+    "session_type": "Session",
+    "topic": "Best Paper Session",
+    "url": "https://mlsys.org/virtual/2026/session/3659",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Best Paper Session"
+    ]
+  },
+  {
+    "title": "Overflow / Viewing",
+    "date": "2026-05-19",
+    "start": "08:45",
+    "end": "10:00",
+    "session_type": "Session",
+    "topic": "Overflow / Viewing",
+    "url": "https://mlsys.org/virtual/2026/session/3660",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Overflow / Viewing"
+    ]
+  },
+  {
+    "title": "Overflow / Viewing",
+    "date": "2026-05-19",
+    "start": "10:30",
+    "end": "11:30",
+    "session_type": "Session",
+    "topic": "Overflow / Viewing",
+    "url": "https://mlsys.org/virtual/2026/session/3664",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Overflow / Viewing"
+    ]
+  },
+  {
+    "title": "The Next Horizon of Systems: From MLSys to System Intelligence",
+    "date": "2026-05-19",
+    "start": "10:30",
+    "end": "11:30",
+    "session_type": "Keynote",
+    "topic": "The Next Horizon of Systems: From MLSys to System Intelligence",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/3665",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lidong Zhou"
+      }
+    ],
+    "room": "Grand Ballroom",
+    "key_themes": [
+      "The Next Horizon of Systems: From MLSys to System Intelligence"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R16: Agentic AI",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R16: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/session/3668",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Dong Wang"
+      },
+      {
+        "name": "Yang Li"
+      },
+      {
+        "name": "Ansong Ni"
+      },
+      {
+        "name": "Ching-Feng Yeh"
+      },
+      {
+        "name": "Youssef Emad"
+      },
+      {
+        "name": "Xinjie Lei"
+      },
+      {
+        "name": "Liam Robbins"
+      },
+      {
+        "name": "Karthik Padthe"
+      },
+      {
+        "name": "Hu Xu"
+      },
+      {
+        "name": "Xian Li"
+      },
+      {
+        "name": "Asli Celikyilmaz"
+      },
+      {
+        "name": "Ramya Raghavendra"
+      },
+      {
+        "name": "LIFEI HUANG"
+      },
+      {
+        "name": "Carole-Jean Wu"
+      },
+      {
+        "name": "Shang-Wen Li"
+      },
+      {
+        "name": "Kirill Nagaitsev"
+      },
+      {
+        "name": "Luka Grbcic"
+      },
+      {
+        "name": "Samuel Williams"
+      },
+      {
+        "name": "Costin Iancu"
+      },
+      {
+        "name": "Reyna Abhyankar"
+      },
+      {
+        "name": "Qi Qi"
+      },
+      {
+        "name": "Yiying Zhang"
+      },
+      {
+        "name": "Heng Ping"
+      },
+      {
+        "name": "Arijit Bhattacharjee"
+      },
+      {
+        "name": "Peiyu Zhang"
+      },
+      {
+        "name": "Shixuan Li"
+      },
+      {
+        "name": "Wei Yang"
+      },
+      {
+        "name": "Anzhe Cheng"
+      },
+      {
+        "name": "Xiaole Zhang"
+      },
+      {
+        "name": "Jesse Thomason"
+      },
+      {
+        "name": "Ali Jannesari"
+      },
+      {
+        "name": "Nesreen Ahmed"
+      },
+      {
+        "name": "Paul Bogdan"
+      },
+      {
+        "name": "Jianan Lu"
+      },
+      {
+        "name": "Asaf Cidon"
+      },
+      {
+        "name": "Michael None Freedman"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "R16: Agentic AI"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R19: Multimodal and Generative Models",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R19: Multimodal and Generative Models",
+    "url": "https://mlsys.org/virtual/2026/session/3669",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Siqi Chen"
+      },
+      {
+        "name": "Ke Hong"
+      },
+      {
+        "name": "Tianchen Zhao"
+      },
+      {
+        "name": "Ruiqi Xie"
+      },
+      {
+        "name": "Zhenhua Zhu"
+      },
+      {
+        "name": "Xudong Zhang"
+      },
+      {
+        "name": "Yu Wang"
+      },
+      {
+        "name": "Lingjun Gao"
+      },
+      {
+        "name": "Zhican Wang"
+      },
+      {
+        "name": "Zhiwen Mo"
+      },
+      {
+        "name": "Hongxiang Fan"
+      },
+      {
+        "name": "Tianrui Feng"
+      },
+      {
+        "name": "Zhi Li"
+      },
+      {
+        "name": "Shuo Yang"
+      },
+      {
+        "name": "Haocheng Xi"
+      },
+      {
+        "name": "Muyang Li"
+      },
+      {
+        "name": "Xiuyu Li"
+      },
+      {
+        "name": "* Keting Yang"
+      },
+      {
+        "name": "Kelly Peng"
+      },
+      {
+        "name": "Song Han"
+      },
+      {
+        "name": "Maneesh Agrawala"
+      },
+      {
+        "name": "Kurt Keutzer"
+      },
+      {
+        "name": "Akio Kodaira"
+      },
+      {
+        "name": "Chenfeng Xu"
+      },
+      {
+        "name": "Jingyu Liu"
+      },
+      {
+        "name": "Xin Dong"
+      },
+      {
+        "name": "Zhifan Ye"
+      },
+      {
+        "name": "* Yonggan Fu"
+      },
+      {
+        "name": "vartika singh"
+      },
+      {
+        "name": "Ce Zhang"
+      },
+      {
+        "name": "Pavlo Molchanov"
+      },
+      {
+        "name": "Xianzhe Dong"
+      },
+      {
+        "name": "Tongxuan Liu"
+      },
+      {
+        "name": "Yuting Zeng"
+      },
+      {
+        "name": "Weizhe Huang"
+      },
+      {
+        "name": "* Siyu Wu"
+      },
+      {
+        "name": "* Liu Yang"
+      },
+      {
+        "name": "Yu Wu"
+      },
+      {
+        "name": "Hailong Yang"
+      },
+      {
+        "name": "* Jing Li"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R19: Multimodal and Generative Models"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R1: LLM Serving",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/session/3675",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Gunjun Lee"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Younjoo Lee"
+      },
+      {
+        "name": "Jung Ho Ahn"
+      },
+      {
+        "name": "Avinash Kumar"
+      },
+      {
+        "name": "Shashank Nag"
+      },
+      {
+        "name": "Jason Clemons"
+      },
+      {
+        "name": "LIZY JOHn"
+      },
+      {
+        "name": "Poulami Das"
+      },
+      {
+        "name": "Jianshu She"
+      },
+      {
+        "name": "Zonghang Li"
+      },
+      {
+        "name": "HONGCHAO DU"
+      },
+      {
+        "name": "Shangyu Wu"
+      },
+      {
+        "name": "Wenhao Zheng"
+      },
+      {
+        "name": "Eric Xing"
+      },
+      {
+        "name": "Zhengzhong Liu"
+      },
+      {
+        "name": "Huaxiu Yao"
+      },
+      {
+        "name": "Chun Jason Xue"
+      },
+      {
+        "name": "Qirong Ho"
+      },
+      {
+        "name": "Rajveer Bachkaniwala"
+      },
+      {
+        "name": "* Richard So"
+      },
+      {
+        "name": "Divya Mahajan"
+      },
+      {
+        "name": "Kexin Rong"
+      },
+      {
+        "name": "Jiahuan Yu"
+      },
+      {
+        "name": "Mingtao Hu"
+      },
+      {
+        "name": "* Minjia Zhang"
+      },
+      {
+        "name": "Raja Gond"
+      },
+      {
+        "name": "Nipun Kwatra"
+      },
+      {
+        "name": "Ramachandran Ramjee"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R1: LLM Serving"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R9: Agentic AI",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R9: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/session/3674",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hojoon Kim"
+      },
+      {
+        "name": "Yuheng Wu"
+      },
+      {
+        "name": "Thierry Tambe"
+      },
+      {
+        "name": "Yinsicheng Jiang"
+      },
+      {
+        "name": "Yeqi Huang"
+      },
+      {
+        "name": "Liang Cheng"
+      },
+      {
+        "name": "Cheng Deng"
+      },
+      {
+        "name": "Xuan Sun"
+      },
+      {
+        "name": "Luo Mai"
+      },
+      {
+        "name": "Taosong Fang"
+      },
+      {
+        "name": "Zhen Zheng"
+      },
+      {
+        "name": "Zhengzhao Ma"
+      },
+      {
+        "name": "Yaojie Lu"
+      },
+      {
+        "name": "Hongyu Lin"
+      },
+      {
+        "name": "Xianpei Han"
+      },
+      {
+        "name": "Le Sun"
+      },
+      {
+        "name": "Yi Li"
+      },
+      {
+        "name": "Lianjie Cao"
+      },
+      {
+        "name": "Faraz Ahmed"
+      },
+      {
+        "name": "Puneet Sharma"
+      },
+      {
+        "name": "Bingzhe Li"
+      },
+      {
+        "name": "Sharon Cao"
+      },
+      {
+        "name": "Rui Li"
+      },
+      {
+        "name": "Chien-Yu Lin"
+      },
+      {
+        "name": "Keisuke Kamahori"
+      },
+      {
+        "name": "Yiyu Liu"
+      },
+      {
+        "name": "Xiaoxiang Shi"
+      },
+      {
+        "name": "Madhav Kashyap"
+      },
+      {
+        "name": "Yile Gu"
+      },
+      {
+        "name": "Rulin Shao"
+      },
+      {
+        "name": "Zihao Ye"
+      },
+      {
+        "name": "Kan Zhu"
+      },
+      {
+        "name": "Rohan Kadekodi"
+      },
+      {
+        "name": "Stephanie Wang"
+      },
+      {
+        "name": "Arvind Krishnamurthy"
+      },
+      {
+        "name": "Luis Ceze"
+      },
+      {
+        "name": "Baris Kasikci"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "R9: Agentic AI"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R10: Security and Privacy",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R10: Security and Privacy",
+    "url": "https://mlsys.org/virtual/2026/session/3673",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zhongshu Gu"
+      },
+      {
+        "name": "* Salman Ahmed"
+      },
+      {
+        "name": "Julian James stephen"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Shixuan Zhao"
+      },
+      {
+        "name": "Zhiqiang Lin"
+      },
+      {
+        "name": "Kim Hammar"
+      },
+      {
+        "name": "Ran Ran"
+      },
+      {
+        "name": "Zhaoting Gong"
+      },
+      {
+        "name": "Zhaowei Li"
+      },
+      {
+        "name": "Xianting Lu"
+      },
+      {
+        "name": "Jiajia Li"
+      },
+      {
+        "name": "Wujie Wen"
+      },
+      {
+        "name": "Jianming Tong"
+      },
+      {
+        "name": "Hanshen Xiao"
+      },
+      {
+        "name": "* Hao Kang"
+      },
+      {
+        "name": "Ashish Sirasao"
+      },
+      {
+        "name": "Ziqi Zhang"
+      },
+      {
+        "name": "G. Edward Suh"
+      },
+      {
+        "name": "Tushar Krishna"
+      },
+      {
+        "name": "Shuyi Lin"
+      },
+      {
+        "name": "Anshuman Suri"
+      },
+      {
+        "name": "Alina Oprea"
+      },
+      {
+        "name": "Cheng Tan"
+      },
+      {
+        "name": "Mohammad M Maheri"
+      },
+      {
+        "name": "Hamed Haddadi"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R10: Security and Privacy"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R8: Federated Learning",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R8: Federated Learning",
+    "url": "https://mlsys.org/virtual/2026/session/3672",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Haaris Mehmood"
+      },
+      {
+        "name": "Giorgos Tatsis"
+      },
+      {
+        "name": "Dimitrios Alexopoulos"
+      },
+      {
+        "name": "Karthikeyan Saravanan"
+      },
+      {
+        "name": "Jie Xi"
+      },
+      {
+        "name": "* Mete Ozay"
+      },
+      {
+        "name": "Hariharan Ramesh"
+      },
+      {
+        "name": "Jyotikrishna Dass"
+      },
+      {
+        "name": "Ahmed Elhussein"
+      },
+      {
+        "name": "Florent Pollet"
+      },
+      {
+        "name": "Gamze Gursoy"
+      },
+      {
+        "name": "Waris Gill"
+      },
+      {
+        "name": "Ahmad Humayun"
+      },
+      {
+        "name": "Ali Anwar"
+      },
+      {
+        "name": "Muhammad Ali Gulzar"
+      },
+      {
+        "name": "Joyce Yuan"
+      },
+      {
+        "name": "Yichuan Shi"
+      },
+      {
+        "name": "Abhishek Singh"
+      },
+      {
+        "name": "Rishi Sharma"
+      },
+      {
+        "name": "Ramesh Raskar"
+      },
+      {
+        "name": "* Martin Jaggi"
+      },
+      {
+        "name": "Zhiqi Bu"
+      },
+      {
+        "name": "Justin Chiu"
+      },
+      {
+        "name": "Ruixuan Liu"
+      },
+      {
+        "name": "Sheng Zha"
+      },
+      {
+        "name": "George Karypis"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "R8: Federated Learning"
+    ]
+  },
+  {
+    "title": "Poster Session 1 & Opening Reception",
+    "date": "2026-05-19",
+    "start": "18:00",
+    "end": "20:00",
+    "session_type": "Session",
+    "topic": "Poster Session 1 & Opening Reception",
+    "url": "https://mlsys.org/virtual/2026/session/3676",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hojoon Kim"
+      },
+      {
+        "name": "Yuheng Wu"
+      },
+      {
+        "name": "Thierry Tambe"
+      },
+      {
+        "name": "Zhongshu Gu"
+      },
+      {
+        "name": "* Salman Ahmed"
+      },
+      {
+        "name": "Julian James stephen"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Shixuan Zhao"
+      },
+      {
+        "name": "Zhiqiang Lin"
+      },
+      {
+        "name": "Yinsicheng Jiang"
+      },
+      {
+        "name": "Yeqi Huang"
+      },
+      {
+        "name": "Liang Cheng"
+      },
+      {
+        "name": "Cheng Deng"
+      },
+      {
+        "name": "Xuan Sun"
+      },
+      {
+        "name": "Luo Mai"
+      },
+      {
+        "name": "Kim Hammar"
+      },
+      {
+        "name": "Siqi Chen"
+      },
+      {
+        "name": "Ke Hong"
+      },
+      {
+        "name": "Tianchen Zhao"
+      },
+      {
+        "name": "Ruiqi Xie"
+      },
+      {
+        "name": "Zhenhua Zhu"
+      },
+      {
+        "name": "Xudong Zhang"
+      },
+      {
+        "name": "Yu Wang"
+      },
+      {
+        "name": "Haaris Mehmood"
+      },
+      {
+        "name": "Giorgos Tatsis"
+      },
+      {
+        "name": "Dimitrios Alexopoulos"
+      },
+      {
+        "name": "Karthikeyan Saravanan"
+      },
+      {
+        "name": "Jie Xi"
+      },
+      {
+        "name": "* Mete Ozay"
+      },
+      {
+        "name": "Taosong Fang"
+      },
+      {
+        "name": "Zhen Zheng"
+      },
+      {
+        "name": "Zhengzhao Ma"
+      },
+      {
+        "name": "Yaojie Lu"
+      },
+      {
+        "name": "Hongyu Lin"
+      },
+      {
+        "name": "Xianpei Han"
+      },
+      {
+        "name": "Le Sun"
+      },
+      {
+        "name": "Hariharan Ramesh"
+      },
+      {
+        "name": "Jyotikrishna Dass"
+      },
+      {
+        "name": "Gunjun Lee"
+      },
+      {
+        "name": "Younjoo Lee"
+      },
+      {
+        "name": "Jung Ho Ahn"
+      },
+      {
+        "name": "Ran Ran"
+      },
+      {
+        "name": "Zhaoting Gong"
+      },
+      {
+        "name": "Zhaowei Li"
+      },
+      {
+        "name": "Xianting Lu"
+      },
+      {
+        "name": "Jiajia Li"
+      },
+      {
+        "name": "Wujie Wen"
+      },
+      {
+        "name": "Avinash Kumar"
+      },
+      {
+        "name": "Shashank Nag"
+      },
+      {
+        "name": "Jason Clemons"
+      },
+      {
+        "name": "LIZY JOHn"
+      },
+      {
+        "name": "Poulami Das"
+      },
+      {
+        "name": "Yi Li"
+      },
+      {
+        "name": "Lianjie Cao"
+      },
+      {
+        "name": "Faraz Ahmed"
+      },
+      {
+        "name": "Puneet Sharma"
+      },
+      {
+        "name": "Bingzhe Li"
+      },
+      {
+        "name": "Dong Wang"
+      },
+      {
+        "name": "Yang Li"
+      },
+      {
+        "name": "Ansong Ni"
+      },
+      {
+        "name": "Ching-Feng Yeh"
+      },
+      {
+        "name": "Youssef Emad"
+      },
+      {
+        "name": "Xinjie Lei"
+      },
+      {
+        "name": "Liam Robbins"
+      },
+      {
+        "name": "Karthik Padthe"
+      },
+      {
+        "name": "Hu Xu"
+      },
+      {
+        "name": "Xian Li"
+      },
+      {
+        "name": "Asli Celikyilmaz"
+      },
+      {
+        "name": "Ramya Raghavendra"
+      },
+      {
+        "name": "LIFEI HUANG"
+      },
+      {
+        "name": "Carole-Jean Wu"
+      },
+      {
+        "name": "Shang-Wen Li"
+      },
+      {
+        "name": "Sharon Cao"
+      },
+      {
+        "name": "Rui Li"
+      },
+      {
+        "name": "Kirill Nagaitsev"
+      },
+      {
+        "name": "Luka Grbcic"
+      },
+      {
+        "name": "Samuel Williams"
+      },
+      {
+        "name": "Costin Iancu"
+      },
+      {
+        "name": "Reyna Abhyankar"
+      },
+      {
+        "name": "Qi Qi"
+      },
+      {
+        "name": "Yiying Zhang"
+      },
+      {
+        "name": "Jianshu She"
+      },
+      {
+        "name": "Zonghang Li"
+      },
+      {
+        "name": "HONGCHAO DU"
+      },
+      {
+        "name": "Shangyu Wu"
+      },
+      {
+        "name": "Wenhao Zheng"
+      },
+      {
+        "name": "Eric Xing"
+      },
+      {
+        "name": "Zhengzhong Liu"
+      },
+      {
+        "name": "Huaxiu Yao"
+      },
+      {
+        "name": "Chun Jason Xue"
+      },
+      {
+        "name": "Qirong Ho"
+      },
+      {
+        "name": "Ahmed Elhussein"
+      },
+      {
+        "name": "Florent Pollet"
+      },
+      {
+        "name": "Gamze Gursoy"
+      },
+      {
+        "name": "Jianming Tong"
+      },
+      {
+        "name": "Hanshen Xiao"
+      },
+      {
+        "name": "* Hao Kang"
+      },
+      {
+        "name": "Ashish Sirasao"
+      },
+      {
+        "name": "Ziqi Zhang"
+      },
+      {
+        "name": "G. Edward Suh"
+      },
+      {
+        "name": "Tushar Krishna"
+      },
+      {
+        "name": "Waris Gill"
+      },
+      {
+        "name": "Ahmad Humayun"
+      },
+      {
+        "name": "Ali Anwar"
+      },
+      {
+        "name": "Muhammad Ali Gulzar"
+      },
+      {
+        "name": "Joyce Yuan"
+      },
+      {
+        "name": "Yichuan Shi"
+      },
+      {
+        "name": "Abhishek Singh"
+      },
+      {
+        "name": "Rishi Sharma"
+      },
+      {
+        "name": "Ramesh Raskar"
+      },
+      {
+        "name": "* Martin Jaggi"
+      },
+      {
+        "name": "Rajveer Bachkaniwala"
+      },
+      {
+        "name": "* Richard So"
+      },
+      {
+        "name": "Divya Mahajan"
+      },
+      {
+        "name": "Kexin Rong"
+      },
+      {
+        "name": "Tianrui Feng"
+      },
+      {
+        "name": "Zhi Li"
+      },
+      {
+        "name": "Shuo Yang"
+      },
+      {
+        "name": "Haocheng Xi"
+      },
+      {
+        "name": "Muyang Li"
+      },
+      {
+        "name": "Xiuyu Li"
+      },
+      {
+        "name": "* Keting Yang"
+      },
+      {
+        "name": "Kelly Peng"
+      },
+      {
+        "name": "Song Han"
+      },
+      {
+        "name": "Maneesh Agrawala"
+      },
+      {
+        "name": "Kurt Keutzer"
+      },
+      {
+        "name": "Akio Kodaira"
+      },
+      {
+        "name": "Chenfeng Xu"
+      },
+      {
+        "name": "Jiahuan Yu"
+      },
+      {
+        "name": "Mingtao Hu"
+      },
+      {
+        "name": "* Minjia Zhang"
+      },
+      {
+        "name": "Lingjun Gao"
+      },
+      {
+        "name": "Zhican Wang"
+      },
+      {
+        "name": "Zhiwen Mo"
+      },
+      {
+        "name": "Hongxiang Fan"
+      },
+      {
+        "name": "Chien-Yu Lin"
+      },
+      {
+        "name": "Keisuke Kamahori"
+      },
+      {
+        "name": "Yiyu Liu"
+      },
+      {
+        "name": "Xiaoxiang Shi"
+      },
+      {
+        "name": "Madhav Kashyap"
+      },
+      {
+        "name": "Yile Gu"
+      },
+      {
+        "name": "Rulin Shao"
+      },
+      {
+        "name": "Zihao Ye"
+      },
+      {
+        "name": "Kan Zhu"
+      },
+      {
+        "name": "Rohan Kadekodi"
+      },
+      {
+        "name": "Stephanie Wang"
+      },
+      {
+        "name": "Arvind Krishnamurthy"
+      },
+      {
+        "name": "Luis Ceze"
+      },
+      {
+        "name": "Baris Kasikci"
+      },
+      {
+        "name": "Jingyu Liu"
+      },
+      {
+        "name": "Xin Dong"
+      },
+      {
+        "name": "Zhifan Ye"
+      },
+      {
+        "name": "* Yonggan Fu"
+      },
+      {
+        "name": "vartika singh"
+      },
+      {
+        "name": "Ce Zhang"
+      },
+      {
+        "name": "Pavlo Molchanov"
+      },
+      {
+        "name": "Raja Gond"
+      },
+      {
+        "name": "Nipun Kwatra"
+      },
+      {
+        "name": "Ramachandran Ramjee"
+      },
+      {
+        "name": "Shuyi Lin"
+      },
+      {
+        "name": "Anshuman Suri"
+      },
+      {
+        "name": "Alina Oprea"
+      },
+      {
+        "name": "Cheng Tan"
+      },
+      {
+        "name": "Xianzhe Dong"
+      },
+      {
+        "name": "Tongxuan Liu"
+      },
+      {
+        "name": "Yuting Zeng"
+      },
+      {
+        "name": "Weizhe Huang"
+      },
+      {
+        "name": "* Siyu Wu"
+      },
+      {
+        "name": "* Liu Yang"
+      },
+      {
+        "name": "Yu Wu"
+      },
+      {
+        "name": "Hailong Yang"
+      },
+      {
+        "name": "* Jing Li"
+      },
+      {
+        "name": "Heng Ping"
+      },
+      {
+        "name": "Arijit Bhattacharjee"
+      },
+      {
+        "name": "Peiyu Zhang"
+      },
+      {
+        "name": "Shixuan Li"
+      },
+      {
+        "name": "Wei Yang"
+      },
+      {
+        "name": "Anzhe Cheng"
+      },
+      {
+        "name": "Xiaole Zhang"
+      },
+      {
+        "name": "Jesse Thomason"
+      },
+      {
+        "name": "Ali Jannesari"
+      },
+      {
+        "name": "Nesreen Ahmed"
+      },
+      {
+        "name": "Paul Bogdan"
+      },
+      {
+        "name": "Jianan Lu"
+      },
+      {
+        "name": "Asaf Cidon"
+      },
+      {
+        "name": "Michael None Freedman"
+      },
+      {
+        "name": "Zhiqi Bu"
+      },
+      {
+        "name": "Justin Chiu"
+      },
+      {
+        "name": "Ruixuan Liu"
+      },
+      {
+        "name": "Sheng Zha"
+      },
+      {
+        "name": "George Karypis"
+      },
+      {
+        "name": "Mohammadmahdi Maheri"
+      },
+      {
+        "name": "Hamed Haddadi"
+      }
+    ],
+    "room": "Evergreen Ballroom",
+    "key_themes": [
+      "Poster Session 1 & Opening Reception"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R2: LLM Serving",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R2: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/session/3678",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hyunjae Lee"
+      },
+      {
+        "name": "Sangjin Choi"
+      },
+      {
+        "name": "Seungjae Lim"
+      },
+      {
+        "name": "Youngjin Kwon"
+      },
+      {
+        "name": "YOUHE JIANG"
+      },
+      {
+        "name": "Fangcheng Fu"
+      },
+      {
+        "name": "Eiko Yoneki"
+      },
+      {
+        "name": "Huzaifa Shaaban Kabakibo"
+      },
+      {
+        "name": "Animesh Trivedi"
+      },
+      {
+        "name": "Lin Wang"
+      },
+      {
+        "name": "Minchen Yu"
+      },
+      {
+        "name": "Rui Yang"
+      },
+      {
+        "name": "* Zhaoyuan Su"
+      },
+      {
+        "name": "Sheng Yao"
+      },
+      {
+        "name": "Tingfeng Lan"
+      },
+      {
+        "name": "* Zirui Wang"
+      },
+      {
+        "name": "Yue Cheng"
+      },
+      {
+        "name": "Wei Wang"
+      },
+      {
+        "name": "* Ruichuan Chen"
+      },
+      {
+        "name": "Hsing-Ti Wang"
+      },
+      {
+        "name": "Hung-Tso Shiao"
+      },
+      {
+        "name": "Chia-Lin Yang"
+      },
+      {
+        "name": "Zhaoyuan Su"
+      },
+      {
+        "name": "Zeyu Zhang"
+      },
+      {
+        "name": "Zirui Wang"
+      },
+      {
+        "name": "* Juncheng Yang"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "R2: LLM Serving"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R6: LLM Training",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R6: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/session/3679",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zhengyang Wang"
+      },
+      {
+        "name": "Ziyue Liu"
+      },
+      {
+        "name": "Ruijie Zhang"
+      },
+      {
+        "name": "Avinash Maurya"
+      },
+      {
+        "name": "* Paul Hovland"
+      },
+      {
+        "name": "* zheng Zhang"
+      },
+      {
+        "name": "Yonghao Zhuang"
+      },
+      {
+        "name": "Junda Chen"
+      },
+      {
+        "name": "* Yi Gu"
+      },
+      {
+        "name": "Yibo Zhu"
+      },
+      {
+        "name": "Yimin Jiang"
+      },
+      {
+        "name": "Ion Stoica"
+      },
+      {
+        "name": "Hao Zhang"
+      },
+      {
+        "name": "Eric Xing"
+      },
+      {
+        "name": "Wenxuan Li"
+      },
+      {
+        "name": "Chengruidong Zhang"
+      },
+      {
+        "name": "Huiqiang Jiang"
+      },
+      {
+        "name": "Yucheng Li"
+      },
+      {
+        "name": "* Lili Qiu"
+      },
+      {
+        "name": "Irene Wang"
+      },
+      {
+        "name": "* Arvind Krishnamurthy"
+      },
+      {
+        "name": "Divya Mahajan"
+      },
+      {
+        "name": "Hanmei Yang"
+      },
+      {
+        "name": "* Yao Fu"
+      },
+      {
+        "name": "* Ramine Roane"
+      },
+      {
+        "name": "Hui Guan"
+      },
+      {
+        "name": "Tongping Liu"
+      },
+      {
+        "name": "Yilong Zhao"
+      },
+      {
+        "name": "Xiaonan Nie"
+      },
+      {
+        "name": "Kan Zhu"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Hongxiang Hao"
+      },
+      {
+        "name": "Yang Zhou"
+      },
+      {
+        "name": "Baris Kasikci"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R6: LLM Training"
+    ]
+  },
+  {
+    "title": "Keynote - Amin Vahdat",
+    "date": "2026-05-20",
+    "start": "10:30",
+    "end": "11:30",
+    "session_type": "Keynote",
+    "topic": "Keynote - Amin Vahdat",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/3684",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Amin Vahdat"
+      }
+    ],
+    "room": "Grand Ballroom",
+    "key_themes": [
+      "Keynote - Amin Vahdat"
+    ]
+  },
+  {
+    "title": "Overflow / Viewing",
+    "date": "2026-05-20",
+    "start": "10:30",
+    "end": "11:30",
+    "session_type": "Session",
+    "topic": "Overflow / Viewing",
+    "url": "https://mlsys.org/virtual/2026/session/3683",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Overflow / Viewing"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R11: ML for Systems",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R11: ML for Systems",
+    "url": "https://mlsys.org/virtual/2026/session/3688",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Floris-Jan Willemsen"
+      },
+      {
+        "name": "Niki van Stein"
+      },
+      {
+        "name": "Ben van Werkhoven"
+      },
+      {
+        "name": "Shanli Xing"
+      },
+      {
+        "name": "Vivian Zhai"
+      },
+      {
+        "name": "Alexander Jiang"
+      },
+      {
+        "name": "Yixin Dong"
+      },
+      {
+        "name": "Yong Wu"
+      },
+      {
+        "name": "Zihao Ye"
+      },
+      {
+        "name": "Charlie Ruan"
+      },
+      {
+        "name": "Yingyi Huang"
+      },
+      {
+        "name": "Yineng Zhang"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Luis Ceze"
+      },
+      {
+        "name": "Tianqi Chen"
+      },
+      {
+        "name": "Kasper Overgaard Mortensen"
+      },
+      {
+        "name": "Ama Bembua Bainson"
+      },
+      {
+        "name": "* Kristoffer Strube"
+      },
+      {
+        "name": "Renata Borovica-Gajic"
+      },
+      {
+        "name": "Andrea Paudice"
+      },
+      {
+        "name": "Davide Mottin"
+      },
+      {
+        "name": "Panagiotis Karras"
+      },
+      {
+        "name": "Armin Abdollahi"
+      },
+      {
+        "name": "Mehdi Kamal"
+      },
+      {
+        "name": "Massoud Pedram"
+      },
+      {
+        "name": "Yibo Zhao"
+      },
+      {
+        "name": "Tianyuan Wu"
+      },
+      {
+        "name": "HUI XUE"
+      },
+      {
+        "name": "Qi Chen"
+      },
+      {
+        "name": "Zhenhua Han"
+      },
+      {
+        "name": "Jui-Hao Chiang"
+      },
+      {
+        "name": "Mingxia Li"
+      },
+      {
+        "name": "Yuqing Yang"
+      },
+      {
+        "name": "Cheng Tan"
+      },
+      {
+        "name": "Fan Yang"
+      },
+      {
+        "name": "Peng Cheng"
+      },
+      {
+        "name": "Yongqiang Xiong"
+      },
+      {
+        "name": "Lili Qiu"
+      },
+      {
+        "name": "Lidong Zhou"
+      },
+      {
+        "name": "Varun Gohil"
+      },
+      {
+        "name": "Nevena Stojkovic"
+      },
+      {
+        "name": "Noman Bashir"
+      },
+      {
+        "name": "Sundar Dev"
+      },
+      {
+        "name": "Gaurang Upasani"
+      },
+      {
+        "name": "David Lo"
+      },
+      {
+        "name": "Parthasarathy Ranganathan"
+      },
+      {
+        "name": "Christina Delimitrou"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R11: ML for Systems"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R3: LLM Serving",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R3: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/session/3687",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Nazmul Takbir"
+      },
+      {
+        "name": "Hamidreza Koshkak"
+      },
+      {
+        "name": "Nikil Dutt"
+      },
+      {
+        "name": "Sangeetha Abdu Jyothi"
+      },
+      {
+        "name": "Haojun Xia"
+      },
+      {
+        "name": "Xiaoxia Wu"
+      },
+      {
+        "name": "Jisen Li"
+      },
+      {
+        "name": "Tsai-chuan Wu"
+      },
+      {
+        "name": "Junxiong Wang"
+      },
+      {
+        "name": "Jue Wang"
+      },
+      {
+        "name": "Chenxi Li"
+      },
+      {
+        "name": "Aman Singhal"
+      },
+      {
+        "name": "Alay Dilipbhai Shah"
+      },
+      {
+        "name": "* Donglin Zhuang"
+      },
+      {
+        "name": "Zhongzhu Zhou"
+      },
+      {
+        "name": "Ben Athiwaratkun"
+      },
+      {
+        "name": "Zhen Zheng"
+      },
+      {
+        "name": "Shuaiwen Song"
+      },
+      {
+        "name": "Jinghan Yao"
+      },
+      {
+        "name": "Sam Jacobs"
+      },
+      {
+        "name": "Walid Krichene"
+      },
+      {
+        "name": "Masahiro Tanaka"
+      },
+      {
+        "name": "Dhabaleswar Panda"
+      },
+      {
+        "name": "Huazheng Lao"
+      },
+      {
+        "name": "Xiaofeng Li"
+      },
+      {
+        "name": "Rui Xu"
+      },
+      {
+        "name": "Long Chen"
+      },
+      {
+        "name": "Xia Zhu *"
+      },
+      {
+        "name": "Jiayi Tian"
+      },
+      {
+        "name": "Seyedarmin Azizi"
+      },
+      {
+        "name": "Yequan Zhao"
+      },
+      {
+        "name": "Erfan Potraghloo"
+      },
+      {
+        "name": "Sean McPherson"
+      },
+      {
+        "name": "Sharath Nittur Sridhar"
+      },
+      {
+        "name": "Zhengyang Wang"
+      },
+      {
+        "name": "zheng Zhang"
+      },
+      {
+        "name": "Massoud Pedram"
+      },
+      {
+        "name": "Souvik Kundu"
+      },
+      {
+        "name": "Paul Castro"
+      },
+      {
+        "name": "Nick Mitchell"
+      },
+      {
+        "name": "Nathan Ordonez"
+      },
+      {
+        "name": "Thomas Parnell"
+      },
+      {
+        "name": "Mudhakar Srivatsa"
+      },
+      {
+        "name": "Antoni Viros i Martin"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "R3: LLM Serving"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R12: LLM Training",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R12: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/session/3692",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zelei Shao"
+      },
+      {
+        "name": "Vikranth Srivatsa"
+      },
+      {
+        "name": "Junxiong Wang"
+      },
+      {
+        "name": "Chenfeng Xu"
+      },
+      {
+        "name": "Xiaoxia Wu"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Qingyang Wu"
+      },
+      {
+        "name": "Jue Wang"
+      },
+      {
+        "name": "Ameen Patel"
+      },
+      {
+        "name": "Yiying Zhang"
+      },
+      {
+        "name": "Percy Liang"
+      },
+      {
+        "name": "Tri Dao"
+      },
+      {
+        "name": "Ben Athiwaratkun"
+      },
+      {
+        "name": "Ce Zhang"
+      },
+      {
+        "name": "Weilin Cai"
+      },
+      {
+        "name": "Diandian Gu"
+      },
+      {
+        "name": "Jun Wang"
+      },
+      {
+        "name": "* Jiayi Huang"
+      },
+      {
+        "name": "Yongjun He"
+      },
+      {
+        "name": "Shuai Zhang"
+      },
+      {
+        "name": "* Xiyuan Zhang"
+      },
+      {
+        "name": "Boran Han"
+      },
+      {
+        "name": "Bernie Wang"
+      },
+      {
+        "name": "Huzefa Rangwala"
+      },
+      {
+        "name": "George Karypis"
+      },
+      {
+        "name": "Justin Bauer"
+      },
+      {
+        "name": "Thomas Walshe"
+      },
+      {
+        "name": "Derek Pham"
+      },
+      {
+        "name": "Harit Vishwakarma"
+      },
+      {
+        "name": "Armin Parchami"
+      },
+      {
+        "name": "Frederic Sala"
+      },
+      {
+        "name": "Paroma Varma"
+      },
+      {
+        "name": "qiaoling chen"
+      },
+      {
+        "name": "Zijun Liu"
+      },
+      {
+        "name": "Peng Sun"
+      },
+      {
+        "name": "Shenggui Li"
+      },
+      {
+        "name": "Guoteng Wang"
+      },
+      {
+        "name": "Ziming Liu"
+      },
+      {
+        "name": "Yonggang Wen"
+      },
+      {
+        "name": "Siyuan Feng"
+      },
+      {
+        "name": "Tianwei Zhang"
+      },
+      {
+        "name": "Paul Janson"
+      },
+      {
+        "name": "Benjamin Thérien"
+      },
+      {
+        "name": "Quentin Anthony"
+      },
+      {
+        "name": "Xiaolong Huang"
+      },
+      {
+        "name": "Abhinav Moudgil"
+      },
+      {
+        "name": "Eugene Belilovsky"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R12: LLM Training"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R5: LLM Serving",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R5: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/session/3691",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Adrian Zhao"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Lingfan Yu"
+      },
+      {
+        "name": "Haozheng Fan"
+      },
+      {
+        "name": "Jun Wu"
+      },
+      {
+        "name": "Yida Wang"
+      },
+      {
+        "name": "Nandita Vijaykumar"
+      },
+      {
+        "name": "Pratyush Patel"
+      },
+      {
+        "name": "Arvind Krishnamurthy"
+      },
+      {
+        "name": "Yonatan Dukler"
+      },
+      {
+        "name": "Vikram Appia"
+      },
+      {
+        "name": "Emad Barsoum"
+      },
+      {
+        "name": "Shakya Jayakody"
+      },
+      {
+        "name": "Youpeng Zhao"
+      },
+      {
+        "name": "Chinmay Dhanraj Nehate"
+      },
+      {
+        "name": "Jun Wang"
+      },
+      {
+        "name": "Ziyi Xu"
+      },
+      {
+        "name": "Zhiqiang Xie"
+      },
+      {
+        "name": "Swapnil Gandhi"
+      },
+      {
+        "name": "Christos Kozyrakis"
+      },
+      {
+        "name": "Nandor Licker"
+      },
+      {
+        "name": "Kevin Hu"
+      },
+      {
+        "name": "Vladimir Zaytsev"
+      },
+      {
+        "name": "Lequn Chen"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "R5: LLM Serving"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R15: Model Compression",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R15: Model Compression",
+    "url": "https://mlsys.org/virtual/2026/session/3696",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Soroush Tabesh"
+      },
+      {
+        "name": "* Andrei Panferov"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Zhen Zheng"
+      },
+      {
+        "name": "Xiaonan Song"
+      },
+      {
+        "name": "Chuanjie Liu"
+      },
+      {
+        "name": "Yassien Shaalan"
+      },
+      {
+        "name": "Tanmaey Gupta"
+      },
+      {
+        "name": "Hayden Prairie"
+      },
+      {
+        "name": "Xiaoxia Wu"
+      },
+      {
+        "name": "Reyna Abhyankar"
+      },
+      {
+        "name": "Qingyang Wu"
+      },
+      {
+        "name": "Austin Silveria"
+      },
+      {
+        "name": "Pragaash Ponnusamy"
+      },
+      {
+        "name": "Jue Wang"
+      },
+      {
+        "name": "Ben Athiwaratkun"
+      },
+      {
+        "name": "Shuaiwen Song"
+      },
+      {
+        "name": "Tri Dao"
+      },
+      {
+        "name": "Daniel Fu"
+      },
+      {
+        "name": "Christopher De Sa"
+      },
+      {
+        "name": "Kareem Ibrahim"
+      },
+      {
+        "name": "* Andreas Moshovos"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R15: Model Compression"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R7: LLM Training",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R7: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/session/3695",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Luca Colagrande"
+      },
+      {
+        "name": "Lorenzo Leone"
+      },
+      {
+        "name": "Chen Wu"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Luca Benini"
+      },
+      {
+        "name": "Zhenheng Tang"
+      },
+      {
+        "name": "Zichen TANG"
+      },
+      {
+        "name": "Junlin Huang"
+      },
+      {
+        "name": "Xinglin Pan"
+      },
+      {
+        "name": "Rudan Yan"
+      },
+      {
+        "name": "Yuxin Wang"
+      },
+      {
+        "name": "* Shaohuai Shi"
+      },
+      {
+        "name": "Xiaowen Chu *"
+      },
+      {
+        "name": "Fengjuan Wang"
+      },
+      {
+        "name": "Zhiyi Su"
+      },
+      {
+        "name": "Sun Mou"
+      },
+      {
+        "name": "Jaeyong Song"
+      },
+      {
+        "name": "Seongyeon Park"
+      },
+      {
+        "name": "Hongsun Jang"
+      },
+      {
+        "name": "Jaewon Jung"
+      },
+      {
+        "name": "Hunseong Lim"
+      },
+      {
+        "name": "Junguk Hong"
+      },
+      {
+        "name": "Jinho Lee"
+      },
+      {
+        "name": "Runsheng Guo"
+      },
+      {
+        "name": "Utkarsh Anand"
+      },
+      {
+        "name": "Khuzaima Daudjee"
+      },
+      {
+        "name": "Rathijit Sen"
+      },
+      {
+        "name": "Ran Yan"
+      },
+      {
+        "name": "YOUHE JIANG"
+      },
+      {
+        "name": "Xiaonan Nie"
+      },
+      {
+        "name": "Fangcheng Fu"
+      },
+      {
+        "name": "Bin CUI"
+      },
+      {
+        "name": "Binhang Yuan"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "R7: LLM Training"
+    ]
+  },
+  {
+    "title": "Poster Session 2",
+    "date": "2026-05-20",
+    "start": "18:00",
+    "end": "20:00",
+    "session_type": "Session",
+    "topic": "Poster Session 2",
+    "url": "https://mlsys.org/virtual/2026/session/3697",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Luca Colagrande"
+      },
+      {
+        "name": "Lorenzo Leone"
+      },
+      {
+        "name": "Chen Wu"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Luca Benini"
+      },
+      {
+        "name": "Floris-Jan Willemsen"
+      },
+      {
+        "name": "Niki van Stein"
+      },
+      {
+        "name": "Ben van Werkhoven"
+      },
+      {
+        "name": "Hyunjae Lee"
+      },
+      {
+        "name": "Sangjin Choi"
+      },
+      {
+        "name": "Seungjae Lim"
+      },
+      {
+        "name": "Youngjin Kwon"
+      },
+      {
+        "name": "Zelei Shao"
+      },
+      {
+        "name": "Vikranth Srivatsa"
+      },
+      {
+        "name": "* Qingyang Wu"
+      },
+      {
+        "name": "* Xiaoxia Wu"
+      },
+      {
+        "name": "Ameen Patel"
+      },
+      {
+        "name": "Jue Wang"
+      },
+      {
+        "name": "Percy Liang"
+      },
+      {
+        "name": "Tri Dao"
+      },
+      {
+        "name": "Ce Zhang"
+      },
+      {
+        "name": "Yiying Zhang"
+      },
+      {
+        "name": "Ben Athiwaratkun"
+      },
+      {
+        "name": "Chenfeng Xu"
+      },
+      {
+        "name": "Junxiong Wang"
+      },
+      {
+        "name": "Zhengyang Wang"
+      },
+      {
+        "name": "Ziyue Liu"
+      },
+      {
+        "name": "Ruijie Zhang"
+      },
+      {
+        "name": "Avinash Maurya"
+      },
+      {
+        "name": "* Paul Hovland"
+      },
+      {
+        "name": "* zheng Zhang"
+      },
+      {
+        "name": "YOUHE JIANG"
+      },
+      {
+        "name": "Fangcheng Fu"
+      },
+      {
+        "name": "Eiko Yoneki"
+      },
+      {
+        "name": "Huzaifa Shaaban Kabakibo"
+      },
+      {
+        "name": "Animesh Trivedi"
+      },
+      {
+        "name": "Lin Wang"
+      },
+      {
+        "name": "Soroush Tabesh"
+      },
+      {
+        "name": "* Andrei Panferov"
+      },
+      {
+        "name": "Adrian Zhao"
+      },
+      {
+        "name": "Lingfan Yu"
+      },
+      {
+        "name": "Haozheng Fan"
+      },
+      {
+        "name": "Jun Wu"
+      },
+      {
+        "name": "Yida Wang"
+      },
+      {
+        "name": "Nandita Vijaykumar"
+      },
+      {
+        "name": "Pratyush Patel"
+      },
+      {
+        "name": "Dayeol Lee"
+      },
+      {
+        "name": "* Arvind Krishnamurthy"
+      },
+      {
+        "name": "Zhenheng Tang"
+      },
+      {
+        "name": "Zichen TANG"
+      },
+      {
+        "name": "Junlin Huang"
+      },
+      {
+        "name": "Xinglin Pan"
+      },
+      {
+        "name": "Rudan Yan"
+      },
+      {
+        "name": "Yuxin Wang"
+      },
+      {
+        "name": "* Shaohuai Shi"
+      },
+      {
+        "name": "Xiaowen Chu *"
+      },
+      {
+        "name": "Yonghao Zhuang"
+      },
+      {
+        "name": "Junda Chen"
+      },
+      {
+        "name": "* Yi Gu"
+      },
+      {
+        "name": "Yibo Zhu"
+      },
+      {
+        "name": "Yimin Jiang"
+      },
+      {
+        "name": "Ion Stoica"
+      },
+      {
+        "name": "Hao Zhang"
+      },
+      {
+        "name": "Eric Xing"
+      },
+      {
+        "name": "Minchen Yu"
+      },
+      {
+        "name": "Rui Yang"
+      },
+      {
+        "name": "* Zhaoyuan Su"
+      },
+      {
+        "name": "Sheng Yao"
+      },
+      {
+        "name": "Tingfeng Lan"
+      },
+      {
+        "name": "* Zirui Wang"
+      },
+      {
+        "name": "Yue Cheng"
+      },
+      {
+        "name": "Wei Wang"
+      },
+      {
+        "name": "* Ruichuan Chen"
+      },
+      {
+        "name": "Nandor Licker"
+      },
+      {
+        "name": "Kevin Hu"
+      },
+      {
+        "name": "Vladimir Zaytsev"
+      },
+      {
+        "name": "Lequn Chen"
+      },
+      {
+        "name": "Yonatan Dukler"
+      },
+      {
+        "name": "Jiang Liu"
+      },
+      {
+        "name": "Vikram Appia"
+      },
+      {
+        "name": "Emad Barsoum"
+      },
+      {
+        "name": "Shanli Xing"
+      },
+      {
+        "name": "Vivian Zhai"
+      },
+      {
+        "name": "Alexander Jiang"
+      },
+      {
+        "name": "Yixin Dong"
+      },
+      {
+        "name": "Yong Wu"
+      },
+      {
+        "name": "Zihao Ye"
+      },
+      {
+        "name": "Charlie Ruan"
+      },
+      {
+        "name": "Yingyi Huang"
+      },
+      {
+        "name": "Yineng Zhang"
+      },
+      {
+        "name": "Luis Ceze"
+      },
+      {
+        "name": "Tianqi Chen"
+      },
+      {
+        "name": "Nazmul Takbir"
+      },
+      {
+        "name": "Hamidreza Koshkak"
+      },
+      {
+        "name": "Nikil Dutt"
+      },
+      {
+        "name": "Sangeetha Abdu Jyothi"
+      },
+      {
+        "name": "Weilin Cai"
+      },
+      {
+        "name": "Diandian Gu"
+      },
+      {
+        "name": "Baoquan Zhong"
+      },
+      {
+        "name": "Jun Wang"
+      },
+      {
+        "name": "Zhuolin Zheng"
+      },
+      {
+        "name": "Gaohong Liu"
+      },
+      {
+        "name": "Jiang Kaihua"
+      },
+      {
+        "name": "Shuguang Wang"
+      },
+      {
+        "name": "* Jiayi Huang"
+      },
+      {
+        "name": "Fengjuan Wang"
+      },
+      {
+        "name": "Zhiyi Su"
+      },
+      {
+        "name": "Sun Mou"
+      },
+      {
+        "name": "Shakya Jayakody"
+      },
+      {
+        "name": "Youpeng Zhao"
+      },
+      {
+        "name": "Chinmay Dhanraj Nehate"
+      },
+      {
+        "name": "Jaeyong Song"
+      },
+      {
+        "name": "Seongyeon Park"
+      },
+      {
+        "name": "Hongsun Jang"
+      },
+      {
+        "name": "Jaewon Jung"
+      },
+      {
+        "name": "Hunseong Lim"
+      },
+      {
+        "name": "Junguk Hong"
+      },
+      {
+        "name": "Jinho Lee"
+      },
+      {
+        "name": "Yongjun He"
+      },
+      {
+        "name": "Shuai Zhang"
+      },
+      {
+        "name": "* Xiyuan Zhang"
+      },
+      {
+        "name": "Boran Han"
+      },
+      {
+        "name": "Bernie Wang"
+      },
+      {
+        "name": "Huzefa Rangwala"
+      },
+      {
+        "name": "George Karypis"
+      },
+      {
+        "name": "Ran Yan"
+      },
+      {
+        "name": "Xiaonan Nie"
+      },
+      {
+        "name": "Bin CUI"
+      },
+      {
+        "name": "Binhang Yuan"
+      },
+      {
+        "name": "Haojun Xia"
+      },
+      {
+        "name": "Xiaoxia Wu"
+      },
+      {
+        "name": "Jisen Li"
+      },
+      {
+        "name": "Tsai-chuan Wu"
+      },
+      {
+        "name": "Chenxi Li"
+      },
+      {
+        "name": "Aman Singhal"
+      },
+      {
+        "name": "Alay Dilipbhai Shah"
+      },
+      {
+        "name": "Alpay Ariyak"
+      },
+      {
+        "name": "Donglin Zhuang"
+      },
+      {
+        "name": "Zhongzhu Zhou"
+      },
+      {
+        "name": "Zhen Zheng"
+      },
+      {
+        "name": "Shuaiwen Song"
+      },
+      {
+        "name": "Justin Bauer"
+      },
+      {
+        "name": "Thomas Walshe"
+      },
+      {
+        "name": "Derek Pham"
+      },
+      {
+        "name": "Harit Vishwakarma"
+      },
+      {
+        "name": "Armin Parchami"
+      },
+      {
+        "name": "Frederic Sala"
+      },
+      {
+        "name": "Paroma Varma"
+      },
+      {
+        "name": "Hsing-Ti Wang"
+      },
+      {
+        "name": "Hung-Tso Shiao"
+      },
+      {
+        "name": "Chia-Lin Yang"
+      },
+      {
+        "name": "Jinghan Yao"
+      },
+      {
+        "name": "Sam Jacobs"
+      },
+      {
+        "name": "Walid Krichene"
+      },
+      {
+        "name": "Masahiro Tanaka"
+      },
+      {
+        "name": "Dhabaleswar Panda"
+      },
+      {
+        "name": "Xiaonan Song"
+      },
+      {
+        "name": "Chuanjie Liu"
+      },
+      {
+        "name": "Zhaoyuan Su"
+      },
+      {
+        "name": "Zeyu Zhang"
+      },
+      {
+        "name": "Zirui Wang"
+      },
+      {
+        "name": "* Juncheng Yang"
+      },
+      {
+        "name": "Wenxuan Li"
+      },
+      {
+        "name": "Chengruidong Zhang"
+      },
+      {
+        "name": "Huiqiang Jiang"
+      },
+      {
+        "name": "Yucheng Li"
+      },
+      {
+        "name": "* Lili Qiu"
+      },
+      {
+        "name": "Irene Wang"
+      },
+      {
+        "name": "Divya Mahajan"
+      },
+      {
+        "name": "Yassien Shaalan"
+      },
+      {
+        "name": "Huazheng Lao"
+      },
+      {
+        "name": "Xiaofeng Li"
+      },
+      {
+        "name": "Rui Xu"
+      },
+      {
+        "name": "Long Chen"
+      },
+      {
+        "name": "Xia Zhu *"
+      },
+      {
+        "name": "Kasper Overgaard Mortensen"
+      },
+      {
+        "name": "Ama Bembua Bainson"
+      },
+      {
+        "name": "* Kristoffer Strube"
+      },
+      {
+        "name": "Renata Borovica-Gajic"
+      },
+      {
+        "name": "Andrea Paudice"
+      },
+      {
+        "name": "Davide Mottin"
+      },
+      {
+        "name": "Panagiotis Karras"
+      },
+      {
+        "name": "Hanmei Yang"
+      },
+      {
+        "name": "Jin Zhou"
+      },
+      {
+        "name": "Yao Fu"
+      },
+      {
+        "name": "Xiaoqun Wang"
+      },
+      {
+        "name": "Ramine Roane"
+      },
+      {
+        "name": "Hui Guan"
+      },
+      {
+        "name": "Tongping Liu"
+      },
+      {
+        "name": "Paul Janson"
+      },
+      {
+        "name": "Benjamin Thérien"
+      },
+      {
+        "name": "Quentin Anthony"
+      },
+      {
+        "name": "Xiaolong Huang"
+      },
+      {
+        "name": "Abhinav Moudgil"
+      },
+      {
+        "name": "Eugene Belilovsky"
+      },
+      {
+        "name": "Ziyi Xu"
+      },
+      {
+        "name": "Zhiqiang Xie"
+      },
+      {
+        "name": "Swapnil Gandhi"
+      },
+      {
+        "name": "Christos Kozyrakis"
+      },
+      {
+        "name": "qiaoling chen"
+      },
+      {
+        "name": "Zijun Liu"
+      },
+      {
+        "name": "Peng Sun"
+      },
+      {
+        "name": "Shenggui Li"
+      },
+      {
+        "name": "Guoteng Wang"
+      },
+      {
+        "name": "Ziming Liu"
+      },
+      {
+        "name": "Yonggang Wen"
+      },
+      {
+        "name": "Siyuan Feng"
+      },
+      {
+        "name": "Tianwei Zhang"
+      },
+      {
+        "name": "Tanmaey Gupta"
+      },
+      {
+        "name": "Hayden Prairie"
+      },
+      {
+        "name": "Reyna Abhyankar"
+      },
+      {
+        "name": "Qingyang Wu"
+      },
+      {
+        "name": "Austin Silveria"
+      },
+      {
+        "name": "Pragaash Ponnusamy"
+      },
+      {
+        "name": "Daniel Fu"
+      },
+      {
+        "name": "Christopher De Sa"
+      },
+      {
+        "name": "Kareem Ibrahim"
+      },
+      {
+        "name": "Mohammadjavad Maheronnaghsh"
+      },
+      {
+        "name": "Andreas Moshovos"
+      },
+      {
+        "name": "Jiayi Tian"
+      },
+      {
+        "name": "Seyedarmin Azizi"
+      },
+      {
+        "name": "Yequan Zhao"
+      },
+      {
+        "name": "Erfan Potraghloo"
+      },
+      {
+        "name": "Sean McPherson"
+      },
+      {
+        "name": "Sharath Nittur Sridhar"
+      },
+      {
+        "name": "zheng Zhang"
+      },
+      {
+        "name": "Massoud Pedram"
+      },
+      {
+        "name": "Souvik Kundu"
+      },
+      {
+        "name": "Armin Abdollahi"
+      },
+      {
+        "name": "Mehdi Kamal"
+      },
+      {
+        "name": "Yilong Zhao"
+      },
+      {
+        "name": "Kan Zhu"
+      },
+      {
+        "name": "Hongxiang Hao"
+      },
+      {
+        "name": "Yang Zhou"
+      },
+      {
+        "name": "Baris Kasikci"
+      },
+      {
+        "name": "Paul Castro"
+      },
+      {
+        "name": "Nick Mitchell"
+      },
+      {
+        "name": "Nathan Ordonez"
+      },
+      {
+        "name": "Thomas Parnell"
+      },
+      {
+        "name": "Mudhakar Srivatsa"
+      },
+      {
+        "name": "Antoni Viros i Martin"
+      },
+      {
+        "name": "Yibo Zhao"
+      },
+      {
+        "name": "Tianyuan Wu"
+      },
+      {
+        "name": "HUI XUE"
+      },
+      {
+        "name": "Qi Chen"
+      },
+      {
+        "name": "Zhenhua Han"
+      },
+      {
+        "name": "Jui-Hao Chiang"
+      },
+      {
+        "name": "Mingxia Li"
+      },
+      {
+        "name": "Yuqing Yang"
+      },
+      {
+        "name": "Cheng Tan"
+      },
+      {
+        "name": "Fan Yang"
+      },
+      {
+        "name": "Peng Cheng"
+      },
+      {
+        "name": "Yongqiang Xiong"
+      },
+      {
+        "name": "Lili Qiu"
+      },
+      {
+        "name": "Lidong Zhou"
+      },
+      {
+        "name": "Varun Gohil"
+      },
+      {
+        "name": "Nevena Stojkovic"
+      },
+      {
+        "name": "Noman Bashir"
+      },
+      {
+        "name": "Sundar Dev"
+      },
+      {
+        "name": "Gaurang Upasani"
+      },
+      {
+        "name": "David Lo"
+      },
+      {
+        "name": "Parthasarathy Ranganathan"
+      },
+      {
+        "name": "Christina Delimitrou"
+      },
+      {
+        "name": "Runsheng Guo"
+      },
+      {
+        "name": "Utkarsh Anand"
+      },
+      {
+        "name": "Khuzaima Daudjee"
+      },
+      {
+        "name": "Rathijit Sen"
+      }
+    ],
+    "room": "Evergreen Ballroom",
+    "key_themes": [
+      "Poster Session 2"
+    ]
+  },
+  {
+    "title": "Industry-Track Oral Presentation: I5: Agentic AI/MLSys",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "I5: Agentic AI/MLSys",
+    "url": "https://mlsys.org/virtual/2026/session/3700",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Chenning Li"
+      },
+      {
+        "name": "Pan Hu"
+      },
+      {
+        "name": "Justin Xu"
+      },
+      {
+        "name": "Baris Ozbas"
+      },
+      {
+        "name": "Olivia Liu"
+      },
+      {
+        "name": "Caroline Van"
+      },
+      {
+        "name": "* Wei Zhou"
+      },
+      {
+        "name": "Mohammad Alizadeh"
+      },
+      {
+        "name": "Pengyu Zhang"
+      },
+      {
+        "name": "Alec Hammond"
+      },
+      {
+        "name": "Aram Markosyan"
+      },
+      {
+        "name": "Aman Dontula"
+      },
+      {
+        "name": "* Zacharias Fisches"
+      },
+      {
+        "name": "Dmitrii Pedchenko"
+      },
+      {
+        "name": "Keyur Muzumdar"
+      },
+      {
+        "name": "* Mark Saroufim"
+      },
+      {
+        "name": "Joe Isaacson"
+      },
+      {
+        "name": "Laura Wang"
+      },
+      {
+        "name": "Warren Hunt"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Gabriel Synnaeve"
+      },
+      {
+        "name": "* Jacob Kahn *"
+      },
+      {
+        "name": "Yi Ding"
+      },
+      {
+        "name": "Henry (Hank) Hoffmann"
+      },
+      {
+        "name": "Yuran Ding"
+      },
+      {
+        "name": "Ruobing Han"
+      },
+      {
+        "name": "Xiaofan Zhang"
+      },
+      {
+        "name": "Xinwei Chen"
+      },
+      {
+        "name": "Xingyao Wang"
+      },
+      {
+        "name": "* Juan Michelini"
+      },
+      {
+        "name": "Calvin Smith"
+      },
+      {
+        "name": "* *"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "I5: Agentic AI/MLSys"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R13: LLM Serving",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R13: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/session/3701",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yilong Zhao"
+      },
+      {
+        "name": "Jiaming Tang"
+      },
+      {
+        "name": "Kan Zhu"
+      },
+      {
+        "name": "Zihao Ye"
+      },
+      {
+        "name": "Chi-Chih Chang"
+      },
+      {
+        "name": "Chaofan Lin"
+      },
+      {
+        "name": "Jongseok Park"
+      },
+      {
+        "name": "Guangxuan Xiao"
+      },
+      {
+        "name": "Mohamed Abdelfattah"
+      },
+      {
+        "name": "Mingyu Gao"
+      },
+      {
+        "name": "Baris Kasikci"
+      },
+      {
+        "name": "Song Han"
+      },
+      {
+        "name": "Ion Stoica"
+      },
+      {
+        "name": "Minseo Kim"
+      },
+      {
+        "name": "Chenfeng Xu"
+      },
+      {
+        "name": "Coleman Hooper"
+      },
+      {
+        "name": "Harman Singh"
+      },
+      {
+        "name": "Ben Athiwaratkun"
+      },
+      {
+        "name": "Ce Zhang"
+      },
+      {
+        "name": "Kurt Keutzer"
+      },
+      {
+        "name": "Amir Gholami"
+      },
+      {
+        "name": "Xuliang Wang"
+      },
+      {
+        "name": "Yuetao Chen"
+      },
+      {
+        "name": "Maochan Zhen"
+      },
+      {
+        "name": "Fang LIU"
+      },
+      {
+        "name": "Xinzhou Zheng"
+      },
+      {
+        "name": "Xingwu Liu"
+      },
+      {
+        "name": "Hong Xu"
+      },
+      {
+        "name": "Ming Li"
+      },
+      {
+        "name": "Jameson Sandler"
+      },
+      {
+        "name": "Jacob K Christopher"
+      },
+      {
+        "name": "* Ferdinando Fioretto"
+      },
+      {
+        "name": "Lily Liu"
+      },
+      {
+        "name": "Jiaxiang Yu"
+      },
+      {
+        "name": "Alvin Cheung"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R13: LLM Serving"
+    ]
+  },
+  {
+    "title": "Overflow / Viewing",
+    "date": "2026-05-21",
+    "start": "10:30",
+    "end": "11:30",
+    "session_type": "Session",
+    "topic": "Overflow / Viewing",
+    "url": "https://mlsys.org/virtual/2026/session/3705",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Overflow / Viewing"
+    ]
+  },
+  {
+    "title": "Rethinking Pretraining: Data and Architecture",
+    "date": "2026-05-21",
+    "start": "10:30",
+    "end": "11:30",
+    "session_type": "Keynote",
+    "topic": "Rethinking Pretraining: Data and Architecture",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/3706",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Luke Zettlemoyer"
+      }
+    ],
+    "room": "Grand Ballroom",
+    "key_themes": [
+      "Rethinking Pretraining: Data and Architecture"
+    ]
+  },
+  {
+    "title": "Industry-Track Oral Presentation: I1: LLM Serving",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "I1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/session/3709",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zhen Zheng"
+      },
+      {
+        "name": "Xin Ji"
+      },
+      {
+        "name": "Taosong Fang"
+      },
+      {
+        "name": "Fanghao Zhou"
+      },
+      {
+        "name": "Chuanjie Liu"
+      },
+      {
+        "name": "Gang Peng"
+      },
+      {
+        "name": "Tiyasa Mitra"
+      },
+      {
+        "name": "Ritika Borkar"
+      },
+      {
+        "name": "Nidhi Bhatia"
+      },
+      {
+        "name": "Shivam Raj"
+      },
+      {
+        "name": "hongkuan zhou"
+      },
+      {
+        "name": "Yan Ru Pei"
+      },
+      {
+        "name": "* Kyle Kranen"
+      },
+      {
+        "name": "Ramon Matas"
+      },
+      {
+        "name": "Dheevatsa Mudigere"
+      },
+      {
+        "name": "Ritchie Zhao"
+      },
+      {
+        "name": "Maximilian Golub"
+      },
+      {
+        "name": "Arpan Dutta"
+      },
+      {
+        "name": "* Sailaja Madduri"
+      },
+      {
+        "name": "Dharmesh Jani"
+      },
+      {
+        "name": "Brian Pharris"
+      },
+      {
+        "name": "Itay Neeman"
+      },
+      {
+        "name": "Bita Darvish Rouhani"
+      },
+      {
+        "name": "Nicholas Santavas"
+      },
+      {
+        "name": "Kareem Eissa"
+      },
+      {
+        "name": "* Piotr Florek"
+      },
+      {
+        "name": "Matteo Nulli"
+      },
+      {
+        "name": "Stefan Vasilev"
+      },
+      {
+        "name": "Seyyed Hashemi"
+      },
+      {
+        "name": "Antonios Gasteratos"
+      },
+      {
+        "name": "Shahram Khadivi"
+      },
+      {
+        "name": "Sungmin Cho"
+      },
+      {
+        "name": "Jaewon Lee"
+      },
+      {
+        "name": "Chunqiang Tang"
+      },
+      {
+        "name": "Yejin Lee"
+      },
+      {
+        "name": "Geonhwa Jeong"
+      },
+      {
+        "name": "* Scott Batura"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* Sijia Chen"
+      },
+      {
+        "name": "* Bradley Davis"
+      },
+      {
+        "name": "Summer Deng"
+      },
+      {
+        "name": "* Emad El-Haraty"
+      },
+      {
+        "name": "* Lu Fang"
+      },
+      {
+        "name": "Lu Fang"
+      },
+      {
+        "name": "Joshua Fromm"
+      },
+      {
+        "name": "Liangpeng Guo"
+      },
+      {
+        "name": "Jianyu Huang"
+      },
+      {
+        "name": "Aya Ibrahim"
+      },
+      {
+        "name": "* Hongyi Jia"
+      },
+      {
+        "name": "Changkyu Kim"
+      },
+      {
+        "name": "Xiaozhu Meng"
+      },
+      {
+        "name": "Vlad Tiberiu Mihailescu"
+      },
+      {
+        "name": "* Maxim Naumov"
+      },
+      {
+        "name": "Michal Ostrowski"
+      },
+      {
+        "name": "Sarunya Pumma"
+      },
+      {
+        "name": "Jeremy Francis Reizenstein"
+      },
+      {
+        "name": "Rajasi Saha"
+      },
+      {
+        "name": "* Zhan Shu"
+      },
+      {
+        "name": "Ruan Silva"
+      },
+      {
+        "name": "* Jon Swenson"
+      },
+      {
+        "name": "* Chris Thi"
+      },
+      {
+        "name": "* Yunfan Wang"
+      },
+      {
+        "name": "Pengchao Wang"
+      },
+      {
+        "name": "Wenchen Wang"
+      },
+      {
+        "name": "* Bram Wasti"
+      },
+      {
+        "name": "Jingyi Yang"
+      },
+      {
+        "name": "Jing Zhang"
+      },
+      {
+        "name": "Yi Zhen *"
+      },
+      {
+        "name": "Kayhan Behdin"
+      },
+      {
+        "name": "Qingquan Song"
+      },
+      {
+        "name": "Sriram Vasudevan"
+      },
+      {
+        "name": "Jian Sheng"
+      },
+      {
+        "name": "Xiaojing Ma"
+      },
+      {
+        "name": "Zhengze Zhou"
+      },
+      {
+        "name": "Chuanrui Zhu"
+      },
+      {
+        "name": "Guoyao Li"
+      },
+      {
+        "name": "Chanh Nguyen"
+      },
+      {
+        "name": "* Hejian Sang"
+      },
+      {
+        "name": "Ata Fatahi"
+      },
+      {
+        "name": "* Xiaoqing Wang"
+      },
+      {
+        "name": "Qing Lan"
+      },
+      {
+        "name": "* Qi Guo"
+      },
+      {
+        "name": "Caleb Johnson"
+      },
+      {
+        "name": "Zhipeng Wang *"
+      },
+      {
+        "name": "* Sahil Parmar"
+      },
+      {
+        "name": "* *"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "I1: LLM Serving"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R17: Edge and Mobile",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R17: Edge and Mobile",
+    "url": "https://mlsys.org/virtual/2026/session/3710",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ansel Erol"
+      },
+      {
+        "name": "Seungjun Lee"
+      },
+      {
+        "name": "Divya Mahajan"
+      },
+      {
+        "name": "Wanli Zhong"
+      },
+      {
+        "name": "Haibo Feng"
+      },
+      {
+        "name": "Zirui Zhou"
+      },
+      {
+        "name": "Hanyang Peng"
+      },
+      {
+        "name": "Shiqi Yu"
+      },
+      {
+        "name": "Yichuan Wang"
+      },
+      {
+        "name": "Zhifei Li"
+      },
+      {
+        "name": "Shu Liu"
+      },
+      {
+        "name": "Yongji Wu"
+      },
+      {
+        "name": "Ziming Mao"
+      },
+      {
+        "name": "Yilong Zhao"
+      },
+      {
+        "name": "Xiao Yan"
+      },
+      {
+        "name": "Zhiying Xu"
+      },
+      {
+        "name": "Yang Zhou"
+      },
+      {
+        "name": "Ion Stoica"
+      },
+      {
+        "name": "Sewon Min"
+      },
+      {
+        "name": "Matei Zaharia"
+      },
+      {
+        "name": "Joseph Gonzalez"
+      },
+      {
+        "name": "Tianhong Li"
+      },
+      {
+        "name": "Vibhaalakshmi Sivaraman"
+      },
+      {
+        "name": "Pantea Karimi"
+      },
+      {
+        "name": "Lijie Fan"
+      },
+      {
+        "name": "Mohammad Alizadeh"
+      },
+      {
+        "name": "Dina Katabi"
+      },
+      {
+        "name": "Zongpu Zhang"
+      },
+      {
+        "name": "* Y. Charlie Hu"
+      },
+      {
+        "name": "Qiang Xu"
+      },
+      {
+        "name": "Jian Li"
+      },
+      {
+        "name": "Haibing Guan"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R17: Edge and Mobile"
+    ]
+  },
+  {
+    "title": "Industry-Track Oral Presentation: I2: LLM Training",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "I2: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/session/3713",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Mark Lee"
+      },
+      {
+        "name": "Tom Gunter"
+      },
+      {
+        "name": "Chang Lan"
+      },
+      {
+        "name": "* Hanzhi Zhou"
+      },
+      {
+        "name": "* Sneha Bangalore"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Xianzhi Du"
+      },
+      {
+        "name": "Philipp Dufter"
+      },
+      {
+        "name": "* Ruixuan Hou"
+      },
+      {
+        "name": "Haoshuo Huang"
+      },
+      {
+        "name": "* Xiang Kong"
+      },
+      {
+        "name": "Jinhao Lei"
+      },
+      {
+        "name": "Tao Lei"
+      },
+      {
+        "name": "Meng Li"
+      },
+      {
+        "name": "Li Li"
+      },
+      {
+        "name": "Jiarui Lu"
+      },
+      {
+        "name": "Zhiyun Lu"
+      },
+      {
+        "name": "Zhucheng Tu"
+      },
+      {
+        "name": "Chong Wang"
+      },
+      {
+        "name": "Jianyu Wang"
+      },
+      {
+        "name": "* Zirui Wang"
+      },
+      {
+        "name": "* Sam Wiseman"
+      },
+      {
+        "name": "Guoli Yin"
+      },
+      {
+        "name": "* Xiyou Zhou"
+      },
+      {
+        "name": "Danyang Zhuo"
+      },
+      {
+        "name": "* Ruoming Pang"
+      },
+      {
+        "name": "Zezhou Wang"
+      },
+      {
+        "name": "Youjie Li"
+      },
+      {
+        "name": "Zhiqi Lin"
+      },
+      {
+        "name": "Jiacheng Yang"
+      },
+      {
+        "name": "Cong Xie"
+      },
+      {
+        "name": "* ZHENG ZHONG"
+      },
+      {
+        "name": "* Hongyu Zhu"
+      },
+      {
+        "name": "Zhi Zhang"
+      },
+      {
+        "name": "Xin Liu"
+      },
+      {
+        "name": "Yanghua Peng"
+      },
+      {
+        "name": "Chenhao Feng"
+      },
+      {
+        "name": "Haoli Zhang"
+      },
+      {
+        "name": "Shakhzod Ali-zade"
+      },
+      {
+        "name": "Yanli Zhao"
+      },
+      {
+        "name": "Liang Luo"
+      },
+      {
+        "name": "Jennifer Cao"
+      },
+      {
+        "name": "Lisen Deng"
+      },
+      {
+        "name": "* Chenyu Zhao"
+      },
+      {
+        "name": "* Tiantu Xu"
+      },
+      {
+        "name": "Yi Zhang"
+      },
+      {
+        "name": "Evgenii Kolpakov"
+      },
+      {
+        "name": "Siqi Yan"
+      },
+      {
+        "name": "Chuanhao Zhuge"
+      },
+      {
+        "name": "Min Ni"
+      },
+      {
+        "name": "Bi Xue"
+      },
+      {
+        "name": "Qunshu Zhang"
+      },
+      {
+        "name": "Shen Li"
+      },
+      {
+        "name": "Jiyuan Zhang"
+      },
+      {
+        "name": "Yining Liu"
+      },
+      {
+        "name": "Shuqi Yang"
+      },
+      {
+        "name": "Guanliang Liu"
+      },
+      {
+        "name": "Zoe Zeng"
+      },
+      {
+        "name": "* Cong Cheng"
+      },
+      {
+        "name": "Alexander Zhipa"
+      },
+      {
+        "name": "Ashvin Nihalani"
+      },
+      {
+        "name": "Binxuan Huang"
+      },
+      {
+        "name": "Ehsan K. Ardestani"
+      },
+      {
+        "name": "* Zhaodong Wang"
+      },
+      {
+        "name": "* Xu Zhang"
+      },
+      {
+        "name": "* Ying Zhang"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "I2: LLM Training"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R18: Benchmarks",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R18: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/session/3714",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Mengtian Yang"
+      },
+      {
+        "name": "Zhekun Zhang"
+      },
+      {
+        "name": "Mingheng Wu"
+      },
+      {
+        "name": "jianwen yan"
+      },
+      {
+        "name": "Hanshi Sun"
+      },
+      {
+        "name": "Li-Wen Chang"
+      },
+      {
+        "name": "Gianluigi Vitale"
+      },
+      {
+        "name": "* Dan Boneh"
+      },
+      {
+        "name": "Ilan Komargodski"
+      },
+      {
+        "name": "Megha Srivastava"
+      },
+      {
+        "name": "Jinsol Park"
+      },
+      {
+        "name": "Corey Nolet"
+      },
+      {
+        "name": "Edward Raff"
+      },
+      {
+        "name": "Tim Oates"
+      },
+      {
+        "name": "Akira Naruse"
+      },
+      {
+        "name": "Yusuf Çelebi"
+      },
+      {
+        "name": "Mahmoud ElHussieni"
+      },
+      {
+        "name": "Özay Ezerceli"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R18: Benchmarks"
+    ]
+  },
+  {
+    "title": "Industry-Track Oral Presentation: I3: Benchmarks",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "I3: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/session/3717",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Nilesh Jagnik"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* Harshvardhan GM"
+      },
+      {
+        "name": "Srinivas"
+      },
+      {
+        "name": "* Hanjiang Wu"
+      },
+      {
+        "name": "Changhai Man"
+      },
+      {
+        "name": "Jinsun Yoo"
+      },
+      {
+        "name": "Huan Xu"
+      },
+      {
+        "name": "William Won"
+      },
+      {
+        "name": "* Winston Liu"
+      },
+      {
+        "name": "Andrey Balogh"
+      },
+      {
+        "name": "Dan Mihailescu"
+      },
+      {
+        "name": "Brad B"
+      },
+      {
+        "name": "Vinay Ramakrishnaiah"
+      },
+      {
+        "name": "Spandan More"
+      },
+      {
+        "name": "Saeed Rashidi"
+      },
+      {
+        "name": "Louis Feng"
+      },
+      {
+        "name": "Ashwin Ramachandran"
+      },
+      {
+        "name": "Puneet Sharma"
+      },
+      {
+        "name": "* Vijay Janapa Reddi"
+      },
+      {
+        "name": "David Kanter"
+      },
+      {
+        "name": "Tushar Krishna"
+      },
+      {
+        "name": "Arissa Wongpanich"
+      },
+      {
+        "name": "Tayo Oguntebi"
+      },
+      {
+        "name": "* Yu Wang"
+      },
+      {
+        "name": "Phitchaya Phothilimthana"
+      },
+      {
+        "name": "Ritwika Mitra"
+      },
+      {
+        "name": "Zongwei Zhou"
+      },
+      {
+        "name": "Naveen Kumar"
+      },
+      {
+        "name": "Vijay Janapa Reddi"
+      },
+      {
+        "name": "Bohua Zou"
+      },
+      {
+        "name": "Weihao Xu"
+      },
+      {
+        "name": "Binqi Sun"
+      },
+      {
+        "name": "Fumikazu KONISHI"
+      },
+      {
+        "name": "Yuuki Tsubouchi"
+      },
+      {
+        "name": "Hirofumi Tsuruta"
+      },
+      {
+        "name": "Clive Verghese"
+      },
+      {
+        "name": "Prasanna Rengasamy"
+      },
+      {
+        "name": "* Yin Zhang"
+      },
+      {
+        "name": "Jiya Zhang"
+      },
+      {
+        "name": "* Charles Alaras"
+      },
+      {
+        "name": "Aditya Sharma"
+      },
+      {
+        "name": "Rushabh Lalwani"
+      },
+      {
+        "name": "Sannidhya Chauhan"
+      },
+      {
+        "name": "Sai Ganesh Bandiatmakuri"
+      },
+      {
+        "name": "* Ani Udipi"
+      },
+      {
+        "name": "* Naveen Kumar"
+      },
+      {
+        "name": "* Sayce Falk"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "I3: Benchmarks"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R4: Compilers and Kernels",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R4: Compilers and Kernels",
+    "url": "https://mlsys.org/virtual/2026/session/3718",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Genghan Zhang"
+      },
+      {
+        "name": "Shaowei Zhu"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Allen Nie"
+      },
+      {
+        "name": "Zhen Jia"
+      },
+      {
+        "name": "Nandita Vijaykumar"
+      },
+      {
+        "name": "Yida Wang"
+      },
+      {
+        "name": "Kunle Olukotun"
+      },
+      {
+        "name": "Hao Ren"
+      },
+      {
+        "name": "Yi Mu"
+      },
+      {
+        "name": "Sasa Misailovic"
+      },
+      {
+        "name": "Hongyi Jin"
+      },
+      {
+        "name": "Bohan Hou"
+      },
+      {
+        "name": "Guanjie Wang"
+      },
+      {
+        "name": "Ruihang Lai"
+      },
+      {
+        "name": "Jinqi Chen"
+      },
+      {
+        "name": "Zihao Ye"
+      },
+      {
+        "name": "Yaxing Cai"
+      },
+      {
+        "name": "Yixin Dong"
+      },
+      {
+        "name": "Xinhao Cheng"
+      },
+      {
+        "name": "Zhihao Zhang"
+      },
+      {
+        "name": "Yilong Zhao"
+      },
+      {
+        "name": "Yingyi Huang"
+      },
+      {
+        "name": "Lijie Yang"
+      },
+      {
+        "name": "Jinchen Jiang"
+      },
+      {
+        "name": "Gabriele Oliaro"
+      },
+      {
+        "name": "* Xupeng Miao"
+      },
+      {
+        "name": "Vinod Grover"
+      },
+      {
+        "name": "Todd Mowry"
+      },
+      {
+        "name": "Zhihao Jia"
+      },
+      {
+        "name": "Tianqi Chen"
+      },
+      {
+        "name": "William Hu"
+      },
+      {
+        "name": "Drew Wadsworth"
+      },
+      {
+        "name": "Sean Siddens"
+      },
+      {
+        "name": "* Daniel Fu"
+      },
+      {
+        "name": "* Muhammad Osama"
+      },
+      {
+        "name": "Christopher Ré"
+      },
+      {
+        "name": "Simran Arora"
+      },
+      {
+        "name": "Stuart H. Sul"
+      },
+      {
+        "name": "Benjamin Spector"
+      },
+      {
+        "name": "Yi Pan"
+      },
+      {
+        "name": "Yile Gu"
+      },
+      {
+        "name": "Luo Jinbin"
+      },
+      {
+        "name": "Yibo Wu"
+      },
+      {
+        "name": "Ziren Wang"
+      },
+      {
+        "name": "* Ziyi Xu"
+      },
+      {
+        "name": "Shengkai Lin"
+      },
+      {
+        "name": "Stephanie Wang"
+      },
+      {
+        "name": "Baris Kasikci"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R4: Compilers and Kernels"
+    ]
+  },
+  {
+    "title": "Poster Session 3",
+    "date": "2026-05-21",
+    "start": "18:00",
+    "end": "20:00",
+    "session_type": "Session",
+    "topic": "Poster Session 3",
+    "url": "https://mlsys.org/virtual/2026/session/3719",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yilong Zhao"
+      },
+      {
+        "name": "Jiaming Tang"
+      },
+      {
+        "name": "Kan Zhu"
+      },
+      {
+        "name": "Zihao Ye"
+      },
+      {
+        "name": "Chi-Chih Chang"
+      },
+      {
+        "name": "Chaofan Lin"
+      },
+      {
+        "name": "Jongseok Park"
+      },
+      {
+        "name": "Guangxuan Xiao"
+      },
+      {
+        "name": "Mohamed Abdelfattah"
+      },
+      {
+        "name": "Mingyu Gao"
+      },
+      {
+        "name": "Baris Kasikci"
+      },
+      {
+        "name": "Song Han"
+      },
+      {
+        "name": "Ion Stoica"
+      },
+      {
+        "name": "Genghan Zhang"
+      },
+      {
+        "name": "Shaowei Zhu"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Allen Nie"
+      },
+      {
+        "name": "Zhen Jia"
+      },
+      {
+        "name": "Nandita Vijaykumar"
+      },
+      {
+        "name": "Yida Wang"
+      },
+      {
+        "name": "Kunle Olukotun"
+      },
+      {
+        "name": "Chenning Li"
+      },
+      {
+        "name": "Pan Hu"
+      },
+      {
+        "name": "Justin Xu"
+      },
+      {
+        "name": "Baris Ozbas"
+      },
+      {
+        "name": "Olivia Liu"
+      },
+      {
+        "name": "Caroline Van"
+      },
+      {
+        "name": "* Wei Zhou"
+      },
+      {
+        "name": "Mohammad Alizadeh"
+      },
+      {
+        "name": "Pengyu Zhang"
+      },
+      {
+        "name": "Alec Hammond"
+      },
+      {
+        "name": "Aram Markosyan"
+      },
+      {
+        "name": "Aman Dontula"
+      },
+      {
+        "name": "* Zacharias Fisches"
+      },
+      {
+        "name": "Dmitrii Pedchenko"
+      },
+      {
+        "name": "Keyur Muzumdar"
+      },
+      {
+        "name": "* Site Cao"
+      },
+      {
+        "name": "* Mark Saroufim"
+      },
+      {
+        "name": "Joe Isaacson"
+      },
+      {
+        "name": "Laura Wang"
+      },
+      {
+        "name": "Warren Hunt"
+      },
+      {
+        "name": "Gabriel Synnaeve"
+      },
+      {
+        "name": "* Jacob Kahn *"
+      },
+      {
+        "name": "Nilesh Jagnik"
+      },
+      {
+        "name": "* Harshvardhan GM"
+      },
+      {
+        "name": "Hao Ren"
+      },
+      {
+        "name": "Yi Mu"
+      },
+      {
+        "name": "Sasa Misailovic"
+      },
+      {
+        "name": "Jifeng Song"
+      },
+      {
+        "name": "Xiangyu Yin"
+      },
+      {
+        "name": "Boyuan Yang"
+      },
+      {
+        "name": "Kai Huang"
+      },
+      {
+        "name": "Weichen Liu"
+      },
+      {
+        "name": "Wei Gao"
+      },
+      {
+        "name": "Mark Lee"
+      },
+      {
+        "name": "Chang Lan"
+      },
+      {
+        "name": "Tom Gunter"
+      },
+      {
+        "name": "John Peebles"
+      },
+      {
+        "name": "Hanzhi Zhou"
+      },
+      {
+        "name": "* Sneha Bangalore"
+      },
+      {
+        "name": "Xianzhi Du"
+      },
+      {
+        "name": "Philipp Dufter"
+      },
+      {
+        "name": "* Ruixuan Hou"
+      },
+      {
+        "name": "Haoshuo Huang"
+      },
+      {
+        "name": "* Xiang Kong"
+      },
+      {
+        "name": "Jinhao Lei"
+      },
+      {
+        "name": "Tao Lei"
+      },
+      {
+        "name": "Meng Li"
+      },
+      {
+        "name": "Li Li"
+      },
+      {
+        "name": "Jiarui Lu"
+      },
+      {
+        "name": "Zhiyun Lu"
+      },
+      {
+        "name": "Zhucheng Tu"
+      },
+      {
+        "name": "Chong Wang"
+      },
+      {
+        "name": "Jianyu Wang"
+      },
+      {
+        "name": "* Zirui Wang"
+      },
+      {
+        "name": "* Sam Wiseman"
+      },
+      {
+        "name": "Guoli Yin"
+      },
+      {
+        "name": "* Xiyou Zhou"
+      },
+      {
+        "name": "Danyang Zhuo"
+      },
+      {
+        "name": "* Ruoming Pang"
+      },
+      {
+        "name": "Zhen Zheng"
+      },
+      {
+        "name": "Xin Ji"
+      },
+      {
+        "name": "Taosong Fang"
+      },
+      {
+        "name": "Fanghao Zhou"
+      },
+      {
+        "name": "Chuanjie Liu"
+      },
+      {
+        "name": "Gang Peng"
+      },
+      {
+        "name": "Tiyasa Mitra"
+      },
+      {
+        "name": "Ritika Borkar"
+      },
+      {
+        "name": "Nidhi Bhatia"
+      },
+      {
+        "name": "Shivam Raj"
+      },
+      {
+        "name": "hongkuan zhou"
+      },
+      {
+        "name": "Yan Ru Pei"
+      },
+      {
+        "name": "* Kyle Kranen"
+      },
+      {
+        "name": "Ramon Matas"
+      },
+      {
+        "name": "Dheevatsa Mudigere"
+      },
+      {
+        "name": "Ritchie Zhao"
+      },
+      {
+        "name": "Maximilian Golub"
+      },
+      {
+        "name": "Arpan Dutta"
+      },
+      {
+        "name": "* Sailaja Madduri"
+      },
+      {
+        "name": "Dharmesh Jani"
+      },
+      {
+        "name": "Brian Pharris"
+      },
+      {
+        "name": "Itay Neeman"
+      },
+      {
+        "name": "Bita Darvish Rouhani"
+      },
+      {
+        "name": "Jiayi Yuan"
+      },
+      {
+        "name": "Cameron Shinn"
+      },
+      {
+        "name": "* Jingze Cui"
+      },
+      {
+        "name": "George Klimiashvili"
+      },
+      {
+        "name": "* Perkz Zheng"
+      },
+      {
+        "name": "Bo Li"
+      },
+      {
+        "name": "Zhou Yuxin"
+      },
+      {
+        "name": "Zhouhai Ye"
+      },
+      {
+        "name": "Weijie You"
+      },
+      {
+        "name": "Tian Zheng"
+      },
+      {
+        "name": "Dominic Brown"
+      },
+      {
+        "name": "Pengbo Wang"
+      },
+      {
+        "name": "Markus Hoehnerbach"
+      },
+      {
+        "name": "Richard Cai"
+      },
+      {
+        "name": "Julien Demouth"
+      },
+      {
+        "name": "John D. Owens"
+      },
+      {
+        "name": "Xia Hu"
+      },
+      {
+        "name": "* Timmy Liu"
+      },
+      {
+        "name": "Huizi Mao"
+      },
+      {
+        "name": "Ignacio Cano"
+      },
+      {
+        "name": "Yu Wang"
+      },
+      {
+        "name": "Mike Burrows"
+      },
+      {
+        "name": "* Matheus Camargo"
+      },
+      {
+        "name": "Chao Wang"
+      },
+      {
+        "name": "David Liu"
+      },
+      {
+        "name": "Tengyu Sun"
+      },
+      {
+        "name": "Alexander Wertheim"
+      },
+      {
+        "name": "Arissa Wongpanich"
+      },
+      {
+        "name": "Christof Angermueller"
+      },
+      {
+        "name": "* Amit Sabne"
+      },
+      {
+        "name": "* Mehrdad Khani"
+      },
+      {
+        "name": "* Berkin Ilbeyi"
+      },
+      {
+        "name": "Subhankar Shah"
+      },
+      {
+        "name": "Ryan Lefever"
+      },
+      {
+        "name": "Arjun Khare"
+      },
+      {
+        "name": "Ankit Sinha"
+      },
+      {
+        "name": "* Emily Donahue"
+      },
+      {
+        "name": "Sami Abu-El-Haija"
+      },
+      {
+        "name": "Nikhil Sarda"
+      },
+      {
+        "name": "Vineetha Govindaraj"
+      },
+      {
+        "name": "Naveen Kumar"
+      },
+      {
+        "name": "Phitchaya Phothilimthana"
+      },
+      {
+        "name": "Minseo Kim"
+      },
+      {
+        "name": "Chenfeng Xu"
+      },
+      {
+        "name": "Coleman Hooper"
+      },
+      {
+        "name": "Harman Singh"
+      },
+      {
+        "name": "Ben Athiwaratkun"
+      },
+      {
+        "name": "Ce Zhang"
+      },
+      {
+        "name": "Kurt Keutzer"
+      },
+      {
+        "name": "Amir Gholami"
+      },
+      {
+        "name": "Mengtian Yang"
+      },
+      {
+        "name": "Zhekun Zhang"
+      },
+      {
+        "name": "Mingheng Wu"
+      },
+      {
+        "name": "jianwen yan"
+      },
+      {
+        "name": "Hanshi Sun"
+      },
+      {
+        "name": "Li-Wen Chang"
+      },
+      {
+        "name": "Yi Ding"
+      },
+      {
+        "name": "Aijia Gao"
+      },
+      {
+        "name": "* Michal Sedlak"
+      },
+      {
+        "name": "* Igor Marnat"
+      },
+      {
+        "name": "Henry (Hank) Hoffmann"
+      },
+      {
+        "name": "Darshan Gandhi"
+      },
+      {
+        "name": "Pushkar Nandkar"
+      },
+      {
+        "name": "David Koeplinger"
+      },
+      {
+        "name": "* Romy Tsoupidi"
+      },
+      {
+        "name": "Tuowen Zhao"
+      },
+      {
+        "name": "Reid Goodbar"
+      },
+      {
+        "name": "* Leon Zhang"
+      },
+      {
+        "name": "* John Long"
+      },
+      {
+        "name": "Han Wang"
+      },
+      {
+        "name": "* Yun Du"
+      },
+      {
+        "name": "Håkan Zeffer"
+      },
+      {
+        "name": "* Raghu Prabhakar"
+      },
+      {
+        "name": "Gianluigi Vitale"
+      },
+      {
+        "name": "Yi Pan"
+      },
+      {
+        "name": "Yile Gu"
+      },
+      {
+        "name": "Luo Jinbin"
+      },
+      {
+        "name": "Yibo Wu"
+      },
+      {
+        "name": "Ziren Wang"
+      },
+      {
+        "name": "* Ziyi Xu"
+      },
+      {
+        "name": "Shengkai Lin"
+      },
+      {
+        "name": "Stephanie Wang"
+      },
+      {
+        "name": "Ansel Erol"
+      },
+      {
+        "name": "Seungjun Lee"
+      },
+      {
+        "name": "Divya Mahajan"
+      },
+      {
+        "name": "Aditya Ukarande"
+      },
+      {
+        "name": "Deep Shekhar"
+      },
+      {
+        "name": "* Ram Rangan"
+      },
+      {
+        "name": "Hongyi Jin"
+      },
+      {
+        "name": "Bohan Hou"
+      },
+      {
+        "name": "Guanjie Wang"
+      },
+      {
+        "name": "Ruihang Lai"
+      },
+      {
+        "name": "Jinqi Chen"
+      },
+      {
+        "name": "Yaxing Cai"
+      },
+      {
+        "name": "Yixin Dong"
+      },
+      {
+        "name": "Xinhao Cheng"
+      },
+      {
+        "name": "Zhihao Zhang"
+      },
+      {
+        "name": "Yingyi Huang"
+      },
+      {
+        "name": "Lijie Yang"
+      },
+      {
+        "name": "Jinchen Jiang"
+      },
+      {
+        "name": "Gabriele Oliaro"
+      },
+      {
+        "name": "* Xupeng Miao"
+      },
+      {
+        "name": "Vinod Grover"
+      },
+      {
+        "name": "Todd Mowry"
+      },
+      {
+        "name": "Zhihao Jia"
+      },
+      {
+        "name": "Tianqi Chen"
+      },
+      {
+        "name": "Mergen Nachin"
+      },
+      {
+        "name": "Digant Desai"
+      },
+      {
+        "name": "Sicheng Jia"
+      },
+      {
+        "name": "Chen Lai"
+      },
+      {
+        "name": "Mengwei Liu"
+      },
+      {
+        "name": "Robert Ascani"
+      },
+      {
+        "name": "* Manuel Candales"
+      },
+      {
+        "name": "* Yanan Cao"
+      },
+      {
+        "name": "Zhengxu Chen"
+      },
+      {
+        "name": "Soumith Chintala"
+      },
+      {
+        "name": "Gregory Comer"
+      },
+      {
+        "name": "* Songhao Jia"
+      },
+      {
+        "name": "* Abhinay Kukkadapu"
+      },
+      {
+        "name": "* Andrew Or"
+      },
+      {
+        "name": "Lucy Qiu"
+      },
+      {
+        "name": "Supriya Rao"
+      },
+      {
+        "name": "Scott Roy"
+      },
+      {
+        "name": "* Angela Yi"
+      },
+      {
+        "name": "* Hansong Zhang"
+      },
+      {
+        "name": "* Zhenrui Zhang"
+      },
+      {
+        "name": "Shunting Zhang"
+      },
+      {
+        "name": "Cemal Bilgin"
+      },
+      {
+        "name": "Ted Zadouri"
+      },
+      {
+        "name": "Jay Shah"
+      },
+      {
+        "name": "Bozhi You"
+      },
+      {
+        "name": "Irene Wang"
+      },
+      {
+        "name": "* Abhinav Jangda"
+      },
+      {
+        "name": "Angélica Moreira"
+      },
+      {
+        "name": "Roshan Dathathri"
+      },
+      {
+        "name": "Keshav Pingali"
+      },
+      {
+        "name": "Chenhao Feng"
+      },
+      {
+        "name": "Haoli Zhang"
+      },
+      {
+        "name": "Shakhzod Ali-zade"
+      },
+      {
+        "name": "Yanli Zhao"
+      },
+      {
+        "name": "Liang Luo"
+      },
+      {
+        "name": "Jennifer Cao"
+      },
+      {
+        "name": "Lisen Deng"
+      },
+      {
+        "name": "* Chenyu Zhao"
+      },
+      {
+        "name": "* Tiantu Xu"
+      },
+      {
+        "name": "Yi Zhang"
+      },
+      {
+        "name": "Evgenii Kolpakov"
+      },
+      {
+        "name": "Siqi Yan"
+      },
+      {
+        "name": "Chuanhao Zhuge"
+      },
+      {
+        "name": "Min Ni"
+      },
+      {
+        "name": "Bi Xue"
+      },
+      {
+        "name": "Qunshu Zhang"
+      },
+      {
+        "name": "Shen Li"
+      },
+      {
+        "name": "Guanliang Liu"
+      },
+      {
+        "name": "Zoe Zeng"
+      },
+      {
+        "name": "Alexander Zhipa"
+      },
+      {
+        "name": "Ashvin Nihalani"
+      },
+      {
+        "name": "Binxuan Huang"
+      },
+      {
+        "name": "Cong Cheng"
+      },
+      {
+        "name": "Rejith Joseph *"
+      },
+      {
+        "name": "* Dan Boneh"
+      },
+      {
+        "name": "Ilan Komargodski"
+      },
+      {
+        "name": "Megha Srivastava"
+      },
+      {
+        "name": "William Hu"
+      },
+      {
+        "name": "Drew Wadsworth"
+      },
+      {
+        "name": "Sean Siddens"
+      },
+      {
+        "name": "* Daniel Fu"
+      },
+      {
+        "name": "* Muhammad Osama"
+      },
+      {
+        "name": "Christopher Ré"
+      },
+      {
+        "name": "Simran Arora"
+      },
+      {
+        "name": "Wanli Zhong"
+      },
+      {
+        "name": "Haibo Feng"
+      },
+      {
+        "name": "Zirui Zhou"
+      },
+      {
+        "name": "Hanyang Peng"
+      },
+      {
+        "name": "Shiqi Yu"
+      },
+      {
+        "name": "Yichuan Wang"
+      },
+      {
+        "name": "Zhifei Li"
+      },
+      {
+        "name": "Shu Liu"
+      },
+      {
+        "name": "Yongji Wu"
+      },
+      {
+        "name": "Ziming Mao"
+      },
+      {
+        "name": "Xiao Yan"
+      },
+      {
+        "name": "Zhiying Xu"
+      },
+      {
+        "name": "Yang Zhou"
+      },
+      {
+        "name": "Sewon Min"
+      },
+      {
+        "name": "Matei Zaharia"
+      },
+      {
+        "name": "Joseph Gonzalez"
+      },
+      {
+        "name": "Jinsol Park"
+      },
+      {
+        "name": "Corey Nolet"
+      },
+      {
+        "name": "Edward Raff"
+      },
+      {
+        "name": "Tim Oates"
+      },
+      {
+        "name": "Akira Naruse"
+      },
+      {
+        "name": "Nicholas Santavas"
+      },
+      {
+        "name": "Kareem Eissa"
+      },
+      {
+        "name": "* Piotr Florek"
+      },
+      {
+        "name": "Matteo Nulli"
+      },
+      {
+        "name": "Stefan Vasilev"
+      },
+      {
+        "name": "Seyyed Hashemi"
+      },
+      {
+        "name": "Antonios Gasteratos"
+      },
+      {
+        "name": "Shahram Khadivi"
+      },
+      {
+        "name": "Srinivas"
+      },
+      {
+        "name": "* Hanjiang Wu"
+      },
+      {
+        "name": "Changhai Man"
+      },
+      {
+        "name": "Jinsun Yoo"
+      },
+      {
+        "name": "Huan Xu"
+      },
+      {
+        "name": "William Won"
+      },
+      {
+        "name": "* Winston Liu"
+      },
+      {
+        "name": "Andrey Balogh"
+      },
+      {
+        "name": "Dan Mihailescu"
+      },
+      {
+        "name": "Brad B"
+      },
+      {
+        "name": "Vinay Ramakrishnaiah"
+      },
+      {
+        "name": "Spandan More"
+      },
+      {
+        "name": "Saeed Rashidi"
+      },
+      {
+        "name": "Louis Feng"
+      },
+      {
+        "name": "Ashwin Ramachandran"
+      },
+      {
+        "name": "Puneet Sharma"
+      },
+      {
+        "name": "* Vijay Janapa Reddi"
+      },
+      {
+        "name": "David Kanter"
+      },
+      {
+        "name": "Tushar Krishna"
+      },
+      {
+        "name": "Tayo Oguntebi"
+      },
+      {
+        "name": "* Yu Wang"
+      },
+      {
+        "name": "Ritwika Mitra"
+      },
+      {
+        "name": "Zongwei Zhou"
+      },
+      {
+        "name": "Vijay Janapa Reddi"
+      },
+      {
+        "name": "Jiyuan Zhang"
+      },
+      {
+        "name": "Yining Liu"
+      },
+      {
+        "name": "Shuqi Yang"
+      },
+      {
+        "name": "Sungmin Cho"
+      },
+      {
+        "name": "Jaewon Lee"
+      },
+      {
+        "name": "Chunqiang Tang"
+      },
+      {
+        "name": "Yejin Lee"
+      },
+      {
+        "name": "Geonhwa Jeong"
+      },
+      {
+        "name": "* Scott Batura"
+      },
+      {
+        "name": "* Sijia Chen"
+      },
+      {
+        "name": "* Bradley Davis"
+      },
+      {
+        "name": "Summer Deng"
+      },
+      {
+        "name": "* Emad El-Haraty"
+      },
+      {
+        "name": "* Lu Fang"
+      },
+      {
+        "name": "Lu Fang"
+      },
+      {
+        "name": "Joshua Fromm"
+      },
+      {
+        "name": "Liangpeng Guo"
+      },
+      {
+        "name": "Jianyu Huang"
+      },
+      {
+        "name": "Aya Ibrahim"
+      },
+      {
+        "name": "* Hongyi Jia"
+      },
+      {
+        "name": "Changkyu Kim"
+      },
+      {
+        "name": "Xiaozhu Meng"
+      },
+      {
+        "name": "Vlad Tiberiu Mihailescu"
+      },
+      {
+        "name": "* Maxim Naumov"
+      },
+      {
+        "name": "Michal Ostrowski"
+      },
+      {
+        "name": "Sarunya Pumma"
+      },
+      {
+        "name": "Jeremy Francis Reizenstein"
+      },
+      {
+        "name": "Rajasi Saha"
+      },
+      {
+        "name": "* Zhan Shu"
+      },
+      {
+        "name": "Ruan Silva"
+      },
+      {
+        "name": "* Jon Swenson"
+      },
+      {
+        "name": "* Chris Thi"
+      },
+      {
+        "name": "* Yunfan Wang"
+      },
+      {
+        "name": "Pengchao Wang"
+      },
+      {
+        "name": "Wenchen Wang"
+      },
+      {
+        "name": "* Bram Wasti"
+      },
+      {
+        "name": "Jingyi Yang"
+      },
+      {
+        "name": "Jing Zhang"
+      },
+      {
+        "name": "Yi Zhen *"
+      },
+      {
+        "name": "Stuart H. Sul"
+      },
+      {
+        "name": "Benjamin Spector"
+      },
+      {
+        "name": "Yusuf Çelebi"
+      },
+      {
+        "name": "Özay Ezerceli"
+      },
+      {
+        "name": "Mahmoud ElHussieni"
+      },
+      {
+        "name": "Xuliang Wang"
+      },
+      {
+        "name": "Yuetao Chen"
+      },
+      {
+        "name": "Maochan Zhen"
+      },
+      {
+        "name": "Fang LIU"
+      },
+      {
+        "name": "Xinzhou Zheng"
+      },
+      {
+        "name": "Xingwu Liu"
+      },
+      {
+        "name": "Hong Xu"
+      },
+      {
+        "name": "Ming Li"
+      },
+      {
+        "name": "Bohua Zou"
+      },
+      {
+        "name": "Weihao Xu"
+      },
+      {
+        "name": "Binqi Sun"
+      },
+      {
+        "name": "Yuran Ding"
+      },
+      {
+        "name": "Ruobing Han"
+      },
+      {
+        "name": "Xiaofan Zhang"
+      },
+      {
+        "name": "Xinwei Chen"
+      },
+      {
+        "name": "Tianhong Li"
+      },
+      {
+        "name": "Vibhaalakshmi Sivaraman"
+      },
+      {
+        "name": "Pantea Karimi"
+      },
+      {
+        "name": "Lijie Fan"
+      },
+      {
+        "name": "Dina Katabi"
+      },
+      {
+        "name": "Zongpu Zhang"
+      },
+      {
+        "name": "* Qiang Xu"
+      },
+      {
+        "name": "Y. Charlie Hu"
+      },
+      {
+        "name": "Jian Li"
+      },
+      {
+        "name": "Haibing Guan"
+      },
+      {
+        "name": "Fumikazu KONISHI"
+      },
+      {
+        "name": "Yuuki Tsubouchi"
+      },
+      {
+        "name": "Hirofumi Tsuruta"
+      },
+      {
+        "name": "Kayhan Behdin"
+      },
+      {
+        "name": "Qingquan Song"
+      },
+      {
+        "name": "Sriram Vasudevan"
+      },
+      {
+        "name": "Jian Sheng"
+      },
+      {
+        "name": "Xiaojing Ma"
+      },
+      {
+        "name": "Zhengze Zhou"
+      },
+      {
+        "name": "Chuanrui Zhu"
+      },
+      {
+        "name": "Guoyao Li"
+      },
+      {
+        "name": "Chanh Nguyen"
+      },
+      {
+        "name": "* Hejian Sang"
+      },
+      {
+        "name": "Ata Fatahi"
+      },
+      {
+        "name": "* Xiaoqing Wang"
+      },
+      {
+        "name": "Qing Lan"
+      },
+      {
+        "name": "* Qi Guo"
+      },
+      {
+        "name": "Caleb Johnson"
+      },
+      {
+        "name": "Zhipeng Wang *"
+      },
+      {
+        "name": "Andrew Bitar"
+      },
+      {
+        "name": "Matthew Boyd"
+      },
+      {
+        "name": "Charlie Wang"
+      },
+      {
+        "name": "* Eugene Sha"
+      },
+      {
+        "name": "Alex Bowe"
+      },
+      {
+        "name": "* Santosh Raghavan"
+      },
+      {
+        "name": "* Kris Kang"
+      },
+      {
+        "name": "Mohamed Eldafrawy"
+      },
+      {
+        "name": "Andrew Paprotskyi"
+      },
+      {
+        "name": "Arash Taheri-Dezfouli"
+      },
+      {
+        "name": "* Andrew Ling"
+      },
+      {
+        "name": "Ehsan K. Ardestani"
+      },
+      {
+        "name": "* Zhaodong Wang"
+      },
+      {
+        "name": "* Xu Zhang"
+      },
+      {
+        "name": "* Ying Zhang"
+      },
+      {
+        "name": "* Chunqiang Tang"
+      },
+      {
+        "name": "Jameson Sandler"
+      },
+      {
+        "name": "Jacob K Christopher"
+      },
+      {
+        "name": "* Ferdinando Fioretto"
+      },
+      {
+        "name": "Xiaoxuan Liu"
+      },
+      {
+        "name": "Jiaxiang Yu"
+      },
+      {
+        "name": "Alvin Cheung"
+      },
+      {
+        "name": "Dionysios Adamopoulos"
+      },
+      {
+        "name": "Anastasia Poulopoulou"
+      },
+      {
+        "name": "Georgios Goumas"
+      },
+      {
+        "name": "Christina Giannoula"
+      },
+      {
+        "name": "Xingyao Wang"
+      },
+      {
+        "name": "Simon Rosenberg"
+      },
+      {
+        "name": "Juan Michelini"
+      },
+      {
+        "name": "Calvin Smith"
+      },
+      {
+        "name": "Hoang Tran"
+      },
+      {
+        "name": "* Rohit Malhotra"
+      },
+      {
+        "name": "Xuhui Zhou"
+      },
+      {
+        "name": "Valerie Chen"
+      },
+      {
+        "name": "Robert Brennan"
+      },
+      {
+        "name": "Graham Neubig"
+      },
+      {
+        "name": "Zezhou Wang"
+      },
+      {
+        "name": "Youjie Li"
+      },
+      {
+        "name": "Zhiqi Lin"
+      },
+      {
+        "name": "Jiacheng Yang"
+      },
+      {
+        "name": "Cong Xie"
+      },
+      {
+        "name": "* ZHENG ZHONG"
+      },
+      {
+        "name": "* Hongyu Zhu"
+      },
+      {
+        "name": "Zhi Zhang"
+      },
+      {
+        "name": "Xin Liu"
+      },
+      {
+        "name": "Yanghua Peng"
+      },
+      {
+        "name": "Harsh Menon"
+      },
+      {
+        "name": "Oleksandr Zinenko"
+      },
+      {
+        "name": "Gaurav Verma"
+      },
+      {
+        "name": "Nithin Meganathan"
+      },
+      {
+        "name": "Sanket Pandit"
+      },
+      {
+        "name": "William Gallard Hatch"
+      },
+      {
+        "name": "Sahil FAIZAL"
+      },
+      {
+        "name": "Martin P. Lücke"
+      },
+      {
+        "name": "* Naveen Kumar"
+      },
+      {
+        "name": "Clive Verghese"
+      },
+      {
+        "name": "Prasanna Rengasamy"
+      },
+      {
+        "name": "* Jiya Zhang"
+      },
+      {
+        "name": "Charles Alaras"
+      },
+      {
+        "name": "Yin Zhang"
+      },
+      {
+        "name": "Sai Ganesh Bandiatmakuri"
+      },
+      {
+        "name": "* Ani Udipi *"
+      }
+    ],
+    "room": "Evergreen Ballroom",
+    "key_themes": [
+      "Poster Session 3"
+    ]
+  },
+  {
+    "title": "Industry-Track Oral Presentation: I4: Compilers/HW",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "I4: Compilers/HW",
+    "url": "https://mlsys.org/virtual/2026/session/3721",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ignacio Cano"
+      },
+      {
+        "name": "Yu Wang"
+      },
+      {
+        "name": "Phitchaya Phothilimthana"
+      },
+      {
+        "name": "Mike Burrows"
+      },
+      {
+        "name": "* Matheus Camargo"
+      },
+      {
+        "name": "Alexander Wertheim"
+      },
+      {
+        "name": "Chao Wang"
+      },
+      {
+        "name": "David Liu"
+      },
+      {
+        "name": "Tengyu Sun"
+      },
+      {
+        "name": "Arissa Wongpanich"
+      },
+      {
+        "name": "Christof Angermueller"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Vineetha Govindaraj"
+      },
+      {
+        "name": "Amit Sabne"
+      },
+      {
+        "name": "Berkin Ilbeyi"
+      },
+      {
+        "name": "Ryan Lefever"
+      },
+      {
+        "name": "Mehrdad Khani"
+      },
+      {
+        "name": "Subhankar Shah"
+      },
+      {
+        "name": "Ankit Sinha"
+      },
+      {
+        "name": "* Nikhil Sarda"
+      },
+      {
+        "name": "* Emily Donahue"
+      },
+      {
+        "name": "Sami Abu-El-Haija"
+      },
+      {
+        "name": "* Naveen Kumar"
+      },
+      {
+        "name": "Darshan Gandhi"
+      },
+      {
+        "name": "Pushkar Nandkar"
+      },
+      {
+        "name": "David Koeplinger"
+      },
+      {
+        "name": "* Romy Tsoupidi"
+      },
+      {
+        "name": "Tuowen Zhao"
+      },
+      {
+        "name": "Reid Goodbar"
+      },
+      {
+        "name": "* Leon Zhang"
+      },
+      {
+        "name": "* John Long"
+      },
+      {
+        "name": "Han Wang"
+      },
+      {
+        "name": "* Yun Du"
+      },
+      {
+        "name": "Håkan Zeffer"
+      },
+      {
+        "name": "* Raghu Prabhakar"
+      },
+      {
+        "name": "Aditya Ukarande"
+      },
+      {
+        "name": "Deep Shekhar"
+      },
+      {
+        "name": "* Ram Rangan"
+      },
+      {
+        "name": "Chen Lai"
+      },
+      {
+        "name": "Cemal Bilgin"
+      },
+      {
+        "name": "Abhinay Kukkadapu"
+      },
+      {
+        "name": "Gregory Comer"
+      },
+      {
+        "name": "* Lucy Qiu"
+      },
+      {
+        "name": "Mengwei Liu"
+      },
+      {
+        "name": "* Songhao Jia"
+      },
+      {
+        "name": "Digant Desai"
+      },
+      {
+        "name": "Hansong Zhang"
+      },
+      {
+        "name": "Manuel Candales"
+      },
+      {
+        "name": "Scott Roy"
+      },
+      {
+        "name": "Sicheng Jia"
+      },
+      {
+        "name": "Mergen Nachin"
+      },
+      {
+        "name": "* Yanan Cao"
+      },
+      {
+        "name": "Zhengxu Chen"
+      },
+      {
+        "name": "Shunting Zhang"
+      },
+      {
+        "name": "* Angela Yi"
+      },
+      {
+        "name": "Zhenrui Zhang"
+      },
+      {
+        "name": "Andrew Or"
+      },
+      {
+        "name": "* Supriya Rao"
+      },
+      {
+        "name": "* Soumith Chintala"
+      },
+      {
+        "name": "Harsh Menon"
+      },
+      {
+        "name": "* Gaurav Verma"
+      },
+      {
+        "name": "Martin P. Lücke"
+      },
+      {
+        "name": "Nithin Meganathan"
+      },
+      {
+        "name": "Sanket Pandit"
+      },
+      {
+        "name": "William Gallard Hatch"
+      },
+      {
+        "name": "Sahil FAIZAL"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "I4: Compilers/HW"
+    ]
+  },
+  {
+    "title": "Research-Track Oral Presentation: R14: Efficient Computation",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "R14: Efficient Computation",
+    "url": "https://mlsys.org/virtual/2026/session/3722",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Jifeng Song"
+      },
+      {
+        "name": "Xiangyu Yin"
+      },
+      {
+        "name": "Boyuan Yang"
+      },
+      {
+        "name": "Kai Huang"
+      },
+      {
+        "name": "Weichen Liu"
+      },
+      {
+        "name": "Wei Gao"
+      },
+      {
+        "name": "Jiayi Yuan"
+      },
+      {
+        "name": "Cameron Shinn"
+      },
+      {
+        "name": "* Jingze Cui"
+      },
+      {
+        "name": "George Klimiashvili"
+      },
+      {
+        "name": "* Perkz Zheng"
+      },
+      {
+        "name": "Bo Li"
+      },
+      {
+        "name": "Zhou Yuxin"
+      },
+      {
+        "name": "Zhouhai Ye"
+      },
+      {
+        "name": "Weijie You"
+      },
+      {
+        "name": "Richard Cai"
+      },
+      {
+        "name": "Julien Demouth"
+      },
+      {
+        "name": "John D. Owens"
+      },
+      {
+        "name": "Xia Hu"
+      },
+      {
+        "name": "* Timmy Liu"
+      },
+      {
+        "name": "Huizi Mao"
+      },
+      {
+        "name": "Ted Zadouri"
+      },
+      {
+        "name": "Markus Hoehnerbach"
+      },
+      {
+        "name": "Jay Shah"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Bozhi You"
+      },
+      {
+        "name": "Irene Wang"
+      },
+      {
+        "name": "* Abhinav Jangda"
+      },
+      {
+        "name": "Angélica Moreira"
+      },
+      {
+        "name": "Roshan Dathathri"
+      },
+      {
+        "name": "Divya Mahajan"
+      },
+      {
+        "name": "Keshav Pingali"
+      },
+      {
+        "name": "Dionysios Adamopoulos"
+      },
+      {
+        "name": "Anastasia Poulopoulou"
+      },
+      {
+        "name": "Georgios Goumas"
+      },
+      {
+        "name": "Christina Giannoula"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "R14: Efficient Computation"
+    ]
+  },
+  {
+    "title": "Keynote - Christos Kozyrakis",
+    "date": "2026-05-22",
+    "start": "09:45",
+    "end": "10:45",
+    "session_type": "Keynote",
+    "topic": "Keynote - Christos Kozyrakis",
+    "url": "https://mlsys.org/virtual/2026/invited-talk/3723",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Christos Kozyrakis"
+      }
+    ],
+    "room": "Grand Ballroom",
+    "key_themes": [
+      "Keynote - Christos Kozyrakis"
+    ]
+  },
+  {
+    "title": "Overflow / Viewing",
+    "date": "2026-05-22",
+    "start": "09:45",
+    "end": "10:45",
+    "session_type": "Session",
+    "topic": "Overflow / Viewing",
+    "url": "https://mlsys.org/virtual/2026/session/3726",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Overflow / Viewing"
+    ]
+  },
+  {
+    "title": "Overflow / Viewing",
+    "date": "2026-05-22",
+    "start": "11:00",
+    "end": "13:00",
+    "session_type": "Session",
+    "topic": "Overflow / Viewing",
+    "url": "https://mlsys.org/virtual/2026/session/3730",
+    "format": "In-Person",
+    "speakers": [],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Overflow / Viewing"
+    ]
+  }
+]
