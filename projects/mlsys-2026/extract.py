@@ -388,6 +388,16 @@ def derive_topic(entry, clean_title):
     return clean_title
 
 
+def derive_track(entry):
+    """Pull 'Research-Track' / 'Industry-Track' from an oral session group title."""
+    title = entry.get("title", "")
+    if "Research-Track" in title:
+        return "Research-Track"
+    if "Industry-Track" in title:
+        return "Industry-Track"
+    return ""
+
+
 def aggregate_authors(papers):
     seen = []
     for p in papers:
@@ -429,7 +439,43 @@ def normalize(entries):
         # Room
         location = detail.get("room", "")
 
-        # Speakers
+        # Title: prefer the detail-page title (cleaner) and strip the trailing
+        # '[8:30-10:00]' time bracket the calendar appends to some titles.
+        title = (detail.get("title") or e.get("title") or "").strip()
+        title = re.sub(r"\s*\[\d{1,2}:\d{2}\s*[-–—]\s*\d{1,2}:\d{2}\]\s*$", "", title)
+        title = re.sub(r"\s+", " ", title).strip()
+
+        # Topic (uses cleaned title)
+        topic = derive_topic(e, title)
+
+        # Oral session groups: expand into one record per paper using /oral/<id>
+        # URLs. Each paper inherits the parent group's date/time/room and
+        # carries the track (Research-Track / Industry-Track) as metadata.
+        if type_ == "Paper Session" and detail.get("papers"):
+            track = derive_track(e)
+            for p in detail["papers"]:
+                authors = split_authors(p.get("authors", ""))
+                sess = {
+                    "title": p["title"],
+                    "type": "Paper Session",
+                    "date": date,
+                    "startTime": start,
+                    "endTime": end,
+                    "location": location,
+                    "sessionUrl": p["url"],
+                    "sessionFormat": "IN_PERSON",
+                    "hasRecording": False,
+                    "topic": [topic] if topic else [],
+                    "speaker": authors,
+                }
+                if track:
+                    sess["track"] = track
+                if p.get("abstract"):
+                    sess["abstract"] = p["abstract"]
+                sessions.append(sess)
+            continue
+
+        # Non-oral entries: emit as single session record.
         if e["kind"] == "invited-talk":
             speakers = [detail.get("speaker", "").strip()] if detail.get("speaker") else []
             if not speakers and e.get("speakerOnCalendar"):
@@ -444,18 +490,7 @@ def normalize(entries):
             else:
                 speakers = []
 
-        # Title: prefer the detail-page title (cleaner) and strip the trailing
-        # '[8:30-10:00]' time bracket the calendar appends to some titles.
-        title = (detail.get("title") or e.get("title") or "").strip()
-        title = re.sub(r"\s*\[\d{1,2}:\d{2}\s*[-–—]\s*\d{1,2}:\d{2}\]\s*$", "", title)
-        title = re.sub(r"\s+", " ", title).strip()
-
-        # Topic (uses cleaned title)
-        topic = derive_topic(e, title)
-
-        # Abstract
         abstract = detail.get("abstract", "") if e["kind"] == "invited-talk" else ""
-
         publication_titles = [p["title"] for p in (detail.get("papers") or [])]
 
         sess = {
@@ -498,8 +533,11 @@ def to_conferenceflow(sessions):
         }
         if s.get("location"):
             rec["room"] = s["location"]
-        if s.get("topic"):
-            rec["key_themes"] = s["topic"]
+        themes = list(s.get("topic", []))
+        if s.get("track") and s["track"] not in themes:
+            themes.insert(0, s["track"])
+        if themes:
+            rec["key_themes"] = themes
         out.append(rec)
     return out
 

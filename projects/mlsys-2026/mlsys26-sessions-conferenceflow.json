@@ -204,13 +204,42 @@
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R16: Agentic AI",
+    "title": "Flash3DGS: Algorithm and System Co-Optimization for Fast 3D Gaussian Splatting on GPUs",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R19: Multimodal and Generative Models",
+    "url": "https://mlsys.org/virtual/2026/oral/3773",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Lingjun Gao"
+      },
+      {
+        "name": "Zhican Wang"
+      },
+      {
+        "name": "Zhiwen Mo"
+      },
+      {
+        "name": "Hongxiang Fan"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R19: Multimodal and Generative Models"
+    ]
+  },
+  {
+    "title": "Matrix: Peer-to-Peer Multi-Agent Synthetic Data Generation Framework",
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
     "session_type": "Paper Session",
     "topic": "R16: Agentic AI",
-    "url": "https://mlsys.org/virtual/2026/session/3668",
+    "url": "https://mlsys.org/virtual/2026/oral/3753",
     "format": "In-Person",
     "speakers": [
       {
@@ -257,7 +286,50 @@
       },
       {
         "name": "Shang-Wen Li"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R16: Agentic AI"
+    ]
+  },
+  {
+    "title": "OSWorld-Human: Benchmarking the Efficiency of Computer-Use Agents",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R16: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3865",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Reyna Abhyankar"
       },
+      {
+        "name": "Qi Qi"
+      },
+      {
+        "name": "Yiying Zhang"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R16: Agentic AI"
+    ]
+  },
+  {
+    "title": "Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R16: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3823",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Kirill Nagaitsev"
       },
@@ -269,107 +341,24 @@
       },
       {
         "name": "Costin Iancu"
-      },
-      {
-        "name": "Reyna Abhyankar"
-      },
-      {
-        "name": "Qi Qi"
-      },
-      {
-        "name": "Yiying Zhang"
-      },
-      {
-        "name": "Heng Ping"
-      },
-      {
-        "name": "Arijit Bhattacharjee"
-      },
-      {
-        "name": "Peiyu Zhang"
-      },
-      {
-        "name": "Shixuan Li"
-      },
-      {
-        "name": "Wei Yang"
-      },
-      {
-        "name": "Anzhe Cheng"
-      },
-      {
-        "name": "Xiaole Zhang"
-      },
-      {
-        "name": "Jesse Thomason"
-      },
-      {
-        "name": "Ali Jannesari"
-      },
-      {
-        "name": "Nesreen Ahmed"
-      },
-      {
-        "name": "Paul Bogdan"
-      },
-      {
-        "name": "Jianan Lu"
-      },
-      {
-        "name": "Asaf Cidon"
-      },
-      {
-        "name": "Michael None Freedman"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R16: Agentic AI"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R19: Multimodal and Generative Models",
+    "title": "StreamDiffusionV2: A Streaming System for Dynamic and Interactive Video Generation",
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
     "session_type": "Paper Session",
     "topic": "R19: Multimodal and Generative Models",
-    "url": "https://mlsys.org/virtual/2026/session/3669",
+    "url": "https://mlsys.org/virtual/2026/oral/3750",
     "format": "In-Person",
     "speakers": [
-      {
-        "name": "Siqi Chen"
-      },
-      {
-        "name": "Ke Hong"
-      },
-      {
-        "name": "Tianchen Zhao"
-      },
-      {
-        "name": "Ruiqi Xie"
-      },
-      {
-        "name": "Zhenhua Zhu"
-      },
-      {
-        "name": "Xudong Zhang"
-      },
-      {
-        "name": "Yu Wang"
-      },
-      {
-        "name": "Lingjun Gao"
-      },
-      {
-        "name": "Zhican Wang"
-      },
-      {
-        "name": "Zhiwen Mo"
-      },
-      {
-        "name": "Hongxiang Fan"
-      },
       {
         "name": "Tianrui Feng"
       },
@@ -408,7 +397,24 @@
       },
       {
         "name": "Chenfeng Xu"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R19: Multimodal and Generative Models"
+    ]
+  },
+  {
+    "title": "TiDAR: Think in Diffusion, Talk in Autoregression",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R19: Multimodal and Generative Models",
+    "url": "https://mlsys.org/virtual/2026/oral/3751",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Jingyu Liu"
       },
@@ -429,7 +435,24 @@
       },
       {
         "name": "Pavlo Molchanov"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R19: Multimodal and Generative Models"
+    ]
+  },
+  {
+    "title": "TriInfer: Hybrid EPD Disaggregation for Efficient Multimodal Large Language Model Inference",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R19: Multimodal and Generative Models",
+    "url": "https://mlsys.org/virtual/2026/oral/3756",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Xianzhe Dong"
       },
@@ -460,17 +483,231 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R1: LLM Serving",
+    "title": "VeriMoA: A Mixture-of-Agents Framework for Spec-to-HDL Generation",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R16: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3855",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Heng Ping"
+      },
+      {
+        "name": "Arijit Bhattacharjee"
+      },
+      {
+        "name": "Peiyu Zhang"
+      },
+      {
+        "name": "Shixuan Li"
+      },
+      {
+        "name": "Wei Yang"
+      },
+      {
+        "name": "Anzhe Cheng"
+      },
+      {
+        "name": "Xiaole Zhang"
+      },
+      {
+        "name": "Jesse Thomason"
+      },
+      {
+        "name": "Ali Jannesari"
+      },
+      {
+        "name": "Nesreen Ahmed"
+      },
+      {
+        "name": "Paul Bogdan"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R16: Agentic AI"
+    ]
+  },
+  {
+    "title": "When Enough is Enough: Rank-Aware Early Termination for Vector Search",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R16: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3835",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Jianan Lu"
+      },
+      {
+        "name": "Asaf Cidon"
+      },
+      {
+        "name": "Michael None Freedman"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R16: Agentic AI"
+    ]
+  },
+  {
+    "title": "db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism",
+    "date": "2026-05-19",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R19: Multimodal and Generative Models",
+    "url": "https://mlsys.org/virtual/2026/oral/3798",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Siqi Chen"
+      },
+      {
+        "name": "Ke Hong"
+      },
+      {
+        "name": "Tianchen Zhao"
+      },
+      {
+        "name": "Ruiqi Xie"
+      },
+      {
+        "name": "Zhenhua Zhu"
+      },
+      {
+        "name": "Xudong Zhang"
+      },
+      {
+        "name": "Yu Wang"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R19: Multimodal and Generative Models"
+    ]
+  },
+  {
+    "title": "AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R9: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3806",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hojoon Kim"
+      },
+      {
+        "name": "Yuheng Wu"
+      },
+      {
+        "name": "Thierry Tambe"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R9: Agentic AI"
+    ]
+  },
+  {
+    "title": "ContextPilot: Fast Long-Context Inference via Context Reuse",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R9: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3810",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yinsicheng Jiang"
+      },
+      {
+        "name": "Yeqi Huang"
+      },
+      {
+        "name": "Liang Cheng"
+      },
+      {
+        "name": "Cheng Deng"
+      },
+      {
+        "name": "Xuan Sun"
+      },
+      {
+        "name": "Luo Mai"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R9: Agentic AI"
+    ]
+  },
+  {
+    "title": "FlashAgents: Accelerating Multi-Agent LLM Systems via Streaming Prefill Overlap",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R9: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3760",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Taosong Fang"
+      },
+      {
+        "name": "Zhen Zheng"
+      },
+      {
+        "name": "Zhengzhao Ma"
+      },
+      {
+        "name": "Yaojie Lu"
+      },
+      {
+        "name": "Hongyu Lin"
+      },
+      {
+        "name": "Xianpei Han"
+      },
+      {
+        "name": "Le Sun"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R9: Agentic AI"
+    ]
+  },
+  {
+    "title": "From Tokens to Layers: Redefining Stall-Free Scheduling for LLM Serving with Layered Prefill",
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
     "session_type": "Paper Session",
     "topic": "R1: LLM Serving",
-    "url": "https://mlsys.org/virtual/2026/session/3675",
+    "url": "https://mlsys.org/virtual/2026/oral/3732",
     "format": "In-Person",
     "speakers": [
       {
@@ -484,7 +721,24 @@
       },
       {
         "name": "Jung Ho Ahn"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R1: LLM Serving"
+    ]
+  },
+  {
+    "title": "HELIOS : Adaptive Model And Early-Exit Selection for Efficient LLM Inference Serving",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3846",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Avinash Kumar"
       },
@@ -499,7 +753,79 @@
       },
       {
         "name": "Poulami Das"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R1: LLM Serving"
+    ]
+  },
+  {
+    "title": "Hippocampus: An Efficient and Scalable Memory Module for Agentic AI",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R9: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3863",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yi Li"
       },
+      {
+        "name": "Lianjie Cao"
+      },
+      {
+        "name": "Faraz Ahmed"
+      },
+      {
+        "name": "Puneet Sharma"
+      },
+      {
+        "name": "Bingzhe Li"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R9: Agentic AI"
+    ]
+  },
+  {
+    "title": "Ontology-Guided Long-Term Agent Memory for Conversational RAG",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R9: Agentic AI",
+    "url": "https://mlsys.org/virtual/2026/oral/3738",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Sharon Cao"
+      },
+      {
+        "name": "Rui Li"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R9: Agentic AI"
+    ]
+  },
+  {
+    "title": "PLA-Serve: A Prefill-Length-Aware LLM Serving System",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3787",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Jianshu She"
       },
@@ -529,122 +855,24 @@
       },
       {
         "name": "Qirong Ho"
-      },
-      {
-        "name": "Rajveer Bachkaniwala"
-      },
-      {
-        "name": "* Richard So"
-      },
-      {
-        "name": "Divya Mahajan"
-      },
-      {
-        "name": "Kexin Rong"
-      },
-      {
-        "name": "Jiahuan Yu"
-      },
-      {
-        "name": "Mingtao Hu"
-      },
-      {
-        "name": "* Minjia Zhang"
-      },
-      {
-        "name": "Raja Gond"
-      },
-      {
-        "name": "Nipun Kwatra"
-      },
-      {
-        "name": "Ramachandran Ramjee"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R1: LLM Serving"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R9: Agentic AI",
+    "title": "RagInfer: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval",
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
     "session_type": "Paper Session",
     "topic": "R9: Agentic AI",
-    "url": "https://mlsys.org/virtual/2026/session/3674",
+    "url": "https://mlsys.org/virtual/2026/oral/3796",
     "format": "In-Person",
     "speakers": [
-      {
-        "name": "Hojoon Kim"
-      },
-      {
-        "name": "Yuheng Wu"
-      },
-      {
-        "name": "Thierry Tambe"
-      },
-      {
-        "name": "Yinsicheng Jiang"
-      },
-      {
-        "name": "Yeqi Huang"
-      },
-      {
-        "name": "Liang Cheng"
-      },
-      {
-        "name": "Cheng Deng"
-      },
-      {
-        "name": "Xuan Sun"
-      },
-      {
-        "name": "Luo Mai"
-      },
-      {
-        "name": "Taosong Fang"
-      },
-      {
-        "name": "Zhen Zheng"
-      },
-      {
-        "name": "Zhengzhao Ma"
-      },
-      {
-        "name": "Yaojie Lu"
-      },
-      {
-        "name": "Hongyu Lin"
-      },
-      {
-        "name": "Xianpei Han"
-      },
-      {
-        "name": "Le Sun"
-      },
-      {
-        "name": "Yi Li"
-      },
-      {
-        "name": "Lianjie Cao"
-      },
-      {
-        "name": "Faraz Ahmed"
-      },
-      {
-        "name": "Puneet Sharma"
-      },
-      {
-        "name": "Bingzhe Li"
-      },
-      {
-        "name": "Sharon Cao"
-      },
-      {
-        "name": "Rui Li"
-      },
       {
         "name": "Chien-Yu Lin"
       },
@@ -690,17 +918,99 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R9: Agentic AI"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R10: Security and Privacy",
+    "title": "Stream2LLM: Overlap Context Streaming and Prefill for Reduced Time-to-First-Token",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3842",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Rajveer Bachkaniwala"
+      },
+      {
+        "name": "* Richard So"
+      },
+      {
+        "name": "Divya Mahajan"
+      },
+      {
+        "name": "Kexin Rong"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R1: LLM Serving"
+    ]
+  },
+  {
+    "title": "SuperInfer: SLO-Aware Rotary Scheduling and Memory Management for LLM Inference on Superchips",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3809",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Jiahuan Yu"
+      },
+      {
+        "name": "Mingtao Hu"
+      },
+      {
+        "name": "* Minjia Zhang"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R1: LLM Serving"
+    ]
+  },
+  {
+    "title": "TokenBlend: Accelerating Tensor Parallelism LLM Inference Through Efficient Compute-Communication Overlap",
+    "date": "2026-05-19",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3744",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Raja Gond"
+      },
+      {
+        "name": "Nipun Kwatra"
+      },
+      {
+        "name": "Ramachandran Ramjee"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R1: LLM Serving"
+    ]
+  },
+  {
+    "title": "Blueprint, Bootstrap, and Bridge: A Security Look at NVIDIA GPU Confidential Computing",
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
     "session_type": "Paper Session",
     "topic": "R10: Security and Privacy",
-    "url": "https://mlsys.org/virtual/2026/session/3673",
+    "url": "https://mlsys.org/virtual/2026/oral/3741",
     "format": "In-Person",
     "speakers": [
       {
@@ -720,10 +1030,102 @@
       },
       {
         "name": "Zhiqiang Lin"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R10: Security and Privacy"
+    ]
+  },
+  {
+    "title": "CSLE: A Reinforcement Learning Platform for Autonomous Security Management",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R10: Security and Privacy",
+    "url": "https://mlsys.org/virtual/2026/oral/3812",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Kim Hammar"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R10: Security and Privacy"
+    ]
+  },
+  {
+    "title": "DisAgg: Distributed Aggregators for Efficient Secure Aggregation",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R8: Federated Learning",
+    "url": "https://mlsys.org/virtual/2026/oral/3837",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Haaris Mehmood"
       },
+      {
+        "name": "Giorgos Tatsis"
+      },
+      {
+        "name": "Dimitrios Alexopoulos"
+      },
+      {
+        "name": "Karthikeyan Saravanan"
+      },
+      {
+        "name": "Jie Xi"
+      },
+      {
+        "name": "* Mete Ozay"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R8: Federated Learning"
+    ]
+  },
+  {
+    "title": "FLoRIST: Singular Value Thresholding for Efficient and Accurate Federated Fine-Tuning of Large Language Models",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R8: Federated Learning",
+    "url": "https://mlsys.org/virtual/2026/oral/3840",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Hariharan Ramesh"
+      },
+      {
+        "name": "Jyotikrishna Dass"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R8: Federated Learning"
+    ]
+  },
+  {
+    "title": "G-HEMP: FAST MULTI-GPU PRIVATE INFERENCE FOR LARGE-SCALE GCNS WITH HOMOMORPHIC ENCRYPTION",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R10: Security and Privacy",
+    "url": "https://mlsys.org/virtual/2026/oral/3811",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Ran Ran"
       },
@@ -741,7 +1143,50 @@
       },
       {
         "name": "Wujie Wen"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R10: Security and Privacy"
+    ]
+  },
+  {
+    "title": "PLayer-FL: A Principled Approach to Personalized Layer-wise Cross-Silo Federated Learning",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R8: Federated Learning",
+    "url": "https://mlsys.org/virtual/2026/oral/3813",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ahmed Elhussein"
       },
+      {
+        "name": "Florent Pollet"
+      },
+      {
+        "name": "Gamze Gursoy"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R8: Federated Learning"
+    ]
+  },
+  {
+    "title": "Privatar: Scalable Privacy-preserving Multi-user VR via Secure Offloading",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R10: Security and Privacy",
+    "url": "https://mlsys.org/virtual/2026/oral/3801",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Jianming Tong"
       },
@@ -762,74 +1207,24 @@
       },
       {
         "name": "Tushar Krishna"
-      },
-      {
-        "name": "Shuyi Lin"
-      },
-      {
-        "name": "Anshuman Suri"
-      },
-      {
-        "name": "Alina Oprea"
-      },
-      {
-        "name": "Cheng Tan"
-      },
-      {
-        "name": "Mohammad M Maheri"
-      },
-      {
-        "name": "Hamed Haddadi"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R8: Federated Learning",
+    "title": "ProToken: Token-Level Attribution for Federated Large Language Models",
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
     "session_type": "Paper Session",
     "topic": "R8: Federated Learning",
-    "url": "https://mlsys.org/virtual/2026/session/3672",
+    "url": "https://mlsys.org/virtual/2026/oral/3850",
     "format": "In-Person",
     "speakers": [
-      {
-        "name": "Haaris Mehmood"
-      },
-      {
-        "name": "Giorgos Tatsis"
-      },
-      {
-        "name": "Dimitrios Alexopoulos"
-      },
-      {
-        "name": "Karthikeyan Saravanan"
-      },
-      {
-        "name": "Jie Xi"
-      },
-      {
-        "name": "* Mete Ozay"
-      },
-      {
-        "name": "Hariharan Ramesh"
-      },
-      {
-        "name": "Jyotikrishna Dass"
-      },
-      {
-        "name": "Ahmed Elhussein"
-      },
-      {
-        "name": "Florent Pollet"
-      },
-      {
-        "name": "Gamze Gursoy"
-      },
       {
         "name": "Waris Gill"
       },
@@ -841,7 +1236,24 @@
       },
       {
         "name": "Muhammad Ali Gulzar"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R8: Federated Learning"
+    ]
+  },
+  {
+    "title": "SONAR: Benchmarking Topology and Collaboration in Decentralized Learning",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R8: Federated Learning",
+    "url": "https://mlsys.org/virtual/2026/oral/3857",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Joyce Yuan"
       },
@@ -859,7 +1271,79 @@
       },
       {
         "name": "* Martin Jaggi"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R8: Federated Learning"
+    ]
+  },
+  {
+    "title": "Toward Principled LLM Safety Testing: Solving the Jailbreak Oracle Problem",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R10: Security and Privacy",
+    "url": "https://mlsys.org/virtual/2026/oral/3739",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Shuyi Lin"
       },
+      {
+        "name": "Anshuman Suri"
+      },
+      {
+        "name": "Alina Oprea"
+      },
+      {
+        "name": "Cheng Tan"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R10: Security and Privacy"
+    ]
+  },
+  {
+    "title": "ZK-APEX: ZERO-KNOWLEDGE APPROXIMATE PERSONALIZED UNLEARNING WITH EXECUTABLE PROOFS",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R10: Security and Privacy",
+    "url": "https://mlsys.org/virtual/2026/oral/3793",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Mohammad M Maheri"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Hamed Haddadi"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R10: Security and Privacy"
+    ]
+  },
+  {
+    "title": "Zero redundancy distributed learning with differential privacy",
+    "date": "2026-05-19",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R8: Federated Learning",
+    "url": "https://mlsys.org/virtual/2026/oral/3803",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Zhiqi Bu"
       },
@@ -878,6 +1362,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1477,13 +1962,13 @@
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R2: LLM Serving",
+    "title": "BEAM: Joint Resource-Power Optimization for Energy-Efficient LLM Inference under SLO contraints",
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
     "session_type": "Paper Session",
     "topic": "R2: LLM Serving",
-    "url": "https://mlsys.org/virtual/2026/session/3678",
+    "url": "https://mlsys.org/virtual/2026/oral/3849",
     "format": "In-Person",
     "speakers": [
       {
@@ -1497,7 +1982,59 @@
       },
       {
         "name": "Youngjin Kwon"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R2: LLM Serving"
+    ]
+  },
+  {
+    "title": "BOOST: BOttleneck-Optimized Scalable Training Framework for Low-Rank Large Language Models",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R6: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3830",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zhengyang Wang"
       },
+      {
+        "name": "Ziyue Liu"
+      },
+      {
+        "name": "Ruijie Zhang"
+      },
+      {
+        "name": "Avinash Maurya"
+      },
+      {
+        "name": "* Paul Hovland"
+      },
+      {
+        "name": "* zheng Zhang"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R6: LLM Training"
+    ]
+  },
+  {
+    "title": "BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R2: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3795",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "YOUHE JIANG"
       },
@@ -1506,7 +2043,24 @@
       },
       {
         "name": "Eiko Yoneki"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R2: LLM Serving"
+    ]
+  },
+  {
+    "title": "Breaking the Ice: Analyzing Cold Start Latency in vLLM",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R2: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3784",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Huzaifa Shaaban Kabakibo"
       },
@@ -1515,7 +2069,65 @@
       },
       {
         "name": "Lin Wang"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R2: LLM Serving"
+    ]
+  },
+  {
+    "title": "Efficient Long-Context Language Model Training by Core Attention Disaggregation",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R6: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3754",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yonghao Zhuang"
       },
+      {
+        "name": "Junda Chen"
+      },
+      {
+        "name": "* Yi Gu"
+      },
+      {
+        "name": "Yibo Zhu"
+      },
+      {
+        "name": "Yimin Jiang"
+      },
+      {
+        "name": "Ion Stoica"
+      },
+      {
+        "name": "Hao Zhang"
+      },
+      {
+        "name": "Eric Xing"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R6: LLM Training"
+    ]
+  },
+  {
+    "title": "FaaScale: Unlocking Fast LLM Scaling for Serverless Inference",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R2: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3769",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Minchen Yu"
       },
@@ -1542,7 +2154,24 @@
       },
       {
         "name": "* Ruichuan Chen"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R2: LLM Serving"
+    ]
+  },
+  {
+    "title": "Locality-Aware Beam Scheduling for Efficient Test-Time Compute with a Consumer-grade GPU",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R2: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3788",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Hsing-Ti Wang"
       },
@@ -1551,77 +2180,24 @@
       },
       {
         "name": "Chia-Lin Yang"
-      },
-      {
-        "name": "Zhaoyuan Su"
-      },
-      {
-        "name": "Zeyu Zhang"
-      },
-      {
-        "name": "Zirui Wang"
-      },
-      {
-        "name": "* Juncheng Yang"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R2: LLM Serving"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R6: LLM Training",
+    "title": "MTraining: Distributed Dynamic Sparse Attention for Efficient Ultra-Long Context Training",
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
     "session_type": "Paper Session",
     "topic": "R6: LLM Training",
-    "url": "https://mlsys.org/virtual/2026/session/3679",
+    "url": "https://mlsys.org/virtual/2026/oral/3775",
     "format": "In-Person",
     "speakers": [
-      {
-        "name": "Zhengyang Wang"
-      },
-      {
-        "name": "Ziyue Liu"
-      },
-      {
-        "name": "Ruijie Zhang"
-      },
-      {
-        "name": "Avinash Maurya"
-      },
-      {
-        "name": "* Paul Hovland"
-      },
-      {
-        "name": "* zheng Zhang"
-      },
-      {
-        "name": "Yonghao Zhuang"
-      },
-      {
-        "name": "Junda Chen"
-      },
-      {
-        "name": "* Yi Gu"
-      },
-      {
-        "name": "Yibo Zhu"
-      },
-      {
-        "name": "Yimin Jiang"
-      },
-      {
-        "name": "Ion Stoica"
-      },
-      {
-        "name": "Hao Zhang"
-      },
-      {
-        "name": "Eric Xing"
-      },
       {
         "name": "Wenxuan Li"
       },
@@ -1636,7 +2212,59 @@
       },
       {
         "name": "* Lili Qiu"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R6: LLM Training"
+    ]
+  },
+  {
+    "title": "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R2: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3816",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zhaoyuan Su"
       },
+      {
+        "name": "Zeyu Zhang"
+      },
+      {
+        "name": "Tingfeng Lan"
+      },
+      {
+        "name": "Zirui Wang"
+      },
+      {
+        "name": "* Juncheng Yang"
+      },
+      {
+        "name": "Yue Cheng"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R2: LLM Serving"
+    ]
+  },
+  {
+    "title": "NEST: Network- and Memory-Aware Device Placement for Distributed Deep Learning",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R6: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3767",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Irene Wang"
       },
@@ -1645,7 +2273,24 @@
       },
       {
         "name": "Divya Mahajan"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R6: LLM Training"
+    ]
+  },
+  {
+    "title": "ProTrain: Efficient LLM Training via Automatic Memory Management",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R6: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3800",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Hanmei Yang"
       },
@@ -1660,7 +2305,24 @@
       },
       {
         "name": "Tongping Liu"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R6: LLM Training"
+    ]
+  },
+  {
+    "title": "Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP",
+    "date": "2026-05-20",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R6: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3822",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Yilong Zhao"
       },
@@ -1681,10 +2343,14 @@
       },
       {
         "name": "Baris Kasikci"
+      },
+      {
+        "name": "Ion Stoica"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -1723,13 +2389,13 @@
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R11: ML for Systems",
+    "title": "Automated Algorithm Design for Auto-Tuning Optimizers",
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
     "session_type": "Paper Session",
     "topic": "R11: ML for Systems",
-    "url": "https://mlsys.org/virtual/2026/session/3688",
+    "url": "https://mlsys.org/virtual/2026/oral/3748",
     "format": "In-Person",
     "speakers": [
       {
@@ -1740,153 +2406,22 @@
       },
       {
         "name": "Ben van Werkhoven"
-      },
-      {
-        "name": "Shanli Xing"
-      },
-      {
-        "name": "Vivian Zhai"
-      },
-      {
-        "name": "Alexander Jiang"
-      },
-      {
-        "name": "Yixin Dong"
-      },
-      {
-        "name": "Yong Wu"
-      },
-      {
-        "name": "Zihao Ye"
-      },
-      {
-        "name": "Charlie Ruan"
-      },
-      {
-        "name": "Yingyi Huang"
-      },
-      {
-        "name": "Yineng Zhang"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "Luis Ceze"
-      },
-      {
-        "name": "Tianqi Chen"
-      },
-      {
-        "name": "Kasper Overgaard Mortensen"
-      },
-      {
-        "name": "Ama Bembua Bainson"
-      },
-      {
-        "name": "* Kristoffer Strube"
-      },
-      {
-        "name": "Renata Borovica-Gajic"
-      },
-      {
-        "name": "Andrea Paudice"
-      },
-      {
-        "name": "Davide Mottin"
-      },
-      {
-        "name": "Panagiotis Karras"
-      },
-      {
-        "name": "Armin Abdollahi"
-      },
-      {
-        "name": "Mehdi Kamal"
-      },
-      {
-        "name": "Massoud Pedram"
-      },
-      {
-        "name": "Yibo Zhao"
-      },
-      {
-        "name": "Tianyuan Wu"
-      },
-      {
-        "name": "HUI XUE"
-      },
-      {
-        "name": "Qi Chen"
-      },
-      {
-        "name": "Zhenhua Han"
-      },
-      {
-        "name": "Jui-Hao Chiang"
-      },
-      {
-        "name": "Mingxia Li"
-      },
-      {
-        "name": "Yuqing Yang"
-      },
-      {
-        "name": "Cheng Tan"
-      },
-      {
-        "name": "Fan Yang"
-      },
-      {
-        "name": "Peng Cheng"
-      },
-      {
-        "name": "Yongqiang Xiong"
-      },
-      {
-        "name": "Lili Qiu"
-      },
-      {
-        "name": "Lidong Zhou"
-      },
-      {
-        "name": "Varun Gohil"
-      },
-      {
-        "name": "Nevena Stojkovic"
-      },
-      {
-        "name": "Noman Bashir"
-      },
-      {
-        "name": "Sundar Dev"
-      },
-      {
-        "name": "Gaurang Upasani"
-      },
-      {
-        "name": "David Lo"
-      },
-      {
-        "name": "Parthasarathy Ranganathan"
-      },
-      {
-        "name": "Christina Delimitrou"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R11: ML for Systems"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R3: LLM Serving",
+    "title": "FlexiCache: Leveraging Temporal Stability of Attention Heads for Efficient KV Cache Management",
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
     "session_type": "Paper Session",
     "topic": "R3: LLM Serving",
-    "url": "https://mlsys.org/virtual/2026/session/3687",
+    "url": "https://mlsys.org/virtual/2026/oral/3838",
     "format": "In-Person",
     "speakers": [
       {
@@ -1900,7 +2435,24 @@
       },
       {
         "name": "Sangeetha Abdu Jyothi"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R3: LLM Serving"
+    ]
+  },
+  {
+    "title": "Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R3: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3746",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Haojun Xia"
       },
@@ -1942,7 +2494,77 @@
       },
       {
         "name": "Shuaiwen Song"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R3: LLM Serving"
+    ]
+  },
+  {
+    "title": "LLMInfer-Bench: Building the Virtuous Cycle for AI-driven LLM Systems",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R11: ML for Systems",
+    "url": "https://mlsys.org/virtual/2026/oral/3832",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Shanli Xing"
       },
+      {
+        "name": "Vivian Zhai"
+      },
+      {
+        "name": "Alexander Jiang"
+      },
+      {
+        "name": "Yixin Dong"
+      },
+      {
+        "name": "Yong Wu"
+      },
+      {
+        "name": "Zihao Ye"
+      },
+      {
+        "name": "Charlie Ruan"
+      },
+      {
+        "name": "Yingyi Huang"
+      },
+      {
+        "name": "Yineng Zhang"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Luis Ceze"
+      },
+      {
+        "name": "Tianqi Chen"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R11: ML for Systems"
+    ]
+  },
+  {
+    "title": "MAC-Attention: a Match--Amend--Complete scheme for fast and accurate attention computation",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R3: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3794",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Jinghan Yao"
       },
@@ -1957,7 +2579,24 @@
       },
       {
         "name": "Dhabaleswar Panda"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R3: LLM Serving"
+    ]
+  },
+  {
+    "title": "OPKV: A High-Throughput Plugin-Driven Framework for Recallable Sparsity in Paged KV Cache Systems",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R3: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3844",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Huazheng Lao"
       },
@@ -1972,7 +2611,62 @@
       },
       {
         "name": "Xia Zhu *"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R3: LLM Serving"
+    ]
+  },
+  {
+    "title": "Practical Adversarial Multi-Armed Bandits with Sublinear Runtime",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R11: ML for Systems",
+    "url": "https://mlsys.org/virtual/2026/oral/3762",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Kasper Overgaard Mortensen"
       },
+      {
+        "name": "Ama Bembua Bainson"
+      },
+      {
+        "name": "* Kristoffer Strube"
+      },
+      {
+        "name": "Renata Borovica-Gajic"
+      },
+      {
+        "name": "Andrea Paudice"
+      },
+      {
+        "name": "Davide Mottin"
+      },
+      {
+        "name": "Panagiotis Karras"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R11: ML for Systems"
+    ]
+  },
+  {
+    "title": "SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R3: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3864",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Jiayi Tian"
       },
@@ -2002,7 +2696,50 @@
       },
       {
         "name": "Souvik Kundu"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R3: LLM Serving"
+    ]
+  },
+  {
+    "title": "Unified LLM Model for Power, Performance, and Area Prediction from Hardware Code",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R11: ML for Systems",
+    "url": "https://mlsys.org/virtual/2026/oral/3761",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Armin Abdollahi"
       },
+      {
+        "name": "Mehdi Kamal"
+      },
+      {
+        "name": "Massoud Pedram"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R11: ML for Systems"
+    ]
+  },
+  {
+    "title": "Using Span Queries to Optimize Cache and Attention Locality",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R3: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3747",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Paul Castro"
       },
@@ -2024,17 +2761,124 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R3: LLM Serving"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R12: LLM Training",
+    "title": "Virtual Machine NUMA Placement at Scale: Learning the Norm, Shielding the Tail",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R11: ML for Systems",
+    "url": "https://mlsys.org/virtual/2026/oral/3777",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yibo Zhao"
+      },
+      {
+        "name": "Tianyuan Wu"
+      },
+      {
+        "name": "HUI XUE"
+      },
+      {
+        "name": "Qi Chen"
+      },
+      {
+        "name": "Zhenhua Han"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Jui-Hao Chiang"
+      },
+      {
+        "name": "Mingxia Li"
+      },
+      {
+        "name": "Yuqing Yang"
+      },
+      {
+        "name": "Cheng Tan"
+      },
+      {
+        "name": "Fan Yang"
+      },
+      {
+        "name": "Peng Cheng"
+      },
+      {
+        "name": "Yongqiang Xiong"
+      },
+      {
+        "name": "Lili Qiu"
+      },
+      {
+        "name": "Lidong Zhou"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R11: ML for Systems"
+    ]
+  },
+  {
+    "title": "When Machine Learning Isn't Sure: Building Resilient ML-Based Computer Systems by Embracing Uncertainty",
+    "date": "2026-05-20",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R11: ML for Systems",
+    "url": "https://mlsys.org/virtual/2026/oral/3772",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Varun Gohil"
+      },
+      {
+        "name": "Nevena Stojkovic"
+      },
+      {
+        "name": "Noman Bashir"
+      },
+      {
+        "name": "Sundar Dev"
+      },
+      {
+        "name": "Gaurang Upasani"
+      },
+      {
+        "name": "David Lo"
+      },
+      {
+        "name": "Parthasarathy Ranganathan"
+      },
+      {
+        "name": "Christina Delimitrou"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R11: ML for Systems"
+    ]
+  },
+  {
+    "title": "Beat the long tail: Distribution-Aware Speculative Decoding for RL Training",
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
     "session_type": "Paper Session",
     "topic": "R12: LLM Training",
-    "url": "https://mlsys.org/virtual/2026/session/3692",
+    "url": "https://mlsys.org/virtual/2026/oral/3766",
     "format": "In-Person",
     "speakers": [
       {
@@ -2078,7 +2922,114 @@
       },
       {
         "name": "Ce Zhang"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R12: LLM Training"
+    ]
+  },
+  {
+    "title": "CRAFT: Fine-Grained Cost-Aware Expert Replication For Efficient Mixture-of-Experts Serving",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R5: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3731",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Adrian Zhao"
       },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Lingfan Yu"
+      },
+      {
+        "name": "Haozheng Fan"
+      },
+      {
+        "name": "Jun Wu"
+      },
+      {
+        "name": "Yida Wang"
+      },
+      {
+        "name": "Nandita Vijaykumar"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R5: LLM Serving"
+    ]
+  },
+  {
+    "title": "Demystifying the Mixture of Experts Serving Tax",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R5: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3764",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Pratyush Patel"
+      },
+      {
+        "name": "Arvind Krishnamurthy"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R5: LLM Serving"
+    ]
+  },
+  {
+    "title": "FarSkip-Collectives: Unhobbling Blocking Communication in Mixture of Experts Models",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R5: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3743",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yonatan Dukler"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Vikram Appia"
+      },
+      {
+        "name": "Emad Barsoum"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R5: LLM Serving"
+    ]
+  },
+  {
+    "title": "FlexTrain: Scalable Hybrid-Parallel Training with Elastic Resource Utilization and Consistent Accuracy",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R12: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3776",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Weilin Cai"
       },
@@ -2090,7 +3041,53 @@
       },
       {
         "name": "* Jiayi Huang"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R12: LLM Training"
+    ]
+  },
+  {
+    "title": "GhostServe: A Lightweight Checkpointing System in the Shadow for Fault-Tolerant LLM Serving",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R5: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3736",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Shakya Jayakody"
       },
+      {
+        "name": "Youpeng Zhao"
+      },
+      {
+        "name": "Chinmay Dhanraj Nehate"
+      },
+      {
+        "name": "Jun Wang"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R5: LLM Serving"
+    ]
+  },
+  {
+    "title": "HetRL: Efficient Reinforcement Learning for LLMs in Heterogeneous Environments",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R12: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3825",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Yongjun He"
       },
@@ -2111,7 +3108,24 @@
       },
       {
         "name": "George Karypis"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R12: LLM Training"
+    ]
+  },
+  {
+    "title": "Learning from Less: Measuring the Effectiveness of RLVR in Low Data and Compute Regimes",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R12: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3783",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Justin Bauer"
       },
@@ -2132,7 +3146,24 @@
       },
       {
         "name": "Paroma Varma"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R12: LLM Training"
+    ]
+  },
+  {
+    "title": "NexSpec: Towards Optimizing Speculative Decoding in Reinforcement Learning Systems",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R12: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3836",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "qiaoling chen"
       },
@@ -2159,7 +3190,24 @@
       },
       {
         "name": "Tianwei Zhang"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R12: LLM Training"
+    ]
+  },
+  {
+    "title": "Pylo: Towards Accessible Learned Optimizers in PyTorch",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R12: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3824",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Paul Janson"
       },
@@ -2181,79 +3229,20 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R12: LLM Training"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R5: LLM Serving",
+    "title": "RDMA Point-to-Point Communication for LLM Systems",
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
     "session_type": "Paper Session",
     "topic": "R5: LLM Serving",
-    "url": "https://mlsys.org/virtual/2026/session/3691",
+    "url": "https://mlsys.org/virtual/2026/oral/3807",
     "format": "In-Person",
     "speakers": [
-      {
-        "name": "Adrian Zhao"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "Lingfan Yu"
-      },
-      {
-        "name": "Haozheng Fan"
-      },
-      {
-        "name": "Jun Wu"
-      },
-      {
-        "name": "Yida Wang"
-      },
-      {
-        "name": "Nandita Vijaykumar"
-      },
-      {
-        "name": "Pratyush Patel"
-      },
-      {
-        "name": "Arvind Krishnamurthy"
-      },
-      {
-        "name": "Yonatan Dukler"
-      },
-      {
-        "name": "Vikram Appia"
-      },
-      {
-        "name": "Emad Barsoum"
-      },
-      {
-        "name": "Shakya Jayakody"
-      },
-      {
-        "name": "Youpeng Zhao"
-      },
-      {
-        "name": "Chinmay Dhanraj Nehate"
-      },
-      {
-        "name": "Jun Wang"
-      },
-      {
-        "name": "Ziyi Xu"
-      },
-      {
-        "name": "Zhiqiang Xie"
-      },
-      {
-        "name": "Swapnil Gandhi"
-      },
-      {
-        "name": "Christos Kozyrakis"
-      },
       {
         "name": "Nandor Licker"
       },
@@ -2269,17 +3258,79 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R5: LLM Serving"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R15: Model Compression",
+    "title": "RaidServe: High-performance Resilient Serving",
+    "date": "2026-05-20",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R5: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3856",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ziyi Xu"
+      },
+      {
+        "name": "Zhiqiang Xie"
+      },
+      {
+        "name": "Swapnil Gandhi"
+      },
+      {
+        "name": "Christos Kozyrakis"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R5: LLM Serving"
+    ]
+  },
+  {
+    "title": "A Lightweight High-Throughput Collective-Capable NoC for Large-Scale ML Accelerators",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R7: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3804",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Luca Colagrande"
+      },
+      {
+        "name": "Lorenzo Leone"
+      },
+      {
+        "name": "Chen Wu"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Luca Benini"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R7: LLM Training"
+    ]
+  },
+  {
+    "title": "CAGE: Curvature-Aware Gradient Estimation For Accurate Quantization-Aware Training",
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
     "session_type": "Paper Session",
     "topic": "R15: Model Compression",
-    "url": "https://mlsys.org/virtual/2026/session/3696",
+    "url": "https://mlsys.org/virtual/2026/oral/3841",
     "format": "In-Person",
     "speakers": [
       {
@@ -2290,7 +3341,196 @@
       },
       {
         "name": "*"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R15: Model Compression"
+    ]
+  },
+  {
+    "title": "DreamDDP: Accelerating Low-Bandwidth Geo-Distributed LLM Training with Layer-wise Partial Synchronization",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R7: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3790",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zhenheng Tang"
       },
+      {
+        "name": "Zichen TANG"
+      },
+      {
+        "name": "Junlin Huang"
+      },
+      {
+        "name": "Xinglin Pan"
+      },
+      {
+        "name": "Rudan Yan"
+      },
+      {
+        "name": "Yuxin Wang"
+      },
+      {
+        "name": "* Shaohuai Shi"
+      },
+      {
+        "name": "Xiaowen Chu *"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R7: LLM Training"
+    ]
+  },
+  {
+    "title": "FP8-Flow-MoE: A Casting-Free FP8 Recipe without Double Quantization Error",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R7: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3737",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Fengjuan Wang"
+      },
+      {
+        "name": "Zhiyi Su"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Sun Mou"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R7: LLM Training"
+    ]
+  },
+  {
+    "title": "GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R7: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3851",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Jaeyong Song"
+      },
+      {
+        "name": "Seongyeon Park"
+      },
+      {
+        "name": "Hongsun Jang"
+      },
+      {
+        "name": "Jaewon Jung"
+      },
+      {
+        "name": "Hunseong Lim"
+      },
+      {
+        "name": "Junguk Hong"
+      },
+      {
+        "name": "Jinho Lee"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R7: LLM Training"
+    ]
+  },
+  {
+    "title": "Grolar: Efficient LLM Training on Heterogeneous Clusters",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R7: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3859",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Runsheng Guo"
+      },
+      {
+        "name": "Utkarsh Anand"
+      },
+      {
+        "name": "Khuzaima Daudjee"
+      },
+      {
+        "name": "Rathijit Sen"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R7: LLM Training"
+    ]
+  },
+  {
+    "title": "HexiScale: Facilitating Large Language Model Training over Heterogeneous Hardware",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R7: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3828",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ran Yan"
+      },
+      {
+        "name": "YOUHE JIANG"
+      },
+      {
+        "name": "Xiaonan Nie"
+      },
+      {
+        "name": "Fangcheng Fu"
+      },
+      {
+        "name": "Bin CUI"
+      },
+      {
+        "name": "Binhang Yuan"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Research-Track",
+      "R7: LLM Training"
+    ]
+  },
+  {
+    "title": "MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R15: Model Compression",
+    "url": "https://mlsys.org/virtual/2026/oral/3805",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Zhen Zheng"
       },
@@ -2299,10 +3539,44 @@
       },
       {
         "name": "Chuanjie Liu"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R15: Model Compression"
+    ]
+  },
+  {
+    "title": "Once-for-All Channel Mixers (HyperTinyPW): Generative Compression for TinyML",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R15: Model Compression",
+    "url": "https://mlsys.org/virtual/2026/oral/3818",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Yassien Shaalan"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R15: Model Compression"
+    ]
+  },
+  {
+    "title": "Search Your NVFP4 Scales!",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R15: Model Compression",
+    "url": "https://mlsys.org/virtual/2026/oral/3770",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Tanmaey Gupta"
       },
@@ -2341,7 +3615,24 @@
       },
       {
         "name": "Christopher De Sa"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R15: Model Compression"
+    ]
+  },
+  {
+    "title": "Shannonic: Efficient Entropy-Optimal Compression for ML Workloads",
+    "date": "2026-05-20",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R15: Model Compression",
+    "url": "https://mlsys.org/virtual/2026/oral/3820",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Kareem Ibrahim"
       },
@@ -2351,122 +3642,8 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R15: Model Compression"
-    ]
-  },
-  {
-    "title": "Research-Track Oral Presentation: R7: LLM Training",
-    "date": "2026-05-20",
-    "start": "16:30",
-    "end": "18:00",
-    "session_type": "Paper Session",
-    "topic": "R7: LLM Training",
-    "url": "https://mlsys.org/virtual/2026/session/3695",
-    "format": "In-Person",
-    "speakers": [
-      {
-        "name": "Luca Colagrande"
-      },
-      {
-        "name": "Lorenzo Leone"
-      },
-      {
-        "name": "Chen Wu"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "Luca Benini"
-      },
-      {
-        "name": "Zhenheng Tang"
-      },
-      {
-        "name": "Zichen TANG"
-      },
-      {
-        "name": "Junlin Huang"
-      },
-      {
-        "name": "Xinglin Pan"
-      },
-      {
-        "name": "Rudan Yan"
-      },
-      {
-        "name": "Yuxin Wang"
-      },
-      {
-        "name": "* Shaohuai Shi"
-      },
-      {
-        "name": "Xiaowen Chu *"
-      },
-      {
-        "name": "Fengjuan Wang"
-      },
-      {
-        "name": "Zhiyi Su"
-      },
-      {
-        "name": "Sun Mou"
-      },
-      {
-        "name": "Jaeyong Song"
-      },
-      {
-        "name": "Seongyeon Park"
-      },
-      {
-        "name": "Hongsun Jang"
-      },
-      {
-        "name": "Jaewon Jung"
-      },
-      {
-        "name": "Hunseong Lim"
-      },
-      {
-        "name": "Junguk Hong"
-      },
-      {
-        "name": "Jinho Lee"
-      },
-      {
-        "name": "Runsheng Guo"
-      },
-      {
-        "name": "Utkarsh Anand"
-      },
-      {
-        "name": "Khuzaima Daudjee"
-      },
-      {
-        "name": "Rathijit Sen"
-      },
-      {
-        "name": "Ran Yan"
-      },
-      {
-        "name": "YOUHE JIANG"
-      },
-      {
-        "name": "Xiaonan Nie"
-      },
-      {
-        "name": "Fangcheng Fu"
-      },
-      {
-        "name": "Bin CUI"
-      },
-      {
-        "name": "Binhang Yuan"
-      }
-    ],
-    "room": "Grand Ballroom 1",
-    "key_themes": [
-      "R7: LLM Training"
     ]
   },
   {
@@ -3287,13 +4464,13 @@
     ]
   },
   {
-    "title": "Industry-Track Oral Presentation: I5: Agentic AI/MLSys",
+    "title": "ADS: AN AGENTIC DETECTION SYSTEM FOR ENTERPRISE AGENTIC AI SECURITY",
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
     "session_type": "Paper Session",
     "topic": "I5: Agentic AI/MLSys",
-    "url": "https://mlsys.org/virtual/2026/session/3700",
+    "url": "https://mlsys.org/virtual/2026/oral/3853",
     "format": "In-Person",
     "speakers": [
       {
@@ -3322,90 +4499,22 @@
       },
       {
         "name": "Pengyu Zhang"
-      },
-      {
-        "name": "Alec Hammond"
-      },
-      {
-        "name": "Aram Markosyan"
-      },
-      {
-        "name": "Aman Dontula"
-      },
-      {
-        "name": "* Zacharias Fisches"
-      },
-      {
-        "name": "Dmitrii Pedchenko"
-      },
-      {
-        "name": "Keyur Muzumdar"
-      },
-      {
-        "name": "* Mark Saroufim"
-      },
-      {
-        "name": "Joe Isaacson"
-      },
-      {
-        "name": "Laura Wang"
-      },
-      {
-        "name": "Warren Hunt"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "Gabriel Synnaeve"
-      },
-      {
-        "name": "* Jacob Kahn *"
-      },
-      {
-        "name": "Yi Ding"
-      },
-      {
-        "name": "Henry (Hank) Hoffmann"
-      },
-      {
-        "name": "Yuran Ding"
-      },
-      {
-        "name": "Ruobing Han"
-      },
-      {
-        "name": "Xiaofan Zhang"
-      },
-      {
-        "name": "Xinwei Chen"
-      },
-      {
-        "name": "Xingyao Wang"
-      },
-      {
-        "name": "* Juan Michelini"
-      },
-      {
-        "name": "Calvin Smith"
-      },
-      {
-        "name": "* *"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R13: LLM Serving",
+    "title": "Accelerating Large-Scale Reasoning Model Inference with Sparse Self-Speculative Decoding",
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
     "session_type": "Paper Session",
     "topic": "R13: LLM Serving",
-    "url": "https://mlsys.org/virtual/2026/session/3701",
+    "url": "https://mlsys.org/virtual/2026/oral/3733",
     "format": "In-Person",
     "speakers": [
       {
@@ -3446,7 +4555,80 @@
       },
       {
         "name": "Ion Stoica"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R13: LLM Serving"
+    ]
+  },
+  {
+    "title": "Agentic Operator Generation for ML ASICs",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "I5: Agentic AI/MLSys",
+    "url": "https://mlsys.org/virtual/2026/oral/3817",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Alec Hammond"
       },
+      {
+        "name": "Aram Markosyan"
+      },
+      {
+        "name": "Aman Dontula"
+      },
+      {
+        "name": "* Zacharias Fisches"
+      },
+      {
+        "name": "Dmitrii Pedchenko"
+      },
+      {
+        "name": "Keyur Muzumdar"
+      },
+      {
+        "name": "* Mark Saroufim"
+      },
+      {
+        "name": "Joe Isaacson"
+      },
+      {
+        "name": "Laura Wang"
+      },
+      {
+        "name": "Warren Hunt"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Gabriel Synnaeve"
+      },
+      {
+        "name": "* Jacob Kahn *"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I5: Agentic AI/MLSys"
+    ]
+  },
+  {
+    "title": "CDLM: CONSISTENCY DIFFUSION LANGUAGE MODELS FOR FASTER SAMPLING",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R13: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3785",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Minseo Kim"
       },
@@ -3470,7 +4652,47 @@
       },
       {
         "name": "Amir Gholami"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R13: LLM Serving"
+    ]
+  },
+  {
+    "title": "Cost-aware Duration Prediction for Software Upgrades in Datacenters",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "I5: Agentic AI/MLSys",
+    "url": "https://mlsys.org/virtual/2026/oral/3765",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yi Ding"
       },
+      {
+        "name": "Henry (Hank) Hoffmann"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I5: Agentic AI/MLSys"
+    ]
+  },
+  {
+    "title": "PRISM: PARAMETRICALLY RESTRUCTURED INFERENCE FOR SPECULATIVE SAMPLING DRAFT MODELS",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R13: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3789",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Xuliang Wang"
       },
@@ -3494,7 +4716,53 @@
       },
       {
         "name": "Ming Li"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R13: LLM Serving"
+    ]
+  },
+  {
+    "title": "PROMPTS: PeRformance Optimization via Multi-Agent Planning for LLM Training and Serving",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "I5: Agentic AI/MLSys",
+    "url": "https://mlsys.org/virtual/2026/oral/3843",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yuran Ding"
       },
+      {
+        "name": "Ruobing Han"
+      },
+      {
+        "name": "Xiaofan Zhang"
+      },
+      {
+        "name": "Xinwei Chen"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I5: Agentic AI/MLSys"
+    ]
+  },
+  {
+    "title": "SpecDiff-2: Scaling Diffusion Drafter Alignment For Faster Speculative Decoding",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R13: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3755",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Jameson Sandler"
       },
@@ -3503,7 +4771,24 @@
       },
       {
         "name": "* Ferdinando Fioretto"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R13: LLM Serving"
+    ]
+  },
+  {
+    "title": "Speculative Decoding: Performance or Illusion?",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "R13: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3782",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Lily Liu"
       },
@@ -3511,12 +4796,54 @@
         "name": "Jiaxiang Yu"
       },
       {
+        "name": "Jongseok Park"
+      },
+      {
         "name": "Alvin Cheung"
+      },
+      {
+        "name": "Ion Stoica"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R13: LLM Serving"
+    ]
+  },
+  {
+    "title": "The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents",
+    "date": "2026-05-21",
+    "start": "08:30",
+    "end": "10:00",
+    "session_type": "Paper Session",
+    "topic": "I5: Agentic AI/MLSys",
+    "url": "https://mlsys.org/virtual/2026/oral/3749",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Xingyao Wang"
+      },
+      {
+        "name": "* Juan Michelini"
+      },
+      {
+        "name": "Calvin Smith"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* *"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I5: Agentic AI/MLSys"
     ]
   },
   {
@@ -3554,13 +4881,13 @@
     ]
   },
   {
-    "title": "Industry-Track Oral Presentation: I1: LLM Serving",
+    "title": "BatchLLM: Optimizing Large Batched LLM Inference with Global Prefix Sharing and Throughput-oriented Token Batching",
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
     "session_type": "Paper Session",
     "topic": "I1: LLM Serving",
-    "url": "https://mlsys.org/virtual/2026/session/3709",
+    "url": "https://mlsys.org/virtual/2026/oral/3833",
     "format": "In-Person",
     "speakers": [
       {
@@ -3580,7 +4907,24 @@
       },
       {
         "name": "Gang Peng"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I1: LLM Serving"
+    ]
+  },
+  {
+    "title": "Beyond the Buzz: A Pragmatic Take on Inference Disaggregation",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "I1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3819",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Tiyasa Mitra"
       },
@@ -3631,7 +4975,138 @@
       },
       {
         "name": "Bita Darvish Rouhani"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I1: LLM Serving"
+    ]
+  },
+  {
+    "title": "EarthSight: A Distributed Framework for Low-Latency Satellite Intelligence",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R17: Edge and Mobile",
+    "url": "https://mlsys.org/virtual/2026/oral/3792",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Ansel Erol"
       },
+      {
+        "name": "Seungjun Lee"
+      },
+      {
+        "name": "Divya Mahajan"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R17: Edge and Mobile"
+    ]
+  },
+  {
+    "title": "IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R17: Edge and Mobile",
+    "url": "https://mlsys.org/virtual/2026/oral/3848",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Wanli Zhong"
+      },
+      {
+        "name": "Haibo Feng"
+      },
+      {
+        "name": "Zirui Zhou"
+      },
+      {
+        "name": "Hanyang Peng"
+      },
+      {
+        "name": "Shiqi Yu"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R17: Edge and Mobile"
+    ]
+  },
+  {
+    "title": "LEANN: A Low-Storage Overhead Vector Index",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R17: Edge and Mobile",
+    "url": "https://mlsys.org/virtual/2026/oral/3786",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Yichuan Wang"
+      },
+      {
+        "name": "Zhifei Li"
+      },
+      {
+        "name": "Shu Liu"
+      },
+      {
+        "name": "Yongji Wu"
+      },
+      {
+        "name": "Ziming Mao"
+      },
+      {
+        "name": "Yilong Zhao"
+      },
+      {
+        "name": "Xiao Yan"
+      },
+      {
+        "name": "Zhiying Xu"
+      },
+      {
+        "name": "Yang Zhou"
+      },
+      {
+        "name": "Ion Stoica"
+      },
+      {
+        "name": "Sewon Min"
+      },
+      {
+        "name": "Matei Zaharia"
+      },
+      {
+        "name": "Joseph Gonzalez"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R17: Edge and Mobile"
+    ]
+  },
+  {
+    "title": "Meeting SLOs, Slashing Hours: Automated Enterprise LLM Optimization with OptiKIT",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "I1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3752",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Nicholas Santavas"
       },
@@ -3655,7 +5130,24 @@
       },
       {
         "name": "Shahram Khadivi"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I1: LLM Serving"
+    ]
+  },
+  {
+    "title": "Optimizing Deployment Configurations for LLM Inference",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "I1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3780",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Sungmin Cho"
       },
@@ -3699,7 +5191,13 @@
         "name": "Joshua Fromm"
       },
       {
+        "name": "*"
+      },
+      {
         "name": "Liangpeng Guo"
+      },
+      {
+        "name": "*"
       },
       {
         "name": "Jianyu Huang"
@@ -3714,6 +5212,12 @@
         "name": "Changkyu Kim"
       },
       {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
         "name": "Xiaozhu Meng"
       },
       {
@@ -3726,7 +5230,13 @@
         "name": "Michal Ostrowski"
       },
       {
+        "name": "*"
+      },
+      {
         "name": "Sarunya Pumma"
+      },
+      {
+        "name": "*"
       },
       {
         "name": "Jeremy Francis Reizenstein"
@@ -3759,14 +5269,136 @@
         "name": "* Bram Wasti"
       },
       {
+        "name": "*"
+      },
+      {
         "name": "Jingyi Yang"
+      },
+      {
+        "name": "*"
       },
       {
         "name": "Jing Zhang"
       },
       {
         "name": "Yi Zhen *"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I1: LLM Serving"
+    ]
+  },
+  {
+    "title": "REPARO: LOSS-RESILIENT GENERATIVE CODEC FOR VIDEO CONFERENCING",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R17: Edge and Mobile",
+    "url": "https://mlsys.org/virtual/2026/oral/3839",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Tianhong Li"
       },
+      {
+        "name": "Vibhaalakshmi Sivaraman"
+      },
+      {
+        "name": "Pantea Karimi"
+      },
+      {
+        "name": "Lijie Fan"
+      },
+      {
+        "name": "Mohammad Alizadeh"
+      },
+      {
+        "name": "Dina Katabi"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R17: Edge and Mobile"
+    ]
+  },
+  {
+    "title": "Rethinking DVFS for Mobile LLMs: Unified Energy-Aware Scheduling with CORE",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "R17: Edge and Mobile",
+    "url": "https://mlsys.org/virtual/2026/oral/3814",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Zongpu Zhang"
+      },
+      {
+        "name": "* Y. Charlie Hu"
+      },
+      {
+        "name": "Qiang Xu"
+      },
+      {
+        "name": "Jian Li"
+      },
+      {
+        "name": "Haibing Guan"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R17: Edge and Mobile"
+    ]
+  },
+  {
+    "title": "SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "I1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3834",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* Sahil Parmar"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* *"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I1: LLM Serving"
+    ]
+  },
+  {
+    "title": "Scaling Up Large Language Models Serving Systems for Semantic Job Search",
+    "date": "2026-05-21",
+    "start": "13:00",
+    "end": "14:30",
+    "session_type": "Paper Session",
+    "topic": "I1: LLM Serving",
+    "url": "https://mlsys.org/virtual/2026/oral/3745",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Kayhan Behdin"
       },
@@ -3814,139 +5446,22 @@
       },
       {
         "name": "Zhipeng Wang *"
-      },
-      {
-        "name": "* Sahil Parmar"
-      },
-      {
-        "name": "* *"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R17: Edge and Mobile",
-    "date": "2026-05-21",
-    "start": "13:00",
-    "end": "14:30",
-    "session_type": "Paper Session",
-    "topic": "R17: Edge and Mobile",
-    "url": "https://mlsys.org/virtual/2026/session/3710",
-    "format": "In-Person",
-    "speakers": [
-      {
-        "name": "Ansel Erol"
-      },
-      {
-        "name": "Seungjun Lee"
-      },
-      {
-        "name": "Divya Mahajan"
-      },
-      {
-        "name": "Wanli Zhong"
-      },
-      {
-        "name": "Haibo Feng"
-      },
-      {
-        "name": "Zirui Zhou"
-      },
-      {
-        "name": "Hanyang Peng"
-      },
-      {
-        "name": "Shiqi Yu"
-      },
-      {
-        "name": "Yichuan Wang"
-      },
-      {
-        "name": "Zhifei Li"
-      },
-      {
-        "name": "Shu Liu"
-      },
-      {
-        "name": "Yongji Wu"
-      },
-      {
-        "name": "Ziming Mao"
-      },
-      {
-        "name": "Yilong Zhao"
-      },
-      {
-        "name": "Xiao Yan"
-      },
-      {
-        "name": "Zhiying Xu"
-      },
-      {
-        "name": "Yang Zhou"
-      },
-      {
-        "name": "Ion Stoica"
-      },
-      {
-        "name": "Sewon Min"
-      },
-      {
-        "name": "Matei Zaharia"
-      },
-      {
-        "name": "Joseph Gonzalez"
-      },
-      {
-        "name": "Tianhong Li"
-      },
-      {
-        "name": "Vibhaalakshmi Sivaraman"
-      },
-      {
-        "name": "Pantea Karimi"
-      },
-      {
-        "name": "Lijie Fan"
-      },
-      {
-        "name": "Mohammad Alizadeh"
-      },
-      {
-        "name": "Dina Katabi"
-      },
-      {
-        "name": "Zongpu Zhang"
-      },
-      {
-        "name": "* Y. Charlie Hu"
-      },
-      {
-        "name": "Qiang Xu"
-      },
-      {
-        "name": "Jian Li"
-      },
-      {
-        "name": "Haibing Guan"
-      }
-    ],
-    "room": "Grand Ballroom 2",
-    "key_themes": [
-      "R17: Edge and Mobile"
-    ]
-  },
-  {
-    "title": "Industry-Track Oral Presentation: I2: LLM Training",
+    "title": "AXLearn: Modular, Hardware-Agnostic Large Model Training",
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
     "session_type": "Paper Session",
     "topic": "I2: LLM Training",
-    "url": "https://mlsys.org/virtual/2026/session/3713",
+    "url": "https://mlsys.org/virtual/2026/oral/3858",
     "format": "In-Person",
     "speakers": [
       {
@@ -4001,6 +5516,12 @@
         "name": "Zhiyun Lu"
       },
       {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
         "name": "Zhucheng Tu"
       },
       {
@@ -4026,7 +5547,79 @@
       },
       {
         "name": "* Ruoming Pang"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I2: LLM Training"
+    ]
+  },
+  {
+    "title": "Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R18: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3861",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Mengtian Yang"
       },
+      {
+        "name": "Zhekun Zhang"
+      },
+      {
+        "name": "Mingheng Wu"
+      },
+      {
+        "name": "jianwen yan"
+      },
+      {
+        "name": "Hanshi Sun"
+      },
+      {
+        "name": "Li-Wen Chang"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R18: Benchmarks"
+    ]
+  },
+  {
+    "title": "DriftBench: Measuring and Predicting Infrastructure Drift in LLM Serving Systems",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R18: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3799",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Gianluigi Vitale"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R18: Benchmarks"
+    ]
+  },
+  {
+    "title": "FlexScale: Flexible and High-Performance FSDP at Scale",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "I2: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3860",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Zezhou Wang"
       },
@@ -4056,7 +5649,24 @@
       },
       {
         "name": "Yanghua Peng"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I2: LLM Training"
+    ]
+  },
+  {
+    "title": "FreeScale: Distributed Training for Sequence Recommendation Models with Minimal Scaling Cost",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "I2: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3821",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Chenhao Feng"
       },
@@ -4080,6 +5690,9 @@
       },
       {
         "name": "* Chenyu Zhao"
+      },
+      {
+        "name": "*"
       },
       {
         "name": "* Tiantu Xu"
@@ -4107,83 +5720,24 @@
       },
       {
         "name": "Shen Li"
-      },
-      {
-        "name": "Jiyuan Zhang"
-      },
-      {
-        "name": "Yining Liu"
-      },
-      {
-        "name": "Shuqi Yang"
-      },
-      {
-        "name": "Guanliang Liu"
-      },
-      {
-        "name": "Zoe Zeng"
-      },
-      {
-        "name": "* Cong Cheng"
-      },
-      {
-        "name": "Alexander Zhipa"
-      },
-      {
-        "name": "Ashvin Nihalani"
-      },
-      {
-        "name": "Binxuan Huang"
-      },
-      {
-        "name": "Ehsan K. Ardestani"
-      },
-      {
-        "name": "* Zhaodong Wang"
-      },
-      {
-        "name": "* Xu Zhang"
-      },
-      {
-        "name": "* Ying Zhang"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I2: LLM Training"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R18: Benchmarks",
+    "title": "Hawkeye: Reproducing GPU-Level Non-Determinism",
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
     "session_type": "Paper Session",
     "topic": "R18: Benchmarks",
-    "url": "https://mlsys.org/virtual/2026/session/3714",
+    "url": "https://mlsys.org/virtual/2026/oral/3829",
     "format": "In-Person",
     "speakers": [
-      {
-        "name": "Mengtian Yang"
-      },
-      {
-        "name": "Zhekun Zhang"
-      },
-      {
-        "name": "Mingheng Wu"
-      },
-      {
-        "name": "jianwen yan"
-      },
-      {
-        "name": "Hanshi Sun"
-      },
-      {
-        "name": "Li-Wen Chang"
-      },
-      {
-        "name": "Gianluigi Vitale"
-      },
       {
         "name": "* Dan Boneh"
       },
@@ -4192,7 +5746,24 @@
       },
       {
         "name": "Megha Srivastava"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R18: Benchmarks"
+    ]
+  },
+  {
+    "title": "Massive-Scale Out-Of-Core UMAP on the GPU",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R18: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3847",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Jinsol Park"
       },
@@ -4207,7 +5778,115 @@
       },
       {
         "name": "Akira Naruse"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R18: Benchmarks"
+    ]
+  },
+  {
+    "title": "MoEBlaze: Breaking the Memory Wall for Efficient MoE Training on Modern GPUs",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "I2: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3826",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Jiyuan Zhang"
       },
+      {
+        "name": "Yining Liu"
+      },
+      {
+        "name": "Siqi Yan"
+      },
+      {
+        "name": "Lisen Deng"
+      },
+      {
+        "name": "Jennifer Cao"
+      },
+      {
+        "name": "Shuqi Yang"
+      },
+      {
+        "name": "Bi Xue"
+      },
+      {
+        "name": "Min Ni"
+      },
+      {
+        "name": "Shen Li"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I2: LLM Training"
+    ]
+  },
+  {
+    "title": "NodeSweep: Practical Straggler Detection and Health Monitoring for Large-Scale Foundation Model Training",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "I2: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3831",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Guanliang Liu"
+      },
+      {
+        "name": "Zoe Zeng"
+      },
+      {
+        "name": "* Cong Cheng"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Alexander Zhipa"
+      },
+      {
+        "name": "Ashvin Nihalani"
+      },
+      {
+        "name": "Binxuan Huang"
+      },
+      {
+        "name": "*"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I2: LLM Training"
+    ]
+  },
+  {
+    "title": "Parrot: Persuasion and Agreement Robustness Rating of Output Truth",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "R18: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3791",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Yusuf Çelebi"
       },
@@ -4220,17 +5899,53 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R18: Benchmarks"
     ]
   },
   {
-    "title": "Industry-Track Oral Presentation: I3: Benchmarks",
+    "title": "Sparing Strategies to Minimize Reliability Impact On Large Training Jobs",
+    "date": "2026-05-21",
+    "start": "14:45",
+    "end": "16:15",
+    "session_type": "Paper Session",
+    "topic": "I2: LLM Training",
+    "url": "https://mlsys.org/virtual/2026/oral/3862",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "*"
+      },
+      {
+        "name": "Ehsan K. Ardestani"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* Zhaodong Wang"
+      },
+      {
+        "name": "* Xu Zhang"
+      },
+      {
+        "name": "* Ying Zhang"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I2: LLM Training"
+    ]
+  },
+  {
+    "title": "AIRS: Scaling Live Inference in Resource Constrained Environments",
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
     "session_type": "Paper Session",
     "topic": "I3: Benchmarks",
-    "url": "https://mlsys.org/virtual/2026/session/3717",
+    "url": "https://mlsys.org/virtual/2026/oral/3781",
     "format": "In-Person",
     "speakers": [
       {
@@ -4241,156 +5956,22 @@
       },
       {
         "name": "* Harshvardhan GM"
-      },
-      {
-        "name": "Srinivas"
-      },
-      {
-        "name": "* Hanjiang Wu"
-      },
-      {
-        "name": "Changhai Man"
-      },
-      {
-        "name": "Jinsun Yoo"
-      },
-      {
-        "name": "Huan Xu"
-      },
-      {
-        "name": "William Won"
-      },
-      {
-        "name": "* Winston Liu"
-      },
-      {
-        "name": "Andrey Balogh"
-      },
-      {
-        "name": "Dan Mihailescu"
-      },
-      {
-        "name": "Brad B"
-      },
-      {
-        "name": "Vinay Ramakrishnaiah"
-      },
-      {
-        "name": "Spandan More"
-      },
-      {
-        "name": "Saeed Rashidi"
-      },
-      {
-        "name": "Louis Feng"
-      },
-      {
-        "name": "Ashwin Ramachandran"
-      },
-      {
-        "name": "Puneet Sharma"
-      },
-      {
-        "name": "* Vijay Janapa Reddi"
-      },
-      {
-        "name": "David Kanter"
-      },
-      {
-        "name": "Tushar Krishna"
-      },
-      {
-        "name": "Arissa Wongpanich"
-      },
-      {
-        "name": "Tayo Oguntebi"
-      },
-      {
-        "name": "* Yu Wang"
-      },
-      {
-        "name": "Phitchaya Phothilimthana"
-      },
-      {
-        "name": "Ritwika Mitra"
-      },
-      {
-        "name": "Zongwei Zhou"
-      },
-      {
-        "name": "Naveen Kumar"
-      },
-      {
-        "name": "Vijay Janapa Reddi"
-      },
-      {
-        "name": "Bohua Zou"
-      },
-      {
-        "name": "Weihao Xu"
-      },
-      {
-        "name": "Binqi Sun"
-      },
-      {
-        "name": "Fumikazu KONISHI"
-      },
-      {
-        "name": "Yuuki Tsubouchi"
-      },
-      {
-        "name": "Hirofumi Tsuruta"
-      },
-      {
-        "name": "Clive Verghese"
-      },
-      {
-        "name": "Prasanna Rengasamy"
-      },
-      {
-        "name": "* Yin Zhang"
-      },
-      {
-        "name": "Jiya Zhang"
-      },
-      {
-        "name": "* Charles Alaras"
-      },
-      {
-        "name": "Aditya Sharma"
-      },
-      {
-        "name": "Rushabh Lalwani"
-      },
-      {
-        "name": "Sannidhya Chauhan"
-      },
-      {
-        "name": "Sai Ganesh Bandiatmakuri"
-      },
-      {
-        "name": "* Ani Udipi"
-      },
-      {
-        "name": "* Naveen Kumar"
-      },
-      {
-        "name": "* Sayce Falk"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R4: Compilers and Kernels",
+    "title": "AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization",
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
     "session_type": "Paper Session",
     "topic": "R4: Compilers and Kernels",
-    "url": "https://mlsys.org/virtual/2026/session/3718",
+    "url": "https://mlsys.org/virtual/2026/oral/3808",
     "format": "In-Person",
     "speakers": [
       {
@@ -4416,7 +5997,24 @@
       },
       {
         "name": "Kunle Olukotun"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R4: Compilers and Kernels"
+    ]
+  },
+  {
+    "title": "ApproxMLIR : Accuracy-Aware Compiler for Compound ML System",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R4: Compilers and Kernels",
+    "url": "https://mlsys.org/virtual/2026/oral/3757",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Hao Ren"
       },
@@ -4425,7 +6023,24 @@
       },
       {
         "name": "Sasa Misailovic"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R4: Compilers and Kernels"
+    ]
+  },
+  {
+    "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R4: Compilers and Kernels",
+    "url": "https://mlsys.org/virtual/2026/oral/3815",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Hongyi Jin"
       },
@@ -4485,7 +6100,24 @@
       },
       {
         "name": "Tianqi Chen"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R4: Compilers and Kernels"
+    ]
+  },
+  {
+    "title": "HipKittens: Fast and Furious AMD Kernels",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R4: Compilers and Kernels",
+    "url": "https://mlsys.org/virtual/2026/oral/3735",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "William Hu"
       },
@@ -4506,13 +6138,235 @@
       },
       {
         "name": "Simran Arora"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R4: Compilers and Kernels"
+    ]
+  },
+  {
+    "title": "ML Fleet Efficiency: Improving TPU Systems at Scale with ML Productivity Goodput",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "I3: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3734",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Arissa Wongpanich"
       },
+      {
+        "name": "Tayo Oguntebi"
+      },
+      {
+        "name": "* Yu Wang"
+      },
+      {
+        "name": "Phitchaya Phothilimthana"
+      },
+      {
+        "name": "Ritwika Mitra"
+      },
+      {
+        "name": "Zongwei Zhou"
+      },
+      {
+        "name": "Naveen Kumar"
+      },
+      {
+        "name": "Vijay Janapa Reddi"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I3: Benchmarks"
+    ]
+  },
+  {
+    "title": "MLCommons Chakra: Advancing Performance Benchmarking and Co-design using Standardized Execution Traces",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "I3: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3742",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Srinivas"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* Hanjiang Wu"
+      },
+      {
+        "name": "Changhai Man"
+      },
+      {
+        "name": "Jinsun Yoo"
+      },
+      {
+        "name": "Huan Xu"
+      },
+      {
+        "name": "William Won"
+      },
+      {
+        "name": "* Winston Liu"
+      },
+      {
+        "name": "Andrey Balogh"
+      },
+      {
+        "name": "Dan Mihailescu"
+      },
+      {
+        "name": "Brad B"
+      },
+      {
+        "name": "Vinay Ramakrishnaiah"
+      },
+      {
+        "name": "Spandan More"
+      },
+      {
+        "name": "Saeed Rashidi"
+      },
+      {
+        "name": "Louis Feng"
+      },
+      {
+        "name": "Ashwin Ramachandran"
+      },
+      {
+        "name": "Puneet Sharma"
+      },
+      {
+        "name": "* Vijay Janapa Reddi"
+      },
+      {
+        "name": "David Kanter"
+      },
+      {
+        "name": "Tushar Krishna"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I3: Benchmarks"
+    ]
+  },
+  {
+    "title": "ParallelKittens: Systematic and Practical Simplification of Multi-GPU AI Kernels",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R4: Compilers and Kernels",
+    "url": "https://mlsys.org/virtual/2026/oral/3845",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Stuart H. Sul"
       },
       {
+        "name": "Simran Arora"
+      },
+      {
         "name": "Benjamin Spector"
       },
+      {
+        "name": "Christopher Ré"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R4: Compilers and Kernels"
+    ]
+  },
+  {
+    "title": "ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "I3: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3740",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Bohua Zou"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Weihao Xu"
+      },
+      {
+        "name": "Binqi Sun"
+      },
+      {
+        "name": "*"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I3: Benchmarks"
+    ]
+  },
+  {
+    "title": "SAKURAONE: An Open Ethernet-Based AI HPC System and Its Observed Workload Dynamics in a Single-Tenant LLM Development Environment",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "I3: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3758",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Fumikazu KONISHI"
+      },
+      {
+        "name": "Yuuki Tsubouchi"
+      },
+      {
+        "name": "Hirofumi Tsuruta"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I3: Benchmarks"
+    ]
+  },
+  {
+    "title": "SchedFlow: Transparent and Flexible Intra-Device Parallelism via Programmable Operator Scheduling",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "R4: Compilers and Kernels",
+    "url": "https://mlsys.org/virtual/2026/oral/3771",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Yi Pan"
       },
@@ -4543,7 +6397,73 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R4: Compilers and Kernels"
+    ]
+  },
+  {
+    "title": "XProf: An Open, Scalable, and Extensible Profiling System for the Modern ML Stack",
+    "date": "2026-05-21",
+    "start": "16:30",
+    "end": "18:00",
+    "session_type": "Paper Session",
+    "topic": "I3: Benchmarks",
+    "url": "https://mlsys.org/virtual/2026/oral/3827",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Clive Verghese"
+      },
+      {
+        "name": "Prasanna Rengasamy"
+      },
+      {
+        "name": "* Yin Zhang"
+      },
+      {
+        "name": "Jiya Zhang"
+      },
+      {
+        "name": "* Charles Alaras"
+      },
+      {
+        "name": "Aditya Sharma"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Rushabh Lalwani"
+      },
+      {
+        "name": "Sannidhya Chauhan"
+      },
+      {
+        "name": "Sai Ganesh Bandiatmakuri"
+      },
+      {
+        "name": "* Ani Udipi"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* Naveen Kumar"
+      },
+      {
+        "name": "* Sayce Falk"
+      },
+      {
+        "name": "*"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I3: Benchmarks"
     ]
   },
   {
@@ -5991,13 +7911,110 @@
     ]
   },
   {
-    "title": "Industry-Track Oral Presentation: I4: Compilers/HW",
+    "title": "Attribution-based Sparse Activation in Large Language Models",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "R14: Efficient Computation",
+    "url": "https://mlsys.org/virtual/2026/oral/3779",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Jifeng Song"
+      },
+      {
+        "name": "Xiangyu Yin"
+      },
+      {
+        "name": "Boyuan Yang"
+      },
+      {
+        "name": "Kai Huang"
+      },
+      {
+        "name": "Weichen Liu"
+      },
+      {
+        "name": "Wei Gao"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R14: Efficient Computation"
+    ]
+  },
+  {
+    "title": "BLASST: Dynamic BLocked Attention Sparsity via Softmax Thresholding",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "R14: Efficient Computation",
+    "url": "https://mlsys.org/virtual/2026/oral/3854",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Jiayi Yuan"
+      },
+      {
+        "name": "Cameron Shinn"
+      },
+      {
+        "name": "* Jingze Cui"
+      },
+      {
+        "name": "George Klimiashvili"
+      },
+      {
+        "name": "* Perkz Zheng"
+      },
+      {
+        "name": "Bo Li"
+      },
+      {
+        "name": "Zhou Yuxin"
+      },
+      {
+        "name": "Zhouhai Ye"
+      },
+      {
+        "name": "Weijie You"
+      },
+      {
+        "name": "Richard Cai"
+      },
+      {
+        "name": "Julien Demouth"
+      },
+      {
+        "name": "John D. Owens"
+      },
+      {
+        "name": "Xia Hu"
+      },
+      {
+        "name": "* Timmy Liu"
+      },
+      {
+        "name": "Huizi Mao"
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R14: Efficient Computation"
+    ]
+  },
+  {
+    "title": "CATWILD: Compiler Autotuning for TPU workloads in the Wild",
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
     "session_type": "Paper Session",
     "topic": "I4: Compilers/HW",
-    "url": "https://mlsys.org/virtual/2026/session/3721",
+    "url": "https://mlsys.org/virtual/2026/oral/3774",
     "format": "In-Person",
     "speakers": [
       {
@@ -6043,6 +8060,9 @@
         "name": "Amit Sabne"
       },
       {
+        "name": "*"
+      },
+      {
         "name": "Berkin Ilbeyi"
       },
       {
@@ -6058,7 +8078,13 @@
         "name": "Ankit Sinha"
       },
       {
+        "name": "*"
+      },
+      {
         "name": "* Nikhil Sarda"
+      },
+      {
+        "name": "*"
       },
       {
         "name": "* Emily Donahue"
@@ -6067,8 +8093,34 @@
         "name": "Sami Abu-El-Haija"
       },
       {
-        "name": "* Naveen Kumar"
+        "name": "*"
       },
+      {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "* Naveen Kumar"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I4: Compilers/HW"
+    ]
+  },
+  {
+    "title": "Dataflow Is All You Need",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "I4: Compilers/HW",
+    "url": "https://mlsys.org/virtual/2026/oral/3852",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Darshan Gandhi"
       },
@@ -6080,6 +8132,9 @@
       },
       {
         "name": "* Romy Tsoupidi"
+      },
+      {
+        "name": "*"
       },
       {
         "name": "Tuowen Zhao"
@@ -6097,6 +8152,9 @@
         "name": "Han Wang"
       },
       {
+        "name": "*"
+      },
+      {
         "name": "* Yun Du"
       },
       {
@@ -6104,7 +8162,24 @@
       },
       {
         "name": "* Raghu Prabhakar"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I4: Compilers/HW"
+    ]
+  },
+  {
+    "title": "Efficient, VRAM-Constrained xLM Inference on Clients",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "I4: Compilers/HW",
+    "url": "https://mlsys.org/virtual/2026/oral/3802",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Aditya Ukarande"
       },
@@ -6113,7 +8188,24 @@
       },
       {
         "name": "* Ram Rangan"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I4: Compilers/HW"
+    ]
+  },
+  {
+    "title": "ExecuTorch - A Unified PyTorch Solution to Run ML Models On-Device",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "I4: Compilers/HW",
+    "url": "https://mlsys.org/virtual/2026/oral/3768",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Chen Lai"
       },
@@ -6127,6 +8219,9 @@
         "name": "Gregory Comer"
       },
       {
+        "name": "*"
+      },
+      {
         "name": "* Lucy Qiu"
       },
       {
@@ -6134,6 +8229,9 @@
       },
       {
         "name": "* Songhao Jia"
+      },
+      {
+        "name": "*"
       },
       {
         "name": "Digant Desai"
@@ -6172,111 +8270,34 @@
         "name": "Andrew Or"
       },
       {
+        "name": "*"
+      },
+      {
+        "name": "*"
+      },
+      {
         "name": "* Supriya Rao"
       },
       {
         "name": "* Soumith Chintala"
-      },
-      {
-        "name": "Harsh Menon"
-      },
-      {
-        "name": "* Gaurav Verma"
-      },
-      {
-        "name": "Martin P. Lücke"
-      },
-      {
-        "name": "Nithin Meganathan"
-      },
-      {
-        "name": "Sanket Pandit"
-      },
-      {
-        "name": "William Gallard Hatch"
-      },
-      {
-        "name": "Sahil FAIZAL"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
   {
-    "title": "Research-Track Oral Presentation: R14: Efficient Computation",
+    "title": "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling",
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
     "session_type": "Paper Session",
     "topic": "R14: Efficient Computation",
-    "url": "https://mlsys.org/virtual/2026/session/3722",
+    "url": "https://mlsys.org/virtual/2026/oral/3759",
     "format": "In-Person",
     "speakers": [
-      {
-        "name": "Jifeng Song"
-      },
-      {
-        "name": "Xiangyu Yin"
-      },
-      {
-        "name": "Boyuan Yang"
-      },
-      {
-        "name": "Kai Huang"
-      },
-      {
-        "name": "Weichen Liu"
-      },
-      {
-        "name": "Wei Gao"
-      },
-      {
-        "name": "Jiayi Yuan"
-      },
-      {
-        "name": "Cameron Shinn"
-      },
-      {
-        "name": "* Jingze Cui"
-      },
-      {
-        "name": "George Klimiashvili"
-      },
-      {
-        "name": "* Perkz Zheng"
-      },
-      {
-        "name": "Bo Li"
-      },
-      {
-        "name": "Zhou Yuxin"
-      },
-      {
-        "name": "Zhouhai Ye"
-      },
-      {
-        "name": "Weijie You"
-      },
-      {
-        "name": "Richard Cai"
-      },
-      {
-        "name": "Julien Demouth"
-      },
-      {
-        "name": "John D. Owens"
-      },
-      {
-        "name": "Xia Hu"
-      },
-      {
-        "name": "* Timmy Liu"
-      },
-      {
-        "name": "Huizi Mao"
-      },
       {
         "name": "Ted Zadouri"
       },
@@ -6288,7 +8309,24 @@
       },
       {
         "name": "*"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R14: Efficient Computation"
+    ]
+  },
+  {
+    "title": "Flashlight: PyTorch Compiler Extensions to Accelerate Attention Variants",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "R14: Efficient Computation",
+    "url": "https://mlsys.org/virtual/2026/oral/3763",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Bozhi You"
       },
@@ -6309,7 +8347,24 @@
       },
       {
         "name": "Keshav Pingali"
-      },
+      }
+    ],
+    "room": "Grand Ballroom 2",
+    "key_themes": [
+      "Research-Track",
+      "R14: Efficient Computation"
+    ]
+  },
+  {
+    "title": "Spira: Exploiting Voxel Data Structural Properties for Efficient Sparse Convolution in Point Cloud Networks",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "R14: Efficient Computation",
+    "url": "https://mlsys.org/virtual/2026/oral/3797",
+    "format": "In-Person",
+    "speakers": [
       {
         "name": "Dionysios Adamopoulos"
       },
@@ -6325,7 +8380,55 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R14: Efficient Computation"
+    ]
+  },
+  {
+    "title": "WAVE: A SYMBOLIC PYTHON DSL AND COMPILER FOR HIGH PERFORMANCE MACHINE LEARNING",
+    "date": "2026-05-22",
+    "start": "08:15",
+    "end": "09:30",
+    "session_type": "Paper Session",
+    "topic": "I4: Compilers/HW",
+    "url": "https://mlsys.org/virtual/2026/oral/3778",
+    "format": "In-Person",
+    "speakers": [
+      {
+        "name": "Harsh Menon"
+      },
+      {
+        "name": "* Gaurav Verma"
+      },
+      {
+        "name": "Martin P. Lücke"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Nithin Meganathan"
+      },
+      {
+        "name": "Sanket Pandit"
+      },
+      {
+        "name": "William Gallard Hatch"
+      },
+      {
+        "name": "*"
+      },
+      {
+        "name": "Sahil FAIZAL"
+      },
+      {
+        "name": "*"
+      }
+    ],
+    "room": "Grand Ballroom 1",
+    "key_themes": [
+      "Industry-Track",
+      "I4: Compilers/HW"
     ]
   },
   {
