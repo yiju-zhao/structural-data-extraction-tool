@@ -201,7 +201,7 @@
     },
     {
       "title": "Flash3DGS: Algorithm and System Co-Optimization for Fast 3D Gaussian Splatting on GPUs",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -223,7 +223,7 @@
     },
     {
       "title": "Matrix: Peer-to-Peer Multi-Agent Synthetic Data Generation Framework",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -256,7 +256,7 @@
     },
     {
       "title": "OSWorld-Human: Benchmarking the Efficiency of Computer-Use Agents",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -277,7 +277,7 @@
     },
     {
       "title": "Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -299,7 +299,7 @@
     },
     {
       "title": "StreamDiffusionV2: A Streaming System for Dynamic and Interactive Video Generation",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -330,7 +330,7 @@
     },
     {
       "title": "TiDAR: Think in Diffusion, Talk in Autoregression",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -355,7 +355,7 @@
     },
     {
       "title": "TriInfer: Hybrid EPD Disaggregation for Efficient Multimodal Large Language Model Inference",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -382,7 +382,7 @@
     },
     {
       "title": "VeriMoA: A Mixture-of-Agents Framework for Spec-to-HDL Generation",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -411,7 +411,7 @@
     },
     {
       "title": "When Enough is Enough: Rank-Aware Early Termination for Vector Search",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -432,7 +432,7 @@
     },
     {
       "title": "db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -457,7 +457,7 @@
     },
     {
       "title": "AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -478,7 +478,7 @@
     },
     {
       "title": "ContextPilot: Fast Long-Context Inference via Context Reuse",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -502,7 +502,7 @@
     },
     {
       "title": "FlashAgents: Accelerating Multi-Agent LLM Systems via Streaming Prefill Overlap",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -527,7 +527,7 @@
     },
     {
       "title": "From Tokens to Layers: Redefining Stall-Free Scheduling for LLM Serving with Layered Prefill",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -548,7 +548,7 @@
     },
     {
       "title": "HELIOS : Adaptive Model And Early-Exit Selection for Efficient LLM Inference Serving",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -571,7 +571,7 @@
     },
     {
       "title": "Hippocampus: An Efficient and Scalable Memory Module for Agentic AI",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -594,7 +594,7 @@
     },
     {
       "title": "Ontology-Guided Long-Term Agent Memory for Conversational RAG",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -614,7 +614,7 @@
     },
     {
       "title": "PLA-Serve: A Prefill-Length-Aware LLM Serving System",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -642,7 +642,7 @@
     },
     {
       "title": "RagInfer: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -674,7 +674,7 @@
     },
     {
       "title": "Stream2LLM: Overlap Context Streaming and Prefill for Reduced Time-to-First-Token",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -696,7 +696,7 @@
     },
     {
       "title": "SuperInfer: SLO-Aware Rotary Scheduling and Memory Management for LLM Inference on Superchips",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -717,7 +717,7 @@
     },
     {
       "title": "TokenBlend: Accelerating Tensor Parallelism LLM Inference Through Efficient Compute-Communication Overlap",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -738,7 +738,7 @@
     },
     {
       "title": "Blueprint, Bootstrap, and Bridge: A Security Look at NVIDIA GPU Confidential Computing",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -761,7 +761,7 @@
     },
     {
       "title": "CSLE: A Reinforcement Learning Platform for Autonomous Security Management",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -780,7 +780,7 @@
     },
     {
       "title": "DisAgg: Distributed Aggregators for Efficient Secure Aggregation",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -804,7 +804,7 @@
     },
     {
       "title": "FLoRIST: Singular Value Thresholding for Efficient and Accurate Federated Fine-Tuning of Large Language Models",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -824,7 +824,7 @@
     },
     {
       "title": "G-HEMP: FAST MULTI-GPU PRIVATE INFERENCE FOR LARGE-SCALE GCNS WITH HOMOMORPHIC ENCRYPTION",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -848,7 +848,7 @@
     },
     {
       "title": "PLayer-FL: A Principled Approach to Personalized Layer-wise Cross-Silo Federated Learning",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -869,7 +869,7 @@
     },
     {
       "title": "Privatar: Scalable Privacy-preserving Multi-user VR via Secure Offloading",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -894,7 +894,7 @@
     },
     {
       "title": "ProToken: Token-Level Attribution for Federated Large Language Models",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -916,7 +916,7 @@
     },
     {
       "title": "SONAR: Benchmarking Topology and Collaboration in Decentralized Learning",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -940,7 +940,7 @@
     },
     {
       "title": "Toward Principled LLM Safety Testing: Solving the Jailbreak Oracle Problem",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -962,7 +962,7 @@
     },
     {
       "title": "ZK-APEX: ZERO-KNOWLEDGE APPROXIMATE PERSONALIZED UNLEARNING WITH EXECUTABLE PROOFS",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -982,7 +982,7 @@
     },
     {
       "title": "Zero redundancy distributed learning with differential privacy",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-19",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -1249,7 +1249,7 @@
     },
     {
       "title": "BEAM: Joint Resource-Power Optimization for Energy-Efficient LLM Inference under SLO contraints",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1271,7 +1271,7 @@
     },
     {
       "title": "BOOST: BOttleneck-Optimized Scalable Training Framework for Low-Rank Large Language Models",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1295,7 +1295,7 @@
     },
     {
       "title": "BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1316,7 +1316,7 @@
     },
     {
       "title": "Breaking the Ice: Analyzing Cold Start Latency in vLLM",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1337,7 +1337,7 @@
     },
     {
       "title": "Efficient Long-Context Language Model Training by Core Attention Disaggregation",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1363,7 +1363,7 @@
     },
     {
       "title": "FaaScale: Unlocking Fast LLM Scaling for Serverless Inference",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1390,7 +1390,7 @@
     },
     {
       "title": "Locality-Aware Beam Scheduling for Efficient Test-Time Compute with a Consumer-grade GPU",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1411,7 +1411,7 @@
     },
     {
       "title": "MTraining: Distributed Dynamic Sparse Attention for Efficient Ultra-Long Context Training",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1434,7 +1434,7 @@
     },
     {
       "title": "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1458,7 +1458,7 @@
     },
     {
       "title": "NEST: Network- and Memory-Aware Device Placement for Distributed Deep Learning",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1479,7 +1479,7 @@
     },
     {
       "title": "ProTrain: Efficient LLM Training via Automatic Memory Management",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1502,7 +1502,7 @@
     },
     {
       "title": "Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -1559,7 +1559,7 @@
     },
     {
       "title": "Automated Algorithm Design for Auto-Tuning Optimizers",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1580,7 +1580,7 @@
     },
     {
       "title": "FlexiCache: Leveraging Temporal Stability of Attention Heads for Efficient KV Cache Management",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1602,7 +1602,7 @@
     },
     {
       "title": "Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1634,7 +1634,7 @@
     },
     {
       "title": "LLMInfer-Bench: Building the Virtuous Cycle for AI-driven LLM Systems",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1663,7 +1663,7 @@
     },
     {
       "title": "MAC-Attention: a Match--Amend--Complete scheme for fast and accurate attention computation",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1686,7 +1686,7 @@
     },
     {
       "title": "OPKV: A High-Throughput Plugin-Driven Framework for Recallable Sparsity in Paged KV Cache Systems",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1709,7 +1709,7 @@
     },
     {
       "title": "Practical Adversarial Multi-Armed Bandits with Sublinear Runtime",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1734,7 +1734,7 @@
     },
     {
       "title": "SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1762,7 +1762,7 @@
     },
     {
       "title": "Unified LLM Model for Power, Performance, and Area Prediction from Hardware Code",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1783,7 +1783,7 @@
     },
     {
       "title": "Using Span Queries to Optimize Cache and Attention Locality",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1807,7 +1807,7 @@
     },
     {
       "title": "Virtual Machine NUMA Placement at Scale: Learning the Norm, Shielding the Tail",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1839,7 +1839,7 @@
     },
     {
       "title": "When Machine Learning Isn't Sure: Building Resilient ML-Based Computer Systems by Embracing Uncertainty",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -1865,7 +1865,7 @@
     },
     {
       "title": "Beat the long tail: Distribution-Aware Speculative Decoding for RL Training",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -1896,7 +1896,7 @@
     },
     {
       "title": "CRAFT: Fine-Grained Cost-Aware Expert Replication For Efficient Mixture-of-Experts Serving",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -1920,7 +1920,7 @@
     },
     {
       "title": "Demystifying the Mixture of Experts Serving Tax",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -1940,7 +1940,7 @@
     },
     {
       "title": "FarSkip-Collectives: Unhobbling Blocking Communication in Mixture of Experts Models",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -1961,7 +1961,7 @@
     },
     {
       "title": "FlexTrain: Scalable Hybrid-Parallel Training with Elastic Resource Utilization and Consistent Accuracy",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -1983,7 +1983,7 @@
     },
     {
       "title": "GhostServe: A Lightweight Checkpointing System in the Shadow for Fault-Tolerant LLM Serving",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -2005,7 +2005,7 @@
     },
     {
       "title": "HetRL: Efficient Reinforcement Learning for LLMs in Heterogeneous Environments",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -2030,7 +2030,7 @@
     },
     {
       "title": "Learning from Less: Measuring the Effectiveness of RLVR in Low Data and Compute Regimes",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -2055,7 +2055,7 @@
     },
     {
       "title": "NexSpec: Towards Optimizing Speculative Decoding in Reinforcement Learning Systems",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -2082,7 +2082,7 @@
     },
     {
       "title": "Pylo: Towards Accessible Learned Optimizers in PyTorch",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -2106,7 +2106,7 @@
     },
     {
       "title": "RDMA Point-to-Point Communication for LLM Systems",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -2128,7 +2128,7 @@
     },
     {
       "title": "RaidServe: High-performance Resilient Serving",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -2150,7 +2150,7 @@
     },
     {
       "title": "A Lightweight High-Throughput Collective-Capable NoC for Large-Scale ML Accelerators",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2172,7 +2172,7 @@
     },
     {
       "title": "CAGE: Curvature-Aware Gradient Estimation For Accurate Quantization-Aware Training",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2192,7 +2192,7 @@
     },
     {
       "title": "DreamDDP: Accelerating Low-Bandwidth Geo-Distributed LLM Training with Layer-wise Partial Synchronization",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2218,7 +2218,7 @@
     },
     {
       "title": "FP8-Flow-MoE: A Casting-Free FP8 Recipe without Double Quantization Error",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2239,7 +2239,7 @@
     },
     {
       "title": "GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2264,7 +2264,7 @@
     },
     {
       "title": "Grolar: Efficient LLM Training on Heterogeneous Clusters",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2286,7 +2286,7 @@
     },
     {
       "title": "HexiScale: Facilitating Large Language Model Training over Heterogeneous Hardware",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2310,7 +2310,7 @@
     },
     {
       "title": "MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2331,7 +2331,7 @@
     },
     {
       "title": "Once-for-All Channel Mixers (HyperTinyPW): Generative Compression for TinyML",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2350,7 +2350,7 @@
     },
     {
       "title": "Search Your NVFP4 Scales!",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2381,7 +2381,7 @@
     },
     {
       "title": "Shannonic: Efficient Entropy-Optimal Compression for ML Workloads",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-20",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -2726,7 +2726,7 @@
     },
     {
       "title": "ADS: AN AGENTIC DETECTION SYSTEM FOR ENTERPRISE AGENTIC AI SECURITY",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2753,7 +2753,7 @@
     },
     {
       "title": "Accelerating Large-Scale Reasoning Model Inference with Sparse Self-Speculative Decoding",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2784,7 +2784,7 @@
     },
     {
       "title": "Agentic Operator Generation for ML ASICs",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2814,7 +2814,7 @@
     },
     {
       "title": "CDLM: CONSISTENCY DIFFUSION LANGUAGE MODELS FOR FASTER SAMPLING",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2840,7 +2840,7 @@
     },
     {
       "title": "Cost-aware Duration Prediction for Software Upgrades in Datacenters",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2860,7 +2860,7 @@
     },
     {
       "title": "PRISM: PARAMETRICALLY RESTRUCTURED INFERENCE FOR SPECULATIVE SAMPLING DRAFT MODELS",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2886,7 +2886,7 @@
     },
     {
       "title": "PROMPTS: PeRformance Optimization via Multi-Agent Planning for LLM Training and Serving",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2908,7 +2908,7 @@
     },
     {
       "title": "SpecDiff-2: Scaling Diffusion Drafter Alignment For Faster Speculative Decoding",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2929,7 +2929,7 @@
     },
     {
       "title": "Speculative Decoding: Performance or Illusion?",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -2952,7 +2952,7 @@
     },
     {
       "title": "The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "08:30",
       "endTime": "10:00",
@@ -3006,7 +3006,7 @@
     },
     {
       "title": "BatchLLM: Optimizing Large Batched LLM Inference with Global Prefix Sharing and Throughput-oriented Token Batching",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3030,7 +3030,7 @@
     },
     {
       "title": "Beyond the Buzz: A Pragmatic Take on Inference Disaggregation",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3065,7 +3065,7 @@
     },
     {
       "title": "EarthSight: A Distributed Framework for Low-Latency Satellite Intelligence",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3086,7 +3086,7 @@
     },
     {
       "title": "IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3109,7 +3109,7 @@
     },
     {
       "title": "LEANN: A Low-Storage Overhead Vector Index",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3140,7 +3140,7 @@
     },
     {
       "title": "Meeting SLOs, Slashing Hours: Automated Enterprise LLM Optimization with OptiKIT",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3166,7 +3166,7 @@
     },
     {
       "title": "Optimizing Deployment Configurations for LLM Inference",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3220,7 +3220,7 @@
     },
     {
       "title": "REPARO: LOSS-RESILIENT GENERATIVE CODEC FOR VIDEO CONFERENCING",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3244,7 +3244,7 @@
     },
     {
       "title": "Rethinking DVFS for Mobile LLMs: Unified Energy-Aware Scheduling with CORE",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3267,7 +3267,7 @@
     },
     {
       "title": "SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3286,7 +3286,7 @@
     },
     {
       "title": "Scaling Up Large Language Models Serving Systems for Semantic Job Search",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "13:00",
       "endTime": "14:30",
@@ -3320,7 +3320,7 @@
     },
     {
       "title": "AXLearn: Modular, Hardware-Agnostic Large Model Training",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3363,7 +3363,7 @@
     },
     {
       "title": "Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3387,7 +3387,7 @@
     },
     {
       "title": "DriftBench: Measuring and Predicting Infrastructure Drift in LLM Serving Systems",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3406,7 +3406,7 @@
     },
     {
       "title": "FlexScale: Flexible and High-Performance FSDP at Scale",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3434,7 +3434,7 @@
     },
     {
       "title": "FreeScale: Distributed Training for Sequence Recommendation Models with Minimal Scaling Cost",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3469,7 +3469,7 @@
     },
     {
       "title": "Hawkeye: Reproducing GPU-Level Non-Determinism",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3490,7 +3490,7 @@
     },
     {
       "title": "Massive-Scale Out-Of-Core UMAP on the GPU",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3513,7 +3513,7 @@
     },
     {
       "title": "MoEBlaze: Breaking the Memory Wall for Efficient MoE Training on Modern GPUs",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3540,7 +3540,7 @@
     },
     {
       "title": "NodeSweep: Practical Straggler Detection and Health Monitoring for Large-Scale Foundation Model Training",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3564,7 +3564,7 @@
     },
     {
       "title": "Parrot: Persuasion and Agreement Robustness Rating of Output Truth",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3585,7 +3585,7 @@
     },
     {
       "title": "Sparing Strategies to Minimize Reliability Impact On Large Training Jobs",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "14:45",
       "endTime": "16:15",
@@ -3607,7 +3607,7 @@
     },
     {
       "title": "AIRS: Scaling Live Inference in Resource Constrained Environments",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3627,7 +3627,7 @@
     },
     {
       "title": "AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3652,7 +3652,7 @@
     },
     {
       "title": "ApproxMLIR : Accuracy-Aware Compiler for Compound ML System",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3673,7 +3673,7 @@
     },
     {
       "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3711,7 +3711,7 @@
     },
     {
       "title": "HipKittens: Fast and Furious AMD Kernels",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3736,7 +3736,7 @@
     },
     {
       "title": "ML Fleet Efficiency: Improving TPU Systems at Scale with ML Productivity Goodput",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3762,7 +3762,7 @@
     },
     {
       "title": "MLCommons Chakra: Advancing Performance Benchmarking and Co-design using Standardized Execution Traces",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3799,7 +3799,7 @@
     },
     {
       "title": "ParallelKittens: Systematic and Practical Simplification of Multi-GPU AI Kernels",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3821,7 +3821,7 @@
     },
     {
       "title": "ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3842,7 +3842,7 @@
     },
     {
       "title": "SAKURAONE: An Open Ethernet-Based AI HPC System and Its Observed Workload Dynamics in a Single-Tenant LLM Development Environment",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3863,7 +3863,7 @@
     },
     {
       "title": "SchedFlow: Transparent and Flexible Intra-Device Parallelism via Programmable Operator Scheduling",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -3890,7 +3890,7 @@
     },
     {
       "title": "XProf: An Open, Scalable, and Extensible Profiling System for the Modern ML Stack",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-21",
       "startTime": "16:30",
       "endTime": "18:00",
@@ -4462,7 +4462,7 @@
     },
     {
       "title": "Attribution-based Sparse Activation in Large Language Models",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4486,7 +4486,7 @@
     },
     {
       "title": "BLASST: Dynamic BLocked Attention Sparsity via Softmax Thresholding",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4519,7 +4519,7 @@
     },
     {
       "title": "CATWILD: Compiler Autotuning for TPU workloads in the Wild",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4559,7 +4559,7 @@
     },
     {
       "title": "Dataflow Is All You Need",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4589,7 +4589,7 @@
     },
     {
       "title": "Efficient, VRAM-Constrained xLM Inference on Clients",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4610,7 +4610,7 @@
     },
     {
       "title": "ExecuTorch - A Unified PyTorch Solution to Run ML Models On-Device",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4649,7 +4649,7 @@
     },
     {
       "title": "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4670,7 +4670,7 @@
     },
     {
       "title": "Flashlight: PyTorch Compiler Extensions to Accelerate Attention Variants",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4695,7 +4695,7 @@
     },
     {
       "title": "Spira: Exploiting Voxel Data Structural Properties for Efficient Sparse Convolution in Point Cloud Networks",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",
@@ -4717,7 +4717,7 @@
     },
     {
       "title": "WAVE: A SYMBOLIC PYTHON DSL AND COMPILER FOR HIGH PERFORMANCE MACHINE LEARNING",
-      "type": "Paper Session",
+      "type": "Oral Session",
       "date": "2026-05-22",
       "startTime": "08:15",
       "endTime": "09:30",

@@ -470,7 +470,7 @@ def normalize(entries):
                 authors = split_authors(p.get("authors", ""))
                 sess = {
                     "title": p["title"],
-                    "type": "Paper Session",
+                    "type": "Oral Session",
                     "date": date,
                     "startTime": start,
                     "endTime": end,
