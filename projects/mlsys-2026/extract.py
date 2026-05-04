@@ -455,18 +455,22 @@ def normalize(entries):
         topic = derive_topic(e, title)
 
         # Oral session groups: expand into one record per paper using /oral/<id>
-        # URLs. Each paper inherits the parent group's date/time/room. The
-        # track is carried by the `type` field itself ('Research-Track Oral
-        # Session' / 'Industry-Track Oral Session') since sparkflow has no
-        # dedicated track field.
+        # URLs. Each paper inherits the parent group's date/time/room. Per the
+        # sparkflow session-format.md spec, `type` stays on the standard
+        # 'Paper Session' value and the track lives in `topic` as the first
+        # element (e.g., ['Research-Track', 'R19: Multimodal ...']).
         if type_ == "Paper Session" and detail.get("papers"):
             track = derive_track(e)
-            paper_type = f"{track} Oral Session" if track else "Oral Session"
+            topics = []
+            if track:
+                topics.append(track)
+            if topic:
+                topics.append(topic)
             for p in detail["papers"]:
                 authors = split_authors(p.get("authors", ""))
                 sess = {
                     "title": p["title"],
-                    "type": paper_type,
+                    "type": "Paper Session",
                     "date": date,
                     "startTime": start,
                     "endTime": end,
@@ -474,7 +478,7 @@ def normalize(entries):
                     "sessionUrl": p["url"],
                     "sessionFormat": "IN_PERSON",
                     "hasRecording": False,
-                    "topic": [topic] if topic else [],
+                    "topic": list(topics),
                     "speaker": authors,
                 }
                 if p.get("abstract"):
@@ -524,24 +528,30 @@ def normalize(entries):
     return sessions
 
 
+TRACKS = ("Research-Track", "Industry-Track")
+
+
 def to_conferenceflow(sessions):
     out = []
     for s in sessions:
+        topics = list(s.get("topic", []))
+        # topic-string is the session subject, not the track marker
+        subject = next((t for t in topics if t not in TRACKS), "")
         rec = {
             "title": s["title"],
             "date": s["date"],
             "start": s["startTime"],
             "end": s["endTime"],
             "session_type": s["type"],
-            "topic": (s["topic"][0] if s.get("topic") else ""),
+            "topic": subject,
             "url": s["sessionUrl"],
             "format": "In-Person",
             "speakers": [{"name": n} for n in s.get("speaker", [])],
         }
         if s.get("location"):
             rec["room"] = s["location"]
-        if s.get("topic"):
-            rec["key_themes"] = s["topic"]
+        if topics:
+            rec["key_themes"] = topics
         out.append(rec)
     return out
 

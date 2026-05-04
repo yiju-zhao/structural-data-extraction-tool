@@ -208,7 +208,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3773",
     "format": "In-Person",
@@ -228,6 +228,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -236,7 +237,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3753",
     "format": "In-Person",
@@ -289,6 +290,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -297,7 +299,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3865",
     "format": "In-Person",
@@ -314,6 +316,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -322,7 +325,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3823",
     "format": "In-Person",
@@ -342,6 +345,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -350,7 +354,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3750",
     "format": "In-Person",
@@ -397,6 +401,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -405,7 +410,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3751",
     "format": "In-Person",
@@ -434,6 +439,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -442,7 +448,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3756",
     "format": "In-Person",
@@ -477,6 +483,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -485,7 +492,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3855",
     "format": "In-Person",
@@ -526,6 +533,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -534,7 +542,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3835",
     "format": "In-Person",
@@ -551,6 +559,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -559,7 +568,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3798",
     "format": "In-Person",
@@ -588,6 +597,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -596,7 +606,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3806",
     "format": "In-Person",
@@ -613,6 +623,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -621,7 +632,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3810",
     "format": "In-Person",
@@ -647,6 +658,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -655,7 +667,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3760",
     "format": "In-Person",
@@ -684,6 +696,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -692,7 +705,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3732",
     "format": "In-Person",
@@ -709,6 +722,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -717,7 +731,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3846",
     "format": "In-Person",
@@ -740,6 +754,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -748,7 +763,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3863",
     "format": "In-Person",
@@ -771,6 +786,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -779,7 +795,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3738",
     "format": "In-Person",
@@ -793,6 +809,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -801,7 +818,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3787",
     "format": "In-Person",
@@ -839,6 +856,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -847,7 +865,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3796",
     "format": "In-Person",
@@ -897,6 +915,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -905,7 +924,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3842",
     "format": "In-Person",
@@ -925,6 +944,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -933,7 +953,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3809",
     "format": "In-Person",
@@ -950,6 +970,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -958,7 +979,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3744",
     "format": "In-Person",
@@ -975,6 +996,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -983,7 +1005,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3741",
     "format": "In-Person",
@@ -1006,6 +1028,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1014,7 +1037,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3812",
     "format": "In-Person",
@@ -1025,6 +1048,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1033,7 +1057,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3837",
     "format": "In-Person",
@@ -1059,6 +1083,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1067,7 +1092,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3840",
     "format": "In-Person",
@@ -1081,6 +1106,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1089,7 +1115,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3811",
     "format": "In-Person",
@@ -1115,6 +1141,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1123,7 +1150,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3813",
     "format": "In-Person",
@@ -1140,6 +1167,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1148,7 +1176,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3801",
     "format": "In-Person",
@@ -1177,6 +1205,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1185,7 +1214,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3850",
     "format": "In-Person",
@@ -1205,6 +1234,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1213,7 +1243,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3857",
     "format": "In-Person",
@@ -1239,6 +1269,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1247,7 +1278,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3739",
     "format": "In-Person",
@@ -1267,6 +1298,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1275,7 +1307,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3793",
     "format": "In-Person",
@@ -1289,6 +1321,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1297,7 +1330,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3803",
     "format": "In-Person",
@@ -1320,6 +1353,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1920,7 +1954,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3849",
     "format": "In-Person",
@@ -1940,6 +1974,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -1948,7 +1983,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3830",
     "format": "In-Person",
@@ -1974,6 +2009,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -1982,7 +2018,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3795",
     "format": "In-Person",
@@ -1999,6 +2035,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2007,7 +2044,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3784",
     "format": "In-Person",
@@ -2024,6 +2061,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2032,7 +2070,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3754",
     "format": "In-Person",
@@ -2064,6 +2102,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2072,7 +2111,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3769",
     "format": "In-Person",
@@ -2107,6 +2146,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2115,7 +2155,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3788",
     "format": "In-Person",
@@ -2132,6 +2172,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2140,7 +2181,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3775",
     "format": "In-Person",
@@ -2163,6 +2204,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2171,7 +2213,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3816",
     "format": "In-Person",
@@ -2197,6 +2239,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2205,7 +2248,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3767",
     "format": "In-Person",
@@ -2222,6 +2265,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2230,7 +2274,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3800",
     "format": "In-Person",
@@ -2253,6 +2297,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2261,7 +2306,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3822",
     "format": "In-Person",
@@ -2290,6 +2335,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2332,7 +2378,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3748",
     "format": "In-Person",
@@ -2349,6 +2395,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2357,7 +2404,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3838",
     "format": "In-Person",
@@ -2377,6 +2424,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2385,7 +2433,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3746",
     "format": "In-Person",
@@ -2435,6 +2483,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2443,7 +2492,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3832",
     "format": "In-Person",
@@ -2484,6 +2533,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2492,7 +2542,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3794",
     "format": "In-Person",
@@ -2515,6 +2565,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2523,7 +2574,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3844",
     "format": "In-Person",
@@ -2546,6 +2597,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2554,7 +2606,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3762",
     "format": "In-Person",
@@ -2583,6 +2635,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2591,7 +2644,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3864",
     "format": "In-Person",
@@ -2629,6 +2682,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2637,7 +2691,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3761",
     "format": "In-Person",
@@ -2654,6 +2708,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2662,7 +2717,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3747",
     "format": "In-Person",
@@ -2688,6 +2743,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2696,7 +2752,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3777",
     "format": "In-Person",
@@ -2746,6 +2802,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2754,7 +2811,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3772",
     "format": "In-Person",
@@ -2786,6 +2843,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2794,7 +2852,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3766",
     "format": "In-Person",
@@ -2841,6 +2899,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -2849,7 +2908,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3731",
     "format": "In-Person",
@@ -2875,6 +2934,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -2883,7 +2943,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3764",
     "format": "In-Person",
@@ -2897,6 +2957,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -2905,7 +2966,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3743",
     "format": "In-Person",
@@ -2922,6 +2983,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -2930,7 +2992,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3776",
     "format": "In-Person",
@@ -2950,6 +3012,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -2958,7 +3021,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3736",
     "format": "In-Person",
@@ -2978,6 +3041,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -2986,7 +3050,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3825",
     "format": "In-Person",
@@ -3015,6 +3079,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3023,7 +3088,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3783",
     "format": "In-Person",
@@ -3052,6 +3117,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3060,7 +3126,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3836",
     "format": "In-Person",
@@ -3095,6 +3161,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3103,7 +3170,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3824",
     "format": "In-Person",
@@ -3129,6 +3196,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3137,7 +3205,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3807",
     "format": "In-Person",
@@ -3157,6 +3225,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -3165,7 +3234,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3856",
     "format": "In-Person",
@@ -3185,6 +3254,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -3193,7 +3263,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3804",
     "format": "In-Person",
@@ -3213,6 +3283,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3221,7 +3292,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3841",
     "format": "In-Person",
@@ -3235,6 +3306,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3243,7 +3315,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3790",
     "format": "In-Person",
@@ -3275,6 +3347,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3283,7 +3356,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3737",
     "format": "In-Person",
@@ -3300,6 +3373,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3308,7 +3382,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3851",
     "format": "In-Person",
@@ -3337,6 +3411,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3345,7 +3420,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3859",
     "format": "In-Person",
@@ -3365,6 +3440,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3373,7 +3449,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3828",
     "format": "In-Person",
@@ -3399,6 +3475,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3407,7 +3484,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3805",
     "format": "In-Person",
@@ -3424,6 +3501,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3432,7 +3510,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3818",
     "format": "In-Person",
@@ -3443,6 +3521,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3451,7 +3530,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3770",
     "format": "In-Person",
@@ -3498,6 +3577,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3506,7 +3586,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3820",
     "format": "In-Person",
@@ -3520,6 +3600,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -4324,7 +4405,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3853",
     "format": "In-Person",
@@ -4359,6 +4440,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4367,7 +4449,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3733",
     "format": "In-Person",
@@ -4414,6 +4496,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4422,7 +4505,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3817",
     "format": "In-Person",
@@ -4466,6 +4549,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4474,7 +4558,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3785",
     "format": "In-Person",
@@ -4506,6 +4590,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4514,7 +4599,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3765",
     "format": "In-Person",
@@ -4528,6 +4613,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4536,7 +4622,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3789",
     "format": "In-Person",
@@ -4568,6 +4654,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4576,7 +4663,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3843",
     "format": "In-Person",
@@ -4596,6 +4683,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4604,7 +4692,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3755",
     "format": "In-Person",
@@ -4621,6 +4709,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4629,7 +4718,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3782",
     "format": "In-Person",
@@ -4652,6 +4741,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4660,7 +4750,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3749",
     "format": "In-Person",
@@ -4677,6 +4767,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4719,7 +4810,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3833",
     "format": "In-Person",
@@ -4745,6 +4836,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -4753,7 +4845,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3819",
     "format": "In-Person",
@@ -4812,6 +4904,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -4820,7 +4913,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3792",
     "format": "In-Person",
@@ -4837,6 +4930,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -4845,7 +4939,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3848",
     "format": "In-Person",
@@ -4868,6 +4962,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -4876,7 +4971,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3786",
     "format": "In-Person",
@@ -4923,6 +5018,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -4931,7 +5027,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3752",
     "format": "In-Person",
@@ -4963,6 +5059,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -4971,7 +5068,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3780",
     "format": "In-Person",
@@ -5087,6 +5184,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -5095,7 +5193,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3839",
     "format": "In-Person",
@@ -5121,6 +5219,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -5129,7 +5228,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3814",
     "format": "In-Person",
@@ -5152,6 +5251,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -5160,7 +5260,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3834",
     "format": "In-Person",
@@ -5171,6 +5271,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -5179,7 +5280,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3745",
     "format": "In-Person",
@@ -5235,6 +5336,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -5243,7 +5345,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3858",
     "format": "In-Person",
@@ -5326,6 +5428,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5334,7 +5437,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3861",
     "format": "In-Person",
@@ -5360,6 +5463,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5368,7 +5472,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3799",
     "format": "In-Person",
@@ -5379,6 +5483,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5387,7 +5492,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3860",
     "format": "In-Person",
@@ -5425,6 +5530,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5433,7 +5539,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3821",
     "format": "In-Person",
@@ -5492,6 +5598,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5500,7 +5607,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3829",
     "format": "In-Person",
@@ -5517,6 +5624,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5525,7 +5633,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3847",
     "format": "In-Person",
@@ -5548,6 +5656,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5556,7 +5665,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3826",
     "format": "In-Person",
@@ -5591,6 +5700,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5599,7 +5709,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3831",
     "format": "In-Person",
@@ -5625,6 +5735,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5633,7 +5744,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3791",
     "format": "In-Person",
@@ -5650,6 +5761,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5658,7 +5770,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3862",
     "format": "In-Person",
@@ -5678,6 +5790,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5686,7 +5799,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3781",
     "format": "In-Person",
@@ -5700,6 +5813,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -5708,7 +5822,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3808",
     "format": "In-Person",
@@ -5737,6 +5851,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -5745,7 +5860,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3757",
     "format": "In-Person",
@@ -5762,6 +5877,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -5770,7 +5886,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3815",
     "format": "In-Person",
@@ -5838,6 +5954,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -5846,7 +5963,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3735",
     "format": "In-Person",
@@ -5875,6 +5992,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -5883,7 +6001,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3734",
     "format": "In-Person",
@@ -5915,6 +6033,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -5923,7 +6042,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3742",
     "format": "In-Person",
@@ -5988,6 +6107,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -5996,7 +6116,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3845",
     "format": "In-Person",
@@ -6016,6 +6136,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -6024,7 +6145,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3740",
     "format": "In-Person",
@@ -6041,6 +6162,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -6049,7 +6171,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3758",
     "format": "In-Person",
@@ -6066,6 +6188,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -6074,7 +6197,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3771",
     "format": "In-Person",
@@ -6109,6 +6232,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -6117,7 +6241,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3827",
     "format": "In-Person",
@@ -6161,6 +6285,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -7595,7 +7720,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3779",
     "format": "In-Person",
@@ -7621,6 +7746,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -7629,7 +7755,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3854",
     "format": "In-Person",
@@ -7682,6 +7808,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -7690,7 +7817,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3774",
     "format": "In-Person",
@@ -7764,6 +7891,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
@@ -7772,7 +7900,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3852",
     "format": "In-Person",
@@ -7816,6 +7944,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
@@ -7824,7 +7953,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3802",
     "format": "In-Person",
@@ -7841,6 +7970,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
@@ -7849,7 +7979,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3768",
     "format": "In-Person",
@@ -7920,6 +8050,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
@@ -7928,7 +8059,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3759",
     "format": "In-Person",
@@ -7945,6 +8076,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -7953,7 +8085,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3763",
     "format": "In-Person",
@@ -7982,6 +8114,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -7990,7 +8123,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Research-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3797",
     "format": "In-Person",
@@ -8010,6 +8143,7 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
+      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -8018,7 +8152,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Industry-Track Oral Session",
+    "session_type": "Paper Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3778",
     "format": "In-Person",
@@ -8047,6 +8181,7 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
+      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
