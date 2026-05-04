@@ -324,9 +324,15 @@ AUTHOR_SEP = re.compile(r"\s*[*⋅]\s*|\s*·\s*")
 def split_authors(s):
     if not s:
         return []
-    parts = re.split(r"\s+\*\s+", s)  # using cleaned ' * ' separator
-    parts = [p.strip().strip(",") for p in parts if p and p.strip().strip(",")]
-    return parts
+    # The unicode-cleaned separator is ' * '. Some pages have empty entries
+    # (consecutive separators) that leave a leading/trailing '*' on a name.
+    parts = re.split(r"\s*\*\s*", s)
+    out = []
+    for p in parts:
+        p = p.strip().strip(",").strip("*").strip()
+        if p:
+            out.append(p)
+    return out
 
 
 def parse_time_range(line):
@@ -449,15 +455,18 @@ def normalize(entries):
         topic = derive_topic(e, title)
 
         # Oral session groups: expand into one record per paper using /oral/<id>
-        # URLs. Each paper inherits the parent group's date/time/room and
-        # carries the track (Research-Track / Industry-Track) as metadata.
+        # URLs. Each paper inherits the parent group's date/time/room. The
+        # track is carried by the `type` field itself ('Research-Track Oral
+        # Session' / 'Industry-Track Oral Session') since sparkflow has no
+        # dedicated track field.
         if type_ == "Paper Session" and detail.get("papers"):
             track = derive_track(e)
+            paper_type = f"{track} Oral Session" if track else "Oral Session"
             for p in detail["papers"]:
                 authors = split_authors(p.get("authors", ""))
                 sess = {
                     "title": p["title"],
-                    "type": "Paper Session",
+                    "type": paper_type,
                     "date": date,
                     "startTime": start,
                     "endTime": end,
@@ -468,8 +477,6 @@ def normalize(entries):
                     "topic": [topic] if topic else [],
                     "speaker": authors,
                 }
-                if track:
-                    sess["track"] = track
                 if p.get("abstract"):
                     sess["abstract"] = p["abstract"]
                 sessions.append(sess)
@@ -533,11 +540,8 @@ def to_conferenceflow(sessions):
         }
         if s.get("location"):
             rec["room"] = s["location"]
-        themes = list(s.get("topic", []))
-        if s.get("track") and s["track"] not in themes:
-            themes.insert(0, s["track"])
-        if themes:
-            rec["key_themes"] = themes
+        if s.get("topic"):
+            rec["key_themes"] = s["topic"]
         out.append(rec)
     return out
 

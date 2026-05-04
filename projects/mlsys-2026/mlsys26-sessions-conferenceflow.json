@@ -208,7 +208,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3773",
     "format": "In-Person",
@@ -228,7 +228,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -237,7 +236,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3753",
     "format": "In-Person",
@@ -290,7 +289,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -299,7 +297,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3865",
     "format": "In-Person",
@@ -316,7 +314,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -325,7 +322,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3823",
     "format": "In-Person",
@@ -345,7 +342,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -354,7 +350,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3750",
     "format": "In-Person",
@@ -378,7 +374,7 @@
         "name": "Xiuyu Li"
       },
       {
-        "name": "* Keting Yang"
+        "name": "Keting Yang"
       },
       {
         "name": "Kelly Peng"
@@ -401,7 +397,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -410,7 +405,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3751",
     "format": "In-Person",
@@ -425,7 +420,7 @@
         "name": "Zhifan Ye"
       },
       {
-        "name": "* Yonggan Fu"
+        "name": "Yonggan Fu"
       },
       {
         "name": "vartika singh"
@@ -439,7 +434,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -448,7 +442,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3756",
     "format": "In-Person",
@@ -466,10 +460,10 @@
         "name": "Weizhe Huang"
       },
       {
-        "name": "* Siyu Wu"
+        "name": "Siyu Wu"
       },
       {
-        "name": "* Liu Yang"
+        "name": "Liu Yang"
       },
       {
         "name": "Yu Wu"
@@ -478,12 +472,11 @@
         "name": "Hailong Yang"
       },
       {
-        "name": "* Jing Li"
+        "name": "Jing Li"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -492,7 +485,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3855",
     "format": "In-Person",
@@ -533,7 +526,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -542,7 +534,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R16: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3835",
     "format": "In-Person",
@@ -559,7 +551,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R16: Agentic AI"
     ]
   },
@@ -568,7 +559,7 @@
     "date": "2026-05-19",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R19: Multimodal and Generative Models",
     "url": "https://mlsys.org/virtual/2026/oral/3798",
     "format": "In-Person",
@@ -597,7 +588,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R19: Multimodal and Generative Models"
     ]
   },
@@ -606,7 +596,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3806",
     "format": "In-Person",
@@ -623,7 +613,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -632,7 +621,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3810",
     "format": "In-Person",
@@ -658,7 +647,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -667,7 +655,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3760",
     "format": "In-Person",
@@ -696,7 +684,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -705,16 +692,13 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3732",
     "format": "In-Person",
     "speakers": [
       {
         "name": "Gunjun Lee"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Younjoo Lee"
@@ -725,7 +709,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -734,7 +717,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3846",
     "format": "In-Person",
@@ -757,7 +740,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -766,7 +748,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3863",
     "format": "In-Person",
@@ -789,7 +771,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -798,7 +779,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3738",
     "format": "In-Person",
@@ -812,7 +793,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -821,7 +801,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3787",
     "format": "In-Person",
@@ -859,7 +839,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -868,7 +847,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R9: Agentic AI",
     "url": "https://mlsys.org/virtual/2026/oral/3796",
     "format": "In-Person",
@@ -918,7 +897,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R9: Agentic AI"
     ]
   },
@@ -927,7 +905,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3842",
     "format": "In-Person",
@@ -936,7 +914,7 @@
         "name": "Rajveer Bachkaniwala"
       },
       {
-        "name": "* Richard So"
+        "name": "Richard So"
       },
       {
         "name": "Divya Mahajan"
@@ -947,7 +925,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -956,7 +933,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3809",
     "format": "In-Person",
@@ -968,12 +945,11 @@
         "name": "Mingtao Hu"
       },
       {
-        "name": "* Minjia Zhang"
+        "name": "Minjia Zhang"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -982,7 +958,7 @@
     "date": "2026-05-19",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3744",
     "format": "In-Person",
@@ -999,7 +975,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R1: LLM Serving"
     ]
   },
@@ -1008,7 +983,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3741",
     "format": "In-Person",
@@ -1017,13 +992,10 @@
         "name": "Zhongshu Gu"
       },
       {
-        "name": "* Salman Ahmed"
+        "name": "Salman Ahmed"
       },
       {
         "name": "Julian James stephen"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Shixuan Zhao"
@@ -1034,7 +1006,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1043,7 +1014,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3812",
     "format": "In-Person",
@@ -1054,7 +1025,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1063,7 +1033,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3837",
     "format": "In-Person",
@@ -1084,12 +1054,11 @@
         "name": "Jie Xi"
       },
       {
-        "name": "* Mete Ozay"
+        "name": "Mete Ozay"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1098,7 +1067,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3840",
     "format": "In-Person",
@@ -1112,7 +1081,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1121,7 +1089,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3811",
     "format": "In-Person",
@@ -1147,7 +1115,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1156,7 +1123,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3813",
     "format": "In-Person",
@@ -1173,7 +1140,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1182,7 +1148,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3801",
     "format": "In-Person",
@@ -1194,7 +1160,7 @@
         "name": "Hanshen Xiao"
       },
       {
-        "name": "* Hao Kang"
+        "name": "Hao Kang"
       },
       {
         "name": "Ashish Sirasao"
@@ -1211,7 +1177,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1220,7 +1185,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3850",
     "format": "In-Person",
@@ -1240,7 +1205,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1249,7 +1213,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3857",
     "format": "In-Person",
@@ -1270,12 +1234,11 @@
         "name": "Ramesh Raskar"
       },
       {
-        "name": "* Martin Jaggi"
+        "name": "Martin Jaggi"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1284,7 +1247,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3739",
     "format": "In-Person",
@@ -1304,7 +1267,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1313,7 +1275,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R10: Security and Privacy",
     "url": "https://mlsys.org/virtual/2026/oral/3793",
     "format": "In-Person",
@@ -1322,15 +1284,11 @@
         "name": "Mohammad M Maheri"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Hamed Haddadi"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R10: Security and Privacy"
     ]
   },
@@ -1339,7 +1297,7 @@
     "date": "2026-05-19",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R8: Federated Learning",
     "url": "https://mlsys.org/virtual/2026/oral/3803",
     "format": "In-Person",
@@ -1362,7 +1320,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R8: Federated Learning"
     ]
   },
@@ -1389,13 +1346,10 @@
         "name": "Zhongshu Gu"
       },
       {
-        "name": "* Salman Ahmed"
+        "name": "Salman Ahmed"
       },
       {
         "name": "Julian James stephen"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Shixuan Zhao"
@@ -1461,7 +1415,7 @@
         "name": "Jie Xi"
       },
       {
-        "name": "* Mete Ozay"
+        "name": "Mete Ozay"
       },
       {
         "name": "Taosong Fang"
@@ -1665,7 +1619,7 @@
         "name": "Hanshen Xiao"
       },
       {
-        "name": "* Hao Kang"
+        "name": "Hao Kang"
       },
       {
         "name": "Ashish Sirasao"
@@ -1707,13 +1661,13 @@
         "name": "Ramesh Raskar"
       },
       {
-        "name": "* Martin Jaggi"
+        "name": "Martin Jaggi"
       },
       {
         "name": "Rajveer Bachkaniwala"
       },
       {
-        "name": "* Richard So"
+        "name": "Richard So"
       },
       {
         "name": "Divya Mahajan"
@@ -1740,7 +1694,7 @@
         "name": "Xiuyu Li"
       },
       {
-        "name": "* Keting Yang"
+        "name": "Keting Yang"
       },
       {
         "name": "Kelly Peng"
@@ -1767,7 +1721,7 @@
         "name": "Mingtao Hu"
       },
       {
-        "name": "* Minjia Zhang"
+        "name": "Minjia Zhang"
       },
       {
         "name": "Lingjun Gao"
@@ -1833,7 +1787,7 @@
         "name": "Zhifan Ye"
       },
       {
-        "name": "* Yonggan Fu"
+        "name": "Yonggan Fu"
       },
       {
         "name": "vartika singh"
@@ -1878,10 +1832,10 @@
         "name": "Weizhe Huang"
       },
       {
-        "name": "* Siyu Wu"
+        "name": "Siyu Wu"
       },
       {
-        "name": "* Liu Yang"
+        "name": "Liu Yang"
       },
       {
         "name": "Yu Wu"
@@ -1890,7 +1844,7 @@
         "name": "Hailong Yang"
       },
       {
-        "name": "* Jing Li"
+        "name": "Jing Li"
       },
       {
         "name": "Heng Ping"
@@ -1966,7 +1920,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3849",
     "format": "In-Person",
@@ -1986,7 +1940,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -1995,7 +1948,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3830",
     "format": "In-Person",
@@ -2013,15 +1966,14 @@
         "name": "Avinash Maurya"
       },
       {
-        "name": "* Paul Hovland"
+        "name": "Paul Hovland"
       },
       {
-        "name": "* zheng Zhang"
+        "name": "zheng Zhang"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2030,7 +1982,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3795",
     "format": "In-Person",
@@ -2047,7 +1999,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2056,7 +2007,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3784",
     "format": "In-Person",
@@ -2073,7 +2024,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2082,7 +2032,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3754",
     "format": "In-Person",
@@ -2094,7 +2044,7 @@
         "name": "Junda Chen"
       },
       {
-        "name": "* Yi Gu"
+        "name": "Yi Gu"
       },
       {
         "name": "Yibo Zhu"
@@ -2114,7 +2064,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2123,7 +2072,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3769",
     "format": "In-Person",
@@ -2135,7 +2084,7 @@
         "name": "Rui Yang"
       },
       {
-        "name": "* Zhaoyuan Su"
+        "name": "Zhaoyuan Su"
       },
       {
         "name": "Sheng Yao"
@@ -2144,7 +2093,7 @@
         "name": "Tingfeng Lan"
       },
       {
-        "name": "* Zirui Wang"
+        "name": "Zirui Wang"
       },
       {
         "name": "Yue Cheng"
@@ -2153,12 +2102,11 @@
         "name": "Wei Wang"
       },
       {
-        "name": "* Ruichuan Chen"
+        "name": "Ruichuan Chen"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2167,7 +2115,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3788",
     "format": "In-Person",
@@ -2184,7 +2132,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2193,7 +2140,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3775",
     "format": "In-Person",
@@ -2211,12 +2158,11 @@
         "name": "Yucheng Li"
       },
       {
-        "name": "* Lili Qiu"
+        "name": "Lili Qiu"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2225,7 +2171,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R2: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3816",
     "format": "In-Person",
@@ -2243,7 +2189,7 @@
         "name": "Zirui Wang"
       },
       {
-        "name": "* Juncheng Yang"
+        "name": "Juncheng Yang"
       },
       {
         "name": "Yue Cheng"
@@ -2251,7 +2197,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R2: LLM Serving"
     ]
   },
@@ -2260,7 +2205,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3767",
     "format": "In-Person",
@@ -2269,7 +2214,7 @@
         "name": "Irene Wang"
       },
       {
-        "name": "* Arvind Krishnamurthy"
+        "name": "Arvind Krishnamurthy"
       },
       {
         "name": "Divya Mahajan"
@@ -2277,7 +2222,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2286,7 +2230,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3800",
     "format": "In-Person",
@@ -2295,10 +2239,10 @@
         "name": "Hanmei Yang"
       },
       {
-        "name": "* Yao Fu"
+        "name": "Yao Fu"
       },
       {
-        "name": "* Ramine Roane"
+        "name": "Ramine Roane"
       },
       {
         "name": "Hui Guan"
@@ -2309,7 +2253,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2318,7 +2261,7 @@
     "date": "2026-05-20",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R6: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3822",
     "format": "In-Person",
@@ -2331,9 +2274,6 @@
       },
       {
         "name": "Kan Zhu"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Hongxiang Hao"
@@ -2350,7 +2290,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R6: LLM Training"
     ]
   },
@@ -2393,7 +2332,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3748",
     "format": "In-Person",
@@ -2410,7 +2349,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2419,7 +2357,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3838",
     "format": "In-Person",
@@ -2439,7 +2377,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2448,7 +2385,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3746",
     "format": "In-Person",
@@ -2481,7 +2418,7 @@
         "name": "Alay Dilipbhai Shah"
       },
       {
-        "name": "* Donglin Zhuang"
+        "name": "Donglin Zhuang"
       },
       {
         "name": "Zhongzhu Zhou"
@@ -2498,7 +2435,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2507,7 +2443,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3832",
     "format": "In-Person",
@@ -2540,9 +2476,6 @@
         "name": "Yineng Zhang"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Luis Ceze"
       },
       {
@@ -2551,7 +2484,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2560,7 +2492,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3794",
     "format": "In-Person",
@@ -2583,7 +2515,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2592,7 +2523,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3844",
     "format": "In-Person",
@@ -2610,12 +2541,11 @@
         "name": "Long Chen"
       },
       {
-        "name": "Xia Zhu *"
+        "name": "Xia Zhu"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2624,7 +2554,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3762",
     "format": "In-Person",
@@ -2636,7 +2566,7 @@
         "name": "Ama Bembua Bainson"
       },
       {
-        "name": "* Kristoffer Strube"
+        "name": "Kristoffer Strube"
       },
       {
         "name": "Renata Borovica-Gajic"
@@ -2653,7 +2583,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2662,7 +2591,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3864",
     "format": "In-Person",
@@ -2700,7 +2629,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2709,7 +2637,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3761",
     "format": "In-Person",
@@ -2726,7 +2654,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2735,7 +2662,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R3: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3747",
     "format": "In-Person",
@@ -2761,7 +2688,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R3: LLM Serving"
     ]
   },
@@ -2770,7 +2696,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3777",
     "format": "In-Person",
@@ -2789,12 +2715,6 @@
       },
       {
         "name": "Zhenhua Han"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Jui-Hao Chiang"
@@ -2826,7 +2746,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2835,7 +2754,7 @@
     "date": "2026-05-20",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R11: ML for Systems",
     "url": "https://mlsys.org/virtual/2026/oral/3772",
     "format": "In-Person",
@@ -2867,7 +2786,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R11: ML for Systems"
     ]
   },
@@ -2876,7 +2794,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3766",
     "format": "In-Person",
@@ -2895,9 +2813,6 @@
       },
       {
         "name": "Xiaoxia Wu"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Qingyang Wu"
@@ -2926,7 +2841,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -2935,16 +2849,13 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3731",
     "format": "In-Person",
     "speakers": [
       {
         "name": "Adrian Zhao"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Lingfan Yu"
@@ -2964,7 +2875,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -2973,7 +2883,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3764",
     "format": "In-Person",
@@ -2987,7 +2897,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -2996,16 +2905,13 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3743",
     "format": "In-Person",
     "speakers": [
       {
         "name": "Yonatan Dukler"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Vikram Appia"
@@ -3016,7 +2922,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -3025,7 +2930,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3776",
     "format": "In-Person",
@@ -3040,12 +2945,11 @@
         "name": "Jun Wang"
       },
       {
-        "name": "* Jiayi Huang"
+        "name": "Jiayi Huang"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3054,7 +2958,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3736",
     "format": "In-Person",
@@ -3074,7 +2978,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -3083,7 +2986,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3825",
     "format": "In-Person",
@@ -3095,7 +2998,7 @@
         "name": "Shuai Zhang"
       },
       {
-        "name": "* Xiyuan Zhang"
+        "name": "Xiyuan Zhang"
       },
       {
         "name": "Boran Han"
@@ -3112,7 +3015,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3121,7 +3023,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3783",
     "format": "In-Person",
@@ -3150,7 +3052,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3159,7 +3060,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3836",
     "format": "In-Person",
@@ -3194,7 +3095,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3203,7 +3103,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R12: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3824",
     "format": "In-Person",
@@ -3229,7 +3129,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R12: LLM Training"
     ]
   },
@@ -3238,7 +3137,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3807",
     "format": "In-Person",
@@ -3258,7 +3157,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -3267,7 +3165,7 @@
     "date": "2026-05-20",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R5: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3856",
     "format": "In-Person",
@@ -3287,7 +3185,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R5: LLM Serving"
     ]
   },
@@ -3296,7 +3193,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3804",
     "format": "In-Person",
@@ -3311,15 +3208,11 @@
         "name": "Chen Wu"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Luca Benini"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3328,7 +3221,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3841",
     "format": "In-Person",
@@ -3337,15 +3230,11 @@
         "name": "Soroush Tabesh"
       },
       {
-        "name": "* Andrei Panferov"
-      },
-      {
-        "name": "*"
+        "name": "Andrei Panferov"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3354,7 +3243,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3790",
     "format": "In-Person",
@@ -3378,15 +3267,14 @@
         "name": "Yuxin Wang"
       },
       {
-        "name": "* Shaohuai Shi"
+        "name": "Shaohuai Shi"
       },
       {
-        "name": "Xiaowen Chu *"
+        "name": "Xiaowen Chu"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3395,7 +3283,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3737",
     "format": "In-Person",
@@ -3407,15 +3295,11 @@
         "name": "Zhiyi Su"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Sun Mou"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3424,7 +3308,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3851",
     "format": "In-Person",
@@ -3453,7 +3337,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3462,7 +3345,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3859",
     "format": "In-Person",
@@ -3482,7 +3365,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3491,7 +3373,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R7: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3828",
     "format": "In-Person",
@@ -3517,7 +3399,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Research-Track",
       "R7: LLM Training"
     ]
   },
@@ -3526,7 +3407,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3805",
     "format": "In-Person",
@@ -3543,7 +3424,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3552,7 +3432,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3818",
     "format": "In-Person",
@@ -3563,7 +3443,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3572,7 +3451,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3770",
     "format": "In-Person",
@@ -3619,7 +3498,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3628,7 +3506,7 @@
     "date": "2026-05-20",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R15: Model Compression",
     "url": "https://mlsys.org/virtual/2026/oral/3820",
     "format": "In-Person",
@@ -3637,12 +3515,11 @@
         "name": "Kareem Ibrahim"
       },
       {
-        "name": "* Andreas Moshovos"
+        "name": "Andreas Moshovos"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R15: Model Compression"
     ]
   },
@@ -3664,9 +3541,6 @@
       },
       {
         "name": "Chen Wu"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Luca Benini"
@@ -3699,10 +3573,10 @@
         "name": "Vikranth Srivatsa"
       },
       {
-        "name": "* Qingyang Wu"
+        "name": "Qingyang Wu"
       },
       {
-        "name": "* Xiaoxia Wu"
+        "name": "Xiaoxia Wu"
       },
       {
         "name": "Ameen Patel"
@@ -3744,10 +3618,10 @@
         "name": "Avinash Maurya"
       },
       {
-        "name": "* Paul Hovland"
+        "name": "Paul Hovland"
       },
       {
-        "name": "* zheng Zhang"
+        "name": "zheng Zhang"
       },
       {
         "name": "YOUHE JIANG"
@@ -3771,7 +3645,7 @@
         "name": "Soroush Tabesh"
       },
       {
-        "name": "* Andrei Panferov"
+        "name": "Andrei Panferov"
       },
       {
         "name": "Adrian Zhao"
@@ -3798,7 +3672,7 @@
         "name": "Dayeol Lee"
       },
       {
-        "name": "* Arvind Krishnamurthy"
+        "name": "Arvind Krishnamurthy"
       },
       {
         "name": "Zhenheng Tang"
@@ -3819,10 +3693,10 @@
         "name": "Yuxin Wang"
       },
       {
-        "name": "* Shaohuai Shi"
+        "name": "Shaohuai Shi"
       },
       {
-        "name": "Xiaowen Chu *"
+        "name": "Xiaowen Chu"
       },
       {
         "name": "Yonghao Zhuang"
@@ -3831,7 +3705,7 @@
         "name": "Junda Chen"
       },
       {
-        "name": "* Yi Gu"
+        "name": "Yi Gu"
       },
       {
         "name": "Yibo Zhu"
@@ -3855,7 +3729,7 @@
         "name": "Rui Yang"
       },
       {
-        "name": "* Zhaoyuan Su"
+        "name": "Zhaoyuan Su"
       },
       {
         "name": "Sheng Yao"
@@ -3864,7 +3738,7 @@
         "name": "Tingfeng Lan"
       },
       {
-        "name": "* Zirui Wang"
+        "name": "Zirui Wang"
       },
       {
         "name": "Yue Cheng"
@@ -3873,7 +3747,7 @@
         "name": "Wei Wang"
       },
       {
-        "name": "* Ruichuan Chen"
+        "name": "Ruichuan Chen"
       },
       {
         "name": "Nandor Licker"
@@ -3969,7 +3843,7 @@
         "name": "Shuguang Wang"
       },
       {
-        "name": "* Jiayi Huang"
+        "name": "Jiayi Huang"
       },
       {
         "name": "Fengjuan Wang"
@@ -4017,7 +3891,7 @@
         "name": "Shuai Zhang"
       },
       {
-        "name": "* Xiyuan Zhang"
+        "name": "Xiyuan Zhang"
       },
       {
         "name": "Boran Han"
@@ -4045,9 +3919,6 @@
       },
       {
         "name": "Haojun Xia"
-      },
-      {
-        "name": "Xiaoxia Wu"
       },
       {
         "name": "Jisen Li"
@@ -4131,16 +4002,10 @@
         "name": "Chuanjie Liu"
       },
       {
-        "name": "Zhaoyuan Su"
-      },
-      {
         "name": "Zeyu Zhang"
       },
       {
-        "name": "Zirui Wang"
-      },
-      {
-        "name": "* Juncheng Yang"
+        "name": "Juncheng Yang"
       },
       {
         "name": "Wenxuan Li"
@@ -4155,7 +4020,7 @@
         "name": "Yucheng Li"
       },
       {
-        "name": "* Lili Qiu"
+        "name": "Lili Qiu"
       },
       {
         "name": "Irene Wang"
@@ -4179,7 +4044,7 @@
         "name": "Long Chen"
       },
       {
-        "name": "Xia Zhu *"
+        "name": "Xia Zhu"
       },
       {
         "name": "Kasper Overgaard Mortensen"
@@ -4188,7 +4053,7 @@
         "name": "Ama Bembua Bainson"
       },
       {
-        "name": "* Kristoffer Strube"
+        "name": "Kristoffer Strube"
       },
       {
         "name": "Renata Borovica-Gajic"
@@ -4290,9 +4155,6 @@
         "name": "Reyna Abhyankar"
       },
       {
-        "name": "Qingyang Wu"
-      },
-      {
         "name": "Austin Silveria"
       },
       {
@@ -4330,9 +4192,6 @@
       },
       {
         "name": "Sharath Nittur Sridhar"
-      },
-      {
-        "name": "zheng Zhang"
       },
       {
         "name": "Massoud Pedram"
@@ -4416,9 +4275,6 @@
         "name": "Yongqiang Xiong"
       },
       {
-        "name": "Lili Qiu"
-      },
-      {
         "name": "Lidong Zhou"
       },
       {
@@ -4468,7 +4324,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3853",
     "format": "In-Person",
@@ -4492,7 +4348,7 @@
         "name": "Caroline Van"
       },
       {
-        "name": "* Wei Zhou"
+        "name": "Wei Zhou"
       },
       {
         "name": "Mohammad Alizadeh"
@@ -4503,7 +4359,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4512,7 +4367,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3733",
     "format": "In-Person",
@@ -4559,7 +4414,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4568,7 +4422,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3817",
     "format": "In-Person",
@@ -4583,7 +4437,7 @@
         "name": "Aman Dontula"
       },
       {
-        "name": "* Zacharias Fisches"
+        "name": "Zacharias Fisches"
       },
       {
         "name": "Dmitrii Pedchenko"
@@ -4592,7 +4446,7 @@
         "name": "Keyur Muzumdar"
       },
       {
-        "name": "* Mark Saroufim"
+        "name": "Mark Saroufim"
       },
       {
         "name": "Joe Isaacson"
@@ -4604,18 +4458,14 @@
         "name": "Warren Hunt"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Gabriel Synnaeve"
       },
       {
-        "name": "* Jacob Kahn *"
+        "name": "Jacob Kahn"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4624,7 +4474,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3785",
     "format": "In-Person",
@@ -4656,7 +4506,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4665,7 +4514,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3765",
     "format": "In-Person",
@@ -4679,7 +4528,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4688,7 +4536,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3789",
     "format": "In-Person",
@@ -4720,7 +4568,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4729,7 +4576,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3843",
     "format": "In-Person",
@@ -4749,7 +4596,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4758,7 +4604,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3755",
     "format": "In-Person",
@@ -4770,12 +4616,11 @@
         "name": "Jacob K Christopher"
       },
       {
-        "name": "* Ferdinando Fioretto"
+        "name": "Ferdinando Fioretto"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4784,7 +4629,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R13: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3782",
     "format": "In-Person",
@@ -4807,7 +4652,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R13: LLM Serving"
     ]
   },
@@ -4816,7 +4660,7 @@
     "date": "2026-05-21",
     "start": "08:30",
     "end": "10:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I5: Agentic AI/MLSys",
     "url": "https://mlsys.org/virtual/2026/oral/3749",
     "format": "In-Person",
@@ -4825,24 +4669,14 @@
         "name": "Xingyao Wang"
       },
       {
-        "name": "* Juan Michelini"
+        "name": "Juan Michelini"
       },
       {
         "name": "Calvin Smith"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "* *"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I5: Agentic AI/MLSys"
     ]
   },
@@ -4885,7 +4719,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3833",
     "format": "In-Person",
@@ -4911,7 +4745,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -4920,7 +4753,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3819",
     "format": "In-Person",
@@ -4944,7 +4777,7 @@
         "name": "Yan Ru Pei"
       },
       {
-        "name": "* Kyle Kranen"
+        "name": "Kyle Kranen"
       },
       {
         "name": "Ramon Matas"
@@ -4962,7 +4795,7 @@
         "name": "Arpan Dutta"
       },
       {
-        "name": "* Sailaja Madduri"
+        "name": "Sailaja Madduri"
       },
       {
         "name": "Dharmesh Jani"
@@ -4979,7 +4812,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -4988,7 +4820,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3792",
     "format": "In-Person",
@@ -5005,7 +4837,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -5014,7 +4845,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3848",
     "format": "In-Person",
@@ -5037,7 +4868,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -5046,7 +4876,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3786",
     "format": "In-Person",
@@ -5093,7 +4923,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -5102,7 +4931,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3752",
     "format": "In-Person",
@@ -5114,7 +4943,7 @@
         "name": "Kareem Eissa"
       },
       {
-        "name": "* Piotr Florek"
+        "name": "Piotr Florek"
       },
       {
         "name": "Matteo Nulli"
@@ -5134,7 +4963,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -5143,7 +4971,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3780",
     "format": "In-Person",
@@ -5164,25 +4992,22 @@
         "name": "Geonhwa Jeong"
       },
       {
-        "name": "* Scott Batura"
+        "name": "Scott Batura"
       },
       {
-        "name": "*"
+        "name": "Sijia Chen"
       },
       {
-        "name": "* Sijia Chen"
-      },
-      {
-        "name": "* Bradley Davis"
+        "name": "Bradley Davis"
       },
       {
         "name": "Summer Deng"
       },
       {
-        "name": "* Emad El-Haraty"
+        "name": "Emad El-Haraty"
       },
       {
-        "name": "* Lu Fang"
+        "name": "Lu Fang"
       },
       {
         "name": "Lu Fang"
@@ -5191,13 +5016,7 @@
         "name": "Joshua Fromm"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Liangpeng Guo"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Jianyu Huang"
@@ -5206,16 +5025,10 @@
         "name": "Aya Ibrahim"
       },
       {
-        "name": "* Hongyi Jia"
+        "name": "Hongyi Jia"
       },
       {
         "name": "Changkyu Kim"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Xiaozhu Meng"
@@ -5224,19 +5037,13 @@
         "name": "Vlad Tiberiu Mihailescu"
       },
       {
-        "name": "* Maxim Naumov"
+        "name": "Maxim Naumov"
       },
       {
         "name": "Michal Ostrowski"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Sarunya Pumma"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Jeremy Francis Reizenstein"
@@ -5245,19 +5052,19 @@
         "name": "Rajasi Saha"
       },
       {
-        "name": "* Zhan Shu"
+        "name": "Zhan Shu"
       },
       {
         "name": "Ruan Silva"
       },
       {
-        "name": "* Jon Swenson"
+        "name": "Jon Swenson"
       },
       {
-        "name": "* Chris Thi"
+        "name": "Chris Thi"
       },
       {
-        "name": "* Yunfan Wang"
+        "name": "Yunfan Wang"
       },
       {
         "name": "Pengchao Wang"
@@ -5266,27 +5073,20 @@
         "name": "Wenchen Wang"
       },
       {
-        "name": "* Bram Wasti"
-      },
-      {
-        "name": "*"
+        "name": "Bram Wasti"
       },
       {
         "name": "Jingyi Yang"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Jing Zhang"
       },
       {
-        "name": "Yi Zhen *"
+        "name": "Yi Zhen"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -5295,7 +5095,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3839",
     "format": "In-Person",
@@ -5321,7 +5121,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -5330,7 +5129,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R17: Edge and Mobile",
     "url": "https://mlsys.org/virtual/2026/oral/3814",
     "format": "In-Person",
@@ -5339,7 +5138,7 @@
         "name": "Zongpu Zhang"
       },
       {
-        "name": "* Y. Charlie Hu"
+        "name": "Y. Charlie Hu"
       },
       {
         "name": "Qiang Xu"
@@ -5353,7 +5152,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R17: Edge and Mobile"
     ]
   },
@@ -5362,30 +5160,17 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3834",
     "format": "In-Person",
     "speakers": [
       {
-        "name": "*"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "* Sahil Parmar"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "* *"
+        "name": "Sahil Parmar"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -5394,7 +5179,7 @@
     "date": "2026-05-21",
     "start": "13:00",
     "end": "14:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I1: LLM Serving",
     "url": "https://mlsys.org/virtual/2026/oral/3745",
     "format": "In-Person",
@@ -5427,30 +5212,29 @@
         "name": "Chanh Nguyen"
       },
       {
-        "name": "* Hejian Sang"
+        "name": "Hejian Sang"
       },
       {
         "name": "Ata Fatahi"
       },
       {
-        "name": "* Xiaoqing Wang"
+        "name": "Xiaoqing Wang"
       },
       {
         "name": "Qing Lan"
       },
       {
-        "name": "* Qi Guo"
+        "name": "Qi Guo"
       },
       {
         "name": "Caleb Johnson"
       },
       {
-        "name": "Zhipeng Wang *"
+        "name": "Zhipeng Wang"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I1: LLM Serving"
     ]
   },
@@ -5459,7 +5243,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3858",
     "format": "In-Person",
@@ -5474,13 +5258,10 @@
         "name": "Chang Lan"
       },
       {
-        "name": "* Hanzhi Zhou"
+        "name": "Hanzhi Zhou"
       },
       {
-        "name": "* Sneha Bangalore"
-      },
-      {
-        "name": "*"
+        "name": "Sneha Bangalore"
       },
       {
         "name": "Xianzhi Du"
@@ -5489,13 +5270,13 @@
         "name": "Philipp Dufter"
       },
       {
-        "name": "* Ruixuan Hou"
+        "name": "Ruixuan Hou"
       },
       {
         "name": "Haoshuo Huang"
       },
       {
-        "name": "* Xiang Kong"
+        "name": "Xiang Kong"
       },
       {
         "name": "Jinhao Lei"
@@ -5516,12 +5297,6 @@
         "name": "Zhiyun Lu"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "*"
-      },
-      {
         "name": "Zhucheng Tu"
       },
       {
@@ -5531,27 +5306,26 @@
         "name": "Jianyu Wang"
       },
       {
-        "name": "* Zirui Wang"
+        "name": "Zirui Wang"
       },
       {
-        "name": "* Sam Wiseman"
+        "name": "Sam Wiseman"
       },
       {
         "name": "Guoli Yin"
       },
       {
-        "name": "* Xiyou Zhou"
+        "name": "Xiyou Zhou"
       },
       {
         "name": "Danyang Zhuo"
       },
       {
-        "name": "* Ruoming Pang"
+        "name": "Ruoming Pang"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5560,7 +5334,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3861",
     "format": "In-Person",
@@ -5586,7 +5360,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5595,7 +5368,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3799",
     "format": "In-Person",
@@ -5606,7 +5379,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5615,7 +5387,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3860",
     "format": "In-Person",
@@ -5636,10 +5408,10 @@
         "name": "Cong Xie"
       },
       {
-        "name": "* ZHENG ZHONG"
+        "name": "ZHENG ZHONG"
       },
       {
-        "name": "* Hongyu Zhu"
+        "name": "Hongyu Zhu"
       },
       {
         "name": "Zhi Zhang"
@@ -5653,7 +5425,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5662,7 +5433,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3821",
     "format": "In-Person",
@@ -5689,13 +5460,10 @@
         "name": "Lisen Deng"
       },
       {
-        "name": "* Chenyu Zhao"
+        "name": "Chenyu Zhao"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "* Tiantu Xu"
+        "name": "Tiantu Xu"
       },
       {
         "name": "Yi Zhang"
@@ -5724,7 +5492,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5733,13 +5500,13 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3829",
     "format": "In-Person",
     "speakers": [
       {
-        "name": "* Dan Boneh"
+        "name": "Dan Boneh"
       },
       {
         "name": "Ilan Komargodski"
@@ -5750,7 +5517,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5759,7 +5525,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3847",
     "format": "In-Person",
@@ -5782,7 +5548,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5791,7 +5556,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3826",
     "format": "In-Person",
@@ -5826,7 +5591,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5835,7 +5599,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3831",
     "format": "In-Person",
@@ -5847,16 +5611,7 @@
         "name": "Zoe Zeng"
       },
       {
-        "name": "* Cong Cheng"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "*"
+        "name": "Cong Cheng"
       },
       {
         "name": "Alexander Zhipa"
@@ -5866,14 +5621,10 @@
       },
       {
         "name": "Binxuan Huang"
-      },
-      {
-        "name": "*"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5882,7 +5633,7 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R18: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3791",
     "format": "In-Person",
@@ -5899,7 +5650,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R18: Benchmarks"
     ]
   },
@@ -5908,33 +5658,26 @@
     "date": "2026-05-21",
     "start": "14:45",
     "end": "16:15",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I2: LLM Training",
     "url": "https://mlsys.org/virtual/2026/oral/3862",
     "format": "In-Person",
     "speakers": [
       {
-        "name": "*"
-      },
-      {
         "name": "Ehsan K. Ardestani"
       },
       {
-        "name": "*"
+        "name": "Zhaodong Wang"
       },
       {
-        "name": "* Zhaodong Wang"
+        "name": "Xu Zhang"
       },
       {
-        "name": "* Xu Zhang"
-      },
-      {
-        "name": "* Ying Zhang"
+        "name": "Ying Zhang"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I2: LLM Training"
     ]
   },
@@ -5943,7 +5686,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3781",
     "format": "In-Person",
@@ -5952,15 +5695,11 @@
         "name": "Nilesh Jagnik"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "* Harshvardhan GM"
+        "name": "Harshvardhan GM"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -5969,7 +5708,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3808",
     "format": "In-Person",
@@ -5979,9 +5718,6 @@
       },
       {
         "name": "Shaowei Zhu"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Allen Nie"
@@ -6001,7 +5737,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -6010,7 +5745,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3757",
     "format": "In-Person",
@@ -6027,7 +5762,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -6036,7 +5770,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3815",
     "format": "In-Person",
@@ -6087,7 +5821,7 @@
         "name": "Gabriele Oliaro"
       },
       {
-        "name": "* Xupeng Miao"
+        "name": "Xupeng Miao"
       },
       {
         "name": "Vinod Grover"
@@ -6104,7 +5838,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -6113,7 +5846,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3735",
     "format": "In-Person",
@@ -6128,10 +5861,10 @@
         "name": "Sean Siddens"
       },
       {
-        "name": "* Daniel Fu"
+        "name": "Daniel Fu"
       },
       {
-        "name": "* Muhammad Osama"
+        "name": "Muhammad Osama"
       },
       {
         "name": "Christopher Ré"
@@ -6142,7 +5875,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -6151,7 +5883,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3734",
     "format": "In-Person",
@@ -6163,7 +5895,7 @@
         "name": "Tayo Oguntebi"
       },
       {
-        "name": "* Yu Wang"
+        "name": "Yu Wang"
       },
       {
         "name": "Phitchaya Phothilimthana"
@@ -6183,7 +5915,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -6192,7 +5923,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3742",
     "format": "In-Person",
@@ -6201,16 +5932,7 @@
         "name": "Srinivas"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "* Hanjiang Wu"
+        "name": "Hanjiang Wu"
       },
       {
         "name": "Changhai Man"
@@ -6225,7 +5947,7 @@
         "name": "William Won"
       },
       {
-        "name": "* Winston Liu"
+        "name": "Winston Liu"
       },
       {
         "name": "Andrey Balogh"
@@ -6255,7 +5977,7 @@
         "name": "Puneet Sharma"
       },
       {
-        "name": "* Vijay Janapa Reddi"
+        "name": "Vijay Janapa Reddi"
       },
       {
         "name": "David Kanter"
@@ -6266,7 +5988,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -6275,7 +5996,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3845",
     "format": "In-Person",
@@ -6295,7 +6016,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -6304,7 +6024,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3740",
     "format": "In-Person",
@@ -6313,21 +6033,14 @@
         "name": "Bohua Zou"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Weihao Xu"
       },
       {
         "name": "Binqi Sun"
-      },
-      {
-        "name": "*"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -6336,7 +6049,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3758",
     "format": "In-Person",
@@ -6353,7 +6066,6 @@
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -6362,7 +6074,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R4: Compilers and Kernels",
     "url": "https://mlsys.org/virtual/2026/oral/3771",
     "format": "In-Person",
@@ -6383,7 +6095,7 @@
         "name": "Ziren Wang"
       },
       {
-        "name": "* Ziyi Xu"
+        "name": "Ziyi Xu"
       },
       {
         "name": "Shengkai Lin"
@@ -6397,7 +6109,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R4: Compilers and Kernels"
     ]
   },
@@ -6406,7 +6117,7 @@
     "date": "2026-05-21",
     "start": "16:30",
     "end": "18:00",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I3: Benchmarks",
     "url": "https://mlsys.org/virtual/2026/oral/3827",
     "format": "In-Person",
@@ -6418,19 +6129,16 @@
         "name": "Prasanna Rengasamy"
       },
       {
-        "name": "* Yin Zhang"
+        "name": "Yin Zhang"
       },
       {
         "name": "Jiya Zhang"
       },
       {
-        "name": "* Charles Alaras"
+        "name": "Charles Alaras"
       },
       {
         "name": "Aditya Sharma"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Rushabh Lalwani"
@@ -6442,27 +6150,17 @@
         "name": "Sai Ganesh Bandiatmakuri"
       },
       {
-        "name": "* Ani Udipi"
+        "name": "Ani Udipi"
       },
       {
-        "name": "*"
+        "name": "Naveen Kumar"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "* Naveen Kumar"
-      },
-      {
-        "name": "* Sayce Falk"
-      },
-      {
-        "name": "*"
+        "name": "Sayce Falk"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I3: Benchmarks"
     ]
   },
@@ -6522,9 +6220,6 @@
         "name": "Shaowei Zhu"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Allen Nie"
       },
       {
@@ -6558,7 +6253,7 @@
         "name": "Caroline Van"
       },
       {
-        "name": "* Wei Zhou"
+        "name": "Wei Zhou"
       },
       {
         "name": "Mohammad Alizadeh"
@@ -6576,7 +6271,7 @@
         "name": "Aman Dontula"
       },
       {
-        "name": "* Zacharias Fisches"
+        "name": "Zacharias Fisches"
       },
       {
         "name": "Dmitrii Pedchenko"
@@ -6585,10 +6280,10 @@
         "name": "Keyur Muzumdar"
       },
       {
-        "name": "* Site Cao"
+        "name": "Site Cao"
       },
       {
-        "name": "* Mark Saroufim"
+        "name": "Mark Saroufim"
       },
       {
         "name": "Joe Isaacson"
@@ -6603,13 +6298,13 @@
         "name": "Gabriel Synnaeve"
       },
       {
-        "name": "* Jacob Kahn *"
+        "name": "Jacob Kahn"
       },
       {
         "name": "Nilesh Jagnik"
       },
       {
-        "name": "* Harshvardhan GM"
+        "name": "Harshvardhan GM"
       },
       {
         "name": "Hao Ren"
@@ -6654,7 +6349,7 @@
         "name": "Hanzhi Zhou"
       },
       {
-        "name": "* Sneha Bangalore"
+        "name": "Sneha Bangalore"
       },
       {
         "name": "Xianzhi Du"
@@ -6663,13 +6358,13 @@
         "name": "Philipp Dufter"
       },
       {
-        "name": "* Ruixuan Hou"
+        "name": "Ruixuan Hou"
       },
       {
         "name": "Haoshuo Huang"
       },
       {
-        "name": "* Xiang Kong"
+        "name": "Xiang Kong"
       },
       {
         "name": "Jinhao Lei"
@@ -6699,22 +6394,22 @@
         "name": "Jianyu Wang"
       },
       {
-        "name": "* Zirui Wang"
+        "name": "Zirui Wang"
       },
       {
-        "name": "* Sam Wiseman"
+        "name": "Sam Wiseman"
       },
       {
         "name": "Guoli Yin"
       },
       {
-        "name": "* Xiyou Zhou"
+        "name": "Xiyou Zhou"
       },
       {
         "name": "Danyang Zhuo"
       },
       {
-        "name": "* Ruoming Pang"
+        "name": "Ruoming Pang"
       },
       {
         "name": "Zhen Zheng"
@@ -6753,7 +6448,7 @@
         "name": "Yan Ru Pei"
       },
       {
-        "name": "* Kyle Kranen"
+        "name": "Kyle Kranen"
       },
       {
         "name": "Ramon Matas"
@@ -6771,7 +6466,7 @@
         "name": "Arpan Dutta"
       },
       {
-        "name": "* Sailaja Madduri"
+        "name": "Sailaja Madduri"
       },
       {
         "name": "Dharmesh Jani"
@@ -6792,13 +6487,13 @@
         "name": "Cameron Shinn"
       },
       {
-        "name": "* Jingze Cui"
+        "name": "Jingze Cui"
       },
       {
         "name": "George Klimiashvili"
       },
       {
-        "name": "* Perkz Zheng"
+        "name": "Perkz Zheng"
       },
       {
         "name": "Bo Li"
@@ -6837,7 +6532,7 @@
         "name": "Xia Hu"
       },
       {
-        "name": "* Timmy Liu"
+        "name": "Timmy Liu"
       },
       {
         "name": "Huizi Mao"
@@ -6852,7 +6547,7 @@
         "name": "Mike Burrows"
       },
       {
-        "name": "* Matheus Camargo"
+        "name": "Matheus Camargo"
       },
       {
         "name": "Chao Wang"
@@ -6873,13 +6568,13 @@
         "name": "Christof Angermueller"
       },
       {
-        "name": "* Amit Sabne"
+        "name": "Amit Sabne"
       },
       {
-        "name": "* Mehrdad Khani"
+        "name": "Mehrdad Khani"
       },
       {
-        "name": "* Berkin Ilbeyi"
+        "name": "Berkin Ilbeyi"
       },
       {
         "name": "Subhankar Shah"
@@ -6894,7 +6589,7 @@
         "name": "Ankit Sinha"
       },
       {
-        "name": "* Emily Donahue"
+        "name": "Emily Donahue"
       },
       {
         "name": "Sami Abu-El-Haija"
@@ -6960,10 +6655,10 @@
         "name": "Aijia Gao"
       },
       {
-        "name": "* Michal Sedlak"
+        "name": "Michal Sedlak"
       },
       {
-        "name": "* Igor Marnat"
+        "name": "Igor Marnat"
       },
       {
         "name": "Henry (Hank) Hoffmann"
@@ -6978,7 +6673,7 @@
         "name": "David Koeplinger"
       },
       {
-        "name": "* Romy Tsoupidi"
+        "name": "Romy Tsoupidi"
       },
       {
         "name": "Tuowen Zhao"
@@ -6987,22 +6682,22 @@
         "name": "Reid Goodbar"
       },
       {
-        "name": "* Leon Zhang"
+        "name": "Leon Zhang"
       },
       {
-        "name": "* John Long"
+        "name": "John Long"
       },
       {
         "name": "Han Wang"
       },
       {
-        "name": "* Yun Du"
+        "name": "Yun Du"
       },
       {
         "name": "Håkan Zeffer"
       },
       {
-        "name": "* Raghu Prabhakar"
+        "name": "Raghu Prabhakar"
       },
       {
         "name": "Gianluigi Vitale"
@@ -7023,7 +6718,7 @@
         "name": "Ziren Wang"
       },
       {
-        "name": "* Ziyi Xu"
+        "name": "Ziyi Xu"
       },
       {
         "name": "Shengkai Lin"
@@ -7047,7 +6742,7 @@
         "name": "Deep Shekhar"
       },
       {
-        "name": "* Ram Rangan"
+        "name": "Ram Rangan"
       },
       {
         "name": "Hongyi Jin"
@@ -7089,7 +6784,7 @@
         "name": "Gabriele Oliaro"
       },
       {
-        "name": "* Xupeng Miao"
+        "name": "Xupeng Miao"
       },
       {
         "name": "Vinod Grover"
@@ -7122,10 +6817,10 @@
         "name": "Robert Ascani"
       },
       {
-        "name": "* Manuel Candales"
+        "name": "Manuel Candales"
       },
       {
-        "name": "* Yanan Cao"
+        "name": "Yanan Cao"
       },
       {
         "name": "Zhengxu Chen"
@@ -7137,13 +6832,13 @@
         "name": "Gregory Comer"
       },
       {
-        "name": "* Songhao Jia"
+        "name": "Songhao Jia"
       },
       {
-        "name": "* Abhinay Kukkadapu"
+        "name": "Abhinay Kukkadapu"
       },
       {
-        "name": "* Andrew Or"
+        "name": "Andrew Or"
       },
       {
         "name": "Lucy Qiu"
@@ -7155,13 +6850,13 @@
         "name": "Scott Roy"
       },
       {
-        "name": "* Angela Yi"
+        "name": "Angela Yi"
       },
       {
-        "name": "* Hansong Zhang"
+        "name": "Hansong Zhang"
       },
       {
-        "name": "* Zhenrui Zhang"
+        "name": "Zhenrui Zhang"
       },
       {
         "name": "Shunting Zhang"
@@ -7182,7 +6877,7 @@
         "name": "Irene Wang"
       },
       {
-        "name": "* Abhinav Jangda"
+        "name": "Abhinav Jangda"
       },
       {
         "name": "Angélica Moreira"
@@ -7215,10 +6910,10 @@
         "name": "Lisen Deng"
       },
       {
-        "name": "* Chenyu Zhao"
+        "name": "Chenyu Zhao"
       },
       {
-        "name": "* Tiantu Xu"
+        "name": "Tiantu Xu"
       },
       {
         "name": "Yi Zhang"
@@ -7263,10 +6958,10 @@
         "name": "Cong Cheng"
       },
       {
-        "name": "Rejith Joseph *"
+        "name": "Rejith Joseph"
       },
       {
-        "name": "* Dan Boneh"
+        "name": "Dan Boneh"
       },
       {
         "name": "Ilan Komargodski"
@@ -7284,10 +6979,10 @@
         "name": "Sean Siddens"
       },
       {
-        "name": "* Daniel Fu"
+        "name": "Daniel Fu"
       },
       {
-        "name": "* Muhammad Osama"
+        "name": "Muhammad Osama"
       },
       {
         "name": "Christopher Ré"
@@ -7365,7 +7060,7 @@
         "name": "Kareem Eissa"
       },
       {
-        "name": "* Piotr Florek"
+        "name": "Piotr Florek"
       },
       {
         "name": "Matteo Nulli"
@@ -7386,7 +7081,7 @@
         "name": "Srinivas"
       },
       {
-        "name": "* Hanjiang Wu"
+        "name": "Hanjiang Wu"
       },
       {
         "name": "Changhai Man"
@@ -7401,7 +7096,7 @@
         "name": "William Won"
       },
       {
-        "name": "* Winston Liu"
+        "name": "Winston Liu"
       },
       {
         "name": "Andrey Balogh"
@@ -7431,7 +7126,7 @@
         "name": "Puneet Sharma"
       },
       {
-        "name": "* Vijay Janapa Reddi"
+        "name": "Vijay Janapa Reddi"
       },
       {
         "name": "David Kanter"
@@ -7443,16 +7138,10 @@
         "name": "Tayo Oguntebi"
       },
       {
-        "name": "* Yu Wang"
-      },
-      {
         "name": "Ritwika Mitra"
       },
       {
         "name": "Zongwei Zhou"
-      },
-      {
-        "name": "Vijay Janapa Reddi"
       },
       {
         "name": "Jiyuan Zhang"
@@ -7479,22 +7168,19 @@
         "name": "Geonhwa Jeong"
       },
       {
-        "name": "* Scott Batura"
+        "name": "Scott Batura"
       },
       {
-        "name": "* Sijia Chen"
+        "name": "Sijia Chen"
       },
       {
-        "name": "* Bradley Davis"
+        "name": "Bradley Davis"
       },
       {
         "name": "Summer Deng"
       },
       {
-        "name": "* Emad El-Haraty"
-      },
-      {
-        "name": "* Lu Fang"
+        "name": "Emad El-Haraty"
       },
       {
         "name": "Lu Fang"
@@ -7512,7 +7198,7 @@
         "name": "Aya Ibrahim"
       },
       {
-        "name": "* Hongyi Jia"
+        "name": "Hongyi Jia"
       },
       {
         "name": "Changkyu Kim"
@@ -7524,7 +7210,7 @@
         "name": "Vlad Tiberiu Mihailescu"
       },
       {
-        "name": "* Maxim Naumov"
+        "name": "Maxim Naumov"
       },
       {
         "name": "Michal Ostrowski"
@@ -7539,19 +7225,19 @@
         "name": "Rajasi Saha"
       },
       {
-        "name": "* Zhan Shu"
+        "name": "Zhan Shu"
       },
       {
         "name": "Ruan Silva"
       },
       {
-        "name": "* Jon Swenson"
+        "name": "Jon Swenson"
       },
       {
-        "name": "* Chris Thi"
+        "name": "Chris Thi"
       },
       {
-        "name": "* Yunfan Wang"
+        "name": "Yunfan Wang"
       },
       {
         "name": "Pengchao Wang"
@@ -7560,7 +7246,7 @@
         "name": "Wenchen Wang"
       },
       {
-        "name": "* Bram Wasti"
+        "name": "Bram Wasti"
       },
       {
         "name": "Jingyi Yang"
@@ -7569,7 +7255,7 @@
         "name": "Jing Zhang"
       },
       {
-        "name": "Yi Zhen *"
+        "name": "Yi Zhen"
       },
       {
         "name": "Stuart H. Sul"
@@ -7650,7 +7336,7 @@
         "name": "Zongpu Zhang"
       },
       {
-        "name": "* Qiang Xu"
+        "name": "Qiang Xu"
       },
       {
         "name": "Y. Charlie Hu"
@@ -7698,25 +7384,25 @@
         "name": "Chanh Nguyen"
       },
       {
-        "name": "* Hejian Sang"
+        "name": "Hejian Sang"
       },
       {
         "name": "Ata Fatahi"
       },
       {
-        "name": "* Xiaoqing Wang"
+        "name": "Xiaoqing Wang"
       },
       {
         "name": "Qing Lan"
       },
       {
-        "name": "* Qi Guo"
+        "name": "Qi Guo"
       },
       {
         "name": "Caleb Johnson"
       },
       {
-        "name": "Zhipeng Wang *"
+        "name": "Zhipeng Wang"
       },
       {
         "name": "Andrew Bitar"
@@ -7728,16 +7414,16 @@
         "name": "Charlie Wang"
       },
       {
-        "name": "* Eugene Sha"
+        "name": "Eugene Sha"
       },
       {
         "name": "Alex Bowe"
       },
       {
-        "name": "* Santosh Raghavan"
+        "name": "Santosh Raghavan"
       },
       {
-        "name": "* Kris Kang"
+        "name": "Kris Kang"
       },
       {
         "name": "Mohamed Eldafrawy"
@@ -7749,22 +7435,19 @@
         "name": "Arash Taheri-Dezfouli"
       },
       {
-        "name": "* Andrew Ling"
+        "name": "Andrew Ling"
       },
       {
         "name": "Ehsan K. Ardestani"
       },
       {
-        "name": "* Zhaodong Wang"
+        "name": "Zhaodong Wang"
       },
       {
-        "name": "* Xu Zhang"
+        "name": "Xu Zhang"
       },
       {
-        "name": "* Ying Zhang"
-      },
-      {
-        "name": "* Chunqiang Tang"
+        "name": "Ying Zhang"
       },
       {
         "name": "Jameson Sandler"
@@ -7773,7 +7456,7 @@
         "name": "Jacob K Christopher"
       },
       {
-        "name": "* Ferdinando Fioretto"
+        "name": "Ferdinando Fioretto"
       },
       {
         "name": "Xiaoxuan Liu"
@@ -7812,7 +7495,7 @@
         "name": "Hoang Tran"
       },
       {
-        "name": "* Rohit Malhotra"
+        "name": "Rohit Malhotra"
       },
       {
         "name": "Xuhui Zhou"
@@ -7842,10 +7525,10 @@
         "name": "Cong Xie"
       },
       {
-        "name": "* ZHENG ZHONG"
+        "name": "ZHENG ZHONG"
       },
       {
-        "name": "* Hongyu Zhu"
+        "name": "Hongyu Zhu"
       },
       {
         "name": "Zhi Zhang"
@@ -7881,16 +7564,13 @@
         "name": "Martin P. Lücke"
       },
       {
-        "name": "* Naveen Kumar"
-      },
-      {
         "name": "Clive Verghese"
       },
       {
         "name": "Prasanna Rengasamy"
       },
       {
-        "name": "* Jiya Zhang"
+        "name": "Jiya Zhang"
       },
       {
         "name": "Charles Alaras"
@@ -7902,7 +7582,7 @@
         "name": "Sai Ganesh Bandiatmakuri"
       },
       {
-        "name": "* Ani Udipi *"
+        "name": "Ani Udipi"
       }
     ],
     "room": "Evergreen Ballroom",
@@ -7915,7 +7595,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3779",
     "format": "In-Person",
@@ -7941,7 +7621,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -7950,7 +7629,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3854",
     "format": "In-Person",
@@ -7962,13 +7641,13 @@
         "name": "Cameron Shinn"
       },
       {
-        "name": "* Jingze Cui"
+        "name": "Jingze Cui"
       },
       {
         "name": "George Klimiashvili"
       },
       {
-        "name": "* Perkz Zheng"
+        "name": "Perkz Zheng"
       },
       {
         "name": "Bo Li"
@@ -7995,7 +7674,7 @@
         "name": "Xia Hu"
       },
       {
-        "name": "* Timmy Liu"
+        "name": "Timmy Liu"
       },
       {
         "name": "Huizi Mao"
@@ -8003,7 +7682,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -8012,7 +7690,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3774",
     "format": "In-Person",
@@ -8030,7 +7708,7 @@
         "name": "Mike Burrows"
       },
       {
-        "name": "* Matheus Camargo"
+        "name": "Matheus Camargo"
       },
       {
         "name": "Alexander Wertheim"
@@ -8051,16 +7729,10 @@
         "name": "Christof Angermueller"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Vineetha Govindaraj"
       },
       {
         "name": "Amit Sabne"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Berkin Ilbeyi"
@@ -8078,36 +7750,20 @@
         "name": "Ankit Sinha"
       },
       {
-        "name": "*"
+        "name": "Nikhil Sarda"
       },
       {
-        "name": "* Nikhil Sarda"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "* Emily Donahue"
+        "name": "Emily Donahue"
       },
       {
         "name": "Sami Abu-El-Haija"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "*"
-      },
-      {
-        "name": "* Naveen Kumar"
+        "name": "Naveen Kumar"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
@@ -8116,7 +7772,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3852",
     "format": "In-Person",
@@ -8131,10 +7787,7 @@
         "name": "David Koeplinger"
       },
       {
-        "name": "* Romy Tsoupidi"
-      },
-      {
-        "name": "*"
+        "name": "Romy Tsoupidi"
       },
       {
         "name": "Tuowen Zhao"
@@ -8143,30 +7796,26 @@
         "name": "Reid Goodbar"
       },
       {
-        "name": "* Leon Zhang"
+        "name": "Leon Zhang"
       },
       {
-        "name": "* John Long"
+        "name": "John Long"
       },
       {
         "name": "Han Wang"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "* Yun Du"
+        "name": "Yun Du"
       },
       {
         "name": "Håkan Zeffer"
       },
       {
-        "name": "* Raghu Prabhakar"
+        "name": "Raghu Prabhakar"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
@@ -8175,7 +7824,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3802",
     "format": "In-Person",
@@ -8187,12 +7836,11 @@
         "name": "Deep Shekhar"
       },
       {
-        "name": "* Ram Rangan"
+        "name": "Ram Rangan"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
@@ -8201,7 +7849,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3768",
     "format": "In-Person",
@@ -8219,19 +7867,13 @@
         "name": "Gregory Comer"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "* Lucy Qiu"
+        "name": "Lucy Qiu"
       },
       {
         "name": "Mengwei Liu"
       },
       {
-        "name": "* Songhao Jia"
-      },
-      {
-        "name": "*"
+        "name": "Songhao Jia"
       },
       {
         "name": "Digant Desai"
@@ -8252,7 +7894,7 @@
         "name": "Mergen Nachin"
       },
       {
-        "name": "* Yanan Cao"
+        "name": "Yanan Cao"
       },
       {
         "name": "Zhengxu Chen"
@@ -8261,7 +7903,7 @@
         "name": "Shunting Zhang"
       },
       {
-        "name": "* Angela Yi"
+        "name": "Angela Yi"
       },
       {
         "name": "Zhenrui Zhang"
@@ -8270,21 +7912,14 @@
         "name": "Andrew Or"
       },
       {
-        "name": "*"
+        "name": "Supriya Rao"
       },
       {
-        "name": "*"
-      },
-      {
-        "name": "* Supriya Rao"
-      },
-      {
-        "name": "* Soumith Chintala"
+        "name": "Soumith Chintala"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
@@ -8293,7 +7928,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3759",
     "format": "In-Person",
@@ -8306,14 +7941,10 @@
       },
       {
         "name": "Jay Shah"
-      },
-      {
-        "name": "*"
       }
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -8322,7 +7953,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3763",
     "format": "In-Person",
@@ -8334,7 +7965,7 @@
         "name": "Irene Wang"
       },
       {
-        "name": "* Abhinav Jangda"
+        "name": "Abhinav Jangda"
       },
       {
         "name": "Angélica Moreira"
@@ -8351,7 +7982,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -8360,7 +7990,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Research-Track Oral Session",
     "topic": "R14: Efficient Computation",
     "url": "https://mlsys.org/virtual/2026/oral/3797",
     "format": "In-Person",
@@ -8380,7 +8010,6 @@
     ],
     "room": "Grand Ballroom 2",
     "key_themes": [
-      "Research-Track",
       "R14: Efficient Computation"
     ]
   },
@@ -8389,7 +8018,7 @@
     "date": "2026-05-22",
     "start": "08:15",
     "end": "09:30",
-    "session_type": "Paper Session",
+    "session_type": "Industry-Track Oral Session",
     "topic": "I4: Compilers/HW",
     "url": "https://mlsys.org/virtual/2026/oral/3778",
     "format": "In-Person",
@@ -8398,13 +8027,10 @@
         "name": "Harsh Menon"
       },
       {
-        "name": "* Gaurav Verma"
+        "name": "Gaurav Verma"
       },
       {
         "name": "Martin P. Lücke"
-      },
-      {
-        "name": "*"
       },
       {
         "name": "Nithin Meganathan"
@@ -8416,18 +8042,11 @@
         "name": "William Gallard Hatch"
       },
       {
-        "name": "*"
-      },
-      {
         "name": "Sahil FAIZAL"
-      },
-      {
-        "name": "*"
       }
     ],
     "room": "Grand Ballroom 1",
     "key_themes": [
-      "Industry-Track",
       "I4: Compilers/HW"
     ]
   },
