@@ -1,0 +1,53 @@
+{
+  "enabledPlugins": {
+    "context7@claude-plugins-official": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(find:*)",
+      "Bash(python -c:*)",
+      "Bash(cd:*)",
+      "WebSearch",
+      "WebFetch(domain:ai.pydantic.dev)",
+      "Bash(tree:*)",
+      "Bash(wc:*)",
+      "Bash(python3:*)",
+      "Skill(extract)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(python:*)",
+      "Bash(.venv/bin/python:*)",
+      "Skill(agent-browser)",
+      "Bash(agent-browser open:*)",
+      "Bash(agent-browser wait:*)",
+      "Bash(agent-browser screenshot:*)",
+      "Bash(agent-browser eval:*)",
+      "Bash(agent-browser snapshot:*)",
+      "Bash(agent-browser scroll:*)",
+      "Bash(for i in 1 2 3 4 5)",
+      "Bash(do agent-browser scroll:*)",
+      "Bash(done)",
+      "Bash(curl:*)",
+      "Bash(agent-browser close:*)",
+      "Bash(agent-browser --headed open:*)",
+      "Bash(agent-browser click:*)",
+      "Bash(agent-browser get:*)",
+      "Bash(agent-browser network requests:*)",
+      "Bash(agent-browser reload:*)",
+      "Bash(agent-browser press:*)",
+      "Bash(for:*)",
+      "Bash(sleep 30:*)",
+      "Bash(tmux kill-session:*)",
+      "Bash(sleep 45:*)",
+      "Bash(sleep 90:*)",
+      "Bash(tmux list-sessions:*)",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "WebFetch(domain:lotus-ai.readthedocs.io)",
+      "Bash(tail:*)",
+      "Bash(brew install:*)",
+      "Bash(.venv-lotus/bin/python:*)"
+    ],
+    "deny": []
+  }
+}

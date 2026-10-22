@@ -59,3 +59,4 @@
 - Maximum 1000 sessions per upload
 - Sessions missing required fields are skipped
 - If session_id matches an existing session, it will be overwritten
+w
